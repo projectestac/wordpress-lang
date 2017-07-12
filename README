@@ -1,0 +1,38 @@
+Nodes / XTEC Blocs: Localization tools and messages
+===============================================================================
+
+Update the translations:
+
+    $ bash update.sh <project> <git-branch>
+
+Create a translation memory:
+
+    $ bash digest.sh <project>
+
+Requeriments:
+
+    gettext                 Localization tools
+    wp-cli                  WordPress command line interface
+
+Generated folders:
+    
+    output/<project>        Project folders
+    
+    ./tools                 WordPress localization tools
+    ./branch                Branch to translate
+    ./master                Stable branch from which to pull translation
+    ./pot                   Generated translation templates
+    ./po/master             Stable branch translation
+    ./po/upstream           Oficial WordPress translations
+    ./po/branch             Updated translations
+
+References:
+    
+    GNU gettext utilities
+    https://www.gnu.org/software/gettext/manual/html_node/index.html
+    
+    I18n for WordPress Developers
+    https://codex.wordpress.org/I18n_for_WordPress_Developers
+    
+    The command line interface for WordPress
+    http://wp-cli.org/
