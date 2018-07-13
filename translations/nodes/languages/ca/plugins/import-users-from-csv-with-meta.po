@@ -1,35 +1,33 @@
-#
 msgid ""
 msgstr ""
 "Project-Id-Version: import-users-from-csv-with-meta\n"
-"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/import-users-from-"
-"csv-with-meta\n"
-"POT-Creation-Date: 2017-06-23 07:45:38+00:00\n"
-"PO-Revision-Date: 2017-01-16 10:02+0100\n"
-"Last-Translator: Mònica Grau <mgrau226@xtec.cat>\n"
+"Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
+"POT-Creation-Date: 2016-12-21 12:40+0100\n"
+"PO-Revision-Date: 2018-07-13 16:28+0200\n"
+"Last-Translator: Joan Sala Soler <jsala236@xtec.cat>\n"
 "Language-Team: Departament Ensenyament Catalunya - Àrea TAC\n"
+"Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ca\n"
-"X-Generator: Poedit 1.8.9\n"
-"X-Poedit-Basepath: ..\n"
+"X-Generator: Poedit 2.0.4\n"
 "X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: ..\n"
 "X-Poedit-SearchPath-0: .\n"
 
-#: importer.php:1107
+#: importer.php:1059
 msgid ""
 "(Documents should look like the one presented into screenshot. Remember you "
 "should fill the first two columns with the next values)"
 msgstr ""
 
-#: importer.php:1114
+#: importer.php:1066
 msgid ""
 "(If you want to disable the extra profile information, please deactivate "
 "this plugin after make the import)"
 msgstr ""
 
-#: importer.php:1112
+#: importer.php:1064
 msgid ""
 "(The next columns are totally customizable and you can use whatever you "
 "want. All rows must contains same columns)"
@@ -38,29 +36,37 @@ msgstr ""
 "de la forma que vulgueu. Totes les files han de contenir les mateixes "
 "columnes:"
 
-#: importer.php:1113
+#: importer.php:1065
 msgid "(User profile will be adapted to the kind of data you have selected)"
 msgstr ""
 
-#: importer.php:1078
+#: importer.php:1030
 msgid ""
 "(if you load another CSV with different columns, the new ones will replace "
 "this list)"
 msgstr ""
 
-#: importer.php:263
+#: importer.php:240
 msgid "(in this CSV file is called:"
 msgstr "(en aquest fitxer CSV es diu:"
 
-#: importer.php:829
+#: importer.php:781
+#, fuzzy
 msgid ", like this ones:"
-msgstr ""
+msgstr "li agrada."
 
-#: import-users-from-csv-with-meta.php:423
+#: importer.php:259
+#, fuzzy
+msgid ", we are going to skip. \\r\\nError: "
+msgstr ""
+"el nom d'usuari no és el mateix al CSV que la la bse de dades, s'ignorarà."
+
+#: import-users-from-csv-with-meta.php:414
+#, fuzzy
 msgid "--Finished at"
-msgstr ""
+msgstr "La importació ha acabat. Feu clic"
 
-#: importer.php:709
+#: importer.php:669
 msgid "<em>or you can choose directly a file from your host,"
 msgstr "<em>El podeu triar directament del vostre servidor,"
 
@@ -71,15 +77,15 @@ msgid ""
 "email@domain.com&gt; in this field."
 msgstr ""
 
-#: importer.php:1045 importer.php:1150
+#: importer.php:997 importer.php:1097
 msgid "A string containing content about the user."
 msgstr "Un text amb contingut sobre l'usuari."
 
-#: importer.php:1015 importer.php:1145
+#: importer.php:967 importer.php:1092
 msgid "A string containing the user's URL for the user's web site."
 msgstr "Un text que conté l'URL de l'usuari per al seu lloc web."
 
-#: importer.php:1009 importer.php:1144
+#: importer.php:961 importer.php:1091
 msgid ""
 "A string that contains a URL-friendly name for the user. The default is the "
 "user's username."
@@ -87,13 +93,13 @@ msgstr ""
 "Un text que conté un URL amigable per a l'usuari. El valor per defecte és el "
 "nom de l'usuari."
 
-#: importer.php:1128
+#: importer.php:1080
 msgid ""
 "A string that contains user passwords. We have different options for this "
 "case:"
 msgstr ""
 
-#: importer.php:1146
+#: importer.php:1093
 msgid ""
 "A string that will be shown on the site. Defaults to user's username. It is "
 "likely that you will want to change this, for both appearance and security "
@@ -102,7 +108,7 @@ msgid ""
 msgstr ""
 "Un text que es mostrarà al lloc. Per defecte és el vostre nom d'usuari."
 
-#: importer.php:1021
+#: importer.php:973
 msgid ""
 "A string that will be shown on the site. Defaults to user's username. It is "
 "likely that you will want to change this, for both appearance and security "
@@ -111,152 +117,208 @@ msgid ""
 msgstr ""
 "Un text que es mostrarà al lloc. Per defecte és el vostre nom d'usuari."
 
-#: importer.php:1236
+#: importer.php:1183
 msgid ""
 "Activate WordPress automattic email when an user is updated or his password "
 "is changed"
 msgstr ""
 
-#: importer.php:1342
+#: importer.php:1285
+#, fuzzy
 msgid "Activate periodical import?"
-msgstr ""
+msgstr "Activar"
 
-#: importer.php:782
+#: importer.php:734
 msgid "Activate users when they are being imported"
 msgstr ""
 
-#: importer.php:1383
+#: importer.php:1326
 msgid ""
 "After delete users, we can choose if we want to assign their posts to "
 "another user. Please do not delete them or posts will be deleted."
 msgstr ""
 
-#: importer.php:818
+#: importer.php:770
+#, fuzzy
 msgid "Allow Multiple Accounts"
-msgstr ""
+msgstr "Permetre diverses instàncies d'aquest camp"
 
-#: importer.php:818
+#: importer.php:770
 msgid ""
 "Allow multiple user accounts to be created having the same email address."
 msgstr ""
 
-#: importer.php:816
+#: importer.php:768
 msgid "Allowed"
 msgstr "Permès"
 
-#: importer.php:1194
-msgid "Any question about it"
+#: importer.php:1243
+msgid ""
+"And the role assigned in this group: <em>Administrator, Moderator or Member</"
+"em>"
 msgstr ""
 
-#: importer.php:795
+#: importer.php:1141
+#, fuzzy
+msgid "Any question about it"
+msgstr "Quant al BuddyPress"
+
+#: importer.php:747
 msgid "Approve users at the same time is being created"
 msgstr ""
 
-#: importer.php:799
+#: importer.php:751
 msgid "Approve users when they are being imported"
 msgstr ""
 
-#: importer.php:917
+#: importer.php:869
 msgid ""
 "Are you sure to delete ALL CSV files uploaded? There can be CSV files from "
 "other plugins."
 msgstr ""
 
-#: importer.php:1449
+#: importer.php:1380
 msgid ""
 "Are you sure to delete all users that are not present in the CSV? This "
 "action cannot be undone."
 msgstr ""
 
-#: importer.php:898
+#: importer.php:850
+#, fuzzy
 msgid "Are you sure to delete this file?"
-msgstr ""
+msgstr "Esteu segur que voleu suprimir aquests fitxers?"
 
-#: importer.php:829
+#: importer.php:781
+#, fuzzy
 msgid "As user of"
-msgstr ""
+msgstr "un usuari"
 
 #: smtp.php:208
 msgid "Authentication"
 msgstr "Autenticació"
 
-#: importer.php:1423
+#: importer.php:1512
 msgid "Auto rename after move?"
 msgstr ""
 
-#: importer.php:762
-msgid "BuddyPress users"
+#: importer.php:894
+msgid "Become a patron"
 msgstr ""
 
-#: importer.php:697
+#: importer.php:1238
+#, fuzzy
+msgid "BuddyPress is activated"
+msgstr "activat"
+
+#: importer.php:714
+#, fuzzy
+msgid "BuddyPress users"
+msgstr ""
+"No trobeu el que necessiteu? Aneu als <a href=\"https://buddypress.org/"
+"support/\">nostres fòrums de suport</a>, on usuaris actius desenvolupadors "
+"BuddyPress estan esperant per compartir consells i molt més."
+
+#: importer.php:1245
+msgid ""
+"But you will have to assign a role for each group: <em>Moderator,Moderator,"
+"Member,Member</em>"
+msgstr ""
+
+#: include/shortcode-frontend.php:31
+#, fuzzy
+msgid "CSV file <span class=\"description\">(required)</span>"
+msgstr "Fitxer CSV <span class=\"description\">(requerit)</span></label>"
+
+#: importer.php:665
 msgid "CSV file <span class=\"description\">(required)</span></label>"
 msgstr "Fitxer CSV <span class=\"description\">(requerit)</span></label>"
 
-#: importer.php:551
+#: importer.php:519
+#, fuzzy
 msgid "Click to open/close"
-msgstr ""
+msgstr "Tanca totes les etiquetes obertes"
 
-#: importer.php:1077
+#: importer.php:1029
 msgid "Columns loaded in previous files"
 msgstr ""
 
-#: importer.php:1106
+#: importer.php:1058
+#, fuzzy
 msgid "Columns position"
-msgstr ""
+msgstr "Columnes"
 
-#: importer.php:1073
+#: importer.php:1033
+#, fuzzy
+msgid "Copy to clipboard"
+msgstr "Còpia"
+
+#: importer.php:1025
+#, fuzzy
 msgid "Custom columns loaded"
-msgstr ""
+msgstr "Visualització de columnes personalitzades"
 
-#: importer.php:1246
+#: importer.php:1193
 msgid "Customize the email that can be sent when importing users"
 msgstr ""
 
-#: importer.php:1336
+#: importer.php:1279
+#, fuzzy
 msgid "Daily"
-msgstr ""
+msgstr "Diari"
 
-#: importer.php:1235
+#: importer.php:1182
 msgid ""
 "Deactivate WordPress automattic email when an user is updated or his "
 "password is changed"
 msgstr ""
 
-#: importer.php:584 importer.php:588
+#: importer.php:712
+#, fuzzy
+msgid "Default role"
+msgstr "Rol per defecte d'usuaris nous"
+
+#: importer.php:552 importer.php:556
 msgid "Delete"
 msgstr "Suprimeix"
 
-#: importer.php:570
+#: importer.php:538
 msgid "Delete all CSV files uploaded"
 msgstr "Esborra tots els fitxers CSV pujats"
 
-#: importer.php:1369 importer.php:1371
+#: importer.php:1312 importer.php:1314
 msgid "Delete posts of deled users without assing to any user"
 msgstr ""
 
-#: importer.php:736
+#: importer.php:688
+#, fuzzy
 msgid "Delete the metadata"
-msgstr ""
+msgstr "Metadades"
 
-#: importer.php:1360
+#: importer.php:1303
+#, fuzzy
 msgid "Delete users that are not present in the CSV?"
-msgstr ""
+msgstr "Esborra tots els fitxers CSV pujats"
 
-#: importer.php:1393 importer.php:1395
+#: importer.php:1336 importer.php:1338
 msgid "Disable role assignement in cron import"
 msgstr ""
 
-#: importer.php:781
+#: importer.php:1054 importer.php:1056
+msgid "Disable role assignement in frontend import"
+msgstr ""
+
+#: importer.php:733
 msgid "Do not activate users"
 msgstr "Usuaris No activats"
 
-#: importer.php:798
+#: importer.php:750
 msgid "Do not approve users"
 msgstr "Usuaris no aprovats"
 
-#: importer.php:1483
+#: importer.php:1412
+#, fuzzy
 msgid "Do you like it?"
-msgstr ""
+msgstr "T'ha agradat."
 
 #: smtp.php:124
 msgid ""
@@ -264,29 +326,35 @@ msgid ""
 "settings."
 msgstr ""
 
-#: importer.php:847
+#: importer.php:799
 msgid "Do you wish to send a mail with credentials and other data?"
 msgstr ""
 
-#: importer.php:848
+#: importer.php:800
 msgid ""
 "Do you wish to send this mail also to users that are being updated? (not "
 "only to the one which are being created)"
 msgstr ""
 
-#: importer.php:1102
+#: importer.php:1054
 msgid "Documentation"
 msgstr "Documentació"
 
-#: import-users-from-csv-with-meta.php:117
+#: import-users-from-csv-with-meta.php:113
+#, fuzzy
 msgid "Donate"
-msgstr ""
+msgstr "Feu un donatiu a aquest giny &#187;"
 
-#: importer.php:1204
+#: import-users-from-csv-with-meta.php:277
+#, fuzzy
+msgid "Donate/Patreon"
+msgstr "Feu un donatiu a aquest giny &#187;"
+
+#: importer.php:1151
 msgid "Download this"
 msgstr "Baixa el fitxer"
 
-#: importer.php:990 importer.php:1110
+#: importer.php:942 importer.php:1062
 msgid "Email"
 msgstr "email:"
 
@@ -294,33 +362,50 @@ msgstr "email:"
 msgid "Encryption"
 msgstr "Encriptació:"
 
-#: import-users-from-csv-with-meta.php:314
+#: import-users-from-csv-with-meta.php:310
+#, fuzzy
 msgid "Error, the file"
-msgstr ""
+msgstr "Error en desar el fitxer."
 
-#: import-users-from-csv-with-meta.php:262
+#: import-users-from-csv-with-meta.php:258
+#, fuzzy
 msgid "Error, we cannot find the file"
-msgstr ""
+msgstr "No podem trobar cap títol en aquesta pàgina."
 
-#: importer.php:1203
+#: importer.php:1150
 msgid "Example"
 msgstr "Exemple:"
 
-#: importer.php:1318
+#: importer.php:1024
+#, fuzzy
+msgid "Execute an import of users in the frontend"
+msgstr "Importa usuaris des d'un fitxer CSV"
+
+#: importer.php:1261
+#, fuzzy
 msgid "Execute an import of users periodically"
+msgstr "Importa usuaris des d'un fitxer CSV"
+
+#: import-users-from-csv-with-meta.php:272 importer.php:1093
+#, fuzzy
+msgid "Extra profile fields"
+msgstr "Informació extra del perfil"
+
+#: importer.php:1107
+msgid "Extra profile fields loadad in previous files"
 msgstr ""
 
-#: import-users-from-csv-with-meta.php:457
+#: import-users-from-csv-with-meta.php:431
 msgid "Extra profile information"
 msgstr "Informació extra del perfil"
 
-#: importer.php:128
+#: importer.php:105
 msgid "File must contain at least 2 columns: username and email"
 msgstr ""
 "El fitxer ha de contenir almenys 2 columnes: nom d'usuari i adreça "
 "electrònica"
 
-#: importer.php:604
+#: importer.php:572
 msgid ""
 "File must contain at least <strong>2 columns: username and email</strong>. "
 "These should be the first two columns and it should be placed <strong>in "
@@ -328,15 +413,21 @@ msgid ""
 "plugin will manage it automatically."
 msgstr ""
 
-#: importer.php:909
+#: importer.php:861
+#, fuzzy
 msgid "File successfully deleted"
-msgstr ""
+msgstr "El document s'ha esborrat correctament!"
 
-#: importer.php:927
+#: importer.php:879
+#, fuzzy
 msgid "Files successfully deleted"
+msgstr "El document s'ha esborrat correctament!"
+
+#: importer.php:91
+msgid "First row represents the form of sheet"
 msgstr ""
 
-#: importer.php:569
+#: importer.php:537
 msgid ""
 "For security reasons you should delete this files, probably they would be "
 "visible in the Internet if a bot or someone discover the URL. You can delete "
@@ -347,45 +438,68 @@ msgstr ""
 "esborrar cadascun dels fitxers o potser voleu esborrar tots els fitxers CSV "
 "que heu pujat."
 
-#: importer.php:1197
+#: importer.php:1144
+#, fuzzy
 msgid "Free support (in WordPress forums):"
-msgstr ""
+msgstr "Fòrums de suport"
 
 #: smtp.php:143
 msgid "From Email"
 msgstr "Adreça d'origen"
 
 #: smtp.php:148
+#, fuzzy
 msgid "From Name"
 msgstr ""
+"Trieu un nom i una adreça de correu electrònic per a tots els missatges que "
+"s'enviaran des d'aquesta extensió."
+
+#: import-users-from-csv-with-meta.php:271
+#, fuzzy
+msgid "Frontend"
+msgstr "Permeten el disseny amb el menú Conjunt d'eines al frontal"
 
 #: smtp.php:123
+#, fuzzy
 msgid "Global options"
-msgstr ""
+msgstr "Paràmetres globals"
 
-#: importer.php:975
+#: importer.php:927
 msgid "Help"
 msgstr "Ajuda"
 
-#: importer.php:1487 importer.php:1507
+#: importer.php:1416
+#, fuzzy
 msgid "Hi! we are"
+msgstr "dm."
+
+#: import-users-from-csv-with-meta.php:279
+msgid "Hire an expert"
 msgstr ""
 
-#: importer.php:1334
+#: importer.php:1277
+#, fuzzy
 msgid "Hourly"
-msgstr ""
+msgstr "Una vegada per hora"
 
-#: importer.php:1338
+#: importer.php:1281
 msgid "How often the event should reoccur?"
 msgstr ""
 
-#: importer.php:1121
+#: importer.php:1151
+msgid ""
+"If id <strong>doesn't exist in your users table</strong>: WordPress core "
+"does not allow us insert it, so it will throw an error of kind: "
+"invalid_user_id"
+msgstr ""
+
+#: importer.php:1073
 msgid ""
 "If id <strong>doesn't exist in your users table</strong>: user will be "
 "inserted"
 msgstr ""
 
-#: importer.php:1122
+#: importer.php:1074
 msgid ""
 "If id <strong>exists</strong>: plugin check if username is the same, if yes, "
 "it will update the data, if not, it ignores the cell to avoid problems"
@@ -395,26 +509,44 @@ msgstr ""
 msgid "If this is set to no, the values below are ignored."
 msgstr ""
 
-#: importer.php:1131
+#: importer.php:1170
+msgid ""
+"If you <strong>create a column called 'role'</strong>: if cell is empty, "
+"roles would be chosen from 'Default role' field in import screen; if cell "
+"has a value, it will be used as role, if this role doesn't exist the default "
+"one would be used"
+msgstr ""
+
+#: importer.php:1083
 msgid ""
 "If you <strong>create a column for passwords</strong>: if cell is empty, "
 "password won't be updated; if cell has a value, it will be used"
 msgstr ""
 
-#: importer.php:1130
+#: importer.php:1082
 msgid ""
 "If you <strong>don't create a column for passwords</strong>: passwords will "
 "be generated automatically"
 msgstr ""
 
-#: importer.php:663
+#: importer.php:1169
+msgid ""
+"If you <strong>don't create a column for roles</strong>: roles would be "
+"chosen from the 'Default role' field in import screen."
+msgstr ""
+
+#: importer.php:631
 msgid ""
 "If you choose more than one role, the roles would be assigned correctly but "
 "you should use some plugin like <a href=\"https://wordpress.org/plugins/user-"
 "role-editor/\">User Role Editor</a> to manage them."
 msgstr ""
 
-#: importer.php:838
+#: importer.php:1246
+msgid "If you get some error of this kind:"
+msgstr ""
+
+#: importer.php:790
 msgid ""
 "If you leave this cell empty for some user or the access area indicated "
 "doesn't exist, user won't be assigned to any access area. You can choose "
@@ -422,61 +554,102 @@ msgid ""
 "e.: "
 msgstr ""
 
+#: importer.php:1241
+msgid ""
+"If you want to assign an user to a group you have to create a column "
+"'bp_group' and a column 'bp_group_role'"
+msgstr ""
+
+#: addons/acui-users-group.php:24 addons/acui-wp-users-group.php:24
+msgid ""
+"If you want to import multiple values, you can use a list using commas to "
+"separate items"
+msgstr ""
+
+#: import-users-from-csv-with-meta.php:270
+#, fuzzy
+msgid "Import"
+msgstr "Importa"
+
 #: smtp.php:119
 msgid "Import User From CSV With Meta - SMTP server options"
 msgstr ""
 
-#: import-users-from-csv-with-meta.php:402
+#: importer.php:902
+msgid ""
+"Import Users module require jQuery to be installed on your wordpress in "
+"order to work!"
+msgstr ""
+"El mòdul d'importació d'usuaris requereix tenir instal·lat JQuery al vostre "
+"WordPress per funcionar!"
+
+#: import-users-from-csv-with-meta.php:393
 msgid "Import cron task starts at"
 msgstr ""
 
-#: import-users-from-csv-with-meta.php:110 importer.php:611
+#: import-users-from-csv-with-meta.php:106 importer.php:579
 msgid "Import users from CSV"
 msgstr "Importa usuaris des d'un fitxer CSV"
 
 #. Plugin Name of the plugin/theme
+#, fuzzy
 msgid "Import users from CSV with meta"
-msgstr ""
+msgstr "Importa usuaris des d'un fitxer CSV"
 
-#: importer.php:1190
+#: importer.php:1137
+#, fuzzy
 msgid "Important notice"
-msgstr ""
+msgstr "Important:"
 
 #: importer.php:9
 msgid "Importing users"
 msgstr "Important usuaris"
 
-#: importer.php:1326 importer.php:1417
-msgid "Insert complete path to the file"
+#: addons/acui-indeed-ultimate-membership-pro.php:26
+msgid "Indeed Ultimate Membership Pro is activated"
 msgstr ""
 
-#: import-users-from-csv-with-meta.php:110
+#: importer.php:1269 importer.php:1360
+#, fuzzy
+msgid "Insert complete path to the file"
+msgstr "La ruta de l'arxiu d'importació no és vàlida."
+
+#: import-users-from-csv-with-meta.php:106
 msgid "Insert users massively (CSV)"
 msgstr "Importa usuaris des d'un fitxer CSV"
 
-#: importer.php:156
+#: importer.php:133
 msgid "Inserting and updating data"
 msgstr "Introducció i actualització de dades"
 
-#: importer.php:1435
+#: importer.php:1366
 msgid "Last actions of schedule task"
 msgstr ""
 
-#: importer.php:735
+#: importer.php:687
 msgid "Leave the old value for this metadata"
 msgstr ""
 
-#: importer.php:1220
-msgid "Mail options"
+#: importer.php:1181
+#, fuzzy
+msgid "Lists"
 msgstr ""
+"Les vistes són llistes personalitzades de contingut, que es pot mostrar en "
+"qualsevol part del lloc."
 
-#: importer.php:1248
+#: importer.php:1167
+#, fuzzy
+msgid "Mail options"
+msgstr "Opcions"
+
+#: importer.php:1195
 msgid "Mail subject :"
 msgstr "Assumpte del missatge:"
 
-#: import-users-from-csv-with-meta.php:343
+#: import-users-from-csv-with-meta.php:339
+#, fuzzy
 msgid "Mail template updated correctly"
-msgstr ""
+msgstr "La plantilla s'ha actualitzat correctament."
 
 #: smtp.php:156 smtp.php:159
 msgid "Mailer"
@@ -486,19 +659,28 @@ msgstr ""
 msgid "Message sent successfully"
 msgstr "El missatge s'ha enviat correctament"
 
-#: importer.php:1410
+#: importer.php:1353
+#, fuzzy
 msgid "Move file after import?"
+msgstr "La ruta de l'arxiu d'importació no és vàlida."
+
+#: importer.php:1171
+msgid ""
+"Multiple roles can be imported creating <strong>a list of roles</strong> "
+"using commas to separate values."
 msgstr ""
 
-#: importer.php:1504
+#: importer.php:1601
+#, fuzzy
 msgid "Need help with WordPress or WooCommerce?"
-msgstr ""
+msgstr "Necessiteu ajuda per a gestionar els ginys?"
 
-#: importer.php:802
+#: importer.php:754
+#, fuzzy
 msgid "New User Approve"
-msgstr ""
+msgstr "Aprova"
 
-#: importer.php:625 importer.php:690
+#: importer.php:593 importer.php:658
 msgid "No"
 msgstr ""
 
@@ -510,187 +692,269 @@ msgstr "Sense encriptar"
 msgid "No: Do not use SMTP authentication."
 msgstr ""
 
-#: importer.php:815
+#: importer.php:767
 msgid "Not allowed"
 msgstr "No està permès"
 
-#: importer.php:559 importer.php:563
+#: importer.php:527 importer.php:531
 msgid "Old CSV files uploaded"
 msgstr "Fitxers CSV antics"
 
-#: importer.php:769 importer.php:785 importer.php:802 importer.php:818
+#: importer.php:721 importer.php:737 importer.php:754 importer.php:770
 msgid "Only for"
 msgstr "Només per"
 
-#: import-users-from-csv-with-meta.php:209 importer.php:996 smtp.php:222
+#: include/shortcode-frontend.php:7
+msgid "Only users who are able to create users can manage this form."
+msgstr ""
+
+#: importer.php:1587
+msgid "Or if you prefer, you can also help us becoming a Patreon:"
+msgstr ""
+
+#: addons/acui-pmpro.php:43
+msgid "Paid Mebership Pro is activated"
+msgstr ""
+
+#: import-users-from-csv-with-meta.php:205 importer.php:948 smtp.php:222
 msgid "Password"
 msgstr "password:"
 
-#: importer.php:415
+#: importer.php:383
+#, fuzzy
 msgid "Password has not been changed"
-msgstr ""
+msgstr "La contrasenya ha estat reinicialitzada."
 
-#: importer.php:1127
+#: importer.php:1079
 msgid "Passwords"
 msgstr "Contrasenyes"
 
-#: importer.php:1324
+#: importer.php:1267
+#, fuzzy
 msgid "Path of file that are going to be imported"
-msgstr ""
+msgstr "La ruta de l'arxiu d'importació no és vàlida."
 
-#: importer.php:1492
+#: importer.php:1581
 msgid "PayPal – The safer, easier way to pay online."
 msgstr ""
 
-#: importer.php:1331
+#: importer.php:1274
 msgid "Period"
 msgstr ""
 
-#: importer.php:871 importer.php:879
+#: importer.php:823 importer.php:831
 msgid "Please choose a file"
 msgstr "Seleccioneu un fitxer"
 
-#: importer.php:884
+#: importer.php:836
+#, fuzzy
 msgid "Please enter a path to the file"
-msgstr ""
+msgstr "La ruta de l'arxiu d'importació no és vàlida."
 
-#: importer.php:889
+#: importer.php:841
 msgid "Please select a role"
 msgstr "Seleccioneu un rol"
 
-#: importer.php:605
+#: importer.php:573
 msgid ""
 "Please, read carefully how <strong>passwords are managed</strong> and also "
 "take note about capitalization, this plugin is <strong>case sensitive</"
 "strong>."
 msgstr ""
 
-#: importer.php:1137
+#: importer.php:1167
+msgid "Plugin can import roles from the CSV. This is how it works:"
+msgstr ""
+
+#: importer.php:1182
+msgid "Plugin can now import lists an array. Use this separator:"
+msgstr ""
+
+#: importer.php:1177
 msgid ""
 "Plugin can now import serialized data. You have to use the serialized string "
 "directly in the CSV cell in order the plugin will be able to understand it "
 "as an serialized data instead as any other string."
 msgstr ""
 
-#: import-users-from-csv-with-meta.php:119
+#: import-users-from-csv-with-meta.php:115
+#, fuzzy
 msgid "Premium plugins"
-msgstr ""
+msgstr "Ediciones premium"
 
-#: import-users-from-csv-with-meta.php:118
+#: import-users-from-csv-with-meta.php:114
+#, fuzzy
 msgid "Premium support"
-msgstr ""
+msgstr "Ediciones premium"
 
-#: importer.php:1198
+#: importer.php:1145
+#, fuzzy
 msgid "Premium support (with a quote):"
-msgstr ""
+msgstr "Citació"
 
-#: importer.php:216
+#: importer.php:193
+#, fuzzy
 msgid "Problems with ID"
-msgstr ""
+msgstr "Classes i identificadors"
 
-#: importer.php:284
-msgid "Problems with user %s. Skiping importation"
-msgstr "Hi ha problemes amb l'usuari %s. Salta la importació"
+#: importer.php:259
+#, fuzzy
+msgid "Problems with user:"
+msgstr "un usuari"
 
-#: importer.php:490
+#: importer.php:458
 msgid "Process finished you can go"
 msgstr "La importació ha acabat. Feu clic"
 
-#: importer.php:767
+#: addons/acui-woocommerce-membership.php:19
+msgid "Read more about columns and formats"
+msgstr ""
+
+#: importer.php:90
+#, fuzzy
+msgid "Ready to registers"
+msgstr "Llest per a accessibilitat"
+
+#: importer.php:719
 msgid ""
 "Remember that all date fields have to be imported using a format like this: "
 "2016-01-01 00:00:00"
 msgstr ""
 
-#: importer.php:812
+#: importer.php:764
+#, fuzzy
 msgid "Repeated email in different users?"
-msgstr ""
+msgstr "Llista de correus electrònics NO autoritzats"
 
 #: smtp.php:171 smtp.php:174
+#, fuzzy
 msgid "Return Path"
-msgstr ""
+msgstr "Camí dels elements"
 
-#: importer.php:631 importer.php:1388
+#: importer.php:599 importer.php:1331
 msgid "Role"
 msgstr "Rol"
 
-#: importer.php:158
+#: importer.php:1166
+#, fuzzy
+msgid "Roles"
+msgstr "Rols"
+
+#: importer.php:135
 msgid "Row"
 msgstr "Fila"
 
-#: importer.php:163
+#: importer.php:140
 msgid "Row number"
 msgstr "La fila número"
 
-#: import-users-from-csv-with-meta.php:111
+#: import-users-from-csv-with-meta.php:107
+#, fuzzy
 msgid "SMTP Configuration"
-msgstr ""
+msgstr "Error en la configuració"
 
 #: smtp.php:187
+#, fuzzy
 msgid "SMTP Host"
-msgstr ""
+msgstr "Servidor LDAP"
 
 #: smtp.php:182
+#, fuzzy
 msgid "SMTP Options"
-msgstr ""
+msgstr "Opcions"
 
 #: smtp.php:191
+#, fuzzy
 msgid "SMTP Port"
-msgstr ""
+msgstr "Port"
+
+#: import-users-from-csv-with-meta.php:274
+#, fuzzy
+msgid "SMTP settings (deprecated)"
+msgstr "Aquesta acció està desfasada en CRED 1.9.0."
 
 #: smtp.php:227
 msgid "Save Changes"
 msgstr "Desa els canvis"
 
-#: importer.php:1442
-msgid "Save schedule options"
+#: importer.php:1072
+#, fuzzy
+msgid "Save frontend import options"
 msgstr ""
+"Opcions per a aquest presentada estaran disponibles després de guardar el "
+"grup."
+
+#: importer.php:1102
+#, fuzzy
+msgid "Save option"
+msgstr "Desa"
+
+#: importer.php:1373
+#, fuzzy
+msgid "Save schedule options"
+msgstr "Prevista per:"
 
 #: smtp.php:26 smtp.php:245
+#, fuzzy
 msgid "Send Test"
 msgstr ""
+"Escriu una adreça electrònica i feu clic a Envia test per generar un correu "
+"de prova."
 
 #: smtp.php:234
 msgid "Send a Test Email"
 msgstr "En via correu electrònic de prova"
 
-#: importer.php:1231
+#: importer.php:1178
+#, fuzzy
 msgid "Send automattic WordPress emails?"
 msgstr ""
+"Feu servir això per enviar butlletins per correu electrònic als vostres "
+"subscriptros."
 
 #: smtp.php:161
 msgid "Send emails of this plugin via SMTP."
 msgstr ""
 
-#: importer.php:845
+#: importer.php:797
 msgid "Send mail"
 msgstr "Envia missatge de correu electrònic"
 
-#: importer.php:1354
+#: importer.php:1297
 msgid "Send mail also to users that are being updated?"
 msgstr ""
 
-#: importer.php:1348
+#: importer.php:1037
+msgid "Send mail when using frontend import?"
+msgstr ""
+
+#: importer.php:1291
 msgid "Send mail when using periodical import?"
 msgstr ""
 
-#: importer.php:1136
+#: importer.php:1176
+#, fuzzy
 msgid "Serialized data"
 msgstr ""
+"<strong>Opcions</strong> - Aquesta pàgina mostra un llistat de totes les "
+"opcions associades a aquest lloc web. Algunes les crea el WordPress i altres "
+"són creades per les extensions que activeu. Fixeu-vos que alguns camps estan "
+"en gris i mostren dades en sèrie. No podeu modificar aquests valors per la "
+"forma en què està emmagatzemada la dada a la base de dades."
 
 #: smtp.php:176
 msgid "Set the return-path to match the From Email"
 msgstr ""
 
-#: importer.php:986
+#: importer.php:938
 msgid "Sets the username."
 msgstr "Estableix el nom d'usuari."
 
-#: importer.php:992
+#: importer.php:944
 msgid "Sets user email."
 msgstr "Estableix l'adreça electrònica de l'usuari."
 
-#: importer.php:998
+#: importer.php:950
 msgid "Sets user password."
 msgstr "Estableix la contrasenya de l'usuari."
 
@@ -698,21 +962,33 @@ msgstr "Estableix la contrasenya de l'usuari."
 msgid "Settings"
 msgstr "Paràmetres"
 
-#: import-users-from-csv-with-meta.php:396
+#: import-users-from-csv-with-meta.php:387
+#, fuzzy
 msgid "Settings updated correctly"
+msgstr "S'ha actualitzat correctament la configuració del node."
+
+#: import-users-from-csv-with-meta.php:278
+msgid "Shop"
 msgstr ""
 
-#: importer.php:860
+#: importer.php:1097
+#, fuzzy
+msgid "Show fields in profile?"
+msgstr "Camps del perfil"
+
+#: importer.php:812
 msgid "Start importing"
 msgstr "Inicia la importació"
 
 #: smtp.php:83
+#, fuzzy
 msgid "Test Message Sent"
-msgstr ""
+msgstr "S'ha enviat el missatge enviat correctament."
 
 #: smtp.php:40
+#, fuzzy
 msgid "Test mail to "
-msgstr ""
+msgstr "per provar"
 
 #: smtp.php:88
 msgid "The SMTP debugging output is shown below:"
@@ -722,7 +998,7 @@ msgstr ""
 msgid "The full debugging output is shown below:"
 msgstr ""
 
-#: importer.php:1002
+#: importer.php:954
 msgid ""
 "The next columns are totally customizable and you can use whatever you want. "
 "All rows must contains same columns"
@@ -732,30 +1008,44 @@ msgstr ""
 "columnes:"
 
 #: smtp.php:84
+#, fuzzy
 msgid "The result was:"
 msgstr ""
+"Assegura't que el conjunt de resultat exclou identificadors específics."
 
-#: importer.php:1033 importer.php:1148
+#: importer.php:985 importer.php:1095
 msgid "The user's first name."
 msgstr "Nom de l'usuari."
 
-#: importer.php:1039 importer.php:1149
+#: importer.php:991 importer.php:1096
 msgid "The user's last name."
 msgstr "Cognom de l'usuari."
 
-#: importer.php:1027 importer.php:1147
+#: importer.php:979 importer.php:1094
 msgid "The user's nickname, defaults to the user's username."
 msgstr "L'àlies de l'usuari, per defecte, el nom d'usuari."
 
-#: importer.php:1087
-msgid "There is no columns loaded yet"
+#: addons/acui-users-group.php:23 addons/acui-wp-users-group.php:23
+msgid ""
+"The value of each cell will be the name of the user group (do not use slugs)"
 msgstr ""
 
-#: importer.php:907
+#: importer.php:1242
+msgid ""
+"Then in each cell you have to fill with the BuddyPress <strong>group slug</"
+"strong>"
+msgstr ""
+
+#: importer.php:1039
+#, fuzzy
+msgid "There is no columns loaded yet"
+msgstr "Executat abans que el lloc multi web s'ha carregat."
+
+#: importer.php:859
 msgid "There were problems deleting the file, please check file permissions"
 msgstr ""
 
-#: importer.php:925
+#: importer.php:877
 msgid "There were problems deleting the files, please check files permissions"
 msgstr ""
 
@@ -779,7 +1069,7 @@ msgstr ""
 msgid "To:"
 msgstr "Per a:"
 
-#: importer.php:1335
+#: importer.php:1278
 msgid "Twicedaily"
 msgstr ""
 
@@ -791,25 +1081,33 @@ msgstr ""
 "de prova."
 
 #: import-users-from-csv-with-meta.php:60
-#: import-users-from-csv-with-meta.php:209
+#: import-users-from-csv-with-meta.php:205
+#, fuzzy
 msgid "URL to login"
-msgstr ""
+msgstr "Adreça d'inici de sessió (URL)"
 
-#: import-users-from-csv-with-meta.php:306
+#: import-users-from-csv-with-meta.php:302
 msgid "Unable to write to directory. Is this directory writable by the server?"
 msgstr ""
 
-#: importer.php:621
+#: importer.php:589
 msgid "Update existing users?"
 msgstr "Voleu actualitzar els usuaris existents?"
 
-#: importer.php:687
+#: importer.php:655
 msgid "Update roles for existing users?"
 msgstr "Voleu actualitzar el rol dels usuaris existents?"
 
-#: smtp.php:202
-msgid "Use SSL encryption."
+#: include/shortcode-frontend.php:33
+#, fuzzy
+msgid "Upload and process"
 msgstr ""
+"Per evitar el procés de càrrega de l'avatar, premeu el botó \"Pas següent\"."
+
+#: smtp.php:202
+#, fuzzy
+msgid "Use SSL encryption."
+msgstr "Sense encriptar"
 
 #: smtp.php:204
 msgid ""
@@ -822,132 +1120,202 @@ msgid "Use WordPress general settings to send mail."
 msgstr ""
 
 #: smtp.php:131
+#, fuzzy
 msgid "Use plugin SMTP settings"
-msgstr ""
+msgstr "Configuració general de l'extensió"
 
 #: smtp.php:163
 msgid "Use the PHP mail() function to send emails."
 msgstr ""
 
 #: smtp.php:133
+#, fuzzy
 msgid "Use this settings to send mail."
-msgstr ""
+msgstr "Envia el missatge immediatament"
 
-#: importer.php:263
+#: importer.php:1030
+#, fuzzy
+msgid "Use this shortcode in any page or post"
+msgstr ""
+"Utilice el código breve siguiente en cualquier página o artículo para "
+"publicar las pestañas"
+
+#: importer.php:240
 msgid "User already exists as:"
 msgstr "L'usuari ja existeix com:"
 
-#: importer.php:1152
+#: importer.php:1099
+#, fuzzy
 msgid "User's AOL IM account."
-msgstr ""
+msgstr "El compte de l'usuari no s'ha activat encara"
 
-#: importer.php:1151
+#: importer.php:1098
+#, fuzzy
 msgid "User's Jabber account."
-msgstr ""
+msgstr "Jabber"
 
-#: importer.php:1153
+#: importer.php:1100
+#, fuzzy
 msgid "User's Yahoo IM account."
-msgstr ""
+msgstr "Yahoo IM"
 
 #: import-users-from-csv-with-meta.php:60
-#: import-users-from-csv-with-meta.php:209 importer.php:984 importer.php:1109
+#: import-users-from-csv-with-meta.php:205 importer.php:936 importer.php:1061
 #: smtp.php:218
 msgid "Username"
 msgstr "username:"
 
-#: importer.php:1154
+#: importer.php:1101
 msgid "Using the WordPress format for this kind of data Y-m-d H:i:s."
 msgstr ""
 
-#: importer.php:785
+#: importer.php:737
+#, fuzzy
 msgid "WP Members"
+msgstr "# membres"
+
+#: addons/acui-users-group.php:18 addons/acui-wp-users-group.php:18
+#, fuzzy
+msgid "WP Users Group is activated"
+msgstr "Usuaris WP"
+
+#: importer.php:1577
+msgid ""
+"We have been spending many hours to develop this plugin and answering "
+"questions in the forum to give you the best support. <br>If you like and use "
+"this plugin, you can <strong>buy us a cup of coffee</strong>."
 msgstr ""
 
-#: importer.php:1488
+#: importer.php:1417
 msgid ""
 "We have been spending many hours to develop this plugin. <br>If you like and "
 "use this plugin, you can <strong>buy us a cup of coffee</strong>."
 msgstr ""
 
-#: importer.php:1508
+#: importer.php:1605
 msgid ""
 "We work everyday with WordPress and WooCommerce, if you need help hire us, "
 "send us a message to"
 msgstr ""
 
 #: import-users-from-csv-with-meta.php:59
-#: import-users-from-csv-with-meta.php:212
+#: import-users-from-csv-with-meta.php:208
 msgid "Welcome to"
 msgstr "Benvinguts a"
 
 #: import-users-from-csv-with-meta.php:60
-#: import-users-from-csv-with-meta.php:209
+#: import-users-from-csv-with-meta.php:205
 msgid "Welcome,"
 msgstr "Benvinguts,"
 
-#: importer.php:732
+#: importer.php:684
 msgid "What should the plugin do with empty cells?"
 msgstr ""
 
-#: importer.php:678
+#: importer.php:1185
+msgid ""
+"When you update an user or change his password, WordPress prepare and send "
+"automattic email, you can deactivate it here."
+msgstr ""
+
+#: importer.php:646
 msgid "Where do I get this info?"
 msgstr "On trobo aquesta informació?"
 
-#: importer.php:1406
+#: importer.php:1349
 msgid "Which role would be used to import users?"
 msgstr ""
 
-#: importer.php:1161
+#: addons/acui-woocommerce-membership.php:18
+#, fuzzy
+msgid "WooCommerce Membership is activated"
+msgstr "Pertinença"
+
+#: importer.php:1108
+#, fuzzy
 msgid "WooCommerce is activated"
-msgstr ""
+msgstr "activat"
 
-#: importer.php:829
+#: importer.php:781
+#, fuzzy
 msgid "WordPress Access Areas"
-msgstr ""
+msgstr "Accés"
 
-#: importer.php:827
+#: importer.php:779
 msgid "WordPress Access Areas is activated"
 msgstr ""
 
-#: importer.php:1227
+#: importer.php:1174
 msgid "WordPress automatic emails users updated"
 msgstr ""
 
-#: importer.php:1141
+#: importer.php:1088
+#, fuzzy
 msgid "WordPress default profile data"
-msgstr ""
+msgstr "Mostra els avatars predefinits del WordPress"
 
-#: importer.php:624 importer.php:691
+#: importer.php:592 importer.php:659
 msgid "Yes"
 msgstr "Sí"
+
+#: importer.php:735
+msgid "Yes, add new roles and not override existing ones"
+msgstr ""
+
+#: importer.php:734
+#, fuzzy
+msgid "Yes, update and override existing roles"
+msgstr "Voleu actualitzar el rol dels usuaris existents?"
 
 #: smtp.php:213
 msgid "Yes: Use SMTP authentication."
 msgstr ""
 
-#: importer.php:505
+#: importer.php:473
 msgid "You are not allowed to see this content."
 msgstr "No esteu autoritzat a veure aquest contingut"
 
-#: import-users-from-csv-with-meta.php:561
+#: import-users-from-csv-with-meta.php:535
+#, fuzzy
 msgid "You are not an adminstrator"
+msgstr "Moltes Gràcies!"
+
+#: importer.php:725
+msgid ""
+"You can also import roles from a CSV column. Please read documentation tab "
+"to see how it can be done. If you choose more than one role, the roles would "
+"be assigned correctly but you should use some plugin like <a href=\"https://"
+"wordpress.org/plugins/user-role-editor/\">User Role Editor</a> to manage "
+"them."
 msgstr ""
 
-#: importer.php:1262
+#: importer.php:1209
 msgid ""
 "You can also use any WordPress user standard field or an own metadata, if "
 "you have used it in your CSV. For example, if you have a first_name column, "
 "you could use **first_name** or any other meta_data like **my_custom_meta**"
 msgstr ""
 
-#: importer.php:763
+#: importer.php:1244
+msgid ""
+"You can do it with multiple groups at the same time using commas to separate "
+"different groups, in bp_group column, i.e.: <em>group_1, group_2, group_3</"
+"em>"
+msgstr ""
+
+#: addons/acui-users-group.php:20 addons/acui-wp-users-group.php:20
+msgid ""
+"You can import user groups and assign them to the users using the next format"
+msgstr ""
+
+#: importer.php:715
 msgid ""
 "You can insert any profile from BuddyPress using his name as header. Plugin "
 "will check, before import, which fields are defined in BuddyPress and will "
 "assign it in the update. You can use this fields:"
 msgstr ""
 
-#: importer.php:1222
+#: importer.php:1169
 msgid "You can set your own SMTP and other mail details"
 msgstr ""
 
@@ -963,68 +1331,99 @@ msgid ""
 "blank, the emails will be sent from WordPress."
 msgstr ""
 
-#: importer.php:1191
+#: importer.php:1138
 msgid ""
 "You can upload as many files as you want, but all must have the same "
 "columns. If you upload another file, the columns will change to the form of "
 "last file uploaded."
 msgstr ""
 
-#: importer.php:1119
+#: importer.php:1071
 msgid ""
 "You can use a column called id in order to make inserts or updates of an "
 "user using the ID used by WordPress in the wp_users table. We have two "
 "different cases:"
 msgstr ""
 
-#: importer.php:1162
+#: addons/acui-woocommerce-membership.php:19
+msgid ""
+"You can use the <strong>columns in the CSV format created by WooCommercer "
+"Membership</strong> in order to import data from this plugin."
+msgstr ""
+
+#: importer.php:1239
+msgid ""
+"You can use the <strong>profile fields</strong> you have created and also "
+"you can set one or more groups for each user. For example:"
+msgstr ""
+
+#: addons/acui-indeed-ultimate-membership-pro.php:28
+msgid ""
+"You can use the columns in the CSV in order to import data from Indeed "
+"Ultimate Membership Pro."
+msgstr ""
+
+#: addons/acui-pmpro.php:45
+msgid ""
+"You can use the columns in the CSV in order to import data from Paid "
+"Membership Pro plugin."
+msgstr ""
+
+#: importer.php:1109
 msgid ""
 "You can use those labels if you want to set data adapted to the WooCommerce "
 "default user columns"
 msgstr ""
 
-#: importer.php:1142
+#: importer.php:1089
 msgid ""
 "You can use those labels if you want to set data adapted to the WordPress "
 "default user columns (the ones who use the function"
 msgstr ""
 
-#: importer.php:720 importer.php:1327 importer.php:1418
+#: importer.php:672 importer.php:1270 importer.php:1361
 msgid "You have to introduce the path to file, i.e.:"
 msgstr ""
 
-#: importer.php:980
+#: importer.php:932
 msgid "You should fill the first three rows with the next values"
 msgstr "Heu d'omplir les tres primeres columnes amb els valors següents:"
 
 #: import-users-from-csv-with-meta.php:60
-#: import-users-from-csv-with-meta.php:209
+#: import-users-from-csv-with-meta.php:205
+#, fuzzy
 msgid "Your data to login in this site is:"
-msgstr ""
+msgstr "Nom de la base de dades amb les dades del fòrum antic"
 
-#: importer.php:1430
+#: importer.php:1519
 msgid ""
 "Your file will be renamed after moved, so you will not lost any version of "
 "it. The way to rename will be append the time stamp using this date format: "
 "YmdHis."
 msgstr ""
 
-#: importer.php:1487 importer.php:1507
+#: importer.php:1416
 msgid "and"
 msgstr ""
 
-#: importer.php:829
+#: importer.php:1576
+#, fuzzy
+msgid "and all the team of"
+msgstr "L'equip del WordPress"
+
+#: importer.php:781
 msgid ""
 "and use this areas in your own CSV file. Please use the column name "
 "<strong>wp-access-areas</strong> and in each row use <strong>the name that "
 "you have used"
 msgstr ""
 
-#: importer.php:1486
+#: importer.php:1415
+#, fuzzy
 msgid "buy me a coffee"
-msgstr ""
+msgstr "Cafè"
 
-#: importer.php:709 importer.php:721
+#: importer.php:669 importer.php:673
 msgid "click here"
 msgstr "feu clic aquí"
 
@@ -1032,126 +1431,166 @@ msgstr "feu clic aquí"
 msgid "codection"
 msgstr ""
 
-#: import-users-from-csv-with-meta.php:314
+#: import-users-from-csv-with-meta.php:310
+#, fuzzy
 msgid "could not moved to"
-msgstr ""
+msgstr "El fitxer que hem penjat no s'ha pogut moure a %s."
 
-#: importer.php:1258
+#: importer.php:1205
+#, fuzzy
 msgid "current site login url"
-msgstr ""
+msgstr "Adreça d'inici de sessió (URL)"
 
-#: importer.php:1043
+#: importer.php:995
 msgid "description"
 msgstr "description:"
 
-#: importer.php:1487 importer.php:1507
+#: importer.php:1416
+#, fuzzy
 msgid "developers of this plugin."
-msgstr ""
+msgstr "Desenvolupadors col·laboradors"
 
-#: importer.php:1019
+#: importer.php:971
 msgid "display_name"
 msgstr "display_name:"
 
-#: importer.php:163
+#: importer.php:140
 msgid "does not have the same columns than the header, we are going to skip"
 msgstr ""
 "no té el mateix nombre de columnes que la capçalera. Per aquest motiu, "
 "s'ignorarà l'usuari"
 
-#: importer.php:1204
+#: importer.php:1151
 msgid "file"
 msgstr "fitxer"
 
-#: importer.php:1031
+#: importer.php:983
 msgid "first_name"
 msgstr "first_name:"
 
-#: importer.php:1487 importer.php:1507
+#: importer.php:1416
 msgid "from"
 msgstr "des de"
 
-#: importer.php:829 importer.php:1222
+#: importer.php:781 importer.php:1169
 msgid "here"
 msgstr "aquí"
 
-#: importer.php:490
+#: importer.php:458
 msgid "here to see results"
 msgstr "aquí per veure'n els resultats"
 
 #. Author URI of the plugin/theme
-msgid "http://codection.com"
-msgstr ""
+#, fuzzy
+msgid "https://codection.com"
+msgstr "https://wordpress.org/"
 
 #. Plugin URI of the plugin/theme
-msgid "http://www.codection.com"
-msgstr ""
+#, fuzzy
+msgid "https://www.codection.com"
+msgstr "https://simplecalendar.io"
 
-#: importer.php:1118
+#: importer.php:1070
 msgid "id"
 msgstr "Identificador"
 
-#: importer.php:1037
+#: importer.php:989
 msgid "last_name"
 msgstr "last_name:"
 
-#: importer.php:1259
+#: importer.php:1206
+#, fuzzy
 msgid "lost password url"
-msgstr ""
+msgstr "Contrasenya perduda"
 
-#: importer.php:1025
+#: importer.php:977
 msgid "nickname"
 msgstr "nickname:"
 
-#: importer.php:721
+#: importer.php:673
 msgid "or you can upload it directly from your PC"
 msgstr "o el podeu pujar directament des del vostre ordinador"
 
-#: importer.php:1260
+#: importer.php:1207
+#, fuzzy
 msgid "password reset url"
+msgstr "Reinicialitza la contrasenya"
+
+#: importer.php:1246
+msgid ""
+"please enable Buddypress Extended Profile then import the csv file. You can "
+"then disable this afterwards"
 msgstr ""
 
-#: importer.php:1204
+#: importer.php:1151
 msgid "to test"
 msgstr "per provar"
 
-#: importer.php:584
+#: importer.php:1182
+msgid ""
+"two colons, inside the cell in order to split the string in a list of items."
+msgstr ""
+
+#: importer.php:552
 msgid "uploaded on"
 msgstr "pujat el"
 
-#: importer.php:1261
+#: importer.php:1208
 msgid "user email"
 msgstr "correu electrònic de l'usuari"
 
-#: importer.php:1257
+#: importer.php:1204
 msgid "user password"
 msgstr "contrasenya de l'usuari"
 
-#: importer.php:1007
+#: addons/acui-users-group.php:22 addons/acui-wp-users-group.php:22
+#, fuzzy
+msgid "user_group as the column title"
+msgstr "Grup de columnes"
+
+#: importer.php:959
 msgid "user_nicename"
 msgstr "user_nicename:"
 
-#: importer.php:1013
+#: importer.php:965
+#, fuzzy
 msgid "user_url"
-msgstr ""
+msgstr "Un text que conté l'URL de l'usuari per al seu lloc web."
 
-#: importer.php:216
+#: importer.php:193
 msgid ""
 "username is not the same in the CSV and in database, we are going to skip."
 msgstr ""
 "el nom d'usuari no és el mateix al CSV que la la bse de dades, s'ignorarà."
 
-#: importer.php:1256
+#: importer.php:1203
+#, fuzzy
 msgid "username to login"
-msgstr ""
+msgstr "Validació LDAP"
 
-#: importer.php:769 importer.php:785 importer.php:802 importer.php:818
+#: importer.php:721 importer.php:737 importer.php:754 importer.php:770
 msgid "users"
 msgstr "usuaris"
 
-#: importer.php:847 importer.php:848
+#: importer.php:799 importer.php:800
 msgid "yes"
 msgstr "sí"
 
-#: importer.php:829
+#: importer.php:781
 msgid "you can use the Access Areas created"
 msgstr ""
+
+#~ msgid "Cron import"
+#~ msgstr "Inicia la importació"
+
+#~ msgid "Import users"
+#~ msgstr "Importa usuaris"
+
+#~ msgid "No user has been imported correctly"
+#~ msgstr "No s'ha importat cap usuari"
+
+#~ msgid "Problems with user %s. Skiping importation"
+#~ msgstr "Hi ha problemes amb l'usuari %s. Salta la importació"
+
+#~ msgid "required"
+#~ msgstr "requerit"

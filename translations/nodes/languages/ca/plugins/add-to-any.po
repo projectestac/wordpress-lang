@@ -4,36 +4,53 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Plugins - AddToAny Share Buttons - Stable (latest "
 "release)\n"
-"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/add-to-any\n"
-"POT-Creation-Date: 2017-06-23 07:45:36+00:00\n"
-"PO-Revision-Date: 2017-02-08 11:55+0100\n"
-"Last-Translator: Mònica Grau <mgrau226@xtec.cat>\n"
+"POT-Creation-Date: 2017-02-08 11:54+0100\n"
+"PO-Revision-Date: 2018-07-13 16:26+0200\n"
+"Last-Translator: Joan Sala Soler <jsala236@xtec.cat>\n"
 "Language-Team: \n"
+"Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ca\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Poedit 1.8.7.1\n"
-"X-Poedit-Basepath: ..\n"
+"X-Generator: Poedit 2.0.4\n"
 "X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html_x:1,2c;esc_html__;"
 "esc_attr_e;esc_attr_x:1,2c;esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;"
 "_x:1,2c;_n:1,2;_n_noop:1,2;__ngettext:1,2;__ngettext_noop:1,2;_c,_nc:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
 "X-Poedit-SearchPath-0: .\n"
 
 #: addtoany.widgets.php:232
+#, php-format
 msgid "%s ID:"
 msgstr "%s ID:"
 
 #: addtoany.widgets.php:232
+#, php-format
 msgid "%s URL:"
 msgstr "%s URL:"
+
+#: addtoany.admin.php:886
+msgid ""
+"<a href=\"https://wordpress.org/support/plugin/add-to-any/reviews/#new-post"
+"\" target=\"_blank\">Give it a 5 star rating</a> on WordPress.org."
+msgstr ""
 
 #: addtoany.admin.php:1013
 msgid ""
 "<a href=\"https://wordpress.org/support/view/plugin-reviews/add-to-"
 "any#postform\" target=\"_blank\">Give it a 5 star rating</a> on WordPress."
 "org."
+msgstr ""
+
+#: addtoany.admin.php:887
+msgid ""
+"<a href=\"https://www.addtoany.com/share#title=WordPress%20Share%20Plugin"
+"%20by%20AddToAny.com&amp;url=https%3A%2F%2Fwordpress.org%2Fplugins%2Fadd-to-"
+"any%2F\">Share it</a> and follow <a href=\"https://www.addtoany.com/"
+"\">AddToAny</a> on <a href=\"https://www.facebook.com/AddToAny\" target="
+"\"_blank\">Facebook</a> &amp; <a href=\"https://twitter.com/AddToAny\" "
+"target=\"_blank\">Twitter</a>."
 msgstr ""
 
 #: addtoany.admin.php:1014
@@ -50,15 +67,14 @@ msgstr ""
 msgid "Add to your favorites"
 msgstr "Afegiu als vostres favorits"
 
-#: addtoany.admin.php:1331
+#: addtoany.admin.php:1310
 msgid "Add/Remove Services"
 msgstr "Afegeix/Elimina serveis"
 
-#. #-#-#-#-#  add-to-any.pot (AddToAny Share Buttons 1.7.7)  #-#-#-#-#
-#. Author of the plugin/theme
 #: add-to-any.php:1089 addtoany.admin.php:12
+#, fuzzy
 msgid "AddToAny"
-msgstr ""
+msgstr "Paràmetres de compartició de l'AddToAny"
 
 #: addtoany.admin.php:906
 msgid ""
@@ -77,10 +93,6 @@ msgstr "Configuració de l'AddToAny"
 #: addtoany.widgets.php:23
 msgid "AddToAny Share"
 msgstr "Botons de compartició"
-
-#. Plugin Name of the plugin/theme
-msgid "AddToAny Share Buttons"
-msgstr "Botons de compartició de l'AddToAny"
 
 #: add-to-any.php:1088 addtoany.admin.php:453
 msgid "AddToAny Share Settings"
@@ -108,13 +120,24 @@ msgstr ""
 msgid "Are you sure you want to delete all AddToAny options?"
 msgstr "Esteu segurs que voleu esborrar totes les opcions de l'AddToAny?"
 
+#: addtoany.admin.php:740
+#, fuzzy
+msgid "Attach to content"
+msgstr "Adjunta a un contingut existent"
+
+#: addtoany.admin.php:793 addtoany.admin.php:861
+#, fuzzy
+msgid "Background"
+msgstr "Fons"
+
 #: addtoany.admin.php:846
 msgid "Below you can add special CSS code for AddToAny."
 msgstr "A sota, podeu afegir codi CSS especial per a l'AddToAny."
 
 #: addtoany.admin.php:834
+#, fuzzy
 msgid "Below you can add special JavaScript code for AddToAny."
-msgstr ""
+msgstr "A sota, podeu afegir codi CSS especial per a l'AddToAny."
 
 #: add-to-any.php:568
 msgid "Bookmark"
@@ -127,6 +150,11 @@ msgstr "Afegiu l'adreça d'interès al vostre navegador"
 #: addtoany.admin.php:883
 msgid "Cache AddToAny locally with daily cache updates"
 msgstr ""
+
+#: addtoany.admin.php:815
+#, fuzzy
+msgid "Center docked"
+msgstr "Centrat"
 
 #: addtoany.admin.php:523
 msgid ""
@@ -142,37 +170,45 @@ msgid "Custom"
 msgstr "Personalitzada"
 
 #: addtoany.admin.php:771 addtoany.admin.php:777
+#, php-format
 msgid "Display at the %s of %s"
 msgstr "Mostra %s de %s"
 
 #: addtoany.admin.php:726
+#, fuzzy, php-format
 msgid "Display at the %s of excerpts"
-msgstr ""
+msgstr "Mostra %s de %s"
 
 #: addtoany.admin.php:756
+#, fuzzy, php-format
 msgid "Display at the %s of media pages"
-msgstr ""
+msgstr "Mostra %s les articles de les pàgines d'arxiu"
 
 #: addtoany.admin.php:739
+#, php-format
 msgid "Display at the %s of pages"
 msgstr "Mostra a %s de les pàgines"
 
 # MODIFICAT XTEC
 #: addtoany.admin.php:686
+#, php-format
 msgid "Display at the %s of posts"
 msgstr "Mostra %s les articles"
 
 #: addtoany.admin.php:719
+#, fuzzy, php-format
 msgid "Display at the %s of posts in the feed"
-msgstr ""
+msgstr "Canal de tots els articles arxivats en %s"
 
 # MODIFICAT XTEC
 #: addtoany.admin.php:702
+#, php-format
 msgid "Display at the %s of posts on archive pages"
 msgstr "Mostra %s les articles de les pàgines d'arxiu"
 
 # MODIFICAT XTEC
 #: addtoany.admin.php:694
+#, php-format
 msgid "Display at the %s of posts on the front page"
 msgstr "Mostra %s les articles de la pàgina de portada"
 
@@ -214,6 +250,16 @@ msgstr "Botons horitzontals"
 msgid "Icon Size"
 msgstr "Mida de la icona"
 
+#: addtoany.widgets.php:216
+#, fuzzy
+msgid "Icon Size:"
+msgstr "Mida de la icona"
+
+#: addtoany.admin.php:454
+#, fuzzy
+msgid "Icon Style"
+msgstr "Icona"
+
 #: addtoany.admin.php:605
 msgid "Image URL"
 msgstr "URL de la imatge"
@@ -233,12 +279,9 @@ msgid ""
 msgstr ""
 
 #: addtoany.admin.php:914 addtoany.admin.php:956
+#, fuzzy
 msgid "Left docked"
-msgstr ""
-
-#: addtoany.admin.php:1175
-msgid "Like"
-msgstr ""
+msgstr "izquierda"
 
 #: addtoany.admin.php:1012
 msgid "Like this plugin?"
@@ -271,8 +314,11 @@ msgid "None"
 msgstr "Cap"
 
 #: addtoany.admin.php:938 addtoany.admin.php:980
+#, fuzzy
 msgid "Offset"
 msgstr ""
+"Seleccioneu o una ciutat al mateix fus horari que el vostre o bé un fus "
+"horari."
 
 #: addtoany.admin.php:878
 msgid ""
@@ -321,12 +367,14 @@ msgid "Reset"
 msgstr "Reinicialitza"
 
 #: addtoany.admin.php:922 addtoany.admin.php:964
+#, fuzzy
 msgid "Responsiveness"
-msgstr ""
+msgstr "L'amplada s'adapta"
 
 #: addtoany.admin.php:916 addtoany.admin.php:958
+#, fuzzy
 msgid "Right docked"
-msgstr ""
+msgstr "derecha"
 
 #: add-to-any.php:565
 msgid "Save"
@@ -344,6 +392,15 @@ msgstr ""
 "Cerca als <a href=\"http://wordpress.org/tags/add-to-any\">fòrums de suport</"
 "a>."
 
+#: addtoany.admin.php:891
+#, fuzzy
+msgid ""
+"Search the <a href=\"https://wordpress.org/support/plugin/add-to-any"
+"\">support forums</a>."
+msgstr ""
+"Cerca als <a href=\"http://wordpress.org/tags/add-to-any\">fòrums de suport</"
+"a>."
+
 #: addtoany.admin.php:785
 msgid ""
 "See <a href=\"widgets.php\" title=\"Theme Widgets\">Widgets</a> and <a href="
@@ -353,10 +410,27 @@ msgid ""
 "faq/\">the FAQs</a>."
 msgstr ""
 
+#: addtoany.admin.php:651
+msgid ""
+"See <a href=\"widgets.php\" title=\"Theme Widgets\">Widgets</a> and <a href="
+"\"options-general.php?page=addtoany&action=floating\" title=\"AddToAny "
+"Floating Share Buttons\">Floating</a> for additional placement options. For "
+"advanced placement, see <a href=\"https://wordpress.org/plugins/add-to-any/"
+"faq/\">the FAQs</a>."
+msgstr ""
+
 #: addtoany.admin.php:1017
 msgid ""
 "See the <a href=\"http://wordpress.org/extend/plugins/add-to-any/faq/"
 "\">FAQs</a>."
+msgstr ""
+"Vegeu les <a href=\"http://wordpress.org/extend/plugins/add-to-any/faq/"
+"\">Preguntes més freqüents</a>."
+
+#: addtoany.admin.php:890
+#, fuzzy
+msgid ""
+"See the <a href=\"https://wordpress.org/plugins/add-to-any/faq/\">FAQs</a>."
 msgstr ""
 "Vegeu les <a href=\"http://wordpress.org/extend/plugins/add-to-any/faq/"
 "\">Preguntes més freqüents</a>."
@@ -379,6 +453,11 @@ msgstr "Preferències desades."
 msgid "Share"
 msgstr "Comparteix"
 
+#: addtoany.admin.php:481
+#, fuzzy
+msgid "Share Buttons"
+msgstr "Botons de compartició per compartir continguts."
+
 #: addtoany.widgets.php:20
 msgid "Share buttons for sharing your content."
 msgstr "Botons de compartició per compartir continguts."
@@ -389,7 +468,7 @@ msgid ""
 "Facebook, Twitter, Google+, Pinterest, WhatsApp and many more."
 msgstr ""
 
-#: addtoany.admin.php:664
+#: addtoany.admin.php:662 addtoany.admin.php:664
 msgid "Share this:"
 msgstr "Comparteix"
 
@@ -407,7 +486,7 @@ msgstr "Mostra tots"
 
 # XTEC ************ AFEGIT - New strings for localization support
 # 2016.04.11 @sarjona
-#: addtoany.admin.php:636 addtoany.admin.php:1197
+#: addtoany.admin.php:636
 msgid "Show count"
 msgstr "Mostra el recompte"
 
@@ -443,6 +522,10 @@ msgstr "Botons independents"
 msgid "Standard"
 msgstr "Estàndard"
 
+#: addtoany.admin.php:463
+msgid "Standard:"
+msgstr "Estàndard"
+
 #: add-to-any.php:566
 msgid "Subscribe"
 msgstr "Subscriure's"
@@ -468,10 +551,13 @@ msgid "Title:"
 msgstr "Títol:"
 
 #: add-to-any.php:1043
+#, fuzzy, php-format
 msgid ""
 "Unable to create directory %s. Is its parent directory writable by the "
 "server?"
 msgstr ""
+"No es pot crear el directori %s. Teniu permís d'escriptura en el directori "
+"superior?"
 
 #: addtoany.admin.php:564
 msgid "Universal Button"
@@ -506,12 +592,11 @@ msgstr ""
 msgid "bottom"
 msgstr "sota"
 
-#. #-#-#-#-#  add-to-any.pot (AddToAny Share Buttons 1.7.7)  #-#-#-#-#
 #. Plugin URI of the plugin/theme
-#. #-#-#-#-#  add-to-any.pot (AddToAny Share Buttons 1.7.7)  #-#-#-#-#
 #. Author URI of the plugin/theme
+#, fuzzy
 msgid "https://www.addtoany.com/"
-msgstr ""
+msgstr "https://simplecalendar.io"
 
 #: addtoany.admin.php:422
 msgid "top"
@@ -520,3 +605,6 @@ msgstr "sobre"
 #: addtoany.admin.php:426
 msgid "top &amp; bottom"
 msgstr "sobre i sota"
+
+#~ msgid "AddToAny Share Buttons"
+#~ msgstr "Botons de compartició de l'AddToAny"

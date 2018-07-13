@@ -2,29 +2,27 @@
 # This file is distributed under the same license as the Plugins - Google Analyticator - Stable (latest release) package.
 msgid ""
 msgstr ""
-"Project-Id-Version: Plugins - Google Analyticator - Stable (latest release)\n"
-"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/google-"
-"analyticator\n"
-"POT-Creation-Date: 2017-06-23 07:45:37+00:00\n"
 "PO-Revision-Date: 2016-10-27 14:32+0200\n"
-"Last-Translator: Mònica Grau <mgrau226@xtec.cat>\n"
-"Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ca\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Poedit 1.8.7.1\n"
+"Language: ca\n"
+"Project-Id-Version: Plugins - Google Analyticator - Stable (latest release)\n"
+"POT-Creation-Date: \n"
+"Last-Translator: Mònica Grau <mgrau226@xtec.cat>\n"
+"Language-Team: \n"
 
-#: google-analytics-summary-widget.php:505
+#: google-analytics-summary-widget.php:490
 msgid "% New Visits"
 msgstr "% visites noves"
 
-#: google-analyticator.php:1039
+#: google-analyticator.php:931
 msgid "Additional Tracking Code"
 msgstr "Codi de seguiment addicional"
 
-#: google-analyticator.php:1043 google-analyticator.php:1058
+#: google-analyticator.php:935 google-analyticator.php:950
 msgid "Additional tracking code"
 msgstr "Codi de seguiment addicional"
 
@@ -39,31 +37,31 @@ msgstr ""
 "extensió necessitareu autenticar-vos a Google, després seleccioneu el vostre "
 "domini."
 
-#: google-analyticator.php:1073
+#: google-analyticator.php:965
 msgid "Admin Dashboard Widgets"
 msgstr "Ginys del tauler d'administració"
 
-#: google-analyticator.php:628
+#: google-analyticator.php:549
 msgid "Analytics Account"
 msgstr "Compte d'Analytics"
 
-#: google-analyticator.php:763
+#: google-analyticator.php:655
 msgid "Anonymize IP Addresses"
 msgstr "Anonimitza l'adreça IP"
 
-#: google-analytics-summary-widget.php:492
+#: google-analytics-summary-widget.php:477
 msgid "Avg. Time on Site"
 msgstr "Temps mitjà al lloc web"
 
-#: google-analyticator.php:600
+#: google-analyticator.php:521
 msgid "Basic Settings"
 msgstr "Paràmetres bàsics"
 
-#: google-analytics-summary-widget.php:482
+#: google-analytics-summary-widget.php:467
 msgid "Bounce Rate"
 msgstr "Percentatge de rebot"
 
-#: google-analyticator.php:782
+#: google-analyticator.php:674
 msgid ""
 "By selecting \"Yes\", This tells Google Analytics to anonymize the "
 "information sent by the tracker objects by removing the last octet of the IP "
@@ -75,37 +73,35 @@ msgstr ""
 "l'adreça IP abans del seu emmagatzematge. Tingueu en compte que això reduirà "
 "lleugerament la precisió de la informació geogràfica."
 
-#: google-analyticator.php:1135
+#: google-analyticator.php:1023
 msgid "Clear Analyticator Cache"
 msgstr "Neteja la memòria cau de l'Analyticator"
 
-#: google-analyticator.php:246
 msgid "Click Here"
 msgstr "Feu clic aquí"
 
-#: google-analyticator.php:266
 msgid "Continue Without Authentication"
 msgstr "Continua sense autenticació"
 
-#: google-analytics-stats-widget.php:153
+#: google-analytics-stats-widget.php:117
 msgid "Days of data to get"
 msgstr "Dies a obtenir dades"
 
-#: google-analyticator.php:1143
+#: google-analyticator.php:1024
 msgid "Deauthorize &amp; Reset Google Analyticator."
 msgstr "Retira l'autorització per reinicialitzar el Google Analyticator."
 
-#: google-analyticator.php:852
+#: google-analyticator.php:744
 msgid "Dimension Index"
 msgstr "Índex de dimensió"
 
-#: google-analyticator.php:620 google-analyticator.php:929
-#: google-analyticator.php:952 google-analyticator.php:975
-#: google-analyticator.php:1094
+#: google-analyticator.php:541 google-analyticator.php:821
+#: google-analyticator.php:844 google-analyticator.php:867
+#: google-analyticator.php:986
 msgid "Disabled"
 msgstr "Deshabilitat"
 
-#: google-analyticator.php:1099
+#: google-analyticator.php:991
 msgid ""
 "Disabling this option will completely remove the Dashboard Summary widget "
 "and the theme Stats widget. Use this option if you would prefer to not see "
@@ -115,7 +111,7 @@ msgstr ""
 "tauler i el giny d'estadístiques pel tema. Utilitzeu aquesta opció si "
 "preferiu no veure aquests ginys."
 
-#: google-analyticator.php:934
+#: google-analyticator.php:826
 msgid ""
 "Disabling this option will turn off the tracking of outbound links. It's "
 "recommended not to disable this option unless you're a privacy advocate (now "
@@ -132,22 +128,22 @@ msgstr ""
 msgid "Displays Stat Info From Google Analytics"
 msgstr "Mostra la informació d'estadístiques de Google Analytics"
 
-#: google-analyticator.php:984
+#: google-analyticator.php:876
 msgid "Download extensions to track"
 msgstr "Extensions de descàrrega a seguir"
 
-#: google-analyticator.php:861
+#: google-analyticator.php:753
 msgid "Enable Remarketing, Demographics and Interests reports"
 msgstr ""
 "Habilita els informes de \"Remarketing\", \"Demographics\" i \"Interests\""
 
-#: google-analyticator.php:615 google-analyticator.php:924
-#: google-analyticator.php:947 google-analyticator.php:970
-#: google-analyticator.php:1089
+#: google-analyticator.php:536 google-analyticator.php:816
+#: google-analyticator.php:839 google-analyticator.php:862
+#: google-analyticator.php:981
 msgid "Enabled"
 msgstr "Habilitat"
 
-#: google-analyticator.php:957
+#: google-analyticator.php:849
 msgid ""
 "Enabling this option will treat outbound links and downloads as events "
 "instead of pageviews. Since the introduction of <a href=\"https://developers."
@@ -164,11 +160,11 @@ msgstr ""
 "Deshabiliteu aquesta opció només si heu d'utilitzar l'antic mètode de "
 "seguiment de pàgines vistes."
 
-#: google-analyticator.php:962
+#: google-analyticator.php:854
 msgid "Enhanced Link Attribution"
 msgstr "Atribució d'enllaços millorada"
 
-#: google-analyticator.php:1021
+#: google-analyticator.php:913
 msgid ""
 "Enter a name for the section tracked download links will appear under. This "
 "option has no effect if event tracking is enabled."
@@ -176,7 +172,7 @@ msgstr ""
 "Introduïu un nom per a la secció de seguiment dels enllaços de descàrrega. "
 "Aquesta opció no té efecte si el seguiment d'events està habilitat."
 
-#: google-analyticator.php:1007
+#: google-analyticator.php:899
 msgid ""
 "Enter a name for the section tracked external links will appear under. This "
 "option has no effect if event tracking is enabled."
@@ -185,7 +181,7 @@ msgstr ""
 "apareixerà a sota. Aquesta opció no té efecte si el seguiment d'events està "
 "habilitat."
 
-#: google-analyticator.php:1069
+#: google-analyticator.php:961
 msgid ""
 "Enter any additional lines of tracking code that you would like to include "
 "in the Google Analytics tracking script. The code in this section will be "
@@ -196,7 +192,7 @@ msgstr ""
 "secció es mostrarà <strong>després</strong> que el seguidor de Google "
 "Analytics s'inicialitzi."
 
-#: google-analyticator.php:1053
+#: google-analyticator.php:945
 msgid ""
 "Enter any additional lines of tracking code that you would like to include "
 "in the Google Analytics tracking script. The code in this section will be "
@@ -208,7 +204,7 @@ msgstr ""
 "secció es mostrarà <strong>abans</strong> que el seguidor de Google "
 "Analytics s'iniciï."
 
-#: google-analyticator.php:993
+#: google-analyticator.php:885
 msgid ""
 "Enter any extensions of files you would like to be tracked as a download. "
 "For example to track all MP3s and PDFs enter <strong>mp3,pdf</strong>. "
@@ -219,7 +215,7 @@ msgstr ""
 "<strong>mp3,pdf</strong>. <em>El seguiment d'enllaços de sortida ha d'estar "
 "habilitat per a què les descàrregues siguin seguides.</em>"
 
-#: google-analyticator.php:1035
+#: google-analyticator.php:927
 msgid ""
 "Enter your Google Adsense ID assigned by Google Analytics in this box. This "
 "enables Analytics tracking of Adsense information if your Adsense and "
@@ -229,7 +225,6 @@ msgstr ""
 "aquesta caixa. Això permet a l'Analytics fer el seguiment de la informació "
 "de l'Adsense si els vostres comptes d'Adsense i Analytics estan vinculats."
 
-#: google-analyticator.php:248
 msgid ""
 "Enter your Google Authentication Code in this box. This code will be used to "
 "get an Authentication Token so you can access your website stats."
@@ -238,15 +233,15 @@ msgstr ""
 "Aquest codi s'utilitza per obtenir un testimoni d'autenticació per a poder "
 "accedir a les estadístiques del vostre lloc web."
 
-#: google-analyticator.php:939
+#: google-analyticator.php:831
 msgid "Event tracking"
 msgstr "Seguiment d'events"
 
-#: google-analytics-stats-widget.php:161
+#: google-analytics-stats-widget.php:125
 msgid "Font color"
 msgstr "Color del text"
 
-#: google-analyticator.php:1026
+#: google-analyticator.php:918
 msgid "Google Adsense ID"
 msgstr "ID de Google Adsense"
 
@@ -254,12 +249,7 @@ msgstr "ID de Google Adsense"
 msgid "Google Analyticator"
 msgstr "Google Analyticator"
 
-#: google-analyticator.php:156
-#, fuzzy
-msgid "Google Analyticator Settings"
-msgstr "S'han desat els paràmetres de Google Analyticator"
-
-#: google-analyticator.php:513
+#: google-analyticator.php:469
 msgid "Google Analyticator settings saved."
 msgstr "S'han desat els paràmetres de Google Analyticator"
 
@@ -267,17 +257,17 @@ msgstr "S'han desat els paràmetres de Google Analyticator"
 msgid "Google Analytics Stats"
 msgstr "Estadístiques de Google Analytics"
 
-#: google-analytics-summary-widget.php:67
+#: google-analytics-summary-widget.php:60
 msgid "Google Analytics Summary"
 msgstr "Resum de Google Analytics"
 
-#: google-analyticator.php:553
+#: google-analyticator.php:495
 msgid "Google Analytics integration is currently <strong>DISABLED</strong>."
 msgstr ""
 "La integració de Google Analytics està actualment <strong>DESHABILITADA</"
 "strong>."
 
-#: google-analyticator.php:558
+#: google-analyticator.php:500
 msgid ""
 "Google Analytics integration is currently enabled, but you did not enter a "
 "UID. Tracking will not occur."
@@ -285,31 +275,28 @@ msgstr ""
 "La integració de Google Analytics està actualment habilitada, però no heu "
 "introduït un ID d'usuari. El seguiment no es produirà."
 
-#: google-analyticator.php:606
+#: google-analyticator.php:527
 msgid "Google Analytics logging is"
 msgstr "El registre de Google Analytics està"
 
 # XTEC ************ AFEGIT - New strings for localization support
 # 2015.12.30 @sarjona
 # 2016.10.26 @xaviernietosanchez
-#: google-analyticator.php:241
 msgid "Google Authentication Code"
 msgstr "Codi d'autenticació de Google"
 
-#: google-analyticator.php:531 google-analyticator.php:540
-#: google-analyticator.php:1521
+#: google-analyticator.php:484 google-analyticator.php:1388
 msgid "Grow your site faster!"
 msgstr "Feu créixer ràpid el vostre lloc!"
 
-#: google-analyticator.php:687
+#: google-analyticator.php:586
 msgid "Hide Google Analytics UID after saving"
 msgstr "Oculta l'ID d'usuari de Google Analytics després de desar-lo"
 
-#: google-analyticator.php:260
 msgid "I Don't Want To Authenticate Through Google"
 msgstr "No vull autenticar-me a través de Google"
 
-#: google-analyticator.php:722
+#: google-analyticator.php:614
 msgid ""
 "If you are using Universal Analytics make sure you have changed your account "
 "to a Universal Analytics property in Google Analytics. Read more about "
@@ -321,7 +308,6 @@ msgstr ""
 "més sobre Universal Analytics <a href=\"https://support.google.com/analytics/"
 "answer/2817075?hl=en\" target=\"_blank\">here</a>."
 
-#: google-analyticator.php:261
 msgid ""
 "If you don't want to authenticate through Google and only use the tracking "
 "capability of the plugin"
@@ -329,7 +315,7 @@ msgstr ""
 "Si no voleu autenticar-vos a través de Google i només voleu utilitzar la "
 "capacitat de seguiment del connector"
 
-#: google-analyticator.php:882
+#: google-analyticator.php:774
 msgid ""
 "In order to use remarketing, <a href=\"https://support.google.com/analytics/"
 "answer/2611270\" target=\"_blank\">please make sure you complete this "
@@ -339,37 +325,37 @@ msgstr ""
 "com/analytics/answer/2611270\" target=\"_blank\">assegureu-vos de complir "
 "els requisits següents</a>"
 
-#: google-analyticator.php:1082
+#: google-analyticator.php:974
 msgid "Include widgets"
 msgstr "Inclou ginys"
 
-#: google-analytics-stats-widget.php:159
+#: google-analytics-stats-widget.php:123
 msgid "Inner background"
 msgstr "Fons intern"
 
-#: google-analytics-stats-widget.php:163
+#: google-analytics-stats-widget.php:127
 msgid "Line 1 text"
 msgstr "Text de la línia 1"
 
-#: google-analytics-stats-widget.php:165
+#: google-analytics-stats-widget.php:129
 msgid "Line 2 text"
 msgstr "Text de la línia 2"
 
-#: google-analyticator.php:912
+#: google-analyticator.php:804
 msgid "Link Tracking Settings"
 msgstr "Configuració de seguiment de vincles"
 
-#: google-analyticator.php:835
+#: google-analyticator.php:727
 msgid "Method to prevent tracking"
 msgstr "Mètode per evitar el seguiment"
 
-#: google-analyticator.php:741 google-analyticator.php:771
-#: google-analyticator.php:800 google-analyticator.php:869
-#: google-analyticator.php:902
+#: google-analyticator.php:633 google-analyticator.php:663
+#: google-analyticator.php:692 google-analyticator.php:761
+#: google-analyticator.php:794
 msgid "No"
 msgstr "No"
 
-#: google-analytics-summary-widget.php:288
+#: google-analytics-summary-widget.php:273
 msgid ""
 "No Analytics account selected. Double check you are authenticated with "
 "Google on Google Analyticator's settings page and make sure an account is "
@@ -379,59 +365,57 @@ msgstr ""
 "amb Google a la pàgina d'opcions del Google Analyticator i assegureu-vos que "
 "heu seleccionat un compte."
 
-#: google-analyticator.php:246
 msgid "Or"
 msgstr "O"
 
-#: google-analyticator.php:916
+#: google-analyticator.php:808
 msgid "Outbound link tracking"
 msgstr "Seguiment d'enllaços de sortida"
 
-#: google-analytics-stats-widget.php:155
+#: google-analytics-stats-widget.php:119
 msgid "Page background"
 msgstr "Fons de la pàgina"
 
-#: google-analytics-summary-widget.php:500
+#: google-analytics-summary-widget.php:485
 msgid "Pages/Visit"
 msgstr "Pàgines/Visites"
 
-#: google-analytics-summary-widget.php:486
+#: google-analytics-summary-widget.php:471
 msgid "Pageviews"
 msgstr "Pàgines vistes"
 
-#: google-analytics-summary-widget.php:256
+#: google-analytics-summary-widget.php:241
 msgid "Past 30 days"
 msgstr "Darrers 30 dies"
 
-#: google-analytics-summary-widget.php:257
+#: google-analytics-summary-widget.php:242
 msgid "Past 60 days"
 msgstr "Darrers 60 dies"
 
-#: google-analyticator.php:1012
+#: google-analyticator.php:904
 msgid "Prefix download links with"
 msgstr "Prefixa els enllaços de descàrrega"
 
-#: google-analyticator.php:998
+#: google-analyticator.php:890
 msgid "Prefix external links with"
 msgstr "Prefixa els enllaços externs amb"
 
-#: google-analyticator.php:843
+#: google-analyticator.php:735
 msgid "Remove"
 msgstr "Elimina"
 
-#: google-analyticator.php:309
+#: google-analyticator.php:265
 msgid "Reset"
 msgstr "Reinicialitza"
 
-#: google-analyticator.php:252
 msgid "Save &amp; Continue"
 msgstr "Desa i continua"
 
-#: google-analyticator.php:754 google-analyticator.php:1129
+#: google-analyticator.php:646 google-analyticator.php:1021
 msgid "Save Changes"
 msgstr "Desa els canvis"
 
-#: google-analyticator.php:806
+#: google-analyticator.php:698
 msgid ""
 "Selecting \"no\" to this option will prevent logged in WordPress users from "
 "showing up on your Google Analytics reports. This setting will prevent "
@@ -443,7 +427,7 @@ msgstr ""
 "vosaltres o altres usuaris aparegueu en els informes d'Analytics. Utilitzeu "
 "la configuració següent per determinar quins grups d'usuaris s'ha excloure."
 
-#: google-analyticator.php:856
+#: google-analyticator.php:748
 msgid ""
 "Selecting the \"Remove\" option will physically remove the tracking code "
 "from logged in users. Selecting the \"Use 'admin' variable\" option will "
@@ -460,20 +444,20 @@ msgstr ""
 "configurar manualment el Google Analytics per excloure el seguiment de les "
 "pàgines vistes amb la variable 'admin'."
 
-#: google-analyticator.php:308
+#: google-analyticator.php:264
 msgid "Settings"
 msgstr "Configuració"
 
-#: google-analyticator.php:746
+#: google-analyticator.php:638
 msgid "Show our link on the admin dashboard. Pretty please."
 msgstr ""
 "Mostreu el nostre enllaç al tauler d''administració. Estarem molt agraïts."
 
-#: google-analytics-summary-widget.php:301
+#: google-analytics-summary-widget.php:286
 msgid "Site Usage"
 msgstr "Ús del lloc"
 
-#: google-analyticator.php:1123
+#: google-analyticator.php:1015
 msgid ""
 "Specifies the user roles that can see the dashboard widget. If a user is not "
 "in one of these role groups, they will not see the dashboard widget."
@@ -482,7 +466,7 @@ msgstr ""
 "usuari no es troba en algun d'aquests grups de rols, no podrà veure el giny "
 "del tauler."
 
-#: google-analyticator.php:830
+#: google-analyticator.php:722
 msgid ""
 "Specifies the user roles to not include in your WordPress Analytics report. "
 "If a user is logged into WordPress with one of these roles, they will not "
@@ -496,7 +480,7 @@ msgstr ""
 msgid "SumoMe"
 msgstr "SumoMe"
 
-#: google-analyticator.php:728
+#: google-analyticator.php:620
 msgid "Support us"
 msgstr "Doneu-nos suport"
 
@@ -508,26 +492,26 @@ msgstr ""
 "No hi ha cap compte de Google Analytics associat. Si us plau, creeu un "
 "compte abans de continuar."
 
-#: google-analytics-summary-widget.php:458
+#: google-analytics-summary-widget.php:443
 msgid "The most visits on a single day was %d. Yesterday there were %d visits."
 msgstr ""
 "El nombre més gran de visites en un sol dia és %d. Ahir van haver %d visites."
 
-#: google-analytics-summary-widget.php:524
-#: google-analytics-summary-widget.php:597
-#: google-analytics-summary-widget.php:623
+#: google-analytics-summary-widget.php:509
+#: google-analytics-summary-widget.php:582
+#: google-analytics-summary-widget.php:608
 msgid "There is no data for view."
 msgstr "No hi ha informació per mostrar."
 
-#: google-analyticator.php:908
+#: google-analyticator.php:800
 msgid "This will track all access to wp-login.php"
 msgstr "Es registraran tots els accessos a la pàgina wp-login.php"
 
-#: google-analytics-stats-widget.php:151
+#: google-analytics-stats-widget.php:115
 msgid "Title"
 msgstr "Títol"
 
-#: google-analyticator.php:885
+#: google-analyticator.php:777
 msgid ""
 "To use remarketing, <a href=\"https://support.google.com/analytics/"
 "answer/2884495\" target=\"_blank\">Edit permission</a> is required"
@@ -536,35 +520,35 @@ msgstr ""
 "google.com/analytics/answer/2884495\" target=\"_blank\">Editar els permisos</"
 "a>"
 
-#: google-analytics-summary-widget.php:307
+#: google-analytics-summary-widget.php:292
 msgid "Top Pages"
 msgstr "Pàgines principals"
 
-#: google-analytics-summary-widget.php:316
+#: google-analytics-summary-widget.php:301
 msgid "Top Referrers"
 msgstr "Referents principals"
 
-#: google-analytics-summary-widget.php:325
+#: google-analytics-summary-widget.php:310
 msgid "Top Searches"
 msgstr "Cerques principals"
 
-#: google-analyticator.php:889
+#: google-analyticator.php:781
 msgid "Track WordPress Login Page"
 msgstr "Seguiment de la pàgina de validació de WordPress"
 
-#: google-analyticator.php:787
+#: google-analyticator.php:679
 msgid "Track all logged in WordPress users"
 msgstr "Fes seguiment de tots els usuaris registrats de WordPress"
 
-#: google-analyticator.php:704
+#: google-analyticator.php:596
 msgid "Tracking Code"
 msgstr "Codi de seguiment"
 
-#: google-analyticator.php:758
+#: google-analyticator.php:650
 msgid "Tracking Settings"
 msgstr "Paràmetres de seguiment"
 
-#: google-analyticator.php:1358
+#: google-analyticator.php:1239
 msgid ""
 "Tracking code is hidden, since the settings specify not to track admins. "
 "Tracking is occurring for non-admins."
@@ -573,67 +557,64 @@ msgstr ""
 "seguir als administradors. El seguiment es fa per a usuaris no "
 "administradors."
 
-#: google-analyticator.php:717
+#: google-analyticator.php:609
 msgid "Traditional (ga.js)"
 msgstr "Tradicional (ga.js)"
 
 # First line. In Catalan is better interchange Unique and Visitors texts
-#: google-analytics-stats-widget.php:88
 msgid "Unique"
 msgstr "Visitants"
 
-#: google-analyticator.php:712
+#: google-analyticator.php:604
 msgid "Universal (analytics.js)"
 msgstr "Universal (analytics.js)"
 
-#: google-analyticator.php:848
+#: google-analyticator.php:740
 msgid "Use 'admin' variable"
 msgstr "Utilitza la variable 'admin'"
 
-#: google-analyticator.php:1104
+#: google-analyticator.php:996
 msgid "User roles that can see the dashboard widget"
 msgstr "Rols d'usuari que poden veure el giny del tauler"
 
-#: google-analyticator.php:811
+#: google-analyticator.php:703
 msgid "User roles to not track"
 msgstr "Rols d'usuari que no s'han de seguir"
 
-#: google-analytics-summary-widget.php:137
-#: google-analytics-summary-widget.php:141
+#: google-analytics-summary-widget.php:128
 msgid "View Full Stat Report"
 msgstr "Veure l'informe complet d'estadístiques"
 
-#: google-analytics-summary-widget.php:570
+#: google-analytics-summary-widget.php:555
 msgid "Views"
 msgstr "Vistes"
 
 # Second line. In Catalan is better interchange Unique and Visitors texts
-#: google-analytics-stats-widget.php:88
 msgid "Visitors"
 msgstr "Únics"
 
-#: google-analytics-summary-widget.php:230
-#: google-analytics-summary-widget.php:476
-#: google-analytics-summary-widget.php:604
-#: google-analytics-summary-widget.php:629
+#: google-analytics-summary-widget.php:215
+#: google-analytics-summary-widget.php:461
+#: google-analytics-summary-widget.php:589
+#: google-analytics-summary-widget.php:614
 msgid "Visits"
 msgstr "Visites"
 
-#: google-analytics-stats-widget.php:157
+#: google-analytics-stats-widget.php:121
 msgid "Widget background"
 msgstr "Fons del giny"
 
-#: google-analyticator.php:736 google-analyticator.php:776
-#: google-analyticator.php:795 google-analyticator.php:875
-#: google-analyticator.php:897
+#: google-analyticator.php:628 google-analyticator.php:668
+#: google-analyticator.php:687 google-analyticator.php:767
+#: google-analyticator.php:789
 msgid "Yes"
 msgstr "Sí"
 
-#: google-analytics-summary-widget.php:258
+#: google-analytics-summary-widget.php:243
 msgid "Yesterday"
 msgstr "Ahir"
 
-#: google-analyticator.php:980
+#: google-analyticator.php:872
 msgid ""
 "You can tag your pages to implement an enhanced link-tracking functionality "
 "by enabling this option. <a href=\"https://support.google.com/analytics/"
@@ -643,7 +624,7 @@ msgstr ""
 "seguiment d'enllaços millorat. <a href=\"https://support.google.com/"
 "analytics/answer/2558867?hl=en\" target=\"_blank\">learn more</a>"
 
-#: google-analyticator.php:1076
+#: google-analyticator.php:968
 msgid ""
 "You have not authenticated with Google - you cannot use dashboard widgets! "
 "Reset the plugin to authenticate.."
@@ -651,7 +632,6 @@ msgstr ""
 "No us heu autenticat amb Google - no podeu utilitzar els ginys del tauler! "
 "Reinicialitzeu l'extensió per autenticar-vos."
 
-#: google-analyticator.php:242
 msgid ""
 "You need to sign in to Google and grant this plugin access to your Google "
 "Analytics account"
@@ -659,7 +639,6 @@ msgstr ""
 "És necessari iniciar sessió a Google i atorgar permís a aquesta extensió per "
 "accedir al compte de Google Analytics"
 
-#: google-analyticator.php:262
 msgid ""
 "You will be asked on the next page to manually enter your Google Analytics "
 "UID."
@@ -667,15 +646,14 @@ msgstr ""
 "A la pàgina següent se us demanarà que introduïu manualment l'UID de Google "
 "Analytics."
 
-#: google-analyticator.php:1060
+#: google-analyticator.php:952
 msgid "after tracker initialization"
 msgstr "després de la inicialització del seguidor"
 
-#: google-analyticator.php:1044
+#: google-analyticator.php:936
 msgid "before tracker initialization"
 msgstr "abans de la inicialització del seguidor"
 
-#: google-analyticator.php:246
 msgid "here"
 msgstr "aquí"
 
@@ -691,14 +669,11 @@ msgstr ""
 "http://www.videousermanuals.com/google-analyticator/?"
 "utm_campaign=analyticator&utm_medium=plugin&utm_source=readme-txt"
 
-#: google-analyticator.php:246
 msgid "if you have popups blocked"
 msgstr "si teniu finestres emergents bloquejades"
 
-#: google-analyticator.php:261
 msgid "not the dashboard functionality"
 msgstr "sense la funcionalitat de quadre de comandament"
 
-#: google-analyticator.php:261
 msgid "you can do this by clicking the button below."
 msgstr "ho podeu fer fent clic al botó de sota."

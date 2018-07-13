@@ -2,18 +2,17 @@
 # This file is distributed under the same license as the Stable (latest release) package.
 msgid ""
 msgstr ""
-"Project-Id-Version: Stable (latest release)\n"
-"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/bbpress\n"
-"POT-Creation-Date: 2017-06-23 07:45:36+00:00\n"
 "PO-Revision-Date: 2015-11-27 14:56+0100\n"
-"Last-Translator: Mònica Grau <mgrau226@xtec.cat>\n"
-"Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ca\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Poedit 1.7.5\n"
+"Project-Id-Version: Stable (latest release)\n"
+"POT-Creation-Date: \n"
+"Last-Translator: Mònica Grau <mgrau226@xtec.cat>\n"
+"Language-Team: \n"
+"Language: ca\n"
 
 #: includes/forums/template.php:1254 includes/topics/template.php:2118
 msgid " (+ %d hidden)"
@@ -108,7 +107,7 @@ msgstr "%1$s ha informat aquest %2$s com a brossa"
 msgid "%1$s started the topic %2$s in the forum %3$s"
 msgstr "%1$s ha iniciat el tema %2$s al fòrum %3$s"
 
-#: includes/common/functions.php:1108
+#: includes/common/functions.php:1099
 msgid ""
 "%1$s wrote:\n"
 "\n"
@@ -136,7 +135,7 @@ msgstr ""
 "Inicieu sessió i visiteu el tema per esborrar-vos de la subscripció "
 "d'aquests correus electrònics."
 
-#: includes/common/functions.php:1265
+#: includes/common/functions.php:1256
 msgid ""
 "%1$s wrote:\n"
 "\n"
@@ -167,23 +166,23 @@ msgstr ""
 msgid "%s - %s"
 msgstr "%s - %s"
 
-#: includes/common/template.php:2621
+#: includes/common/template.php:2617
 msgid "%s Favorites"
 msgstr "Preferits de %s"
 
-#: includes/common/template.php:2629
+#: includes/common/template.php:2625
 msgid "%s Profile"
 msgstr "Perfil de %s"
 
-#: includes/common/template.php:2617
+#: includes/common/template.php:2613
 msgid "%s Replies"
 msgstr "Respostes de %s"
 
-#: includes/common/template.php:2625
+#: includes/common/template.php:2621
 msgid "%s Subscriptions"
 msgstr "Subscripcions de %s"
 
-#: includes/common/template.php:2613
+#: includes/common/template.php:2609
 msgid "%s Topics"
 msgstr "Temes de %s"
 
@@ -213,7 +212,7 @@ msgid_plural "%s voices"
 msgstr[0] "%s opinió\t"
 msgstr[1] "%s opinions"
 
-#: includes/common/template.php:2608
+#: includes/common/template.php:2604
 msgctxt "User viewing another users profile"
 msgid "%s's"
 msgstr "%s"
@@ -442,11 +441,11 @@ msgstr "<strong>ERROR</strong>: no s'ha trobat l'identificador del fòrum."
 msgid "<strong>ERROR</strong>: Forum does not exist."
 msgstr "<strong>ERROR</strong>: El fòrum no existeix."
 
-#: includes/common/functions.php:633
+#: includes/common/functions.php:624
 msgid "<strong>ERROR</strong>: Invalid author name submitted!"
 msgstr "<strong>ERROR</strong>: s'ha enviat un nom d'autor incorrecte!"
 
-#: includes/common/functions.php:637
+#: includes/common/functions.php:628
 msgid "<strong>ERROR</strong>: Invalid email address submitted!"
 msgstr "<strong>ERROR</strong>: Adreça de correu electrònic enviada no vàlida."
 
@@ -1639,11 +1638,15 @@ msgstr "Millor gestió d'estils i scripts a la pila de plantilla."
 msgid "Biographical Info"
 msgstr "Informació biogràfica"
 
+#: includes/core/capabilities.php:404
+msgid "Blocked"
+msgstr "Blocat"
+
 #. translators: user role
 #: includes/common/locale.php:56
 msgctxt "User role"
 msgid "Blocked"
-msgstr ""
+msgstr "Blocat"
 
 #: templates/default/bbpress/form-user-roles.php:13
 msgid "Blog Role"
@@ -1743,12 +1746,12 @@ msgctxt "Close the topic"
 msgid "Closed"
 msgstr "Tancat"
 
-#: bbpress.php:594
+#: bbpress.php:569
 msgctxt "post"
 msgid "Closed"
 msgstr "Tancat"
 
-#: bbpress.php:595
+#: bbpress.php:570
 msgctxt "post"
 msgid "Closed <span class=\"count\">(%s)</span>"
 msgid_plural "Closed <span class=\"count\">(%s)</span>"
@@ -1778,7 +1781,7 @@ msgstr ""
 msgid "Complete! %s users updated."
 msgstr "Fet! s'han actualitzat %s usuaris."
 
-#: includes/common/functions.php:2033
+#: includes/common/functions.php:2024
 msgid ""
 "Conditional query tags do not work before the query is run. Before then, "
 "they always return false."
@@ -2117,7 +2120,7 @@ msgstr "Mostra el nom"
 msgid "Edit"
 msgstr "Edita"
 
-#: includes/common/template.php:2642
+#: includes/common/template.php:2638
 #: templates/default/bbpress/user-details.php:65
 msgid "Edit %s's Profile"
 msgstr "Edita el perfil de %s"
@@ -2138,7 +2141,7 @@ msgstr "Edita l'etiqueta"
 msgid "Edit Topic"
 msgstr "Edita el tema"
 
-#: includes/common/template.php:2637
+#: includes/common/template.php:2633
 msgid "Edit Your Profile"
 msgstr "Edita el perfil"
 
@@ -2284,7 +2287,7 @@ msgstr "Activitat del fòrum"
 msgid "Forum Attributes"
 msgstr "Atributs del fòrum"
 
-#: includes/common/template.php:2559
+#: includes/common/template.php:2555
 msgid "Forum Edit: %s"
 msgstr "Edició del fòrum: %s"
 
@@ -2452,7 +2455,7 @@ msgstr "Fòrum:"
 msgid "Forum: "
 msgstr "Fòrum:"
 
-#: includes/common/template.php:2581
+#: includes/common/template.php:2577
 msgid "Forum: %s"
 msgstr "Fòrum: %s"
 
@@ -2546,12 +2549,12 @@ msgctxt "Make forum hidden"
 msgid "Hidden"
 msgstr "Ocult"
 
-#: bbpress.php:631
+#: bbpress.php:606
 msgctxt "post"
 msgid "Hidden"
 msgstr "Ocult"
 
-#: bbpress.php:632
+#: bbpress.php:607
 msgctxt "post"
 msgid "Hidden <span class=\"count\">(%s)</span>"
 msgid_plural "Hidden <span class=\"count\">(%s)</span>"
@@ -2744,11 +2747,15 @@ msgid "Keep this low if you experience out-of-memory issues."
 msgstr ""
 "Manteniu aquest valor baix si experimenteu problemes de falta de memòria."
 
+#: includes/core/capabilities.php:380
+msgid "Keymaster"
+msgstr "Clau mestra"
+
 #. translators: user role
 #: includes/common/locale.php:44
 msgctxt "User role"
 msgid "Keymaster"
-msgstr ""
+msgstr "Gestor de comptes"
 
 #: templates/default/bbpress/form-user-edit.php:29
 msgid "Last Name"
@@ -2772,7 +2779,7 @@ msgstr "Deixeu l'URL buit per tenir-ne un generat automàticament."
 msgid "Log In"
 msgstr "Entra"
 
-#: includes/common/template.php:2505
+#: includes/common/template.php:2501
 msgid "Log Out"
 msgstr "Surt"
 
@@ -2785,7 +2792,7 @@ msgstr "Contrasenya perduda"
 msgid "Lost Password URI:"
 msgstr "URL de la pèrdua de la contrasenya:"
 
-#. translators: Publish box date format, see http://php.net/date
+#. translators: Publish box date format, see http:php.net/date
 #: includes/admin/forums.php:558 includes/admin/replies.php:878
 #: includes/admin/topics.php:948
 msgid "M j, Y @ G:i"
@@ -2874,13 +2881,17 @@ msgctxt "admin color scheme"
 msgid "Mint"
 msgstr "Menta"
 
+#: includes/core/capabilities.php:386
+msgid "Moderator"
+msgstr "Moderador"
+
 #. translators: user role
 #: includes/common/locale.php:47
 msgctxt "User role"
 msgid "Moderator"
-msgstr ""
+msgstr "Moderador"
 
-#: bbpress.php:702
+#: bbpress.php:677
 msgid "Most popular topics"
 msgstr "Temes més populars"
 
@@ -3212,12 +3223,12 @@ msgstr "Ordenats per:"
 msgid "Order:"
 msgstr "Ordre:"
 
-#: bbpress.php:618
+#: bbpress.php:593
 msgctxt "post"
 msgid "Orphan"
 msgstr "Orfe"
 
-#: bbpress.php:619
+#: bbpress.php:594
 msgctxt "post"
 msgid "Orphan <span class=\"count\">(%s)</span>"
 msgid_plural "Orphans <span class=\"count\">(%s)</span>"
@@ -3245,11 +3256,15 @@ msgstr "Fòrum pare:"
 msgid "Parent:"
 msgstr "Pare:"
 
+#: includes/core/capabilities.php:392
+msgid "Participant"
+msgstr "Participant"
+
 #. translators: user role
 #: includes/common/locale.php:50
 msgctxt "User role"
 msgid "Participant"
-msgstr ""
+msgstr "Participant"
 
 #: includes/common/widgets.php:97
 #: templates/default/bbpress/form-user-login.php:22
@@ -3345,7 +3360,7 @@ msgctxt "Make forum private"
 msgid "Private"
 msgstr "Privat"
 
-#: includes/common/functions.php:521 includes/common/functions.php:553
+#: includes/common/functions.php:512 includes/common/functions.php:544
 msgid "Private: %s"
 msgstr "Privat: %s"
 
@@ -3607,7 +3622,7 @@ msgstr "La resposta \"%1$s\" s'ha desmarcat correctament de la brossa."
 msgid "Reply Attributes"
 msgstr "Atributs de les repostes"
 
-#: includes/common/template.php:2569
+#: includes/common/template.php:2565
 msgid "Reply Edit: %s"
 msgstr "Edició de la resposta: %s"
 
@@ -3748,7 +3763,7 @@ msgid "Screen Content"
 msgstr "Contingut de la pantalla"
 
 #: includes/admin/settings.php:166 includes/admin/settings.php:333
-#: includes/common/template.php:2334 includes/search/template.php:225
+#: includes/common/template.php:2330 includes/search/template.php:225
 #: templates/default/bbpress/form-search.php:17
 msgid "Search"
 msgstr "Cerca"
@@ -3884,27 +3899,31 @@ msgctxt "Spam the topic"
 msgid "Spam"
 msgstr "Brossa"
 
-#: bbpress.php:605
+#: bbpress.php:580
 msgctxt "post"
 msgid "Spam"
 msgstr "Brossa"
 
-#: bbpress.php:606
+#: bbpress.php:581
 msgctxt "post"
 msgid "Spam <span class=\"count\">(%s)</span>"
 msgid_plural "Spam <span class=\"count\">(%s)</span>"
 msgstr[0] "Brossa <span class=\"count\">(%s)</span>"
 msgstr[1] "Brosses <span class=\"count\">(%s)</span>"
 
-#: includes/common/functions.php:522 includes/common/functions.php:554
+#: includes/common/functions.php:513 includes/common/functions.php:545
 msgid "Spammed: %s"
 msgstr "Marcat com a brossa: %s"
+
+#: includes/core/capabilities.php:398
+msgid "Spectator"
+msgstr "Espectador"
 
 #. translators: user role
 #: includes/common/locale.php:53
 msgctxt "User role"
 msgid "Spectator"
-msgstr ""
+msgstr "Espectador"
 
 #: includes/replies/template.php:2236
 msgid "Split"
@@ -4082,6 +4101,10 @@ msgstr "La comunitat del bbPress"
 #: includes/common/widgets.php:384
 msgid "The bbPress forum search form."
 msgstr "El formulari de cerca del fòrum del bbPress."
+
+#: includes/core/sub-actions.php:147
+msgid "The current user is being initialized without using $wp->init()."
+msgstr "L'usuari actual s'està inicialitzant sense utilitzar $wp->init()."
 
 #: includes/admin/tools.php:1216
 msgid "The following data will be removed:"
@@ -4501,7 +4524,7 @@ msgstr "El tema \"%1$s\" s'ha desenganxat correctament."
 msgid "Topic Attributes"
 msgstr "Atributs del tema"
 
-#: includes/common/template.php:2564
+#: includes/common/template.php:2560
 msgid "Topic Edit: %s"
 msgstr "Edició del tema: %s"
 
@@ -4529,12 +4552,12 @@ msgid_plural "Topic Tags"
 msgstr[0] "Etiqueta del tema"
 msgstr[1] "Etiquetes del tema"
 
-#: includes/common/template.php:2574
+#: includes/common/template.php:2570
 msgid "Topic Tag Edit: %s"
 msgstr "Edició de l'etiqueta del tema: %s"
 
-#: includes/common/template.php:2212 includes/common/template.php:2330
-#: includes/common/template.php:2595 includes/core/theme-compat.php:739
+#: includes/common/template.php:2212 includes/common/template.php:2326
+#: includes/common/template.php:2591 includes/core/theme-compat.php:739
 #: templates/default/extras/taxonomy-topic-tag-edit.php:17
 #: templates/default/extras/taxonomy-topic-tag.php:17
 msgid "Topic Tag: %s"
@@ -4634,7 +4657,7 @@ msgstr "Tema:"
 msgid "Topic: "
 msgstr "Tema:"
 
-#: includes/common/template.php:2586
+#: includes/common/template.php:2582
 msgid "Topic: %s"
 msgstr "Tema: %s"
 
@@ -4678,7 +4701,7 @@ msgstr "Base dels temes"
 msgid "Topics by Freshness"
 msgstr "Els temes pels més nous"
 
-#: bbpress.php:714
+#: bbpress.php:689
 msgid "Topics with no replies"
 msgstr "Temes sense resposta"
 
@@ -4692,7 +4715,7 @@ msgctxt "Trash the topic"
 msgid "Trash"
 msgstr "Escombraries"
 
-#: includes/common/functions.php:523 includes/common/functions.php:555
+#: includes/common/functions.php:514 includes/common/functions.php:546
 msgid "Trashed: %s"
 msgstr "A la paperera: %s"
 
@@ -4863,7 +4886,7 @@ msgstr "Mostra l'etiqueta del tema"
 msgid "View base"
 msgstr "Vista base"
 
-#: includes/common/template.php:2650
+#: includes/common/template.php:2646
 msgid "View: %s"
 msgstr "Mostra: %s"
 
@@ -5353,7 +5376,7 @@ msgid "You should clean old conversion information before starting over."
 msgstr ""
 "Heu de netejar la informació de la conversa antiga abans de recomençar."
 
-#: includes/common/template.php:2604
+#: includes/common/template.php:2600
 msgctxt "User viewing his/her own profile"
 msgid "Your"
 msgstr "Tu"
@@ -5392,19 +5415,19 @@ msgstr ""
 msgid "bbPress"
 msgstr "bbPress"
 
-#: bbpress.php:405 templates/default/bbpress-functions.php:51
+#: bbpress.php:404 templates/default/bbpress-functions.php:51
 msgid "bbPress Default"
 msgstr "Predeterminat del bbPress"
 
-#: bbpress.php:485
+#: bbpress.php:484
 msgid "bbPress Forums"
 msgstr "Fòrums del bbPress"
 
-#: bbpress.php:551
+#: bbpress.php:534
 msgid "bbPress Replies"
 msgstr "Respostes del bbPress"
 
-#: bbpress.php:518
+#: bbpress.php:509
 msgid "bbPress Topics"
 msgstr "Temes del bbPress"
 
@@ -5461,9 +5484,14 @@ msgstr "hora"
 msgid "hours"
 msgstr "hores"
 
-#. #-#-#-#-#  bbpress.pot (bbPress 2.5.11)  #-#-#-#-#
 #. Plugin URI of the plugin/theme
-#. #-#-#-#-#  bbpress.pot (bbPress 2.5.11)  #-#-#-#-#
+#. Author URI of the plugin/theme
+msgid "http://bbpress.org"
+msgstr "http://bbpress.org"
+
+#. #-#-#-#-#  bbpress-code.pot (bbPress 2.5.13)  #-#-#-#-#
+#. Plugin URI of the plugin/theme
+#. #-#-#-#-#  bbpress-code.pot (bbPress 2.5.13)  #-#-#-#-#
 #. Author URI of the plugin/theme
 msgid "https://bbpress.org"
 msgstr "http://bbpress.org"

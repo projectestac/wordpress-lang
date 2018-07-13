@@ -1,24 +1,23 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Slideshow Plugin\n"
-"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/slideshow-jquery-"
-"image-gallery\n"
-"POT-Creation-Date: 2017-06-28 08:23:14+00:00\n"
-"PO-Revision-Date: 2014-08-19 11:53+0100\n"
-"Last-Translator: Violeta Rosales <ellaes@violetarosales.com>\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-08-19 11:53+0100\n"
+"PO-Revision-Date: 2018-07-13 16:36+0200\n"
+"Last-Translator: Joan Sala Soler <jsala236@xtec.cat>\n"
 "Language-Team: Stefan Boonstra <wordpress@stefanboonstra.com>\n"
 "Language: es_ES\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-KeywordsList: _e;__\n"
-"X-Poedit-Basepath: ../\n"
-"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-Basepath: ..\n"
+"X-Generator: Poedit 2.0.4\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-SearchPath-0: .\n"
 
-#: views/SlideshowPluginSlideshowSlide/backend_templates.php:54
-#: views/SlideshowPluginSlideshowSlide/backend_text.php:121
+#: views/SlideshowPluginSlideshowSlide/backend_templates.php:53
+#: views/SlideshowPluginSlideshowSlide/backend_text.php:115
 msgid "(Leave empty for a transparent background)"
 msgstr ""
 
@@ -28,133 +27,143 @@ msgstr ""
 "Activar botones (para que el usuario pueda desplazarse entre las "
 "diapositivas)"
 
-#: classes/SlideshowPluginSlideshowSettingsHandler.php:625
+#: classes/SlideshowPluginSlideshowSettingsHandler.php:538
 msgid "Activate control panel (play and pause button)"
 msgstr ""
 
-#: classes/SlideshowPluginSlideshowSettingsHandler.php:621
+#: classes/SlideshowPluginSlideshowSettingsHandler.php:534
+#, fuzzy
 msgid "Activate navigation buttons"
-msgstr ""
+msgstr "Botones horizontales"
 
-#: classes/SlideshowPluginSlideshowSettingsHandler.php:623
+#: classes/SlideshowPluginSlideshowSettingsHandler.php:536
+#, fuzzy
 msgid "Activate pagination"
-msgstr ""
+msgstr "Paginación"
 
 #: classes/SlideshowPluginPostType.php:47
 msgid "Add New Slideshow"
 msgstr "Agregar Nueva Diapositiva"
 
-#: views/SlideshowPluginPostType/slides.php:16
+#: classes/SlideshowPluginPostType.php:240
+#: views/SlideshowPluginPostType/slides.php:10
 msgid "Add slides to this slideshow by using one of the buttons above."
 msgstr "Agrega una diapositiva usando uno de los botones de abajo."
 
-#: views/SlideshowPluginGeneralSettings/general-settings-tab.php:14
-msgid "Add slideshows"
-msgstr ""
-
-#: classes/SlideshowPluginSlideshowSettingsHandler.php:374
-msgid "Album not available. Album ID not valid?"
-msgstr ""
-
-#: classes/SlideshowPluginPostType.php:54
+#: views/SlideshowPluginGeneralSettings/general-settings-tab.php:11
 #, fuzzy
-msgid "All Slideshows"
-msgstr "Diapositivas"
+msgid "Add slideshows"
+msgstr "Agregar a favoritos"
 
-#: views/SlideshowPluginSlideshowSlide/backend_attachment.php:174
-#: views/SlideshowPluginSlideshowSlide/backend_templates.php:198
+#: views/SlideshowPluginSlideshowSlide/backend_attachment.php:168
+#: views/SlideshowPluginSlideshowSlide/backend_templates.php:197
+#, fuzzy
 msgid "Alternative text"
+msgstr "Texto alternativo"
+
+#: views/SlideshowPluginPostType/slides.php:171
+msgid ""
+"An error occurred while loading this slide, and it will not be present in "
+"the slideshow"
 msgstr ""
+"Ha ocurrido un error miestras se cargaba esta diapositiva y no puede ser "
+"presentada"
 
 #: classes/SlideshowPluginInstaller.php:805
 #: classes/SlideshowPluginInstaller.php:806
 #: classes/SlideshowPluginInstaller.php:807
 #: classes/SlideshowPluginInstaller.php:808
-#: classes/SlideshowPluginSlideshowSettingsHandler.php:636
-#: classes/SlideshowPluginSlideshowSettingsHandler.php:637
-#: classes/SlideshowPluginSlideshowSettingsHandler.php:638
-#: classes/SlideshowPluginSlideshowSettingsHandler.php:639
+#: classes/SlideshowPluginSlideshowSettingsHandler.php:547
+#: classes/SlideshowPluginSlideshowSettingsHandler.php:548
+#: classes/SlideshowPluginSlideshowSettingsHandler.php:549
+#: classes/SlideshowPluginSlideshowSettingsHandler.php:550
 msgid "Animation"
 msgstr "Animación"
 
 #: classes/SlideshowPluginInstaller.php:805
-#: classes/SlideshowPluginSlideshowSettingsHandler.php:600
+#: classes/SlideshowPluginSlideshowSettingsHandler.php:518
 msgid "Animation used for transition between slides"
 msgstr "Animación para las transiciones entre las diapositivas"
 
-#: classes/SlideshowPluginGeneralSettings.php:154
+#: classes/SlideshowPluginGeneralSettings.php:151
+#, fuzzy
 msgid "Are you sure you want to delete this custom style?"
-msgstr ""
+msgstr "¿Está seguro que deseas eliminar todas las opciones de AddToAny?"
 
-#: classes/SlideshowPluginSlideInserter.php:77
+#: classes/SlideshowPluginSlideInserter.php:332
 msgid "Are you sure you want to delete this slide?"
 msgstr "¿Estás seguro de que quieres borrar esta diapositiva?"
 
 #: classes/SlideshowPluginInstaller.php:816
-#: classes/SlideshowPluginSlideshowSettingsHandler.php:618
+#: classes/SlideshowPluginSlideshowSettingsHandler.php:531
 msgid "Automatically slide to the next slide"
 msgstr "Pasar automáticamente a la siguiente diapositiva"
 
-#: classes/SlideshowPluginSlideshowSettingsHandler.php:630
+#: classes/SlideshowPluginSlideshowSettingsHandler.php:543
+#, php-format
 msgid "Avoid content filter (disable if '%s' is shown)"
 msgstr "Evitar filtro de contenido (desactivar si '%s' se muestra)"
 
-#: views/SlideshowPluginSlideshowSlide/backend_templates.php:52
-#: views/SlideshowPluginSlideshowSlide/backend_text.php:119
+#: views/SlideshowPluginPostType/slides.php:63
+#: views/SlideshowPluginPostType/slides.php:200
+#: views/SlideshowPluginSlideshowSlide/backend_templates.php:51
+#: views/SlideshowPluginSlideshowSlide/backend_text.php:113
 msgid "Background color"
 msgstr "Color de fondo"
 
-#: views/SlideshowPluginShortcode/shortcode-inserter.php:58
+#: views/SlideshowPluginShortcode/shortcode-inserter.php:56
 msgid "Cancel"
 msgstr "Cancelar"
 
-#: views/SlideshowPluginGeneralSettings/custom-styles-tab.php:116
-#: views/SlideshowPluginGeneralSettings/custom-styles-tab.php:119
+#: views/SlideshowPluginGeneralSettings/custom-styles-tab.php:110
 msgid "Click 'Customize' to create a new custom stylesheet."
 msgstr ""
 
-#: views/SlideshowPluginSlideshowSlide/backend_attachment.php:96
-#: views/SlideshowPluginSlideshowSlide/backend_templates.php:5
-#: views/SlideshowPluginSlideshowSlide/backend_templates.php:90
-#: views/SlideshowPluginSlideshowSlide/backend_templates.php:131
-#: views/SlideshowPluginSlideshowSlide/backend_text.php:64
-#: views/SlideshowPluginSlideshowSlide/backend_video.php:27
+#: views/SlideshowPluginSlideshowSlide/backend_attachment.php:92
+#: views/SlideshowPluginSlideshowSlide/backend_templates.php:4
+#: views/SlideshowPluginSlideshowSlide/backend_templates.php:89
+#: views/SlideshowPluginSlideshowSlide/backend_templates.php:130
+#: views/SlideshowPluginSlideshowSlide/backend_text.php:60
+#: views/SlideshowPluginSlideshowSlide/backend_video.php:23
 msgid "Click to toggle"
-msgstr ""
+msgstr "Haz clic para alternar"
 
-#: views/SlideshowPluginPostType/slides.php:12
+#: classes/SlideshowPluginPostType.php:234
+#, fuzzy
 msgid "Close all"
-msgstr ""
+msgstr "Cerrar todas las etiquetas abiertas"
 
 #: classes/SlideshowPluginInstaller.php:816
 #: classes/SlideshowPluginInstaller.php:817
 #: classes/SlideshowPluginInstaller.php:818
 #: classes/SlideshowPluginInstaller.php:819
-#: classes/SlideshowPluginSlideshowSettingsHandler.php:649
-#: classes/SlideshowPluginSlideshowSettingsHandler.php:650
-#: classes/SlideshowPluginSlideshowSettingsHandler.php:651
-#: classes/SlideshowPluginSlideshowSettingsHandler.php:652
-#: classes/SlideshowPluginSlideshowSettingsHandler.php:653
-#: classes/SlideshowPluginSlideshowSettingsHandler.php:654
-#: classes/SlideshowPluginSlideshowSettingsHandler.php:655
-#: classes/SlideshowPluginSlideshowSettingsHandler.php:656
-#: classes/SlideshowPluginSlideshowSettingsHandler.php:657
+#: classes/SlideshowPluginSlideshowSettingsHandler.php:560
+#: classes/SlideshowPluginSlideshowSettingsHandler.php:561
+#: classes/SlideshowPluginSlideshowSettingsHandler.php:562
+#: classes/SlideshowPluginSlideshowSettingsHandler.php:563
+#: classes/SlideshowPluginSlideshowSettingsHandler.php:564
+#: classes/SlideshowPluginSlideshowSettingsHandler.php:565
+#: classes/SlideshowPluginSlideshowSettingsHandler.php:566
+#: classes/SlideshowPluginSlideshowSettingsHandler.php:567
+#: classes/SlideshowPluginSlideshowSettingsHandler.php:568
 msgid "Control"
 msgstr "Control"
 
-#: classes/SlideshowPluginPostType.php:354
+#: classes/SlideshowPluginPostType.php:371
+#, fuzzy
 msgid "Copy"
-msgstr ""
+msgstr "Copiar"
 
-#: views/SlideshowPluginGeneralSettings/custom-styles-tab.php:62
+#: views/SlideshowPluginGeneralSettings/custom-styles-tab.php:60
 msgid "Create a new custom style from this style"
 msgstr ""
 
-#: classes/SlideshowPluginSlideshowSettingsHandler.php:646
+#: classes/SlideshowPluginSlideshowSettingsHandler.php:555
+#, fuzzy
 msgid "Crop to fit"
-msgstr ""
+msgstr "Recortar"
 
-#: classes/SlideshowPluginSlideshowSettingsHandler.php:636
+#: classes/SlideshowPluginSlideshowSettingsHandler.php:547
 msgid "Cross Fade"
 msgstr ""
 
@@ -162,84 +171,102 @@ msgstr ""
 msgid "Custom"
 msgstr "Personalizar"
 
-#: views/SlideshowPluginGeneralSettings/general-settings.php:18
+#: views/SlideshowPluginGeneralSettings/general-settings.php:16
+#, fuzzy
 msgid "Custom Styles"
-msgstr ""
+msgstr "Estilos de las pestañas"
 
 #: classes/SlideshowPluginInstaller.php:804
-#: views/SlideshowPluginGeneralSettings/custom-styles-tab.php:137
+#: views/SlideshowPluginGeneralSettings/custom-styles-tab.php:126
 msgid "Custom style editor"
 msgstr "Editor de estilo personalizado"
 
 #: views/SlideshowPluginPostType/style-settings.php:22
+#, php-format
 msgid "Custom styles can be created and customized %shere%s."
 msgstr ""
 
-#: views/SlideshowPluginGeneralSettings/custom-styles-tab.php:78
+#: views/SlideshowPluginGeneralSettings/custom-styles-tab.php:76
+#, fuzzy
 msgid "Custom stylesheets"
-msgstr ""
+msgstr "Usar iconos personalizados. URL:"
 
-#: views/SlideshowPluginGeneralSettings/custom-styles-tab.php:64
+#: views/SlideshowPluginGeneralSettings/custom-styles-tab.php:62
+#, fuzzy
 msgid "Customize"
-msgstr ""
+msgstr "Personalizar"
 
-#: classes/SlideshowPluginGeneralSettings.php:211
+#: classes/SlideshowPluginGeneralSettings.php:197
 #: classes/SlideshowPluginInstaller.php:803
-#: views/SlideshowPluginGeneralSettings/custom-styles-tab.php:9
+#: views/SlideshowPluginGeneralSettings/custom-styles-tab.php:7
 msgid "Dark"
 msgstr "Obscuro"
 
-#: views/SlideshowPluginPostType/settings.php:40
-#: views/SlideshowPluginPostType/style-settings.php:12
+#: views/SlideshowPluginPostType/settings.php:26
+#: views/SlideshowPluginPostType/style-settings.php:11
 msgid "Default"
 msgstr "Por defecto"
 
-#: views/SlideshowPluginGeneralSettings/default-slideshow-settings-tab.php:31
-#: views/SlideshowPluginGeneralSettings/general-settings.php:17
+#: views/SlideshowPluginGeneralSettings/default-slideshow-settings-tab.php:29
+#: views/SlideshowPluginGeneralSettings/general-settings.php:15
+#, fuzzy
 msgid "Default Slideshow Settings"
-msgstr ""
+msgstr "Por defecto"
 
-#: views/SlideshowPluginGeneralSettings/default-slideshow-settings-tab.php:79
+#: views/SlideshowPluginGeneralSettings/default-slideshow-settings-tab.php:77
+#, fuzzy
 msgid "Default Slideshow Stylesheet"
-msgstr ""
+msgstr "Por defecto"
 
-#: views/SlideshowPluginGeneralSettings/custom-styles-tab.php:48
+#: views/SlideshowPluginGeneralSettings/custom-styles-tab.php:46
+#, fuzzy
 msgid "Default stylesheets"
-msgstr ""
+msgstr "Ancho por defecto"
 
-#: views/SlideshowPluginGeneralSettings/custom-styles-tab.php:102
-#: views/SlideshowPluginGeneralSettings/custom-styles-tab.php:194
+#: views/SlideshowPluginGeneralSettings/custom-styles-tab.php:100
+#: views/SlideshowPluginGeneralSettings/custom-styles-tab.php:183
 msgid "Delete"
 msgstr "Borrar"
 
-#: views/SlideshowPluginSlideshowSlide/backend_attachment.php:180
-#: views/SlideshowPluginSlideshowSlide/backend_templates.php:77
-#: views/SlideshowPluginSlideshowSlide/backend_templates.php:118
-#: views/SlideshowPluginSlideshowSlide/backend_templates.php:204
-#: views/SlideshowPluginSlideshowSlide/backend_text.php:144
-#: views/SlideshowPluginSlideshowSlide/backend_video.php:55
+#: views/SlideshowPluginPostType/slides.php:177
+#: views/SlideshowPluginPostType/slides.php:218
+#: views/SlideshowPluginPostType/slides.php:243
+#: views/SlideshowPluginPostType/slides.php:289
+#: views/SlideshowPluginSlideshowSlide/backend_attachment.php:174
+#: views/SlideshowPluginSlideshowSlide/backend_templates.php:76
+#: views/SlideshowPluginSlideshowSlide/backend_templates.php:117
+#: views/SlideshowPluginSlideshowSlide/backend_templates.php:203
+#: views/SlideshowPluginSlideshowSlide/backend_text.php:138
+#: views/SlideshowPluginSlideshowSlide/backend_video.php:49
 msgid "Delete slide"
 msgstr "Borrar diapositiva"
 
-#: views/SlideshowPluginGeneralSettings/general-settings-tab.php:16
+#: views/SlideshowPluginGeneralSettings/general-settings-tab.php:13
+#, fuzzy
 msgid "Delete slideshows"
-msgstr ""
+msgstr "Suprime el comentario"
 
-#: views/SlideshowPluginGeneralSettings/custom-styles-tab.php:100
-#: views/SlideshowPluginGeneralSettings/custom-styles-tab.php:192
+#: views/SlideshowPluginGeneralSettings/custom-styles-tab.php:98
+#: views/SlideshowPluginGeneralSettings/custom-styles-tab.php:181
+#, fuzzy
 msgid "Delete this style"
-msgstr ""
+msgstr "Estilo de icono"
 
-#: views/SlideshowPluginSlideshowSlide/backend_attachment.php:141
-#: views/SlideshowPluginSlideshowSlide/backend_templates.php:34
-#: views/SlideshowPluginSlideshowSlide/backend_templates.php:166
-#: views/SlideshowPluginSlideshowSlide/backend_text.php:101
+#: views/SlideshowPluginPostType/slides.php:61
+#: views/SlideshowPluginPostType/slides.php:150
+#: views/SlideshowPluginPostType/slides.php:198
+#: views/SlideshowPluginPostType/slides.php:270
+#: views/SlideshowPluginSlideshowSlide/backend_attachment.php:135
+#: views/SlideshowPluginSlideshowSlide/backend_templates.php:33
+#: views/SlideshowPluginSlideshowSlide/backend_templates.php:165
+#: views/SlideshowPluginSlideshowSlide/backend_text.php:95
 msgid "Description"
 msgstr "Descripción"
 
-#: classes/SlideshowPluginSlideshowSettingsHandler.php:636
+#: classes/SlideshowPluginSlideshowSettingsHandler.php:547
+#, fuzzy
 msgid "Direct Fade"
-msgstr ""
+msgstr "Enlace directo (mejor para móviles)"
 
 #: classes/SlideshowPluginInstaller.php:809
 #: classes/SlideshowPluginInstaller.php:810
@@ -248,32 +275,34 @@ msgstr ""
 #: classes/SlideshowPluginInstaller.php:813
 #: classes/SlideshowPluginInstaller.php:814
 #: classes/SlideshowPluginInstaller.php:815
-#: classes/SlideshowPluginSlideshowSettingsHandler.php:640
-#: classes/SlideshowPluginSlideshowSettingsHandler.php:641
-#: classes/SlideshowPluginSlideshowSettingsHandler.php:642
-#: classes/SlideshowPluginSlideshowSettingsHandler.php:643
-#: classes/SlideshowPluginSlideshowSettingsHandler.php:644
-#: classes/SlideshowPluginSlideshowSettingsHandler.php:645
-#: classes/SlideshowPluginSlideshowSettingsHandler.php:646
-#: classes/SlideshowPluginSlideshowSettingsHandler.php:647
-#: classes/SlideshowPluginSlideshowSettingsHandler.php:648
+#: classes/SlideshowPluginSlideshowSettingsHandler.php:551
+#: classes/SlideshowPluginSlideshowSettingsHandler.php:552
+#: classes/SlideshowPluginSlideshowSettingsHandler.php:553
+#: classes/SlideshowPluginSlideshowSettingsHandler.php:554
+#: classes/SlideshowPluginSlideshowSettingsHandler.php:555
+#: classes/SlideshowPluginSlideshowSettingsHandler.php:556
+#: classes/SlideshowPluginSlideshowSettingsHandler.php:557
+#: classes/SlideshowPluginSlideshowSettingsHandler.php:558
+#: classes/SlideshowPluginSlideshowSettingsHandler.php:559
 msgid "Display"
 msgstr "Mostrar"
 
-#: views/SlideshowPluginSlideshowSlide/backend_attachment.php:166
-#: views/SlideshowPluginSlideshowSlide/backend_templates.php:70
-#: views/SlideshowPluginSlideshowSlide/backend_templates.php:191
-#: views/SlideshowPluginSlideshowSlide/backend_text.php:137
+#: views/SlideshowPluginSlideshowSlide/backend_attachment.php:160
+#: views/SlideshowPluginSlideshowSlide/backend_templates.php:69
+#: views/SlideshowPluginSlideshowSlide/backend_templates.php:190
+#: views/SlideshowPluginSlideshowSlide/backend_text.php:131
 msgid "Don't let search engines follow link"
 msgstr ""
 
-#: classes/SlideshowPluginPostType.php:303
+#: classes/SlideshowPluginPostType.php:320
+#, fuzzy
 msgid "Duplicate"
-msgstr ""
+msgstr "Comentario duplicado: ¡parece que ya había sido enviado antes!"
 
-#: views/SlideshowPluginGeneralSettings/custom-styles-tab.php:93
-#: views/SlideshowPluginGeneralSettings/custom-styles-tab.php:185
-#: views/SlideshowPluginSlideshowSlide/backend_attachment.php:118
+#: views/SlideshowPluginGeneralSettings/custom-styles-tab.php:91
+#: views/SlideshowPluginGeneralSettings/custom-styles-tab.php:174
+#: views/SlideshowPluginPostType/slides.php:138
+#: views/SlideshowPluginSlideshowSlide/backend_attachment.php:112
 msgid "Edit"
 msgstr "Editar"
 
@@ -281,20 +310,18 @@ msgstr "Editar"
 msgid "Edit slideshow"
 msgstr "Editar diapositiva"
 
-#: views/SlideshowPluginGeneralSettings/general-settings-tab.php:15
+#: views/SlideshowPluginGeneralSettings/general-settings-tab.php:12
+#, fuzzy
 msgid "Edit slideshows"
-msgstr ""
+msgstr "Editar"
 
-#: views/SlideshowPluginGeneralSettings/custom-styles-tab.php:91
-#: views/SlideshowPluginGeneralSettings/custom-styles-tab.php:183
+#: views/SlideshowPluginGeneralSettings/custom-styles-tab.php:89
+#: views/SlideshowPluginGeneralSettings/custom-styles-tab.php:172
+#, fuzzy
 msgid "Edit this style"
-msgstr ""
+msgstr "Estilo de icono"
 
-#: views/SlideshowPluginGeneralSettings/general-settings-tab.php:94
-msgid "Enable lazy loading"
-msgstr ""
-
-#: classes/SlideshowPluginSlideshowSettingsHandler.php:615
+#: classes/SlideshowPluginSlideshowSettingsHandler.php:528
 msgid ""
 "Enable responsiveness (Shrink slideshow's width when page's width shrinks)"
 msgstr ""
@@ -304,7 +331,7 @@ msgid "Enables you to show your slideshows in the widget area of your website."
 msgstr "Permite que puedas mostrar las diapositivas en el área de los Widgets"
 
 #: classes/SlideshowPluginInstaller.php:805
-#: classes/SlideshowPluginSlideshowSettingsHandler.php:636
+#: classes/SlideshowPluginSlideshowSettingsHandler.php:547
 msgid "Fade"
 msgstr "Desvanecer"
 
@@ -312,19 +339,21 @@ msgstr "Desvanecer"
 msgid "Fit image into slide (stretching it)"
 msgstr "Adaptar la diapositiva (estirarla)"
 
-#: views/SlideshowPluginPostType/support-plugin.php:25
+#: views/SlideshowPluginPostType/support-plugin.php:24
+#, fuzzy
 msgid "Frequently Asked Questions (FAQ)"
-msgstr ""
+msgstr "Preguntas más Frecuentes"
 
-#: classes/SlideshowPluginGeneralSettings.php:85
-#: classes/SlideshowPluginGeneralSettings.php:86
-#: views/SlideshowPluginGeneralSettings/general-settings.php:16
+#: classes/SlideshowPluginGeneralSettings.php:82
+#: classes/SlideshowPluginGeneralSettings.php:83
+#: views/SlideshowPluginGeneralSettings/general-settings.php:14
 msgid "General Settings"
 msgstr "Ajustes generales"
 
-#: views/SlideshowPlugin/slideshow.php:47
+#: views/SlideshowPlugin/slideshow.php:28
+#, fuzzy
 msgid "Go to slide"
-msgstr ""
+msgstr "Ver en pantalla completa"
 
 #: classes/SlideshowPluginInstaller.php:812
 msgid "Height of the description boxes"
@@ -334,11 +363,11 @@ msgstr "Alto de la caja de descripción"
 msgid "Height of the slideshow"
 msgstr "Alto de las diapositivas"
 
-#: views/SlideshowPluginPostType/support-plugin.php:4
+#: views/SlideshowPluginPostType/support-plugin.php:3
 msgid "Help to keep this plugin free!"
 msgstr "¡Ayuda a que este plugin sea gratis!"
 
-#: classes/SlideshowPluginSlideshowSettingsHandler.php:626
+#: classes/SlideshowPluginSlideshowSettingsHandler.php:539
 msgid "Hide control panel, show when mouse hovers over"
 msgstr ""
 
@@ -348,29 +377,33 @@ msgstr ""
 "Esconder la caja de descripción, se mostrará cuando el puntero esté sobre la "
 "diapositiva"
 
-#: classes/SlideshowPluginSlideshowSettingsHandler.php:617
+#: classes/SlideshowPluginSlideshowSettingsHandler.php:530
 msgid "Hide description box, pop up when mouse hovers over"
 msgstr ""
 
-#: classes/SlideshowPluginSlideshowSettingsHandler.php:622
+#: classes/SlideshowPluginSlideshowSettingsHandler.php:535
 msgid "Hide navigation buttons, show when mouse hovers over"
 msgstr ""
 
-#: classes/SlideshowPluginSlideshowSettingsHandler.php:624
+#: classes/SlideshowPluginSlideshowSettingsHandler.php:537
 msgid "Hide pagination, show when mouse hovers over"
 msgstr ""
 
-#: classes/SlideshowPluginSlideshowSettingsHandler.php:613
+#: classes/SlideshowPluginSlideshowSettingsHandler.php:526
+#, fuzzy
 msgid "Image behaviour"
-msgstr ""
+msgstr "Imagen"
 
-#: views/SlideshowPluginPostType/slides.php:5
-#: views/SlideshowPluginSlideshowSlide/backend_attachment.php:107
-#: views/SlideshowPluginSlideshowSlide/backend_templates.php:136
+#: views/SlideshowPluginPostType/slides.php:133
+#: views/SlideshowPluginPostType/slides.php:255
+#: views/SlideshowPluginSlideInserter/insert-image-button.php:2
+#: views/SlideshowPluginSlideInserter/insert-image-button.php:4
+#: views/SlideshowPluginSlideshowSlide/backend_attachment.php:101
+#: views/SlideshowPluginSlideshowSlide/backend_templates.php:135
 msgid "Image slide"
 msgstr "Diapositiva de Imagen"
 
-#: views/SlideshowPluginPostType/support-plugin.php:7
+#: views/SlideshowPluginPostType/support-plugin.php:6
 msgid ""
 "In order to keep you provided with the newest features, updates and bug "
 "fixes, a lot of motivation is required. Therefore I'm kindly asking you to "
@@ -383,205 +416,258 @@ msgstr ""
 "al plugin o que califiquen como 5 estrellas en Wordpress.org. ¡Gracias de "
 "antemano!"
 
-#: views/SlideshowPluginPostType/slides.php:3
+#: classes/SlideshowPluginPostType.php:98
+msgid "Information"
+msgstr "Información"
+
+#: classes/SlideshowPluginPostType.php:224
+#: classes/SlideshowPluginSlideInserter.php:238
+#: views/SlideshowPluginPostType/slides.php:2
 msgid "Insert"
 msgstr "Insertar"
 
-#: views/SlideshowPluginShortcode/shortcode-inserter.php:14
-#: views/SlideshowPluginShortcode/shortcode-inserter.php:53
+#: views/SlideshowPluginShortcode/shortcode-inserter.php:12
+#: views/SlideshowPluginShortcode/shortcode-inserter.php:51
 msgid "Insert Slideshow"
 msgstr "Insertar Diapositiva"
 
-#: views/SlideshowPluginShortcode/shortcode-inserter.php:6
-#: views/SlideshowPluginShortcode/shortcode-inserter.php:11
-#: views/SlideshowPluginShortcode/shortcode-inserter.php:20
+#: views/SlideshowPluginShortcode/shortcode-inserter.php:4
+#: views/SlideshowPluginShortcode/shortcode-inserter.php:9
+#: views/SlideshowPluginShortcode/shortcode-inserter.php:18
 msgid "Insert a Slideshow"
 msgstr "Insertar una Diapositiva"
 
-#: classes/SlideshowPluginSlideInserter.php:78
+#: classes/SlideshowPluginSlideInserter.php:333
+#, fuzzy
 msgid "Insert image slide"
-msgstr ""
+msgstr "Insertar/Editar imagen"
 
-#: views/SlideshowPluginShortcode/shortcode-inserter.php:69
+#: views/SlideshowPluginShortcode/shortcode-inserter.php:67
+#, php-format
 msgid ""
 "It seems you haven't created any slideshows yet. %sYou can create a "
 "slideshow here!%s"
 msgstr ""
 "Parece que no has creado ninguna diapositiva aún. %s¡Puedes crear una aquí!%s"
 
-#: classes/SlideshowPluginGeneralSettings.php:210
+#: classes/SlideshowPluginGeneralSettings.php:196
 #: classes/SlideshowPluginInstaller.php:803
-#: views/SlideshowPluginGeneralSettings/custom-styles-tab.php:8
+#: views/SlideshowPluginGeneralSettings/custom-styles-tab.php:6
 msgid "Light"
 msgstr "Claro"
 
-#: classes/SlideshowPluginSlideshowSettingsHandler.php:605
+#: classes/SlideshowPluginSlideInserter.php:249
+msgid "Load more results"
+msgstr "Cargar más resultados"
+
+#: classes/SlideshowPluginSlideshowSettingsHandler.php:523
 msgid "Maximum width. When maximum width is 0, maximum width is ignored"
 msgstr ""
 
-#: classes/SlideshowPluginSlideshowSettingsHandler.php:658
-#: classes/SlideshowPluginSlideshowSettingsHandler.php:659
-#: classes/SlideshowPluginSlideshowSettingsHandler.php:660
-#: classes/SlideshowPluginSlideshowSettingsHandler.php:661
+#: classes/SlideshowPluginSlideshowSettingsHandler.php:569
+#: classes/SlideshowPluginSlideshowSettingsHandler.php:570
+#: classes/SlideshowPluginSlideshowSettingsHandler.php:571
+#: classes/SlideshowPluginSlideshowSettingsHandler.php:572
 msgid "Miscellaneous"
 msgstr "Miscelanea"
 
-#: classes/SlideshowPluginSlideshowSettingsHandler.php:646
+#: classes/SlideshowPluginSlideshowSettingsHandler.php:524
+#, fuzzy
+msgid "More info"
+msgstr "Información"
+
+#: classes/SlideshowPluginSlideInserter.php:194
+#, fuzzy
+msgid "More results loaded"
+msgstr "Limpiar los resultados"
+
+#: classes/SlideshowPluginSlideshowSettingsHandler.php:555
 msgid "Natural and centered"
 msgstr ""
 
-#: classes/SlideshowPluginGeneralSettings.php:153
+#: classes/SlideshowPluginGeneralSettings.php:150
+#, fuzzy
 msgid "New"
-msgstr ""
+msgstr "Nuevo"
 
 #: classes/SlideshowPluginPostType.php:49
 msgid "New slideshow"
 msgstr "Nueva diapositiva"
 
-#: views/SlideshowPluginSlideshowSlide/backend_attachment.php:162
-#: views/SlideshowPluginSlideshowSlide/backend_templates.php:66
-#: views/SlideshowPluginSlideshowSlide/backend_templates.php:187
-#: views/SlideshowPluginSlideshowSlide/backend_text.php:133
+#: views/SlideshowPluginPostType/slides.php:73
+#: views/SlideshowPluginPostType/slides.php:160
+#: views/SlideshowPluginPostType/slides.php:210
+#: views/SlideshowPluginPostType/slides.php:280
+#: views/SlideshowPluginSlideshowSlide/backend_attachment.php:156
+#: views/SlideshowPluginSlideshowSlide/backend_templates.php:65
+#: views/SlideshowPluginSlideshowSlide/backend_templates.php:186
+#: views/SlideshowPluginSlideshowSlide/backend_text.php:127
 msgid "New window"
 msgstr "Ventana nueva"
 
-#: views/SlideshowPlugin/slideshow.php:45
+#: views/SlideshowPlugin/slideshow.php:26
 msgid "Next"
 msgstr "Siguiente"
 
 #: classes/SlideshowPluginInstaller.php:801
-#: classes/SlideshowPluginSlideshowSettingsHandler.php:517
-#: views/SlideshowPluginGeneralSettings/general-settings-tab.php:97
-#: views/SlideshowPluginSlideshowSlide/backend_templates.php:113
-#: views/SlideshowPluginSlideshowSlide/backend_video.php:50
+#: classes/SlideshowPluginSlideshowSettingsHandler.php:473
+#: views/SlideshowPluginSlideshowSlide/backend_templates.php:112
+#: views/SlideshowPluginSlideshowSlide/backend_video.php:44
 msgid "No"
 msgstr "No"
 
-#: classes/SlideshowPluginShortcode.php:147
+#: classes/SlideshowPluginSlideInserter.php:260
+msgid "No images were found, click here to upload some."
+msgstr "No se encontraron imágenes, da clic para subir algunas."
+
+#: classes/SlideshowPluginShortcode.php:148
 msgid "No slideshow selected."
 msgstr "No se ha seleccionado ninguna diapositiva"
 
-#: classes/SlideshowPluginPostType.php:56
-#: classes/SlideshowPluginPostType.php:57
+#: classes/SlideshowPluginPostType.php:52
+#: classes/SlideshowPluginPostType.php:53
 msgid "No slideshows found"
 msgstr "No se encontraron diapositivas"
 
-#: views/SlideshowPluginGeneralSettings/default-slideshow-settings-tab.php:13
+#: views/SlideshowPluginGeneralSettings/default-slideshow-settings-tab.php:11
+#, fuzzy
 msgid "Note"
-msgstr ""
+msgstr "Nota:"
 
 #: classes/SlideshowPluginInstaller.php:807
-#: classes/SlideshowPluginSlideshowSettingsHandler.php:602
+#: classes/SlideshowPluginSlideshowSettingsHandler.php:520
 msgid "Number of seconds the description takes to slide in"
 msgstr "Número de segundos que tarda la descripción en entrar"
 
 #: classes/SlideshowPluginInstaller.php:806
-#: classes/SlideshowPluginSlideshowSettingsHandler.php:601
+#: classes/SlideshowPluginSlideshowSettingsHandler.php:519
 msgid "Number of seconds the slide takes to slide in"
 msgstr "Núero de segundos que tarda la diapositiva en entrar"
 
 #: classes/SlideshowPluginInstaller.php:809
-#: classes/SlideshowPluginSlideshowSettingsHandler.php:604
+#: classes/SlideshowPluginSlideshowSettingsHandler.php:522
 msgid "Number of slides to fit into one slide"
 msgstr "Número de imágenes/videos/texto dentro de cada diapositiva"
 
-#: views/SlideshowPluginSlideshowSlide/backend_attachment.php:159
-#: views/SlideshowPluginSlideshowSlide/backend_templates.php:63
-#: views/SlideshowPluginSlideshowSlide/backend_templates.php:184
-#: views/SlideshowPluginSlideshowSlide/backend_text.php:130
+#: views/SlideshowPluginPostType/slides.php:70
+#: views/SlideshowPluginPostType/slides.php:157
+#: views/SlideshowPluginPostType/slides.php:207
+#: views/SlideshowPluginPostType/slides.php:277
+#: views/SlideshowPluginSlideshowSlide/backend_attachment.php:153
+#: views/SlideshowPluginSlideshowSlide/backend_templates.php:62
+#: views/SlideshowPluginSlideshowSlide/backend_templates.php:183
+#: views/SlideshowPluginSlideshowSlide/backend_text.php:124
+#, fuzzy
 msgid "Open URL in"
-msgstr ""
+msgstr "%s URL:"
 
-#: views/SlideshowPluginPostType/slides.php:11
+#: classes/SlideshowPluginPostType.php:232
+#, fuzzy
 msgid "Open all"
-msgstr ""
+msgstr "Cerrar todas las etiquetas abiertas"
 
-#: views/SlideshowPluginPostType/information.php:7
+#: views/SlideshowPluginPostType/information.php:5
 msgid ""
 "Or add this piece of code to where ever in your website you want to place "
 "the slideshow"
 msgstr "O agrega este código en tu tema"
 
-#: views/SlideshowPluginPostType/information.php:11
+#: views/SlideshowPluginPostType/information.php:9
+#, php-format
 msgid "Or go to the %swidgets page%s and show the slideshow as a widget."
 msgstr "Ve al %sárea de widgets%s y muestra las Diapositivas como Widget"
 
-#: views/SlideshowPlugin/slideshow.php:42
+#: views/SlideshowPlugin/slideshow.php:23
+#, fuzzy
 msgid "Pause"
-msgstr ""
+msgstr "Pausa"
 
-#: classes/SlideshowPluginSlideshowSettingsHandler.php:620
+#: classes/SlideshowPluginSlideshowSettingsHandler.php:533
 msgid "Pause slideshow when mouse hovers over"
 msgstr ""
 
-#: views/SlideshowPlugin/slideshow.php:42
+#: views/SlideshowPlugin/slideshow.php:23
 msgid "Play"
 msgstr "Reproducir"
 
-#: views/SlideshowPlugin/slideshow.php:44
+#: views/SlideshowPlugin/slideshow.php:25
 msgid "Previous"
 msgstr "Anterior"
 
-#: classes/SlideshowPluginSlideshowSettingsHandler.php:608
+#: classes/SlideshowPluginSlideshowSettingsHandler.php:524
+#, php-format
 msgid ""
 "Proportional relationship%s between slideshow's width and height (width:"
 "height)"
 msgstr ""
 
-#: classes/SlideshowPluginSlideshowSettingsHandler.php:636
+#: classes/SlideshowPluginSlideshowSettingsHandler.php:547
+#, fuzzy
 msgid "Random Animation"
-msgstr ""
+msgstr "Animación"
 
-#: views/SlideshowPluginWidget/form.php:11
+#: views/SlideshowPluginWidget/form.php:9
 msgid "Random Slideshow"
 msgstr "Diapositivas Aleatorias"
 
-#: classes/SlideshowPluginSlideshowSettingsHandler.php:629
+#: classes/SlideshowPluginSlideshowSettingsHandler.php:542
 msgid "Randomize slides"
 msgstr "Diapositivas aleatorias"
 
-#: views/SlideshowPluginPostType/support-plugin.php:16
+#: views/SlideshowPluginPostType/support-plugin.php:15
 msgid "Rate on Wordpress.org"
 msgstr "Calificar en Wordpress.org"
 
 #: classes/SlideshowPluginInstaller.php:817
-#: classes/SlideshowPluginSlideshowSettingsHandler.php:619
+#: classes/SlideshowPluginSlideshowSettingsHandler.php:532
 msgid "Return to the beginning of the slideshow after last slide"
 msgstr "Regresar al inicio de las diapositivas, al llegar al final"
 
-#: views/SlideshowPluginSlideshowSlide/backend_attachment.php:161
-#: views/SlideshowPluginSlideshowSlide/backend_templates.php:65
-#: views/SlideshowPluginSlideshowSlide/backend_templates.php:186
-#: views/SlideshowPluginSlideshowSlide/backend_text.php:132
+#: views/SlideshowPluginPostType/slides.php:72
+#: views/SlideshowPluginPostType/slides.php:159
+#: views/SlideshowPluginPostType/slides.php:209
+#: views/SlideshowPluginPostType/slides.php:279
+#: views/SlideshowPluginSlideshowSlide/backend_attachment.php:155
+#: views/SlideshowPluginSlideshowSlide/backend_templates.php:64
+#: views/SlideshowPluginSlideshowSlide/backend_templates.php:185
+#: views/SlideshowPluginSlideshowSlide/backend_text.php:126
 msgid "Same window"
 msgstr "Misma ventana"
+
+#: views/SlideshowPluginSlideInserter/search-popup.php:6
+msgid "Search"
+msgstr "Buscar"
+
+#: views/SlideshowPluginSlideInserter/search-popup.php:7
+msgid "Search images by title or ID"
+msgstr "Buscar imágenes por título o ID"
 
 #: classes/SlideshowPluginPostType.php:51
 msgid "Search slideshows"
 msgstr "Buscar diapositivas"
 
 #: classes/SlideshowPluginInstaller.php:808
-#: classes/SlideshowPluginSlideshowSettingsHandler.php:603
+#: classes/SlideshowPluginSlideshowSettingsHandler.php:521
 msgid "Seconds between changing slides"
 msgstr "Segundos entre cada diapositiva"
 
-#: views/SlideshowPluginShortcode/shortcode-inserter.php:29
+#: views/SlideshowPluginShortcode/shortcode-inserter.php:27
 msgid "Select a slideshow"
 msgstr "Seleccionar una diapositiva"
 
-#: views/SlideshowPluginGeneralSettings/custom-styles-tab.php:141
+#: views/SlideshowPluginGeneralSettings/custom-styles-tab.php:130
 msgid "Select a stylesheet to start customizing it."
 msgstr ""
 
-#: views/SlideshowPluginGeneralSettings/general-settings-tab.php:25
+#: views/SlideshowPluginGeneralSettings/general-settings-tab.php:22
 msgid "Select the user roles that will able to perform certain actions."
 msgstr ""
 
-#: views/SlideshowPluginGeneralSettings/general-settings-tab.php:81
+#: views/SlideshowPluginGeneralSettings/general-settings-tab.php:65
 msgid "Settings"
 msgstr "Configuración"
 
-#: classes/SlideshowPluginSlideshowSettingsHandler.php:628
+#: classes/SlideshowPluginSlideshowSettingsHandler.php:541
 msgid "Show a loading icon until the first slide appears"
 msgstr ""
 
@@ -589,17 +675,17 @@ msgstr ""
 msgid "Show control panel (play and pause button)"
 msgstr "Mostrar panel de control (botones de play y pausa)"
 
-#: views/SlideshowPluginSlideshowSlide/backend_templates.php:111
-#: views/SlideshowPluginSlideshowSlide/backend_video.php:48
+#: views/SlideshowPluginSlideshowSlide/backend_templates.php:110
+#: views/SlideshowPluginSlideshowSlide/backend_video.php:44
 msgid "Show related videos"
-msgstr ""
+msgstr "Mostrar videos relacionados"
 
 #: classes/SlideshowPluginInstaller.php:814
-#: classes/SlideshowPluginSlideshowSettingsHandler.php:616
+#: classes/SlideshowPluginSlideshowSettingsHandler.php:529
 msgid "Show title and description"
 msgstr "Mostrar título y descripción"
 
-#: classes/SlideshowPluginSlideshowSettingsHandler.php:614
+#: classes/SlideshowPluginSlideshowSettingsHandler.php:527
 msgid "Shrink slideshow's height when width shrinks"
 msgstr ""
 
@@ -607,52 +693,61 @@ msgstr ""
 msgid "Slide"
 msgstr "Diapositiva"
 
-#: classes/SlideshowPluginSlideshowSettingsHandler.php:636
+#: classes/SlideshowPluginSlideshowSettingsHandler.php:547
+#, fuzzy
 msgid "Slide Down"
-msgstr ""
+msgstr "Bajar"
 
-#: classes/SlideshowPluginSlideshowSettingsHandler.php:636
+#: classes/SlideshowPluginSlideshowSettingsHandler.php:547
+#, fuzzy
 msgid "Slide Left"
-msgstr ""
+msgstr "Acoplado a la Izquierda"
 
-#: classes/SlideshowPluginSlideshowSettingsHandler.php:636
+#: classes/SlideshowPluginSlideshowSettingsHandler.php:547
+#, fuzzy
 msgid "Slide Right"
-msgstr ""
+msgstr "Acoplado a la derecha"
 
-#: classes/SlideshowPluginSlideshowSettingsHandler.php:636
+#: classes/SlideshowPluginSlideshowSettingsHandler.php:547
+#, fuzzy
 msgid "Slide Up"
-msgstr ""
+msgstr "Subir"
 
-#: classes/SlideshowPluginPostType.php:115
+#: classes/SlideshowPluginPostType.php:107
 msgid "Slides List"
 msgstr "Lista de diapositivas"
 
-#. #-#-#-#-#  slideshow-jquery-image-gallery.pot (Slideshow 2.3.1)  #-#-#-#-#
-#. Plugin Name of the plugin/theme
 #: classes/SlideshowPluginPostType.php:46
-#: views/SlideshowPluginWidget/form.php:9
+#: views/SlideshowPluginWidget/form.php:7
 msgid "Slideshow"
 msgstr "Diapositiva"
 
-#: classes/SlideshowPluginPostType.php:136
+#: classes/SlideshowPluginPostType.php:125
 msgid "Slideshow Settings"
 msgstr "Configuración de las diapositivas"
+
+#: classes/SlideshowPluginPostType.php:116
+msgid "Slideshow Style"
+msgstr "Estilo de las diapositivas"
 
 #: classes/SlideshowPluginWidget.php:29
 msgid "Slideshow Widget"
 msgstr "Widget de diapositiva"
 
-#: classes/SlideshowPluginPostType.php:189
+#: classes/SlideshowPluginPostType.php:173
+#, fuzzy
 msgid "Slideshow created"
-msgstr ""
+msgstr "Creado"
 
-#: classes/SlideshowPluginPostType.php:193
+#: classes/SlideshowPluginPostType.php:177
+#, fuzzy
 msgid "Slideshow updated"
-msgstr ""
+msgstr "¡Actualizado!"
 
-#: classes/SlideshowPluginSlideshowSettingsHandler.php:612
+#: classes/SlideshowPluginSlideshowSettingsHandler.php:525
+#, fuzzy
 msgid "Slideshow's height"
-msgstr ""
+msgstr "Altura"
 
 #: classes/SlideshowPluginPostType.php:45
 msgid "Slideshows"
@@ -660,33 +755,38 @@ msgstr "Diapositivas"
 
 #. Author of the plugin/theme
 msgid "StefanBoonstra"
-msgstr ""
+msgstr "StefanBoonstra"
 
-#: classes/SlideshowPluginSlideshowSettingsHandler.php:646
+#: classes/SlideshowPluginSlideshowSettingsHandler.php:555
+#, fuzzy
 msgid "Stretch to fit"
-msgstr ""
+msgstr "Ajustar a la pantalla"
 
-#: views/SlideshowPluginGeneralSettings/custom-styles-tab.php:159
-#: views/SlideshowPluginGeneralSettings/custom-styles-tab.php:211
+#: views/SlideshowPluginGeneralSettings/custom-styles-tab.php:148
+#: views/SlideshowPluginGeneralSettings/custom-styles-tab.php:200
 msgid "Style"
 msgstr "Style"
 
-#: views/SlideshowPluginGeneralSettings/general-settings-tab.php:85
+#: views/SlideshowPluginGeneralSettings/general-settings-tab.php:69
+#, fuzzy
 msgid "Stylesheet location"
-msgstr ""
+msgstr "Hoja de estilo"
 
-#: views/SlideshowPluginSlideshowSlide/backend_templates.php:49
-#: views/SlideshowPluginSlideshowSlide/backend_text.php:116
+#: views/SlideshowPluginSlideshowSlide/backend_templates.php:48
+#: views/SlideshowPluginSlideshowSlide/backend_text.php:112
 msgid "Text color"
-msgstr ""
+msgstr "Color del texto"
 
-#: views/SlideshowPluginPostType/slides.php:6
-#: views/SlideshowPluginSlideshowSlide/backend_templates.php:10
-#: views/SlideshowPluginSlideshowSlide/backend_text.php:75
+#: views/SlideshowPluginPostType/slides.php:54
+#: views/SlideshowPluginPostType/slides.php:191
+#: views/SlideshowPluginSlideInserter/insert-text-button.php:2
+#: views/SlideshowPluginSlideshowSlide/backend_templates.php:9
+#: views/SlideshowPluginSlideshowSlide/backend_text.php:69
 msgid "Text slide"
 msgstr "Diapositiva de Texto"
 
-#: views/SlideshowPluginGeneralSettings/default-slideshow-settings-tab.php:19
+#: views/SlideshowPluginGeneralSettings/default-slideshow-settings-tab.php:18
+#, php-format
 msgid ""
 "The settings set on this page apply only to newly created slideshows and "
 "therefore do not alter any existing ones. To adapt a slideshow's settings, "
@@ -702,25 +802,25 @@ msgid ""
 msgstr ""
 
 #: classes/SlideshowPluginInstaller.php:803
-#: classes/SlideshowPluginSlideshowSettingsHandler.php:730
+#: classes/SlideshowPluginSlideshowSettingsHandler.php:610
 msgid "The style used for this slideshow"
 msgstr "El estilo usado para esta diapositiva"
 
-#: classes/SlideshowPluginSlideshowSettingsHandler.php:377
-msgid "Timeout error. Album not available. Try to refresh this page"
-msgstr ""
-
-#: views/SlideshowPluginGeneralSettings/custom-styles-tab.php:150
-#: views/SlideshowPluginGeneralSettings/custom-styles-tab.php:203
-#: views/SlideshowPluginSlideshowSlide/backend_attachment.php:126
-#: views/SlideshowPluginSlideshowSlide/backend_templates.php:19
-#: views/SlideshowPluginSlideshowSlide/backend_templates.php:151
-#: views/SlideshowPluginSlideshowSlide/backend_text.php:86
-#: views/SlideshowPluginWidget/form.php:4
+#: views/SlideshowPluginGeneralSettings/custom-styles-tab.php:139
+#: views/SlideshowPluginGeneralSettings/custom-styles-tab.php:192
+#: views/SlideshowPluginPostType/slides.php:59
+#: views/SlideshowPluginPostType/slides.php:144
+#: views/SlideshowPluginPostType/slides.php:196
+#: views/SlideshowPluginPostType/slides.php:264
+#: views/SlideshowPluginSlideshowSlide/backend_attachment.php:120
+#: views/SlideshowPluginSlideshowSlide/backend_templates.php:18
+#: views/SlideshowPluginSlideshowSlide/backend_templates.php:150
+#: views/SlideshowPluginSlideshowSlide/backend_text.php:80
+#: views/SlideshowPluginWidget/form.php:2
 msgid "Title"
 msgstr "Título"
 
-#: views/SlideshowPluginPostType/information.php:3
+#: views/SlideshowPluginPostType/information.php:1
 msgid ""
 "To use this slideshow in your website either add this piece of shortcode to "
 "your posts or pages"
@@ -728,35 +828,47 @@ msgstr ""
 "Para utilizar estas diapositivas en la página, copia este código y pégalo en "
 "el editor de la página o entrada"
 
-#: views/SlideshowPluginSlideshowSlide/backend_attachment.php:156
-#: views/SlideshowPluginSlideshowSlide/backend_templates.php:60
-#: views/SlideshowPluginSlideshowSlide/backend_templates.php:181
-#: views/SlideshowPluginSlideshowSlide/backend_text.php:127
+#: views/SlideshowPluginPostType/slides.php:68
+#: views/SlideshowPluginPostType/slides.php:155
+#: views/SlideshowPluginPostType/slides.php:205
+#: views/SlideshowPluginPostType/slides.php:275
+#: views/SlideshowPluginSlideshowSlide/backend_attachment.php:150
+#: views/SlideshowPluginSlideshowSlide/backend_templates.php:59
+#: views/SlideshowPluginSlideshowSlide/backend_templates.php:180
+#: views/SlideshowPluginSlideshowSlide/backend_text.php:121
 msgid "URL"
 msgstr "URL"
 
-#: classes/SlideshowPluginGeneralSettings.php:367
-#: views/SlideshowPluginGeneralSettings/custom-styles-tab.php:59
-#: views/SlideshowPluginGeneralSettings/custom-styles-tab.php:154
+#: classes/SlideshowPluginGeneralSettings.php:353
+#: views/SlideshowPluginGeneralSettings/custom-styles-tab.php:57
+#: views/SlideshowPluginGeneralSettings/custom-styles-tab.php:143
 msgid "Untitled"
-msgstr ""
+msgstr "Sin título"
 
-#: views/SlideshowPluginGeneralSettings/general-settings-tab.php:41
+#: views/SlideshowPluginGeneralSettings/general-settings-tab.php:38
+#, fuzzy
 msgid "Untitled role"
-msgstr ""
+msgstr "(Sin título)"
 
-#: views/SlideshowPluginShortcode/shortcode-inserter.php:38
-#: views/SlideshowPluginWidget/form.php:14
+#: views/SlideshowPluginShortcode/shortcode-inserter.php:36
+#: views/SlideshowPluginWidget/form.php:12
 msgid "Untitled slideshow"
 msgstr "Diapositiva sin título"
 
-#: views/SlideshowPluginGeneralSettings/general-settings-tab.php:23
-msgid "User Capabilities"
-msgstr ""
+#: views/SlideshowPluginUpload/upload-button.php:1
+msgid "Upload/Manage Images"
+msgstr "Cargar/Administrar Imágenes"
 
-#: views/SlideshowPluginPostType/slides.php:7
-#: views/SlideshowPluginSlideshowSlide/backend_templates.php:95
-#: views/SlideshowPluginSlideshowSlide/backend_video.php:32
+#: views/SlideshowPluginGeneralSettings/general-settings-tab.php:20
+#, fuzzy
+msgid "User Capabilities"
+msgstr "El perfil del usuario actual debería poder editar usuarios."
+
+#: views/SlideshowPluginPostType/slides.php:90
+#: views/SlideshowPluginPostType/slides.php:230
+#: views/SlideshowPluginSlideInserter/insert-video-button.php:2
+#: views/SlideshowPluginSlideshowSlide/backend_templates.php:94
+#: views/SlideshowPluginSlideshowSlide/backend_video.php:26
 msgid "Video slide"
 msgstr "Diapositiva de Video"
 
@@ -764,7 +876,7 @@ msgstr "Diapositiva de Video"
 msgid "View slideshow"
 msgstr "Ver diapositivas"
 
-#: classes/SlideshowPluginSlideshowSettingsHandler.php:627
+#: classes/SlideshowPluginSlideshowSettingsHandler.php:540
 msgid "Wait until the next slide has loaded before showing it"
 msgstr ""
 
@@ -774,35 +886,85 @@ msgstr ""
 "Ancho de las diapositivas. Escribe 0 para tomar el ancho del nodo padre."
 
 #: classes/SlideshowPluginInstaller.php:800
-#: classes/SlideshowPluginSlideshowSettingsHandler.php:516
-#: views/SlideshowPluginGeneralSettings/general-settings-tab.php:96
-#: views/SlideshowPluginSlideshowSlide/backend_templates.php:112
-#: views/SlideshowPluginSlideshowSlide/backend_video.php:49
+#: classes/SlideshowPluginSlideshowSettingsHandler.php:472
+#: views/SlideshowPluginSlideshowSlide/backend_templates.php:111
+#: views/SlideshowPluginSlideshowSlide/backend_video.php:43
 msgid "Yes"
 msgstr "Sí"
 
-#: views/SlideshowPluginSlideshowSlide/backend_templates.php:104
-#: views/SlideshowPluginSlideshowSlide/backend_video.php:41
+#: views/SlideshowPluginPostType/slides.php:95
+#: views/SlideshowPluginPostType/slides.php:235
+#: views/SlideshowPluginSlideshowSlide/backend_templates.php:103
+#: views/SlideshowPluginSlideshowSlide/backend_video.php:35
 msgid "Youtube Video ID"
 msgstr "Video de YouTube"
 
-#: views/SlideshowPluginGeneralSettings/general-settings-tab.php:89
+#: views/SlideshowPluginGeneralSettings/general-settings-tab.php:73
 msgid "bottom"
 msgstr "Inferior"
 
-#. Author URI of the plugin/theme
-msgid "http://stefanboonstra.com/"
+#: classes/SlideshowPluginSlideshowSettingsHandler.php:524
+msgid "http://en.wikipedia.org/wiki/Aspect_ratio_(image)"
 msgstr ""
+
+#. Author URI of the plugin/theme
+#, fuzzy
+msgid "http://stefanboonstra.com/"
+msgstr "http://www.wpshopmart.com"
 
 #. Plugin URI of the plugin/theme
 msgid "http://wordpress.org/extend/plugins/slideshow-jquery-image-gallery/"
 msgstr ""
 
-#: views/SlideshowPluginGeneralSettings/default-slideshow-settings-tab.php:43
-#: views/SlideshowPluginPostType/settings.php:13
+#: views/SlideshowPluginGeneralSettings/default-slideshow-settings-tab.php:41
+#: views/SlideshowPluginPostType/settings.php:12
 msgid "settings"
 msgstr "Configuración"
 
-#: views/SlideshowPluginGeneralSettings/general-settings-tab.php:88
+#: views/SlideshowPluginGeneralSettings/general-settings-tab.php:72
 msgid "top"
 msgstr "Superior"
+
+#~ msgid "Click on an image to insert it as a slide"
+#~ msgstr "Klik op een plaatje om deze in te voegen als slide"
+
+#~ msgid "Custom style editor (Does not work with a Strict Doctype)"
+#~ msgstr "Aangepaste stijl bewerker (Werkt niet met een Strict Doctype)"
+
+#~ msgid "Defaults to parent's width."
+#~ msgstr "Standaard ingesteld op de breedte van het bovenliggende element."
+
+#~ msgid "Has the Slideshow plugin helped you?"
+#~ msgstr "Heeft de Slideshow plugin je geholpen?"
+
+#~ msgid "Help it back!"
+#~ msgstr "Help hem terug!"
+
+#~ msgid ""
+#~ "If this plugin has filled you with happiness, please support the upkeep "
+#~ "of the plugin by rating it on Wordpress, posting a suggestion for "
+#~ "improvement on the support forum, or making a donation."
+#~ msgstr ""
+#~ "Als deze plugin je met blijdschap heeft vervuld, zou ik het enorm "
+#~ "waarderen als je de plugin wilt beoordelen op Wordpress, een suggestie "
+#~ "wilt maken voor verbetering, of een donatie doen wilt."
+
+#~ msgid "Leave any field open to use default value."
+#~ msgstr "Een veld dat open wordt gelaten neemt de standaardwaarde aan."
+
+#~ msgid "Questions / Suggestions"
+#~ msgstr "Preguntas / Sugerencias"
+
+#~ msgid "Send user to image URL on click"
+#~ msgstr ""
+#~ "Wanner de gebruiker op de afbeelding klikt, stuur hem naar de URL van het "
+#~ "plaatje"
+
+#~ msgid "Width of the slideshow"
+#~ msgstr "Breedte van de slideshow"
+
+#~ msgid "light"
+#~ msgstr "clair"
+
+#~ msgid "slide"
+#~ msgstr "diapo"

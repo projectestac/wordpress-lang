@@ -1,46 +1,47 @@
-#
 msgid ""
 msgstr ""
 "Project-Id-Version: Reactor\n"
-"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/reactor\n"
-"POT-Creation-Date: 2017-06-27 11:14:17+00:00\n"
-"PO-Revision-Date: 2017-02-07 10:22+0100\n"
-"Last-Translator: Mònica Grau <mgrau226@xtec.cat>\n"
+"POT-Creation-Date: 2017-02-06 14:53+0100\n"
+"PO-Revision-Date: 2018-07-13 16:25+0200\n"
+"Last-Translator: Joan Sala Soler <jsala236@xtec.cat>\n"
 "Language-Team: awtheme\n"
+"Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ca\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 1.8.7.1\n"
-"X-Poedit-Basepath: ../../..\n"
+"X-Generator: Poedit 2.0.4\n"
 "X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html_x:1,2c;esc_html__;"
 "esc_attr_e;esc_attr_x:1,2c;esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;"
 "_x:1,2c;_n:1,2;_n_noop:1,2;__ngettext:1,2;__ngettext_noop:1,2;_c,_nc:4c,1,2\n"
-"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-Basepath: ../../..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
 
 #: library/inc/customizer/customize.php:766 page-templates/contact.php:14
+#, fuzzy
 msgid " - Contact Form Message"
-msgstr ""
+msgstr "contacte"
 
 #: comments.php:32
 msgid "% Comments"
 msgstr "% comentaris"
 
-#. translators: 1: date, 2: time
 #: library/inc/extensions/comments.php:44
+#, php-format
 msgid "%1$s at %2$s"
 msgstr "%1$s a les %2$s"
 
 #: library/inc/content/content-posts.php:30
 #: post-formats/format-portfolio.php:28
+#, fuzzy, php-format
 msgid "%s"
-msgstr ""
+msgstr "%s"
 
 #: library/inc/functions/page-links.php:121
+#, fuzzy
 msgid "&hellip;"
-msgstr ""
+msgstr "&hellip;"
 
 #: library/inc/functions/page-links.php:72
 msgid "&laquo; Previous"
@@ -51,8 +52,9 @@ msgid "&larr; Home"
 msgstr "&larr; Inici"
 
 #: comments.php:43
+#, fuzzy
 msgid "&larr; Older Comments"
-msgstr ""
+msgstr "Comentaris anteriors"
 
 #: image.php:47
 msgid "&larr; Previous"
@@ -65,8 +67,9 @@ msgstr "*"
 #: library/inc/customizer/customize.php:577
 #: library/inc/customizer/customize.php:697
 #: library/inc/customizer/customize.php:811
+#, fuzzy
 msgid "1 Column"
-msgstr ""
+msgstr "Columna"
 
 #: comments.php:32
 msgid "1 Comment"
@@ -75,25 +78,29 @@ msgstr "1 comentari"
 #: library/inc/customizer/customize.php:578
 #: library/inc/customizer/customize.php:698
 #: library/inc/customizer/customize.php:812
+#, fuzzy
 msgid "2 Columns"
-msgstr ""
+msgstr "2 columnes (ample i estret)"
 
 #: library/inc/customizer/customize.php:579
 #: library/inc/customizer/customize.php:699
 #: library/inc/customizer/customize.php:813
+#, fuzzy
 msgid "3 Columns"
-msgstr ""
+msgstr "3 columnes (1 d'ample i 2) estreta"
 
 #: library/inc/customizer/customize.php:580
 #: library/inc/customizer/customize.php:814
+#, fuzzy
 msgid "4 Columns"
-msgstr ""
+msgstr "Columnes"
 
 #: library/inc/functions/breadcrumbs.php:175
 msgid "404 Not Found"
 msgstr "No s'ha trobat"
 
 #: image.php:32
+#, php-format
 msgid ""
 "<span class=\"meta-prep meta-prep-entry-date\">Published </span> <span class="
 "\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\" pubdate>%2$s</"
@@ -114,42 +121,41 @@ msgstr ""
 msgid "Actions"
 msgstr "Accions"
 
-#: functions.php:253 functions.php:302
+#: functions.php:253 functions.php:304
+#, fuzzy
 msgid "Activity"
-msgstr ""
+msgstr "Activitat"
 
 #: functions.php:254
+#, fuzzy
 msgid "Activity Plus"
-msgstr ""
-
-#: functions.php:283
-msgid "Activity report in social network"
-msgstr ""
+msgstr "Activity Plus"
 
 #: functions.php:266
+#, fuzzy
 msgctxt "add new"
 msgid "Add New"
-msgstr ""
+msgstr "Afegeix"
 
 #: functions.php:276
+#, fuzzy
 msgid "Add New Invitation"
-msgstr ""
+msgstr "Afegeix invitació nova"
 
 #: custom-tac/welcome-panel.php:35
+#, fuzzy
 msgid "Add a blog post"
-msgstr ""
+msgstr "Afegeix un article"
 
 #: custom-tac/welcome-panel.php:34
+#, fuzzy
 msgid "Add additional pages"
-msgstr ""
+msgstr "Afegeix pàgines addicionals"
 
 #: custom-tac/welcome-panel.php:38
+#, fuzzy
 msgid "Add an About page"
-msgstr ""
-
-#. Author of the plugin/theme
-msgid "Albert Bachiller"
-msgstr ""
+msgstr "Afegeix una pàgina Quant a"
 
 #: custom-tac/metabox-post-parametres.php:58
 msgid "Alert"
@@ -159,17 +165,20 @@ msgstr "Alerta"
 msgid "All"
 msgstr "Tot"
 
-#: functions.php:354
+#: functions.php:356
+#, fuzzy
 msgid "All Forums"
-msgstr ""
+msgstr "Tots els fòrums"
 
-#: functions.php:367
+#: functions.php:369
+#, fuzzy
 msgid "All Replies"
-msgstr ""
+msgstr "Totes les respostes"
 
-#: functions.php:360
+#: functions.php:362
+#, fuzzy
 msgid "All Topics"
-msgstr ""
+msgstr "Tots els temes"
 
 #: post-formats/format-none.php:17
 msgid ""
@@ -182,44 +191,51 @@ msgid "Archives"
 msgstr "Arxius"
 
 #: functions.php:267
+#, fuzzy
 msgid "Associated Items"
-msgstr ""
+msgstr "Elements associats"
 
 #: library/inc/metaboxes/custom-meta.php:169
+#, fuzzy
 msgid "Available "
-msgstr ""
+msgstr "Disponible"
+
+#: functions.php:282
+#, fuzzy
+msgid "BP Moderation"
+msgstr "Moderació d'usuaris"
 
 #: library/inc/metaboxes/meta-fields.php:23
 msgid "Barra esquerra (Ginys)"
-msgstr ""
-
-#. Template Name of the plugin/theme
-msgid "Barra esquerra (Subpàgines)"
 msgstr ""
 
 #: custom-tac/welcome-panel.php:47
 msgid "Bookings"
 msgstr "Sistema de reserves"
 
-#: custom-tac/welcome-panel.php:48 functions.php:252 functions.php:300
+#: custom-tac/welcome-panel.php:48 functions.php:252 functions.php:302
 msgid "BuddyPress"
 msgstr "Xarxa Nodes (BuddyPress)"
 
 #: functions.php:264 functions.php:265
+#, fuzzy
 msgid "BuddyPress Docs"
-msgstr ""
+msgstr "Documents"
 
 #: functions.php:273
+#, fuzzy
 msgid "BuddyPress Invitations"
-msgstr ""
+msgstr "Invitacions de BuddyPress"
 
-#: functions.php:257 functions.php:328
+#: functions.php:257 functions.php:330
+#, fuzzy
 msgid "BuddyPress Like"
-msgstr ""
+msgstr "BuddyPress Like"
 
 #: functions.php:157
+#, fuzzy
 msgid "Categories (Barra esquerra)"
-msgstr ""
+msgstr "No hi ha categories"
 
 #: library/inc/functions/taxonomy-subnav.php:30
 msgid "Categories: "
@@ -230,66 +246,74 @@ msgid "Category IDs, separated by commas."
 msgstr "Identificados de les categories, separats per comes."
 
 #: library/inc/customizer/customize.php:844
+#, fuzzy
 msgid "Category Pages"
-msgstr ""
+msgstr "Totes les pàgines de categories"
 
 #: taxonomy-portfolio-category.php:24
+#, php-format
 msgid "Category: %s"
 msgstr "Categoria: %s"
 
 #: library/inc/metaboxes/custom-meta.php:231
+#, fuzzy
 msgid "Choose File"
-msgstr ""
+msgstr "Tria fitxer"
 
 #: comments.php:49
 msgid "Comments are closed."
 msgstr "Els comentaris estan tancats."
 
-#: functions.php:255 functions.php:325
+#: functions.php:255 functions.php:327
+#, fuzzy
 msgid "Components"
-msgstr ""
+msgstr "Components"
 
-#: functions.php:260 functions.php:339
+#: functions.php:260 functions.php:341
 msgid "Configuració"
 msgstr ""
 
-#. #-#-#-#-#  reactor.pot (NODES GENERAL 1.0.0)  #-#-#-#-#
-#. Template Name of the plugin/theme
 #: library/inc/customizer/customize.php:747
+#, fuzzy
 msgid "Contact Page"
-msgstr ""
+msgstr "contacte"
 
 #: library/inc/customizer/customize.php:312
 msgid "Contain Top Bar Width"
 msgstr ""
 
-#: content.php:16
-msgid "Continue reading..."
-msgstr ""
+#: functions.php:283
+#, fuzzy
+msgid "Contents"
+msgstr "Continguts"
 
-#: custom-tac/capcalera/icones-capcalera-settings.php:61
-msgid "Copia el nom de la icona i enganxa'l a la posició desitjada."
-msgstr ""
+#: content.php:16
+#, fuzzy
+msgid "Continue reading..."
+msgstr "Continua llegint %s"
 
 #: custom-tac/welcome-panel.php:28
 msgid "Customize"
 msgstr "Personalitza"
 
 #: archive-portfolio.php:26
+#, fuzzy, php-format
 msgid "Daily Archives: %s"
-msgstr ""
+msgstr "Entrades del dia"
 
 #: library/inc/customizer/customize.php:379
+#, fuzzy
 msgid "Default Layout"
-msgstr ""
+msgstr "Estructura"
 
 #: custom-tac/welcome-panel.php:53
 msgid "Do you need help?"
 msgstr "Necessiteu ajuda?"
 
 #: functions.php:268
+#, fuzzy
 msgid "Docs Tags"
-msgstr ""
+msgstr "Etiquetes dels documents"
 
 #: custom-tac/metabox-post-parametres.php:56
 msgid "Document"
@@ -311,34 +335,19 @@ msgstr "Edita"
 msgid "Edit Home Page"
 msgstr "Edita la pàgina principal"
 
-#: custom-tac/capcalera/icones-capcalera-settings.php:116
-#: custom-tac/capcalera/icones-capcalera-settings.php:190
-msgid "Element 1:"
-msgstr ""
-
-#: custom-tac/capcalera/icones-capcalera-settings.php:149
-#: custom-tac/capcalera/icones-capcalera-settings.php:223
-msgid "Element 2:"
-msgstr ""
-
 #: comments.php:71
 msgid "Email "
 msgstr "Correu"
 
 #: library/inc/customizer/customize.php:759
+#, fuzzy
 msgid "Email Address"
-msgstr ""
+msgstr "Adreça electrònica"
 
 #: library/inc/customizer/customize.php:772
+#, fuzzy
 msgid "Email Subject"
-msgstr ""
-
-#: custom-tac/capcalera/icones-capcalera-settings.php:132
-#: custom-tac/capcalera/icones-capcalera-settings.php:165
-#: custom-tac/capcalera/icones-capcalera-settings.php:206
-#: custom-tac/capcalera/icones-capcalera-settings.php:239
-msgid "Enllaç:"
-msgstr ""
+msgstr "Assumpte del missatge"
 
 #: library/inc/metaboxes/meta-fields.php:208
 msgid "Esquema"
@@ -349,25 +358,30 @@ msgid "Exclude Category(s):"
 msgstr "Exclou la categoria/es:"
 
 #: library/inc/customizer/customize.php:546
+#, fuzzy
 msgid "Exclude From Blog"
-msgstr ""
+msgstr "Excloure:"
 
 #: library/inc/functions/breadcrumbs.php:183
+#, fuzzy
 msgid "F"
-msgstr ""
+msgstr "dv."
 
 #: library/inc/functions/breadcrumbs.php:1054
+#, fuzzy
 msgid "F Y"
-msgstr ""
+msgstr "F \\d\\e Y"
 
 #: archive-portfolio.php:28
+#, fuzzy
 msgctxt "monthly archives date format"
 msgid "F Y"
-msgstr ""
+msgstr "F \\d\\e Y"
 
 #: library/inc/functions/breadcrumbs.php:1058
+#, fuzzy
 msgid "F j, Y"
-msgstr ""
+msgstr "F j, Y"
 
 #: custom-tac/welcome-panel.php:55
 msgid "FAQ"
@@ -379,32 +393,42 @@ msgstr ""
 
 #: library/inc/metaboxes/custom-meta.php:241
 #: library/inc/metaboxes/custom-meta.php:271
+#, fuzzy
 msgid "Fields"
-msgstr ""
+msgstr "Camps"
 
 #: library/inc/customizer/customize.php:839
+#, fuzzy
 msgid "Filter Type"
-msgstr ""
+msgstr "Filtra per tipus"
 
 #: library/inc/customizer/customize.php:298
+#, fuzzy
 msgid "Fixed Top Bar"
-msgstr ""
+msgstr "A la part superior"
 
 #: library/inc/extensions/menus.php:43
+#, fuzzy
 msgid "Footer Links"
 msgstr ""
+"El missatge també contindrà un peu de missatge amb els enllaços per acceptar "
+"la invitació o bé optar per no rebre més invitacions de correu electrònic "
+"d'aquest lloc."
 
 #: library/inc/customizer/customize.php:243
+#, fuzzy
 msgid "Footer Site Info"
-msgstr ""
+msgstr "S'ha actualitzat la informació del lloc web."
 
-#: functions.php:353 functions.php:381
+#: functions.php:355 functions.php:383
+#, fuzzy
 msgid "Forums"
-msgstr ""
+msgstr "Fòrums"
 
 #: library/inc/customizer/customize.php:520
+#, fuzzy
 msgid "Front Page"
-msgstr ""
+msgstr "Portada"
 
 #: library/inc/extensions/sidebars.php:50
 msgid "Front Page Primary"
@@ -414,18 +438,20 @@ msgstr "Portada (Barra esquerra)"
 msgid "Front Page Secondary"
 msgstr "Portada (Barra dreta)"
 
-#: custom-tac/capcalera/icones-capcalera-settings.php:255
 #: library/inc/customizer/customize.php:171
+#, fuzzy
 msgid "General"
-msgstr ""
+msgstr "General"
 
-#: functions.php:259 functions.php:329
+#: functions.php:259 functions.php:331
+#, fuzzy
 msgid "Group Email Options"
-msgstr ""
+msgstr "Opcions de correu del node"
 
-#: functions.php:256 functions.php:327
+#: functions.php:256 functions.php:329
+#, fuzzy
 msgid "Groups"
-msgstr ""
+msgstr "Nodes"
 
 #: custom-tac/welcome-panel.php:31
 msgid "Header icons"
@@ -447,46 +473,25 @@ msgstr "Inici"
 msgid "Icon"
 msgstr "Icona"
 
-#: custom-tac/capcalera/icones-capcalera-settings.php:124
-#: custom-tac/capcalera/icones-capcalera-settings.php:157
-#: custom-tac/capcalera/icones-capcalera-settings.php:198
-#: custom-tac/capcalera/icones-capcalera-settings.php:231
-#, fuzzy
-msgid "Icona:"
-msgstr "Icona"
-
-#: custom-tac/capcalera/icones-capcalera-settings.php:108
-msgid "Icones a la fila 1"
-msgstr ""
-
-#: custom-tac/capcalera/icones-capcalera-settings.php:182
-msgid "Icones a la fila 2"
-msgstr ""
-
-#: custom-tac/capcalera/icones-capcalera-settings.php:29
-#: custom-tac/capcalera/icones-capcalera-settings.php:47
-msgid "Icones de capçalera"
-msgstr ""
-
-#: custom-tac/capcalera/icones-capcalera-settings.php:60
-msgid "Icones disponibles"
-msgstr ""
-
 #: library/inc/extensions/sidebars.php:108
+#, fuzzy
 msgid "Invalid sidebar ID"
-msgstr ""
+msgstr "Identificador d'autor no vàlid."
 
-#: functions.php:274 functions.php:335
+#: functions.php:274 functions.php:337
+#, fuzzy
 msgid "Invite Anyone"
-msgstr ""
+msgstr "Convida Membres"
 
 #: functions.php:278
+#, fuzzy
 msgid "Invited Groups"
-msgstr ""
+msgstr "Nodes convidats"
 
 #: functions.php:277
+#, fuzzy
 msgid "Invitees"
-msgstr ""
+msgstr "Convidats"
 
 #: 404.php:29
 msgid ""
@@ -496,122 +501,134 @@ msgstr ""
 "No s'ha trobat el contingut que buscàveu. Podeu provar a fer una cerca."
 
 #: library/inc/customizer/customize.php:618
+#, fuzzy
 msgid "Link Post Titles"
-msgstr ""
+msgstr "Retalla els títols dels esdeveniments"
 
 #: library/inc/customizer/customize.php:869
+#, fuzzy
 msgid "Link Titles"
-msgstr ""
+msgstr "Retalla els títols dels esdeveniments"
 
 #: comments.php:67
+#, php-format
 msgid ""
 "Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of "
 "this account\">Log out &raquo;</a>"
 msgstr ""
 
 #: library/inc/customizer/customize.php:469
+#, fuzzy
 msgid "Login"
-msgstr ""
+msgstr "La validació via LDAP està activada"
 
 #: library/inc/customizer/customize.php:481
+#, fuzzy
 msgid "Login Logo"
-msgstr ""
+msgstr "Logotip"
 
 #: library/inc/customizer/customize.php:493
+#, fuzzy
 msgid "Logo Link URL"
-msgstr ""
+msgstr "Logotip"
 
 #: library/inc/customizer/customize.php:505
+#, fuzzy
 msgid "Logo Title Attribute"
-msgstr ""
+msgstr "Títol de l'atribut"
 
 #: functions.php:258
+#, fuzzy
 msgid "Logs"
-msgstr ""
+msgstr "Registres"
 
 #: library/inc/extensions/menus.php:39
+#, fuzzy
 msgid "Main Menu"
-msgstr ""
+msgstr "Menú principal"
 
 #: library/inc/metaboxes/custom-meta.php:128
 #: library/inc/metaboxes/custom-meta.php:196
+#, fuzzy
 msgid "Manage "
-msgstr ""
+msgstr "Gestiona"
 
 #: custom-tac/welcome-panel.php:46
+#, php-format
 msgid "Manage <a href=\"%1$s\">widgets</a> or <a href=\"%2$s\">menus</a>"
 msgstr ""
 "Gestiona els <a href=\"%1$s\">ginys</a> o els <a href=\"%2$s\">menús</a>"
 
 #: functions.php:275
+#, fuzzy
 msgid "Manage Invitations"
-msgstr ""
+msgstr "Gestiona les invitacions"
 
 #: library/inc/functions/breadcrumbs.php:1181
+#, fuzzy
 msgid "Merge"
-msgstr ""
+msgstr "Combina"
 
 #: library/inc/functions/breadcrumbs.php:179
+#, fuzzy, php-format
 msgid "Minute %d"
-msgstr ""
+msgstr "Minut"
 
 #: archive-portfolio.php:28
+#, fuzzy, php-format
 msgid "Monthly Archives: %s"
-msgstr ""
+msgstr "Entrades del mes"
 
 #: custom-tac/welcome-panel.php:44
 msgid "More Actions"
 msgstr "Més accions"
-
-#: custom-tac/capcalera/icones-capcalera-settings.php:263
-msgid "Mostra text sota la icona:"
-msgstr ""
 
 #: custom-tac/metabox-post-parametres.php:57
 msgid "Music"
 msgstr "Música"
 
 #: comments.php:32
+#, fuzzy
 msgid "NO Comments"
-msgstr ""
-
-#. Theme Name of the plugin/theme
-msgid "NODES GENERAL"
-msgstr ""
+msgstr "No hi ha comentaris"
 
 #: comments.php:69
 msgid "Name "
 msgstr "Nom"
 
 #: library/inc/customizer/customize.php:256
+#, fuzzy
 msgid "Navigation"
-msgstr ""
+msgstr "Navegació"
 
-#: functions.php:355
+#: functions.php:357
+#, fuzzy
 msgid "New Forum"
-msgstr ""
+msgstr "Fòrum nou"
 
-#: functions.php:368
+#: functions.php:370
+#, fuzzy
 msgid "New Reply"
-msgstr ""
+msgstr "Resposta nova"
 
-#: functions.php:361
+#: functions.php:363
+#, fuzzy
 msgid "New Topic"
-msgstr ""
+msgstr "Tema nou"
 
 #: comments.php:44
+#, fuzzy
 msgid "Newer Comments &rarr;"
-msgstr ""
+msgstr "Comentaris recents"
 
 #: library/inc/functions/page-links.php:45
 msgid "Newer posts"
 msgstr "Recents"
 
-#. #-#-#-#-#  reactor.pot (NODES GENERAL 1.0.0)  #-#-#-#-#
-#. Template Name of the plugin/theme
 #: library/inc/customizer/customize.php:667
+#, fuzzy
 msgid "News Page"
-msgstr ""
+msgstr "Notícies"
 
 #: library/inc/functions/page-links.php:73
 msgid "Next &raquo;"
@@ -636,20 +653,23 @@ msgstr "No s'ha trobat contingut"
 #: library/inc/customizer/customize.php:592
 #: library/inc/customizer/customize.php:711
 #: library/inc/customizer/customize.php:826
+#, fuzzy
 msgid "Number of Posts"
-msgstr ""
+msgstr "Nombre d'articles que cal mostrar:"
 
 #: library/inc/widgets/recent-posts.php:89
 msgid "Number of posts to show:"
 msgstr "Nombre d'articles a mostrar:"
 
 #: library/inc/customizer/customize.php:397
+#, fuzzy
 msgid "Numbered"
-msgstr ""
+msgstr "Tanca l'etiqueta de llista numerada"
 
 #: library/inc/customizer/customize.php:346
+#, fuzzy
 msgid "Off Canvas Main Menu"
-msgstr ""
+msgstr "Col·lapsa el menú principal"
 
 #: library/inc/functions/page-links.php:42
 msgid "Older posts"
@@ -660,16 +680,19 @@ msgid "One Column"
 msgstr "Pàgina sencera"
 
 #: library/inc/functions/breadcrumbs.php:176
+#, php-format
 msgid "Page %d"
 msgstr "Pàgina %d"
 
 #: library/inc/functions/helpers.php:291
+#, php-format
 msgid "Page %s"
 msgstr "Pàgina %s"
 
 #: library/inc/customizer/customize.php:393
+#, fuzzy
 msgid "Page Link Type"
-msgstr ""
+msgstr "Enllaça a la pàgina de les adjuncions"
 
 #: image.php:98 library/inc/content/content-pages.php:36
 #: post-formats/format-standard.php:25
@@ -689,50 +712,52 @@ msgid "Photo/Slideshow"
 msgstr "Foto/Carrusel"
 
 #: library/inc/extensions/comments.php:23
+#, fuzzy
 msgid "Pingback:"
-msgstr ""
+msgstr "Retroenllaç:"
 
 #: custom-tac/metabox-post-parametres.php:55
 msgid "Podcast"
 msgstr "Podcast"
 
-#. Template Name of the plugin/theme
-msgid "Portada"
-msgstr ""
-
-#. Template Name of the plugin/theme
-msgid "Portfolio"
-msgstr ""
-
 #: library/inc/customizer/customize.php:795
+#, fuzzy
 msgid "Portfolio Page"
-msgstr ""
+msgstr "portafoli"
 
 #: library/inc/customizer/customize.php:532
+#, fuzzy
 msgid "Post Category"
-msgstr ""
+msgstr "Categoria per defecte"
 
 #: library/inc/customizer/customize.php:573
 #: library/inc/customizer/customize.php:693
 #: library/inc/customizer/customize.php:807
+#, fuzzy
 msgid "Post Columns"
-msgstr ""
+msgstr "Columnes"
 
 #: library/inc/extensions/comments.php:38
+#, fuzzy
 msgid "Post author"
-msgstr ""
+msgstr "Mostra un menú desplegable per canviar l'autor de correus."
 
 #: library/inc/functions/post-meta.php:89
+#, fuzzy
 msgid "Posted: "
-msgstr ""
+msgstr "publicat el"
 
 #: library/inc/customizer/customize.php:369
+#, fuzzy
 msgid "Posts & Pages"
 msgstr ""
+"Importa els articles, les pàgines, els comentaris, els camps personalitzats, "
+"les categories i les etiquetes des d'un fitxer d'exportació del WordPress."
 
 #: library/inc/customizer/customize.php:398
+#, fuzzy
 msgid "Prev / Next"
-msgstr ""
+msgstr "Anterior"
 
 #: library/inc/extensions/sidebars.php:24
 msgid "Primary Sidebar"
@@ -743,12 +768,14 @@ msgid "Project for the new website from Departament d'Ensenyament"
 msgstr "Projecte de la nova web de centre del Departament d'Ensenyament"
 
 #: library/inc/customizer/customize.php:404
+#, fuzzy
 msgid "Read More"
-msgstr ""
+msgstr "[Llegiu més]"
 
 #: library/inc/customizer/customize.php:410
+#, fuzzy
 msgid "Read More Text"
-msgstr ""
+msgstr "Llegeix més"
 
 #: library/inc/widgets/recent-posts.php:12
 #: library/inc/widgets/recent-posts.php:37
@@ -756,20 +783,18 @@ msgid "Recent Posts"
 msgstr "Articles recents"
 
 #: library/inc/metaboxes/custom-meta.php:232
+#, fuzzy
 msgid "Remove File"
-msgstr ""
+msgstr "Suprimeix"
 
-#: functions.php:366
+#: functions.php:368
+#, fuzzy
 msgid "Replies"
-msgstr ""
+msgstr "Respostes"
 
 #: library/inc/extensions/comments.php:58
 msgid "Reply"
 msgstr "Contesta"
-
-#: functions.php:282
-msgid "Reports"
-msgstr ""
 
 #: library/inc/functions/top-bar.php:81 library/inc/functions/top-bar.php:84
 #: searchform.php:15 searchform.php:18
@@ -781,6 +806,7 @@ msgid "Search for:"
 msgstr "Cerca:"
 
 #: library/inc/functions/breadcrumbs.php:174
+#, php-format
 msgid "Search results for &quot;%1$s&quot;"
 msgstr "Resultats de la cerca de &quot;%1$s&quot;"
 
@@ -793,89 +819,110 @@ msgstr "Barra dreta"
 #: library/inc/metaboxes/custom-meta.php:90
 #: library/inc/metaboxes/custom-meta.php:123
 #: library/inc/metaboxes/custom-meta.php:179
+#, fuzzy
 msgid "Select"
-msgstr ""
+msgstr "Selecciona"
 
 #: library/inc/customizer/customize.php:785
+#, fuzzy
 msgid "Send Successful Message"
-msgstr ""
+msgstr "Envia el missatge"
 
 #: library/inc/metaboxes/meta-fields.php:21
+#, fuzzy
 msgid "Sense barres laterals"
 msgstr ""
+"El control d'accés no permet el registre amb aquesta adreça de correu "
+"electrònic."
 
-#: functions.php:269
+#: functions.php:269 functions.php:285
+#, fuzzy
 msgid "Settings"
-msgstr ""
+msgstr "Configuració"
 
 #: library/inc/customizer/customize.php:461
+#, fuzzy
 msgid "Show Breadcrumbs"
-msgstr ""
+msgstr "pa ratllat"
 
 #: library/inc/customizer/customize.php:435
 #: library/inc/customizer/customize.php:631
 #: library/inc/customizer/customize.php:737
+#, fuzzy
 msgid "Show Comment Link"
-msgstr ""
+msgstr "Mostra la valoració de l'enllaç"
 
 #: library/inc/customizer/customize.php:882
+#, fuzzy
 msgid "Show Meta"
-msgstr ""
+msgstr "Meta"
 
 #: library/inc/customizer/customize.php:657
+#, fuzzy
 msgid "Show Page Links"
-msgstr ""
+msgstr "Nombre d'enllaços que cal mostrar:"
 
 #: library/inc/customizer/customize.php:423
 #: library/inc/customizer/customize.php:644
 #: library/inc/customizer/customize.php:724
+#, fuzzy
 msgid "Show Post Meta"
-msgstr ""
+msgstr "Mostra les opcions de l'article"
 
 #: library/inc/customizer/customize.php:605
+#, fuzzy
 msgid "Show Post Titles"
-msgstr ""
+msgstr "Mostra el nombre d'entrades"
 
 #: library/inc/customizer/customize.php:206
+#, fuzzy
 msgid "Show Title & Tagline"
-msgstr ""
+msgstr "Mostra el títol del lloc i el seu lema"
 
 #: library/inc/customizer/customize.php:856
+#, fuzzy
 msgid "Show Titles"
-msgstr ""
+msgstr "Retalla els títols dels esdeveniments"
 
 #: library/inc/customizer/customize.php:448
+#, fuzzy
 msgid "Show Tumblog Icons"
-msgstr ""
+msgstr "Icones de la capçalera"
 
 #: library/inc/customizer/customize.php:327
+#, fuzzy
 msgid "Side Menu Type"
-msgstr ""
+msgstr "menú"
 
 #: library/inc/customizer/customize.php:332
 msgid "Side Nav"
 msgstr ""
 
 #: library/inc/customizer/customize.php:218
+#, fuzzy
 msgid "Site Logo"
-msgstr ""
+msgstr "Logotip"
 
 #: library/inc/customizer/customize.php:182
+#, fuzzy
 msgid "Site Title"
-msgstr ""
+msgstr "Títol del lloc"
 
 #: library/inc/metaboxes/meta-fields.php:204
+#, fuzzy
 msgid "Slide Link"
-msgstr ""
+msgstr "Llisca"
 
 #: library/inc/customizer/customize.php:559
 #: library/inc/customizer/customize.php:679
+#, fuzzy
 msgid "Slider Category"
-msgstr ""
+msgstr "Control de volum"
 
 #: library/inc/functions/breadcrumbs.php:1177
+#, fuzzy
 msgid "Split"
-msgstr ""
+msgstr "Divideix"
 
 #: comments.php:80
 msgid "Submit"
@@ -890,24 +937,26 @@ msgid "Support"
 msgstr "Espai de suport a Àgora"
 
 #: taxonomy-portfolio-tag.php:24
+#, php-format
 msgid "Tag: %s"
 msgstr "Etiqueta: %s"
 
 #: library/inc/customizer/customize.php:194
+#, fuzzy
 msgid "Tagline"
-msgstr ""
+msgstr "Descripció curta"
 
 #: library/inc/functions/post-meta.php:86
+#, fuzzy
 msgid "Tags:"
-msgstr ""
-
-#. Description of the plugin/theme
-msgid "Tema desenvolupat pel Departament d'Ensenyament de Catalunya"
-msgstr ""
+msgstr "Etiquetes:"
 
 #: library/inc/customizer/customize.php:779 page-templates/contact.php:15
+#, fuzzy
 msgid "Thank you! Your email was sent successfully."
 msgstr ""
+"Heu descartat correctament el canvi de correu electrònic que hi havia "
+"pendent."
 
 #: library/inc/widgets/recent-posts.php:11
 msgid "The most recent posts on your site"
@@ -918,48 +967,60 @@ msgid "This is somewhat embarrassing, isn&rsquo;t it?"
 msgstr "No s'ha trobat contingut"
 
 #: comments.php:19
+#, fuzzy
 msgid "This post is password protected. Enter the password to view comments."
 msgstr ""
+"Aquest article està protegit amb contrasenya. Introduïu-la per veure'n els "
+"comentaris."
 
 #: library/inc/customizer/customize.php:366
+#, fuzzy
 msgid "Three Columns, Center"
-msgstr ""
+msgstr "Tres columnes"
 
 #: library/inc/customizer/customize.php:364
+#, fuzzy
 msgid "Three Columns, Left"
-msgstr ""
+msgstr "Tres columnes"
 
 #: library/inc/customizer/customize.php:365
+#, fuzzy
 msgid "Three Columns, Right"
-msgstr ""
+msgstr "Tres columnes"
 
 #: library/inc/widgets/recent-posts.php:86
 msgid "Title:"
 msgstr "Títol:"
 
 #: library/inc/extensions/menus.php:31
+#, fuzzy
 msgid "Top Bar Left"
-msgstr ""
+msgstr "A dalt a l'esquerra"
 
 #: library/inc/extensions/menus.php:35
+#, fuzzy
 msgid "Top Bar Right"
-msgstr ""
+msgstr "Superior dret"
 
 #: library/inc/customizer/customize.php:271
+#, fuzzy
 msgid "Top Bar Title"
-msgstr ""
+msgstr "Mostra el títol a dalt de tot de la taula de continguts"
 
 #: library/inc/customizer/customize.php:284
+#, fuzzy
 msgid "Top Bar Title Link"
-msgstr ""
+msgstr "Títol de l'enllaç"
 
-#: functions.php:362
+#: functions.php:364
+#, fuzzy
 msgid "Topic Tags"
-msgstr ""
+msgstr "Etiquetes del tema"
 
-#: functions.php:359
+#: functions.php:361
+#, fuzzy
 msgid "Topics"
-msgstr ""
+msgstr "Temes"
 
 #: library/inc/customizer/customize.php:362
 msgid "Two Columns, Left"
@@ -970,30 +1031,39 @@ msgid "Two Columns, Right"
 msgstr "Barra dreta amb subpàgines "
 
 #: library/inc/metaboxes/meta-fields.php:170
+#, fuzzy
 msgid "URL"
-msgstr ""
+msgstr "Adresse web"
 
 #: comments.php:73
 msgid "URL "
 msgstr "URL"
+
+#: functions.php:284
+#, fuzzy
+msgid "Users"
+msgstr "Usuaris"
 
 #: custom-tac/metabox-post-parametres.php:53
 msgid "Video"
 msgstr "Vídeo"
 
 #: library/inc/functions/post-meta.php:75
+#, fuzzy, php-format
 msgid "View all posts by %s"
-msgstr ""
+msgstr "Visualitza tots els documents en: <strong>%s</strong>."
 
 #: library/inc/functions/post-meta.php:68
+#, fuzzy, php-format
 msgid "View all posts from %s %s"
-msgstr ""
+msgstr "Canal de tots els articles arxivats en %s"
 
 #: library/inc/content/content-posts.php:102
 #: library/inc/functions/post-meta.php:44
 #: library/inc/functions/post-meta.php:50
+#, fuzzy, php-format
 msgid "View all posts in %s"
-msgstr ""
+msgstr "Visualitza tots els documents en: <strong>%s</strong>."
 
 #: custom-tac/metabox-post-parametres.php:42
 msgid "View full content"
@@ -1004,30 +1074,35 @@ msgid "Website "
 msgstr "La vostra pàgina web"
 
 #: library/inc/functions/breadcrumbs.php:182
+#, fuzzy, php-format
 msgid "Week %d"
-msgstr ""
+msgstr "Aquesta setmana"
 
 #: custom-tac/welcome-panel.php:21
 msgid "Welcome to NODES"
 msgstr "Benvinguts a Nodes"
 
 #: custom-tac/welcome-panel.php:37
+#, fuzzy
 msgid "Write your first blog post"
-msgstr ""
+msgstr "Escriu el primer article al bloc"
 
 #: library/inc/functions/breadcrumbs.php:184
 #: library/inc/functions/breadcrumbs.php:1050
+#, fuzzy
 msgid "Y"
-msgstr ""
+msgstr "Y"
 
 #: archive-portfolio.php:30
+#, fuzzy
 msgctxt "yearly archives date format"
 msgid "Y"
-msgstr ""
+msgstr "Y"
 
 #: archive-portfolio.php:30
+#, fuzzy, php-format
 msgid "Yearly Archives: %s"
-msgstr ""
+msgstr "Entrades de l'any"
 
 #: comments.php:78
 msgid "You can use these tags"
@@ -1050,8 +1125,9 @@ msgid "Your comment is awaiting moderation."
 msgstr "El vostre comentari està a l'espera de validació."
 
 #: custom-tac/rss-metabox.php:55
+#, fuzzy
 msgid "ago"
-msgstr ""
+msgstr "fa"
 
 #: comments.php:69 comments.php:71
 msgid "aria-required='true'"
@@ -1062,25 +1138,133 @@ msgid "by"
 msgstr ""
 
 #: library/inc/functions/breadcrumbs.php:181
+#, fuzzy
 msgid "d"
-msgstr ""
+msgstr "(%d)"
 
 #: library/inc/functions/breadcrumbs.php:180
+#, fuzzy
 msgid "g a"
-msgstr ""
+msgstr "G:i:s"
 
 #: library/inc/functions/breadcrumbs.php:178
+#, fuzzy
 msgid "g:i a"
-msgstr ""
-
-#. Author URI of the plugin/theme
-msgid "http://jurjur.org"
-msgstr ""
+msgstr "G:i"
 
 #: library/inc/functions/post-meta.php:85
 msgid "in"
 msgstr ""
 
 #: library/inc/customizer/customize.php:843
+#, fuzzy
 msgid "jQuery Filtering"
-msgstr ""
+msgstr "Filtrat per:"
+
+#~ msgid "About %s"
+#~ msgstr "Sobre %s"
+
+#~ msgid "Author: %s"
+#~ msgstr "Autor: %s"
+
+#~ msgid "Bordeaux"
+#~ msgstr "Bordeus"
+
+#~ msgid "Chocolate"
+#~ msgstr "Xocolata"
+
+#~ msgid "Clear blue and dark blue"
+#~ msgstr "Blau clar i blau fosc"
+
+#~ msgid "Clear green and dark green"
+#~ msgstr "Verd clar i verd fosc"
+
+#~ msgid "Columns"
+#~ msgstr "Columnes"
+
+#~ msgid "Dark blue and orange"
+#~ msgstr "Blau fosc i taronja"
+
+#~ msgid "Green and blue"
+#~ msgstr "Verd i blau"
+
+#~ msgid "Green and brown"
+#~ msgstr "Verd i marró"
+
+#~ msgid "Layout"
+#~ msgstr "Esquema de pàgina"
+
+#~ msgid "Leave a Comment"
+#~ msgstr "Deixa un comentari"
+
+#~ msgid "Log out"
+#~ msgstr "Surt"
+
+#~ msgid "Logged in as"
+#~ msgstr "Heu entrat com a"
+
+#~ msgid "Nothing found"
+#~ msgstr "No s'ha trobat contingut"
+
+#~ msgid "Orange and green"
+#~ msgstr "Taronja i verd"
+
+#~ msgid "Orange and grey"
+#~ msgstr "Taronja i gris"
+
+#~ msgid "Oranges"
+#~ msgstr "Taronges"
+
+#~ msgid "Pink and green"
+#~ msgstr "Rosa i verd"
+
+#~ msgid "Pink and grey"
+#~ msgstr "Rosa i gris"
+
+#~ msgid "Powered by "
+#~ msgstr "Fet amb "
+
+#~ msgid "Purple and clear green"
+#~ msgstr "Lila i verd clar"
+
+#~ msgid "Red and blue"
+#~ msgstr "Vermell i blau"
+
+#~ msgid "Red and green"
+#~ msgstr "Vermell i verd"
+
+#~ msgid "Red and orange"
+#~ msgstr "Vermell i taronja"
+
+#~ msgid "Roses"
+#~ msgstr "Roses"
+
+#~ msgid "Search Results for: %s"
+#~ msgstr "Resultats per a: %s"
+
+#~ msgid "Secondary"
+#~ msgstr "Secundari"
+
+#~ msgid "Select a template layout"
+#~ msgstr "Selecciona un esquema"
+
+#~ msgid "Sienna"
+#~ msgstr "Sienna"
+
+#~ msgid "Turquoises"
+#~ msgstr "Turqueses"
+
+#~ msgid "Yellow and blue"
+#~ msgstr "Groc i blau"
+
+#~ msgid "Yellow and green"
+#~ msgstr "Groc i verd"
+
+#~ msgid "Yellow and purple"
+#~ msgstr "Groc i lila"
+
+#~ msgid "Yellow and red"
+#~ msgstr "Yellow and red"
+
+#~ msgid "customize.php"
+#~ msgstr "customize.php"

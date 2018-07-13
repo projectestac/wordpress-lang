@@ -5,13 +5,15 @@ msgstr ""
 "Project-Id-Version: Nodes 4.7.5\n"
 "Report-Msgid-Bugs-To: https://make.wordpress.org/polyglots/\n"
 "POT-Creation-Date: 2017-06-28 08:23:12+00:00\n"
-"PO-Revision-Date: 2014-12-04 10:53:07+0000\n"
+"PO-Revision-Date: 2018-07-13 16:33+0200\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: GlotPress/0.1\n"
+"X-Generator: Poedit 2.0.4\n"
 "Language: es_ES\n"
+"Last-Translator: Joan Sala Soler <jsala236@xtec.cat>\n"
+"Language-Team: \n"
 
 #. translators: 1: site name, 2: site tagline.
 #: wp-admin/includes/class-wp-ms-sites-list-table.php:334
@@ -459,7 +461,11 @@ msgstr "Borrar %s"
 #: wp-admin/network/themes.php:125
 #, fuzzy
 msgid "Delete Theme"
-msgstr "Borrar tema"
+msgstr ""
+"¿Estás seguro de querer borrar este tema?\n"
+"\n"
+"Haz clic en 'Cancelar' para regresar o en 'Aceptar' para confirmar el "
+"borrado."
 
 #: wp-admin/network/themes.php:129
 msgid "Delete Themes"
@@ -1384,7 +1390,10 @@ msgstr "Tema desactivado."
 #: wp-admin/network/site-themes.php:183 wp-admin/network/themes.php:262
 #, fuzzy
 msgid "Theme enabled."
-msgstr "Tema activado"
+msgstr ""
+"Sólo tienes un tema activado para este sitio. Ve a la administración de la "
+"red para <a href=\"%1$s\">activar</a> or <a href=\"%2$s\">instalar</a> más "
+"temas."
 
 #: wp-admin/network/menu.php:36
 msgid "Themes %s"
@@ -1487,7 +1496,7 @@ msgstr ""
 #: wp-admin/network/themes.php:126
 #, fuzzy
 msgid "This theme may be active on other sites in the network."
-msgstr "Este tema podría estar activo en otros sitios de la red."
+msgstr "Puede que estos plugins estén activos en otros sitios de la red."
 
 #. translators: 1: wp-config.php
 #: wp-admin/includes/network.php:464
@@ -1748,7 +1757,7 @@ msgstr "Estás a punto de marcar el sitio %s como spam."
 #: wp-admin/network/themes.php:127
 #, fuzzy
 msgid "You are about to remove the following theme:"
-msgstr "Estás a punto de borrar el siguiente tema:"
+msgstr "Estás a punto de borrar los siguientes plugins:"
 
 #: wp-admin/network/themes.php:131
 msgid "You are about to remove the following themes:"

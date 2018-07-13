@@ -1,30 +1,31 @@
-# Copyright (C) 2012
+# Copyright (C) 2012 
 # This file is distributed under the same license as the  package.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/buddypress-group-"
 "email-subscription\n"
-"POT-Creation-Date: 2017-06-23 07:45:37+00:00\n"
-"PO-Revision-Date: 2017-05-30 11:21+0200\n"
-"Last-Translator: Sara Arjona Téllez <sarjona@xtec.cat>\n"
+"POT-Creation-Date: 2017-05-23 14:09+0200\n"
+"PO-Revision-Date: 2018-07-13 16:27+0200\n"
+"Last-Translator: Joan Sala Soler <jsala236@xtec.cat>\n"
 "Language-Team: Àrea TAC - Departament Ensenyament  - UPCnet\n"
+"Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ca\n"
-"X-Generator: Poedit 1.8.7.1\n"
-"X-Poedit-Basepath: ..\n"
+"X-Generator: Poedit 2.0.4\n"
 "X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html_x:1,2c;esc_html__;"
 "esc_attr_e;esc_attr_x:1,2c;esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;"
 "_x:1,2c;_n:1,2;_n_noop:1,2;__ngettext:1,2;__ngettext_noop:1,2;_c,_nc:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
 "X-Poedit-SearchPath-0: .\n"
 
 #: screen-admin.php:198
 msgid " - sent from the group "
 msgstr " - enviat des del node"
 
-#: bp-activity-subscription-functions.php:216
+#: bp-activity-subscription-functions.php:217
+#, php-format
 msgid ""
 "%1$s\n"
 "\n"
@@ -44,7 +45,8 @@ msgstr ""
 "\n"
 "---------------------\n"
 
-#: bp-activity-subscription-functions.php:207
+#: bp-activity-subscription-functions.php:208
+#, php-format
 msgid ""
 "%1$s\n"
 "\n"
@@ -61,6 +63,7 @@ msgstr ""
 "---------------------\n"
 
 #: legacy-forums.php:124
+#, php-format
 msgid ""
 "%s\n"
 "\n"
@@ -81,14 +84,17 @@ msgstr ""
 "---------------------\n"
 
 #: legacy-forums.php:91
+#, php-format
 msgid "%s replied to the forum topic \"%s\" in the group \"%s\""
 msgstr "%s ha respost al tema del fòrum \"%s\" al node \"%s\""
 
 #: legacy-forums.php:80
+#, php-format
 msgid "%s started the forum topic \"%s\" in the group \"%s\""
 msgstr "%s ha iniciat el tema del fòrum \"%s\" al node \"%s\""
 
 #: bp-activity-subscription-digest.php:187
+#, php-format
 msgid "(%s items)"
 msgstr "(%s elements)"
 
@@ -103,6 +109,7 @@ msgstr ""
 
 #: bp-activity-subscription-functions.php:1495
 #: bp-activity-subscription-functions.php:1508
+#, php-format
 msgid "<a href=\"%1$s\">Continue to %2$s</a>"
 msgstr "<a href=\"%1$s\">Continua a %2$s</a>"
 
@@ -178,15 +185,6 @@ msgstr ""
 "Permet als administradors dels nodes sobreescriure els paràmetres de "
 "subscripció i enviar un missatge a tots els membres del seu node:"
 
-#. Description of the plugin/theme
-msgid ""
-"Allows group members to receive email notifications for group activity and "
-"forum posts instantly or as daily digest or weekly summary."
-msgstr ""
-"Permet als membres dels nodes rebre notificacions per correu electrònic de "
-"l'activitat dels nodes i els enviaments als fòrums de manera immediata o en "
-"forma de resum diari o setmanal."
-
 #: bp-activity-subscription-functions.php:589
 msgid ""
 "An email digest is sent to a member. Used by the Group Email Subscription "
@@ -200,21 +198,22 @@ msgid ""
 msgstr ""
 
 #: admin.php:17
+#, fuzzy
 msgid "BP Group Email Options"
-msgstr ""
-
-#. Plugin Name of the plugin/theme
-msgid "BuddyPress Group Email Subscription"
-msgstr "Subscripció per correu als nodes"
+msgstr "Opcions de correu del node"
 
 #: bp-activity-subscription-functions.php:805
 #: bp-activity-subscription-functions.php:841
+#, fuzzy
 msgid "Change email settings"
 msgstr ""
+"Per deshabilitar les notificacions per a un node, entreu i aneu a: %s on "
+"podreu canviar les vostres preferències per a cadascun dels nodes."
 
 #: bp-activity-subscription-functions.php:816
+#, fuzzy
 msgid "Change group email Settings"
-msgstr ""
+msgstr "Configuració de correu electrònic per a nodes individuals"
 
 #: bp-activity-subscription-functions.php:1397
 msgid "Change to:"
@@ -249,10 +248,6 @@ msgid ""
 msgstr ""
 "Butlletí diari per correu electrònic (tota l'activitat diària en un sol "
 "correu electrònic - recomanat per a nodes mitjans)"
-
-#. Author of the plugin/theme
-msgid "Deryk Wenaus, boonebgorges, r-a-y"
-msgstr "Deryk Wenaus, boonebgorges, r-a-y"
 
 #: admin.php:81
 msgid "Digests & Summaries"
@@ -368,14 +363,17 @@ msgid "Group Summary"
 msgstr "Resum del node"
 
 #: bp-activity-subscription-digest.php:411
+#, php-format
 msgid "Group: %s"
 msgstr "Node: %s"
 
 #: bp-activity-subscription-digest.php:413
+#, php-format
 msgid "Group: %s weekly summary"
 msgstr "Node: %s resum setmanal"
 
 #: bp-activity-subscription.php:35
+#, php-format
 msgid ""
 "Hey! BP Group Email Subscription v3.7.0 requires BuddyPress 1.5 or higher.  "
 "If you are still using BuddyPress 1.2 and you don't plan on upgrading, use "
@@ -402,6 +400,7 @@ msgid "I will read this group on the web"
 msgstr "Llegiu aquest node a la web"
 
 #: admin.php:167
+#, php-format
 msgid "If you enjoy using this plugin %s please rate it %s."
 msgstr "Si us agrada aquesta extensió, si us plau, %svaloreu-la %s."
 
@@ -521,6 +520,7 @@ msgstr ""
 "missatge de correu electrònic"
 
 #: bp-activity-subscription-functions.php:24
+#, php-format
 msgid "Or to disable notifications for *all* your groups, click: %s"
 msgstr ""
 "O per deshabilitar les notificacions de *tots* els vostres nodes, feu clic "
@@ -609,6 +609,7 @@ msgid "The email notice was sent successfully."
 msgstr "La notificació s'ha enviat correctament."
 
 #: admin.php:119
+#, php-format
 msgid ""
 "The server timezone is %s (%s); the current server time is %s (%s); and the "
 "day is %s."
@@ -625,13 +626,13 @@ msgid "This conversation is muted. Click to follow it"
 msgstr "Aquesta conversa està silenciada. Feu clic per seguir-la"
 
 #: admin.php:317
+#, php-format
 msgid ""
 "This email is handled by the Group Email Subscription plugin and uses "
 "customized tokens.  <a target=\"_blank\" href=\"%s\">Learn more about GES "
 "tokens on our wiki</a>."
 msgstr ""
 
-#. translators: do not remove {} brackets or translate its contents.
 #: bp-activity-subscription-functions.php:602
 msgid ""
 "This is a notice from the group \"{{{group.name}}}\":\n"
@@ -650,7 +651,8 @@ msgid ""
 "{{{group.url}}}"
 msgstr ""
 
-#: screen-admin.php:204
+#: screen-admin.php:205
+#, php-format
 msgid ""
 "This is a notice from the group '%s':\n"
 "\n"
@@ -672,7 +674,6 @@ msgstr ""
 "\n"
 "---------------------\n"
 
-#. translators: do not remove {} brackets or translate its contents.
 #: bp-activity-subscription-functions.php:599
 msgid ""
 "This is a notice from the group {{{group.link}}}:\n"
@@ -695,6 +696,7 @@ msgid "Thursday"
 msgstr "dijous"
 
 #: screen-user-settings.php:93
+#, php-format
 msgid ""
 "To change the email notification settings for your groups, go to %s and "
 "click \"Change\" for each group."
@@ -704,6 +706,7 @@ msgstr ""
 
 #: bp-activity-subscription-functions.php:341 legacy-forums.php:209
 #: legacy-forums.php:233
+#, php-format
 msgid ""
 "To change your email setting for this group, please log in and go to: %s"
 msgstr ""
@@ -715,28 +718,35 @@ msgid "To change your email settings for this group only, click on this link"
 msgstr ""
 
 #: bp-activity-subscription-functions.php:821
+#, fuzzy
 msgid "To disable all notifications for this group, click on this link"
-msgstr ""
+msgstr "Per deshabilitar les notificacions d'aquest node feu clic"
 
 #: bp-activity-subscription-functions.php:21
+#, php-format
 msgid "To disable all notifications for this group, click: %s"
 msgstr ""
 "Per deshabilitar totes les notificacions per a aquest node, feu clic  a: %s"
 
 #: bp-activity-subscription-functions.php:1598
+#, php-format
 msgid "To disable emails from all your groups at once click: %s"
 msgstr ""
 "Per deshabilitar el correu electrònic a tots els vostres nodes feu clic: %s"
 
 #: bp-activity-subscription-functions.php:828
+#, fuzzy
 msgid "To disable notifications from all your groups, click on this link"
 msgstr ""
+"O per deshabilitar les notificacions de *tots* els vostres nodes, feu clic "
+"a: %s"
 
 #: bp-activity-subscription-digest.php:418
 msgid "To disable these notifications for this group click "
 msgstr "Per deshabilitar les notificacions d'aquest node feu clic"
 
 #: bp-activity-subscription-digest.php:214
+#, php-format
 msgid ""
 "To disable these notifications per group please login and go to: %s where "
 "you can change your email settings for each group."
@@ -746,6 +756,7 @@ msgstr ""
 
 #: bp-activity-subscription-functions.php:314 legacy-forums.php:193
 #: legacy-forums.php:247 legacy-forums.php:261 legacy-forums.php:275
+#, php-format
 msgid "To disable these notifications please log in and go to: %s"
 msgstr "Per deshabilitar aquestes notificacions, entreu i aneu a: %s"
 
@@ -777,16 +788,18 @@ msgid "Unsubscribe"
 msgstr "Cancel·la la subscripció"
 
 #: bp-activity-subscription-functions.php:829
+#, fuzzy
 msgid "Unsubscribe from all groups"
-msgstr ""
+msgstr "Cancel·la les notificacions de tots els nodes"
 
 #: bp-activity-subscription-functions.php:1518
 msgid "Unsubscribe from all groups notifications"
 msgstr "Cancel·la les notificacions de tots els nodes"
 
 #: bp-activity-subscription-functions.php:822
+#, fuzzy
 msgid "Unsubscribe from this group"
-msgstr ""
+msgstr "Enllaços per donar-se de baixa dels correus electrònics"
 
 #: screen-admin.php:54
 msgid "User email status changed successfully"
@@ -900,6 +913,7 @@ msgid "You have been unsubscribed from all groups notifications."
 msgstr "S'ha cancel·lat la vostra subscripció a tots els nodes."
 
 #: bp-activity-subscription-digest.php:70
+#, php-format
 msgid ""
 "You have received this message because you are subscribed to receive a "
 "digest of activity in some of your groups on %s."
@@ -917,6 +931,7 @@ msgid "Your daily digest of group activity"
 msgstr "El vostre resum diari de l'activitat del node"
 
 #: screen-notifications.php:88
+#, php-format
 msgid "Your email notifications are set to %s for this group."
 msgstr ""
 "Les vostres notificacions de correu electrònic per a aquest node "
@@ -927,6 +942,7 @@ msgid "Your email setting for this group is: "
 msgstr "La vostra configuració de correu per a aquest node es:"
 
 #: bp-activity-subscription-functions.php:335
+#, php-format
 msgid "Your email setting for this group is: %s"
 msgstr "La vostra configuració de correu per a aquest node es: %s"
 
@@ -943,6 +959,7 @@ msgstr ""
 "correu electrònic de cap node."
 
 #: bp-activity-subscription-functions.php:1493
+#, php-format
 msgid ""
 "Your unsubscription was successful. You will no longer receive email "
 "notifications from the group %s."
@@ -954,18 +971,18 @@ msgstr ""
 msgid "Your weekly summary of group topics"
 msgstr "El vostre resum setmanal de temes dels nodes"
 
-#. translators: do not remove {} brackets or translate its contents.
 #: bp-activity-subscription-functions.php:566
 #: bp-activity-subscription-functions.php:581
 #: bp-activity-subscription-functions.php:611
+#, fuzzy
 msgid "[{{{site.name}}}] {{{ges.subject}}}"
-msgstr ""
+msgstr "[{{{site.name}}}] Activeu el vostre compte"
 
-#. translators: do not remove {} brackets or translate its contents.
 #: bp-activity-subscription-functions.php:596
+#, fuzzy
 msgid ""
 "[{{{site.name}}}] {{{ges.subject}}} - from the group \"{{{group.name}}}\""
-msgstr ""
+msgstr "[{{{site.name}}}] Sol·licitud d'admissió per al node: {{group.name}}"
 
 #: bp-activity-subscription-digest.php:171
 msgid "at"
@@ -973,6 +990,7 @@ msgstr "a"
 
 #: bp-activity-subscription-digest.php:489
 #: bp-activity-subscription-digest.php:529
+#, php-format
 msgid "at %s, %s"
 msgstr "a %s, %s"
 
@@ -1000,12 +1018,6 @@ msgstr "notificacions per correu electrònic"
 msgid "email options"
 msgstr "Opcions de correu electrònic"
 
-#. Plugin URI of the plugin/theme
-msgid ""
-"http://wordpress.org/extend/plugins/buddypress-group-email-subscription/"
-msgstr ""
-"http://wordpress.org/extend/plugins/buddypress-group-email-subscription/"
-
 #: bp-activity-subscription-functions.php:135
 msgid "in the group"
 msgstr "al node"
@@ -1026,7 +1038,6 @@ msgstr "doneu-vos de baixa"
 msgid "yes"
 msgstr "sí"
 
-#. translators: do not remove {} brackets or translate its contents.
 #: bp-activity-subscription-functions.php:572
 msgid ""
 "{{{ges.action}}}:\n"
@@ -1055,7 +1066,6 @@ msgstr ""
 "\n"
 "{{{ges.email-setting-links}}}"
 
-#. translators: do not remove {} brackets or translate its contents.
 #: bp-activity-subscription-functions.php:569
 msgid ""
 "{{{ges.action}}}:\n"
@@ -1074,7 +1084,6 @@ msgstr ""
 "al dia de la conversa.\n"
 "{{{ges.email-setting-description}}}"
 
-#. translators: do not remove {} brackets or translate its contents.
 #: bp-activity-subscription-functions.php:587
 msgid ""
 "{{{ges.digest-summary}}}\n"
@@ -1091,7 +1100,6 @@ msgid ""
 "settings for each group."
 msgstr ""
 
-#. translators: do not remove {} brackets or translate its contents.
 #: bp-activity-subscription-functions.php:584
 msgid ""
 "{{{ges.digest-summary}}}{{{usermessage}}}\n"
@@ -1099,3 +1107,25 @@ msgid ""
 "You have received this message because you are subscribed to receive a "
 "digest of activity in some of your groups on {{site.name}}."
 msgstr ""
+
+#~ msgid "(%s replies)"
+#~ msgstr "(%s respostes)"
+
+#~ msgid ""
+#~ "Allows group members to receive email notifications for group activity "
+#~ "and forum posts instantly or as daily digest or weekly summary."
+#~ msgstr ""
+#~ "Permet als membres dels nodes rebre notificacions per correu electrònic "
+#~ "de l'activitat dels nodes i els enviaments als fòrums de manera immediata "
+#~ "o en forma de resum diari o setmanal."
+
+#~ msgid "BuddyPress Group Email Subscription"
+#~ msgstr "Subscripció per correu als nodes"
+
+#~ msgid "Deryk Wenaus, boonebgorges, r-a-y"
+#~ msgstr "Deryk Wenaus, boonebgorges, r-a-y"
+
+#~ msgid ""
+#~ "http://wordpress.org/extend/plugins/buddypress-group-email-subscription/"
+#~ msgstr ""
+#~ "http://wordpress.org/extend/plugins/buddypress-group-email-subscription/"

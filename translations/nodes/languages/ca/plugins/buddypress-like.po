@@ -2,24 +2,23 @@
 # This file is distributed under the same license as the Plugins - BuddyPress Like - Development (trunk) package.
 msgid ""
 msgstr ""
-"Project-Id-Version: Plugins - BuddyPress Like - Development (trunk)\n"
-"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/buddypress-like\n"
-"POT-Creation-Date: 2017-06-23 07:45:37+00:00\n"
 "PO-Revision-Date: 2017-01-16 14:07+0100\n"
-"Last-Translator: Mònica Grau <mgrau226@xtec.cat>\n"
-"Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ca\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Poedit 1.8.7.1\n"
+"Language: ca\n"
+"Project-Id-Version: Plugins - BuddyPress Like - Development (trunk)\n"
+"POT-Creation-Date: \n"
+"Last-Translator: Mònica Grau <mgrau226@xtec.cat>\n"
+"Language-Team: \n"
 
-#: admin/admin.php:134 includes/admin.php:149
+#: admin/admin.php:134 includes/admin.php:136
 msgid " Currently only uses jQuery to remove the buttons."
 msgstr "Actualment només s'utilitza jQuery per esborrar els botons."
 
-#: admin/admin.php:111 includes/admin.php:116 includes/admin.php:118
+#: admin/admin.php:111 includes/admin.php:113
 msgid " liked Darren's activity. "
 msgstr "li ha agradat l'activitat del Darren."
 
@@ -242,13 +241,12 @@ msgstr ""
 msgid "Blog Post Likes"
 msgstr "\"M'agrada\" d'enviaments de blog"
 
-#. #-#-#-#-#  buddypress-like.pot (BuddyPress Like 0.3.0)  #-#-#-#-#
 #. Plugin Name of the plugin/theme
 #: admin/admin.php:79 includes/admin.php:81
 msgid "BuddyPress Like"
 msgstr "BuddyPress Like"
 
-#: admin/admin.php:173 includes/admin.php:196 includes/admin.php:198
+#: admin/admin.php:173 includes/admin.php:175
 msgid ""
 "Change what messages are shown to users. For example, they can 'love' or "
 "'dig' items instead of liking them."
@@ -256,12 +254,12 @@ msgstr ""
 "Canvia els textos que veuen els usuaris. Per exemple, \"M'encanta\" o \"Mola"
 "\" en lloc de \"M'agrada\"."
 
-#: admin/admin.php:183 includes/admin.php:212
+#: admin/admin.php:183 includes/admin.php:187
 msgid "Custom"
 msgstr "Personalitza"
 
-#: admin/admin.php:166 admin/admin.php:170 includes/admin.php:186
-#: includes/admin.php:190
+#: admin/admin.php:166 admin/admin.php:170 includes/admin.php:168
+#: includes/admin.php:172
 msgid "Custom Messages"
 msgstr "Missatges personalitzats"
 
@@ -269,7 +267,7 @@ msgstr "Missatges personalitzats"
 msgid "Darren Meehan"
 msgstr "Darren Meehan"
 
-#: admin/admin.php:182 includes/admin.php:211
+#: admin/admin.php:182 includes/admin.php:186
 msgid "Default"
 msgstr "Per defecte"
 
@@ -329,16 +327,16 @@ msgstr "Envia una actualització de l'activitat quan algú clica a m'agrada"
 msgid "Posting Settings"
 msgstr "Paràmetres d'enviament"
 
-#: admin/admin.php:124 admin/admin.php:128 includes/admin.php:139
-#: includes/admin.php:143
+#: admin/admin.php:124 admin/admin.php:128 includes/admin.php:126
+#: includes/admin.php:130
 msgid "Remove Favorite Button"
 msgstr "Esborra el botó de favorit"
 
-#: admin/admin.php:132 includes/admin.php:147
+#: admin/admin.php:132 includes/admin.php:134
 msgid "Remove the BuddyPress favorite button from activity."
 msgstr "Esborra el botó de favorit del BuddyPress de l'activitat."
 
-#: admin/admin.php:202 includes/admin.php:234 includes/admin.php:236
+#: admin/admin.php:202 includes/admin.php:206
 msgid "Save Changes"
 msgstr "Desa els canvis"
 
@@ -354,7 +352,7 @@ msgstr "Mostra els m'agrada de l'activitat"
 msgid "Show Blog Post Likes"
 msgstr "Mostra els m'agrada dels enviaments del blog"
 
-#: admin/admin.php:115 includes/admin.php:124
+#: admin/admin.php:115 includes/admin.php:117
 msgid "Show a short excerpt of the activity that has been liked."
 msgstr "Mostra un petit extracte de l'activitat on s'ha clicat m'agrada"
 
@@ -428,7 +426,7 @@ msgstr "i %count% persones els ha agradat això."
 msgid "and %count% other person like this."
 msgstr "i %count% persona li ha agradat això."
 
-#: admin/admin.php:111 includes/admin.php:116 includes/admin.php:118
+#: admin/admin.php:111 includes/admin.php:113
 msgid "e.g. "
 msgstr "p. ex.: "
 
@@ -448,7 +446,7 @@ msgstr "li agrada."
 msgid "likes this."
 msgstr "li agrada això."
 
-#: includes/like-functions.php:424 includes/like-functions.php:484
+#: includes/like-functions.php:418 includes/like-functions.php:478
 msgid "other"
 msgid_plural "others"
 msgstr[0] "altre"

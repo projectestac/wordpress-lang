@@ -3,26 +3,26 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WordPress Importer 0.5\n"
-"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wordpress-"
-"importer\n"
-"POT-Creation-Date: 2017-06-23 07:45:38+00:00\n"
-"PO-Revision-Date: 2013-07-08 14:03+0100\n"
-"Last-Translator: Jmiro227 <jmiro227@xtec.cat>\n"
-"Language-Team: \n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/wordpress-importer\n"
+"POT-Creation-Date: 2011-07-16 15:45:12+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: \n"
+"PO-Revision-Date: 2018-07-13 16:30+0200\n"
+"Last-Translator: Joan Sala Soler <jsala236@xtec.cat>\n"
+"Language-Team: \n"
+"Language: ca\n"
+"X-Generator: Poedit 2.0.4\n"
 
-#: wordpress-importer.php:642
+#: wordpress-importer.php:543
 msgid "%s &#8220;%s&#8221; already exists."
 msgstr "%s \"%s\" ja existeix."
 
-#: wordpress-importer.php:322
+#: wordpress-importer.php:319
 msgid "- Select -"
 msgstr "- Seleccionar -"
 
-#: wordpress-importer.php:1126
+#: wordpress-importer.php:1001
 msgid ""
 "A new version of this importer is available. Please update to version %s to "
 "ensure compatibility with newer export files."
@@ -31,15 +31,15 @@ msgstr ""
 "actualitzeu a la versió %s per assegurar la compatibilitat amb els arxius "
 "d'exportació més nous."
 
-#: wordpress-importer.php:176
+#: wordpress-importer.php:178
 msgid "All done."
 msgstr "Tot fet."
 
-#: wordpress-importer.php:264
+#: wordpress-importer.php:261
 msgid "Assign Authors"
 msgstr "Assignar autors."
 
-#: wordpress-importer.php:1142
+#: wordpress-importer.php:1017
 msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
 msgstr ""
 "Trieu un arxiu WXR (. Xml) per carregar, i feu clic a \"Penja el fitxer i "
@@ -53,11 +53,11 @@ msgstr ""
 "Els detalls es mostren a dalt. L'importador ho intentarà de nou amb un "
 "analitzador diferent..."
 
-#: wordpress-importer.php:280
+#: wordpress-importer.php:277
 msgid "Download and import file attachments"
 msgstr "Descarregar i importar adjunts"
 
-#: wordpress-importer.php:372
+#: wordpress-importer.php:369
 msgid ""
 "Failed to create new user for %s. Their posts will be attributed to the "
 "current user."
@@ -65,19 +65,19 @@ msgstr ""
 "No s'ha pogut crear un nou ususari per %s. Les seves entrades s'assignaran a "
 "l'usuari actaul."
 
-#: wordpress-importer.php:516 wordpress-importer.php:738
+#: wordpress-importer.php:500 wordpress-importer.php:626
 msgid "Failed to import %s %s"
 msgstr "No s'ha pogut importar %s %s"
 
-#: wordpress-importer.php:704
+#: wordpress-importer.php:598
 msgid "Failed to import %s &#8220;%s&#8221;"
 msgstr "No s'ha pogut importar %s \"%s\""
 
-#: wordpress-importer.php:605
+#: wordpress-importer.php:522
 msgid "Failed to import &#8220;%s&#8221;: Invalid post type %s"
 msgstr "No s'ha pogut importar \"%s\": Tipus d'entrada no vàlid %s"
 
-#: wordpress-importer.php:238
+#: wordpress-importer.php:235
 msgid ""
 "Failed to import author %s. Their posts will be attributed to the current "
 "user."
@@ -85,23 +85,23 @@ msgstr ""
 "No s'ha pogut importar l'autor %s. Les seves entrades seran atribuïdes a "
 "l'usuari actual."
 
-#: wordpress-importer.php:424
+#: wordpress-importer.php:418
 msgid "Failed to import category %s"
 msgstr "No s'ha pogut importar la categoria %s"
 
-#: wordpress-importer.php:467
+#: wordpress-importer.php:456
 msgid "Failed to import post tag %s"
 msgstr "No s'ha pogut importar l'etiqueta %s"
 
-#: wordpress-importer.php:939
+#: wordpress-importer.php:814
 msgid "Fetching attachments is not enabled"
 msgstr "L'obtenció dels arxius adjunts no s'ha habilitat"
 
-#: wordpress-importer.php:176
+#: wordpress-importer.php:178
 msgid "Have fun!"
 msgstr "Passi-ho bé!."
 
-#: wordpress-importer.php:1141
+#: wordpress-importer.php:1016
 msgid ""
 "Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import "
 "the posts, pages, comments, custom fields, categories, and tags into this "
@@ -110,7 +110,7 @@ msgstr ""
 "Hola! Carregueu l'arxiu WordPress eXtended RSS (WXR) i importarem les "
 "entrades, pàgines, comentaris, camps personalitzats, categories i etiquetes."
 
-#: wordpress-importer.php:267
+#: wordpress-importer.php:264
 msgid ""
 "If a new user is created by WordPress, a new password will be randomly "
 "generated and the new user&#8217;s role will be set as %s. Manually changing "
@@ -120,7 +120,7 @@ msgstr ""
 "contrasenya i la nova funció de l'usuari s'establirà com a %s. Serà "
 "necessari el canvi manual dels detalls del nou usuari."
 
-#: wordpress-importer.php:1216
+#: wordpress-importer.php:1091
 msgid ""
 "Import <strong>posts, pages, comments, custom fields, categories, and tags</"
 "strong> from a WordPress export file."
@@ -128,15 +128,15 @@ msgstr ""
 "Importar <strong>entrades, pàgines, comentaris, camps personalitzats, "
 "categories i etiquetes</strong> d'un fitxer d'exportació de  WordPress."
 
-#: wordpress-importer.php:277
+#: wordpress-importer.php:274
 msgid "Import Attachments"
 msgstr "Importar Adjunts"
 
-#: wordpress-importer.php:1119
+#: wordpress-importer.php:994
 msgid "Import WordPress"
 msgstr "Importar de Wordpress"
 
-#: wordpress-importer.php:297
+#: wordpress-importer.php:294
 msgid "Import author:"
 msgstr "Importar autor:"
 
@@ -148,46 +148,45 @@ msgstr ""
 "Importar entrades, pàgines, comentaris, camps personalitzats, categories, "
 "etiquetes i més, d'un fitxer d'exportació de WordPress."
 
-#: wordpress-importer.php:952
+#: wordpress-importer.php:827
 msgid "Invalid file type"
 msgstr "Tipus de fitxer no vàlid"
 
-#: wordpress-importer.php:876
+#: wordpress-importer.php:751
 msgid "Menu item skipped due to invalid menu slug: %s"
 msgstr "Element del menú saltat: %s"
 
-#: wordpress-importer.php:869
+#: wordpress-importer.php:744
 msgid "Menu item skipped due to missing menu slug"
 msgstr "Element del menú saltat"
 
-#: wordpress-importer.php:177
+#: wordpress-importer.php:179
 msgid "Remember to update the passwords and roles of imported users."
 msgstr ""
 "Recordi actualitzar les contrasenyes i els rols dels usuaris importats."
 
-#: wordpress-importer.php:1009
+#: wordpress-importer.php:884
 msgid "Remote file is incorrect size"
 msgstr "El fitxer remot té una mida incorrecta"
 
-#: wordpress-importer.php:1020
+#: wordpress-importer.php:895
 msgid "Remote file is too large, limit is %s"
 msgstr "El fitxer remot és massa garn, el límit és %s"
 
-#: wordpress-importer.php:996
+#: wordpress-importer.php:871
 msgid "Remote server did not respond"
 msgstr "El servidor remot no contesta"
 
-#: wordpress-importer.php:1002
+#: wordpress-importer.php:877
 msgid "Remote server returned error response %1$d %2$s"
 msgstr "El servidor remot ha retornat l'error %1$d %2$s"
 
-#: wordpress-importer.php:132 wordpress-importer.php:141
-#: wordpress-importer.php:192 wordpress-importer.php:196
-#: wordpress-importer.php:205
+#: wordpress-importer.php:134 wordpress-importer.php:143
+#: wordpress-importer.php:194 wordpress-importer.php:202
 msgid "Sorry, there has been an error."
 msgstr "Ho sentim, s'ha produït un error."
 
-#: wordpress-importer.php:284
+#: wordpress-importer.php:281
 msgid "Submit"
 msgstr "Enviar"
 
@@ -199,15 +198,15 @@ msgstr ""
 "El fitxer d'exportació no s'ha pogut trobar a <code>%s</code>. És probable "
 "que això sigui per un problema de permisos."
 
-#: wordpress-importer.php:133
+#: wordpress-importer.php:135
 msgid "The file does not exist, please try again."
 msgstr "El fitxer no existeix, si us plau intenti-ho un altre cop."
 
-#: parsers.php:42 parsers.php:72 parsers.php:80
+#: parsers.php:42 parsers.php:63
 msgid "There was an error when reading this WXR file"
 msgstr "S'ha produït un error en llegir el fitxer WXR"
 
-#: wordpress-importer.php:213
+#: wordpress-importer.php:210
 msgid ""
 "This WXR file (version %s) may not be supported by this version of the "
 "importer. Please consider updating."
@@ -215,14 +214,14 @@ msgstr ""
 "Aquest fitxer WXR (versió% s) no sigui compatible amb aquesta versió de "
 "l'importador. Si us plau, penseu en actualitzar-ho."
 
-#: parsers.php:84 parsers.php:89 parsers.php:306 parsers.php:495
+#: parsers.php:67 parsers.php:72 parsers.php:262 parsers.php:451
 msgid ""
 "This does not appear to be a WXR file, missing/invalid WXR version number"
 msgstr ""
 "Això no sembla ser un arxiu WXR, falta o és invàlid el número de versió de "
 "l'WXR"
 
-#: wordpress-importer.php:265
+#: wordpress-importer.php:262
 msgid ""
 "To make it easier for you to edit and save the imported content, you may "
 "want to reassign the author of the imported item to an existing user of this "
@@ -238,31 +237,43 @@ msgstr ""
 msgid "WordPress Importer"
 msgstr "WordPress Importer"
 
-#: wordpress-importer.php:1014
+#: wordpress-importer.php:889
 msgid "Zero size file downloaded"
 msgstr "S'ha descorregat un fitxer de mida zero"
 
-#: wordpress-importer.php:311
+#: wordpress-importer.php:308
 msgid "as a new user:"
 msgstr "com un usuari nou:"
 
-#: wordpress-importer.php:319
+#: wordpress-importer.php:316
 msgid "assign posts to an existing user:"
 msgstr "assignar entrades a un usuari existent:"
 
 #. Author URI of the plugin/theme
+#, fuzzy
 msgid "http://wordpress.org/"
 msgstr "http://wordpress.org/"
 
 #. Plugin URI of the plugin/theme
+#, fuzzy
 msgid "http://wordpress.org/extend/plugins/wordpress-importer/"
-msgstr "http://wordpress.org/extend/plugins/wordpress-importer/"
+msgstr "http://wordpress.org/extend/plugins/blogger-importer/"
 
-#: wordpress-importer.php:321
+#. Author URI of the plugin/theme
+#, fuzzy
+msgid "https://wordpress.org/"
+msgstr "https://wordpress.org/"
+
+#. Plugin URI of the plugin/theme
+#, fuzzy
+msgid "https://wordpress.org/plugins/wordpress-importer/"
+msgstr "http://wordpress.org/extend/plugins/blogger-importer/"
+
+#: wordpress-importer.php:318
 msgid "or assign posts to an existing user:"
 msgstr "o assignar entrades a un usuari existent:"
 
-#: wordpress-importer.php:308
+#: wordpress-importer.php:305
 msgid "or create new user with login name:"
 msgstr "o crear un nou usuari amb nom:"
 
