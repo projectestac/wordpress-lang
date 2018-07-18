@@ -5,13 +5,13 @@ msgstr ""
 "Project-Id-Version: Invite Anyone 1.3\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/invite-anyone\n"
 "POT-Creation-Date: 2015-10-26 03:57:19+00:00\n"
-"PO-Revision-Date: 2018-07-13 16:28+0200\n"
+"PO-Revision-Date: 2018-07-16 12:48+0200\n"
 "Last-Translator: Joan Sala Soler <jsala236@xtec.cat>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.4\n"
+"X-Generator: Poedit 2.0.7\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Language-Team: \n"
 
@@ -154,22 +154,22 @@ msgstr ""
 #: admin/admin-panel.php:378
 msgid "<strong>Group admins</strong> can send group invitations to: "
 msgstr ""
-"Els <strong>administradors de nodes</strong> poden enviar invitacions a:"
+"Els <strong>administradors de nodes</strong> poden enviar invitacions a: "
 
 # MODIFICAT XTEC
 #: admin/admin-panel.php:394
 msgid "<strong>Group members</strong> can send group invitations to: "
-msgstr "Els <strong>membres de nodes</strong> poden enviar invitacions a:"
+msgstr "Els <strong>membres de nodes</strong> poden enviar invitacions a: "
 
 # MODIFICAT XTEC
 #: admin/admin-panel.php:386
 msgid "<strong>Group mods</strong> can send group invitations to: "
-msgstr "Els <strong>moderadors de nodes</strong> poden enviar invitacions a:"
+msgstr "Els <strong>moderadors de nodes</strong> poden enviar invitacions a: "
 
 #: admin/admin-panel.php:370
 msgid "<strong>Site admins</strong> can send group invitations to: "
 msgstr ""
-"Els <strong>administradors del lloc</strong> poden enviar invitacions a:"
+"Els <strong>administradors del lloc</strong> poden enviar invitacions a: "
 
 #: admin/admin-panel.php:319
 msgid "A limited set of users"
@@ -328,6 +328,7 @@ msgstr ""
 #: admin/admin-panel.php:488
 msgid "Click in the <strong>test</strong> button to test your integration."
 msgstr ""
+"Cliqueu al botó <strong>prova</strong> per provar la vostra integració."
 
 #: admin/admin-panel.php:125 admin/admin-panel.php:177
 #: admin/admin-panel.php:466
@@ -339,22 +340,20 @@ msgid "CloudSponge Domain Key"
 msgstr "CloudSponge Domain Key"
 
 #: admin/admin-panel.php:477
-#, fuzzy
 msgid "CloudSponge Key"
-msgstr "CloudSponge Domain Key"
+msgstr "Clau de CloudSponge"
 
 #: admin/admin-stats.php:342
 msgid "CloudSponge Usage"
 msgstr "Ús de CloudSponge"
 
 #: admin/admin-panel.php:473
-#, fuzzy
 msgid ""
 "CloudSponge integration will not work without a valid CloudSponge Domain key."
-msgstr "La integració amb CloudSponge no funcionarà sense un clau vàlida."
+msgstr ""
+"La integració amb CloudSponge no funcionarà sense un clau de domini vàlida."
 
 #: admin/admin-panel.php:484
-#, fuzzy
 msgid "CloudSponge integration will not work without a valid CloudSponge Key."
 msgstr "La integració amb CloudSponge no funcionarà sense un clau vàlida."
 
@@ -396,7 +395,7 @@ msgstr "Editor"
 
 #: by-email/by-email.php:128
 msgid "Email:"
-msgstr "Correu electrònic"
+msgstr "Correu electrònic:"
 
 #: admin/admin-panel.php:417
 msgid "Enable CloudSponge?"
@@ -444,7 +443,7 @@ msgstr "Invitacions al node"
 #: group-invites/group-invites.php:108 group-invites/group-invites.php:157
 #: group-invites/group-invites.php:201
 msgid "Group invites sent."
-msgstr "S'ha enviat la invitació al node"
+msgstr "S'ha enviat la invitació al node."
 
 #: by-email/by-email.php:85
 msgid ""
@@ -656,7 +655,7 @@ msgstr "No s'ha trobat cap invitació a la paperera"
 
 #: admin/admin-panel.php:592
 msgid "No invitations have been sent yet."
-msgstr "Encara no s'ha enviat cap invitació"
+msgstr "Encara no s'ha enviat cap invitació."
 
 #: admin/admin-panel.php:374 admin/admin-panel.php:382
 #: admin/admin-panel.php:390 admin/admin-panel.php:398
@@ -690,7 +689,7 @@ msgstr "Corregiu els errors i reenvieu les invitacions."
 
 #: admin/admin-panel.php:486
 msgid "Please, click on <strong>Save Changes</strong> to save the key!"
-msgstr ""
+msgstr "Cliqueu a <strong>Desa el canvis</strong> per desar la clau!"
 
 #: admin/admin-panel.php:339
 msgid ""
@@ -784,7 +783,7 @@ msgstr ""
 
 #: by-email/by-email.php:102
 msgid "Sorry, there was an error in processing your request"
-msgstr "Ho sentim, hi ha hagut un error processant la vostra petició."
+msgstr "Ho sentim, hi ha hagut un error processant la vostra petició"
 
 #: admin/admin-panel.php:133 admin/admin-panel.php:189
 msgid "Stats"
@@ -796,16 +795,15 @@ msgstr "Assumpte del missatge"
 
 #: by-email/by-email.php:645
 msgid "Subject:"
-msgstr "Assumpte"
+msgstr "Assumpte:"
 
 #: admin/admin-panel.php:330
 msgid "Subscriber"
 msgstr "Subscriptor"
 
 #: admin/admin-panel.php:480
-#, fuzzy
 msgid "Test"
-msgstr "per provar"
+msgstr "Provar"
 
 #: admin/admin-panel.php:200
 msgid "Text of email invitation subject line"
@@ -979,7 +977,7 @@ msgid ""
 "and try again"
 msgstr ""
 "Només podeu convidar %s persona/es més. Esborreu alguna adreça de correu "
-"electrònic i toneu a provar-ho de nou."
+"electrònic i toneu a provar-ho de nou"
 
 #: by-email/by-email.php:1131
 msgid ""
@@ -987,7 +985,7 @@ msgid ""
 "addresses and try again"
 msgstr ""
 "Només podeu convidar %s persones alhora. Elimineu alguna adreça de correu "
-"electrònic i torneu a provar-ho."
+"electrònic i torneu a provar-ho"
 
 #: by-email/cloudsponge-integration.php:70
 msgid ""

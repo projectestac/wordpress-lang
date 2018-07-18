@@ -2,12 +2,12 @@
 # This file is distributed under the same license as the Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2018-07-13 16:28+0200\n"
+"PO-Revision-Date: 2018-07-17 23:15+0200\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Poedit 2.0.4\n"
+"X-Generator: Poedit 2.0.7\n"
 "Project-Id-Version: Stable (latest release)\n"
 "POT-Creation-Date: \n"
 "Last-Translator: Joan Sala Soler <jsala236@xtec.cat>\n"
@@ -21,27 +21,33 @@ msgstr ""
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-SearchPath-0: .\n"
 
+# modificat xtec
 #: includes/admin/pages/system-status.php:112
 msgid ""
 "%1$s - It is recomendend to set memory to at least 64MB. See: <a href=\"%2$s"
 "\" target=\"_blank\">Increasing memory allocated to PHP</a>"
 msgstr ""
+"%1$s - Es recomana configurar la memòria com a mínima a 64MB. Vegeu: <a href="
+"\"%2$s\" target=\"_blank\">Augmentar la memòria allotjada a PHP</a>"
 
+# modificat xtec
 #: includes/admin/pages/system-status.php:339
 msgid ""
 "%1$s - It is recomendend to upgrade at least to PHP version 5.4 for security "
 "reasons. <a href=\"%2$s\" target=\"_blank\">Read more.</a>"
 msgstr ""
+"%1$s - Es recomana actualitzar com a mínima a la versió 5.4 de PHP per raons "
+"de seguretat. <a href=\"%2$s\" target=\"_blank\">Llegeix més.</a>"
 
 #: includes/admin/pages/system-status.php:212
 #: includes/admin/pages/system-status.php:305
 msgid "%s is available"
 msgstr "%s disponible"
 
+# modificat xtec
 #: includes/admin/fields/license.php:86
-#, fuzzy
 msgid "(active)"
-msgstr "Actiu"
+msgstr "(actiu)"
 
 #. translators: One or more persons attending the event whose name is unknown.
 #: includes/events/event-builder.php:841
@@ -85,10 +91,10 @@ msgstr ""
 "resultats inesperats si s'han especificat fusos horaris<a href=\"%s\" target="
 "\"_blank\">personalitzats als esdeveniments</a>."
 
+# modificat xtec
 #: includes/admin/welcome.php:52
-#, fuzzy
 msgid "About Simple Calendar"
-msgstr "Calendaris"
+msgstr "Sobre Simple Calendar"
 
 #: includes/admin/fields/license.php:81
 msgid "Activate"
@@ -136,11 +142,12 @@ msgstr "Afegeix un tipus nou d'origen d'esdeveniment"
 
 #: includes/admin/post-types.php:329
 msgid "Add a calendar to your post."
-msgstr "Afegeix un calendari a la teva entrada"
+msgstr "Afegeix un calendari al teu article"
 
+# modificat xtec
 #: includes/admin/welcome.php:233
 msgid "Add even more display options with add-ons like"
-msgstr ""
+msgstr "Afegiu més opcions amb complements com"
 
 #: includes/post-types.php:99
 msgid "Add or remove calendar types"
@@ -150,20 +157,20 @@ msgstr "Afegiu o elimineu tipus de calendaris"
 msgid "Add or remove categories"
 msgstr "Afegeix o esborra categories"
 
+# modificat xtec
 #: includes/post-types.php:63
-#, fuzzy
 msgid "Add or remove events source types"
-msgstr "Tots els tipus d'origens d'esdeveniments"
+msgstr "Afegeix o elimina els tipus d'origen dels esdeveniments"
 
+# modificat xtec
 #: includes/admin/pages/licenses.php:33
-#, fuzzy
 msgid "Add-on Licenses"
-msgstr "Afegeix nova"
+msgstr "Llicències de complements"
 
+# modificat xtec
 #: includes/admin/ajax.php:96
-#, fuzzy
 msgid "Add-on unspecified or invalid action."
-msgstr "Nom d'acció no vàlid."
+msgstr "Complement no especificat o acció invàlida."
 
 #: includes/admin/menus.php:81 includes/admin/menus.php:82
 #: includes/admin/menus.php:146 includes/admin/pages/add-ons.php:31
@@ -235,20 +242,24 @@ msgstr "Abans del contingut"
 msgid "Browser"
 msgstr "Navegador"
 
+# modificat xtec
 #: includes/admin/pages/advanced.php:98
 msgid ""
 "By default your data will be retained in database even after uninstall. Tick "
 "this option if you want to delete all your calendar data when uninstalling."
 msgstr ""
+"Per defecte les vostres dades seran retingudes a la base de dades fins i tot "
+"després de la desinstal·lació. Marqueu aquesta opció si voleu eliminar totes "
+"les dades del vostre calendari quan es desinstal·li."
 
 #: includes/admin/metaboxes/settings.php:747
 msgid "Cache"
 msgstr "Memòria cau"
 
+# modificat xtec
 #: includes/admin/post-types.php:190
-#, fuzzy
 msgid "Cache cleared."
-msgstr "Memòria cau"
+msgstr "Memòria cau eliminada."
 
 #: includes/post-types.php:173 includes/post-types.php:201
 #: includes/widgets/calendar.php:125
@@ -311,9 +322,10 @@ msgstr "Calendaris no trobats"
 msgid "Calendars not found in Trash"
 msgstr "Calendaris no trobats a la paperera"
 
+# modificat xtec
 #: includes/admin/pages/system-status.php:350
 msgid "Cannot connect to MySQL database."
-msgstr ""
+msgstr "No s'ha pogut connectar amb la base de dades de MySQL."
 
 #: includes/post-types.php:123 includes/post-types.php:125
 msgid "Categories"
@@ -324,16 +336,21 @@ msgstr "Categories"
 msgid "Category"
 msgstr "Categoria"
 
+# modirficat xtec
 #: includes/admin/welcome.php:181
 msgid "Check out our documentation"
-msgstr ""
+msgstr "Consulteu la nostra documentació"
 
+# modificat xtec
 #: includes/admin/metaboxes/settings.php:724
 msgid ""
 "Checking this box will use the spacing contained in the separator field "
 "above. Otherwise one space on each side of the separator will be used "
 "instead."
 msgstr ""
+"Si marqueu aquesta casella, s'utilitzarà l'espaiat que es troba al camp de "
+"separador anterior. En cas contrari, s'utilitzarà un espai a cada costat del "
+"separador."
 
 #: includes/admin/pages/system-status.php:258
 msgid "Child Theme"
@@ -343,11 +360,11 @@ msgstr "Tema fill"
 msgid "Choose a calendar theme to match your site theme."
 msgstr "Tria un tema del calendari que cassi amb el tema del lloc."
 
+# modificat xtec
 #: includes/post-types.php:64 includes/post-types.php:100
 #: includes/post-types.php:136
-#, fuzzy
 msgid "Choose from the most used"
-msgstr "Trieu una de les etiquetes més usades"
+msgstr "Trieu una de les més usades"
 
 #: includes/feeds/admin/grouped-calendars-admin.php:103
 msgid ""
@@ -385,11 +402,14 @@ msgstr "Clona"
 msgid "Compact List"
 msgstr "Llista compacta"
 
+# modificat xtec
 #: includes/admin/welcome.php:225
 msgid ""
 "Configure event colors, number of events to display, grid or list style and "
 "more."
 msgstr ""
+"Configureu els colors dels esdeveniments, nombre d'esdeveniments a mostrar, "
+"estil graella o llista i més"
 
 #: includes/admin/post-types.php:227
 msgid "Copy"
@@ -481,9 +501,10 @@ msgstr "Calendari per defecte"
 msgid "Delete settings"
 msgstr "Esborra els paràmetres"
 
+# modificat xtec
 #: includes/admin/pages/licenses.php:59
 msgid "Delete your license keys"
-msgstr ""
+msgstr "Elimineu les vostres claus de llicència"
 
 #: includes/admin/pages/advanced.php:76
 msgid "Disable CSS"
@@ -493,33 +514,35 @@ msgstr "Deshabilita CSS"
 msgid "Display a calendar of events from one of your calendar feeds."
 msgstr "Mostra un calendari d'esdeveniments d'un dels teus canals."
 
+# modificat xtec
 #: includes/functions/admin.php:365
-#, fuzzy
 msgid "Display attachments"
-msgstr "Adjunts"
+msgstr "Mostra els adjunts"
 
+# modificat xtec
 #: includes/functions/admin.php:358
-#, fuzzy
 msgid "Display color coded events"
-msgstr "Esdeveniments filtrats per les paraules següents..."
+msgstr "Mostra els esdeveniments codificats en color"
 
+# modificat xtec
 #: includes/functions/admin.php:363
 msgid "Display private calendar events"
-msgstr ""
+msgstr "Mostra esdeveniments del calendari privat"
 
+# modificat xtec
 #: includes/admin/fields/datetime-format.php:364
 msgctxt "A character to separate two elements"
 msgid "Divider"
-msgstr ""
+msgstr "Divisor"
 
 #: includes/admin/welcome.php:143
 msgid "Documentation"
 msgstr "Documentació"
 
+# modificat xtec
 #: includes/admin/pages/system-status.php:57
-#, fuzzy
 msgid "Download System Report"
-msgstr "Baixa"
+msgstr "Baixa l'informe del sistema"
 
 #: includes/admin/metaboxes/settings.php:353
 msgid "Earliest Event"
@@ -543,10 +566,10 @@ msgstr "Editar Categoria"
 msgid "Edit Events Source Type"
 msgstr "Editeu un tipus d'origen d'esdeveniment"
 
+# modificat xtec
 #: includes/admin/metaboxes/settings.php:630
-#, fuzzy
 msgid "Enter a date format using %s values."
-msgstr "Introduïu un format d'hora utilitzant els valors de %s."
+msgstr "Introduïu un format de data utilitzant els valors de %s."
 
 #: includes/admin/metaboxes/settings.php:702
 msgid "Enter a time format using %s values."
@@ -561,17 +584,23 @@ msgid ""
 "Enter your add-on license keys below, making sure to activate each one to "
 "ensure they are valid."
 msgstr ""
+"Introduïu les vostre claus de llicència dels complements a continuació i "
+"assegureu-vos d'activar-les per comprovar que siguin vàlides."
 
+# modificat xtec
 #: includes/functions/admin.php:300
 msgid ""
 "Enter your name and email and we'll send you a coupon code for <strong>20% "
 "off</strong> all Pro Add-on purchases."
 msgstr ""
+"Introduïu el vostre nom i correu electrònic i us enviaren un codi de "
+"descompte del <strong>20% </strong> per a totes les compres de complements "
+"Pro."
 
+# modificat xtec
 #: includes/admin/pages/advanced.php:97
-#, fuzzy
 msgid "Erase calendar data"
-msgstr "Calendari:"
+msgstr "Elimineu les dades del calendari"
 
 #: includes/admin/updater.php:359
 msgid "Error"
@@ -602,14 +631,14 @@ msgid "Event Sources"
 msgstr "Orígens dels esdeveniments"
 
 #: includes/admin/metaboxes/settings.php:608
-#, fuzzy
 msgctxt "Use the calendar default setting"
 msgid "Event source default"
-msgstr "Origen dels esdeveniments"
+msgstr "Origen de l'esdeveniment"
 
+# modificat xtec
 #: includes/functions/admin.php:361
 msgid "Event titles & start times in grid"
-msgstr ""
+msgstr "Títols dels esdeveniments i data d'inici a la graella"
 
 #: includes/calendars/admin/default-calendar-admin.php:187
 msgid "Event(s)"
@@ -632,7 +661,6 @@ msgid "Events Source Types"
 msgstr "Tipus d'origens d'esdeveniments"
 
 #: includes/admin/metaboxes/settings.php:574
-#, fuzzy
 msgctxt "Use the calendar default setting"
 msgid "Events source default"
 msgstr "Tots els tipus d'origens d'esdeveniments"
@@ -645,10 +673,10 @@ msgstr "Esdeveniments que es repeteixen periòdicament"
 msgid "Expand Multi-day Events"
 msgstr "Estén els esdeveniments de més d'un dia"
 
+# modificat xtec
 #: includes/functions/admin.php:360
-#, fuzzy
 msgid "Fast view switching"
-msgstr "vista"
+msgstr "Visualització ràpida"
 
 #: includes/feeds/admin/google-admin.php:191
 msgid "Filter events to display by search terms..."
@@ -659,9 +687,8 @@ msgid "First Name"
 msgstr "Nom"
 
 #: includes/admin/welcome.php:234
-#, fuzzy
 msgid "FullCalendar and Google Calendar Pro"
-msgstr "Configuració de Google Calendar"
+msgstr "FullCalendar i Google Calendar Pro"
 
 #: includes/admin/pages/calendars.php:77
 msgid "General"
@@ -749,11 +776,14 @@ msgstr ""
 msgid "IP Address"
 msgstr "Adreça IP"
 
+# modificat xtec
 #: includes/admin/pages/advanced.php:77
 msgid ""
 "If ticked, this option will prevent all front end stylesheets to load. This "
 "also includes all add-on stylesheets."
 msgstr ""
+"Aquesta opció evitarà que es carreguin tots els fulls d'estil de la "
+"interfície. Això també inclou els fulls d'estil complementaris."
 
 #: includes/admin/metaboxes/settings.php:776
 msgid ""
@@ -800,10 +830,10 @@ msgstr "Clar"
 msgid "Limit Visible Events"
 msgstr "Limita els esdeveniments visibles"
 
+# modificat xtec
 #: includes/functions/admin.php:362
-#, fuzzy
 msgid "Limit event display times"
-msgstr "No, mostra només el primer dia de l'esdeveniment"
+msgstr "Limita el temps de visualització dels esdeveniments"
 
 #: includes/calendars/admin/default-calendar-admin.php:258
 msgid ""
@@ -821,10 +851,10 @@ msgstr "Llista"
 msgid "Locale"
 msgstr "Codi d'idioma i regió (locale)"
 
+# modificat xtec
 #: includes/admin/meta-boxes.php:96
-#, fuzzy
 msgid "Looking for more?"
-msgstr "I més!"
+msgstr "Voleu saber-ne més?"
 
 #: includes/calendars/admin/default-calendar-admin.php:223
 msgid ""
@@ -834,13 +864,18 @@ msgstr ""
 "Feu la llista dels esdeveniments més compacta mitjançant l'agrupació "
 "d'esdeveniments de diferents dies en una sola llista."
 
+# modificat xtec
 #: includes/admin/pages/advanced.php:49
 msgid "Manage front end assets that handle the calendars appearance."
 msgstr ""
+"Gestioneu els actius de la interfície que controlin l'aparença dels "
+"calendaris."
 
+# modificat xtec
 #: includes/admin/pages/advanced.php:53
 msgid "Manage your data (plugin settings and saved calendars)."
 msgstr ""
+"Gestioneu les vostre dades (configuració del complement i calendaris desats)."
 
 #: includes/feeds/admin/grouped-calendars-admin.php:100
 msgid "Manual selection"
@@ -850,15 +885,15 @@ msgstr "Selecció manual"
 msgid "Maximum Events"
 msgstr "Nombre màxim d'esdeveniments"
 
+# modificat xtec
 #. translators: Someone replied with 'maybe' to a rsvp request.
 #: includes/events/event-builder.php:873
-#, fuzzy
 msgid "Maybe attending"
-msgstr "No assistir"
+msgstr "Potser assistiré"
 
 #: includes/admin/fields/datetime-format.php:341
 msgid "Meridiem"
-msgstr ""
+msgstr "Meridiem"
 
 #: includes/admin/metaboxes/settings.php:771
 msgid "Minute(s)"
@@ -872,9 +907,10 @@ msgstr "Minuts"
 msgid "Miscellaneous"
 msgstr "Miscel·lània"
 
+# modificat xtec
 #: includes/admin/welcome.php:228
 msgid "Mobile responsive and widget ready."
-msgstr ""
+msgstr "Adaptació d'amplada mòbil i giny preparats."
 
 #: includes/admin/fields/datetime-format.php:246
 msgid "Month"
@@ -905,7 +941,6 @@ msgid "Months"
 msgstr "mesos"
 
 #. Author of the plugin/theme
-#, fuzzy
 msgid "Moonstone Media"
 msgstr "multimèdia"
 
@@ -994,14 +1029,13 @@ msgid "No results found."
 msgstr "No s'ha trobat cap resultat"
 
 #: includes/functions/admin.php:324
-#, fuzzy
 msgid "No spam. Unsubscribe anytime."
 msgstr "Brossa"
 
+# modificat xtec
 #: includes/admin/pages/system-status.php:480
-#, fuzzy
 msgid "No version found."
-msgstr "No s'ha trobat"
+msgstr "No s'ha trobat cap versió."
 
 #: includes/calendars/admin/default-calendar-admin.php:295
 msgid "No, display on all days of event up to current day (list view only)"
@@ -1088,27 +1122,28 @@ msgstr "Tipus d'origen d'esdeveniment principal"
 msgid "Parent Events Source Type:"
 msgstr "Tipus d'origen d'esdeveniment principal:"
 
+# modificat xtec
 #: includes/admin/pages/system-status.php:264
-#, fuzzy
 msgid "Parent Theme"
-msgstr "El tema pare no existeix. Instal·leu el tema pare \"%s\"."
+msgstr "El tema pare."
 
 #: includes/admin/pages/system-status.php:160
 msgid "Permalinks"
 msgstr "Enllaços permanents"
 
 #: includes/admin/pages/system-status.php:515
-#, fuzzy
 msgid "Platform:"
 msgstr "Seleccioneu una plataforma"
 
+# modificat xtec
 #: includes/admin/post-types.php:346
 msgid "Please add and configure new calendar first."
-msgstr ""
+msgstr "Primer, afegiu i configureu un nou calendari."
 
+# modificat xtec
 #: includes/admin/pages/system-status.php:54
 msgid "Please copy and paste this information when contacting support:"
-msgstr ""
+msgstr "Copieu i enganxeu aquesta informació con contacteu amb Suport:"
 
 #: includes/feeds/admin/google-admin.php:311 includes/feeds/google.php:357
 msgid ""
@@ -1126,37 +1161,39 @@ msgstr "Categories populars"
 msgid "Popular calendar types"
 msgstr "TIpus més populars de calendaris"
 
+# modificat xtec
 #: includes/post-types.php:65
-#, fuzzy
 msgid "Popular events source types"
-msgstr "Tots els tipus d'origens d'esdeveniments"
+msgstr "Els tipus d'orígens d'esdeveniments més populars"
 
+# modificat xtec
 #: includes/admin/metaboxes/settings.php:510
-#, fuzzy
 msgid "Powered By"
-msgstr "Potenciat per"
+msgstr "Impulsat per"
 
+# modificat xtec
 #: includes/abstracts/calendar.php:792
 msgid "Powered by <a href=\"%s\" target=\"_blank\">Simple Calendar</a>"
-msgstr ""
+msgstr "Impulsat per<a href=\"%s\" target=\"_blank\">Simple Calendar</a>"
 
+# modificat xtec
 #: includes/admin/pages/licenses.php:76
 msgid "Premium Add-on License Keys"
-msgstr ""
+msgstr "Claus de llicència de complements Premium"
 
+# modificat xtec
 #: includes/admin/metaboxes/settings.php:713
-#, fuzzy
 msgid "Preserve Separator Spacing"
-msgstr "Separador"
+msgstr "Preserveu l'espai separador"
 
 #: includes/admin/metaboxes/settings.php:500
 msgid "Preserve line breaks, auto paragraphs (default)"
 msgstr "Conserva els salts de línia, paràgrafs automàtics (per defecte)"
 
+# modificat xtec
 #: includes/functions/admin.php:243
-#, fuzzy
 msgid "Press %s to copy."
-msgstr "&copy; %s %s"
+msgstr "Premeu %s per copiar."
 
 #: includes/admin/fields/datetime-format.php:98
 #: includes/admin/metaboxes/settings.php:611
@@ -1174,19 +1211,19 @@ msgstr "Anterior"
 msgid "Previous Month"
 msgstr "Mes anterior"
 
+# modificat xtec
 #: includes/functions/admin.php:366
-#, fuzzy
 msgid "Priority email support"
-msgstr "Suport"
+msgstr "Suport per correus prioritaris"
 
 #: includes/calendars/admin/default-calendar-admin.php:178
 msgid "Range of events to show on each calendar page."
 msgstr "Rang d'esdeveniments a mostrar a cada pàgina de calendari."
 
+# modificat xtec
 #: includes/admin/pages/system-status.php:341
-#, fuzzy
 msgid "Read more."
-msgstr "[Llegiu més]"
+msgstr "Llegiu més."
 
 #: includes/feeds/admin/google-admin.php:197
 msgid "Recurring Events"
@@ -1225,28 +1262,27 @@ msgstr "Cerca tipus de calendaris"
 msgid "Search Categories"
 msgstr "Busca categories"
 
+# modificat xtec
 #: includes/post-types.php:66
-#, fuzzy
 msgid "Search Events Source Types"
-msgstr "Tots els tipus d'origens d'esdeveniments"
+msgstr "Cerca els tipus d'orígens d'esdeveniments"
 
 #: includes/feeds/admin/google-admin.php:189
 msgid "Search Query"
 msgstr "Consulta de cerca"
 
+# modificat xtec
 #: includes/admin/metaboxes/settings.php:625
-#, fuzzy
 msgid "See details."
-msgstr "Més detalls"
+msgstr "Vegeu els detalls."
 
 #: includes/functions/shared.php:283
 msgid "See more details"
 msgstr "Més detalls"
 
 #: includes/functions/admin.php:321
-#, fuzzy
 msgid "Send me the coupon"
-msgstr "Iniciats per mi"
+msgstr ""
 
 #: includes/post-types.php:98
 msgid "Separate calendar types with commas"
@@ -1256,10 +1292,10 @@ msgstr "Separeu els tipus de calendaris per comes"
 msgid "Separate categories with commas"
 msgstr "Separeu les categories amb comes"
 
+# modificat xtec
 #: includes/post-types.php:62
-#, fuzzy
 msgid "Separate events source types with commas"
-msgstr "Separeu els tipus de calendaris per comes"
+msgstr "Separeu els tipus d'orígens d'esdeveniments per comes"
 
 #: includes/admin/metaboxes/settings.php:640
 msgid "Separator"
@@ -1293,11 +1329,14 @@ msgstr ""
 "Fixeu la data per al darrer esdeveniment que s'ha de mostrar al calendari. "
 "No hi haurà esdeveniments després d'aquesta data."
 
+# modificat xtec
 #: includes/admin/metaboxes/settings.php:623
 msgid ""
 "Setting this to <code>Event source default</code> can at times cause "
 "unexpected results. Please test thoroughly."
 msgstr ""
+"En establir això a <code> Font predeterminada d'origen de l'esdeveniment </"
+"code> pot provocar resultats inesperats. "
 
 #: includes/admin/menus.php:69 includes/admin/menus.php:70
 #: includes/admin/menus.php:121 includes/admin/welcome.php:137
@@ -1319,14 +1358,15 @@ msgstr ""
 msgid "Show all"
 msgstr "Mostra tot(s)"
 
+# modificat xtec
 #: includes/functions/admin.php:364
 msgid "Show attendees & RSVP status"
-msgstr ""
+msgstr "Mostra els assistents i els estats de RSVP"
 
+# modificat xtec
 #: includes/functions/admin.php:359
-#, fuzzy
 msgid "Show week & day views"
-msgstr "El número del dia de la setmana en què la setmana hauria de començar."
+msgstr "Mostra les vistes de la setmana i del dia"
 
 # MODIFICAT XTEC
 #. Plugin Name of the plugin/theme
@@ -1334,22 +1374,32 @@ msgstr "El número del dia de la setmana en què la setmana hauria de començar.
 msgid "Simple Calendar"
 msgstr "Calendaris"
 
+# modificat xtec
 #. translators: %s prints the current version of the plugin.
 #: includes/admin/welcome.php:177
 msgid "Simple Calendar %s has a few display options to configure. "
 msgstr ""
+"A Simple Calendar %s trobareu algunes opcions de visualització per "
+"configurar."
 
+# modificat xtec
 #: includes/admin/welcome.php:290
 msgid ""
 "Simple Calendar has been kindly translated into several other languages by "
 "contributors from all over the world."
 msgstr ""
+"Simple Calendar ha estat traduït en diferents idiomes gràcies als "
+"col·laboradors d'arreu del món. "
 
+# modificat xtec
 #: includes/admin/welcome.php:265
 msgid ""
 "Simple Calendar is created by a worldwide team of developers. If you'd like "
 "to contribute please visit our <a href='%s' target='_blank'>GitHub repo</a>."
 msgstr ""
+"Simple Calendar ha estat creat per un equip mundial de desenvolupadors. Si "
+"voleu contribuir, visiteu el nostre <a href='%s' target='_blank'> repositori "
+"de GitHub </a>."
 
 #: includes/admin/pages/system-status.php:124
 msgid "Site Name"
@@ -1387,10 +1437,10 @@ msgstr ""
 msgid "Some of the features included with our premium add-ons"
 msgstr ""
 
+# modificat xtec
 #: includes/calendars/admin/default-calendar-admin.php:151
-#, fuzzy
 msgid "Span"
-msgstr "Tots els nodes <span>%s</span>"
+msgstr "Abast"
 
 #: includes/admin/metaboxes/settings.php:331
 msgid "Specific date"
@@ -1421,10 +1471,10 @@ msgstr ""
 msgid "Styles"
 msgstr "Estils"
 
+# modificat xtec
 #: includes/admin/pages/system-status.php:33
-#, fuzzy
 msgid "System Report"
-msgstr "Informa"
+msgstr "Informe del sistema"
 
 #: includes/functions/admin.php:331
 msgid "Thank you!"
@@ -1467,27 +1517,31 @@ msgstr "Informació del tema"
 msgid "There are no calendar categories yet."
 msgstr "Encara no hi ha categories de calendaris"
 
+# modificat xtec
 #: includes/admin/metaboxes/settings.php:504
 #: includes/calendars/views/default-calendar-list.php:679
-#, fuzzy
 msgid "There are no upcoming events."
-msgstr "Events"
+msgstr "No hi ha esdeveniments propers"
 
+# modificat xtec
 #: includes/admin/updater.php:217
 msgid ""
 "There is a new version of %1$s available. <a target=\"_blank\" class="
 "\"thickbox\" href=\"%2$s\">View version %3$s details</a> or <a href=\"%4$s"
 "\">update now</a>."
 msgstr ""
+"Hi ha una nova versió de %1$s disponible. <a target=\"_blank\" class="
+"\"thickbox\" href=\"%2$s\">Vegeu els detalls de la versió %3$s</a> o <a href="
+"\"%4$s\">actualitza ara</a>."
 
+# modificat xtec
 #: includes/admin/updater.php:210
-#, fuzzy
 msgid ""
 "There is a new version of %1$s available. <a target=\"_blank\" class="
 "\"thickbox\" href=\"%2$s\">View version %3$s details</a>."
 msgstr ""
-"Hi ha una versió nova del %1$s disponible. <a href=\"%2$s\" class=\"thickbox"
-"\" aria-label=\"%3$s\">Mostra els detalls de la versió %4$s</a>."
+"Hi ha una versió nova del %1$s disponible. <a target=\"_blank\" class="
+"\"thickbox\" href=\"%2$s\">Mostra els detalls de la versió %3$s</a>."
 
 #: includes/admin/ajax.php:132
 msgid "There was an error processing your request: %s"
@@ -1513,17 +1567,23 @@ msgstr ""
 "Aquesta opció estableix com el calendari mostra l'hora dels esdeveniments. "
 "Es recomana l'opció per defecte del lloc."
 
+# modificat xtec
 #: includes/calendars/admin/default-calendar-admin.php:350
 msgid ""
 "This option will set the background color for today's date. It will change "
 "the day number background and the border around the current day."
 msgstr ""
+"Aquesta opció establirà el color de fons per a la data d'avui. Canviarà el "
+"fons del número del dia i el límit al voltant del dia actual."
 
+# modificat xtec
 #: includes/calendars/admin/default-calendar-admin.php:370
 msgid ""
 "This setting will modify the day number background for any days that have "
 "events on them."
 msgstr ""
+"Aquest paràmetre modificarà el fons del número del dia per a qualsevol dia "
+"que tingui esdeveniments en ell."
 
 #: includes/admin/metaboxes/settings.php:299
 msgid "This week"
@@ -1533,11 +1593,14 @@ msgstr "Aquesta setmana"
 msgid "This year"
 msgstr "Aquest any"
 
+# modificat xtec
 #: includes/admin/pages/advanced.php:90
 msgid ""
 "Tick this option if you want to wipe this plugin settings from database when "
 "uninstalling."
 msgstr ""
+"Marqueu aquesta opció si voleu eliminar aquesta configuració del connector "
+"des de la base de dades en desinstal·lar-la."
 
 #: includes/admin/metaboxes/settings.php:663
 msgid "Time Format"
@@ -1601,20 +1664,20 @@ msgstr "Actualitzar Categoria"
 msgid "Update Events Source Type"
 msgstr "Actualitzeu un tipus d'origen d'esdeveniment"
 
+# modificat xtec
 #: includes/functions/admin.php:372
-#, fuzzy
 msgid "Upgrade to Premium Now"
-msgstr "Ediciones premium"
+msgstr "Actualitza a Premium"
 
 #: includes/admin/metaboxes/settings.php:653
 msgid "Used to divide date and time when both are shown."
 msgstr ""
 "Es fa servir per separar la data de l'hora quan les dues es mostren alhora."
 
+# modificat xtec
 #: includes/admin/pages/system-status.php:513
-#, fuzzy
 msgid "User Agent:"
-msgstr "Informació d'usuari"
+msgstr "Agent d'usuari:"
 
 #: includes/admin/metaboxes/settings.php:584
 msgid ""
@@ -1625,15 +1688,15 @@ msgstr ""
 "data i l'hora dels esdeveniments del calendari. Es recomana mantenir el fus "
 "horari per defecte calendari."
 
+# modificat xtec
 #: includes/admin/metaboxes/settings.php:620
-#, fuzzy
 msgid ""
 "Using a different timezone may alter the date and time display of your "
 "calendar events. We recommended using the site default timezone."
 msgstr ""
 "Si feu servir un fus horari diferent es pot alterar la visualització de la "
 "data i l'hora dels esdeveniments del calendari. Es recomana mantenir el fus "
-"horari per defecte calendari."
+"horari per defecte de la zona."
 
 #: includes/admin/pages/system-status.php:139
 #: includes/admin/pages/system-status.php:222
@@ -1666,10 +1729,10 @@ msgstr "Visualitza el tipus de calendari"
 msgid "View Category"
 msgstr "Mostra la categoria"
 
+# modificat xtec
 #: includes/post-types.php:61
-#, fuzzy
 msgid "View Events Source Type"
-msgstr "Editeu un tipus d'origen d'esdeveniment"
+msgstr "Visualitzeu els tipus d'origen d'esdeveniment"
 
 #: includes/admin/welcome.php:238
 msgid "View Pricing and Try a Demo of our Simple Calendar Pro Add-ons."
@@ -1687,23 +1750,24 @@ msgstr ""
 "Obriu el calendari de Google amb el vostre compte, copieu l'identificador "
 "públic (ID) i enganxaeu-lo aquí."
 
+# modificat xtec
 #: includes/admin/pages/licenses.php:58
 msgid ""
 "WARNING: Are you sure you want to start over and delete all license keys "
 "from the settings?"
 msgstr ""
+"Esteu segur que voleu tornar a començar i eliminar totes les claus de "
+"llicència de la configuració?"
 
+# modificat xtec
 #: includes/admin/metaboxes/settings.php:622
-#, fuzzy
 msgid "Warning"
 msgstr "Avís"
 
+# modificat xtec
 #: includes/admin/pages/system-status.php:417
-#, fuzzy
 msgid "Web Server"
-msgstr ""
-"Per realitzar l'acció sol·licitada, el WordPress necessita accedir al vostre "
-"servidor."
+msgstr "Servidor web"
 
 #: includes/admin/metaboxes/settings.php:712
 msgid "Week Starts On"
@@ -1820,11 +1884,14 @@ msgstr ""
 msgid "Yes, display on all days of event"
 msgstr "Sí, mostra a tots els dies de l'esdeveniment"
 
+# modificat xtec
 #: includes/admin/pages/system-status.php:56
 msgid ""
 "You can also download your information as a text file to attach, or simply "
 "view it below."
 msgstr ""
+"Podeu descarregar la vostra informació com a fitxer de text per adjuntar, o "
+"simplement veure-ho a continuació."
 
 #: includes/admin/pages/calendars.php:140
 msgid ""
@@ -1838,9 +1905,10 @@ msgid "You can use this to hide the month header for this calendar."
 msgstr ""
 "Podeu fer servir això per amagar el mes a la capçalera d'aquest calendari."
 
+# modificat xtec
 #: includes/admin/updater.php:359
 msgid "You do not have permission to install plugin updates"
-msgstr ""
+msgstr "No teniu permís per instal·lar actualitzacions de complements"
 
 #: includes/functions/admin.php:304
 msgid "Your Email"
@@ -1854,11 +1922,14 @@ msgstr ""
 "Els vostres esdeveniments de Google Calendar no es mostraran fins que no <a "
 "href=\"%s\">creeu i deseu una clau a Google API</a>."
 
+# modificat xtec
 #: includes/admin/pages/licenses.php:79
 msgid ""
 "Your license keys are used for access to automatic upgrades and premium "
 "support."
 msgstr ""
+"Les claus de la vostra llicència s'utilitzen per accedir a les "
+"actualitzacions automàtiques i al suport premium."
 
 #: includes/events/event-builder.php:703
 msgctxt "human date event builder code modifier"
@@ -1875,7 +1946,7 @@ msgstr "des d'ara"
 msgid "https://simplecalendar.io"
 msgstr "https://simplecalendar.io"
 
+# modificat xtec
 #: includes/admin/welcome.php:182
-#, fuzzy
 msgid "to get started now."
-msgstr "Comencem"
+msgstr "Comencem."

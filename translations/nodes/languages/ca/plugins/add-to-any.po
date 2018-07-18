@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: Plugins - AddToAny Share Buttons - Stable (latest "
 "release)\n"
 "POT-Creation-Date: 2017-02-08 11:54+0100\n"
-"PO-Revision-Date: 2018-07-13 16:26+0200\n"
+"PO-Revision-Date: 2018-07-17 16:05+0200\n"
 "Last-Translator: Joan Sala Soler <jsala236@xtec.cat>\n"
 "Language-Team: \n"
 "Language: ca\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Poedit 2.0.4\n"
+"X-Generator: Poedit 2.0.7\n"
 "X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html_x:1,2c;esc_html__;"
 "esc_attr_e;esc_attr_x:1,2c;esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;"
 "_x:1,2c;_n:1,2;_n_noop:1,2;__ngettext:1,2;__ngettext_noop:1,2;_c,_nc:4c,1,2\n"
@@ -35,6 +35,8 @@ msgid ""
 "<a href=\"https://wordpress.org/support/plugin/add-to-any/reviews/#new-post"
 "\" target=\"_blank\">Give it a 5 star rating</a> on WordPress.org."
 msgstr ""
+"<a href=\"https://wordpress.org/support/plugin/add-to-any/reviews/#new-post"
+"\" target=\"_blank\">Valora amb 5 estrelles</a> a WordPress.org."
 
 #: addtoany.admin.php:1013
 msgid ""
@@ -42,6 +44,8 @@ msgid ""
 "any#postform\" target=\"_blank\">Give it a 5 star rating</a> on WordPress."
 "org."
 msgstr ""
+"<a href=\"https://wordpress.org/support/view/plugin-reviews/add-to-"
+"any#postform\" target=\"_blank\">Valora amb 5 estrelles</a> a WordPress.org."
 
 #: addtoany.admin.php:887
 msgid ""
@@ -52,6 +56,12 @@ msgid ""
 "\"_blank\">Facebook</a> &amp; <a href=\"https://twitter.com/AddToAny\" "
 "target=\"_blank\">Twitter</a>."
 msgstr ""
+"<a href=\"https://www.addtoany.com/share#title=WordPress%20Share%20Plugin"
+"%20by%20AddToAny.com&amp;url=https%3A%2F%2Fwordpress.org%2Fplugins%2Fadd-to-"
+"any%2F\">Comparteix </a> i segueix <a href=\"https://www.addtoany.com/"
+"\">Comparteix</a> a <a href=\"https://www.facebook.com/AddToAny\" target="
+"\"_blank\">Facebook</a> &amp; <a href=\"https://twitter.com/AddToAny\" "
+"target=\"_blank\">Twitter</a>."
 
 #: addtoany.admin.php:1014
 msgid ""
@@ -62,6 +72,12 @@ msgid ""
 "\"_blank\">Facebook</a> &amp; <a href=\"https://twitter.com/AddToAny\" "
 "target=\"_blank\">Twitter</a>."
 msgstr ""
+"<a href=\"https://www.addtoany.com/share_save#title=WordPress%20Share"
+"%20Plugin%20by%20AddToAny.com&amp;url=http%3A%2F%2Fwordpress.org%2Fplugins"
+"%2Fadd-to-any%2F\">Comparteix</a> i segueix <a href=\"https://www.addtoany."
+"com/\">Comparteix</a> a <a href=\"https://www.facebook.com/AddToAny\" target="
+"\"_blank\">Facebook</a> &amp; <a href=\"https://twitter.com/AddToAny\" "
+"target=\"_blank\">Twitter</a>."
 
 #: add-to-any.php:578
 msgid "Add to your favorites"
@@ -72,15 +88,16 @@ msgid "Add/Remove Services"
 msgstr "Afegeix/Elimina serveis"
 
 #: add-to-any.php:1089 addtoany.admin.php:12
-#, fuzzy
 msgid "AddToAny"
-msgstr "Paràmetres de compartició de l'AddToAny"
+msgstr "AddToAny"
 
 #: addtoany.admin.php:906
 msgid ""
 "AddToAny &quot;floating&quot; share buttons stay in a fixed position even "
 "when the user scrolls."
 msgstr ""
+"Els botons de compartició es mantenen fixos fins i tot quan l'usuari es "
+"desplaça."
 
 #: addtoany.widgets.php:127
 msgid "AddToAny Follow"
@@ -115,18 +132,19 @@ msgid ""
 "Advanced users should explore AddToAny's <a href=\"https://www.addtoany.com/"
 "buttons/customize/wordpress\" target=\"_blank\">additional options</a>."
 msgstr ""
+"Els usuaris avançats poden explorar les opcions addicionals d'AddToAny<a "
+"href=\"https://www.addtoany.com/buttons/customize/wordpress\" target=\"_blank"
+"\"></a>."
 
 #: addtoany.admin.php:999
 msgid "Are you sure you want to delete all AddToAny options?"
 msgstr "Esteu segurs que voleu esborrar totes les opcions de l'AddToAny?"
 
 #: addtoany.admin.php:740
-#, fuzzy
 msgid "Attach to content"
-msgstr "Adjunta a un contingut existent"
+msgstr "Adjunta a un contingut"
 
 #: addtoany.admin.php:793 addtoany.admin.php:861
-#, fuzzy
 msgid "Background"
 msgstr "Fons"
 
@@ -135,9 +153,8 @@ msgid "Below you can add special CSS code for AddToAny."
 msgstr "A sota, podeu afegir codi CSS especial per a l'AddToAny."
 
 #: addtoany.admin.php:834
-#, fuzzy
 msgid "Below you can add special JavaScript code for AddToAny."
-msgstr "A sota, podeu afegir codi CSS especial per a l'AddToAny."
+msgstr "A sota, podeu afegir codi JavaScript especial per a l'AddToAny."
 
 #: add-to-any.php:568
 msgid "Bookmark"
@@ -147,12 +164,12 @@ msgstr "Preferit"
 msgid "Bookmark in your browser"
 msgstr "Afegiu l'adreça d'interès al vostre navegador"
 
+# modificat xtec
 #: addtoany.admin.php:883
 msgid "Cache AddToAny locally with daily cache updates"
-msgstr ""
+msgstr "Manteniu AddToAny amb actualitzacions diàries de la memòria cau."
 
 #: addtoany.admin.php:815
-#, fuzzy
 msgid "Center docked"
 msgstr "Centrat"
 
@@ -175,14 +192,14 @@ msgid "Display at the %s of %s"
 msgstr "Mostra %s de %s"
 
 #: addtoany.admin.php:726
-#, fuzzy, php-format
+#, php-format
 msgid "Display at the %s of excerpts"
-msgstr "Mostra %s de %s"
+msgstr "Mostra al %s de fragments"
 
 #: addtoany.admin.php:756
-#, fuzzy, php-format
+#, php-format
 msgid "Display at the %s of media pages"
-msgstr "Mostra %s les articles de les pàgines d'arxiu"
+msgstr "Mostra al %s de les pàgines"
 
 #: addtoany.admin.php:739
 #, php-format
@@ -196,9 +213,9 @@ msgid "Display at the %s of posts"
 msgstr "Mostra %s les articles"
 
 #: addtoany.admin.php:719
-#, fuzzy, php-format
+#, php-format
 msgid "Display at the %s of posts in the feed"
-msgstr "Canal de tots els articles arxivats en %s"
+msgstr "Mostra al %s dels articles"
 
 # MODIFICAT XTEC
 #: addtoany.admin.php:702
@@ -251,14 +268,12 @@ msgid "Icon Size"
 msgstr "Mida de la icona"
 
 #: addtoany.widgets.php:216
-#, fuzzy
 msgid "Icon Size:"
-msgstr "Mida de la icona"
+msgstr "Mida de la icona:"
 
 #: addtoany.admin.php:454
-#, fuzzy
 msgid "Icon Style"
-msgstr "Icona"
+msgstr "Estil de la icona"
 
 #: addtoany.admin.php:605
 msgid "Image URL"
@@ -277,11 +292,12 @@ msgid ""
 "Large icons from your currently selected buttons are displayed in your "
 "floating bar(s). 3rd party buttons (Like, Tweet, etc.) are not displayed."
 msgstr ""
+"Les icones grans de la vostra selecció de botons es mostren a la barra "
+"flotant. Els botons de tercers (Like, Tweet, etc.) no es mostren."
 
 #: addtoany.admin.php:914 addtoany.admin.php:956
-#, fuzzy
 msgid "Left docked"
-msgstr "izquierda"
+msgstr "Esquerra"
 
 #: addtoany.admin.php:1012
 msgid "Like this plugin?"
@@ -295,6 +311,7 @@ msgstr "Opcions del menú"
 msgid "More&#8230;"
 msgstr "Més&#8230;"
 
+# modificat xtec
 #: addtoany.admin.php:886
 msgid ""
 "Most sites should not use this option. By default, AddToAny loads "
@@ -304,6 +321,13 @@ msgid ""
 "set far future cache/expires headers for image files in your <code>uploads/"
 "addtoany</code> directory."
 msgstr ""
+"La majoria de llocs no han d'utilitzar aquesta opció. Per defecte, AddToAny "
+"carrega de manera asíncrona i eficient. Atès que molts visitants ja tindran "
+"AddToAny en la memòria cau dels seus navegadors, servir a AddToAny des del "
+"vostre lloc serà més lent per aquests visitants. Si l'emmagatzematge en "
+"memòria cau local està habilitat, assegureu-vos d'establir futures "
+"actualitzacions de memòria cau/caducats per als fitxers d'imatge al "
+"directori <code> upload / addtoany </code>."
 
 #: addtoany.admin.php:1016
 msgid "Need support?"
@@ -314,17 +338,16 @@ msgid "None"
 msgstr "Cap"
 
 #: addtoany.admin.php:938 addtoany.admin.php:980
-#, fuzzy
 msgid "Offset"
-msgstr ""
-"Seleccioneu o una ciutat al mateix fus horari que el vostre o bé un fus "
-"horari."
+msgstr "Desplaçament"
 
 #: addtoany.admin.php:878
 msgid ""
 "Only disable AddToAny's default stylesheet if you already have the necessary "
 "CSS code applied to your AddToAny buttons."
 msgstr ""
+"Deshabilita el full d'estil predeterminat per AddToAny només si teniu el "
+"codi CSS necessari aplicat als vostres botons AddToAny."
 
 #: addtoany.admin.php:814
 msgid ""
@@ -367,14 +390,12 @@ msgid "Reset"
 msgstr "Reinicialitza"
 
 #: addtoany.admin.php:922 addtoany.admin.php:964
-#, fuzzy
 msgid "Responsiveness"
 msgstr "L'amplada s'adapta"
 
 #: addtoany.admin.php:916 addtoany.admin.php:958
-#, fuzzy
 msgid "Right docked"
-msgstr "derecha"
+msgstr "Dreta"
 
 #: add-to-any.php:565
 msgid "Save"
@@ -393,7 +414,6 @@ msgstr ""
 "a>."
 
 #: addtoany.admin.php:891
-#, fuzzy
 msgid ""
 "Search the <a href=\"https://wordpress.org/support/plugin/add-to-any"
 "\">support forums</a>."
@@ -409,6 +429,11 @@ msgid ""
 "advanced placement, see <a href=\"http://wordpress.org/plugins/add-to-any/"
 "faq/\">the FAQs</a>."
 msgstr ""
+"Vegeu <a href=\"widgets.php\" title=\"Theme Widgets\">Ginys</a> i <a href="
+"\"options-general.php?page=addtoany&action=floating\" title=\"AddToAny "
+"Floating Share Buttons\">Desplaçament</a> per obtenir opcions addicionals "
+"d'ubicació. Per ubicació avançada, vegeu <a href=\"http://wordpress.org/"
+"plugins/add-to-any/faq/\">les Preguntes més freqüents</a>."
 
 #: addtoany.admin.php:651
 msgid ""
@@ -418,6 +443,11 @@ msgid ""
 "advanced placement, see <a href=\"https://wordpress.org/plugins/add-to-any/"
 "faq/\">the FAQs</a>."
 msgstr ""
+"Vegeu <a href=\"widgets.php\" title=\"Theme Widgets\">GInys</a> i <a href="
+"\"options-general.php?page=addtoany&action=floating\" title=\"AddToAny "
+"Floating Share Buttons\">Desplaçament</a> per obtenir opcions addicionals "
+"d'ubicació. Per ubicació avançada, vegeu  <a href=\"https://wordpress.org/"
+"plugins/add-to-any/faq/\">les Preguntes més freqüents</a>."
 
 #: addtoany.admin.php:1017
 msgid ""
@@ -428,7 +458,6 @@ msgstr ""
 "\">Preguntes més freqüents</a>."
 
 #: addtoany.admin.php:890
-#, fuzzy
 msgid ""
 "See the <a href=\"https://wordpress.org/plugins/add-to-any/faq/\">FAQs</a>."
 msgstr ""
@@ -454,9 +483,8 @@ msgid "Share"
 msgstr "Comparteix"
 
 #: addtoany.admin.php:481
-#, fuzzy
 msgid "Share Buttons"
-msgstr "Botons de compartició per compartir continguts."
+msgstr "Botons de compartició"
 
 #: addtoany.widgets.php:20
 msgid "Share buttons for sharing your content."
@@ -467,10 +495,12 @@ msgid ""
 "Share buttons for your pages including AddToAny's universal sharing button, "
 "Facebook, Twitter, Google+, Pinterest, WhatsApp and many more."
 msgstr ""
+"Botons de compartició per les pàgines incloent els de compartició universal "
+"d'AddToAny, Facebook, Twitter, Google+, WhatsApp i més."
 
 #: addtoany.admin.php:662 addtoany.admin.php:664
 msgid "Share this:"
-msgstr "Comparteix"
+msgstr "Comparteix:"
 
 #: add-to-any.php:574
 msgid "Share via email"
@@ -496,7 +526,7 @@ msgstr "Mostra menys"
 
 #: addtoany.admin.php:40
 msgid "Show sharing buttons."
-msgstr "Mostra els botons de compartició"
+msgstr "Mostra els botons de compartició."
 
 #: addtoany.admin.php:509
 msgid "Small"
@@ -513,6 +543,15 @@ msgid ""
 "\"document.getElementsByName('A2A_SHARE_SAVE_button_custom')[0].focus();"
 "return false\">above</a>)."
 msgstr ""
+"Especifiqueu l'URL del directori que conté les icones personalitzades. Per "
+"exemple, un URL de <code>//example.com/blog/uploads/addtoany/icons/custom/</"
+"code> que conté <code>facebook.png</code> i <code>twitter.png</code>. "
+"Assegureu-vos que els noms dels arxius de les icones personalitzades "
+"coincideixin amb el nom de l'arxiu a <code>plugins/add-to-any/icons</code>. "
+"Per al botó universal d'AddToAny, seleccioneu l'URL de la imatge i "
+"especifiqueu l'URL de la icona universal del vostre AddToAny (<a href=\"#\" "
+"onclick=\"document.getElementsByName('A2A_SHARE_SAVE_button_custom')[0]."
+"focus();return false\">anterior</a>)."
 
 #: addtoany.admin.php:518
 msgid "Standalone Buttons"
@@ -524,7 +563,7 @@ msgstr "Estàndard"
 
 #: addtoany.admin.php:463
 msgid "Standard:"
-msgstr "Estàndard"
+msgstr "Estàndard:"
 
 #: add-to-any.php:566
 msgid "Subscribe"
@@ -551,7 +590,7 @@ msgid "Title:"
 msgstr "Títol:"
 
 #: add-to-any.php:1043
-#, fuzzy, php-format
+#, php-format
 msgid ""
 "Unable to create directory %s. Is its parent directory writable by the "
 "server?"
@@ -587,6 +626,11 @@ msgid ""
 "getElementById('A2A_SHARE_SAVE_additional_js_variables').focus();return false"
 "\">Additional JavaScript</a> box below."
 msgstr ""
+"Utilitzeu l'Estil de Menú d'AddToAny per personalitzar els colors del vostre "
+"menú de compartició universal. Assegureu-vos de copiar el codi generat a la "
+"caixa <a href=\"#\" onclick=\"document."
+"getElementById('A2A_SHARE_SAVE_additional_js_variables').focus();return false"
+"\"> JavaScript adiccional </a>."
 
 #: addtoany.admin.php:418
 msgid "bottom"
@@ -594,9 +638,8 @@ msgstr "sota"
 
 #. Plugin URI of the plugin/theme
 #. Author URI of the plugin/theme
-#, fuzzy
 msgid "https://www.addtoany.com/"
-msgstr "https://simplecalendar.io"
+msgstr "https://www.addtoany.com/"
 
 #: addtoany.admin.php:422
 msgid "top"

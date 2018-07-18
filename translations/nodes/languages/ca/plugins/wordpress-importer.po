@@ -8,11 +8,11 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2018-07-13 16:30+0200\n"
+"PO-Revision-Date: 2018-07-17 23:21+0200\n"
 "Last-Translator: Joan Sala Soler <jsala236@xtec.cat>\n"
 "Language-Team: \n"
 "Language: ca\n"
-"X-Generator: Poedit 2.0.4\n"
+"X-Generator: Poedit 2.0.7\n"
 
 #: wordpress-importer.php:543
 msgid "%s &#8220;%s&#8221; already exists."
@@ -62,8 +62,8 @@ msgid ""
 "Failed to create new user for %s. Their posts will be attributed to the "
 "current user."
 msgstr ""
-"No s'ha pogut crear un nou ususari per %s. Les seves entrades s'assignaran a "
-"l'usuari actaul."
+"No s'ha pogut crear un nou usuari per %s. Els seus articles s'assignaran a "
+"l'usuari actual."
 
 #: wordpress-importer.php:500 wordpress-importer.php:626
 msgid "Failed to import %s %s"
@@ -75,14 +75,14 @@ msgstr "No s'ha pogut importar %s \"%s\""
 
 #: wordpress-importer.php:522
 msgid "Failed to import &#8220;%s&#8221;: Invalid post type %s"
-msgstr "No s'ha pogut importar \"%s\": Tipus d'entrada no vàlid %s"
+msgstr "No s'ha pogut importar \"%s\": Tipus d'article no vàlid %s"
 
 #: wordpress-importer.php:235
 msgid ""
 "Failed to import author %s. Their posts will be attributed to the current "
 "user."
 msgstr ""
-"No s'ha pogut importar l'autor %s. Les seves entrades seran atribuïdes a "
+"No s'ha pogut importar l'autor %s. Els seus articles seran atribuïts a "
 "l'usuari actual."
 
 #: wordpress-importer.php:418
@@ -107,8 +107,8 @@ msgid ""
 "the posts, pages, comments, custom fields, categories, and tags into this "
 "site."
 msgstr ""
-"Hola! Carregueu l'arxiu WordPress eXtended RSS (WXR) i importarem les "
-"entrades, pàgines, comentaris, camps personalitzats, categories i etiquetes."
+"Hola! Carregueu l'arxiu WordPress eXtended RSS (WXR) i importarem els "
+"articles, pàgines, comentaris, camps personalitzats, categories i etiquetes."
 
 #: wordpress-importer.php:264
 msgid ""
@@ -125,7 +125,7 @@ msgid ""
 "Import <strong>posts, pages, comments, custom fields, categories, and tags</"
 "strong> from a WordPress export file."
 msgstr ""
-"Importar <strong>entrades, pàgines, comentaris, camps personalitzats, "
+"Importar <strong>articles, pàgines, comentaris, camps personalitzats, "
 "categories i etiquetes</strong> d'un fitxer d'exportació de  WordPress."
 
 #: wordpress-importer.php:274
@@ -145,7 +145,7 @@ msgid ""
 "Import posts, pages, comments, custom fields, categories, tags and more from "
 "a WordPress export file."
 msgstr ""
-"Importar entrades, pàgines, comentaris, camps personalitzats, categories, "
+"Importar articles, pàgines, comentaris, camps personalitzats, categories, "
 "etiquetes i més, d'un fitxer d'exportació de WordPress."
 
 #: wordpress-importer.php:827
@@ -230,8 +230,8 @@ msgid ""
 msgstr ""
 "Per fer més fàcil editar i guardar el contingut importat, és possible "
 "reassignar l'autor de l'article importat a un usuari existent d'aquest lloc. "
-"Per exemple, és possible que vulgueu importar totes les entrades com a "
-"entrades de l'<codi>admin</code>."
+"Per exemple, és possible que vulgueu importar tots els articles com a "
+"articles de l'<codi>admin</code>."
 
 #. Plugin Name of the plugin/theme
 msgid "WordPress Importer"
@@ -247,31 +247,27 @@ msgstr "com un usuari nou:"
 
 #: wordpress-importer.php:316
 msgid "assign posts to an existing user:"
-msgstr "assignar entrades a un usuari existent:"
+msgstr "assignar articles a un usuari existent:"
 
 #. Author URI of the plugin/theme
-#, fuzzy
 msgid "http://wordpress.org/"
 msgstr "http://wordpress.org/"
 
 #. Plugin URI of the plugin/theme
-#, fuzzy
 msgid "http://wordpress.org/extend/plugins/wordpress-importer/"
-msgstr "http://wordpress.org/extend/plugins/blogger-importer/"
+msgstr "http://wordpress.org/extend/plugins/wordpress-importer/"
 
 #. Author URI of the plugin/theme
-#, fuzzy
 msgid "https://wordpress.org/"
 msgstr "https://wordpress.org/"
 
 #. Plugin URI of the plugin/theme
-#, fuzzy
 msgid "https://wordpress.org/plugins/wordpress-importer/"
-msgstr "http://wordpress.org/extend/plugins/blogger-importer/"
+msgstr "https://wordpress.org/plugins/wordpress-importer/"
 
 #: wordpress-importer.php:318
 msgid "or assign posts to an existing user:"
-msgstr "o assignar entrades a un usuari existent:"
+msgstr "o assignar articles a un usuari existent:"
 
 #: wordpress-importer.php:305
 msgid "or create new user with login name:"

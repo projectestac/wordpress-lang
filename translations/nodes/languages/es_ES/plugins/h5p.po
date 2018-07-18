@@ -2,14 +2,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: H5P\n"
 "POT-Creation-Date: 2015-03-11 09:52+0100\n"
-"PO-Revision-Date: 2018-07-13 16:34+0200\n"
+"PO-Revision-Date: 2018-07-17 11:47+0200\n"
 "Last-Translator: Joan Sala Soler <jsala236@xtec.cat>\n"
 "Language-Team: Raul Martinez <raulmartinez911@hotmail.com>\n"
 "Language: es_ES\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.4\n"
+"X-Generator: Poedit 2.0.6\n"
 "X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
 "_n_noop:1,2;_c;_nc:4c,1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_ex:1,2c;"
 "esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
@@ -22,8 +22,8 @@ msgstr ""
 #: admin/class-h5p-plugin-admin.php:431
 msgid "%s new update is available!"
 msgid_plural "%s new updates are available!"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%s nueva actualización disponible!"
+msgstr[1] "%s nuevas actualizaciones disponibles!"
 
 #: admin/class-h5p-library-admin.php:387 admin/class-h5p-library-admin.php:438
 #, php-format
@@ -68,9 +68,8 @@ msgid "Add New"
 msgstr "Añadir nuevo"
 
 #: admin/views/settings.php:94
-#, fuzzy
 msgid "Add content method"
-msgstr "Añadir pestañas"
+msgstr "Agregar método de contenido"
 
 #: admin/views/contents.php:14
 msgid "Add new"
@@ -126,13 +125,17 @@ msgid ""
 "anonymous usage data to aid the development of H5P. This behaviour can be "
 "altered through the <a href=\"%s\">Settings</a> page."
 msgstr ""
+"Por defecto, H5P está configurado para buscar automáticamente información "
+"sobre las actualizaciones de tipo de contenido de H5P.org. Al hacerlo, H5P "
+"también contribuirá con datos de uso anónimos para ayudar al desarrollo de "
+"H5P. Este comportamiento puede modificarse a través de la página <a href=\"%s"
+"\">Configuración</a>."
 
 #: h5p-php-library/h5p.classes.php:1130
 msgid "Can't read the property %property in %library"
 msgstr "No se puede leer la propiedad %property en %library"
 
 #: public/class-h5p-plugin.php:979
-#, fuzzy
 msgid "Cancel"
 msgstr "Cancelar"
 
@@ -143,7 +146,7 @@ msgstr "No se puede encontrar el contenido H5P con id: %d."
 
 #: public/class-h5p-plugin.php:701
 msgid "Cannot find H5P content with slug: %s."
-msgstr ""
+msgstr "No se puede encontrar el contenido de H5P con slug: %s."
 
 #: admin/class-h5p-library-admin.php:102
 #, php-format
@@ -171,27 +174,20 @@ msgid "Close"
 msgstr "Cerrar"
 
 #: public/class-h5p-plugin.php:980
-#, fuzzy
 msgid "Confirm"
 msgstr "Confirmar"
 
 #: public/class-h5p-plugin.php:977
-#, fuzzy
 msgid "Confirm action"
-msgstr "Confirma ésta acción"
+msgstr "Confirma acción"
 
 #: admin/class-h5p-plugin-admin.php:717
 msgid "Content"
 msgstr "Contenido"
 
 #: admin/views/settings.php:118
-#, fuzzy
 msgid "Content Types"
-msgstr ""
-"Cada menú personalizado puede contener una mezcla de enlaces a páginas, "
-"categorías, URLs personalizadas u otro tipo de contenido. Los enlaces de "
-"menú se añaden eligiendo elementos de las cajas expandibles de la columna "
-"izquierda inferior."
+msgstr "Tipos de contenido"
 
 #: admin/class-h5p-library-admin.php:65
 msgid "Content Upgrade"
@@ -257,7 +253,7 @@ msgstr "No se puede parsear el fichero principal h5p.json"
 
 #: admin/class-h5p-library-admin.php:449
 msgid "Could not upgrade content %id:"
-msgstr "No se puede actualizar la librería %lib."
+msgstr "No se puede actualizar la librería %lib:"
 
 #: admin/views/new-content.php:47 admin/views/new-content.php:56
 msgid "Create"
@@ -268,11 +264,8 @@ msgid "Created"
 msgstr "Creado"
 
 #: public/class-h5p-plugin.php:697
-#, fuzzy
 msgid "Database error: %s."
-msgstr ""
-"Error %1$s de la base de datos de WordPress para la consulta %2$s realizada "
-"por %3$s"
+msgstr "Error en la base de datos: %s."
 
 #: admin/class-h5p-library-admin.php:62
 msgid "Delete"
@@ -288,13 +281,15 @@ msgstr "Desactivar comprobación de extensión de fichero"
 
 #: public/class-h5p-plugin.php:822
 msgid "Disable fullscreen"
-msgstr "Deshabilitar pantalla completa."
+msgstr "Deshabilitar pantalla completa"
 
 #: admin/views/settings.php:30
 msgid ""
 "Disabling this option will prevent your site from fetching the newest H5P "
 "updates."
 msgstr ""
+"Al deshabilitar esta opción, evitará que su sitio busque las últimas "
+"actualizaciones de H5P."
 
 #: admin/views/new-content.php:63
 msgid "Display Options"
@@ -352,7 +347,7 @@ msgstr "Botón de incrustado"
 
 #: admin/views/settings.php:122
 msgid "Enable LRS dependent content types"
-msgstr ""
+msgstr "Habilitar tipos de contenido dependientes de LRS"
 
 #: admin/views/new-content.php:30
 msgid "Enter title here"
@@ -375,9 +370,8 @@ msgid "Error, missing library!"
 msgstr "Error, falta la librería!"
 
 #: admin/views/settings.php:23
-#, fuzzy
 msgid "External communication"
-msgstr "Librerías externas"
+msgstr "Comunicación externa"
 
 #: admin/class-h5p-plugin-admin.php:684
 msgid "Failed to load data."
@@ -386,7 +380,7 @@ msgstr "Fallo al cargar."
 #: admin/views/settings.php:71
 msgid "Fetch information about updates for your H5P content types"
 msgstr ""
-"Obtener información sobre actualizaciones de tus tipos de contenido H5P."
+"Obtener información sobre actualizaciones de tus tipos de contenido H5P"
 
 #: h5p-php-library/h5p.classes.php:2692
 #, php-format
@@ -404,6 +398,8 @@ msgstr "El fichero no es una imagen."
 #: admin/class-h5p-content-admin.php:1062
 msgid "File not found on server. Check file upload settings."
 msgstr ""
+"Archivo no encontrado en el servidor. Compruebe la configuración de carga de "
+"archivos."
 
 #: h5p-editor-php-library/h5peditor-file.class.php:99
 msgid "File type isn't allowed."
@@ -419,7 +415,7 @@ msgstr "Finalizado"
 
 #: admin/class-h5p-library-admin.php:385 public/class-h5p-plugin.php:821
 msgid "Fullscreen"
-msgstr "Pantalla completa."
+msgstr "Pantalla completa"
 
 #. Plugin Name of the plugin/theme
 msgid "H5P"
@@ -457,7 +453,7 @@ msgstr "Ocultar avanzado"
 #: admin/views/settings.php:27
 msgid ""
 "I wish to aid in the development of H5P by contributing anonymous usage data"
-msgstr ""
+msgstr "Deseo ayudar en el desarrollo de H5P aportando datos de uso anónimos"
 
 #: admin/class-h5p-content-admin.php:186
 msgid "ID"
@@ -470,6 +466,10 @@ msgid ""
 "\">Forum</a> or join the conversation in the <a href=\"%s\" target=\"_blank"
 "\">H5P Community Chat</a>."
 msgstr ""
+"Si necesita ayuda, siempre puede presentar una <a href=\"%s\" target=\"_blank"
+"\">Solicitud de soporte</a>, consulte nuestro <a href=\"%s\" target=\"_blank"
+"\">Foro</a> o únase a la conversación en el <a href=\"%s\" target=\"_blank"
+"\">chat de la comunidad H5P</a>."
 
 #: admin/class-h5p-plugin-admin.php:247
 #, php-format
@@ -536,11 +536,8 @@ msgid "Invalid confirmation code, not deleting."
 msgstr "Código de confirmación inválido. No se borrará."
 
 #: admin/class-h5p-plugin-admin.php:711
-#, fuzzy
 msgid "Invalid content"
-msgstr ""
-"Disposición de contenido inválida. Disposición de contenido necesita ser "
-"formateado como `añadido;nombre de fichero=\"image.png\"` o similar."
+msgstr "Contenido inválido"
 
 #: h5p-php-library/h5p.classes.php:735
 msgid "Invalid content folder"
@@ -549,7 +546,7 @@ msgstr "Directorio de contenido no válido"
 #: h5p-php-library/h5p.classes.php:1102 h5p-php-library/h5p.classes.php:1107
 #: h5p-php-library/h5p.classes.php:1125
 msgid "Invalid data provided for %property in %library"
-msgstr "Valor no válido par ala propiedad %property en %library."
+msgstr "Valor no válido par ala propiedad %property en %library"
 
 #: h5p-php-library/h5p.classes.php:1094
 msgid "Invalid data provided for %property in %library. Boolean expected."
@@ -592,13 +589,12 @@ msgid "Invalid parameters."
 msgstr "Parámetros no válidos."
 
 #: admin/class-h5p-plugin-admin.php:715 admin/class-h5p-plugin-admin.php:1115
-#, fuzzy
 msgid "Invalid security token"
-msgstr "Error de seguridad."
+msgstr "Token de seguridad inválido"
 
 #: admin/class-h5p-content-admin.php:1045
 msgid "Invalid security token. Please reload the editor."
-msgstr ""
+msgstr "Token de seguridad inválido. Por favor, recarga el editor."
 
 #: h5p-php-library/h5p.classes.php:2766
 msgid "Invalid selected option in multiselect."
@@ -652,7 +648,7 @@ msgstr "Actualizaciones de librerías"
 msgid "Library used in content is not a valid library according to semantics"
 msgstr ""
 "La librería utilizada en el contenido no es una librería válida según "
-"semantics."
+"semantics"
 
 #: public/class-h5p-plugin.php:836
 msgid "License"
@@ -671,6 +667,9 @@ msgid ""
 "Makes it possible to use content types that rely upon a Learning Record "
 "Store to function properly, like the Questionnaire content type."
 msgstr ""
+"Permite utilizar tipos de contenido que dependen de un Almacén de "
+"Aprendizaje para funcionar correctamente, como el tipo de contenido del "
+"Cuestionario."
 
 #: admin/class-h5p-plugin-admin.php:725 admin/class-h5p-content-admin.php:217
 msgid "Maximum Score"
@@ -769,7 +768,7 @@ msgstr "Los parámetros están rotos."
 
 #: public/class-h5p-plugin.php:978
 msgid "Please confirm that you wish to proceed. This action is not reversible."
-msgstr ""
+msgstr "Por favor confirme que desea continuar. Esta acción no es reversible."
 
 #: admin/views/library-content-upgrade.php:19
 msgid "Please enable JavaScript."
@@ -793,12 +792,11 @@ msgstr "Reconstruir cache"
 
 #: admin/views/settings.php:112
 msgid "Reference content by <a href=\"%s\" target=\"_blank\">slug</a>"
-msgstr ""
+msgstr "Referencia contenido por <a href=\"%s\" target=\"_blank\">slug</a>"
 
 #: admin/views/settings.php:104
-#, fuzzy
 msgid "Reference content by id"
-msgstr "Mostrar el campo de edición del identificador"
+msgstr "Referencia contenido por id"
 
 #: admin/class-h5p-plugin-admin.php:938
 msgid "Remove"
@@ -854,9 +852,8 @@ msgstr ""
 "Selecciona el fichero <em> %s</em> descargado en el formulario de abajo."
 
 #: admin/views/new-content.php:95
-#, fuzzy
 msgid "Separate tags with commas"
-msgstr "Separa las etiquetas con comas."
+msgstr "Separa las etiquetas con comas"
 
 #: admin/views/settings.php:16
 msgid "Settings saved."
@@ -945,6 +942,9 @@ msgid ""
 "The page also list the different changelogs, where you can read about the "
 "new features introduced and the issues that have been fixed."
 msgstr ""
+"La página también enumera los diferentes registros de cambios, donde puede "
+"leer sobre las nuevas características introducidas y los problemas que se "
+"han solucionado."
 
 #: h5p-php-library/h5p.classes.php:1159
 msgid "The required property %property is missing from %library"
@@ -964,7 +964,7 @@ msgstr "No hay resultados para este contenido."
 
 #: admin/class-h5p-plugin-admin.php:739
 msgid "There are no logged results for your user."
-msgstr "No existen resultados para tu usuario"
+msgstr "No existen resultados para tu usuario."
 
 #: admin/views/libraries.php:20
 msgid "There are updates available for your H5P content types."
@@ -1012,9 +1012,8 @@ msgid "To upgrade all the installed libraries, do the following:"
 msgstr "Para actualizar todas las librerías instaladas, haz lo siguiente:"
 
 #: admin/views/new-content.php:62 admin/views/new-content.php:91
-#, fuzzy
 msgid "Toggle panel"
-msgstr "Alternar panel: %s"
+msgstr "Alternar panel"
 
 #: h5p-php-library/h5p.classes.php:2107 h5p-php-library/h5p.classes.php:2113
 msgid "Unable to copy file tree."
@@ -1059,6 +1058,10 @@ msgid ""
 "<a href=\"%s\" target=\"_blank\">Examples and Downloads</a> page, and then "
 "upload them through the <a href=\"%s\">Libraries</a> page."
 msgstr ""
+"Lamentablemente, no pudimos instalar automáticamente los tipos de contenido "
+"predeterminados. Debe descargar manualmente los tipos de contenido que desea "
+"usar de la página <a href=\"%s\" target=\"_blank\">Ejemplos y descargas</a>, "
+"y luego cargarlos a través de la página <a href=\"%s\">Bibliotecas</a>."
 
 #: admin/class-h5p-library-admin.php:298
 msgid ""
@@ -1081,9 +1084,8 @@ msgid "Unknown task."
 msgstr "Tarea desconocida."
 
 #: admin/views/libraries.php:17
-#, fuzzy
 msgid "Update All Libraries"
-msgstr "Librerías externas"
+msgstr "Actualiza todas las librerias"
 
 #: h5p-php-library/h5p.classes.php:1409
 #, php-format
@@ -1134,9 +1136,8 @@ msgid "User"
 msgstr "Usuario"
 
 #: admin/views/settings.php:72
-#, fuzzy
 msgid "User Results"
-msgstr "Limpiar los resultados"
+msgstr "Resultados del usuario"
 
 #: admin/views/settings.php:58
 msgid "User Tracking"
@@ -1204,6 +1205,8 @@ msgstr "¿Y ahora qué?"
 msgid ""
 "When adding H5P content to posts and pages using the \"Add H5P\" button:"
 msgstr ""
+"Al agregar contenido H5P a publicaciones y páginas con el botón \"Agregar H5P"
+"\":"
 
 #: public/class-h5p-plugin.php:834
 msgid "Year"
@@ -1229,12 +1232,17 @@ msgid ""
 "You can read about why it's important to update and the benefits from doing "
 "so on the <a href=\"%s\" target=\"_blank\">Why Update H5P</a> page."
 msgstr ""
+"Puede leer acerca de por qué es importante actualizar y los beneficios de "
+"hacerlo en la página <a href=\"%s\" target=\"_blank\">Por qué actualizar "
+"H5P</a>."
 
 #: admin/views/settings.php:32
 msgid ""
 "You can read more about <a href=\"%s\" target=\"_blank\">which data is "
 "collected</a> on h5p.org."
 msgstr ""
+"Puede leer más sobre <a href=\"%s\" target=\"_blank\">qué datos se "
+"recopilan</a> en h5p.org."
 
 #: admin/views/libraries.php:29
 msgid ""
@@ -1249,6 +1257,8 @@ msgid ""
 "You can use the following shortcode to insert this interactive content into "
 "posts, pages, widgets, templates etc."
 msgstr ""
+"Puede usar el siguiente código breve para insertar este contenido "
+"interactivo en publicaciones, páginas, widgets, plantillas, etc."
 
 #: admin/class-h5p-library-admin.php:452
 #, php-format
@@ -1260,12 +1270,16 @@ msgid ""
 "You should head over to the <a href=\"%s\">Libraries</a> page and update "
 "your content types to the latest version."
 msgstr ""
+"Debe dirigirse a la página <a href=\"%s\">Bibliotecas</a> y actualizar sus "
+"tipos de contenido a la última versión."
 
 #: admin/views/settings.php:31
 msgid ""
 "You will have to manually download the Content Type updates from H5P.org and "
 "then upload them to your site."
 msgstr ""
+"Deberá descargar manualmente las actualizaciones de tipo de contenido de H5P."
+"org y luego cargarlas en su sitio."
 
 #: public/class-h5p-plugin.php:844
 msgid "You'll be starting over."

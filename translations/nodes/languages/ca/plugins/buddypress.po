@@ -4,12 +4,12 @@
 # This file is distributed under the same license as the Plugins - BuddyPress - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2018-07-13 16:26+0200\n"
+"PO-Revision-Date: 2018-07-18 10:03+0200\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Poedit 2.0.4\n"
+"X-Generator: Poedit 2.0.7\n"
 "Language: ca\n"
 "Project-Id-Version: Plugins - BuddyPress - Stable (latest release)\n"
 "POT-Creation-Date: \n"
@@ -113,8 +113,8 @@ msgstr "%1$s ha canviat el nom i descripció del node %2$s"
 msgid "%1$s changed the name of the group %2$s from \"%3$s\" to \"%4$s\""
 msgstr "%1$s ha canviat el nom del node %2$s des de \"%3$s\" a \"%4$s\""
 
+# modificat xtec
 #: bp-groups/bp-groups-activity.php:171
-#, fuzzy
 msgid "%1$s changed the permalink of the group %2$s."
 msgstr "%1$s ha canviat el nom i descripció del node %2$s"
 
@@ -134,11 +134,11 @@ msgstr "%1$s ha comentat sobre el <a href=\"%2$s\">tema</a>, en el lloc %3$s"
 
 #: bp-blogs/bp-blogs-activity.php:367
 msgid "%1$s commented on the post, %2$s"
-msgstr "%1$s ha comentat l'entrada, %2$s"
+msgstr "%1$s ha comentat l'article, %2$s"
 
 #: bp-blogs/bp-blogs-activity.php:365
 msgid "%1$s commented on the post, %2$s, on the site %3$s"
-msgstr "%1$s ha comentat l'entrada, %2$s, del lloc web %3$s"
+msgstr "%1$s ha comentat l'article, %2$s, del lloc web %3$s"
 
 #: bp-groups/bp-groups-activity.php:104
 msgid "%1$s created the group %2$s"
@@ -224,11 +224,12 @@ msgstr ""
 
 #: bp-blogs/bp-blogs-activity.php:241
 msgid "%1$s wrote a new post, %2$s"
-msgstr "%1$s ha escrit una entrada nova, %2$s"
+msgstr "%1$s ha escrit un article nou, %2$s"
 
+# modificat xtec
 #: bp-blogs/bp-blogs-activity.php:239
 msgid "%1$s wrote a new post, %2$s, on the site %3$s"
-msgstr "%1$s ha escrit una entrada nova, %2$s, al lloc web %3$s"
+msgstr "%1$s ha escrit un article nou, %2$s, al lloc web %3$s"
 
 #. translators: Personal activity RSS title - "[Site Name] | [User Display
 #. Name] | Activity"
@@ -292,11 +293,12 @@ msgid_plural "%d members"
 msgstr[0] "%d membre"
 msgstr[1] "%d membres"
 
+# modificat xtec
 #: bp-forums/bp-forums-template.php:1454 bp-groups/bp-groups-template.php:2130
 msgid "%d post"
 msgid_plural "%d posts"
-msgstr[0] "%d entrada"
-msgstr[1] "%d entrades"
+msgstr[0] "%d article"
+msgstr[1] "%d articles"
 
 #: bp-groups/bp-groups-template.php:2132
 msgid "%d posts"
@@ -408,9 +410,10 @@ msgid_plural "%s days"
 msgstr[0] "%s dia"
 msgstr[1] "%s dies"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/functions.php:1029
 msgid "%s did not save any profile information yet."
-msgstr ""
+msgstr "%s encara no ha desat can informació del vostre perfil"
 
 #: bp-core/bp-core-attachments.php:610
 msgid ""
@@ -592,8 +595,8 @@ msgid_plural "%s sites"
 msgstr[0] "%s pàgina web"
 msgstr[1] "%s pàgines web"
 
+# modificat xtec
 #: cli/components/activity.php:970
-#, fuzzy
 msgid "%s updated their profile"
 msgstr "El perfil de %s ha estat actualitzat"
 
@@ -804,10 +807,10 @@ msgctxt "widget name"
 msgid "(BuddyPress) Groups"
 msgstr "(BuddyPress) Nodes"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/activity/widgets.php:40
-#, fuzzy
 msgid "(BuddyPress) Latest Activities"
-msgstr "Llista d'activitats"
+msgstr "Últimes activitats"
 
 #: bp-core/classes/class-bp-core-login-widget.php:28
 msgctxt "Title of the login widget"
@@ -819,8 +822,8 @@ msgctxt "widget name"
 msgid "(BuddyPress) Members"
 msgstr "Membres (BuddyPress)"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/classes.php:195
-#, fuzzy
 msgid "(BuddyPress) Primary navigation"
 msgstr "Navegació principal de membres"
 
@@ -843,11 +846,11 @@ msgctxt "widget name"
 msgid "(BuddyPress) Who's Online"
 msgstr "(BuddyPress) Qui està en línia"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/groups/template-tags.php:1300
 #: bp-templates/bp-nouveau/includes/members/template-tags.php:711
-#, fuzzy
 msgid "(BuddyPress) Widgets"
-msgstr "Xarxa Nodes (BuddyPress)"
+msgstr "Ginys (BuddyPress)"
 
 #: bp-forums/deprecated/1.6.php:65
 msgid "(Installed)"
@@ -877,13 +880,12 @@ msgstr "(Registre)"
 msgid "(Unavailable to all members)"
 msgstr "(No disponible per a tots els membres)"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/messages/functions.php:115
-#, fuzzy
 msgid "(and %d others)"
 msgstr "(%d)"
 
 #: bp-templates/bp-nouveau/includes/messages/functions.php:114
-#, fuzzy
 msgid "(and 1 other)"
 msgstr "Altres"
 
@@ -947,7 +949,6 @@ msgid "* Name changed from \"%s\" to \"%s\"."
 msgstr "* S'ha canviat el nom de \"%s\" a \"%s\""
 
 #: bp-groups/bp-groups-notifications.php:50
-#, fuzzy
 msgctxt "Group update email text"
 msgid "* Permalink changed from \"%s\" to \"%s\"."
 msgstr "* S'ha canviat la descripció de \"%s\" a \"%s\""
@@ -1046,6 +1047,7 @@ msgstr ""
 "<a href=\"%1$s\">%2$s</a> ha respost <a href=\"%3$s\" class=\"activity-time-"
 "since\"><span class=\"time-since\">%4$s</span></a>"
 
+# modificat xtec
 #. translators: 1: user profile link, 2: user name, 3: activity permalink, 4:
 #. activity recorded date, 5: activity timestamp, 6: activity human time since
 #: bp-templates/bp-nouveau/includes/activity/template-tags.php:681
@@ -1054,6 +1056,9 @@ msgid ""
 "since\"><time class=\"time-since\" datetime=\"%4$s\" data-bp-timestamp=\"%5$d"
 "\">%6$s</time></a>"
 msgstr ""
+"<a href=\"%1$s\">%2$s</a> ha respost a <a href=\"%3$s\" class=\"activity-"
+"time-since\"><time class=\"time-since\" datetime=\"%4$s\" data-bp-timestamp="
+"\"%5$d\">%6$s</time></a>"
 
 #. translators: 1: Login URL, 2: User name
 #: bp-blogs/bp-blogs-template.php:1237
@@ -1211,7 +1216,7 @@ msgstr ""
 #. "(required)".
 #: bp-templates/bp-nouveau/includes/template-tags.php:2253
 msgid "<label for=\"%1$s\">%2$s %3$s</label>"
-msgstr ""
+msgstr "<label for=\"%1$s\">%2$s %3$s</label>"
 
 #: bp-themes/bp-default/onecolumn-page.php:29 bp-themes/bp-default/page.php:18
 msgid "<p class=\"serif\">Read the rest of this page &rarr;</p>"
@@ -1254,11 +1259,15 @@ msgstr ""
 "<strong>ERROR</strong>: El compte no s'ha activat. Reviseu al correu "
 "electrònic l'enllaç d'activació."
 
+# modificat xtec
 #: bp-activity/bp-activity-admin.php:235
 msgid ""
 "<strong>Link</strong> - Used by some types of activity (blog posts and "
 "comments) to store a link back to the original content."
 msgstr ""
+"<strong> Enllaç </strong>: utilitzat per alguns tipus d'activitat "
+"(publicacions de blocs i comentaris) per emmagatzemar un enllaç al contingut "
+"original."
 
 #: bp-activity/bp-activity-admin.php:238
 msgid ""
@@ -1512,7 +1521,6 @@ msgid "Accept"
 msgstr "Accepta"
 
 #: bp-templates/bp-nouveau/includes/members/template-tags.php:289
-#, fuzzy
 msgctxt "button"
 msgid "Accept"
 msgstr "Accepta"
@@ -1527,12 +1535,10 @@ msgid "Accepted"
 msgstr "Acceptat"
 
 #: bp-templates/bp-nouveau/includes/groups/functions.php:1189
-#, fuzzy
 msgid "Accepted Group membership requests"
 msgstr "%d sol·licituds d'admissió al node acceptades"
 
 #: bp-templates/bp-nouveau/includes/friends/loader.php:101
-#, fuzzy
 msgid "Accepted friendship requests"
 msgstr "%d amics han acceptat les vostres sol·licituds d'amistat"
 
@@ -1610,13 +1616,11 @@ msgid "Activate"
 msgstr "Activa"
 
 #: bp-templates/bp-nouveau/buddypress/members/activate.php:45
-#, fuzzy
 msgctxt "button"
 msgid "Activate"
 msgstr "Activa"
 
 #: bp-messages/classes/class-bp-messages-notices-list-table.php:119
-#, fuzzy
 msgid "Activate Notice"
 msgstr "Activa"
 
@@ -1660,18 +1664,18 @@ msgid_plural "Active <span class=\"count\">(%s)</span>"
 msgstr[0] "Actiu <span class=\"count\">(%s)</span>"
 msgstr[1] "Actius <span class=\"count\">(%s)</span>"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/buddypress/common/js-templates/messages/index.php:178
-#, fuzzy
 msgid "Active conversation:"
-msgstr "Suprimeix la conversa"
+msgstr "Conversa activa:"
 
+# modificat xtec
 #: bp-messages/classes/class-bp-messages-notices-list-table.php:131
-#, fuzzy
 msgctxt ""
 "Tag prepended to active site-wide notice titles on WP Admin notices list "
 "table"
 msgid "Active: %s"
-msgstr "%s actiu"
+msgstr "Actiu: %s"
 
 #. translators: accessibility text
 #: bp-activity/classes/class-bp-activity-list-table.php:248
@@ -1787,11 +1791,14 @@ msgstr "Fils de subscrició de l'activitat de les mencions de %s."
 msgid "Activity feed of %s's favorites."
 msgstr "Fils de subscripció de l'activitat dels preferits de %s."
 
+# modificat xtec
 #: bp-activity/bp-activity-admin.php:802
 msgid ""
 "Activity generated by posts and comments uses the link field for a permalink "
 "back to the content item."
 msgstr ""
+"L'activitat generada pels articles i comentaris fa servir el camp d'enllaç, "
+"per a un enllaç permanent a l'ítem de contingut."
 
 #: bp-activity/bp-activity-admin.php:806
 msgid ""
@@ -1812,7 +1819,6 @@ msgid "Activity marked as favorite."
 msgstr "S'ha marcat l'activitat com a preferida."
 
 #: bp-templates/bp-nouveau/buddypress/members/single/activity.php:11
-#, fuzzy
 msgid "Activity menu"
 msgstr "menú"
 
@@ -1890,7 +1896,6 @@ msgid "Add New Members"
 msgstr "Afegeix membres nous"
 
 #: bp-messages/classes/class-bp-messages-notices-admin.php:201
-#, fuzzy
 msgid "Add New Notice"
 msgstr "Avís:"
 
@@ -1898,10 +1903,10 @@ msgstr "Avís:"
 msgid "Add User Profile Fields"
 msgstr "Afegeix camps al perfil d'usuari"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/buddypress/members/single/settings/general.php:36
-#, fuzzy
 msgid "Add Your New Password"
-msgstr "Comproveu si heu rebut per correu electrònic la contrasenya nova."
+msgstr "Afegiu una nova contrasenya"
 
 #: bp-core/bp-core-functions.php:2844
 msgctxt "email post type label"
@@ -1913,8 +1918,8 @@ msgstr "Afegeix un correu electrònic nou"
 msgid "Add a reply:"
 msgstr "Afegeix una resposta:"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/buddypress/groups/single/admin/group-avatar.php:26
-#, fuzzy
 msgid ""
 "Add an image to use as a profile photo for this group. The image will be "
 "shown on the main group page, and in search results."
@@ -1946,16 +1951,19 @@ msgstr "Afegeix a destacats"
 msgid "Add to Menu"
 msgstr "Afegeix al menú"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/functions.php:333
 msgid ""
 "Add widgets here to appear in the front page of each group of your community."
-msgstr ""
+msgstr "Afegiu ginys aquí perquè apareguin a la portada de cada node."
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/functions.php:321
 msgid ""
 "Add widgets here to appear in the front page of each member of your "
 "community."
 msgstr ""
+"Afegiu ginys aquí perquè apareguin a la portada de cada membre del node."
 
 #: bp-core/deprecated/2.1.php:364 bp-core/deprecated/2.1.php:493
 msgid "Admin Options"
@@ -2032,8 +2040,8 @@ msgctxt "email post type label"
 msgid "All Emails"
 msgstr "Tots els emails"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/groups/functions.php:501
-#, fuzzy
 msgid "All Groups"
 msgstr "Tots els grups"
 
@@ -2049,10 +2057,10 @@ msgstr "Tots els nodes <span>%s</span>"
 msgid "All Member Notices"
 msgstr "Avisos de tots els membres"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/activity/functions.php:199
 #: bp-templates/bp-nouveau/includes/groups/functions.php:118
 #: bp-templates/bp-nouveau/includes/members/functions.php:49
-#, fuzzy
 msgid "All Members"
 msgstr "Tots els membres"
 
@@ -2071,13 +2079,13 @@ msgstr "Tots els membres %s"
 msgid "All Members <span>%s</span>"
 msgstr "Tots els membres <span>%s</span>"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/buddypress/common/js-templates/messages/index.php:113
-#, fuzzy
 msgid "All Messages"
-msgstr "Esborra tots els missatges destacats d'aquest fil"
+msgstr "Tots els missatges"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/blogs/functions.php:23
-#, fuzzy
 msgid "All Sites"
 msgstr "Tots els llocs web"
 
@@ -2118,11 +2126,14 @@ msgstr "Tots els membres del node"
 msgid "All of your friends already belong to this group."
 msgstr "Tots els amics ja pertanyen a aquest node."
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/groups/ajax.php:319
 msgid ""
 "All your friends are already members of this group, or have already received "
 "an invite to join this group, or have requested to join it."
 msgstr ""
+"Tots els vostres amics ja són membres d'aquest grup, o ja han rebut una "
+"invitació per unir-se a aquest grup, o han sol·licitat unir-s'hi."
 
 #: bp-core/admin/bp-core-admin-settings.php:69
 msgid "Allow Akismet to scan for activity stream spam"
@@ -2132,10 +2143,10 @@ msgstr "Permet l'Akismet escanejar si hi ha brossa al flux d'activitat"
 msgid "Allow activity stream commenting on blog and forum posts"
 msgstr "Permet els comentaris al flux d'activitat dels blogs i els fòrums"
 
+# modificat xtec
 #: bp-core/admin/bp-core-admin-settings.php:115
-#, fuzzy
 msgid "Allow activity stream commenting on posts and comments"
-msgstr "Permet els comentaris al flux d'activitat dels blogs i els fòrums"
+msgstr "Permet els comentaris al flux d'activitat dels articles i comentaris"
 
 #: bp-core/admin/bp-core-admin-settings.php:202
 msgid "Allow customizable avatars for groups"
@@ -2251,7 +2262,6 @@ msgstr "Aplica"
 #: bp-templates/bp-nouveau/buddypress/common/js-templates/messages/index.php:126
 #: bp-templates/bp-nouveau/buddypress/common/js-templates/messages/index.php:128
 #: bp-templates/bp-nouveau/includes/notifications/template-tags.php:121
-#, fuzzy
 msgctxt "button"
 msgid "Apply"
 msgstr "Aplica"
@@ -2478,9 +2488,9 @@ msgstr ""
 msgid "BuddyPress Core"
 msgstr "Nucli del BuddyPress"
 
+# modificat xtec
 #: bp-core/classes/class-bp-admin.php:255
 #: bp-core/classes/class-bp-admin.php:256
-#, fuzzy
 msgid "BuddyPress Credits"
 msgstr "Crèdits"
 
@@ -2502,10 +2512,10 @@ msgstr "Emails de BuddyPress"
 msgid "BuddyPress Forums are retired. Use %s."
 msgstr "Els fòrums del BuddyPress s'han eliminat. Utilitzeu %s."
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/functions.php:331
-#, fuzzy
 msgid "BuddyPress Group's Home"
-msgstr "Repara les relacions del fòrum del node del BuddyPress"
+msgstr "Inici dels nodes de BuddyPress"
 
 #: bp-core/classes/class-bp-admin.php:236
 msgid "BuddyPress Help"
@@ -2515,21 +2525,19 @@ msgstr "Ajuda del BuddyPress"
 msgid "BuddyPress Legacy"
 msgstr "Llegat del BuddyPress"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/functions.php:319
-#, fuzzy
 msgid "BuddyPress Member's Home"
 msgstr "Membre"
 
 #: class-buddypress.php:748
-#, fuzzy
 msgid "BuddyPress Nouveau"
-msgstr "Xarxa Nodes:"
+msgstr "Novetat BuddyPress"
 
 #: bp-templates/bp-nouveau/includes/customizer.php:27
-#, fuzzy
 msgctxt "Customizer Panel"
 msgid "BuddyPress Nouveau"
-msgstr "Xarxa Nodes:"
+msgstr "Novetat BuddyPress"
 
 #: bp-core/classes/class-bp-admin.php:264
 #: bp-core/classes/class-bp-admin.php:265
@@ -2736,9 +2744,9 @@ msgstr ""
 msgid "Cancel"
 msgstr "Cancel·la"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/buddypress/activity/comment-form.php:29
 #: bp-templates/bp-nouveau/buddypress/common/js-templates/invites/index.php:120
-#, fuzzy
 msgctxt "button"
 msgid "Cancel"
 msgstr "Cancel·la"
@@ -2753,23 +2761,22 @@ msgstr "Cancel·la l'amistat"
 msgid "Cancel Friendship Request"
 msgstr "Cancel·la la sol·licitud d'amistat"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/buddypress/common/js-templates/invites/index.php:86
-#, fuzzy
 msgid "Cancel invitation"
-msgstr "Invitació"
+msgstr "Cancel·la la invitació"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/buddypress/common/js-templates/invites/index.php:90
 #: bp-templates/bp-nouveau/buddypress/common/js-templates/invites/index.php:99
 #: bp-templates/bp-nouveau/buddypress/common/js-templates/invites/index.php:101
-#, fuzzy
 msgctxt "button"
 msgid "Cancel invitation"
-msgstr "Invitació"
+msgstr "Cancel·la la invitació"
 
 #: bp-templates/bp-nouveau/includes/groups/functions.php:154
-#, fuzzy
 msgid "Cancel invitation %s"
-msgstr "Teniu una invitació al node: %s"
+msgstr "Cancel·la la invitació: %s"
 
 #: bp-settings/classes/class-bp-settings-component.php:135
 #: bp-themes/bp-default/members/single/settings/capabilities.php:49
@@ -2780,8 +2787,8 @@ msgstr "Competències"
 msgid "Capture"
 msgstr "Captura"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/buddypress/assets/_attachments/avatars/camera.php:22
-#, fuzzy
 msgctxt "button"
 msgid "Capture"
 msgstr "Captura"
@@ -2800,8 +2807,8 @@ msgctxt "Change profile field visibility level"
 msgid "Change"
 msgstr "Canvia"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/buddypress/members/single/parts/profile-visibility.php:25
-#, fuzzy
 msgctxt "button"
 msgid "Change"
 msgstr "Canvia"
@@ -2824,15 +2831,15 @@ msgctxt "Profile header sub menu"
 msgid "Change Cover Image"
 msgstr "Canvia la imatge de la coberta"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/buddypress/groups/single/admin/group-avatar.php:19
-#, fuzzy
 msgid "Change Group Avatar"
-msgstr "Avatar del node"
+msgstr "Canvia l'avatar del node"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/buddypress/groups/single/admin/group-settings.php:19
-#, fuzzy
 msgid "Change Group Settings"
-msgstr "Paràmetres del node"
+msgstr "Canvia els paràmetres del node"
 
 #: bp-templates/bp-legacy/buddypress/members/single/settings/general.php:29
 #: bp-themes/bp-default/members/single/settings/general.php:65
@@ -2929,11 +2936,12 @@ msgstr ""
 "Feu clic a la part inferior per seleccionar una foto en format JPG, GIF, o "
 "PNG del vostre ordinador i feu clic a 'Penjar imatge' per procedir."
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/messages/functions.php:111
 msgid ""
 "Click on the message title to preview it in the Active conversation box "
 "below."
-msgstr ""
+msgstr "Cliqueu al títol del missatge per obtenir una previsualització."
 
 #: bp-groups/bp-groups-admin.php:182
 msgid ""
@@ -2964,10 +2972,10 @@ msgstr ""
 msgid "Close"
 msgstr "Tanca"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/buddypress/common/notices/template-notices.php:15
 #: bp-templates/bp-nouveau/buddypress/members/single/default-front.php:16
 #: bp-templates/bp-nouveau/buddypress/members/single/parts/profile-visibility.php:36
-#, fuzzy
 msgctxt "button"
 msgid "Close"
 msgstr "Tanca"
@@ -2977,15 +2985,13 @@ msgid "Close Topic"
 msgstr "Tanca el tema"
 
 #: bp-core/classes/class-bp-admin.php:564
-#, fuzzy
 msgid "Close pop-up"
 msgstr "Tanca"
 
 #: bp-templates/bp-nouveau/buddypress/common/notices/template-notices.php:15
 #: bp-templates/bp-nouveau/buddypress/members/single/default-front.php:16
-#, fuzzy
 msgid "Close this notice"
-msgstr "Avís:"
+msgstr "Tanca l'avís"
 
 #. translators: accessibility text
 #: bp-templates/bp-legacy/buddypress/activity/entry.php:125
@@ -2993,19 +2999,16 @@ msgid "Comment"
 msgstr "Comentari"
 
 #: bp-templates/bp-nouveau/includes/activity/template-tags.php:342
-#, fuzzy
 msgctxt "button"
 msgid "Comment"
 msgstr "Comentari"
 
 #: bp-templates/bp-nouveau/buddypress/activity/comment-form.php:19
-#, fuzzy
 msgctxt "heading"
 msgid "Comment"
 msgstr "Comentari"
 
 #: bp-templates/bp-nouveau/includes/activity/template-tags.php:347
-#, fuzzy
 msgctxt "link"
 msgid "Comment"
 msgstr "Comentari"
@@ -3029,13 +3032,14 @@ msgstr "Comentaris"
 msgid "Comments (optional)"
 msgstr "Comentaris (opcional)"
 
+# modificat xtec
 #: bp-themes/bp-default/comments.php:55
 msgid ""
 "Comments are closed, but <a href=\"%1$s\" title=\"Trackback URL for this post"
 "\">trackbacks</a> and pingbacks are open."
 msgstr ""
 "Els comentaris estan tancats, però els <a href=\"%1$s\" title=\"URL del "
-"retroenllaç d'aquesta entrada\">retroenllaços</a> i retropings estan actius."
+"retroenllaç d'aquest article\">retroenllaços</a> i retropings estan actius."
 
 #: bp-themes/bp-default/comments.php:59
 msgid "Comments are closed."
@@ -3119,17 +3123,20 @@ msgstr "Configura el BuddyPress"
 msgid "Configure bbPress"
 msgstr "Configura el bbPress"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/customizer.php:43
 msgid "Configure general BuddyPress appearance options."
-msgstr ""
+msgstr "Configureu les opcions generals de l'aparença de BuddyPress."
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/groups/functions.php:689
 msgid "Configure the default front page for groups."
-msgstr ""
+msgstr "Configureu la pàgina inicial predeterminada pels nodes."
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/customizer.php:49
 msgid "Configure the default front page for members."
-msgstr ""
+msgstr "Configureu la pàgina inicial predeterminada pels membres."
 
 #: bp-members/classes/class-bp-members-admin.php:2086
 msgid "Confirm"
@@ -3149,7 +3156,6 @@ msgid "Content"
 msgstr "Contingut"
 
 #: bp-messages/classes/class-bp-messages-notices-list-table.php:79
-#, fuzzy
 msgctxt "Admin Notices column header"
 msgid "Content"
 msgstr "Contingut"
@@ -3173,7 +3179,6 @@ msgstr ""
 "dispositius)."
 
 #: bp-core/classes/class-bp-admin.php:930
-#, fuzzy
 msgid "Contributor Emeriti"
 msgstr "Col·laborador"
 
@@ -3234,10 +3239,10 @@ msgstr "Imatge de la coberta"
 msgid "Cover Image Uploads"
 msgstr "Càrrega d'imatges de la coberta"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/buddypress/groups/create.php:11
-#, fuzzy
 msgid "Create A New Group"
-msgstr "Cal afegir una adreça de correu electrònic per a crear un grup nou."
+msgstr "Creeu un nou node"
 
 #: bp-templates/bp-legacy/buddypress/groups/create.php:473
 #: bp-themes/bp-default/groups/create.php:282
@@ -3282,8 +3287,8 @@ msgstr "Crea un lloc!"
 msgid "Create an Account"
 msgstr "Creeu un compte"
 
+# modificat xtec
 #: bp-messages/classes/class-bp-messages-notices-list-table.php:80
-#, fuzzy
 msgctxt "Admin Notices column header"
 msgid "Created"
 msgstr "Creat"
@@ -3318,8 +3323,8 @@ msgstr "Escapça la fotografia del perfil del node"
 msgid "Crop Image"
 msgstr "Escapça la imatge"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/buddypress/assets/_attachments/avatars/crop.php:21
-#, fuzzy
 msgctxt "button"
 msgid "Crop Image"
 msgstr "Escapça la imatge"
@@ -3367,18 +3372,25 @@ msgstr ""
 msgid "Currently Active"
 msgstr "Actiu actualment"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/functions.php:1057
 msgid ""
 "Currently every member of the community can invite you to join their groups. "
 "If you are not comfortable with it, you can always restrict group invites to "
 "your friends only."
 msgstr ""
+"Actualment, cada membre de la comunitat us pot convidar a unir-se als seus "
+"grups. Si no voleu, podeu restringir les invitacions als nodes, als vostres "
+"amics."
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/functions.php:1061
 msgid ""
 "Currently only your friends can invite you to groups. Uncheck the box to "
 "allow any member to send invites."
 msgstr ""
+"Actualment només els vostres amics us poden convidar a grups. Desmarqueu la "
+"casella per permetre que qualsevol membre us enviï invitacions."
 
 #: bp-xprofile/classes/class-bp-xprofile-field-type.php:329
 msgid "Custom"
@@ -3412,17 +3424,23 @@ msgid "Customize the appearance of emails sent by BuddyPress."
 msgstr ""
 "Personalitzeu l'aparença dels missatges dels emails enviats per BuddyPress."
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/groups/functions.php:695
 msgid ""
 "Customize the navigation menu for groups. See your changes by navigating to "
 "a group in the live-preview window."
 msgstr ""
+"Personalitza el menú de navegació pels nodes. Consulteu els vostres canvis "
+"navegant a un node des de la finestra de vista prèvia."
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/customizer.php:55
 msgid ""
 "Customize the navigation menu for members. In the preview window, navigate "
 "to a user to preview your changes."
 msgstr ""
+"Personalitza el menú de navegació dels membres. A la finestra de "
+"previsualització, aneu a un usuari per obtenir una vista prèvia dels canvis."
 
 #: bp-core/admin/bp-core-admin-components.php:68
 #: bp-core/bp-core-functions.php:2444
@@ -3433,11 +3451,14 @@ msgstr ""
 "Personalitza la comunitat amb camps de perfil completament editables que "
 "permet als usuaris descriure's ells mateix."
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/customizer-controls.php:40
 msgid ""
 "Customizing the Groups navigation order needs you create at least one group "
 "first."
 msgstr ""
+"Per poder personalitzar l'ordre de navegació dels nodes, primer heu de crear "
+"un node com a mínim."
 
 #: bp-core/deprecated/2.1.php:74 bp-core/deprecated/2.1.php:266
 msgid "Dashboard"
@@ -3471,10 +3492,10 @@ msgstr "Dia"
 msgid "Deactivate"
 msgstr "Desactiva"
 
+# modificat xtec
 #: bp-messages/classes/class-bp-messages-notices-list-table.php:139
-#, fuzzy
 msgid "Deactivate Notice"
-msgstr "Avís:"
+msgstr "Desactiva l'avís:"
 
 #: bp-xprofile/classes/class-bp-xprofile-field-type-datebox.php:231
 msgid "December"
@@ -3527,14 +3548,12 @@ msgstr "Suprimeix"
 #: bp-templates/bp-nouveau/includes/activity/template-tags.php:456
 #: bp-templates/bp-nouveau/includes/activity/template-tags.php:457
 #: bp-templates/bp-nouveau/includes/notifications/template-tags.php:114
-#, fuzzy
 msgctxt "button"
 msgid "Delete"
 msgstr "Suprimeix"
 
 #: bp-templates/bp-nouveau/includes/activity/template-tags.php:804
 #: bp-templates/bp-nouveau/includes/notifications/functions.php:244
-#, fuzzy
 msgctxt "link"
 msgid "Delete"
 msgstr "Suprimeix"
@@ -3578,8 +3597,8 @@ msgstr "Suprimeix el grup"
 msgid "Delete Group Cover Image"
 msgstr "Esborra la imatge de la coberta del node"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/buddypress/assets/_attachments/cover-images/index.php:34
-#, fuzzy
 msgctxt "button"
 msgid "Delete Group Cover Image"
 msgstr "Esborra la imatge de la coberta del node"
@@ -3608,8 +3627,8 @@ msgstr "Suprimeix el meu avatar"
 msgid "Delete My Cover Image"
 msgstr "Esborra la meva imatge de la coberta"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/buddypress/assets/_attachments/cover-images/index.php:27
-#, fuzzy
 msgctxt "button"
 msgid "Delete My Cover Image"
 msgstr "Esborra la meva imatge de la coberta"
@@ -3619,10 +3638,10 @@ msgstr "Esborra la meva imatge de la coberta"
 msgid "Delete My Profile Photo"
 msgstr "Suprimeix la fotografia del meu perfil"
 
+# modificat xtec
 #: bp-messages/classes/class-bp-messages-notices-list-table.php:127
-#, fuzzy
 msgid "Delete Notice"
-msgstr "Avís:"
+msgstr "Elimina l'avís:"
 
 #: bp-members/classes/class-bp-members-admin.php:1996
 msgid "Delete Pending Accounts"
@@ -3646,16 +3665,16 @@ msgstr "Suprimeix el seleccionat"
 msgid "Delete Topic"
 msgstr "Suprimeix el tema"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/buddypress/common/js-templates/messages/index.php:197
 #: bp-templates/bp-nouveau/buddypress/common/js-templates/messages/index.php:198
 #: bp-templates/bp-nouveau/buddypress/common/js-templates/messages/index.php:259
 #: bp-templates/bp-nouveau/buddypress/common/js-templates/messages/index.php:260
-#, fuzzy
 msgid "Delete conversation."
 msgstr "Suprimeix la conversa"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/buddypress/groups/single/admin/delete-group.php:11
-#, fuzzy
 msgid "Delete this group"
 msgstr "Esborra el node"
 
@@ -3667,10 +3686,10 @@ msgstr "Esborra el node"
 msgid "Deleted User"
 msgstr "Suprimeix l'usuari"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/messages/functions.php:106
-#, fuzzy
 msgid "Deleting messages. Please wait."
-msgstr "S'està instal·lant... espereu."
+msgstr "S'estan eliminant els missatges... espereu."
 
 #: bp-templates/bp-legacy/buddypress/members/single/settings/delete-account.php:20
 #: bp-themes/bp-default/members/single/settings/delete-account.php:60
@@ -3681,8 +3700,8 @@ msgstr ""
 "En suprimir aquest compte, se suprimiran tot el contingut que ha creat. Serà "
 "completament irrecuperable."
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/functions.php:1033
-#, fuzzy
 msgid ""
 "Deleting this account will delete all of the content it has created. It will "
 "be completely unrecoverable."
@@ -3761,14 +3780,13 @@ msgid "Directory"
 msgstr "Directori"
 
 #: bp-templates/bp-nouveau/includes/customizer.php:64
-#, fuzzy
 msgid "Directory layouts"
 msgstr "Directori"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/buddypress/common/nav/directory-nav.php:10
-#, fuzzy
 msgid "Directory menu"
-msgstr "Directori"
+msgstr "Menú del directori"
 
 #: bp-xprofile/classes/class-bp-xprofile-field.php:1502
 msgid "Disabled"
@@ -3799,28 +3817,30 @@ msgstr "Nom a mostrar"
 msgid "Display Sitewide Notices posted by the site administrator"
 msgstr "Mostra els avisos generals publicats per l'administrador del lloc"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/customizer.php:232
 msgid "Display the biographical info from the member's WordPress profile."
-msgstr ""
+msgstr "Mostra la informació biogràfica del perfil de WordPress del membre."
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/groups/functions.php:808
 msgid "Display the group description in the body of the group's front page."
-msgstr ""
+msgstr "Mostra la descripció del node al cos de la portada."
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/groups/functions.php:814
-#, fuzzy
 msgid "Display the group navigation vertically."
-msgstr "Navegació secundària del node"
+msgstr "Mostra el menú del node vertical"
 
 #: bp-templates/bp-nouveau/includes/activity/widgets.php:35
 msgid ""
 "Display the latest updates of your community having the types of your choice."
 msgstr ""
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/customizer.php:238
-#, fuzzy
 msgid "Display the member navigation vertically."
-msgstr "Navegació secundària del membre"
+msgstr "Mostra el menú del membre verticalment"
 
 #: bp-templates/bp-nouveau/includes/classes.php:189
 msgid ""
@@ -3848,18 +3868,25 @@ msgstr ""
 "fent funcionar una extensió antiga del BuddyPress que no ha estat "
 "actualitzada."
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/customizer-controls.php:58
 msgid ""
 "Drag each possible group navigation items that are listed below into the "
 "order you prefer, in some groups some of these navigation items might not be "
 "active."
 msgstr ""
+"Arrossegueu tots els elements de navegació del node que s'enumerin a "
+"continuació en l'ordre que preferiu, en alguns grups, alguns d'aquests "
+"elements de navegació poden estar inactius."
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/customizer-controls.php:65
 msgid ""
 "Drag each possible member navigation items that are listed below into the "
 "order you prefer."
 msgstr ""
+"Arrossegueu tots els elements de navegació dels membres que s'enumerin a "
+"continuació en l'ordre que preferiu."
 
 #: bp-xprofile/classes/class-bp-xprofile-field-type-selectbox.php:29
 msgctxt "xprofile field type"
@@ -3976,10 +4003,10 @@ msgctxt "Group WP Admin Bar manage links"
 msgid "Edit Group %s"
 msgstr "Edita el node %s"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/buddypress/groups/single/admin/edit-details.php:19
-#, fuzzy
 msgid "Edit Group Name &amp; Description"
-msgstr "El nom del node i la descripció no poden estar buits."
+msgstr "Edita el nom del node &amp; Descripció"
 
 #: bp-members/bp-members-adminbar.php:95
 msgid "Edit Member"
@@ -4025,9 +4052,10 @@ msgstr "Editar contingut d'activitat"
 msgid "Edit comment"
 msgstr "Edita el comentari"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/buddypress/groups/single/admin/group-avatar.php:28
 msgid "Edit or update your avatar image for this group."
-msgstr ""
+msgstr "Editeu o actualitzeu la imatge del vostre avatar per aquest node."
 
 #: bp-members/classes/class-bp-members-list-table.php:193
 #: bp-members/classes/class-bp-members-list-table.php:195
@@ -4040,27 +4068,28 @@ msgstr "Edita la configuració"
 msgid "Edit text"
 msgstr "Editar text"
 
+# modificat xtec
 #: bp-themes/bp-default/attachment.php:26 bp-themes/bp-default/single.php:24
 msgid "Edit this entry"
-msgstr "Edita aquesta entrada"
+msgstr "Edita aquest article"
 
 #: bp-themes/bp-default/onecolumn-page.php:32 bp-themes/bp-default/page.php:21
 msgid "Edit this page."
 msgstr "Edita aquesta pàgina."
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/members/template-tags.php:785
-#, fuzzy
 msgid "Edit your bio"
-msgstr "Sessió iniciada com a %s. Editeu el perfil."
+msgstr "Editeu la vostre biografia"
 
 #: bp-templates/bp-legacy/buddypress/groups/single/forum/edit.php:38
 #: bp-themes/bp-default/groups/single/forum/edit.php:25
 msgid "Edit:"
 msgstr "Edita:"
 
+# modificat xtec
 #. translators: %s = profile field group name
 #: bp-templates/bp-nouveau/buddypress/members/single/profile/edit.php:34
-#, fuzzy
 msgid "Editing \"%s\" Profile Group"
 msgstr "S'està editant el perfil del node '%s' "
 
@@ -4099,10 +4128,10 @@ msgctxt "email type taxonomy singular name"
 msgid "Email"
 msgstr "Email"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/buddypress/members/single/settings/general.php:12
-#, fuzzy
 msgid "Email & Password"
-msgstr "Contrasenya"
+msgstr "Correu i Contrasenya"
 
 #: bp-templates/bp-legacy/buddypress/members/register.php:95
 #: bp-themes/bp-default/registration/register.php:41
@@ -4114,10 +4143,10 @@ msgstr "Adreça electrònica"
 msgid "Email Notification"
 msgstr "Avís de correu electrònic"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/buddypress/members/single/settings/notifications.php:12
-#, fuzzy
 msgid "Email Notifications"
-msgstr "notificacions per correu electrònic"
+msgstr "Notificacions per correu electrònic"
 
 #: bp-settings/bp-settings-actions.php:202
 msgid "Email address cannot be empty."
@@ -4176,13 +4205,15 @@ msgid "Enable BuddyPress to WordPress profile syncing"
 msgstr ""
 "Habilita la sincronització entre perfils del BuddyPress i del WordPress."
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/groups/functions.php:796
 msgid "Enable custom front pages for groups."
-msgstr ""
+msgstr "Habilita la personalització de les pàgines inicial per als nodes."
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/customizer.php:226
 msgid "Enable default front page for member profiles."
-msgstr ""
+msgstr "Habilita la portada predeterminada dels perfils dels membres."
 
 #. translators: %s: URL to the BuddyPress Codex article
 #: bp-core/classes/class-bp-admin.php:643
@@ -4207,17 +4238,22 @@ msgstr "Activa el fòrum de discussió"
 msgid "Enable group creation for all users"
 msgstr "Activa la creació de nodes per a tots els usuaris"
 
+# modificat xtec
 #. translators: accessibility text
 #: bp-core/admin/bp-core-admin-components.php:171
 #: bp-core/admin/bp-core-admin-components.php:234
 msgid "Enable or disable all optional components in bulk"
-msgstr ""
+msgstr "Activa o desactiva tots els components opcionals en massa"
 
+# modficat xtec
 #: bp-templates/bp-nouveau/includes/groups/functions.php:802
 msgid ""
 "Enable widget region for group homepages. When enabled, the site admin can "
 "add widgets to group pages via the Widgets panel."
 msgstr ""
+"Activa la zona del giny per a les pàgines d'inici del node. Quan està "
+"habilitat, l'administrador del lloc pot afegir ginys a les pàgines del node "
+"a través del panell de ginys."
 
 #: bp-xprofile/classes/class-bp-xprofile-field.php:1501
 msgid "Enabled"
@@ -4232,8 +4268,8 @@ msgstr "Final:"
 msgid "Enforce field visibility"
 msgstr "Força la visibilitat del camp"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/buddypress/groups/single/admin/edit-details.php:13
-#, fuzzy
 msgid "Enter Group Name &amp; Description"
 msgstr "El nom del node i la descripció no poden estar buits."
 
@@ -4254,8 +4290,8 @@ msgstr "Introduïu la contrasenya per a veure els comentaris."
 msgid "Error joining group"
 msgstr "Error en unir-se al node"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/groups/ajax.php:171
-#, fuzzy
 msgid "Error joining this group."
 msgstr "S'ha produït un error en unir-se al node."
 
@@ -4264,8 +4300,8 @@ msgstr "S'ha produït un error en unir-se al node."
 msgid "Error leaving group"
 msgstr "Error en deixar el node"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/groups/ajax.php:213
-#, fuzzy
 msgid "Error leaving group."
 msgstr "Error en deixar el node"
 
@@ -4276,8 +4312,8 @@ msgstr "Error en deixar el node"
 msgid "Error requesting membership"
 msgstr "Error al sol·licitar l'admissió"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/groups/ajax.php:192
-#, fuzzy
 msgid "Error requesting membership."
 msgstr "Error al sol·licitar l'admissió"
 
@@ -4601,8 +4637,8 @@ msgstr ""
 "Els fòrums s'han configurat correctament en fer servir la instal·lació del "
 "bbPress existent!"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/functions.php:692
-#, fuzzy
 msgid "Four columns"
 msgstr "Quatre columnes"
 
@@ -4661,8 +4697,8 @@ msgctxt "My Account Friends menu"
 msgid "Friends %s"
 msgstr "Amics %s"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/buddypress/members/single/friends.php:10
-#, fuzzy
 msgid "Friends menu"
 msgstr "Amics"
 
@@ -4670,8 +4706,8 @@ msgstr "Amics"
 msgid "Friendship Requested"
 msgstr "Sol·licitd d'amistat"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/buddypress/members/single/friends/requests.php:10
-#, fuzzy
 msgid "Friendship Requests"
 msgstr "Sol·licituds d'amistat"
 
@@ -4679,8 +4715,8 @@ msgstr "Sol·licituds d'amistat"
 msgid "Friendship accepted"
 msgstr "Amistat acceptada"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/friends/ajax.php:130
-#, fuzzy
 msgid "Friendship accepted."
 msgstr "Amistat acceptada"
 
@@ -4688,10 +4724,10 @@ msgstr "Amistat acceptada"
 msgid "Friendship canceled"
 msgstr "Amistat cancel·lada"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/friends/ajax.php:180
-#, fuzzy
 msgid "Friendship cancelled."
-msgstr "La sol·licitud d'amistat no pot ser cancel·lada."
+msgstr "Amistat cancel·lada."
 
 #: bp-friends/bp-friends-screens.php:54
 msgid "Friendship could not be accepted"
@@ -4703,8 +4739,8 @@ msgstr "L'amistat no ha pogut ser acceptada"
 msgid "Friendship could not be canceled."
 msgstr "L'amistat no es pot cancel·lar."
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/friends/ajax.php:167
-#, fuzzy
 msgid "Friendship could not be cancelled."
 msgstr "La sol·licitud d'amistat no pot ser cancel·lada."
 
@@ -4720,8 +4756,8 @@ msgstr "L'ha mistat no es pot sol·licitar."
 msgid "Friendship rejected"
 msgstr "Amistat rebutjada"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/friends/ajax.php:154
-#, fuzzy
 msgid "Friendship rejected."
 msgstr "Amistat rebutjada"
 
@@ -4800,8 +4836,8 @@ msgctxt "First field-group name"
 msgid "General"
 msgstr "General"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/customizer.php:40
-#, fuzzy
 msgid "General BP Settings"
 msgstr "Paràmetres generals"
 
@@ -4849,8 +4885,8 @@ msgstr "Torneu enrere i proveu-ho de nou"
 msgid "Group"
 msgstr "Node"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/groups/functions.php:852
-#, fuzzy
 msgid "Group > Members"
 msgstr "Tots els membres del node"
 
@@ -4858,8 +4894,8 @@ msgstr "Tots els membres del node"
 msgid "Group Actions"
 msgstr "Accions del node"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/buddypress/groups/single/activity.php:12
-#, fuzzy
 msgid "Group Activities"
 msgstr "Llista d'activitats"
 
@@ -4876,15 +4912,15 @@ msgstr "Canal RSS de l'activitat del node"
 msgid "Group Admin"
 msgstr "Administrador del node"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/groups/functions.php:1199
-#, fuzzy
 msgid "Group Administrator promotions"
 msgstr "Administrador de"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/buddypress/groups/single/parts/header-item-actions.php:16
-#, fuzzy
 msgid "Group Administrators"
-msgstr "No s'ha trobat cap administrador de node."
+msgstr "Administradors del node"
 
 #: bp-templates/bp-legacy/buddypress/groups/single/cover-image-header.php:74
 #: bp-templates/bp-legacy/buddypress/groups/single/group-header.php:22
@@ -4950,17 +4986,17 @@ msgstr "Invitacions al node"
 msgid "Group Invites"
 msgstr "Invita al node"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/groups/functions.php:414
 #: bp-templates/bp-nouveau/includes/groups/functions.php:442
-#, fuzzy
 msgctxt "Group invitations main menu title"
 msgid "Group Invites"
 msgstr "Invita al node"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/buddypress/groups/single/parts/header-item-actions.php:13
-#, fuzzy
 msgid "Group Leadership"
-msgstr "al node"
+msgstr "Lideratge del node"
 
 #: bp-groups/bp-groups-notifications.php:388
 msgid "Group Membership Requests"
@@ -4977,8 +5013,8 @@ msgstr "Components del node"
 msgid "Group Mod"
 msgstr "Moderador del node"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/groups/functions.php:1204
-#, fuzzy
 msgid "Group Moderator promotions"
 msgstr "Moderador del node"
 
@@ -5047,10 +5083,10 @@ msgstr "Tipus de node:"
 msgid "Group Updates"
 msgstr "Actualitzacions del node"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/buddypress/groups/single/parts/admin-subnav.php:10
-#, fuzzy
 msgid "Group administration menu"
-msgstr "Administració"
+msgstr "Administració del node"
 
 #: bp-groups/bp-groups-admin.php:820
 #: bp-templates/bp-legacy/buddypress/groups/create.php:184
@@ -5094,8 +5130,8 @@ msgstr ""
 "El contingut i activitat del node, només serà visible per als membres del "
 "node."
 
+# modificat xtec
 #: bp-templates/bp-nouveau/buddypress/groups/create.php:27
-#, fuzzy
 msgid "Group creation menu"
 msgstr "Creació de node"
 
@@ -5147,26 +5183,26 @@ msgstr ""
 "Els fòrums de node estan enfocats per a converses amb un estil de butlletí "
 "de notícies."
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/groups/functions.php:686
-#, fuzzy
 msgid "Group front page"
-msgstr "Portada (Barra esquerra)"
+msgstr "Portada del node"
 
 #: bp-groups/bp-groups-screens.php:1500
 msgctxt "group settings on notification settings page"
 msgid "Group information is updated"
 msgstr "La informació del node s'hagi actualitzat"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/groups/ajax.php:104
-#, fuzzy
 msgid "Group invitation could not be accepted."
 msgstr "La invitació de node no es pot acceptar"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/groups/ajax.php:447
 #: bp-templates/bp-nouveau/includes/groups/ajax.php:467
-#, fuzzy
 msgid "Group invitation could not be removed."
-msgstr "L'usuari no es pot suprimir com a usuari brossa."
+msgstr "La invitació no es pot suprimir"
 
 #. translators: accessibility text
 #: bp-templates/bp-legacy/buddypress/members/single/groups/invites.php:20
@@ -5177,14 +5213,17 @@ msgstr "Invitacions a nodes"
 msgid "Group invitations can only be extended to friends."
 msgstr "Les invitacions de node només poden estendre's als amics."
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/groups/functions.php:152
 msgid ""
 "Group invitations cleared. Please use one of the available tabs to select "
 "members to invite."
 msgstr ""
+"S'han suprimit les invitacions del node. Utilitzeu una de les pestanyes "
+"disponibles per seleccionar membres per convidar."
 
+# modificat xtec
 #: bp-templates/bp-nouveau/buddypress/common/js-templates/invites/index.php:29
-#, fuzzy
 msgid "Group invitations menu"
 msgstr "Invitacions a nodes"
 
@@ -5192,10 +5231,10 @@ msgstr "Invitacions a nodes"
 msgid "Group invite accepted"
 msgstr "S'ha acceptar la invitiació del node"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/groups/ajax.php:125
-#, fuzzy
 msgid "Group invite accepted."
-msgstr "S'ha acceptar la invitiació del node"
+msgstr "S'ha acceptar la invitació del node"
 
 #: bp-groups/screens/user/invites.php:29
 msgid "Group invite accepted. Visit %s."
@@ -5213,10 +5252,10 @@ msgstr "La invitació al node no pot ser rebutjada"
 msgid "Group invite rejected"
 msgstr "S'ha rebutjat la invitació del node"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/groups/functions.php:472
-#, fuzzy
 msgid "Group invites preferences saved."
-msgstr "S'ha enviat la invitació del node."
+msgstr "S'han desat les preferències per les invitacions al node."
 
 #: bp-groups/bp-groups-screens.php:651
 msgid "Group invites sent."
@@ -5240,17 +5279,17 @@ msgstr "Logotip del node %s"
 msgid "Group membership request accepted"
 msgstr "Sol·licitud d'admissió al node acceptada"
 
+# modificat xtec
 #: bp-templates/bp-legacy/buddypress/groups/single/request-membership.php:18
-#, fuzzy
 msgid "Group membership request form"
-msgstr "S'ha rebutjat la sol·licitud d'admissió del node"
+msgstr "Formulari de sol·licitud d'afiliació al node"
 
 #: bp-groups/bp-groups-screens.php:1343
 msgid "Group membership request rejected"
 msgstr "S'ha rebutjat la sol·licitud d'admissió del node"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/buddypress/groups/single/parts/item-nav.php:10
-#, fuzzy
 msgid "Group menu"
 msgstr "menú"
 
@@ -5264,10 +5303,10 @@ msgstr "El nom de node no pot estar buit."
 
 #: bp-groups/bp-groups-admin.php:530
 msgid "Group name, slug, and description are all required fields."
-msgstr ""
+msgstr "El nom del grup i la descripció són tots els camps obligatoris."
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/groups/functions.php:692
-#, fuzzy
 msgid "Group navigation"
 msgstr "Navegació principal del node"
 
@@ -5317,8 +5356,8 @@ msgctxt "Admin Groups page title"
 msgid "Groups"
 msgstr "Nodes"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/groups/functions.php:845
-#, fuzzy
 msgctxt "Customizer control label"
 msgid "Groups"
 msgstr "Nodes"
@@ -5407,10 +5446,10 @@ msgstr ""
 "públiques, privades o ocultes, amb fluxos d'activitat i llista de membres "
 "específics."
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/groups/template-tags.php:1282
-#, fuzzy
 msgid "Groups default front page"
-msgstr "Portada (Barra esquerra)"
+msgstr "Portada"
 
 #. translators: accessibility text
 #: bp-templates/bp-legacy/buddypress/groups/index.php:115
@@ -5435,10 +5474,10 @@ msgstr "Llista dels nodes"
 msgid "Groups list navigation"
 msgstr "Navegació de la llista d'usuaris"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/buddypress/members/single/groups.php:10
-#, fuzzy
 msgid "Groups menu"
-msgstr "menú"
+msgstr "Menú"
 
 #: bp-groups/screens/single/admin/edit-details.php:34
 msgid "Groups must have a name and a description. Please try again."
@@ -5457,9 +5496,9 @@ msgstr "Capçalera"
 msgid "Header background color"
 msgstr "Color de fons de la capçalera"
 
+# modificat xtec
 #: bp-core/classes/class-bp-admin.php:477
 #: bp-core/classes/class-bp-admin.php:504
-#, fuzzy
 msgctxt "Colloquial alternative to \"learn about BuddyPress\""
 msgid "Hello, BuddyPress!"
 msgstr "Hola, món!"
@@ -5513,14 +5552,14 @@ msgctxt "Member Home page"
 msgid "Home"
 msgstr "Mur"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/groups/classes.php:264
-#, fuzzy
 msgctxt "Group screen navigation title"
 msgid "Home (Activity)"
 msgstr "Inici"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/groups/classes.php:266
-#, fuzzy
 msgctxt "Group screen navigation title"
 msgid "Home (Members)"
 msgstr "# membres"
@@ -5555,9 +5594,10 @@ msgstr "Entenc les conseqüències d'esborrar aquest node."
 msgid "I understand the consequences."
 msgstr "Entenc les conseqüències."
 
+# modificat xtec
 #: bp-templates/bp-nouveau/buddypress/members/single/settings/group-invites.php:27
 msgid "I want to restrict Group invites to my friends only."
-msgstr ""
+msgstr "Vull restringir les invitacions del node només als meus amics."
 
 #: bp-themes/bp-default/registration/register.php:236
 msgid ""
@@ -5645,11 +5685,14 @@ msgstr ""
 "SI voleu esborrar la vostra imatge de coberta però no penjar-ne una de nova, "
 "utilitzeu el botó de suprimir la imatge de capçalera."
 
+# modificat xtec
 #: bp-templates/bp-nouveau/buddypress/assets/_attachments/cover-images/index.php:24
 msgid ""
 "If you'd like to delete your current cover image, use the delete Cover Image "
 "button."
 msgstr ""
+"Si voleu eliminar la vostra imatge de portada actual, utilitzeu el botó "
+"Suprimeix."
 
 #: bp-templates/bp-legacy/buddypress/assets/_attachments/avatars/index.php:37
 #: bp-templates/bp-legacy/buddypress/members/single/profile/change-avatar.php:44
@@ -5660,12 +5703,15 @@ msgstr ""
 "Si voleu suprimir la foto de perfil actual però no penjar cap nova, "
 "utilitzeu el botó de suprimir la foto de perfil."
 
+# modificat xtec
 #: bp-templates/bp-nouveau/buddypress/assets/_attachments/avatars/index.php:35
 #: bp-templates/bp-nouveau/buddypress/members/single/profile/change-avatar.php:36
 msgid ""
 "If you'd like to delete your current profile photo, use the delete profile "
 "photo button."
 msgstr ""
+"Si voleu suprimir la vostra foto de perfil actual, utilitzeu el botó "
+"Eliminar."
 
 #: bp-themes/bp-default/groups/single/admin.php:137
 msgid ""
@@ -5805,10 +5851,10 @@ msgstr "Missatges entrants"
 msgid "Inbox %s"
 msgstr "Missatges entrants %s"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/classes.php:313
-#, fuzzy
 msgid "Include navigation title"
-msgstr "Inclou els fills"
+msgstr "Inclou els títols"
 
 #: bp-forums/deprecated/1.6.php:230
 msgid "Install Group Forums"
@@ -5827,45 +5873,43 @@ msgstr "Clau d'activació no vàlida."
 #: bp-templates/bp-nouveau/includes/groups/ajax.php:411
 msgid "Invitation failed for %s user."
 msgid_plural "Invitation failed for %s users."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "La invitació ha fallat per l'usuari %s."
+msgstr[1] "La invitació ha fallat pels usuaris %s."
 
 #: bp-groups/classes/class-bp-groups-component.php:495
 msgid "Invitations"
 msgstr "Invitacions"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/groups/ajax.php:430
-#, fuzzy
 msgid "Invitations sent."
-msgstr ""
-"Les invitacions s'han enviat correctament a les adreces de correu electrònic "
-"següents: %s"
+msgstr "Les invitacions s'han enviat correctament"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/groups/functions.php:301
 #: bp-templates/bp-nouveau/includes/groups/functions.php:307
 #: bp-templates/bp-nouveau/includes/groups/functions.php:327
 #: bp-templates/bp-nouveau/includes/groups/functions.php:338
-#, fuzzy
 msgctxt "Group invitations menu title"
 msgid "Invite"
 msgstr "Selecciona amics als quals convidar"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/groups/classes.php:242
-#, fuzzy
 msgctxt "My Group screen nav"
 msgid "Invite"
 msgstr "Selecciona amics als quals convidar"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/buddypress/common/js-templates/invites/index.php:86
 #: bp-templates/bp-nouveau/buddypress/common/js-templates/invites/index.php:92
-#, fuzzy
 msgctxt "button"
 msgid "Invite"
 msgstr "Selecciona amics als quals convidar"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/buddypress/common/js-templates/invites/index.php:16
 #: bp-templates/bp-nouveau/buddypress/common/js-templates/invites/index.php:22
-#, fuzzy
 msgid "Invite Members"
 msgstr "Convideu membres nous"
 
@@ -5873,8 +5917,8 @@ msgstr "Convideu membres nous"
 msgid "Invite successfully removed"
 msgstr "S'ha suprimit la invitació correctament"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/buddypress/common/js-templates/invites/index.php:65
-#, fuzzy
 msgid "Invited by:"
 msgstr "Correu electrònic de qui convida"
 
@@ -5883,8 +5927,8 @@ msgctxt "Group screen nav"
 msgid "Invites"
 msgstr "Invitacions"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/groups/ajax.php:354
-#, fuzzy
 msgid "Invites could not be sent. Please try again."
 msgstr "No s'ha enviat el missatge. Torneu-ho a provar."
 
@@ -6009,11 +6053,11 @@ msgstr "Darrer avís: %s"
 
 #: bp-blogs/bp-blogs-template.php:694
 msgid "Latest Post: %s"
-msgstr "Darrera entrada: %s"
+msgstr "Darrer article: %s"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/activity/widgets.php:62
 #: bp-templates/bp-nouveau/includes/activity/widgets.php:169
-#, fuzzy
 msgid "Latest updates"
 msgstr "Actualitzacions"
 
@@ -6039,8 +6083,8 @@ msgstr "Deixa el node"
 msgid "Leave a reply"
 msgstr "Deixa una resposta"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/buddypress/members/single/settings/general.php:33
-#, fuzzy
 msgid "Leave password fields blank for no change"
 msgstr ""
 "Canvia la contrasenya <span>(deixeu en blanc si no voleu canviar-la)</span>"
@@ -6098,8 +6142,8 @@ msgstr "Enllaços per donar-se de baixa dels correus electrònics"
 msgid "Load More"
 msgstr "Carrega més"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/buddypress/activity/activity-loop.php:28
-#, fuzzy
 msgctxt "button"
 msgid "Load More"
 msgstr "Carrega més"
@@ -6108,91 +6152,93 @@ msgstr "Carrega més"
 msgid "Load Newest"
 msgstr "Carrega el més nou"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/groups/functions.php:150
-#, fuzzy
 msgid "Loading members. Please wait."
 msgstr "Espereu mentre s'està carregant més resultats..."
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/messages/functions.php:102
-#, fuzzy
 msgid "Loading messages. Please wait."
 msgstr "Espereu mentre s'està carregant més resultats..."
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/functions.php:1053
-#, fuzzy
 msgid "Loading notifications. Please wait."
 msgstr "Espereu mentre s'està carregant més resultats..."
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/functions.php:941
-#, fuzzy
 msgid "Loading the community updates. Please wait."
 msgstr "Espereu mentre s'està carregant més resultats..."
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/functions.php:973
-#, fuzzy
 msgid "Loading the group updates. Please wait."
 msgstr "Espereu mentre s'està carregant més resultats..."
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/functions.php:965
-#, fuzzy
 msgid "Loading the groups of the community. Please wait."
 msgstr "Espereu mentre s'està carregant més resultats..."
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/functions.php:1041
-#, fuzzy
 msgid "Loading the member's blogs. Please wait."
 msgstr "Espereu mentre s'està carregant més resultats..."
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/functions.php:1045
-#, fuzzy
 msgid "Loading the member's friends. Please wait."
 msgstr "Espereu mentre s'està carregant més resultats..."
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/functions.php:1049
-#, fuzzy
 msgid "Loading the member's groups. Please wait."
 msgstr "Espereu mentre s'està carregant més resultats..."
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/functions.php:1037
-#, fuzzy
 msgid "Loading the member's updates. Please wait."
 msgstr "Espereu mentre s'està carregant més resultats..."
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/functions.php:1009
 msgid "Loading the members of your community. Please wait."
-msgstr ""
+msgstr "S'estan carregant els membres del node."
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/functions.php:997
 msgid "Loading the members who requested to join the group. Please wait."
-msgstr ""
+msgstr "S'estan carregant els membres que han sol·licitat l'admissió al node."
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/functions.php:961
-#, fuzzy
 msgid "Loading the sites of the network. Please wait."
 msgstr "Espereu mentre s'està carregant més resultats..."
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/functions.php:945
-#, fuzzy
 msgid "Loading the update. Please wait."
 msgstr "Espereu mentre s'està carregant més resultats..."
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/functions.php:1093
-#, fuzzy
 msgid "Loading your blogs. Please wait."
 msgstr "Espereu mentre s'està carregant més resultats..."
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/functions.php:1095
-#, fuzzy
 msgid "Loading your friends. Please wait."
 msgstr "Espereu mentre s'està carregant més resultats..."
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/functions.php:1097
-#, fuzzy
 msgid "Loading your groups. Please wait."
 msgstr "Espereu mentre s'està carregant més resultats..."
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/functions.php:1091
-#, fuzzy
 msgid "Loading your updates. Please wait."
 msgstr "Espereu mentre s'està carregant més resultats..."
 
@@ -6235,8 +6281,8 @@ msgstr ""
 "Necessites ajuda? Al <a href=\"https://codex.buddypress.org/\">codex del "
 "BuddyPress</a> trobaràs la solució."
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/customizer.php:58
-#, fuzzy
 msgid "Loop layouts"
 msgstr "Llaç (Loop)"
 
@@ -6285,8 +6331,8 @@ msgstr "Gestiona els comentaris"
 msgid "Manage Group Details"
 msgstr "Gestiona els detalls del node"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/buddypress/groups/single/admin/manage-members.php:11
-#, fuzzy
 msgid "Manage Group Members"
 msgstr "Gestiona els membres"
 
@@ -6329,22 +6375,27 @@ msgstr "Gestiona registres"
 msgid "Manage User Signups"
 msgstr "Gestiona els registres"
 
+# modificat xtec
 #: bp-messages/classes/class-bp-messages-notices-admin.php:197
 msgid "Manage notices shown at front end of your site to all logged-in users."
 msgstr ""
+"Gestioneu els avisos que es mostren a la pàgina inicial del vostre lloc per "
+"a tots els usuaris que hagin iniciat la sessió."
 
+# modificat xtec
 #: bp-templates/bp-nouveau/buddypress/groups/single/default-front.php:16
 msgid "Manage the Groups default front page"
-msgstr ""
+msgstr "Gestioneu la pàgina inicial predeterminada dels nodes"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/buddypress/members/single/default-front.php:15
 msgid "Manage the members default front page"
-msgstr ""
+msgstr "Gestioneu la pàgina inicial predeterminada dels membres"
 
 #: bp-templates/bp-nouveau/buddypress/groups/single/admin/manage-members.php:14
 msgid ""
 "Manage your group members; promote to moderators, admins or demote or ban."
-msgstr ""
+msgstr "Gestioneu els membres del grup."
 
 #: bp-core/classes/class-bp-admin.php:714
 msgid "Many, Many Performance Improvements"
@@ -6354,14 +6405,14 @@ msgstr "Moltes, moltes millores de rendiment."
 msgid "March"
 msgstr "Març"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/notifications/functions.php:227
-#, fuzzy
 msgctxt "link"
 msgid "Mark Read"
 msgstr "Marca com a llegit"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/notifications/functions.php:210
-#, fuzzy
 msgctxt "link"
 msgid "Mark Unread"
 msgstr "Marca com a no llegit"
@@ -6389,8 +6440,8 @@ msgstr "Marca com a no llegits"
 msgid "Mark read"
 msgstr "Marca com a llegit"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/notifications/template-tags.php:110
-#, fuzzy
 msgctxt "button"
 msgid "Mark read"
 msgstr "Marca com a llegit"
@@ -6400,21 +6451,21 @@ msgstr "Marca com a llegit"
 msgid "Mark unread"
 msgstr "Marca com a no llegit"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/notifications/template-tags.php:112
-#, fuzzy
 msgctxt "button"
 msgid "Mark unread"
 msgstr "Marca com a no llegit"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/messages/functions.php:104
-#, fuzzy
 msgid "Marking messages as read. Please wait."
-msgstr "S'ha produït un problema en marcar els missatges com a llegits."
+msgstr "S'està marcant els missatges com a llegits."
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/messages/functions.php:105
-#, fuzzy
 msgid "Marking messages as unread. Please wait."
-msgstr "S'ha produït un problema en marcar els missatges com a no llegits."
+msgstr "S'està marcant els missatges com a no llegits."
 
 #: bp-friends/classes/class-bp-core-friends-widget.php:192
 msgid "Max friends to show:"
@@ -6434,16 +6485,17 @@ msgstr "Màxim membres a mostrar:"
 msgid "Max posts to show:"
 msgstr "Nombre màxim d'entrades a mostrar:"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/activity/widgets.php:188
 msgid "Maximum amount to display:"
-msgstr ""
+msgstr "Quantitat màxima per mostrar:"
 
 #: bp-xprofile/classes/class-bp-xprofile-field-type-datebox.php:224
 msgid "May"
 msgstr "Maig"
 
+# modificat xtec
 #: bp-core/classes/class-bp-admin.php:736
-#, fuzzy
 msgid "Meet the contributors behind BuddyPress:"
 msgstr "Col·laboradors del BuddyPress %s"
 
@@ -6452,13 +6504,13 @@ msgstr "Col·laboradors del BuddyPress %s"
 msgid "Member"
 msgstr "Membre"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/customizer.php:270
-#, fuzzy
 msgid "Member > Friends"
 msgstr "S'està mostrant 1 membre amb amics"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/buddypress/members/single/activity.php:20
-#, fuzzy
 msgid "Member Activities"
 msgstr "Llista d'activitats"
 
@@ -6490,18 +6542,18 @@ msgstr "Tipus de membres"
 msgid "Member changed profile picture"
 msgstr "Un membre ha canviat la fotografia del perfil"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/customizer.php:46
-#, fuzzy
 msgid "Member front page"
-msgstr "Portada (Barra esquerra)"
+msgstr "Portada"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/buddypress/members/single/parts/item-nav.php:10
-#, fuzzy
 msgid "Member menu"
 msgstr "menú"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/customizer.php:52
-#, fuzzy
 msgid "Member navigation"
 msgstr "Navegació principal de membres"
 
@@ -6509,8 +6561,8 @@ msgstr "Navegació principal de membres"
 msgid "Member primary navigation"
 msgstr "Navegació principal de membres"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/functions.php:923
-#, fuzzy
 msgid "Member registration is currently not allowed."
 msgstr "El registre d'usuaris no està actualment permès."
 
@@ -6556,8 +6608,8 @@ msgctxt "Groups admin Members column header"
 msgid "Members"
 msgstr "Membres"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/groups/classes.php:280
-#, fuzzy
 msgctxt "My Group screen nav"
 msgid "Members"
 msgstr "Membres"
@@ -6582,8 +6634,8 @@ msgctxt "My Group screen nav"
 msgid "Members %s"
 msgstr "Membres %s"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/buddypress/members/single/settings/capabilities.php:12
-#, fuzzy
 msgid "Members Capabilities"
 msgstr "Competències"
 
@@ -6591,8 +6643,8 @@ msgstr "Competències"
 msgid "Members Directory"
 msgstr "Directori de membres"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/members/template-tags.php:693
-#, fuzzy
 msgid "Members default front page"
 msgstr "Membres predeterminats a mostrar:"
 
@@ -6609,8 +6661,8 @@ msgstr "Navegació principal del directori de membres"
 msgid "Members directory secondary navigation"
 msgstr "Navegació secundària del directori de membres"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/buddypress/groups/single/members.php:20
-#, fuzzy
 msgid "Membership List"
 msgstr "Pertinença"
 
@@ -6724,8 +6776,8 @@ msgstr "Missatges %s"
 msgid "Messages <span class=\"%s\">%s</span>"
 msgstr "Missatges <span class=\"%s\">%s</span>"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/messages/ajax.php:536
-#, fuzzy
 msgid "Messages deleted"
 msgstr "S'han suprimit els missatges."
 
@@ -6745,29 +6797,29 @@ msgstr "Missatges entrants"
 msgid "Messages marked as read"
 msgstr "S'han marcat els missatges com a no llegits."
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/messages/ajax.php:677
-#, fuzzy
 msgid "Messages marked as read."
-msgstr "S'han marcat els missatges com a no llegits."
+msgstr "S'han marcat els missatges com a llegits."
 
 #: bp-messages/bp-messages-actions.php:433
 msgid "Messages marked as unread."
 msgstr "S'han marcat els missatges com a llegits."
 
+# modificat xtec
 #: bp-templates/bp-nouveau/buddypress/members/single/messages.php:9
-#, fuzzy
 msgid "Messages menu"
 msgstr "Missatges"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/messages/ajax.php:628
-#, fuzzy
 msgid "Messages successfully starred."
 msgstr "Missatges destacats"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/messages/ajax.php:630
-#, fuzzy
 msgid "Messages successfully unstarred."
-msgstr "Missatges"
+msgstr "Missatges sense destacar"
 
 #: bp-core/classes/class-bp-attachment.php:166
 msgid "Missing a temporary folder."
@@ -6799,9 +6851,9 @@ msgstr "Moderador de "
 msgid "Moderators"
 msgstr "Moderadors"
 
+# modificat xtec
 #: bp-xprofile/classes/class-bp-xprofile-field-type-datebox.php:119
 #: bp-xprofile/classes/class-bp-xprofile-field-type-datebox.php:308
-#, fuzzy
 msgid "Month"
 msgstr "Mes"
 
@@ -6916,9 +6968,9 @@ msgstr "Els meus amics %s"
 msgid "My Friends <span>%s</span>"
 msgstr "Els meus amics <span>%s</span>"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/activity/functions.php:253
 #: bp-templates/bp-nouveau/includes/groups/functions.php:517
-#, fuzzy
 msgid "My Groups"
 msgstr "Els meus Nodes"
 
@@ -7062,9 +7114,10 @@ msgstr "Membres nous"
 msgid "New Password"
 msgstr "Contrasenya nova"
 
+# modificat xtec
 #: bp-core/deprecated/2.1.php:75 bp-core/deprecated/2.1.php:270
 msgid "New Post"
-msgstr "Entrada nova"
+msgstr "Article nou"
 
 #: bp-templates/bp-legacy/buddypress/groups/single/forum/topic.php:22
 #: bp-themes/bp-default/groups/single/forum/topic.php:9
@@ -7121,18 +7174,20 @@ msgstr "S'ha publicat l'element"
 msgid "New member registered"
 msgstr "S'ha registrat un membre nou"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/activity/functions.php:490
-#, fuzzy
 msgid "New mentions"
 msgstr "Teniu %1$d mencions noves"
 
+# modificat xtec
 #: bp-blogs/bp-blogs-activity.php:105
 msgid "New post comment posted"
-msgstr "S'ha publicat un comentari a l'entrada nou"
+msgstr "S'ha publicat un comentari a l'article nou"
 
+# modificat xtec
 #: bp-blogs/bp-blogs-activity.php:77
 msgid "New post published"
-msgstr "S'ha publicat una entrada nova"
+msgstr "S'ha publicat un article nou"
 
 #: bp-templates/bp-nouveau/includes/messages/functions.php:436
 msgid "New private messages"
@@ -7142,20 +7197,20 @@ msgstr "Nous missatges privats"
 msgid "New site created"
 msgstr "S'ha creat un lloc web nou"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/messages/functions.php:257
-#, fuzzy
 msgid "New sitewide notice"
 msgstr "Avís:"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/activity/functions.php:500
-#, fuzzy
 msgid "New update comment replies"
 msgstr ""
 "Un membre ha respost a una de les actualitzacions o comentaris que heu "
 "publicat"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/activity/functions.php:495
-#, fuzzy
 msgid "New update replies"
 msgstr "Teniu %d respostes noves"
 
@@ -7210,10 +7265,10 @@ msgstr "Següents entrades &rarr;"
 msgid "Next Step"
 msgstr "Pas següent"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/buddypress/common/js-templates/invites/index.php:150
 #: bp-templates/bp-nouveau/buddypress/common/js-templates/invites/index.php:151
 #: bp-templates/bp-nouveau/buddypress/common/js-templates/messages/index.php:88
-#, fuzzy
 msgctxt "link"
 msgid "Next page"
 msgstr "Pàgina següent"
@@ -7265,10 +7320,10 @@ msgstr "Cap sol·licitud pendent"
 msgid "No Subject"
 msgstr "Sense assumpte"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/activity/ajax.php:455
-#, fuzzy
 msgid "No activites were found."
-msgstr "No s'han trobat membres."
+msgstr "No s'han trobat activitats."
 
 #: bp-activity/classes/class-bp-activity-list-table.php:235
 msgid "No activities found."
@@ -7338,11 +7393,11 @@ msgstr "No s'han trobat nodes."
 msgid "No groups matched the current filter."
 msgstr "No hi ha nodes que coincideixin amb el filtre actual."
 
+# modificat xtec
 #: bp-templates/bp-legacy/buddypress-functions.php:1412
 #: bp-templates/bp-nouveau/includes/friends/ajax.php:107
-#, fuzzy
 msgid "No member found by that ID."
-msgstr "No hi ha cap usuari amb aquest ID."
+msgstr "No hi ha cap usuari amb aquest identificador."
 
 #: bp-groups/bp-groups-admin.php:997
 msgid "No members of this type"
@@ -7352,10 +7407,10 @@ msgstr "No hi ha membres d'aquest tipus"
 msgid "No members were found."
 msgstr "No s'han trobat membres."
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/groups/ajax.php:313
-#, fuzzy
 msgid "No members were found. Try another filter."
-msgstr "No s'ha trobat cap membre, proveu altre filtre."
+msgstr "No s'ha trobat cap membre, proveu un altre filtre."
 
 # MODIFICAT XTEC
 #: bp-notifications/bp-notifications-adminbar.php:56
@@ -7376,10 +7431,10 @@ msgstr "No s'ha registrat ningú encara!"
 msgid "No pending accounts found."
 msgstr "No s'han trobat comptes pendes."
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/groups/ajax.php:299
-#, fuzzy
 msgid "No pending group invitations found."
-msgstr "Invitacions a nodes"
+msgstr "No hi ha invitacions pendents"
 
 #: bp-core/bp-core-attachments.php:740
 msgid ""
@@ -7467,8 +7522,8 @@ msgstr "L'avís s'ha esborrat correctament."
 msgid "Notice successfully created."
 msgstr "Avís creat correctament."
 
+# modificat xtec
 #: bp-messages/classes/class-bp-messages-notices-admin.php:235
-#, fuzzy
 msgid "Notice successfully updated."
 msgstr "S'ha actualitzat correctament."
 
@@ -7476,8 +7531,8 @@ msgstr "S'ha actualitzat correctament."
 msgid "Notice was not created. Please try again."
 msgstr "L'avís no s'ha creat. Torneu a provar-ho de nou."
 
+# modificat xtec
 #: bp-messages/classes/class-bp-messages-notices-admin.php:229
-#, fuzzy
 msgid "Notice was not updated. Please try again."
 msgstr "L'avís no s'ha creat. Torneu a provar-ho de nou."
 
@@ -7485,8 +7540,8 @@ msgstr "L'avís no s'ha creat. Torneu a provar-ho de nou."
 msgid "Notices"
 msgstr "Avisos"
 
+# modificat xtec
 #: bp-messages/classes/class-bp-messages-notices-admin.php:245
-#, fuzzy
 msgid "Notices List"
 msgstr "Avisos"
 
@@ -7573,10 +7628,10 @@ msgstr "S'han marcat els avisos com a llegits."
 msgid "Notifications marked as unread."
 msgstr "S'han marcat els avisos com a no llegits."
 
+# modificat xtec
 #: bp-templates/bp-nouveau/buddypress/members/single/notifications.php:10
-#, fuzzy
 msgid "Notifications menu"
-msgstr "Menú de notificacions d'articles"
+msgstr "Menú de notificacions"
 
 #: bp-templates/bp-legacy/buddypress/groups/single/admin/edit-details.php:39
 #: bp-themes/bp-default/groups/single/admin.php:26
@@ -7659,10 +7714,10 @@ msgid ""
 "this group."
 msgstr "Una vegada heu fet amistats, pode convidar-les a aquest node."
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/functions.php:689
-#, fuzzy
 msgid "One column"
-msgstr "Pàgina sencera"
+msgstr "Una columna"
 
 #: bp-settings/bp-settings-actions.php:218
 msgid "One of the password fields was empty."
@@ -7673,13 +7728,13 @@ msgctxt "Visibility level setting"
 msgid "Only Me"
 msgstr "Només jo"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/buddypress/groups/single/admin/group-settings.php:54
-#, fuzzy
 msgid "Only people who are invited can join the group."
 msgstr "Només els usuaris que han estat convidats poden unir-se al node."
 
+# modificat xtec
 #: bp-templates/bp-nouveau/buddypress/groups/single/admin/group-settings.php:44
-#, fuzzy
 msgid "Only people who request membership and are accepted can join the group."
 msgstr ""
 "Només els usuaris que han sol·licitat la pertinença i han estat acceptats, "
@@ -7709,9 +7764,10 @@ msgstr ""
 msgid "Open Topic"
 msgstr "Obre el tema"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/buddypress/common/js-templates/invites/index.php:116
 msgid "Optional: add a message to your invite."
-msgstr ""
+msgstr "Opcional: afegiu un missatge a la vostra invitació."
 
 # MODIFICAT XTEC
 #: bp-core/admin/bp-core-admin-functions.php:439
@@ -7778,10 +7834,11 @@ msgstr "Pàgines"
 msgid "Pages: "
 msgstr "Pàgines:"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/buddypress/common/js-templates/messages/index.php:184
 #: bp-templates/bp-nouveau/buddypress/common/js-templates/messages/index.php:247
 msgid "Participants:"
-msgstr ""
+msgstr "Participants:"
 
 #: bp-core/classes/class-bp-core-login-widget.php:111
 #: bp-themes/bp-default/sidebar.php:47
@@ -7807,15 +7864,15 @@ msgctxt "Pending Accounts per page (screen options)"
 msgid "Pending Accounts"
 msgstr "Comptes pendents"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/groups/functions.php:1184
-#, fuzzy
 msgid "Pending Group membership requests"
-msgstr "No hi ha sol·licituds d'admissió pendents."
+msgstr "Sol·licituds d'admissió pendents"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/groups/functions.php:123
-#, fuzzy
 msgid "Pending Invites"
-msgstr "No hi ha invitacions pendents"
+msgstr "Invitacions pendents"
 
 #. translators: %s: Group invitation count for the current user
 #: bp-groups/classes/class-bp-groups-component.php:748
@@ -7829,8 +7886,8 @@ msgctxt "My Account Friends menu sub nav"
 msgid "Pending Requests %s"
 msgstr "Sol·licituds pendents %s"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/friends/loader.php:106
-#, fuzzy
 msgid "Pending friendship requests"
 msgstr "Teniu %d sol·licituds d'amistats pendents"
 
@@ -7853,12 +7910,13 @@ msgstr "Enllaç permanent:"
 msgid "Permanent Link to"
 msgstr "Enllaç permanent a "
 
+# modificat xtec
 #: bp-templates/bp-legacy/buddypress/forums/forums-loop.php:74
 #: bp-templates/bp-legacy/buddypress/groups/single/forum/topic.php:129
 #: bp-themes/bp-default/forums/forums-loop.php:54
 #: bp-themes/bp-default/groups/single/forum/topic.php:95
 msgid "Permanent link to this post"
-msgstr "Enllaç permanent a aquesta entrada"
+msgstr "Enllaç permanent a aquest article"
 
 #: bp-activity/classes/class-bp-activity-component.php:292
 msgctxt "My Account Activity sub nav"
@@ -7910,18 +7968,18 @@ msgid ""
 msgstr ""
 "<a href=\"%s\" title=\"Crea un compte\">Crea un compte</a> per començar."
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/messages/functions.php:96
-#, fuzzy
 msgid "Please add a subject to your message."
 msgstr "El vostre missatge no ha estat enviat. Heu d'afegir l'assumpte."
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/messages/functions.php:95
-#, fuzzy
 msgid "Please add at least one recipient."
 msgstr "Seleccioneu almenys un element per realitzar aquesta acció."
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/messages/functions.php:97
-#, fuzzy
 msgid "Please add some content to your message."
 msgstr "El vostre missatge no ha estat enviat. Heu d'afegir algun contingut."
 
@@ -7947,11 +8005,12 @@ msgstr "Entreu un nom d'usuari:"
 msgid "Please enter options for this Field:"
 msgstr "Introduïu les opcions per a aquest camp:"
 
+# modificat xtec
 #: bp-activity/bp-activity-actions.php:292
 #: bp-templates/bp-legacy/buddypress-functions.php:914
 #: bp-themes/bp-default/_inc/ajax.php:276
 msgid "Please enter some content to post."
-msgstr "Entreu algun contingut a l'entrada."
+msgstr "Entreu algun contingut a l'article."
 
 #: bp-groups/bp-groups-actions.php:178
 msgid "Please fill in all of the required fields"
@@ -8041,16 +8100,16 @@ msgstr "Situació de email populars"
 msgid "Post"
 msgstr "Publica"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/functions.php:1331
-#, fuzzy
 msgctxt "button"
 msgid "Post"
-msgstr "Entrada"
+msgstr "Article"
 
+# modificat xtec
 #: bp-core/classes/class-bp-admin.php:446
-#, fuzzy
 msgid "Post Comments"
-msgstr "Permet a la gent fer comentaris als articles nous"
+msgstr "Comentaris dels articles"
 
 #: bp-templates/bp-legacy/buddypress/forums/index.php:188
 #: bp-themes/bp-default/forums/index.php:113
@@ -8069,16 +8128,17 @@ msgstr "Publica la resposta"
 msgid "Post Topic"
 msgstr "Publica un tema"
 
+# modificat xtec
 #: bp-templates/bp-legacy/buddypress/activity/post-form.php:47
 #: bp-themes/bp-default/activity/post-form.php:35
 msgid "Post Update"
-msgstr "Actualitza l'entrada"
+msgstr "Actualitza l'article"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/buddypress/activity/post-form.php:17
-#, fuzzy
 msgctxt "heading"
 msgid "Post Update"
-msgstr "Actualitza l'entrada"
+msgstr "Actualitza l'article"
 
 #: bp-templates/bp-legacy/buddypress/groups/single/forum.php:104
 #: bp-themes/bp-default/groups/single/forum.php:73
@@ -8092,15 +8152,15 @@ msgstr "Publica un tema nou"
 msgid "Post in"
 msgstr "Publica"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/activity/functions.php:146
-#, fuzzy
 msgid "Post in: Group"
-msgstr "Feu clic per activar un grup de camp de post"
+msgstr "Publicació a: node"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/activity/functions.php:137
-#, fuzzy
 msgid "Post in: Profile"
-msgstr "Perfil"
+msgstr "Publicació a: perfil"
 
 #. translators: accessibility text
 #: bp-templates/bp-legacy/buddypress/activity/post-form.php:38
@@ -8124,10 +8184,10 @@ msgctxt "search form"
 msgid "Posts"
 msgstr "Entrades"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/buddypress/common/js-templates/invites/index.php:143
 #: bp-templates/bp-nouveau/buddypress/common/js-templates/invites/index.php:145
 #: bp-templates/bp-nouveau/buddypress/common/js-templates/messages/index.php:81
-#, fuzzy
 msgctxt "link"
 msgid "Previous page"
 msgstr "Pàgina anterior"
@@ -8280,8 +8340,8 @@ msgctxt "Profile settings sub nav"
 msgid "Profile Visibility"
 msgstr "Visibilitat del perfil"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/buddypress/members/single/settings/profile.php:12
-#, fuzzy
 msgid "Profile Visibility Settings"
 msgstr "Paràmetres de visibilitat del perfil"
 
@@ -8302,8 +8362,8 @@ msgstr "No es troba el tipus de camp de perfil."
 msgid "Profile fields must have a name."
 msgstr "Els camps de perfil han de tenir nom"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/buddypress/members/single/profile.php:10
-#, fuzzy
 msgid "Profile menu"
 msgstr "Perfil"
 
@@ -8402,8 +8462,8 @@ msgstr "S'ha actualitzat el perfil."
 msgid "Profile visibility settings"
 msgstr "Paràmetres de visibilitat del perfil"
 
+# modificat xtec
 #: bp-core/classes/class-bp-admin.php:935
-#, fuzzy
 msgid "Project Founder"
 msgstr "Líders dels projecte"
 
@@ -8468,8 +8528,8 @@ msgid "Public group activity feed of which %s is a member."
 msgstr ""
 "Fil de subscripció de l'activitat pública del node del qual %s és membre."
 
+# modificat xtec
 #: bp-messages/classes/class-bp-messages-notices-admin.php:213
-#, fuzzy
 msgid "Publish Notice"
 msgstr "Avís:"
 
@@ -8546,10 +8606,11 @@ msgctxt "Notification screen nav"
 msgid "Read"
 msgstr "Llegit"
 
+# modificat xtec
 #: bp-themes/bp-default/archive.php:33 bp-themes/bp-default/index.php:37
 #: bp-themes/bp-default/search.php:35 bp-themes/bp-default/single.php:28
 msgid "Read the rest of this entry &rarr;"
-msgstr "Llegiu la resta d'aquesta entrada &rarr;"
+msgstr "Llegiu la resta d'aquest article &rarr;"
 
 #: bp-blogs/classes/class-bp-blogs-recent-posts-widget.php:43
 #: bp-blogs/classes/class-bp-blogs-recent-posts-widget.php:148
@@ -8719,8 +8780,8 @@ msgstr ""
 msgid "Reject"
 msgstr "Rebutja"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/members/template-tags.php:305
-#, fuzzy
 msgctxt "button"
 msgid "Reject"
 msgstr "Rebutja"
@@ -8730,8 +8791,8 @@ msgstr "Rebutja"
 msgid "Rejected"
 msgstr "Rebutjat"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/groups/functions.php:1194
-#, fuzzy
 msgid "Rejected Group membership requests"
 msgstr "%d sol·licituds d'admissió al node rebutjades"
 
@@ -8739,8 +8800,8 @@ msgstr "%d sol·licituds d'admissió al node rebutjades"
 msgid "Relative"
 msgstr "Relativa"
 
+# modificat xtec
 #: bp-core/classes/class-bp-admin.php:753
-#, fuzzy
 msgid "Release Lead"
 msgstr "Cap de la versió"
 
@@ -8788,11 +8849,11 @@ msgstr "Esborra tots els missatges destacats d'aquest fil"
 msgid "Remove from group"
 msgstr "Treu-lo del node"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/buddypress/common/js-templates/activity/form.php:42
-#, fuzzy
 msgctxt "button"
 msgid "Remove item"
-msgstr "Suprimeux l'element del menú: %1$s (%2$s)"
+msgstr "Suprimeix l'element"
 
 #: bp-messages/bp-messages-star.php:502
 msgid "Remove star"
@@ -8802,15 +8863,15 @@ msgstr "Treure de destacats"
 msgid "Remove this member"
 msgstr "Suprimeix aquest membre"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/groups/functions.php:839
-#, fuzzy
 msgid "Reorder the primary navigation for a group."
-msgstr "Navegació principal del node"
+msgstr "Reordeneu la navegació principal del node"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/customizer.php:257
-#, fuzzy
 msgid "Reorder the primary navigation for a user."
-msgstr "Navegació principal de membres"
+msgstr "Reordeneu la navegació principal de membres"
 
 #: bp-core/admin/bp-core-admin-functions.php:309
 #: bp-core/admin/bp-core-admin-functions.php:339
@@ -8853,8 +8914,8 @@ msgstr "Torna a comptar el total de membres."
 msgid "Repeat New Password"
 msgstr "Repeteix la contrasenya nova"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/buddypress/members/single/settings/general.php:39
-#, fuzzy
 msgid "Repeat Your New Password"
 msgstr "Repeteix la contrasenya nova"
 
@@ -8890,11 +8951,11 @@ msgstr "Les respostes inhabilitates"
 msgid "Reply"
 msgstr "Resposta"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/activity/template-tags.php:790
-#, fuzzy
 msgctxt "link"
 msgid "Reply"
-msgstr "Contesta"
+msgstr "Respon"
 
 #: bp-activity/bp-activity-actions.php:376
 msgid "Reply Posted!"
@@ -8944,9 +9005,10 @@ msgstr "Sol·licitud enviada"
 msgid "Request form"
 msgstr "Formulari de sol·licitud"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/functions.php:977
 msgid "Requesting the group members. Please wait."
-msgstr ""
+msgstr "Sol·licitud dels membres del node."
 
 #: bp-groups/classes/class-bp-groups-component.php:681
 msgid "Requests"
@@ -8969,8 +9031,8 @@ msgstr "Requeriment"
 msgid "Resend Activation Emails"
 msgstr "Reenvia els correus electrònics d'activació"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/buddypress/common/js-templates/messages/index.php:48
-#, fuzzy
 msgctxt "form reset button"
 msgid "Reset"
 msgstr "Reinicialitza"
@@ -8997,8 +9059,8 @@ msgstr "Rols"
 msgid "Save"
 msgstr "Desa"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/buddypress/assets/_attachments/avatars/camera.php:23
-#, fuzzy
 msgctxt "button"
 msgid "Save"
 msgstr "Desa"
@@ -9044,18 +9106,18 @@ msgstr "Desa la configuració"
 msgid "Search"
 msgstr "Cerca"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/buddypress/common/js-templates/invites/index.php:134
 #: bp-templates/bp-nouveau/buddypress/common/js-templates/messages/index.php:103
 #: bp-templates/bp-nouveau/buddypress/common/search/search-form.php:19
 #: bp-templates/bp-nouveau/includes/messages/functions.php:149
-#, fuzzy
 msgctxt "button"
 msgid "Search"
 msgstr "Cerca"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/buddypress/common/js-templates/invites/index.php:130
 #: bp-templates/bp-nouveau/buddypress/common/js-templates/messages/index.php:100
-#, fuzzy
 msgctxt "search placeholder text"
 msgid "Search"
 msgstr "Cerca"
@@ -9087,11 +9149,11 @@ msgctxt "Component directory search"
 msgid "Search Groups..."
 msgstr "Cerca als nodes"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/buddypress/common/js-templates/invites/index.php:129
-#, fuzzy
 msgctxt "heading"
 msgid "Search Members"
-msgstr "Cerca als membres..."
+msgstr "Cerca els membres..."
 
 #: bp-members/classes/class-bp-members-component.php:121
 msgid "Search Members..."
@@ -9198,8 +9260,8 @@ msgstr "Selecciona-ho tot"
 msgid "Select Bulk Action"
 msgstr "Selecciona una acció en massa"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/buddypress/groups/single/admin/group-settings.php:13
-#, fuzzy
 msgid "Select Group Settings"
 msgstr "Paràmetres del node"
 
@@ -9226,8 +9288,8 @@ msgstr "Selecciona tots"
 msgid "Select an image"
 msgstr "Selecciona una imatge"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/buddypress/common/js-templates/messages/index.php:117
-#, fuzzy
 msgid "Select bulk action"
 msgstr "Selecciona una acció en massa"
 
@@ -9237,11 +9299,14 @@ msgstr "Selecciona una acció en massa"
 msgid "Select day"
 msgstr "Selecciona el dia"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/groups/ajax.php:292
 msgid ""
 "Select friends to invite by clicking the + button. Once you've made your "
 "selection, use the \"Send Invites\" navigation item to continue."
 msgstr ""
+"Seleccioneu amics per convidar fent clic al botó +. Un cop seleccionats, "
+"utilitzeu l'element de navegació \"Enviar invitacions\" per continuar."
 
 #: bp-templates/bp-legacy/buddypress/groups/single/invites-loop.php:110
 msgid "Select friends to invite."
@@ -9267,14 +9332,17 @@ msgstr "Seleccioneu el tipus de node"
 msgid "Select member type"
 msgstr "Selecciona el tipus d'usuari"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/groups/ajax.php:287
 msgid ""
 "Select members to invite by clicking the + button. Once you've made your "
 "selection, use the \"Send Invites\" navigation item to continue."
 msgstr ""
+"Seleccioneu els membres per convidar fent clic al botó +. Un cop "
+"seleccionats, utilitzeu l'element \"Enviar invitacions\" per continuar."
 
+# modificat xtec
 #: bp-templates/bp-nouveau/buddypress/common/js-templates/messages/index.php:136
-#, fuzzy
 msgid "Select message:"
 msgstr "Selecciona aquest missatge"
 
@@ -9326,9 +9394,10 @@ msgstr "Selecciona l'usuari: %s"
 msgid "Select visibility"
 msgstr "Selecciona la visibilitat"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/buddypress/members/single/settings/profile.php:16
 msgid "Select who may see your profile details."
-msgstr ""
+msgstr "Seleccioneu qui pot veure els vostres detalls del perfil."
 
 #. translators: accessibility text
 #: bp-xprofile/classes/class-bp-xprofile-field-type-datebox.php:130
@@ -9342,13 +9411,13 @@ msgstr "Selecciona l'any"
 msgid "Select your File"
 msgstr "Seleccioneu el fitxer"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/buddypress/assets/_attachments/uploader.php:25
-#, fuzzy
 msgid "Select your file"
 msgstr "Seleccioneu el fitxer"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/buddypress/assets/_attachments/uploader.php:27
-#, fuzzy
 msgctxt "button"
 msgid "Select your file"
 msgstr "Seleccioneu el fitxer"
@@ -9358,15 +9427,15 @@ msgstr "Seleccioneu el fitxer"
 msgid "Select:"
 msgstr "Seleccioneu:"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/buddypress/common/js-templates/invites/index.php:121
 #: bp-templates/bp-nouveau/buddypress/common/js-templates/messages/index.php:47
-#, fuzzy
 msgctxt "button"
 msgid "Send"
 msgstr "Envia missatge de correu electrònic"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/buddypress/common/js-templates/messages/index.php:36
-#, fuzzy
 msgid "Send @Username"
 msgstr "Enviat a (nom d'usuari o nom de l'amic)"
 
@@ -9390,8 +9459,8 @@ msgstr "Envia el missatge"
 msgid "Send Reply"
 msgstr "Envia la resposta"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/buddypress/common/js-templates/messages/index.php:349
-#, fuzzy
 msgctxt "button"
 msgid "Send Reply"
 msgstr "Envia la resposta"
@@ -9401,9 +9470,9 @@ msgstr "Envia la resposta"
 msgid "Send Request"
 msgstr "Envia la sol·licitud"
 
+# modificat xtec
 #: bp-templates/bp-legacy/buddypress/groups/single/request-membership.php:45
 #: bp-templates/bp-nouveau/buddypress/groups/single/request-membership.php:30
-#, fuzzy
 msgctxt "button"
 msgid "Send Request"
 msgstr "Envia la sol·licitud"
@@ -9427,9 +9496,10 @@ msgstr "Envia'm un correu d'avís quan:"
 msgid "Send invites"
 msgstr "Envia invitacions"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/groups/functions.php:153
 msgid "Sending group invitations. Please wait."
-msgstr ""
+msgstr "S'estan enviant les invitacions al node."
 
 #: bp-messages/classes/class-bp-messages-component.php:202
 #: bp-messages/classes/class-bp-messages-component.php:299
@@ -9463,9 +9533,10 @@ msgstr "Configura els components"
 msgid "Set the number of columns to use for BuddyPress loops."
 msgstr ""
 
+# mdificat xtec
 #: bp-templates/bp-nouveau/buddypress/members/single/settings/notifications.php:16
 msgid "Set your email notification preferences."
-msgstr ""
+msgstr "Establiu les preferències de notificació per correu electrònic."
 
 #: bp-core/classes/class-bp-admin.php:512
 #: bp-groups/classes/class-bp-groups-component.php:652
@@ -9489,8 +9560,8 @@ msgstr "Paràmetres"
 msgid "Settings Saved."
 msgstr "Opcions desades."
 
+# modificat xtec
 #: bp-templates/bp-nouveau/buddypress/members/single/settings.php:12
-#, fuzzy
 msgid "Settings menu"
 msgstr "Menú de configuració del correu electrònic"
 
@@ -9560,8 +9631,8 @@ msgstr "Lloc"
 msgid "Site Activity"
 msgstr "Activitat del lloc web"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/buddypress/members/register.php:89
-#, fuzzy
 msgid "Site Details"
 msgstr "Detalls"
 
@@ -9579,21 +9650,21 @@ msgstr "Domini del lloc:"
 msgid "Site Name:"
 msgstr "Nom del lloc web:"
 
+# modificat xtec
 #: bp-messages/classes/class-bp-messages-component.php:386
-#, fuzzy
 msgid "Site Notices"
 msgstr "Avisos"
 
+# modificat xtec
 #: bp-messages/classes/class-bp-messages-notices-admin.php:102
-#, fuzzy
 msgctxt "Admin Users menu"
 msgid "Site Notices"
 msgstr "Avisos"
 
+# modificat xtec
 #: bp-messages/classes/class-bp-messages-notices-admin.php:101
 #: bp-messages/classes/class-bp-messages-notices-admin.php:188
 #: bp-messages/classes/class-bp-messages-notices-admin.php:193
-#, fuzzy
 msgctxt "Notices admin page title"
 msgid "Site Notices"
 msgstr "Avisos"
@@ -9636,8 +9707,8 @@ msgstr "Icona de lloc per a %s"
 msgid "Site registration is currently disabled"
 msgstr "El registre al lloc web està desactivat"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/functions.php:957
-#, fuzzy
 msgid "Site registration is currently disabled."
 msgstr "El registre al lloc web està desactivat"
 
@@ -9680,15 +9751,15 @@ msgstr "Navegació principal del directori de llocs"
 msgid "Sites directory secondary navigation"
 msgstr "Navegació secundària dels directoris de llocs"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/blogs/functions.php:168
-#, fuzzy
 msgid "Sites loop:"
 msgstr "Llaç (Loop)"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/buddypress/members/single/blogs.php:10
-#, fuzzy
 msgid "Sites menu"
-msgstr "menú"
+msgstr "Menú"
 
 #. translators: accessibility text
 #: bp-templates/bp-legacy/buddypress/members/single/messages.php:88
@@ -9699,10 +9770,10 @@ msgstr "Avisos en tot el lloc"
 msgid "Sitewide activities navigation"
 msgstr "Navegació d'activitats en tot el lloc"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/messages/ajax.php:746
-#, fuzzy
 msgid "Sitewide notice dismissed"
-msgstr "Avís:"
+msgstr "Avís descartat"
 
 #: bp-core/bp-core-functions.php:2940
 msgctxt "email type taxonomy name"
@@ -9778,24 +9849,25 @@ msgstr "Aquest nom d'usuari ja existeix"
 msgid "Sorry, there was no activity found. Please try a different filter."
 msgstr "No s'ha trobat cap activitat. Proveu un filtre diferent."
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/functions.php:985
 msgid "Sorry, there was no member of that name found in this group."
-msgstr ""
+msgstr "No s'ha trobat cap membre amb aquest nom en aquest node."
 
 #: bp-templates/bp-legacy/buddypress/forums/forums-loop.php:163
 #: bp-themes/bp-default/forums/forums-loop.php:122
 msgid "Sorry, there were no forum topics found."
 msgstr "No s'han trobat temes al fòrum."
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/functions.php:981
-#, fuzzy
 msgid "Sorry, there were no group members found."
 msgstr "No s'han trobat membres del node"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/functions.php:969
-#, fuzzy
 msgid "Sorry, there were no groups found."
-msgstr "No s'han trobat avisos."
+msgstr "No s'han trobat nodes."
 
 #: bp-blogs/classes/class-bp-blogs-recent-posts-widget.php:112
 msgid "Sorry, there were no posts found. Why not write one?"
@@ -9834,15 +9906,15 @@ msgstr "Tipus d'ordenació:"
 msgid "Spam"
 msgstr "Brossa"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/activity/template-tags.php:502
 #: bp-templates/bp-nouveau/includes/activity/template-tags.php:507
-#, fuzzy
 msgctxt "button"
 msgid "Spam"
 msgstr "Brossa"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/activity/template-tags.php:831
-#, fuzzy
 msgctxt "link"
 msgid "Spam"
 msgstr "Brossa"
@@ -9873,17 +9945,17 @@ msgstr ""
 msgid "Star"
 msgstr "Destaca"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/buddypress/common/js-templates/messages/index.php:208
 #: bp-templates/bp-nouveau/buddypress/common/js-templates/messages/index.php:209
-#, fuzzy
 msgid "Star Conversation"
 msgstr "Destaca"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/buddypress/common/js-templates/messages/index.php:286
 #: bp-templates/bp-nouveau/buddypress/common/js-templates/messages/index.php:287
-#, fuzzy
 msgid "Star Message"
-msgstr "Destaqueu el primer missatge d'aquest fil"
+msgstr "Destaqueu el missatge"
 
 #: bp-messages/bp-messages-star.php:112
 #: bp-templates/bp-legacy/buddypress-functions.php:337
@@ -9902,19 +9974,19 @@ msgstr "Destacats"
 msgid "Starred messages"
 msgstr "Missatges destacats"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/messages/functions.php:107
-#, fuzzy
 msgid "Starring messages. Please wait."
-msgstr "S'està instal·lant... espereu."
+msgstr "S'està destacant els missatges... espereu."
 
 #: bp-groups/bp-groups-admin.php:206
 msgid "Start typing a username to add a new member."
 msgstr "Comença afegint un nom d'usuari per afegir un membre nou."
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/activity/functions.php:147
-#, fuzzy
 msgid "Start typing the group name..."
-msgstr "Comença afegint un nom d'usuari per afegir un membre nou."
+msgstr "Comença afegint un nom per al node..."
 
 #: bp-xprofile/classes/class-bp-xprofile-field-type-datebox.php:526
 #: bp-xprofile/classes/class-bp-xprofile-field-type-datebox.php:542
@@ -9952,8 +10024,8 @@ msgstr "Enganxa el tema"
 msgid "Subject"
 msgstr "Assumpte"
 
+# modificat xtec
 #: bp-messages/classes/class-bp-messages-notices-list-table.php:78
-#, fuzzy
 msgctxt "Admin Notices column header"
 msgid "Subject"
 msgstr "Assumpte"
@@ -10058,10 +10130,10 @@ msgstr ""
 "Gràcies per actualitzar! BuddyPress %s té moltes noves característiques que "
 "podreu gaudir."
 
+# modificat xtec
 #: bp-core/classes/class-bp-admin.php:670
-#, fuzzy
 msgid "Thank you for using BuddyPress! 😊"
-msgstr "Gràcies per fer servir el WordPress Social Login"
+msgstr "Gràcies per fer servir el WoddyPress"
 
 #. translators: do not remove {} brackets or translate its contents.
 #: bp-core/bp-core-functions.php:3351
@@ -10308,13 +10380,13 @@ msgstr "El grup s'ha suprimit correctament."
 msgid "The group was saved successfully."
 msgstr "El node s'ha desat correctament."
 
+# modificat xtec
 #: bp-templates/bp-nouveau/buddypress/common/js-templates/invites/index.php:76
-#, fuzzy
 msgid "The invite has been sent."
-msgstr "Encara no s'ha enviat cap invitació"
+msgstr "S'ha enviat la invitació."
 
+# modificat xtec
 #: bp-templates/bp-nouveau/buddypress/common/js-templates/invites/index.php:74
-#, fuzzy
 msgid "The invite has not been sent yet."
 msgstr "Encara no s'ha enviat cap invitació"
 
@@ -10322,10 +10394,10 @@ msgstr "Encara no s'ha enviat cap invitació"
 msgid "The item you were replying to no longer exists."
 msgstr "L'element al que esteu responent ja no existeix."
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/groups/ajax.php:456
-#, fuzzy
 msgid "The member is already a member of the group."
-msgstr "El tipus de membre ja existeix."
+msgstr "El membre ja existeix."
 
 #: bp-groups/bp-groups-screens.php:710
 msgid "The member requested to join the group"
@@ -10347,13 +10419,15 @@ msgstr "La contrasenya nova ha de ser diferent de l'actual."
 msgid "The passwords you entered do not match."
 msgstr "Les contrasenyes són diferents."
 
+# modificat xtec
 #: bp-groups/bp-groups-screens.php:455
 msgid "The post was deleted successfully"
-msgstr "L'entrada s'ha esborrat correctament."
+msgstr "L'article s'ha esborrat correctament."
 
+# modificat xtec
 #: bp-groups/bp-groups-screens.php:488
 msgid "The post was edited successfully"
-msgstr "L'entrada s'ha editat correctament."
+msgstr "L'article s'ha editat correctament."
 
 #: bp-xprofile/classes/class-bp-xprofile-field.php:1068
 msgid "The profile field type %s is not registered."
@@ -10477,10 +10551,10 @@ msgstr "No hi ha cap camp en aquest node."
 msgid "There are no groups to display."
 msgstr "No hi ha nodes a mostrar."
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/groups/ajax.php:476
-#, fuzzy
 msgid "There are no more pending invitations for the group."
-msgstr "Limiteu les invitacions de grup"
+msgstr "No hi ha invitacions pendents per aquest node."
 
 #: bp-templates/bp-legacy/buddypress/groups/single/requests-loop.php:95
 #: bp-themes/bp-default/groups/single/admin.php:335
@@ -10592,12 +10666,12 @@ msgstr ""
 "Hi ha hagut un problema esborrant la vostra imatge de la coberta. Torneu-ho "
 "a provar de nou."
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/messages/ajax.php:513
-#, fuzzy
 msgid "There was a problem deleting your messages. Please try again."
 msgstr ""
-"Hi ha hagut un problema esborrant la vostra imatge de la coberta. Torneu-ho "
-"a provar de nou."
+"Hi ha hagut un problema esborrant els vostres missatges. Torneu-ho a provar "
+"de nou."
 
 #: bp-core/classes/class-bp-attachment-avatar.php:368
 #: bp-xprofile/bp-xprofile-actions.php:42
@@ -10605,16 +10679,15 @@ msgid "There was a problem deleting your profile photo. Please try again."
 msgstr ""
 "S'ha produït un error en suprimir la foto del perfil. Proveu-ho de nou."
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/messages/ajax.php:712
-#, fuzzy
 msgid "There was a problem dismissing the notice. Please try again."
-msgstr "L'avís no s'ha creat. Torneu a provar-ho de nou."
+msgstr "Hi ha hagut un problema desactivant l'avís. Torneu a provar-ho de nou."
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/activity/ajax.php:267
-#, fuzzy
 msgid "There was a problem displaying the content. Please try again."
-msgstr ""
-"S'ha produït un problema en rebutjar aquesta sol·licitud. Torneu-ho a provar."
+msgstr "S'ha produït un problema en mostrar el contingut. Torneu-ho a provar."
 
 #: bp-messages/bp-messages-actions.php:408
 msgid "There was a problem managing your messages."
@@ -10646,28 +10719,33 @@ msgstr "S'ha produït un problema en marcar aquest missatge."
 msgid "There was a problem marking that notification."
 msgstr "S'ha produït un problema en marcar aquest avís."
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/activity/ajax.php:582
-#, fuzzy
 msgid "There was a problem marking this activity as spam. Please try again."
 msgstr ""
-"S'ha produït un error en marcar l'activitat com a preferida. Proveu-ho de "
-"nou."
+"S'ha produït un error en marcar l'activitat com a brossa. Proveu-ho de nou."
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/messages/ajax.php:651
 msgid "There was a problem marking your messages as read. Please try again."
 msgstr ""
+"Hi ha hagut un problema en marcar els vostres missatges com a llegits. "
+"Torneu-ho a provar."
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/messages/ajax.php:657
 msgid "There was a problem marking your messages as unread. Please try again."
 msgstr ""
+"Hi ha hagut un problema en marcar els vostres missatges com a no llegits. "
+"Torneu-ho a provar."
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/friends/ajax.php:68
 #: bp-templates/bp-nouveau/includes/groups/ajax.php:47
 #: bp-templates/bp-nouveau/includes/groups/ajax.php:259
-#, fuzzy
 msgid "There was a problem performing this action. Please try again."
 msgstr ""
-"S'ha produït un problema en rebutjar aquesta sol·licitud. Torneu-ho a provar."
+"S'ha produït un problema en realitzar aquesta acció. Torneu-ho a provar."
 
 #: bp-themes/bp-default/_inc/ajax.php:291
 msgid "There was a problem posting your update, please try again."
@@ -10698,14 +10776,18 @@ msgstr ""
 msgid "There was a problem sending your reply. Please try again."
 msgstr "S'ha produït un problema en enviar la resposta. Proveu-ho de nou."
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/messages/ajax.php:552
-#, fuzzy
 msgid "There was a problem starring your messages. Please try again."
-msgstr "S'ha produït un error en publicar l'actualització, torneu-ho a provar."
+msgstr ""
+"S'ha produït un error en destacar el vostre missatge. Torneu-ho a provar."
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/messages/ajax.php:554
 msgid "There was a problem unstarring your messages. Please try agian."
 msgstr ""
+"Hi ha hagut un problema en desmarcar els vostres missatges. Torneu-ho a "
+"provar."
 
 #: bp-members/classes/class-bp-members-admin.php:412
 #: bp-xprofile/bp-xprofile-screens.php:177
@@ -10760,9 +10842,10 @@ msgstr "S'ha produït un error quan se suprimien els missatges."
 msgid "There was an error deleting that message."
 msgstr "S'ha produït un error en suprimir aquest missatge."
 
+# modificat xtec
 #: bp-groups/bp-groups-screens.php:453
 msgid "There was an error deleting that post"
-msgstr "S'ha produït un error en suprimir aquest entrada"
+msgstr "S'ha produït un error en suprimir aquest article"
 
 #: bp-xprofile/bp-xprofile-admin.php:485
 msgid "There was an error deleting the %s. Please try again."
@@ -10893,9 +10976,10 @@ msgstr "S'ha produït un problema en suprimir aquesta activitat"
 msgid "There was an error when demoting that user. Please try again."
 msgstr "S'ha produït un error en degradar l'usuari. Proveu-ho de nou."
 
+# modificat xtec
 #: bp-groups/bp-groups-screens.php:486
 msgid "There was an error when editing that post"
-msgstr "S'ha produït un error mentre s'editava l'entrada"
+msgstr "S'ha produït un error mentre s'editava l'article"
 
 #: bp-groups/bp-groups-screens.php:405
 msgid "There was an error when editing that topic"
@@ -10987,8 +11071,8 @@ msgstr ""
 "Aquesta acció no es pot usar directament. Utilitzeu l'API de l'extensió de "
 "node del BuddyPress per generat pestanyes de gestió."
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/activity/ajax.php:631
-#, fuzzy
 msgid "This activity has been marked as spam and is no longer visible."
 msgstr "L'activitat s'ha marcat com a brossa i ja no és visible."
 
@@ -11018,10 +11102,10 @@ msgstr ""
 "Aquest camp es pot veure per: <span class=\"current-visibility-level\">%s</"
 "span>"
 
+# modificat xtec
 #. translators: field visibility level, e.g. "...seen by: everyone".
 #: bp-templates/bp-nouveau/buddypress/members/single/parts/profile-visibility.php:21
 #: bp-templates/bp-nouveau/buddypress/members/single/parts/profile-visibility.php:44
-#, fuzzy
 msgid "This field may be seen by: %s"
 msgstr "Aquest camp el pot veure: %s"
 
@@ -11171,8 +11255,8 @@ msgstr "Aquest membre no té avisos."
 msgid "This member has no unread notifications."
 msgstr "Aquest membre no té avisos sense llegir."
 
+# modificat xtec
 #: bp-templates/bp-nouveau/buddypress/members/single/settings/capabilities.php:19
-#, fuzzy
 msgid "This member is a spammer."
 msgstr "Usuari brossa"
 
@@ -11216,8 +11300,8 @@ msgstr "Aquest usuari és un creador de brossa"
 msgid "This user's notification settings have been saved."
 msgstr "S'ha desat la configuració d'avisos de l'usuari"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/functions.php:691
-#, fuzzy
 msgid "Three columns"
 msgstr "Tres columnes"
 
@@ -11311,8 +11395,8 @@ msgctxt "official Twitter accounts:"
 msgid "Twitter:"
 msgstr "Twitter:"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/functions.php:690
-#, fuzzy
 msgid "Two columns"
 msgstr "Dues columnes"
 
@@ -11325,8 +11409,8 @@ msgctxt "activity admin edit screen"
 msgid "Type"
 msgstr "Tipus"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/activity/widgets.php:192
-#, fuzzy
 msgid "Type:"
 msgstr "Tipus:"
 
@@ -11348,11 +11432,11 @@ msgstr "Marcat com a legítim per %s"
 msgid "Un-stick Topic"
 msgstr "Desenganxa el tema"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/messages/ajax.php:223
 #: bp-templates/bp-nouveau/includes/messages/ajax.php:398
-#, fuzzy
 msgid "Unauthorized request."
-msgstr "Formulari de sol·licitud"
+msgstr "Sol·licitud no autoritzada."
 
 #: bp-xprofile/classes/class-bp-xprofile-field.php:1395
 msgid "Unavailable to all members."
@@ -11417,22 +11501,22 @@ msgstr "Sense resposta"
 msgid "Unstar"
 msgstr "Treure de destacats"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/buddypress/common/js-templates/messages/index.php:204
 #: bp-templates/bp-nouveau/buddypress/common/js-templates/messages/index.php:205
-#, fuzzy
 msgid "Unstar Conversation"
 msgstr "Treure de destacats"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/buddypress/common/js-templates/messages/index.php:282
 #: bp-templates/bp-nouveau/buddypress/common/js-templates/messages/index.php:283
-#, fuzzy
 msgid "Unstar Message"
 msgstr "Treure de destacats"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/messages/functions.php:108
-#, fuzzy
 msgid "Unstarring messages. Please wait."
-msgstr "Se li està redirectd. Si us plau, esperi."
+msgstr "S'està traient el missatge de destacats. Si us plau, esperi."
 
 #: bp-activity/bp-activity-admin.php:781
 #: bp-xprofile/classes/class-bp-xprofile-field.php:1158
@@ -11453,15 +11537,15 @@ msgstr "Actualització publicada!"
 msgid "Update Profile"
 msgstr "Actualitza el perfil"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/activity/ajax.php:554
-#, fuzzy
 msgid "Update posted."
 msgstr "Actualització publicada!"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/buddypress/members/single/settings/general.php:16
-#, fuzzy
 msgid "Update your email and or password."
-msgstr "Comproveu si heu rebut per correu electrònic la contrasenya nova."
+msgstr "Actualitzeu el vostre correu electrònic i/o la contrasenya"
 
 #: bp-xprofile/bp-xprofile-activity.php:37
 msgid "Updated Profile"
@@ -11482,8 +11566,8 @@ msgstr "Actualitzacions"
 msgid "Upload"
 msgstr "Penja"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/buddypress/groups/single/admin/group-cover-image.php:13
-#, fuzzy
 msgid "Upload Cover Image"
 msgstr "Imatge de la coberta"
 
@@ -11491,10 +11575,10 @@ msgstr "Imatge de la coberta"
 msgid "Upload Failed! Error was: %s"
 msgstr "La càrrega ha fallat! L'error ha estat: %s"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/buddypress/groups/single/admin/group-avatar.php:13
-#, fuzzy
 msgid "Upload Group Avatar"
-msgstr "Retalla l'avatar del node"
+msgstr "Avatar del node"
 
 #: bp-templates/bp-legacy/buddypress/groups/create.php:258
 #: bp-templates/bp-legacy/buddypress/groups/single/admin/group-avatar.php:23
@@ -11554,66 +11638,79 @@ msgstr ""
 "Utilitzar els noms de pàgina de wordpress per a les capçaleres de de les "
 "pàgines de directori de buddypress."
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/activity/functions.php:522
 msgid "Use column navigation for the Activity directory."
-msgstr ""
+msgstr "Utilitzeu el menú vertical per navegar pel directori de l'activitat."
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/groups/functions.php:859
-#, fuzzy
 msgid "Use column navigation for the Groups directory."
-msgstr "Navegació secundària del directori de nodes"
+msgstr "Utilitzeu la navegació en columna pel directori dels node."
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/customizer.php:277
-#, fuzzy
 msgid "Use column navigation for the Members directory."
-msgstr "Navegació secundària del directori de membres"
+msgstr "Utilitzeu la navegació en columna pel directori de membres."
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/blogs/functions.php:175
-#, fuzzy
 msgid "Use column navigation for the Sites directory."
-msgstr "Navegació secundària dels directoris de llocs"
+msgstr "Utilitzeu la navegació en columna pel directori del lloc web."
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/activity/functions.php:528
 msgid "Use tab styling for Activity directory navigation."
 msgstr ""
+"Utilitzeu l'estil de Pestanya per a la navegació del directori d'activitats."
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/groups/functions.php:865
 msgid "Use tab styling for Groups directory navigation."
 msgstr ""
+"Utilitzeu l'estil de Pestanya per a la navegació del directori dels nodes."
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/customizer.php:283
 msgid "Use tab styling for Members directory navigation."
 msgstr ""
+"Utilitzeu l'estil de Pestanya per a la navegació del directori els membres."
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/blogs/functions.php:181
 msgid "Use tab styling for Sites directory navigation."
 msgstr ""
+"Utilitzeu l'estil de Pestanya per a la navegació del directori del lloc web."
 
 #: bp-templates/bp-nouveau/includes/customizer.php:244
 msgid "Use tab styling for primary nav."
-msgstr ""
+msgstr "Utilitzeu l'estil de Pestanya per a la navegació principal."
 
 #: bp-templates/bp-nouveau/includes/groups/functions.php:820
 msgid "Use tab styling for primary navigation."
-msgstr ""
+msgstr "Utilitzeu l'estil de Pestanya per a la navegació principal."
 
 #: bp-templates/bp-nouveau/includes/customizer.php:250
 msgid "Use tab styling for secondary nav."
-msgstr ""
+msgstr "Utilitzeu l'estil de Pestanya per a la navegació secundària."
 
 #: bp-templates/bp-nouveau/includes/groups/functions.php:826
 msgid "Use tab styling for secondary navigation."
-msgstr ""
+msgstr "Utilitzeu l'estil de Pestanya per a la navegació secundària."
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/groups/functions.php:832
 msgid "Use tab styling for the group creation process."
-msgstr ""
+msgstr "Utilitzeu l'estil de Pestanya per al procés de creació del node."
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/groups/functions.php:151
 msgid ""
 "Use the \"Send\" button to send your invite or the \"Cancel\" button to "
 "abort."
 msgstr ""
+"Utilitzeu el botó \"Envia\" per enviar la vostra invitació o el botó "
+"\"Cancel·la\" per cancel·lar."
 
 #: bp-core/admin/bp-core-admin-tools.php:410
 msgctxt "buddypress tools intro"
@@ -11624,9 +11721,10 @@ msgstr "Useu el %s per reparar aquestes relacions."
 msgid "Use the Site Icon as Your Site&#8217;s Profile Photo"
 msgstr "Utilitzar la icona del lloc com la foto de perfil del teu lloc"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/customizer.php:220
 msgid "Use the round style for member and group avatars."
-msgstr ""
+msgstr "Utilitzeu l'estil rodó per a avatars de membres i nodes."
 
 #: bp-templates/bp-nouveau/includes/messages/functions.php:112
 msgid ""
@@ -11831,8 +11929,8 @@ msgstr "Visualitza el perfil"
 msgid "View Thread / Permalink"
 msgstr "Visualitza el fil / enllaç permanent"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/activity/ajax.php:554
-#, fuzzy
 msgid "View activity."
 msgstr "Mostra l'activitat"
 
@@ -11840,11 +11938,11 @@ msgstr "Mostra l'activitat"
 msgid "View all actions"
 msgstr "Visualitza totes les accions"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/buddypress/common/js-templates/messages/index.php:215
 #: bp-templates/bp-nouveau/buddypress/common/js-templates/messages/index.php:216
-#, fuzzy
 msgid "View full conversation and reply."
-msgstr "Mostra el contingut sencer"
+msgstr "Mostra tota la conversa i respon."
 
 #: bp-activity/bp-activity-embeds.php:292
 msgid "View on %s"
@@ -11913,11 +12011,12 @@ msgid_plural "Viewing %1$s - %2$s of %3$s online members"
 msgstr[0] "S'està mostrant %1$s - %2$s de %3$s membre en línia"
 msgstr[1] "S'estan mostrant %1$s - %2$s de %3$s membres en línia"
 
+# modificat xtec
 #: bp-forums/bp-forums-template.php:2869
 msgid "Viewing %1$s - %2$s of %3$s post"
 msgid_plural "Viewing %1$s - %2$s of %3$s posts"
-msgstr[0] "S'està mostrant %1$s - %2$s de %3$s entrada"
-msgstr[1] "S'estan mostrant %1$s - %2$s de %3$s entrades"
+msgstr[0] "S'està mostrant %1$s - %2$s de %3$s article"
+msgstr[1] "S'estan mostrant %1$s - %2$s de %3$s articles"
 
 #: bp-groups/bp-groups-template.php:5728
 msgid "Viewing %1$s - %2$s of %3$s request"
@@ -11975,9 +12074,10 @@ msgstr "S'està mostrant 1 avís"
 msgid "Viewing 1 online member"
 msgstr "S'està mostrant 1 membre en línia"
 
+# modificat xtec
 #: bp-forums/bp-forums-template.php:2867
 msgid "Viewing 1 post"
-msgstr "S'està mostrant 1 entrada"
+msgstr "S'està mostrant 1 article"
 
 #: bp-groups/bp-groups-template.php:5726
 msgid "Viewing 1 request"
@@ -12027,15 +12127,15 @@ msgstr ""
 "contingut associat amb ell. Aneu amb cura amb aquesta opció doncs no hi ha "
 "marxa enrera."
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/functions.php:1001
-#, fuzzy
 msgid ""
 "WARNING: Deleting this group will completely remove ALL content associated "
 "with it. There is no way back. Please be careful with this option."
 msgstr ""
 "ADVERTÈNCIA: Si elimineu aquest node s'esborrarà completament TOT el "
 "contingut associat amb ell. Aneu amb cura amb aquesta opció doncs no hi ha "
-"marxa enrera."
+"marxa enrere."
 
 #: bp-themes/bp-default/404.php:9
 msgid ""
@@ -12106,10 +12206,10 @@ msgstr "Qui pot convidar altres a aquest node?"
 msgid "Who can see this field?"
 msgstr "Com veieu aquest camp?"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/buddypress/members/single/parts/profile-visibility.php:31
-#, fuzzy
 msgid "Who is allowed to see this field?"
-msgstr "Com veieu aquest camp?"
+msgstr "Qui pot veure aquest camp?"
 
 #: bp-members/classes/class-bp-core-whos-online-widget.php:168
 msgid "Who's Online"
@@ -12128,7 +12228,6 @@ msgid ""
 msgstr ""
 
 #: bp-core/classes/class-bp-admin.php:916
-#, fuzzy
 msgid "With our thanks to these Open Source projects"
 msgstr ""
 "&#x1f496;Amb el nostre agraïment a aquests projectes de codi obert&#x1f496;"
@@ -12157,8 +12256,8 @@ msgstr "Si"
 msgid "Yes, I'd like to create a new site"
 msgstr "Si, m'agradaria crear un nou lloc"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/buddypress/members/register.php:91
-#, fuzzy
 msgid "Yes, i'd like to create a new site"
 msgstr "Si, m'agradaria crear un nou lloc"
 
@@ -12216,10 +12315,10 @@ msgstr ""
 msgid "You are alone in this conversation."
 msgstr "Estas sol en aquesta conversa."
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/groups/ajax.php:80
-#, fuzzy
 msgid "You are already a member of the group."
-msgstr "Llocs dels quals ja sou membres:"
+msgstr "Ja sou membre del node."
 
 #: bp-friends/bp-friends-actions.php:46
 msgid "You are already friends with this user"
@@ -12244,14 +12343,15 @@ msgstr ""
 "què no <a href='%s'>creeu un node nou</a>? Una vegada us uniu o creeu un "
 "node, podeu publicar un tema en aquest fòrum de node."
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/groups/functions.php:474
 msgid "You are not allowed to perform this action."
-msgstr ""
+msgstr "No teniu permís per realitzar aquesta acció."
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/groups/ajax.php:370
-#, fuzzy
 msgid "You are not allowed to send invitations for this group."
-msgstr "No teniu permisos per enviar o suprimir invitacions"
+msgstr "No teniu permisos per enviar invitacions"
 
 #: bp-groups/bp-groups-screens.php:707
 msgid "You are not allowed to send or remove invites"
@@ -12270,11 +12370,11 @@ msgctxt "group settings on notification settings page"
 msgid "You are promoted to a group administrator or moderator"
 msgstr "Us hàgin promogut a administrador o moderador de node"
 
+# modificat xtec
 #. translators:  %s =group name
 #. translators: %s = group name
 #: bp-templates/bp-legacy/buddypress/groups/single/request-membership.php:25
 #: bp-templates/bp-nouveau/buddypress/groups/single/request-membership.php:17
-#, fuzzy
 msgid "You are requesting to become a member of the group \"%s\"."
 msgstr "Esteu sol·licitant convertir-vos en membre del node '%s'."
 
@@ -12334,26 +12434,29 @@ msgstr ""
 "Podeu reordenar la llista dels comptes pendents fent clic a les capçaleres "
 "de les columnes nom d'usuari, correu electrònic o registrats."
 
+# modificat xtec
 #: bp-templates/bp-nouveau/buddypress/members/single/default-front.php:19
 msgid "You can set the preferences of the %1$s or add %2$s to it."
-msgstr ""
+msgstr "Podeu establir les preferències de %1$s o afegir-hi %2$s."
 
+# modificat xtec
 #: bp-templates/bp-nouveau/buddypress/groups/single/default-front.php:21
 msgid "You can set your preferences for the %1$s or add %2$s to it."
-msgstr ""
+msgstr "Podeu establir les vostre preferències de %1$s o afegir-hi %2$s."
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/groups/ajax.php:306
 msgid "You can view the group's pending invitations from this screen."
-msgstr ""
+msgstr "Podeu veure les invitacions pendents del node des d'aquesta pantalla."
 
 #: bp-members/classes/class-bp-members-admin.php:731
 msgid "You cannot edit the requested user."
 msgstr "No podeu editar l'usuari."
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/groups/ajax.php:79
-#, fuzzy
 msgid "You cannot join this group."
-msgstr "Un membre us convidi a unir-vos a un node"
+msgstr "No podeu ser membre d'aquest node."
 
 #: bp-groups/bp-groups-admin.php:521
 msgid "You cannot remove all administrators from a group."
@@ -12363,8 +12466,8 @@ msgstr "No podeu suprimir tots els administradors d'un node."
 msgid "You do not have access to that conversation."
 msgstr "No teniu accés a aquesta conversa."
 
+# modificat xtec
 #: bp-core/bp-core-buddybar.php:680 bp-core/bp-core-buddybar.php:696
-#, fuzzy
 msgid "You do not have access to that page."
 msgstr "No teniu accés a aquesta pàgina."
 
@@ -12465,10 +12568,10 @@ msgstr ""
 "\n"
 "Per visitar el node, aneu a: {{{group.url}}}"
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/groups/ajax.php:325
-#, fuzzy
 msgid "You have no friends!"
-msgstr "Amics"
+msgstr "Encara no teniu amics"
 
 #: bp-xprofile/bp-xprofile-admin.php:232
 msgid "You have no groups."
@@ -12814,12 +12917,15 @@ msgid "Your browser is not supported. Please upload a photo instead."
 msgstr ""
 "El vostre navegador no està suportat. En comptes d'això pugeu una fotografia."
 
+# modificat xtec
 #: bp-members/classes/class-bp-members-admin.php:407
 #: bp-xprofile/screens/edit.php:65
 msgid ""
 "Your changes have not been saved. Please fill in all required fields, and "
 "save your changes again."
 msgstr ""
+"Els vostres canvis no s'han desat. Ompliu tots els camps obligatoris i deseu "
+"els canvis de nou."
 
 #: bp-themes/bp-default/functions.php:512
 msgid "Your comment is awaiting moderation."
@@ -12884,8 +12990,8 @@ msgstr ""
 "La sol·licitud d'admissió s'ha enviat correctament a l'administrador del "
 "node. Sereu avisats quan l'administrador del node respongui la sol·licitud."
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/messages/ajax.php:43
-#, fuzzy
 msgid "Your message could not be sent. Please try again."
 msgstr "No s'ha enviat el missatge. Torneu-ho a provar."
 
@@ -12893,9 +12999,11 @@ msgstr "No s'ha enviat el missatge. Torneu-ho a provar."
 msgid "Your message was not sent. Please enter a subject line."
 msgstr "El vostre missatge no ha estat enviat. Heu d'afegir l'assumpte."
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/messages/ajax.php:65
 msgid "Your message was not sent. Please enter at least one username."
 msgstr ""
+"El vostre missatge no s'ha enviat. Introduïu com a mínim un nom d'usuari."
 
 #: bp-messages/bp-messages-actions.php:46
 #: bp-messages/bp-messages-functions.php:62
@@ -12952,21 +13060,21 @@ msgstr ""
 "compte de correu, s'utilitzarà aquest, o podeu penjar una imatge des del "
 "vostre ordinador."
 
+# modificat xtec
 #: bp-templates/bp-nouveau/buddypress/members/single/profile/change-avatar.php:18
-#, fuzzy
 msgid ""
 "Your profile photo will be used on your profile and throughout the site. If "
 "there is a <a href=\"https://gravatar.com\">Gravatar</a> associated with "
 "your account email we will use that, or you can upload an image from your "
 "computer."
 msgstr ""
-"La foto del perfil s'utilitzarà al vostre perfil i a tot el lloc web. SI hi "
+"La foto del perfil s'utilitzarà al vostre perfil i a tot el lloc web. Si hi "
 "ha un <a href=\"http://gravatar.com\">Gravatar</a> associat amb el vostre "
 "compte de correu, s'utilitzarà aquest, o podeu penjar una imatge des del "
 "vostre ordinador."
 
+# modificat xtec
 #: bp-templates/bp-nouveau/buddypress/members/single/profile/change-avatar.php:77
-#, fuzzy
 msgid ""
 "Your profile photo will be used on your profile and throughout the site. To "
 "change your profile photo, create an account with <a href=\"https://gravatar."
@@ -12990,8 +13098,8 @@ msgstr ""
 "\">Gravatar</a> amb el mateix correu electrònic que heu fet servir per "
 "registrar-vos en aquest lloc web."
 
+# modificat xtec
 #: bp-templates/bp-legacy/buddypress/members/single/profile/change-avatar.php:85
-#, fuzzy
 msgid ""
 "Your profile photo will be used on your profile and throughout the site. To "
 "change your profile photo, please create an account with <a href=\"https://"
@@ -13007,10 +13115,10 @@ msgstr ""
 msgid "Your profile settings have been saved."
 msgstr "La configuració del perfil s'ha desat."
 
+# modificat xtec
 #: bp-templates/bp-nouveau/includes/messages/ajax.php:121
-#, fuzzy
 msgid "Your reply was not sent. Please enter some content."
-msgstr "El vostre missatge no ha estat enviat. Heu d'afegir algun contingut."
+msgstr "La vostra resposta no ha estat enviada. Heu d'afegir algun contingut."
 
 #: bp-groups/bp-groups-screens.php:246
 msgid "Your reply was posted successfully"

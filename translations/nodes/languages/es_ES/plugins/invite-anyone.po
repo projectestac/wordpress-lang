@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Invite Anyone 0.6\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tag/invite-anyone\n"
 "POT-Creation-Date: 2011-02-26 15:35:42+00:00\n"
-"PO-Revision-Date: 2018-07-13 16:35+0200\n"
+"PO-Revision-Date: 2018-07-17 11:47+0200\n"
 "Last-Translator: Joan Sala Soler <jsala236@xtec.cat>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -17,7 +17,7 @@ msgstr ""
 "X-Poedit-SourceCharset: utf-8\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Language: es_ES\n"
-"X-Generator: Poedit 2.0.4\n"
+"X-Generator: Poedit 2.0.6\n"
 
 #: group-invites/group-invites.php:594
 msgid ""
@@ -30,7 +30,16 @@ msgid ""
 "To view %5$s's profile visit: %6$s\n"
 "\n"
 "---------------------\n"
-msgstr "\n"
+msgstr ""
+"%1$s te ha invitado al grupo: \"%2$s\".\n"
+"\n"
+"Para ver tus invitaciones a grupos visita: %3$s\n"
+"\n"
+"Para ver el grupo visita: %4$s\n"
+"\n"
+"Para ver el perfil de %5$s visita: %6$s\n"
+"\n"
+"---------------------\n"
 
 #: lib/bbg-cpt-pag.php:211
 msgid "&laquo;"
@@ -42,17 +51,15 @@ msgstr "&raquo;"
 
 #: admin/admin-stats.php:378 admin/admin-stats.php:403
 msgid "(%d sent)"
-msgstr ""
+msgstr "(%d enviado)"
 
 #: admin/admin-stats.php:382 admin/admin-stats.php:407
-#, fuzzy
 msgid "(%s accepted)"
-msgstr "ID de %s:"
+msgstr "(%s aceptado)"
 
 #: admin/admin-panel.php:639
-#, fuzzy
 msgid "(no data)"
-msgstr "Los datos del formulario se han guardado con éxito."
+msgstr "(no data)"
 
 #: by-email/by-email.php:534
 msgid "(optional) Customize the subject line of the invitation email."
@@ -71,18 +78,16 @@ msgstr ""
 "grupos cuando se unan al sitio."
 
 #: admin/admin-stats.php:47
-#, fuzzy
 msgid "1 Week"
-msgstr "Publicados esta semana"
+msgstr "1 Semana"
 
 #: admin/admin-stats.php:41
 msgid "24 Hours"
-msgstr ""
+msgstr "24 Horas"
 
 #: admin/admin-stats.php:44
-#, fuzzy
 msgid "3 Days"
-msgstr "Días y rango de fechas"
+msgstr "3 Días"
 
 #: admin/admin-stats.php:53
 msgid "3 Months"
@@ -90,7 +95,7 @@ msgstr "3 meses"
 
 #: admin/admin-stats.php:50
 msgid "4 Weeks"
-msgstr ""
+msgstr "4 Semanas"
 
 #: admin/admin-panel.php:267
 msgid ""
@@ -175,12 +180,11 @@ msgstr "Aceptar invitación"
 
 #: admin/admin-stats.php:317
 msgid "Acceptance Rate"
-msgstr ""
+msgstr "Nivel de aceptación"
 
 #: admin/admin-stats.php:338
-#, fuzzy
 msgid "Acceptance Rate (CloudSponge)"
-msgstr "Valóranos si te gusta esta extensión"
+msgstr "Nivel de aceptación (CloudSponge)"
 
 #: by-email/by-email.php:656
 msgid "Accepted"
@@ -270,6 +274,8 @@ msgid ""
 "Allows group admins to invite any member of their BuddyPress community to a "
 "group or to the site"
 msgstr ""
+"Permite a los administradores de grupo invitar a cualquier miembro de su "
+"comunidad de BuddyPress a un grupo o al sitio"
 
 #: by-email/by-email.php:760
 msgid "An invitation to join the %s community."
@@ -321,10 +327,13 @@ msgstr "Borrar esta invitación"
 msgid ""
 "Click &ldquo;Send Invites&rdquo; to finish sending your new invitations."
 msgstr ""
+"Haga clic en &ldquo;Enviar invitaciones&rdquo; para terminar de enviar sus "
+"nuevas invitaciones."
 
 #: admin/admin-panel.php:488
 msgid "Click in the <strong>test</strong> button to test your integration."
 msgstr ""
+"Haga clic en el botón <strong>prueba</strong> para probar su integración."
 
 #: admin/admin-panel.php:88
 msgid "CloudSponge"
@@ -336,20 +345,23 @@ msgstr "CloudSponge Domain Key"
 
 #: admin/admin-panel.php:477
 msgid "CloudSponge Key"
-msgstr ""
+msgstr "Clave de CloudSponge"
 
 #: admin/admin-stats.php:342
 msgid "CloudSponge Usage"
-msgstr ""
+msgstr "Uso de CloudSponge"
 
 #: admin/admin-panel.php:473
 msgid ""
 "CloudSponge integration will not work without a valid CloudSponge Domain key."
 msgstr ""
+"La integración de CloudSponge no funcionará sin una clave válida de dominio "
+"CloudSponge."
 
 #: admin/admin-panel.php:484
 msgid "CloudSponge integration will not work without a valid CloudSponge Key."
 msgstr ""
+"La integración de CloudSponge no funcionará sin una Clave CloudSponge válida."
 
 #: admin/admin-panel.php:275
 msgid "CloudSponge integration will not work without a valid domain key."
@@ -398,7 +410,7 @@ msgstr "¿Habilitar CloudSponge?"
 
 #: admin/admin-panel.php:239
 msgid "Enable the Send Invites step during group creation"
-msgstr ""
+msgstr "Habilite el paso Enviar invitaciones durante la creación del grupo"
 
 #: by-email/by-email.php:522
 msgid "Enter email addresses below, one per line."
@@ -407,6 +419,8 @@ msgstr "Introduce las direcciones de email, una por línea."
 #: widgets/widgets.php:44
 msgid "Enter one email address per line to invite friends to join this site."
 msgstr ""
+"Ingrese una dirección de correo electrónico por línea para invitar a amigos "
+"a unirse a este sitio."
 
 #: by-email/by-email-db.php:926
 msgid "Finish"
@@ -456,12 +470,11 @@ msgstr ""
 
 #: by-email/by-email-db.php:984
 msgid "Importing: %1$s invited %2$s<br />"
-msgstr ""
+msgstr "Importando: %1$s invitado %2$s<br />"
 
 #: admin/admin-stats.php:305
-#, fuzzy
 msgid "In the last..."
-msgstr "Última actualización:"
+msgstr "En el último..."
 
 #: by-email/by-email-db.php:74
 msgctxt "post type singular name"
@@ -492,9 +505,8 @@ msgid "Invite Anyone Settings"
 msgstr "Configuración de Invite Anyone"
 
 #: by-email/by-email-db.php:1023
-#, fuzzy
 msgid "Invite Anyone Upgrade"
-msgstr "Actualizar"
+msgstr "Actualizar Invite Anyone"
 
 #: admin/admin-panel.php:220
 msgid ""
@@ -513,6 +525,9 @@ msgid ""
 "Invite Anyone has just been updated, and needs to move some old invitation "
 "data in order to complete the upgrade. Click GO to start the process."
 msgstr ""
+"Invitar Cualquiera se acaba de actualizar y debe mover algunos datos de "
+"invitación antiguos para completar la actualización. Haga clic en IR para "
+"iniciar el proceso."
 
 #: by-email/by-email.php:279 by-email/by-email.php:509
 msgid "Invite New Members"
@@ -530,9 +545,8 @@ msgstr ""
 "continuación."
 
 #: admin/admin-panel.php:518
-#, fuzzy
 msgid "Invited Email"
-msgstr "Programación de correo electrónicos"
+msgstr "Correo Invitado"
 
 #: by-email/by-email-db.php:121 by-email/by-email-db.php:128
 msgid "Invited Group"
@@ -556,12 +570,12 @@ msgstr "Invitados"
 
 #: admin/admin-panel.php:513
 msgid "Inviter"
-msgstr ""
+msgstr "Invitador"
 
 #: by-email/by-email.php:542
 msgid ""
 "It looks like you&#8217;ve already accepted your invitation to join the site."
-msgstr ""
+msgstr "Parece que ya has aceptado tu invitación para unirte al sitio."
 
 #: by-email/by-email.php:140
 msgid ""
@@ -579,11 +593,11 @@ msgstr "Limitar las invitaciones de grupo"
 
 #: admin/admin-panel.php:382
 msgid "Limit number of invites per user :"
-msgstr ""
+msgstr "Limitar el número de invitaciones por usuario:"
 
 #: admin/admin-panel.php:196
 msgid "Limit per-user invitations"
-msgstr ""
+msgstr "Limite las invitaciones por usuario"
 
 #: admin/admin-panel.php:115
 msgid "Link that invited users can click to accept the invitation"
@@ -629,7 +643,7 @@ msgstr "Nombre del nuevo invitado"
 
 #: by-email/by-email-db.php:995
 msgid "Next Invitations"
-msgstr ""
+msgstr "Siguiente invitaciones"
 
 #: by-email/by-email-db.php:354
 msgid "No"
@@ -645,7 +659,7 @@ msgstr "No se encontraron invitaciones en la basura"
 
 #: admin/admin-panel.php:663
 msgid "No invitations have been sent yet."
-msgstr ""
+msgstr "No se han enviado invitaciones todavía."
 
 #: admin/admin-panel.php:226 admin/admin-panel.php:234
 #: admin/admin-panel.php:242 admin/admin-panel.php:250
@@ -680,7 +694,7 @@ msgstr "Por favor, corrige los errores y envía de nuevo."
 
 #: admin/admin-panel.php:486
 msgid "Please, click on <strong>Save Changes</strong> to save the key!"
-msgstr ""
+msgstr "¡Haz clic en <strong>Guardar cambios</strong> para guardar la clave!"
 
 #: admin/admin-panel.php:205
 msgid ""
@@ -813,6 +827,8 @@ msgid ""
 "The site administrator has limited each user to %1$d invitations. You have "
 "%2$d invitations remaining."
 msgstr ""
+"El administrador del sitio ha limitado a cada usuario a %1$d invitaciones. "
+"Tienes %2$d invitaciones restantes."
 
 #: by-email/by-email.php:403
 msgid "There was a problem clearing the invitation."
@@ -841,6 +857,10 @@ msgid ""
 "\t\t\tYou may clear any individual invites, all accepted invites or all of "
 "the invites from the list."
 msgstr ""
+"Esta tabla muestra una lista de todas tus invitaciones enviadas.\n"
+"\t\t\tLas invitaciones que se han aceptado se destacan en los listados.\n"
+"\t\t\tPuede borrar todas las invitaciones individuales, todas las "
+"invitaciones aceptadas o todas las invitaciones de la lista."
 
 #: widgets/widgets.php:104
 msgid "Title:"
@@ -866,39 +886,36 @@ msgstr ""
 "%"
 
 #: admin/admin-stats.php:321
-#, fuzzy
 msgid "Top Inviter (by #)"
-msgstr "superior &amp; inferior"
+msgstr "Mejor Invitador (por #)"
 
 #: admin/admin-stats.php:346
-#, fuzzy
 msgid "Top Inviter (by #) (CloudSponge)"
-msgstr "superior &amp; inferior"
+msgstr "Mejor Invitador (por #) (CloudSponge)"
 
 #: admin/admin-stats.php:325
-#, fuzzy
 msgid "Top Inviter (by % accepted)"
-msgstr "superior &amp; inferior"
+msgstr "Mejor Invitador (por % aceptado)"
 
 #: admin/admin-stats.php:350
 msgid "Top Inviter (by % accepted) (CloudSponge)"
-msgstr ""
+msgstr "Invitador superior (por % aceptado) (CloudSponge)"
 
 #: admin/admin-stats.php:313
 msgid "Total Accepted"
-msgstr ""
+msgstr "Total aceptado"
 
 #: admin/admin-stats.php:334
 msgid "Total Accepted (CloudSponge)"
-msgstr ""
+msgstr "Total aceptado (CloudSponge)"
 
 #: admin/admin-stats.php:309
 msgid "Total Sent"
-msgstr ""
+msgstr "Total enviado"
 
 #: admin/admin-stats.php:330
 msgid "Total Sent (CloudSponge)"
-msgstr ""
+msgstr "Total enviado (CloudSponge)"
 
 #: admin/admin-panel.php:114
 msgid "URL to the profile of the inviter"
@@ -918,7 +935,7 @@ msgstr "Ver invitación"
 
 #: lib/bbg-cpt-pag.php:190
 msgid "Viewing %1$d - %2$d of a total of %3$d"
-msgstr ""
+msgstr "Viendo %1$d - %2$d de un total de %3$d"
 
 #: group-invites/group-invites.php:296
 msgid ""
@@ -928,6 +945,8 @@ msgstr "¿Quieres invitar a alguien al grupo que aún no es miembro del sitio?"
 #: by-email/by-email.php:1426 by-email/by-email.php:1466
 msgid "We couldn't find any invitations associated with this email address."
 msgstr ""
+"No pudimos encontrar ninguna invitación asociada con esta dirección de "
+"correo electrónico."
 
 #: by-email/by-email.php:194
 msgid ""
@@ -937,13 +956,19 @@ msgid_plural ""
 "Welcome! You&#8217;ve been invited to join the site by the following users: "
 "%s. Please fill out the information below to create your account."
 msgstr[0] ""
+"¡Bienvenido! Has sido invitado a unirte al sitio por el siguiente usuario: "
+"%s. Complete la información a continuación para crear su cuenta."
 msgstr[1] ""
+"¡Bienvenido! Has sido invitado a unirte al sitio por los siguientes "
+"usuarios: %s. Complete la información a continuación para crear su cuenta."
 
 #: by-email/by-email.php:196
 msgid ""
 "Welcome! You&#8217;ve been invited to join the site. Please fill out the "
 "information below to create your account."
 msgstr ""
+"¡Bienvenido! Has sido invitado a unirte al sitio. Complete la información a "
+"continuación para crear su cuenta."
 
 #: by-email/by-email.php:187
 msgid ""
@@ -972,6 +997,8 @@ msgid ""
 "You are only allowed to invite %s more people. Please remove some addresses "
 "and try again"
 msgstr ""
+"Solo puedes invitar a %s personas más. Elimina algunas direcciones y vuelve "
+"a intentarlo"
 
 #: by-email/by-email.php:947
 msgid ""
@@ -991,7 +1018,7 @@ msgstr ""
 
 #: by-email/by-email.php:657
 msgid "You can invite a maximum of %s people at a time."
-msgstr ""
+msgstr "Puede invitar a un máximo de %s personas a la vez."
 
 #: by-email/by-email.php:522
 msgid ""
@@ -1020,7 +1047,7 @@ msgstr "Has enviado invitaciones a estas personas."
 
 #: by-email/by-email.php:554
 msgid "You have sent the maximum allowed number of invitations."
-msgstr ""
+msgstr "Has enviado el número máximo de invitaciones permitido."
 
 #: by-email/by-email.php:89
 msgid ""
@@ -1043,9 +1070,8 @@ msgid "email address"
 msgstr "dirección de email"
 
 #. Author URI of the plugin/theme
-#, fuzzy
 msgid "http://boone.gorg.es"
-msgstr "http://www.wpshopmart.com"
+msgstr "http://boone.gorg.es"
 
 #. Author URI of the plugin/theme
 msgid "http://boonebgorges.com"
@@ -1058,7 +1084,7 @@ msgstr "http://teleogistic.net/code/buddypress/invite-anyone/"
 #: admin/admin-stats.php:188 admin/admin-stats.php:196
 #: admin/admin-stats.php:204
 msgid "n/a"
-msgstr "No disponible"
+msgstr "no disponible"
 
 #: admin/admin-panel.php:112
 msgid "name of your website"

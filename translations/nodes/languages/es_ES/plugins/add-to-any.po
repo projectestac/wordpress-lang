@@ -12,7 +12,7 @@ msgstr ""
 "X-Poedit-KeywordsList: __;_e\n"
 "X-Poedit-Basepath: ..\n"
 "Language: es_ES\n"
-"X-Generator: Poedit 2.0.4\n"
+"X-Generator: Poedit 2.0.6\n"
 "X-Poedit-SearchPath-0: .\n"
 
 #: addtoany.widgets.php:223
@@ -28,6 +28,8 @@ msgid ""
 "<a href=\"http://wordpress.org/extend/plugins/add-to-any/\">Give it a good "
 "rating</a> on WordPress.org."
 msgstr ""
+"<a href=\"http://wordpress.org/extend/plugins/add-to-any/\">Dale una buena "
+"calificación</a> en WordPress.org."
 
 #: add-to-any.php:946
 msgid ""
@@ -35,6 +37,9 @@ msgid ""
 "%20Bookmark%20Plugin%20by%20AddToAny.com&amp;linkurl=http%3A%2F%2Fwordpress."
 "org%2Fextend%2Fplugins%2Fadd-to-any%2F\">Share it</a> with your friends."
 msgstr ""
+"<a href=\"http://www.addtoany.com/share_save?linkname=WordPress%20Share%20%2F"
+"%20Bookmark%20Plugin%20by%20AddToAny.com&amp;linkurl=http%3A%2F%2Fwordpress."
+"org%2Fextend%2Fplugins%2Fadd-to-any%2F\">Compártelo</a> con tus amigos."
 
 #: addtoany.admin.php:886
 msgid ""
@@ -166,7 +171,7 @@ msgid ""
 "menu."
 msgstr ""
 "Abajo puede inicializar las variables JavaScript especiales para aplicar a "
-"cada menú Compartir/Guardar"
+"cada menú Compartir/Guardar."
 
 #: add-to-any.php:326
 msgid "Bookmark"
@@ -214,9 +219,9 @@ msgid "Display at the %s of pages"
 msgstr "Mostrar en el %s de las páginas"
 
 #: add-to-any.php:839
-#, fuzzy, php-format
+#, php-format
 msgid "Display at the %s of post excerpts"
-msgstr "¿Mostrar la fecha de la entrada?"
+msgstr "Muestra al %s del texto resumen"
 
 #: addtoany.admin.php:590
 msgid "Display at the %s of posts"
@@ -357,6 +362,11 @@ msgid ""
 "to set far future cache/expires headers for image files in your "
 "<code>uploads/addtoany</code> directory."
 msgstr ""
+"Considere solo para sitios con visitantes frecuentes. Como muchos visitantes "
+"ya deben tener cacheado AddToAny en su explorador, servir AddToAny desde tu "
+"sitio será más lento para estos visitantes. Asegúrese de establecer los "
+"encabezados de caché / caducidad futuros para los archivos de imagen en su "
+"directorio <code> uploads / addtoany </ code>."
 
 #: add-to-any.php:887
 msgid "Only show the menu when the user clicks the Share/Save button"
@@ -382,7 +392,8 @@ msgstr "Abrir el personalizador de estilo de AddToAny en una nueva ventana"
 
 #: add-to-any.php:901
 msgid "Paste the code from AddToAny's Menu Styler in the box below!"
-msgstr "Pegue el código del  personalizador de estilo en el siguiente recuadro"
+msgstr ""
+"¡Pegue el código del personalizador de estilo en el siguiente recuadro!"
 
 #: add-to-any.php:827
 msgid "Placement"
@@ -429,6 +440,8 @@ msgid ""
 "Search the <a href=\"http://wordpress.org/tags/add-to-any\">support forums</"
 "a>."
 msgstr ""
+"Busca en los <a href=\"http://wordpress.org/tags/add-to-any\">foros de "
+"soporte</a>."
 
 #: addtoany.admin.php:891
 msgid ""
@@ -457,6 +470,8 @@ msgid ""
 "See the <a href=\"http://wordpress.org/extend/plugins/add-to-any/faq/"
 "\">FAQs</a>."
 msgstr ""
+"Mira los <a href=\"http://wordpress.org/extend/plugins/add-to-any/faq/"
+"\">FAQs</a>."
 
 #: addtoany.admin.php:890
 msgid ""
@@ -470,7 +485,7 @@ msgstr "Enviar de cualquier dirección de e-mail o programa de e-mail"
 
 #: add-to-any.php:565
 msgid "Send from any email address or email program"
-msgstr "Enviar desde cualquier dirección o programa de correo electrónico "
+msgstr "Enviar desde cualquier dirección o programa de correo electrónico"
 
 #: add-to-any.php:727 add-to-any.php:1132 add-to-any.php:1163
 msgid "Settings"
@@ -564,9 +579,8 @@ msgstr ""
 "focus();return false\">above</a>)."
 
 #: add-to-any.php:736
-#, fuzzy
 msgid "Standalone Services"
-msgstr "Servicios de actualización"
+msgstr "Servicios autónomos"
 
 #: addtoany.admin.php:442
 msgid "Standard"
@@ -613,9 +627,8 @@ msgid "Universal Button"
 msgstr "Botón universal"
 
 #: add-to-any.php:922
-#, fuzzy
 msgid "Use CSS stylesheet"
-msgstr "Clases CSS del widget:"
+msgstr "Utiliza hoja de estilos CSS"
 
 #: addtoany.admin.php:696
 msgid "Use custom icons. URL:"
@@ -650,10 +663,14 @@ msgid ""
 "code> just before the <code>&lt;/body&gt;</code> line of your theme's "
 "<code>footer.php</code> file."
 msgstr ""
+"Su tema necesita ser arreglado. Para arreglar su tema, use el <a href="
+"\"theme-editor.php\">Editor de temas</a> para insertar <code>&lt;?php "
+"wp_footer(); ?&gt;</code> justo antes de la linea <code>&lt;/body&gt;</code> "
+"en el fichero <code>footer.php</code> de su tema."
 
 #: addtoany.admin.php:149
 msgid "bottom"
-msgstr "Inferior"
+msgstr "inferior"
 
 #. Plugin URI of the plugin/theme
 #. Author URI of the plugin/theme
@@ -662,7 +679,7 @@ msgstr "https://www.addtoany.com/"
 
 #: addtoany.admin.php:153
 msgid "top"
-msgstr "Superior"
+msgstr "superior"
 
 #: addtoany.admin.php:157
 msgid "top &amp; bottom"

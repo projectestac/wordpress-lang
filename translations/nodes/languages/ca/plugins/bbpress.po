@@ -2,12 +2,12 @@
 # This file is distributed under the same license as the Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2015-11-27 14:56+0100\n"
+"PO-Revision-Date: 2018-07-17 23:11+0200\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Poedit 1.7.5\n"
+"X-Generator: Poedit 2.0.7\n"
 "Project-Id-Version: Stable (latest release)\n"
 "POT-Creation-Date: \n"
 "Last-Translator: Mònica Grau <mgrau226@xtec.cat>\n"
@@ -54,7 +54,7 @@ msgid ""
 "author. The higher the throttle time, the longer a user will need to wait "
 "between posting to the forum."
 msgstr ""
-"\"Temps de regulació\" és la quantitat de temps necessària entre entrades "
+"\"Temps de regulació\" és la quantitat de temps necessària entre articles "
 "d'un autor en particular. Com més alt sigui el temps de regulació, més "
 "necessitarà un usuari esperar entre entrada i entrada al fòrum."
 
@@ -125,7 +125,7 @@ msgstr ""
 "\n"
 "%2$s\n"
 "\n"
-"Enllaç a l'entrada: %3$s\n"
+"Enllaç a l'article: %3$s\n"
 "\n"
 "-----------\n"
 "\n"
@@ -1054,7 +1054,7 @@ msgid ""
 "mode (last in the row). Once there, you can make buttons visible by hovering "
 "over the top area. Exit Fullscreen back to the regular forum editor."
 msgstr ""
-"<strong>Editor del fòrum</strong> - Introduïu el tex de l'entrada. Hi ha dos "
+"<strong>Editor del fòrum</strong> - Introduïu el tex de l'article. Hi ha dos "
 "modes d'edició: Visual i Text. Trieu el mode fent clic a la pestanya "
 "adequada. El mode visual us proporciona un editor WYSIWYG. Feu clic a la "
 "darrera icona de la fila per mostrar una segona fila de controls. El mode "
@@ -1447,18 +1447,18 @@ msgstr "Integració de l'Akismet"
 
 #: includes/extend/akismet.php:463
 msgid "Akismet caught this post as spam"
-msgstr "L'Akismet ha capturat aquesta entrada com a brossa"
+msgstr "L'Akismet ha capturat aquest article com a brossa"
 
 #: includes/extend/akismet.php:475
 msgid "Akismet cleared this post as not spam"
-msgstr "L'Akismet ha considerat aquesta entrada com a no brossa"
+msgstr "L'Akismet ha considerat aquest article com a no brossa"
 
 #: includes/extend/akismet.php:489
 msgid ""
 "Akismet was unable to check this post (response: %s), will automatically "
 "retry again later."
 msgstr ""
-"L'Akismet no ha pogut comprovar aquesta entrada (resposta: %s), ho intentarà "
+"L'Akismet no ha pogut comprovar aquest article (resposta: %s), ho intentarà "
 "de nou més tard automàticament."
 
 #: includes/admin/tools.php:1218 includes/forums/template.php:50
@@ -1467,7 +1467,7 @@ msgstr "Tots els fòrums"
 
 #: includes/replies/functions.php:1992
 msgid "All Posts"
-msgstr "Totes les entrades"
+msgstr "Tots els articles"
 
 #: includes/admin/tools.php:1220 includes/replies/functions.php:1994
 #: includes/replies/template.php:50
@@ -1501,7 +1501,7 @@ msgstr ""
 "Totes les respostes d'ambdós temes es combinaran cronològicament. L'odre de "
 "les respostes combinades es base en l'hora i la data en què es publicaren. "
 "Si el tema de destinació es va crear amb posterioritat a aquest, la data de "
-"l'entrada s'actualitzarà a la més propera a aquesta."
+"l'article s'actualitzarà a la més propera a aquesta."
 
 #: includes/admin/settings.php:1235
 msgid "Allow Akismet to actively prevent forum spam."
@@ -2058,11 +2058,11 @@ msgstr "S'està suprimint la taula de conversió&hellip; %s"
 
 #: includes/admin/tools.php:1307
 msgid "Deleting Post Meta&hellip; %s"
-msgstr "S'estan suprimint les metadades de les entrades&hellip; %s"
+msgstr "S'estan suprimint les metadades dels articless&hellip; %s"
 
 #: includes/admin/tools.php:1294
 msgid "Deleting Posts&hellip; %s"
-msgstr "S'estan suprimint les entrades&hellip; %s"
+msgstr "S'estan suprimint els articles&hellip; %s"
 
 #: includes/admin/tools.php:1370
 msgid "Deleting Roles and Capabilities&hellip; %s"
@@ -3047,7 +3047,7 @@ msgstr "Cap contrasenya per netejar"
 
 #: includes/extend/akismet.php:793
 msgid "No recorded history. Akismet has not checked this post."
-msgstr "No hi ha historial. L'Akismet no ha revisat aquesta entrada."
+msgstr "No hi ha historial. L'Akismet no ha revisat aquest article."
 
 #: includes/replies/template.php:59
 msgid "No replies found"
@@ -3331,11 +3331,11 @@ msgstr "Possible %1$s conflicte: %2$s"
 
 #: includes/admin/settings.php:174
 msgid "Post Formatting"
-msgstr "Formatació de l'entrada"
+msgstr "Formatació de l'article"
 
 #: includes/extend/akismet.php:467 includes/extend/akismet.php:482
 msgid "Post status was changed to %s"
-msgstr "S'ha canviat l'estat de l'entrada a %s"
+msgstr "S'ha canviat l'estat de larticle a %s"
 
 #: includes/admin/settings.php:1688
 #: templates/default/bbpress/loop-forums.php:21
@@ -3343,7 +3343,7 @@ msgstr "S'ha canviat l'estat de l'entrada a %s"
 #: templates/default/bbpress/loop-replies.php:66
 #: templates/default/bbpress/loop-topics.php:21
 msgid "Posts"
-msgstr "Entrades"
+msgstr "Articles"
 
 #: includes/admin/settings.php:893
 msgid "Prefix all forum content with the Forum Root slug (Recommended)"
@@ -3429,11 +3429,11 @@ msgstr "Recalcula els fòrums privats i ocults"
 
 #: includes/admin/tools.php:162
 msgid "Recalculate the parent forum for each post"
-msgstr "Recalcula el fòrum pare de cada entrada"
+msgstr "Recalcula el fòrum pare de cada article"
 
 #: includes/admin/tools.php:161
 msgid "Recalculate the parent topic for each post"
-msgstr "Recalcula el tema pare de cada entrada"
+msgstr "Recalcula el tema pare de cada article"
 
 #: includes/admin/tools.php:166
 msgid "Recalculate the position of each reply"
@@ -3453,11 +3453,11 @@ msgstr "S'està recalculant l'ordre del menú de resposta &hellip; %s"
 
 #: includes/admin/tools.php:1046
 msgid "Recalculating the forum for each post &hellip; %s"
-msgstr "S'està recalculant el fòrum per a cada entrada &hellip; %s"
+msgstr "S'està recalculant el fòrum per a cada article &hellip; %s"
 
 #: includes/admin/tools.php:1100
 msgid "Recalculating the topic for each post &hellip; %s"
-msgstr "S'està recalculant el tema per a cada entrada &hellip; %s"
+msgstr "S'està recalculant el tema per a cada article &hellip; %s"
 
 #: includes/common/widgets.php:1252
 msgid "Recent Replies"
@@ -3841,7 +3841,7 @@ msgstr "Paràmetres"
 
 #: includes/common/widgets.php:889 includes/common/widgets.php:1236
 msgid "Show post date:"
-msgstr "Mostra la data de les entrades:"
+msgstr "Mostra la data dels articles:"
 
 #: includes/common/widgets.php:1237
 msgid "Show reply author:"
@@ -4332,7 +4332,7 @@ msgid ""
 "set the number of posts that should show on blog pages and in feeds."
 msgstr ""
 "Això es pot comparar a la pàgina \"Paràmetres de lectura\" del WordPress, on "
-"podeu configurar un nombre d'entrades que es mostraran a les pàgines del "
+"podeu configurar un nombre d'articles que es mostraran a les pàgines del "
 "blog i en els fils de subscripció."
 
 #: includes/admin/tools.php:1234
@@ -4381,7 +4381,7 @@ msgid ""
 "This screen provides access to all of your replies. You can customize the "
 "display of this screen to suit your workflow."
 msgstr ""
-"Aquesta pantalla proporciona accés a totes les entrades. Podeu personalitzar "
+"Aquesta pantalla proporciona accés a totes els articles. Podeu personalitzar "
 "la visualització d'aquesta pantalla per adaptar-la al vostre flux de treball."
 
 #: includes/topics/template.php:3316
@@ -4448,7 +4448,7 @@ msgstr "Aquest usuari no està subscrit a cap tema actualment."
 
 #: includes/admin/settings.php:99
 msgid "Throttle posting every"
-msgstr "Posar en fil les entrades cada"
+msgstr "Posar en fil els articles cada"
 
 #: includes/admin/replies.php:569
 msgid "Title"
@@ -4464,7 +4464,7 @@ msgstr "Títol i editor de respostes"
 
 #: includes/admin/topics.php:204
 msgid "Title and Topic Editor"
-msgstr "Títol i editor de l'entrada"
+msgstr "Títol i editor de l'article"
 
 #: includes/common/widgets.php:185 includes/common/widgets.php:337
 #: includes/common/widgets.php:465 includes/common/widgets.php:634
@@ -4890,11 +4890,12 @@ msgstr "Vista base"
 msgid "View: %s"
 msgstr "Mostra: %s"
 
+# modificat xtec
 #: includes/replies/template.php:2362
 msgid "Viewing %1$s post"
 msgid_plural "Viewing %1$s posts"
-msgstr[0] "S'està mostrant l'entrada %1$s"
-msgstr[1] "S'estan mostrant les entrades %1$s"
+msgstr[0] "S'està mostrant l'article %1$s"
+msgstr[1] "S'estan mostrant els articles %1$s"
 
 #: includes/replies/template.php:2350
 msgid "Viewing %1$s reply"
@@ -4920,12 +4921,13 @@ msgid_plural "Viewing %1$s topics"
 msgstr[0] "S'està mostrant el tema %1$s"
 msgstr[1] "S'estan mostrant els temes %1$s"
 
+# modificat xtec
 #: includes/replies/template.php:2366
 msgid "Viewing %2$s post (of %4$s total)"
 msgid_plural "Viewing %1$s posts - %2$s through %3$s (of %4$s total)"
-msgstr[0] "S'està mostrant %2$s entrada (d'un total de %4$s)"
+msgstr[0] "S'està mostrant %2$s article (d'un total de %4$s)"
 msgstr[1] ""
-"S'està mostrant %1$s entrades - de la %2$s a la %3$s (d'un total de %4$s)"
+"S'està mostrant %1$s articles - de la %2$s a la %3$s (d'un total de %4$s)"
 
 #: includes/replies/template.php:2354
 msgid "Viewing %2$s replies (of %4$s total)"
@@ -5126,9 +5128,9 @@ msgid ""
 "post editing\" will prevent the author from editing some amount of time "
 "after saving a post."
 msgstr ""
-"Podeu triar si blocar una entrada durant un cert nombre de minuts. \"Blocat "
-"de l'edició d'entrades\" evitarà que l'autor editi durant una quantitat de "
-"temps després de desar l'entrada."
+"Podeu triar si blocar un article durant un cert nombre de minuts. \"Blocat "
+"de l'edició d'articles\" evitarà que l'autor editi durant una quantitat de "
+"temps després de desar l'article."
 
 #: includes/admin/forums.php:131 includes/admin/replies.php:142
 #: includes/admin/topics.php:142
@@ -5489,9 +5491,7 @@ msgstr "hores"
 msgid "http://bbpress.org"
 msgstr "http://bbpress.org"
 
-#. #-#-#-#-#  bbpress-code.pot (bbPress 2.5.13)  #-#-#-#-#
 #. Plugin URI of the plugin/theme
-#. #-#-#-#-#  bbpress-code.pot (bbPress 2.5.13)  #-#-#-#-#
 #. Author URI of the plugin/theme
 msgid "https://bbpress.org"
 msgstr "http://bbpress.org"
