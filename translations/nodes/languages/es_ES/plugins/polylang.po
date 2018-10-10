@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: polylang\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: \n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/polylang\n"
+"POT-Creation-Date: 2018-10-10 07:17:46+00:00\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Joan Sala Soler <jsala236@xtec.cat>\n"
 "Language-Team: \n"
@@ -32,7 +32,7 @@ msgstr "&mdash; Sin cambios &mdash;"
 msgid "(no parent)"
 msgstr "(sin padre)"
 
-#: admin/settings.php:62
+#: settings/settings.php:111
 msgid "About Polylang"
 msgstr "Acerca de Polylang"
 
@@ -65,17 +65,17 @@ msgstr ""
 "traducir."
 
 # @ polylang
-#: admin/view-tab-settings.php:189
+#: settings/settings-cpt.php:79
 msgid "Activate languages and translations for custom post types."
 msgstr "Activar idiomas y traducciones para tipos de entrada personalizados."
 
 # @ polylang
-#: admin/view-tab-settings.php:209
+#: settings/settings-cpt.php:103
 msgid "Activate languages and translations for custom taxonomies."
 msgstr "Activar idiomas y traducciones para taxonomías personalizadas."
 
 # @ polylang
-#: admin/view-tab-settings.php:168
+#: settings/settings-media.php:21
 msgid "Activate languages and translations for media"
 msgstr "Activar idiomas y traducciones para los medios"
 
@@ -96,34 +96,24 @@ msgid "Activated"
 msgstr "Activado"
 
 #. translators: accessibility text, %s is a native language name
-#: admin/admin-links.php:80 admin/admin-links.php:160
+#: admin/admin-links.php:72 admin/admin-links.php:152
 msgid "Add a translation in %s"
 msgstr "Agregar una traducción en %s"
 
-#: admin/view-translations-media.php:30 admin/view-translations-post.php:21
-#: admin/view-translations-term.php:30
-msgid "Add new"
-msgstr "Añadir nuevo"
-
-#: admin/view-tab-lang.php:21 admin/view-tab-lang.php:96
+#: settings/view-tab-lang.php:31 settings/view-tab-lang.php:169
 msgid "Add new language"
 msgstr "Añadir nuevo idioma"
-
-#: admin/admin-filters-columns.php:140 admin/admin-filters-columns.php:230
-msgid "Add new translation"
-msgstr "Añadir nueva traducción"
 
 #: admin/admin-nav-menu.php:81
 msgid "Add to Menu"
 msgstr "Añadir al menu"
 
 # @ polylang
-#. translators: plugin header field 'Description'
-#: polylang.php:0
+#. Description of the plugin/theme
 msgid "Adds multilingual capability to WordPress"
 msgstr "Añade capacidad multilingüística a WordPress"
 
-#: admin/admin-filters.php:123
+#: admin/admin-filters.php:145
 msgid "Admin language"
 msgstr "Idioma del administrador"
 
@@ -139,7 +129,7 @@ msgstr "Albania"
 msgid "Algeria"
 msgstr "Argelia"
 
-#: admin/admin-filters.php:55 include/model.php:563
+#: admin/admin-filters.php:68 include/translated-post.php:105
 msgid "All languages"
 msgstr "Todos los idiomas"
 
@@ -348,11 +338,11 @@ msgstr "Elegir %s como idioma predeterminado"
 msgid "Choose a flag for the language."
 msgstr "Elegir una bandera para el idioma."
 
-#: admin/view-tab-lang.php:37
+#: include/widget-languages.php:48 settings/view-tab-lang.php:52
 msgid "Choose a language"
 msgstr "Elegir un idioma"
 
-#: admin/view-tab-lang.php:87
+#: settings/view-tab-lang.php:118
 msgid "Choose the text direction for the language"
 msgstr "Elige la dirección de escritura del idioma"
 
@@ -360,7 +350,7 @@ msgstr "Elige la dirección de escritura del idioma"
 msgid "Christmas Island"
 msgstr "Islas Christmas"
 
-#: admin/view-tab-strings.php:11
+#: settings/view-tab-strings.php:18
 msgid "Clean strings translation database"
 msgstr "Limpiar la base de datos de traducciones de cadenas"
 
@@ -376,7 +366,7 @@ msgstr "Cerrar"
 msgid "Cocos"
 msgstr "Cocos"
 
-#: admin/table-languages.php:76
+#: settings/table-languages.php:146
 msgid "Code"
 msgstr "Código"
 
@@ -385,7 +375,7 @@ msgid "Colombia"
 msgstr "Colombia"
 
 # @ polylang
-#: admin/settings.php:321
+#: modules/sync/settings-sync.php:91
 msgid "Comment status"
 msgstr "Estado de los comentarios"
 
@@ -422,12 +412,12 @@ msgid "Cuba"
 msgstr "Cuba"
 
 # @ polylang
-#: admin/settings.php:320
+#: modules/sync/settings-sync.php:90
 msgid "Custom fields"
 msgstr "Campos personalizados"
 
 # @ polylang
-#: admin/view-tab-settings.php:176
+#: settings/settings-cpt.php:61
 msgid "Custom post types"
 msgstr "Tipos de entrada personalizados"
 
@@ -436,7 +426,7 @@ msgid "Custom post types and Taxonomies"
 msgstr "Tipos de entradas personalizados y taxonomías"
 
 # @ polylang
-#: admin/view-tab-settings.php:196
+#: settings/settings-cpt.php:85
 msgid "Custom taxonomies"
 msgstr "Taxonomías personalizadas"
 
@@ -472,11 +462,12 @@ msgstr "Decidir cómo será el aspecto de tus URLs."
 msgid "Decide whether to remove all data when deleting Polylang."
 msgstr "Decide si quieres eliminar toda la información al borrar Polylang."
 
-#: admin/view-tab-settings.php:14
+#. translators: accessibility text
+#: settings/table-languages.php:127 settings/table-languages.php:147
 msgid "Default language"
 msgstr "Idioma predeterminado"
 
-#: admin/table-languages.php:60 admin/table-string.php:168
+#: settings/table-languages.php:209 settings/table-string.php:219
 msgid "Delete"
 msgstr "Eliminar"
 
@@ -492,27 +483,27 @@ msgstr "República Democrática del Congo"
 msgid "Denmark"
 msgstr "Dinamarca"
 
-#: settings/table-settings.php:147
+#: settings/table-settings.php:165
 msgid "Description"
 msgstr "Descripción"
 
-#: admin/view-tab-settings.php:149
+#: settings/settings-browser.php:20
 msgid "Detect browser language"
 msgstr "Detectar el idioma del navegador"
 
-#: include/widget-languages.php:16
+#: include/widget-languages.php:20
 msgid "Displays a language switcher"
 msgstr "Muestra un conmutador de idioma"
 
-#: include/switcher.php:30
+#: include/switcher.php:22
 msgid "Displays as dropdown"
 msgstr "Mostrar como menú desplegable"
 
-#: include/switcher.php:23
+#: include/switcher.php:24
 msgid "Displays flags"
 msgstr "Muestra las banderas"
 
-#: include/switcher.php:22
+#: include/switcher.php:23
 msgid "Displays language names"
 msgstr "Muestra los nombres de los idiomas"
 
@@ -562,18 +553,17 @@ msgstr "República Dominicana"
 msgid "Ecuador"
 msgstr "Ecuador"
 
-#: admin/admin-filters-post.php:433 admin/admin-filters-term.php:642
-#: admin/table-languages.php:54 admin/view-translations-media.php:21
+#: settings/table-languages.php:202
 msgid "Edit"
 msgstr "Editar"
 
-#: admin/view-tab-lang.php:21
+#: settings/view-tab-lang.php:31
 msgid "Edit language"
 msgstr "Editar idioma"
 
 #. translators: accessibility text, %s is a native language name
 #: admin/admin-filters-columns.php:139 admin/admin-filters-columns.php:250
-#: admin/admin-links.php:99 admin/admin-links.php:181
+#: admin/admin-links.php:91 admin/admin-links.php:173
 msgid "Edit the translation in %s"
 msgstr "Editar esta traducción en %s"
 
@@ -598,7 +588,7 @@ msgstr "El  Emiratos"
 msgid "England"
 msgstr "Inglaterra"
 
-#: admin/admin-model.php:244
+#: admin/admin-model.php:270
 msgid "Enter a valid WordPress locale"
 msgstr "Introduce una zona idiomática válida de WordPress"
 
@@ -627,8 +617,8 @@ msgid "Ethiopia"
 msgstr "Etiopa"
 
 # @ polylang
-#: admin/view-tab-settings.php:54 admin/view-tab-settings.php:63
-#: admin/view-tab-settings.php:110 admin/view-tab-settings.php:119
+#: settings/settings-url.php:54 settings/settings-url.php:65
+#: settings/settings-url.php:128 settings/settings-url.php:139
 msgid "Example:"
 msgstr "Ejemplo:"
 
@@ -637,12 +627,6 @@ msgstr "Ejemplo:"
 #: settings/settings-url.php:166
 msgid "Example: %1$s instead of %2$s"
 msgstr "Ejemplo:%1$s en vez de %2$s"
-
-# @ polylang
-#: admin/view-tab-settings.php:139
-#, php-format
-msgid "Example: %s instead of %s"
-msgstr "Por ejemplo: %s en vez de %s"
 
 #: include/widget-calendar.php:224
 msgctxt "daily archives date format"
@@ -658,7 +642,7 @@ msgid "Faroe Islands"
 msgstr "Islas Feroe"
 
 # @ polylang
-#: admin/settings.php:329
+#: modules/sync/settings-sync.php:99
 msgid "Featured image"
 msgstr "Imagen destacada"
 
@@ -675,27 +659,19 @@ msgstr "Filtrar"
 msgid "Filter by group"
 msgstr "Filtrar por grupo"
 
-#: admin/admin.php:267
+#: admin/admin-base.php:345 admin/admin-base.php:353
 msgid "Filters content by language"
 msgstr "Filtrar el contenido por idioma"
-
-#: admin/view-about.php:27
-msgid ""
-"Finally if you like this plugin or if it helps your business, donations to "
-"the author are greatly appreciated."
-msgstr ""
-"Finalmente, si te gusta este plugin y te ayuda a ganar dinero, el autor "
-"agradece enormemente un donativo."
 
 #: settings/flags.php:85
 msgid "Finland"
 msgstr "Finlandia"
 
-#: admin/table-languages.php:78
+#: settings/table-languages.php:149 settings/view-tab-lang.php:122
 msgid "Flag"
 msgstr "Bandera"
 
-#: include/switcher.php:24
+#: include/switcher.php:25
 msgid "Forces link to front page"
 msgstr "Fuerza un enlace a la página principal"
 
@@ -719,7 +695,7 @@ msgstr "P&aacute;gina principal"
 msgid "Frédéric Demarle"
 msgstr "Frédéric Demarle"
 
-#: admin/table-languages.php:74 admin/view-tab-lang.php:55
+#: settings/table-languages.php:144 settings/view-tab-lang.php:72
 msgid "Full name"
 msgstr "Nombre completo"
 
@@ -764,7 +740,7 @@ msgid "Grenada"
 msgstr "Granada"
 
 # @ polylang
-#: admin/table-string.php:109
+#: settings/table-string.php:118
 msgid "Group"
 msgstr "Grupo"
 
@@ -806,7 +782,7 @@ msgstr ""
 msgid "Heard Island and McDonald Islands"
 msgstr "Heard Island and McDonald Islands"
 
-#: admin/view-tab-settings.php:93
+#: settings/settings-url.php:104
 msgid "Hide URL language information for default language"
 msgstr "Ocultar el URL del idioma en el idioma predeterminado"
 
@@ -814,7 +790,7 @@ msgstr "Ocultar el URL del idioma en el idioma predeterminado"
 msgid "Hides languages with no translation"
 msgstr "Oculta los idiomas sin traducción"
 
-#: include/switcher.php:25
+#: include/switcher.php:26
 msgid "Hides the current language"
 msgstr "Oculta el idioma actual"
 
@@ -834,11 +810,6 @@ msgstr "Hungaria"
 msgid "Iceland"
 msgstr "Iceland"
 
-#: admin/view-about.php:22
-#, php-format
-msgid "If you wonder how you can help the project, just %sread this%s."
-msgstr "Si quieres saber cómo puedes ayudar al proyecto, lee %sesto%s."
-
 #: modules/plugins/plugins-compat.php:141
 msgid ""
 "Import <strong>posts, pages, comments, custom fields, categories, and tags</"
@@ -847,7 +818,7 @@ msgstr ""
 "Importa <strong>entradas, páginas, comentarios, campos personalizados, "
 "categorías y etiquetas</strong> desde un archivo de exportación de WordPress."
 
-#: admin/admin-model.php:38
+#: admin/admin-model.php:40
 msgid "Impossible to add the language."
 msgstr "Imposible añadir ese idioma."
 
@@ -902,7 +873,7 @@ msgstr "Jordan"
 msgid "Kazakhstan"
 msgstr "Kazajstn"
 
-#: admin/view-tab-settings.php:116
+#: settings/settings-url.php:135
 msgid "Keep /language/ in pretty permalinks"
 msgstr "Mantener /idioma/ con enlaces permanentes personalizados"
 
@@ -926,22 +897,22 @@ msgstr "Kuwait"
 msgid "Kyrgyzstan"
 msgstr "Kyrgyzstan"
 
-#: admin/admin-filters-columns.php:173 admin/admin-filters-media.php:55
-#: admin/admin-filters-post.php:141 admin/admin-filters-term.php:75
-#: admin/admin-filters-term.php:122 include/model.php:562
+#: admin/admin-filters-columns.php:187 admin/admin-filters-media.php:54
+#: admin/admin-filters-post.php:156 admin/admin-filters-term.php:90
+#: admin/admin-filters-term.php:149 include/translated-post.php:104
 msgid "Language"
 msgstr "Idioma"
 
-#: include/widget-languages.php:16
+#: include/widget-languages.php:18
 msgid "Language Switcher"
 msgstr "Conmutador de idioma"
 
 # @ polylang
-#: admin/admin-model.php:66
+#: admin/admin-model.php:78
 msgid "Language added."
 msgstr "Idioma añadido."
 
-#: admin/view-tab-lang.php:70
+#: settings/view-tab-lang.php:94
 msgid "Language code"
 msgstr "Código idiomático"
 
@@ -952,23 +923,24 @@ msgstr ""
 "(por ejemplo: es)"
 
 # @ polylang
-#: admin/admin-model.php:146
+#: admin/admin-model.php:160
 msgid "Language deleted."
 msgstr "Idioma eliminado."
 
-#: admin/admin-nav-menu.php:54 admin/admin-nav-menu.php:92
-#: admin/admin-nav-menu.php:95 admin/admin-nav-menu.php:126
-#: admin/admin-nav-menu.php:188 install/upgrade.php:301
+#: admin/admin-nav-menu.php:50 admin/admin-nav-menu.php:71
+#: admin/admin-nav-menu.php:74 admin/admin-nav-menu.php:104
+#: admin/admin-nav-menu.php:169 install/upgrade.php:322
 msgid "Language switcher"
 msgstr "Conmutador de idioma"
 
 # @ polylang
-#: admin/admin-model.php:227
+#: admin/admin-model.php:253
 msgid "Language updated."
 msgstr "Idioma actualizado."
 
-#: admin/admin-filters-post.php:115 admin/admin.php:90 admin/settings.php:70
-#: admin/settings.php:97 include/model.php:561
+#: admin/admin-base.php:68 admin/admin-base.php:90
+#: admin/admin-filters-post.php:129 include/translated-post.php:103
+#: settings/settings.php:124
 msgid "Languages"
 msgstr "Idiomas"
 
@@ -1016,7 +988,7 @@ msgstr "Liechtenstein"
 msgid "Lithuania"
 msgstr "Lithuania"
 
-#: admin/table-languages.php:75 admin/view-tab-lang.php:61
+#: settings/table-languages.php:145 settings/view-tab-lang.php:83
 msgid "Locale"
 msgstr "Región"
 
@@ -1091,7 +1063,7 @@ msgid "Mayotte"
 msgstr "Mayotte"
 
 # @ polylang
-#: admin/view-tab-settings.php:162
+#: settings/settings-media.php:20
 msgid "Media"
 msgstr "Medios"
 
@@ -1103,7 +1075,7 @@ msgstr "Mexico"
 msgid "Micronesia"
 msgstr "Micronesia"
 
-#: settings/table-settings.php:146
+#: settings/table-settings.php:164
 msgid "Module"
 msgstr "Módulo"
 
@@ -1139,7 +1111,7 @@ msgstr "Mozambique"
 msgid "Myanmar"
 msgstr "Myanmar"
 
-#: admin/table-string.php:110
+#: settings/table-string.php:117
 msgid "Name"
 msgstr "Nombre"
 
@@ -1229,20 +1201,20 @@ msgstr ""
 "director de proyecto de traducción certificado se pondrá en contacto contigo "
 "para ofrecerte un presupuesto sin compromiso."
 
-#: admin/table-languages.php:77 admin/view-tab-lang.php:91
+#: settings/table-languages.php:148 settings/view-tab-lang.php:141
 msgid "Order"
 msgstr "Orden"
 
-#: admin/settings.php:328
+#: modules/sync/settings-sync.php:98
 msgid "Page order"
 msgstr "Orden de página"
 
-#: admin/settings.php:326
+#: modules/sync/settings-sync.php:96
 msgid "Page parent"
 msgstr "Página superior"
 
 # @ polylang
-#: admin/settings.php:327
+#: modules/sync/settings-sync.php:97
 msgid "Page template"
 msgstr "Plantilla de página"
 
@@ -1275,7 +1247,7 @@ msgid "Philippines"
 msgstr "Philippines"
 
 # @ polylang
-#: admin/settings.php:322
+#: modules/sync/settings-sync.php:92
 msgid "Ping status"
 msgstr "Estados de los pings"
 
@@ -1293,12 +1265,6 @@ msgstr "Por favor, introduce una URL válida para %s."
 msgid "Please upgrade first to %1$s before ugrading to %2$s."
 msgstr "Por favor, actualiza primero a %1$s antes de actualizar a %2$s."
 
-# @ polylang
-#: install/upgrade.php:78
-#, php-format
-msgid "Please upgrade first to %s before ugrading to %s."
-msgstr "Por favor, actualiza primero a %s antes de actualizar a %s."
-
 #: settings/flags.php:192
 msgid "Poland"
 msgstr "Poland"
@@ -1314,15 +1280,6 @@ msgid ""
 msgstr ""
 "Polylang se ha desactivado porque lo has actualizado desde una versión "
 "demasiado antigua."
-
-#: admin/view-about.php:16
-#, php-format
-msgid ""
-"Polylang is free of charge and is released under the same license as "
-"WordPress, the %sGPL%s."
-msgstr ""
-"Polylang es gratuito y se distribuye bajo la misma licencia que WordPress, "
-"%sGPL%s."
 
 #: lingotek/lingotek.php:114
 msgid "Polylang is now fully integrated with Lingotek!"
@@ -1349,19 +1306,6 @@ msgstr ""
 "usarlo en el día a día, una página de preguntas frecuentes, así como "
 "información para que los programadores puedan adaptar sus plugins y temas."
 
-#: admin/view-about.php:3
-#, php-format
-msgid ""
-"Polylang is provided with an extensive %sdocumentation%s (in English only). "
-"It includes information on how to set up your multilingual site and use it "
-"on a daily basis, a FAQ, as well as a documentation for programmers to adapt "
-"their plugins and themes."
-msgstr ""
-"Polylang se distribuye con una extensa %sdocumentación%s (sólo en inglés). "
-"Se incluye información de cómo crear tu sitio multi-idiomático y cómo usarlo "
-"en el día a día, una página de preguntas frecuentes, así como información "
-"para que los programadores puedan adaptar sus plugins y temas."
-
 #. translators: %1$s is link start tag, %2$s is link end tag.
 #: settings/view-about.php:34
 msgid ""
@@ -1382,16 +1326,16 @@ msgstr ""
 msgid "Portugal"
 msgstr "Portugal"
 
-#: admin/view-tab-lang.php:93
+#: settings/view-tab-lang.php:148
 msgid "Position of the language in the language switcher"
 msgstr "Posición en el conmutador de idioma"
 
 # @ polylang
-#: admin/settings.php:325
+#: modules/sync/settings-sync.php:95
 msgid "Post format"
 msgstr "Formato de entrada"
 
-#: admin/table-languages.php:79
+#: settings/table-languages.php:150
 msgid "Posts"
 msgstr "Entradas"
 
@@ -1403,7 +1347,7 @@ msgstr "Página de Posts"
 msgid "Posts published on %s"
 msgstr "Entradas publicadas en %s"
 
-#: admin/view-tab-settings.php:46
+#: settings/settings-url.php:44
 msgid "Posts, pages, categories and tags urls are not modified."
 msgstr "Las URL de las entradas, páginas y categorías no se modifican."
 
@@ -1412,7 +1356,7 @@ msgid "Professionally Translate My Site"
 msgstr "Traducir profesionalmente mi sitio"
 
 # @ polylang
-#: admin/settings.php:324
+#: modules/sync/settings-sync.php:94
 msgid "Published date"
 msgstr "Fecha de publicación"
 
@@ -1428,12 +1372,7 @@ msgstr "Quatar"
 msgid "Quebec"
 msgstr "Quebec"
 
-# @ polylang
-#: admin/settings.php:52
-msgid "Recommended plugins"
-msgstr "Complementos recomendados"
-
-#: admin/view-tab-settings.php:107
+#: settings/settings-url.php:124
 msgid "Remove /language/ in pretty permalinks"
 msgstr "Eliminar /idioma/ en los enlaces permanentes personalizados"
 
@@ -1518,7 +1457,7 @@ msgstr "Escocia"
 msgid "Search"
 msgstr "Buscar"
 
-#: admin/view-tab-strings.php:8
+#: settings/view-tab-strings.php:15
 msgid "Search translations"
 msgstr "Buscar traducciones"
 
@@ -1539,11 +1478,11 @@ msgstr "Senegal"
 msgid "Serbia"
 msgstr "Serbia"
 
-#: admin/admin-filters-term.php:82 admin/admin-filters-term.php:130
+#: admin/admin-filters-term.php:97 admin/admin-filters-term.php:157
 msgid "Sets the language"
 msgstr "Establece el idioma"
 
-#: admin/admin.php:167 admin/settings.php:102
+#: admin/admin-base.php:75 admin/admin.php:70 settings/settings-module.php:43
 msgid "Settings"
 msgstr "Ajustes"
 
@@ -1559,7 +1498,7 @@ msgstr "Seychelles"
 msgid "Share slugs"
 msgstr "Comparte slugs"
 
-#: admin/admin.php:258
+#: admin/admin-base.php:336
 msgid "Show all languages"
 msgstr "Mostrar todos los idiomas"
 
@@ -1624,19 +1563,15 @@ msgid "Start the process of getting extra services."
 msgstr "Inicia el proceso para obtener servicios adicionales."
 
 # @ polylang
-#: admin/settings.php:323
+#: modules/sync/settings-sync.php:93
 msgid "Sticky posts"
 msgstr "Entradas fijas"
 
-#: admin/table-string.php:111
+#: settings/table-string.php:116
 msgid "String"
 msgstr "Cadena"
 
-#: admin/settings.php:101
-msgid "Strings translation"
-msgstr "Traducción de cadenas"
-
-#: admin/settings.php:78
+#: admin/admin-base.php:72 include/mo.php:18 settings/settings.php:139
 msgid "Strings translations"
 msgstr "Traducciones de cadenas"
 
@@ -1667,7 +1602,7 @@ msgstr "Sweden"
 msgid "Switzerland"
 msgstr "Suiza"
 
-#: admin/view-tab-settings.php:215
+#: modules/sync/settings-sync.php:20
 msgid "Synchronization"
 msgstr "Sincronización"
 
@@ -1696,11 +1631,11 @@ msgid "Tanzania"
 msgstr "Tanzania"
 
 # @ polylang
-#: admin/settings.php:319
+#: modules/sync/settings-sync.php:89
 msgid "Taxonomies"
 msgstr "Taxonomías"
 
-#: admin/view-tab-lang.php:76
+#: settings/view-tab-lang.php:105
 msgid "Text direction"
 msgstr "Dirección de escritura"
 
@@ -1718,7 +1653,7 @@ msgid "The flag does not exist"
 msgstr "La bandera no existe"
 
 # @ polylang
-#: admin/view-tab-settings.php:131
+#: settings/settings-url.php:155
 msgid ""
 "The front page url contains the language code instead of the page name or "
 "page id"
@@ -1726,21 +1661,21 @@ msgstr ""
 "La URL de la página de inicio muestra el código del idioma en vez del nombre "
 "de la página o su ID"
 
-#: admin/admin-model.php:248
+#: admin/admin-model.php:275
 msgid "The language code contains invalid characters"
 msgstr "El código idiomático contiene caracteres no válidos"
 
-#: admin/admin-model.php:252
+#: admin/admin-model.php:281
 msgid "The language code must be unique"
 msgstr "El código idiomático debe ser único"
 
 # @ polylang
-#: admin/view-tab-settings.php:43
+#: settings/settings-url.php:40
 msgid "The language is set from content"
 msgstr "El idioma se establece por el contenido"
 
 # @ polylang
-#: admin/view-tab-settings.php:69
+#: settings/settings-url.php:72
 msgid "The language is set from different domains"
 msgstr "El idioma se establece por diferentes dominios"
 
@@ -1748,23 +1683,23 @@ msgstr "El idioma se establece por diferentes dominios"
 msgid "The language is set from the code in the URL"
 msgstr "El idioma se extrae del código de la URL"
 
-#: admin/view-tab-settings.php:51
+#: settings/settings-url.php:50
 msgid "The language is set from the directory name in pretty permalinks"
 msgstr ""
 "El idioma se establece por el nombre del directorio en los enlaces "
 "permanentes personalizados"
 
-#: admin/view-tab-settings.php:60
+#: settings/settings-url.php:61
 msgid "The language is set from the subdomain name in pretty permalinks"
 msgstr ""
 "El idioma se establece por el nombre del subdominio en los enlaces "
 "permanentes personalizados"
 
-#: admin/admin-model.php:256
+#: admin/admin-model.php:288
 msgid "The language must have a name"
 msgstr "El dioma debe tener un nombre"
 
-#: admin/admin.php:367 admin/settings.php:180
+#: settings/settings.php:176
 msgid ""
 "The language was created, but the WordPress language file was not "
 "downloaded. Please install it manually."
@@ -1776,12 +1711,12 @@ msgstr ""
 msgid "The license key never expires."
 msgstr "La  clave de licencia no caduca."
 
-#: admin/view-tab-lang.php:57
+#: settings/view-tab-lang.php:79
 msgid "The name is how it is displayed on your site (for example: English)."
 msgstr "El nombre es como se muestra en tu sitio (por ejemplo: Español)."
 
 # @ polylang
-#: admin/view-tab-settings.php:226
+#: modules/sync/settings-sync.php:21
 msgid ""
 "The synchronization options allow to maintain exact same values (or "
 "translations in the case of taxonomies and page parent) of meta content "
@@ -1791,19 +1726,11 @@ msgstr ""
 "valores (o traducciones, en caso de taxonomías o páginas superiores) de "
 "metacontenido entre las traducciones de una entrada o página."
 
-#: admin/admin-filters.php:52
+#: admin/admin-filters.php:65
 msgid "The widget is displayed for:"
 msgstr "El widget se muestra para:"
 
-#: admin/view-tab-settings.php:29
-msgid ""
-"There are posts, pages, categories or tags without language set. Do you want "
-"to set them all to default language ?"
-msgstr ""
-"Hay entradas, páginas, categorías o etiquetas sin idioma establecido. "
-"¿Quieres establecerlas al idioma predeterminado?"
-
-#: settings/settings.php:295
+#: settings/settings.php:305
 msgid "There are posts, pages, categories or tags without language."
 msgstr "Hay entradas, páginas, categorías o etiquetas sin idioma."
 
@@ -1847,7 +1774,7 @@ msgstr "Formato de hora"
 msgid "Timor-Leste"
 msgstr "Timor-Leste"
 
-#: include/widget-languages.php:75
+#: include/widget-languages.php:90
 msgid "Title:"
 msgstr "Título:"
 
@@ -1871,7 +1798,7 @@ msgstr "Opción"
 msgid "Translate slugs"
 msgstr "Traducir slugs"
 
-#: include/filters.php:323
+#: include/filters.php:301
 msgid "Translated user descriptions"
 msgstr "Descripciones de usuario traducidas"
 
@@ -1884,14 +1811,14 @@ msgstr "Traducción"
 msgid "Translation Management System"
 msgstr "Sistema de gestión de traducciones"
 
-#: admin/table-string.php:112 admin/view-translations-media.php:5
-#: admin/view-translations-post.php:5 admin/view-translations-term.php:6
-#: admin/view-translations-term.php:11
+#: admin/view-translations-media.php:12 admin/view-translations-post.php:11
+#: admin/view-translations-term.php:13 admin/view-translations-term.php:20
+#: settings/table-string.php:119
 msgid "Translations"
 msgstr "Traducciones"
 
 # @ polylang
-#: admin/settings.php:239
+#: settings/table-string.php:318
 msgid "Translations updated."
 msgstr "Traducciones actualizadas."
 
@@ -1919,7 +1846,7 @@ msgstr "Turks and Caicos Islands"
 msgid "Tuvalu"
 msgstr "Tavalu"
 
-#: admin/view-tab-settings.php:37
+#: settings/settings-url.php:20
 msgid "URL modifications"
 msgstr "Modificaciones de URL"
 
@@ -1959,7 +1886,7 @@ msgstr "Actualizar"
 msgid "Upgrade now."
 msgstr "Actualizar ahora."
 
-#: admin/admin-filters.php:160 admin/admin-filters.php:169
+#: admin/admin-filters.php:188
 msgid "Upgrading language files&#8230;"
 msgstr "Actualizando los archivos de idioma&#8230;"
 
@@ -1968,7 +1895,7 @@ msgid "Uruguay"
 msgstr "Uruguay"
 
 # @ polylang
-#: admin/view-tab-strings.php:12
+#: settings/view-tab-strings.php:20
 msgid ""
 "Use this to remove unused strings from database, for example after a plugin "
 "has been uninstalled."
@@ -1976,12 +1903,12 @@ msgstr ""
 "Usa esto para borrar de la base de datos las cadenas que no se usen. Por "
 "ejemplo, tras desinstalar un plugin."
 
-#: include/filters.php:356
+#: include/filters.php:334
 msgid "User"
 msgstr "Usuario"
 
 #. translators: %s is a language native name
-#: include/filters.php:347
+#: include/filters.php:325
 msgid "User description - %s"
 msgstr "Descripción del usuario - %s"
 
@@ -2010,7 +1937,7 @@ msgid "Vietnam"
 msgstr "Vietnam"
 
 # @ polylang
-#: admin/table-string.php:187
+#: settings/table-string.php:256
 msgid "View all groups"
 msgstr "Ver todos los grupos"
 
@@ -2038,7 +1965,7 @@ msgstr "Shara Occidental"
 msgid "Western Samoa"
 msgstr "Samoa Occidental"
 
-#: admin/view-tab-settings.php:155
+#: settings/settings-browser.php:21
 msgid ""
 "When the front page is visited, set the language according to the browser "
 "preference"
@@ -2054,7 +1981,7 @@ msgstr "Texto del widget"
 msgid "Widget title"
 msgstr "Título del widget"
 
-#: admin/view-tab-lang.php:66
+#: settings/view-tab-lang.php:90
 msgid ""
 "WordPress Locale for the language (for example: en_US). You will need to "
 "install the .mo file for this language."
@@ -2062,7 +1989,7 @@ msgstr ""
 "Región idiomática de WordPress (por ejemplo: es_ES). Deberás instalar el "
 "archivo .mo para este idioma."
 
-#: admin/admin-filters.php:126
+#: admin/admin-filters.php:148
 msgid "WordPress default"
 msgstr "Opción por defecto de WordPress"
 
@@ -2071,7 +1998,7 @@ msgid "Yemen"
 msgstr "Yemen"
 
 # @ polylang
-#: admin/table-languages.php:59
+#: settings/table-languages.php:208
 msgid "You are about to permanently delete this language. Are you sure?"
 msgstr "Estás a punto de eliminar este idioma permanentemente, ¿estás seguro?"
 
@@ -2082,16 +2009,11 @@ msgid ""
 msgstr ""
 "Estás usando WordPress %1$s. Polylang necesita como mínimo WordPress %2$s."
 
-#: install/install.php:24
-#, php-format
-msgid "You are using WordPress %s. Polylang requires at least WordPress %s."
-msgstr "Estás usando WordPress %s. Polylang necesita como mínimo WordPress %s."
-
-#: admin/view-tab-lang.php:51
+#: settings/view-tab-lang.php:68
 msgid "You can choose a language in the list or directly edit it below."
 msgstr "Puedes elegir un idioma de la lista o editarlo directamente abajo."
 
-#: settings/settings.php:297
+#: settings/settings.php:307
 msgid "You can set them all to the default language."
 msgstr "Puedes establecerlas todas al mismo idioma."
 
@@ -2102,15 +2024,6 @@ msgstr "No tienes privilegios para instalar actualizaciones de plugins"
 #: settings/settings-module.php:234
 msgid "You need Polylang Pro to enable this feature."
 msgstr "Necesitas Polylang Pro para habilitar esta funcionalidad."
-
-#: admin/view-about.php:9
-#, php-format
-msgid ""
-"You will also find useful information in the %ssupport forum%s. However "
-"don't forget to make a search before posting a new topic."
-msgstr ""
-"También encontrarás información útil en los %sforos de soporte%s. Pero no "
-"olvides hacer una búsqueda antes de crear un nuevo tema."
 
 #. translators: %1$s is a product name, %2$s is link start tag, %3$s is link
 #. end tag.
@@ -2169,16 +2082,18 @@ msgstr "Zambia"
 msgid "Zimbabwe"
 msgstr "Zimbabue"
 
+#. #-#-#-#-#  polylang.pot (Polylang 2.3.6)  #-#-#-#-#
 #. Plugin URI of the plugin/theme
+#. #-#-#-#-#  polylang.pot (Polylang 2.3.6)  #-#-#-#-#
 #. Author URI of the plugin/theme
 msgid "https://polylang.pro"
 msgstr "https://polylang.pro"
 
-#: admin/view-tab-lang.php:80
+#: settings/view-tab-lang.php:110
 msgid "left to right"
 msgstr "izquierda a derecha"
 
-#: admin/view-tab-lang.php:85
+#: settings/view-tab-lang.php:115
 msgid "right to left"
 msgstr "derecha a izquierda"
 

@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: xtec-mail\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-06-06 16:28+0100\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/xtec-mail\n"
+"POT-Creation-Date: 2018-10-10 07:17:47+00:00\n"
 "PO-Revision-Date: 2015-12-23 16:14+0100\n"
 "Last-Translator: Toni Ginard <toni.ginard@gmail.com>\n"
 "Language-Team: Àgora <agora@xtec.cat>\n"
@@ -19,24 +19,28 @@ msgstr ""
 "X-Generator: Poedit 1.5.4\n"
 "X-Poedit-SearchPath-0: .\n"
 
-#: xtec-mail.php:151
+#: xtec-mail.php:177
 msgid "Absolute path to log file"
 msgstr "Ruta absoluta al fitxer de registre (inclou el nom del fitxer)"
 
-#: xtec-mail.php:142
+#: xtec-mail.php:168
 msgid "Enable the debug mode for log of the mail system"
 msgstr ""
 "Activa el mode de depuració (requereix que el registre estigui activat)"
 
-#: xtec-mail.php:133
+#: xtec-mail.php:159
 msgid "Enable the log for the mail system"
 msgstr "Activa el registre de correu"
 
-#: xtec-mail.php:114
+#: xtec-mail.php:143
 msgid "Environment"
 msgstr "Entorn"
 
-#: xtec-mail.php:147
+#. Author of the plugin/theme
+msgid "Francesc Bassas i Bullich"
+msgstr "Francesc Bassas i Bullich"
+
+#: xtec-mail.php:173
 msgid "Log Path"
 msgstr "Ubicació del registre"
 
@@ -44,42 +48,51 @@ msgstr "Ubicació del registre"
 msgid "Mail"
 msgstr "Correu"
 
-#: xtec-mail.php:138
+#: xtec-mail.php:164
 msgid "Mail Debug"
 msgstr "Depuració del correu"
 
-#: xtec-mail.php:129
+#: xtec-mail.php:155
 msgid "Mail Log"
 msgstr "Registre de correu"
 
-#: xtec-mail.php:86
+#: xtec-mail.php:57 xtec-mail.php:117
 msgid "Options saved."
 msgstr "S'han desat els canvis"
 
-#: xtec-mail.php:158
+#. Description of the plugin/theme
+msgid ""
+"Reconfigures the wp_mail() function to use web service mail service of "
+"Departament d'Ensenyament instead of mail(). The plugin use v.11.04.07 of "
+"Mail Sender By WS PHP library."
+msgstr ""
+
+#: xtec-mail.php:85 xtec-mail.php:184
 msgid "Save"
 msgstr "Desa"
 
-#: xtec-mail.php:123
+#: xtec-mail.php:149
 msgid "Sender"
 msgstr "Remitent"
 
-#: xtec-mail.php:118
+#: xtec-mail.php:133 xtec-mail.php:145
 msgid "Set in config"
 msgstr "Definit als fitxers de configuració"
 
-#: xtec-mail.php:49 xtec-mail.php:98
+#. #-#-#-#-#  xtec-mail.pot (XTEC Mail 3.0)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: xtec-mail.php:68 xtec-mail.php:127
 msgid "XTEC Mail"
 msgstr "Correu XTEC"
 
-#: xtec-mail.php:52
+#: xtec-mail.php:71
 msgid "XTEC Mail is active"
 msgstr "El correu XTEC està activat"
 
-#: xtec-mail.php:102
+#: xtec-mail.php:131
 msgid "idApp"
 msgstr "ID de l'aplicació"
 
-#: xtec-mail.php:108
+#: xtec-mail.php:77 xtec-mail.php:137
 msgid "replyto"
 msgstr "Respon a"

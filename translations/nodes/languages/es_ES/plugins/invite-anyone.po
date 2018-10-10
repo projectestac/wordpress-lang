@@ -6,17 +6,17 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Invite Anyone 0.6\n"
-"Report-Msgid-Bugs-To: http://wordpress.org/tag/invite-anyone\n"
-"POT-Creation-Date: 2011-02-26 15:35:42+00:00\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/invite-anyone\n"
+"POT-Creation-Date: 2018-10-10 07:17:46+00:00\n"
 "PO-Revision-Date: 2018-07-17 11:47+0200\n"
 "Last-Translator: Joan Sala Soler <jsala236@xtec.cat>\n"
 "Language-Team: \n"
+"Language: es_ES\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-SourceCharset: utf-8\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"Language: es_ES\n"
 "X-Generator: Poedit 2.0.6\n"
 
 #: group-invites/group-invites.php:594
@@ -57,19 +57,19 @@ msgstr "(%d enviado)"
 msgid "(%s accepted)"
 msgstr "(%s aceptado)"
 
-#: admin/admin-panel.php:639
+#: admin/admin-panel.php:642
 msgid "(no data)"
 msgstr "(no data)"
 
-#: by-email/by-email.php:534
+#: by-email/by-email.php:642
 msgid "(optional) Customize the subject line of the invitation email."
 msgstr "(opcional) Personaliza el asunto del email de invitación."
 
-#: by-email/by-email.php:546
+#: by-email/by-email.php:653
 msgid "(optional) Customize the text of the invitation."
 msgstr "(opcional) Personaliza el texto de la invitación."
 
-#: by-email/by-email.php:561
+#: by-email/by-email.php:668
 msgid ""
 "(optional) Select some groups. Invitees will receive invitations to these "
 "groups when they join the site."
@@ -97,43 +97,21 @@ msgstr "3 meses"
 msgid "4 Weeks"
 msgstr "4 Semanas"
 
-#: admin/admin-panel.php:267
-msgid ""
-"<a href=\"http://www.cloudsponge.com/?utm_source=invite-"
-"anyone&utm_medium=partner&utm_campaign=integrator\">CloudSponge</a> is a "
-"cool service that gives your users easy and secure access to their address "
-"books (Gmail, Yahoo, and a number of other online and desktop email "
-"clients), so that they can more easily invite friends to your site. In order "
-"to enable CloudSponge support in Invite Anyone and BuddyPress, you'll need "
-"to <a href=\"http://www.cloudsponge.com/signup?utm_source=invite-"
-"anyone&utm_medium=partner&utm_campaign=integrator\">register for a "
-"CloudSponge account</a>."
-msgstr ""
-"<a href=\"http://www.cloudsponge.com/?utm_source=invite-"
-"anyone&utm_medium=partner&utm_campaign=integrator\">CloudSponge</a> es un "
-"servicio que da a los usuarios un acceso sencillo y seguro a sus listas de "
-"contacto (Gmail, Yahoo, y otros gestores de email online y de escritorio), "
-"de tal manera que pueden invitar a sus amigos a tu sitio. Para habilitar el "
-"soporte a CloudSponge en Invite Anyone y BuddyPress, deberás <a href="
-"\"http://www.cloudsponge.com/signup?utm_source=invite-"
-"anyone&utm_medium=partner&utm_campaign=integrator\">registrarte en "
-"CloudSponge</a>."
-
-#: by-email/by-email.php:967
+#: by-email/by-email.php:1175
 msgid "<strong>%s</strong> has opted out of email invitations from this site."
 msgstr ""
 "<strong>%s</strong> ha optado por no recibir más invitaciones por email de "
 "este sitio."
 
-#: by-email/by-email.php:971
+#: by-email/by-email.php:1179
 msgid "<strong>%s</strong> is already a registered user of the site."
 msgstr "<strong>%s</strong> ya es un usuario registrado del sitio."
 
-#: by-email/by-email.php:975
+#: by-email/by-email.php:1183
 msgid "<strong>%s</strong> is not a permitted email address."
 msgstr "<strong>%s</strong> no es una dirección de email permitida."
 
-#: by-email/by-email.php:983
+#: by-email/by-email.php:1191
 msgid ""
 "<strong>%s</strong> is not a permitted email address. Please make sure that "
 "you have typed the domain name correctly."
@@ -141,7 +119,7 @@ msgstr ""
 "<strong>%s</strong> no es una dirección email válida. Por favor, asegúrate "
 "que el dominio es correcto."
 
-#: by-email/by-email.php:979
+#: by-email/by-email.php:1187
 msgid ""
 "<strong>%s</strong> is not a valid email address. Please make sure that you "
 "have typed it correctly."
@@ -149,32 +127,32 @@ msgstr ""
 "<strong>%s</strong> no es una direccion de email válida. Por favor, "
 "asegúrate que el email es correcto."
 
-#: admin/admin-panel.php:230
+#: admin/admin-panel.php:407
 msgid "<strong>Group admins</strong> can send group invitations to: "
 msgstr ""
 "<strong>Administradores de grupo</strong> pueden enviar invitaciones de "
 "grupo a: "
 
-#: admin/admin-panel.php:246
+#: admin/admin-panel.php:423
 msgid "<strong>Group members</strong> can send group invitations to: "
 msgstr ""
 "<strong>Miembros de grupo</strong> pueden enviar invitaciones de grupo a: "
 
-#: admin/admin-panel.php:238
+#: admin/admin-panel.php:415
 msgid "<strong>Group mods</strong> can send group invitations to: "
 msgstr "<strong>Moderadores de grupo</strong> pueden enviar invitaciones a: "
 
-#: admin/admin-panel.php:222
+#: admin/admin-panel.php:399
 msgid "<strong>Site admins</strong> can send group invitations to: "
 msgstr ""
 "<strong>Administradores del sition</strong> pueden enviar invitaciones de "
 "grupo a: "
 
-#: admin/admin-panel.php:185
+#: admin/admin-panel.php:348
 msgid "A limited set of users"
 msgstr "Un grupo limitado de usuarios"
 
-#: by-email/by-email.php:70
+#: by-email/by-email.php:79
 msgid "Accept Invitation"
 msgstr "Aceptar invitación"
 
@@ -186,44 +164,44 @@ msgstr "Nivel de aceptación"
 msgid "Acceptance Rate (CloudSponge)"
 msgstr "Nivel de aceptación (CloudSponge)"
 
-#: by-email/by-email.php:656
+#: admin/admin-panel.php:534 by-email/by-email.php:783
 msgid "Accepted"
 msgstr "Aceptadas"
 
-#: admin/admin-panel.php:158
+#: admin/admin-panel.php:118
 msgid "Access Control"
 msgstr "Control de Accesos"
 
-#: admin/admin-panel.php:91
+#: admin/admin-panel.php:182
 msgid "Access Settings"
 msgstr "Configuración de acceso"
 
-#: by-email/by-email-db.php:75
+#: by-email/by-email-db.php:84
 msgctxt "add new"
 msgid "Add New"
 msgstr "Añadir nuevo"
 
-#: by-email/by-email-db.php:76
+#: by-email/by-email-db.php:85
 msgid "Add New Invitation"
 msgstr "Añadir nueva invitación"
 
-#: by-email/by-email-db.php:126
+#: by-email/by-email-db.php:142
 msgid "Add New Invited Group"
 msgstr "Añadir nuevo grupo invitado"
 
-#: by-email/by-email-db.php:105
+#: by-email/by-email-db.php:121
 msgid "Add New Invitee"
 msgstr "Añadir nuevo invitado"
 
-#: admin/admin-panel.php:200
+#: admin/admin-panel.php:363
 msgid "Administrator"
 msgstr "Administrador"
 
-#: by-email/by-email-db.php:123
+#: by-email/by-email-db.php:139
 msgid "All Invited Groups"
 msgstr "Todos los grupos invitados"
 
-#: by-email/by-email-db.php:102
+#: by-email/by-email-db.php:118
 msgid "All Invitees"
 msgstr "Todos los invitados"
 
@@ -231,15 +209,15 @@ msgstr "Todos los invitados"
 msgid "All Time"
 msgstr "Todo"
 
-#: by-email/by-email-db.php:924
+#: by-email/by-email-db.php:918
 msgid "All done!"
 msgstr "¡Todo listo!"
 
-#: admin/admin-panel.php:183
+#: admin/admin-panel.php:346
 msgid "All users"
 msgstr "Todos los usuarios"
 
-#: admin/admin-panel.php:85
+#: admin/admin-panel.php:241
 msgid ""
 "Allow email invitations to be accepted even when site registration is "
 "disabled"
@@ -247,27 +225,19 @@ msgstr ""
 "Permitir que las invitaciones puedan ser aceptadas incluso cuando el "
 "registro al sitio esté deshabilitado"
 
-#: admin/admin-panel.php:93
+#: admin/admin-panel.php:184
 msgid "Allow email invitations to be sent by"
 msgstr "Permitir las invitaciones de correo a ser enviados por"
 
-#: admin/admin-panel.php:78
+#: admin/admin-panel.php:235
 msgid "Allow users to customize invitation"
 msgstr "Permitir a los usuarios a personalizar la invitación"
 
-#: admin/admin-panel.php:83
+#: admin/admin-panel.php:239
 msgid "Allow users to send group invitations along with email invitations"
 msgstr ""
 "Permitir a los usuarios a invitar a grupos junto con las invitaciones a "
 "unirse al sitio"
-
-#. Description of the plugin/theme
-msgid ""
-"Allows group admins to invite any BuddyPress member to a group, whether or "
-"not they are friends"
-msgstr ""
-"Permitir a los administradores de grupo a invitar a miembros del sitio a un "
-"grupo, sean o no amigos"
 
 #. Description of the plugin/theme
 msgid ""
@@ -277,16 +247,16 @@ msgstr ""
 "Permite a los administradores de grupo invitar a cualquier miembro de su "
 "comunidad de BuddyPress a un grupo o al sitio"
 
-#: by-email/by-email.php:760
+#: by-email/by-email.php:905
 msgid "An invitation to join the %s community."
 msgstr "Una invitación para unirte a la comunidad %s."
 
-#: admin/admin-panel.php:224 admin/admin-panel.php:232
-#: admin/admin-panel.php:240 admin/admin-panel.php:248
+#: admin/admin-panel.php:401 admin/admin-panel.php:409
+#: admin/admin-panel.php:417 admin/admin-panel.php:425
 msgid "Anyone"
 msgstr "Cualquiera"
 
-#: admin/admin-panel.php:198
+#: admin/admin-panel.php:361
 msgid "Author"
 msgstr "Autor"
 
@@ -294,32 +264,32 @@ msgstr "Autor"
 msgid "Boone Gorges"
 msgstr "Boone Gorges"
 
-#: by-email/by-email-db.php:88
+#: by-email/by-email-db.php:97
 msgid "BuddyPress Invitations"
 msgstr "Invitaciones BuddyPress"
 
-#: by-email/by-email-db.php:73
+#: by-email/by-email-db.php:82
 msgctxt "post type general name"
 msgid "BuddyPress Invitations"
 msgstr "BuddyPress Invitations"
 
-#: by-email/by-email.php:664
+#: by-email/by-email.php:791
 msgid "Clear all accepted invitations"
 msgstr "Borrar todas las invitaciones aceptadas"
 
-#: by-email/by-email.php:664
+#: by-email/by-email.php:791
 msgid "Clear all accepted invites from the list"
 msgstr "Borra todas las invitaciones aceptadas de la lista"
 
-#: by-email/by-email.php:665
+#: by-email/by-email.php:792
 msgid "Clear all invitations"
 msgstr "Borrar todas las invitaciones"
 
-#: by-email/by-email.php:665
+#: by-email/by-email.php:792
 msgid "Clear all your listed invites"
 msgstr "Borrar todas tus invitaciones listadas"
 
-#: by-email/by-email.php:685
+#: by-email/by-email.php:818
 msgid "Clear this invitation"
 msgstr "Borrar esta invitación"
 
@@ -330,20 +300,21 @@ msgstr ""
 "Haga clic en &ldquo;Enviar invitaciones&rdquo; para terminar de enviar sus "
 "nuevas invitaciones."
 
-#: admin/admin-panel.php:488
+#: admin/admin-panel.php:491
 msgid "Click in the <strong>test</strong> button to test your integration."
 msgstr ""
 "Haga clic en el botón <strong>prueba</strong> para probar su integración."
 
-#: admin/admin-panel.php:88
+#: admin/admin-panel.php:127 admin/admin-panel.php:200
+#: admin/admin-panel.php:540
 msgid "CloudSponge"
 msgstr "CloudSponge"
 
-#: admin/admin-panel.php:275
+#: admin/admin-panel.php:476
 msgid "CloudSponge Domain Key"
 msgstr "CloudSponge Domain Key"
 
-#: admin/admin-panel.php:477
+#: admin/admin-panel.php:480
 msgid "CloudSponge Key"
 msgstr "Clave de CloudSponge"
 
@@ -351,68 +322,63 @@ msgstr "Clave de CloudSponge"
 msgid "CloudSponge Usage"
 msgstr "Uso de CloudSponge"
 
-#: admin/admin-panel.php:473
+#: admin/admin-panel.php:476
 msgid ""
 "CloudSponge integration will not work without a valid CloudSponge Domain key."
 msgstr ""
 "La integración de CloudSponge no funcionará sin una clave válida de dominio "
 "CloudSponge."
 
-#: admin/admin-panel.php:484
+#: admin/admin-panel.php:487
 msgid "CloudSponge integration will not work without a valid CloudSponge Key."
 msgstr ""
 "La integración de CloudSponge no funcionará sin una Clave CloudSponge válida."
 
-#: admin/admin-panel.php:275
-msgid "CloudSponge integration will not work without a valid domain key."
-msgstr ""
-"La integración con CloudSponge no funcionará sin una domain key válida."
-
-#: widgets/widgets.php:77
+#: widgets/widgets.php:71
 msgid "Continue"
 msgstr "Continuar"
 
-#: admin/admin-panel.php:197
+#: admin/admin-panel.php:360
 msgid "Contributor"
 msgstr "Colaborador"
 
-#: admin/admin-panel.php:104
+#: admin/admin-panel.php:255
 msgid "Control the default behavior of Invite Anyone."
 msgstr "Controlar el comportamiento por defecto de Invite Anyone."
 
-#: admin/admin-panel.php:174
+#: admin/admin-panel.php:337
 msgid "Control which members are able to send various kinds of invitations."
 msgstr "Controla qué miembros pueden enviar varios tipos de invitaciones."
 
-#: by-email/by-email-db.php:77
+#: by-email/by-email-db.php:86
 msgid "Edit Invitation"
 msgstr "Editar invitación"
 
-#: by-email/by-email-db.php:124
+#: by-email/by-email-db.php:140
 msgid "Edit Invited Group"
 msgstr "Editar grupo invitado"
 
-#: by-email/by-email-db.php:103
+#: by-email/by-email-db.php:119
 msgid "Edit Invitee"
 msgstr "Editar invitado"
 
-#: admin/admin-panel.php:199
+#: admin/admin-panel.php:362
 msgid "Editor"
 msgstr "Editor"
 
-#: by-email/by-email.php:118
+#: by-email/by-email.php:128
 msgid "Email:"
 msgstr "Email:"
 
-#: admin/admin-panel.php:269
+#: admin/admin-panel.php:468
 msgid "Enable CloudSponge?"
 msgstr "¿Habilitar CloudSponge?"
 
-#: admin/admin-panel.php:239
+#: admin/admin-panel.php:243
 msgid "Enable the Send Invites step during group creation"
 msgstr "Habilite el paso Enviar invitaciones durante la creación del grupo"
 
-#: by-email/by-email.php:522
+#: by-email/by-email.php:625
 msgid "Enter email addresses below, one per line."
 msgstr "Introduce las direcciones de email, una por línea."
 
@@ -422,37 +388,37 @@ msgstr ""
 "Ingrese una dirección de correo electrónico por línea para invitar a amigos "
 "a unirse a este sitio."
 
-#: by-email/by-email-db.php:926
+#: by-email/by-email-db.php:920
 msgid "Finish"
 msgstr "Terminar"
 
-#: admin/admin-panel.php:75
+#: admin/admin-panel.php:233
 msgid "Footer text of email invitation message (not editable by users)"
 msgstr "Pié de página del email de invitación (no editable por usuarios)"
 
-#: admin/admin-panel.php:225 admin/admin-panel.php:233
-#: admin/admin-panel.php:241 admin/admin-panel.php:249
+#: admin/admin-panel.php:402 admin/admin-panel.php:410
+#: admin/admin-panel.php:418 admin/admin-panel.php:426
 msgid "Friends"
 msgstr "Amigos"
 
-#: admin/admin-panel.php:67
+#: admin/admin-panel.php:117 admin/admin-panel.php:225
 msgid "General Settings"
 msgstr "Configuración general"
 
-#: group-invites/group-invites.php:157
+#: group-invites/group-invites.php:159
 msgid "Group created successfully."
 msgstr "Grupo creado con éxito."
 
-#: by-email/by-email.php:654
+#: by-email/by-email.php:781
 msgid "Group invitations"
 msgstr "Invitaciones de grupo"
 
-#: group-invites/group-invites.php:112 group-invites/group-invites.php:155
-#: group-invites/group-invites.php:184
+#: group-invites/group-invites.php:108 group-invites/group-invites.php:157
+#: group-invites/group-invites.php:201
 msgid "Group invites sent."
 msgstr "Invitaciones a grupo enviadas."
 
-#: by-email/by-email.php:76
+#: by-email/by-email.php:85
 msgid ""
 "If you are here by mistake and would like to accept your invitation to %s, "
 "click \"Accept Invitation\" instead."
@@ -460,7 +426,7 @@ msgstr ""
 "Si estás aquí por error y quieres aceptar la invitación a %s, haz clic en "
 "\"Aceptar Invitación\"."
 
-#: by-email/by-email-db.php:995
+#: by-email/by-email-db.php:989
 msgid ""
 "If your browser doesn&#8217;t start loading the next page automatically, "
 "click this link:"
@@ -468,7 +434,7 @@ msgstr ""
 "Si tu navegador no empieza a cargar la siguiente página al instante haz clic "
 "en este enlace:"
 
-#: by-email/by-email-db.php:984
+#: by-email/by-email-db.php:978
 msgid "Importing: %1$s invited %2$s<br />"
 msgstr "Importando: %1$s invitado %2$s<br />"
 
@@ -476,39 +442,37 @@ msgstr "Importando: %1$s invitado %2$s<br />"
 msgid "In the last..."
 msgstr "En el último..."
 
-#: by-email/by-email-db.php:74
+#: by-email/by-email-db.php:83
 msgctxt "post type singular name"
 msgid "Invitation"
 msgstr "Invitación"
 
-#: by-email/by-email.php:401
+#: by-email/by-email.php:465
 msgid "Invitation cleared"
 msgstr "Invitación borrada"
 
-#: by-email/by-email.php:406
+#: by-email/by-email.php:470
 msgid "Invitations cleared."
 msgstr "Invitaciones borradas."
 
-#: by-email/by-email.php:1044
+#: by-email/by-email.php:1250
 msgid "Invitations were sent successfully to the following email addresses: %s"
 msgstr ""
 "Las invitaciones fueron enviadas satisfactoriamente a las siguientes "
 "direcciones: %s"
 
+#. #-#-#-#-#  invite-anyone.pot (Invite Anyone 1.3.12)  #-#-#-#-#
 #. Plugin Name of the plugin/theme
-#: admin/admin-panel.php:5 widgets/widgets.php:38 widgets/widgets.php:95
+#: admin/admin-panel.php:6 admin/admin-panel.php:114 widgets/widgets.php:41
+#: widgets/widgets.php:92
 msgid "Invite Anyone"
 msgstr "Invite Anyone"
 
-#: admin/admin-panel.php:45
-msgid "Invite Anyone Settings"
-msgstr "Configuración de Invite Anyone"
-
-#: by-email/by-email-db.php:1023
+#: by-email/by-email-db.php:1017
 msgid "Invite Anyone Upgrade"
 msgstr "Actualizar Invite Anyone"
 
-#: admin/admin-panel.php:220
+#: admin/admin-panel.php:397
 msgid ""
 "Invite Anyone extends BuddyPress's default group invitation settings. "
 "Instead of allowing you to invite only friends to a group, this plugin "
@@ -520,7 +484,7 @@ msgstr ""
 "plugin permite invitar a cualquier miembro al sitio. Usa esta configuración "
 "para limitar a los posibles invitados para diferentes roles de grupo."
 
-#: by-email/by-email-db.php:1026
+#: by-email/by-email-db.php:1020
 msgid ""
 "Invite Anyone has just been updated, and needs to move some old invitation "
 "data in order to complete the upgrade. Click GO to start the process."
@@ -529,55 +493,56 @@ msgstr ""
 "invitación antiguos para completar la actualización. Haga clic en IR para "
 "iniciar el proceso."
 
-#: by-email/by-email.php:279 by-email/by-email.php:509
+#: by-email/by-email.php:298 by-email/by-email.php:525
+#: by-email/by-email.php:588
 msgid "Invite New Members"
 msgstr "Invitar nuevos miembros"
 
-#: by-email/by-email.php:504
+#: by-email/by-email.php:583
 msgid "Invite friends to join %s by following these steps:"
 msgstr "Invita amigos a unirse a %s siguiendo estos pasos:"
 
-#: widgets/widgets.php:44 widgets/widgets.php:101
+#: widgets/widgets.php:100
 msgid ""
 "Invite friends to join the site by entering their email addresses below."
 msgstr ""
 "Invita a amigos a unirse al sitio introduciendo sus direcciones de email a "
 "continuación."
 
-#: admin/admin-panel.php:518
+#: admin/admin-panel.php:521
 msgid "Invited Email"
 msgstr "Correo Invitado"
 
-#: by-email/by-email-db.php:121 by-email/by-email-db.php:128
+#: by-email/by-email-db.php:137 by-email/by-email-db.php:144
 msgid "Invited Group"
 msgstr "Grupo invitado"
 
-#: by-email/by-email-db.php:120 by-email/by-email-db.php:133
+#: by-email/by-email-db.php:136 by-email/by-email-db.php:149
 msgid "Invited Groups"
 msgstr "Grupos invitados"
 
-#: by-email/by-email.php:653
+#: by-email/by-email.php:780
 msgid "Invited email address"
 msgstr "Email del invitado"
 
-#: by-email/by-email-db.php:100 by-email/by-email-db.php:107
+#: by-email/by-email-db.php:116 by-email/by-email-db.php:123
 msgid "Invitee"
 msgstr "Invitado"
 
-#: by-email/by-email-db.php:99 by-email/by-email-db.php:112
+#: by-email/by-email-db.php:115 by-email/by-email-db.php:128
 msgid "Invitees"
 msgstr "Invitados"
 
-#: admin/admin-panel.php:513
+#: admin/admin-panel.php:516
 msgid "Inviter"
 msgstr "Invitador"
 
-#: by-email/by-email.php:542
+#: by-email/by-email.php:515
 msgid ""
 "It looks like you&#8217;ve already accepted your invitation to join the site."
 msgstr "Parece que ya has aceptado tu invitación para unirte al sitio."
 
-#: by-email/by-email.php:140
+#: by-email/by-email.php:161
 msgid ""
 "It looks like you're trying to accept an invitation to join the site, but "
 "some information is missing. Please try again by clicking on the link in the "
@@ -587,82 +552,82 @@ msgstr ""
 "pero falta alguna información. Por favor, intenta de nuevo haciendo clic en "
 "el enlace del email de invitación."
 
-#: admin/admin-panel.php:95
+#: admin/admin-panel.php:186
 msgid "Limit group invitations"
 msgstr "Limitar las invitaciones de grupo"
 
-#: admin/admin-panel.php:382
+#: admin/admin-panel.php:385
 msgid "Limit number of invites per user :"
 msgstr "Limitar el número de invitaciones por usuario:"
 
-#: admin/admin-panel.php:196
+#: admin/admin-panel.php:188
 msgid "Limit per-user invitations"
 msgstr "Limite las invitaciones por usuario"
 
-#: admin/admin-panel.php:115
+#: admin/admin-panel.php:266
 msgid "Link that invited users can click to accept the invitation"
 msgstr "Enlace que la persona invitada puede clicar para aceptar la invitación"
 
-#: admin/admin-panel.php:116
+#: admin/admin-panel.php:267
 msgid "Link that invited users can click to opt out of future invitations"
 msgstr ""
 "Enlace que la persona invitada puede clicar para optar no recibir más "
 "invitaciones"
 
-#: admin/admin-panel.php:73
+#: admin/admin-panel.php:231
 msgid "Main text of email invitation message"
 msgstr "Texto principal del email de invitación"
 
-#: admin/admin-panel.php:160 admin/admin-panel.php:208
+#: admin/admin-panel.php:136 admin/admin-panel.php:206
 msgid "Manage Invitations"
 msgstr "Gestionar invitaciones"
 
-#: admin/admin-panel.php:166
+#: admin/admin-panel.php:329
 msgid "Message body"
 msgstr "Mensaje"
 
-#: by-email/by-email.php:549
+#: by-email/by-email.php:657
 msgid "Message:"
 msgstr "Mensaje:"
 
-#: by-email/by-email-db.php:634
+#: by-email/by-email-db.php:958
 msgid "Migrated Invitation"
 msgstr "Invitación migrada"
 
-#: by-email/by-email-db.php:78
+#: by-email/by-email-db.php:87
 msgid "New Invitation"
 msgstr "Nueva invitación"
 
-#: by-email/by-email-db.php:127
+#: by-email/by-email-db.php:143
 msgid "New Invited Group Name"
 msgstr "Nombre del nuevo grupo invitado"
 
-#: by-email/by-email-db.php:106
+#: by-email/by-email-db.php:122
 msgid "New Invitee Name"
 msgstr "Nombre del nuevo invitado"
 
-#: by-email/by-email-db.php:995
+#: by-email/by-email-db.php:989
 msgid "Next Invitations"
 msgstr "Siguiente invitaciones"
 
-#: by-email/by-email-db.php:354
+#: by-email/by-email-db.php:358
 msgid "No"
 msgstr "No"
 
-#: by-email/by-email-db.php:81
+#: by-email/by-email-db.php:90
 msgid "No Invitations found"
 msgstr "No se encontraron invitaciones"
 
-#: by-email/by-email-db.php:82
+#: by-email/by-email-db.php:91
 msgid "No Invitations found in Trash"
 msgstr "No se encontraron invitaciones en la basura"
 
-#: admin/admin-panel.php:663
+#: admin/admin-panel.php:666
 msgid "No invitations have been sent yet."
 msgstr "No se han enviado invitaciones todavía."
 
-#: admin/admin-panel.php:226 admin/admin-panel.php:234
-#: admin/admin-panel.php:242 admin/admin-panel.php:250
+#: admin/admin-panel.php:403 admin/admin-panel.php:411
+#: admin/admin-panel.php:419 admin/admin-panel.php:427
 msgid "No one"
 msgstr "Nadie"
 
@@ -670,33 +635,33 @@ msgstr "Nadie"
 msgid "Number of email fields to display in widget:"
 msgstr "Número de campos del email a mostrar en el widget:"
 
-#: admin/admin-panel.php:81
+#: admin/admin-panel.php:237
 msgid "Number of email invitations users are permitted to send at a time"
 msgstr ""
 "Número de invitaciones de email que usuarios pueden enviar simultáneamente"
 
-#: admin/admin-panel.php:194
+#: admin/admin-panel.php:357
 msgid "Only users who have at least the following role on this blog:"
 msgstr "Sólo usuarios que tienen al menos uno de los siguientes roles:"
 
-#: admin/admin-panel.php:189
+#: admin/admin-panel.php:352
 msgid ""
 "Only users who have been members of the site for a minimum number of days:"
 msgstr "Sólo usuarios que han sido miembros del sitio por un mínimo de días:"
 
-#: by-email/by-email.php:69
+#: by-email/by-email.php:78
 msgid "Opt Out"
 msgstr "Optar por no"
 
-#: by-email/by-email.php:1050
+#: by-email/by-email.php:1255
 msgid "Please correct your errors and resubmit."
 msgstr "Por favor, corrige los errores y envía de nuevo."
 
-#: admin/admin-panel.php:486
+#: admin/admin-panel.php:489
 msgid "Please, click on <strong>Save Changes</strong> to save the key!"
 msgstr "¡Haz clic en <strong>Guardar cambios</strong> para guardar la clave!"
 
-#: admin/admin-panel.php:205
+#: admin/admin-panel.php:368
 msgid ""
 "Provide a comma-separated list of users (identified by their numerical user "
 "ids) who <strong>cannot</strong> send invitations by email:"
@@ -704,70 +669,74 @@ msgstr ""
 "Proporciona una lista de usuarios, separados por coma (identificados por su "
 "ID numérico), que <strong>no pueden</strong> enviar invitaciones por email:"
 
-#: group-invites/group-invites.php:254 group-invites/group-invites.php:351
-#: group-invites/group-invites.php:508
+#: group-invites/group-invites.php:410
+#: group-invites/templates/invite-anyone.php:70
+#: group-invites/templates/invite-anyone.php:159
 msgid "Remove Invite"
 msgstr "Borrar invitación"
 
-#: admin/admin-panel.php:69
+#: admin/admin-panel.php:227
 msgid "Replacement patterns for email text fields"
 msgstr "Patrones de reemplazo para campos de texto de email"
 
-#: admin/admin-panel.php:53
+#: admin/admin-panel.php:164
 msgid "Save Changes"
 msgstr "Guardar cambios"
 
-#: by-email/by-email-db.php:80
+#: by-email/by-email-db.php:89
 msgid "Search Invitation"
 msgstr "Buscar invitación"
 
-#: by-email/by-email-db.php:122
+#: by-email/by-email-db.php:138
 msgid "Search Invited Groups"
 msgstr "Buscar grupos invitado"
 
-#: by-email/by-email-db.php:101
+#: by-email/by-email-db.php:117
 msgid "Search Invitees"
 msgstr "Buscar invitados"
 
-#: group-invites/group-invites.php:211 group-invites/group-invites.php:306
+#: group-invites/templates/invite-anyone.php:27
+#: group-invites/templates/invite-anyone.php:115
 msgid "Search for members to invite:"
 msgstr "Buscar miembros a invitar:"
 
-#: group-invites/group-invites.php:219 group-invites/group-invites.php:314
+#: group-invites/templates/invite-anyone.php:35
+#: group-invites/templates/invite-anyone.php:126
 msgid "Select members from the directory:"
 msgstr "Seleccionar miembros del directorio:"
 
-#: group-invites/group-invites.php:331
+#: group-invites/templates/invite-anyone.php:139
 msgid "Select people to invite from your friends list."
 msgstr "Selecciona a las personas a invitar de tu listado de amigos."
 
-#: group-invites/group-invites.php:234
+#: group-invites/templates/invite-anyone.php:50
 msgid "Select people to invite."
 msgstr "Selecciona personas a invitar."
 
-#: group-invites/group-invites.php:82 group-invites/group-invites.php:271
-#: group-invites/group-invites.php:370 by-email/by-email.php:267
-#: by-email/by-email.php:583
+#: by-email/by-email.php:286 by-email/by-email.php:698
+#: group-invites/group-invites.php:73
+#: group-invites/templates/invite-anyone.php:87
+#: group-invites/templates/invite-anyone.php:178
 msgid "Send Invites"
 msgstr "Enviar invitaciones"
 
-#: group-invites/group-invites.php:296
+#: group-invites/templates/invite-anyone.php:107
 msgid "Send invitations by email."
 msgstr "Enviar invitaciones por email."
 
-#: by-email/by-email.php:655
+#: admin/admin-panel.php:526 by-email/by-email.php:782
 msgid "Sent"
 msgstr "Enviadas"
 
-#: by-email/by-email.php:289 by-email/by-email.php:639
+#: by-email/by-email.php:308 by-email/by-email.php:754
 msgid "Sent Invites"
 msgstr "Invitaciones enviadas"
 
-#: admin/admin-panel.php:17
+#: admin/admin-panel.php:24
 msgid "Settings"
 msgstr "Configuración"
 
-#: by-email/by-email.php:498
+#: by-email/by-email.php:577
 msgid ""
 "Some of your invitations were not sent. Please see the errors below and "
 "resubmit the failed invitations."
@@ -775,37 +744,37 @@ msgstr ""
 "Algunas de tus invitaciones no se enviaron. Por favor, corrige los errores "
 "indicados abajo y envía de nuevo las invitaciones fallidas."
 
-#: by-email/by-email.php:600
+#: by-email/by-email.php:420
 msgid "Sorry, there was a problem sending your invitations. Please try again."
 msgstr ""
 "Lo sentimos, surgió un problema al enviar tus invitaciones. Por favor, "
 "intenta de nuevo."
 
-#: by-email/by-email.php:92
+#: by-email/by-email.php:102
 msgid "Sorry, there was an error in processing your request"
 msgstr "Lo sentimos, surgió un error procesando tu petición"
 
-#: admin/admin-panel.php:161 admin/admin-panel.php:214
+#: admin/admin-panel.php:145 admin/admin-panel.php:218
 msgid "Stats"
 msgstr "Estadístiques"
 
-#: admin/admin-panel.php:162
+#: admin/admin-panel.php:325
 msgid "Subject line"
 msgstr "Asunto"
 
-#: by-email/by-email.php:537
-msgid "Subject: <span class=\"disabled-subject\">Subject line is fixed</span>"
-msgstr "Asunto: <span class=\"disabled-subject\">El asunto está fijo</span>"
+#: by-email/by-email.php:645
+msgid "Subject:"
+msgstr "Título:"
 
-#: admin/admin-panel.php:196
+#: admin/admin-panel.php:359
 msgid "Subscriber"
 msgstr "Suscriptor"
 
-#: admin/admin-panel.php:480
+#: admin/admin-panel.php:483
 msgid "Test"
 msgstr "Test"
 
-#: admin/admin-panel.php:71
+#: admin/admin-panel.php:229
 msgid "Text of email invitation subject line"
 msgstr "Texto del asunto del email de invitación"
 
@@ -813,7 +782,7 @@ msgstr "Texto del asunto del email de invitación"
 msgid "Text to display in widget:"
 msgstr "Texto a mostrar en el widget:"
 
-#: by-email/by-email.php:554
+#: by-email/by-email.php:654
 msgid ""
 "The message will also contain a custom footer containing links to accept the "
 "invitation or opt out of further email invitations from this site."
@@ -822,7 +791,7 @@ msgstr ""
 "aceptar la invitación, y para optar si recibir más invitaciones de este "
 "sitio."
 
-#: by-email/by-email.php:633
+#: by-email/by-email.php:606
 msgid ""
 "The site administrator has limited each user to %1$d invitations. You have "
 "%2$d invitations remaining."
@@ -830,27 +799,15 @@ msgstr ""
 "El administrador del sitio ha limitado a cada usuario a %1$d invitaciones. "
 "Tienes %2$d invitaciones restantes."
 
-#: by-email/by-email.php:403
+#: by-email/by-email.php:467
 msgid "There was a problem clearing the invitation."
 msgstr "Ocurrió un problema al borrar la invitación."
 
-#: by-email/by-email.php:408
+#: by-email/by-email.php:472
 msgid "There was a problem clearing the invitations."
 msgstr "Ocurrio un problema al borrar las invitaciones."
 
-#: by-email/by-email.php:647
-msgid ""
-"This table displays a list of all your sent invites.\n"
-"\t\t\tInvites that have been accepted are highlighted in the listings.\n"
-"\t\t\tYou may clear any individual invites, all accepted invites or all of "
-"the invite from the list."
-msgstr ""
-"Esta tabla muestra todas las invitaciones enviadas.\n"
-"\t\t\tLas invitaciones aceptadas están resaltadas en el listado.\n"
-"\t\t\tPuedes borrar cualquier invitación, todas las invitaciones aceptadas o "
-"toda la lista."
-
-#: by-email/by-email.php:806
+#: by-email/by-email.php:774
 msgid ""
 "This table displays a list of all your sent invites.\n"
 "\t\t\tInvites that have been accepted are highlighted in the listings.\n"
@@ -866,11 +823,11 @@ msgstr ""
 msgid "Title:"
 msgstr "Título:"
 
-#: by-email/by-email.php:806
+#: by-email/by-email.php:953
 msgid "To accept this invitation, please visit %%ACCEPTURL%%"
 msgstr "Para aceptar esta invitación, por favor visita  %%ACCEPTURL%%"
 
-#: by-email/by-email.php:74
+#: by-email/by-email.php:83
 msgid ""
 "To opt out of future invitations to %s, make sure that your email is entered "
 "in the field below and click \"Opt Out\"."
@@ -878,7 +835,7 @@ msgstr ""
 "Para no recibir más invitaciones a %s, asegúrate que tu email del campo "
 "abajo es correcto y haz clic en \"Optar por no\"."
 
-#: by-email/by-email.php:810
+#: by-email/by-email.php:957
 msgid ""
 "To opt out of future invitations to this site, please visit %%OPTOUTURL%%"
 msgstr ""
@@ -917,19 +874,19 @@ msgstr "Total enviado"
 msgid "Total Sent (CloudSponge)"
 msgstr "Total enviado (CloudSponge)"
 
-#: admin/admin-panel.php:114
+#: admin/admin-panel.php:265
 msgid "URL to the profile of the inviter"
 msgstr "URL del perfil de la persona que invita"
 
-#: by-email/by-email-db.php:125
+#: by-email/by-email-db.php:141
 msgid "Update Invited Group"
 msgstr "Actualizar grupo invitado"
 
-#: by-email/by-email-db.php:104
+#: by-email/by-email-db.php:120
 msgid "Update Invitee"
 msgstr "Actualizar invitado"
 
-#: by-email/by-email-db.php:79
+#: admin/admin-panel.php:600 by-email/by-email-db.php:88
 msgid "View Invitation"
 msgstr "Ver invitación"
 
@@ -937,12 +894,12 @@ msgstr "Ver invitación"
 msgid "Viewing %1$d - %2$d of a total of %3$d"
 msgstr "Viendo %1$d - %2$d de un total de %3$d"
 
-#: group-invites/group-invites.php:296
+#: group-invites/templates/invite-anyone.php:107
 msgid ""
 "Want to invite someone to the group who is not yet a member of the site?"
 msgstr "¿Quieres invitar a alguien al grupo que aún no es miembro del sitio?"
 
-#: by-email/by-email.php:1426 by-email/by-email.php:1466
+#: by-email/by-email.php:1352 by-email/by-email.php:1392
 msgid "We couldn't find any invitations associated with this email address."
 msgstr ""
 "No pudimos encontrar ninguna invitación asociada con esta dirección de "
@@ -970,15 +927,7 @@ msgstr ""
 "¡Bienvenido! Has sido invitado a unirte al sitio. Complete la información a "
 "continuación para crear su cuenta."
 
-#: by-email/by-email.php:187
-msgid ""
-"Welcome! You've been invited %s to join the site. Please fill out the "
-"information below to create your account."
-msgstr ""
-"¡Bienvenid@! Has sido invitado %s a unirte al sitio. Por favor, proporciona "
-"esta información para crear tu cuenta."
-
-#: admin/admin-panel.php:277
+#: admin/admin-panel.php:497
 msgid ""
 "When you use CloudSponge with Invite Anyone, part of your CloudSponge "
 "monthly payment goes to the author of Invite Anyone. This is a great way to "
@@ -988,11 +937,11 @@ msgstr ""
 "CloudSponge va directamente al autor de Invite Anyone. Esta es una excelente "
 "manera de apoyar el desarrollo futuro del plugin. ¡Gracias por tu apoyo!"
 
-#: admin/admin-stats.php:163 by-email/by-email-db.php:354
+#: admin/admin-stats.php:163 by-email/by-email-db.php:358
 msgid "Yes"
 msgstr "Sí"
 
-#: by-email/by-email.php:1200
+#: by-email/by-email.php:1154
 msgid ""
 "You are only allowed to invite %s more people. Please remove some addresses "
 "and try again"
@@ -1000,7 +949,7 @@ msgstr ""
 "Solo puedes invitar a %s personas más. Elimina algunas direcciones y vuelve "
 "a intentarlo"
 
-#: by-email/by-email.php:947
+#: by-email/by-email.php:1131
 msgid ""
 "You are only allowed to invite up to %s people at a time. Please remove some "
 "addresses and try again"
@@ -1008,7 +957,7 @@ msgstr ""
 "Sólo puedes invitar hasta %s personas al mismo tiempo. Por favor, borra "
 "algunas direcciones e intenta de nuevo"
 
-#: by-email/cloudsponge-integration.php:71
+#: by-email/cloudsponge-integration.php:79
 msgid ""
 "You can also add email addresses <a class=\"cs_import\">from your Address "
 "Book</a>."
@@ -1016,22 +965,26 @@ msgstr ""
 "También puedes añadir emails <a class=\"cs_import\">de tu lista de "
 "contactos</a>."
 
-#: by-email/by-email.php:657
+#: by-email/by-email.php:630
 msgid "You can invite a maximum of %s people at a time."
 msgstr "Puede invitar a un máximo de %s personas a la vez."
 
-#: by-email/by-email.php:522
+#: by-email/by-email.php:626
 msgid ""
 "You can only invite people whose email addresses end in one of the following "
 "domains:"
 msgstr ""
 "Sólo puedes invitar a personas cuyo email termina en los siguientes dominios:"
 
-#: by-email/by-email.php:957
+#: by-email/by-email.php:1141
 msgid "You didn't include any email addresses!"
 msgstr "¡No has incluido ninguna dirección de email!"
 
-#: by-email/by-email.php:784
+#: admin/admin-panel.php:196 admin/admin-panel.php:214
+msgid "You do not have permission to do that."
+msgstr "No tienes permiso para hacer eso."
+
+#: by-email/by-email.php:930
 msgid ""
 "You have been invited by %%INVITERNAME%% to join the %s community.\n"
 "\n"
@@ -1041,15 +994,15 @@ msgstr ""
 "\n"
 "Visita el perfil de %%INVITERNAME%% en %%INVITERURL%%."
 
-#: by-email/by-email.php:644
+#: by-email/by-email.php:761
 msgid "You have sent invitations to the following people."
 msgstr "Has enviado invitaciones a estas personas."
 
-#: by-email/by-email.php:554
+#: by-email/by-email.php:527
 msgid "You have sent the maximum allowed number of invitations."
 msgstr "Has enviado el número máximo de invitaciones permitido."
 
-#: by-email/by-email.php:89
+#: by-email/by-email.php:99
 msgid ""
 "You have successfully opted out. No more invitation emails will be sent to "
 "you by this site."
@@ -1057,25 +1010,17 @@ msgstr ""
 "Has optado por no recibir más invitaciones. Ya no recebirás más invitaciones "
 "vía email de este sitio."
 
-#: by-email/by-email.php:726
+#: by-email/by-email.php:872
 msgid "You haven't sent any email invitations yet."
 msgstr "Nos ha enviado ninguna invitación todavía."
 
-#: admin/admin-panel.php:113
+#: admin/admin-panel.php:264
 msgid "display name of the inviter"
 msgstr "mostrar el nombre de la persona que invita"
-
-#: by-email/by-email.php:467 widgets/widgets.php:61
-msgid "email address"
-msgstr "dirección de email"
 
 #. Author URI of the plugin/theme
 msgid "http://boone.gorg.es"
 msgstr "http://boone.gorg.es"
-
-#. Author URI of the plugin/theme
-msgid "http://boonebgorges.com"
-msgstr "http://boonebgorges.com"
 
 #. Plugin URI of the plugin/theme
 msgid "http://teleogistic.net/code/buddypress/invite-anyone/"
@@ -1086,18 +1031,6 @@ msgstr "http://teleogistic.net/code/buddypress/invite-anyone/"
 msgid "n/a"
 msgstr "no disponible"
 
-#: admin/admin-panel.php:112
+#: admin/admin-panel.php:263
 msgid "name of your website"
 msgstr "nombre de su sitio"
-
-#~ msgid "Please remove the email address and try again."
-#~ msgstr "Por favor borre la dirección de correo e intente nuevamente."
-
-#~ msgid "Subject:"
-#~ msgstr "Título:"
-
-#~ msgid "Your invitations were sent successfully!"
-#~ msgstr "Sus invitaciones fueron enviadas satisfactoriamente!"
-
-#~ msgid "http://teleogistic.net"
-#~ msgstr "http://teleogistic.net"

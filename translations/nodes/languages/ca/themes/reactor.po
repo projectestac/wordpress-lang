@@ -1,7 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Reactor\n"
-"POT-Creation-Date: 2017-02-06 14:53+0100\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/reactor\n"
+"POT-Creation-Date: 2018-10-10 07:17:47+00:00\n"
 "PO-Revision-Date: 2018-07-17 16:03+0200\n"
 "Last-Translator: Joan Sala Soler <jsala236@xtec.cat>\n"
 "Language-Team: awtheme\n"
@@ -26,14 +27,13 @@ msgstr "Formulari de contacte"
 msgid "% Comments"
 msgstr "% comentaris"
 
+#. translators: 1: date, 2: time
 #: library/inc/extensions/comments.php:44
-#, php-format
 msgid "%1$s at %2$s"
 msgstr "%1$s a les %2$s"
 
 #: library/inc/content/content-posts.php:30
 #: post-formats/format-portfolio.php:28
-#, php-format
 msgid "%s"
 msgstr "%s"
 
@@ -93,7 +93,6 @@ msgid "404 Not Found"
 msgstr "No s'ha trobat"
 
 #: image.php:32
-#, php-format
 msgid ""
 "<span class=\"meta-prep meta-prep-entry-date\">Published </span> <span class="
 "\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\" pubdate>%2$s</"
@@ -120,13 +119,17 @@ msgstr "Acordió"
 msgid "Actions"
 msgstr "Accions"
 
-#: functions.php:253 functions.php:304
+#: functions.php:253 functions.php:302
 msgid "Activity"
 msgstr "Activitat"
 
 #: functions.php:254
 msgid "Activity Plus"
 msgstr "Activitat Plus"
+
+#: functions.php:283
+msgid "Activity report in social network"
+msgstr "Informe d'activitats a la xarxa social"
 
 #: functions.php:266
 msgctxt "add new"
@@ -149,6 +152,10 @@ msgstr "Afegeix pàgines addicionals"
 msgid "Add an About page"
 msgstr "Afegeix una pàgina Quant a"
 
+#. Author of the plugin/theme
+msgid "Albert Bachiller"
+msgstr "Albert Bachiller"
+
 #: custom-tac/metabox-post-parametres.php:58
 msgid "Alert"
 msgstr "Alerta"
@@ -157,15 +164,15 @@ msgstr "Alerta"
 msgid "All"
 msgstr "Tot"
 
-#: functions.php:356
+#: functions.php:354
 msgid "All Forums"
 msgstr "Tots els fòrums"
 
-#: functions.php:369
+#: functions.php:367
 msgid "All Replies"
 msgstr "Totes les respostes"
 
-#: functions.php:362
+#: functions.php:360
 msgid "All Topics"
 msgstr "Tots els temes"
 
@@ -187,19 +194,19 @@ msgstr "Elements associats"
 msgid "Available "
 msgstr "Disponible "
 
-#: functions.php:282
-msgid "BP Moderation"
-msgstr "Moderació de comentaris"
-
 #: library/inc/metaboxes/meta-fields.php:23
 msgid "Barra esquerra (Ginys)"
 msgstr "Barra esquerra (Ginys)"
+
+#. Template Name of the plugin/theme
+msgid "Barra esquerra (Subpàgines)"
+msgstr "Barra esquerra (Subpàgines)"
 
 #: custom-tac/welcome-panel.php:47
 msgid "Bookings"
 msgstr "Sistema de reserves"
 
-#: custom-tac/welcome-panel.php:48 functions.php:252 functions.php:302
+#: custom-tac/welcome-panel.php:48 functions.php:252 functions.php:300
 msgid "BuddyPress"
 msgstr "Xarxa Nodes (BuddyPress)"
 
@@ -211,7 +218,7 @@ msgstr "Documents de BuddyPress"
 msgid "BuddyPress Invitations"
 msgstr "Invitacions de BuddyPress"
 
-#: functions.php:257 functions.php:330
+#: functions.php:257 functions.php:328
 msgid "BuddyPress Like"
 msgstr "BuddyPress Like"
 
@@ -232,7 +239,6 @@ msgid "Category Pages"
 msgstr "Totes les pàgines de categories"
 
 #: taxonomy-portfolio-category.php:24
-#, php-format
 msgid "Category: %s"
 msgstr "Categoria: %s"
 
@@ -244,14 +250,16 @@ msgstr "Tria un fitxer"
 msgid "Comments are closed."
 msgstr "Els comentaris estan tancats."
 
-#: functions.php:255 functions.php:327
+#: functions.php:255 functions.php:325
 msgid "Components"
 msgstr "Components"
 
-#: functions.php:260 functions.php:341
+#: functions.php:260 functions.php:339
 msgid "Configuració"
 msgstr "Configuració"
 
+#. #-#-#-#-#  reactor.pot (NODES GENERAL 1.0.0)  #-#-#-#-#
+#. Template Name of the plugin/theme
 #: library/inc/customizer/customize.php:747
 msgid "Contact Page"
 msgstr "Contacte"
@@ -260,20 +268,19 @@ msgstr "Contacte"
 msgid "Contain Top Bar Width"
 msgstr "Conté l'amplada de la barra superior"
 
-#: functions.php:283
-msgid "Contents"
-msgstr "Continguts"
-
 #: content.php:16
 msgid "Continue reading..."
 msgstr "Continua llegint..."
+
+#: custom-tac/capcalera/icones-capcalera-settings.php:61
+msgid "Copia el nom de la icona i enganxa'l a la posició desitjada."
+msgstr "Copia el nom de la icona i enganxa'l a la posició desitjada."
 
 #: custom-tac/welcome-panel.php:28
 msgid "Customize"
 msgstr "Personalitza"
 
 #: archive-portfolio.php:26
-#, php-format
 msgid "Daily Archives: %s"
 msgstr "Arxius diaris: %s"
 
@@ -309,6 +316,16 @@ msgstr "Edita"
 msgid "Edit Home Page"
 msgstr "Edita la pàgina principal"
 
+#: custom-tac/capcalera/icones-capcalera-settings.php:116
+#: custom-tac/capcalera/icones-capcalera-settings.php:190
+msgid "Element 1:"
+msgstr "Element 1:"
+
+#: custom-tac/capcalera/icones-capcalera-settings.php:149
+#: custom-tac/capcalera/icones-capcalera-settings.php:223
+msgid "Element 2:"
+msgstr "Element 2:"
+
 #: comments.php:71
 msgid "Email "
 msgstr "Correu electrònic "
@@ -320,6 +337,13 @@ msgstr "Adreça electrònica"
 #: library/inc/customizer/customize.php:772
 msgid "Email Subject"
 msgstr "Assumpte del missatge"
+
+#: custom-tac/capcalera/icones-capcalera-settings.php:132
+#: custom-tac/capcalera/icones-capcalera-settings.php:165
+#: custom-tac/capcalera/icones-capcalera-settings.php:206
+#: custom-tac/capcalera/icones-capcalera-settings.php:239
+msgid "Enllaç:"
+msgstr "Enllaç:"
 
 #: library/inc/metaboxes/meta-fields.php:208
 msgid "Esquema"
@@ -379,7 +403,7 @@ msgstr "Enllaços del peu de pàgina"
 msgid "Footer Site Info"
 msgstr "Informació del lloc al peu de pàgina"
 
-#: functions.php:355 functions.php:383
+#: functions.php:353 functions.php:381
 msgid "Forums"
 msgstr "Fòrums"
 
@@ -395,15 +419,16 @@ msgstr "Portada (Barra esquerra)"
 msgid "Front Page Secondary"
 msgstr "Portada (Barra dreta)"
 
+#: custom-tac/capcalera/icones-capcalera-settings.php:255
 #: library/inc/customizer/customize.php:171
 msgid "General"
 msgstr "General"
 
-#: functions.php:259 functions.php:331
+#: functions.php:259 functions.php:329
 msgid "Group Email Options"
 msgstr "Opcions de correu del node"
 
-#: functions.php:256 functions.php:329
+#: functions.php:256 functions.php:327
 msgid "Groups"
 msgstr "Nodes"
 
@@ -427,11 +452,35 @@ msgstr "Inici"
 msgid "Icon"
 msgstr "Icona"
 
+#: custom-tac/capcalera/icones-capcalera-settings.php:124
+#: custom-tac/capcalera/icones-capcalera-settings.php:157
+#: custom-tac/capcalera/icones-capcalera-settings.php:198
+#: custom-tac/capcalera/icones-capcalera-settings.php:231
+msgid "Icona:"
+msgstr "Icona:"
+
+#: custom-tac/capcalera/icones-capcalera-settings.php:108
+msgid "Icones a la fila 1"
+msgstr "Icones a la fila 1"
+
+#: custom-tac/capcalera/icones-capcalera-settings.php:182
+msgid "Icones a la fila 2"
+msgstr "Icones a la fila 2"
+
+#: custom-tac/capcalera/icones-capcalera-settings.php:29
+#: custom-tac/capcalera/icones-capcalera-settings.php:47
+msgid "Icones de capçalera"
+msgstr "Icones de capçalera"
+
+#: custom-tac/capcalera/icones-capcalera-settings.php:60
+msgid "Icones disponibles"
+msgstr "Icones disponibles"
+
 #: library/inc/extensions/sidebars.php:108
 msgid "Invalid sidebar ID"
 msgstr "Identificador de la barra lateral no vàlid"
 
-#: functions.php:274 functions.php:337
+#: functions.php:274 functions.php:335
 msgid "Invite Anyone"
 msgstr "Convida Membres"
 
@@ -459,7 +508,6 @@ msgid "Link Titles"
 msgstr "Enllaça els títols"
 
 #: comments.php:67
-#, php-format
 msgid ""
 "Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of "
 "this account\">Log out &raquo;</a>"
@@ -497,7 +545,6 @@ msgid "Manage "
 msgstr "Gestiona "
 
 #: custom-tac/welcome-panel.php:46
-#, php-format
 msgid "Manage <a href=\"%1$s\">widgets</a> or <a href=\"%2$s\">menus</a>"
 msgstr ""
 "Gestiona els <a href=\"%1$s\">ginys</a> o els <a href=\"%2$s\">menús</a>"
@@ -511,18 +558,20 @@ msgid "Merge"
 msgstr "Combina"
 
 #: library/inc/functions/breadcrumbs.php:179
-#, php-format
 msgid "Minute %d"
 msgstr "Minut %d"
 
 #: archive-portfolio.php:28
-#, php-format
 msgid "Monthly Archives: %s"
 msgstr "Arxius del mes: %s"
 
 #: custom-tac/welcome-panel.php:44
 msgid "More Actions"
 msgstr "Més accions"
+
+#: custom-tac/capcalera/icones-capcalera-settings.php:263
+msgid "Mostra text sota la icona:"
+msgstr "Mostra text sota la icona:"
 
 #: custom-tac/metabox-post-parametres.php:57
 msgid "Music"
@@ -532,6 +581,10 @@ msgstr "Música"
 msgid "NO Comments"
 msgstr "No hi ha comentaris"
 
+#. Theme Name of the plugin/theme
+msgid "NODES GENERAL"
+msgstr "NODES GENERAL"
+
 #: comments.php:69
 msgid "Name "
 msgstr "Nom "
@@ -540,15 +593,15 @@ msgstr "Nom "
 msgid "Navigation"
 msgstr "Menú"
 
-#: functions.php:357
+#: functions.php:355
 msgid "New Forum"
 msgstr "Fòrum nou"
 
-#: functions.php:370
+#: functions.php:368
 msgid "New Reply"
 msgstr "Resposta nova"
 
-#: functions.php:363
+#: functions.php:361
 msgid "New Topic"
 msgstr "Tema nou"
 
@@ -560,6 +613,8 @@ msgstr "Comentaris recents"
 msgid "Newer posts"
 msgstr "Recents"
 
+#. #-#-#-#-#  reactor.pot (NODES GENERAL 1.0.0)  #-#-#-#-#
+#. Template Name of the plugin/theme
 #: library/inc/customizer/customize.php:667
 msgid "News Page"
 msgstr "Pàgina de notícies"
@@ -611,12 +666,10 @@ msgid "One Column"
 msgstr "Pàgina sencera"
 
 #: library/inc/functions/breadcrumbs.php:176
-#, php-format
 msgid "Page %d"
 msgstr "Pàgina %d"
 
 #: library/inc/functions/helpers.php:291
-#, php-format
 msgid "Page %s"
 msgstr "Pàgina %s"
 
@@ -648,6 +701,14 @@ msgstr "Retroenllaç:"
 #: custom-tac/metabox-post-parametres.php:55
 msgid "Podcast"
 msgstr "Podcast"
+
+#. Template Name of the plugin/theme
+msgid "Portada"
+msgstr "Portada"
+
+#. Template Name of the plugin/theme
+msgid "Portfolio"
+msgstr "Portafolis"
 
 #: library/inc/customizer/customize.php:795
 msgid "Portfolio Page"
@@ -704,13 +765,17 @@ msgstr "Articles recents"
 msgid "Remove File"
 msgstr "Suprimeix l'arxiu"
 
-#: functions.php:368
+#: functions.php:366
 msgid "Replies"
 msgstr "Respostes"
 
 #: library/inc/extensions/comments.php:58
 msgid "Reply"
 msgstr "Contesta"
+
+#: functions.php:282
+msgid "Reports"
+msgstr "Informes"
 
 #: library/inc/functions/top-bar.php:81 library/inc/functions/top-bar.php:84
 #: searchform.php:15 searchform.php:18
@@ -722,7 +787,6 @@ msgid "Search for:"
 msgstr "Cerca:"
 
 #: library/inc/functions/breadcrumbs.php:174
-#, php-format
 msgid "Search results for &quot;%1$s&quot;"
 msgstr "Resultats de la cerca de &quot;%1$s&quot;"
 
@@ -746,7 +810,7 @@ msgstr "Envia el missatge"
 msgid "Sense barres laterals"
 msgstr "Sense barres laterals"
 
-#: functions.php:269 functions.php:285
+#: functions.php:269
 msgid "Settings"
 msgstr "Configuració"
 
@@ -832,7 +896,6 @@ msgid "Support"
 msgstr "Espai de suport a Àgora"
 
 #: taxonomy-portfolio-tag.php:24
-#, php-format
 msgid "Tag: %s"
 msgstr "Etiqueta: %s"
 
@@ -843,6 +906,10 @@ msgstr "Descripció curta"
 #: library/inc/functions/post-meta.php:86
 msgid "Tags:"
 msgstr "Etiquetes:"
+
+#. Description of the plugin/theme
+msgid "Tema desenvolupat pel Departament d'Ensenyament de Catalunya"
+msgstr "Tema desenvolupat pel Departament d'Ensenyament de Catalunya"
 
 #: library/inc/customizer/customize.php:779 page-templates/contact.php:15
 msgid "Thank you! Your email was sent successfully."
@@ -894,11 +961,11 @@ msgstr "Mostra el títol a dalt de tot"
 msgid "Top Bar Title Link"
 msgstr "Títol de l'enllaç a dalt de tot"
 
-#: functions.php:364
+#: functions.php:362
 msgid "Topic Tags"
 msgstr "Etiquetes del tema"
 
-#: functions.php:361
+#: functions.php:359
 msgid "Topics"
 msgstr "Temes"
 
@@ -918,28 +985,21 @@ msgstr "Adreça web"
 msgid "URL "
 msgstr "URL "
 
-#: functions.php:284
-msgid "Users"
-msgstr "Usuaris"
-
 #: custom-tac/metabox-post-parametres.php:53
 msgid "Video"
 msgstr "Vídeo"
 
 #: library/inc/functions/post-meta.php:75
-#, php-format
 msgid "View all posts by %s"
 msgstr "Visualitza tots els articles de %s"
 
 #: library/inc/functions/post-meta.php:68
-#, php-format
 msgid "View all posts from %s %s"
 msgstr "Visualitza tots els articles de %s%s"
 
 #: library/inc/content/content-posts.php:102
 #: library/inc/functions/post-meta.php:44
 #: library/inc/functions/post-meta.php:50
-#, php-format
 msgid "View all posts in %s"
 msgstr "Visualitza tots els articles a %s"
 
@@ -952,7 +1012,6 @@ msgid "Website "
 msgstr "La vostra pàgina web "
 
 #: library/inc/functions/breadcrumbs.php:182
-#, php-format
 msgid "Week %d"
 msgstr "Setmana %d"
 
@@ -975,7 +1034,6 @@ msgid "Y"
 msgstr "A"
 
 #: archive-portfolio.php:30
-#, php-format
 msgid "Yearly Archives: %s"
 msgstr "Arxius de l'any: %s"
 
@@ -1023,6 +1081,10 @@ msgstr "G:i:s"
 msgid "g:i a"
 msgstr "G:i"
 
+#. Author URI of the plugin/theme
+msgid "http://jurjur.org"
+msgstr "http://jurjur.org"
+
 #: library/inc/functions/post-meta.php:85
 msgid "in"
 msgstr "a"
@@ -1030,111 +1092,3 @@ msgstr "a"
 #: library/inc/customizer/customize.php:843
 msgid "jQuery Filtering"
 msgstr "Filtre de jQuery"
-
-#~ msgid "About %s"
-#~ msgstr "Sobre %s"
-
-#~ msgid "Author: %s"
-#~ msgstr "Autor: %s"
-
-#~ msgid "Bordeaux"
-#~ msgstr "Bordeus"
-
-#~ msgid "Chocolate"
-#~ msgstr "Xocolata"
-
-#~ msgid "Clear blue and dark blue"
-#~ msgstr "Blau clar i blau fosc"
-
-#~ msgid "Clear green and dark green"
-#~ msgstr "Verd clar i verd fosc"
-
-#~ msgid "Columns"
-#~ msgstr "Columnes"
-
-#~ msgid "Dark blue and orange"
-#~ msgstr "Blau fosc i taronja"
-
-#~ msgid "Green and blue"
-#~ msgstr "Verd i blau"
-
-#~ msgid "Green and brown"
-#~ msgstr "Verd i marró"
-
-#~ msgid "Layout"
-#~ msgstr "Esquema de pàgina"
-
-#~ msgid "Leave a Comment"
-#~ msgstr "Deixa un comentari"
-
-#~ msgid "Log out"
-#~ msgstr "Surt"
-
-#~ msgid "Logged in as"
-#~ msgstr "Heu entrat com a"
-
-#~ msgid "Nothing found"
-#~ msgstr "No s'ha trobat contingut"
-
-#~ msgid "Orange and green"
-#~ msgstr "Taronja i verd"
-
-#~ msgid "Orange and grey"
-#~ msgstr "Taronja i gris"
-
-#~ msgid "Oranges"
-#~ msgstr "Taronges"
-
-#~ msgid "Pink and green"
-#~ msgstr "Rosa i verd"
-
-#~ msgid "Pink and grey"
-#~ msgstr "Rosa i gris"
-
-#~ msgid "Powered by "
-#~ msgstr "Fet amb "
-
-#~ msgid "Purple and clear green"
-#~ msgstr "Lila i verd clar"
-
-#~ msgid "Red and blue"
-#~ msgstr "Vermell i blau"
-
-#~ msgid "Red and green"
-#~ msgstr "Vermell i verd"
-
-#~ msgid "Red and orange"
-#~ msgstr "Vermell i taronja"
-
-#~ msgid "Roses"
-#~ msgstr "Roses"
-
-#~ msgid "Search Results for: %s"
-#~ msgstr "Resultats per a: %s"
-
-#~ msgid "Secondary"
-#~ msgstr "Secundari"
-
-#~ msgid "Select a template layout"
-#~ msgstr "Selecciona un esquema"
-
-#~ msgid "Sienna"
-#~ msgstr "Sienna"
-
-#~ msgid "Turquoises"
-#~ msgstr "Turqueses"
-
-#~ msgid "Yellow and blue"
-#~ msgstr "Groc i blau"
-
-#~ msgid "Yellow and green"
-#~ msgstr "Groc i verd"
-
-#~ msgid "Yellow and purple"
-#~ msgstr "Groc i lila"
-
-#~ msgid "Yellow and red"
-#~ msgstr "Yellow and red"
-
-#~ msgid "customize.php"
-#~ msgstr "customize.php"

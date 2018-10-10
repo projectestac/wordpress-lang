@@ -2,17 +2,18 @@
 # This file is distributed under the same license as the Plugins - Polylang - Stable (latest release) package.
 msgid ""
 msgstr ""
+"Project-Id-Version: Plugins - Polylang - Stable (latest release)\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/polylang\n"
+"POT-Creation-Date: 2018-10-10 07:17:46+00:00\n"
 "PO-Revision-Date: 2018-07-17 23:17+0200\n"
+"Last-Translator: Joan Sala Soler <jsala236@xtec.cat>\n"
+"Language-Team: \n"
+"Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Poedit 2.0.7\n"
-"Language: ca\n"
-"Project-Id-Version: Plugins - Polylang - Stable (latest release)\n"
-"POT-Creation-Date: \n"
-"Last-Translator: Joan Sala Soler <jsala236@xtec.cat>\n"
-"Language-Team: \n"
 
 #. translators: Calendar caption: 1: month name, 2: 4-digit year
 #: include/widget-calendar.php:131
@@ -20,21 +21,15 @@ msgctxt "calendar caption"
 msgid "%1$s %2$s"
 msgstr "%1$s %2$s"
 
-#. translators: comments widget: 1: comment author, 2: post link
-#: include/widget-recent-comments.php:85
-msgctxt "widgets"
-msgid "%1$s on %2$s"
-msgstr "%1$s on %2$s"
-
 #: admin/admin-filters-columns.php:173
 msgid "&mdash; No Change &mdash;"
 msgstr "&mdash; Sense canvis &mdash;"
 
-#: admin/admin-filters-post.php:306
+#: admin/admin-filters-post.php:249
 msgid "(no parent)"
 msgstr "(sense pàgina mare)"
 
-#: settings/settings.php:106
+#: settings/settings.php:111
 msgid "About Polylang"
 msgstr "Sobre Polylang"
 
@@ -66,11 +61,11 @@ msgstr ""
 "lloc web i Lingotek farà un càlcul exacte del nombre de paraules."
 
 # MODIFICAT XTEC
-#: settings/settings-cpt.php:68
+#: settings/settings-cpt.php:79
 msgid "Activate languages and translations for custom post types."
 msgstr "Activa idiomes i traduccions per a tipus d'articles personalitzats."
 
-#: settings/settings-cpt.php:86
+#: settings/settings-cpt.php:103
 msgid "Activate languages and translations for custom taxonomies."
 msgstr "Activa idiomes i traduccions per a taxonomies personalitzades."
 
@@ -79,7 +74,7 @@ msgid "Activate languages and translations for media"
 msgstr "Activa idiomes i traduccions per als mitjans"
 
 # MODIFICAT XTEC
-#: settings/settings-cpt.php:21
+#: settings/settings-cpt.php:22
 msgid ""
 "Activate the languages and translations management for the custom post types "
 "and taxonomies."
@@ -100,7 +95,7 @@ msgstr "Activat"
 msgid "Add a translation in %s"
 msgstr "Afegeix una traducció en %s"
 
-#: settings/view-tab-lang.php:27 settings/view-tab-lang.php:146
+#: settings/view-tab-lang.php:31 settings/view-tab-lang.php:169
 msgid "Add new language"
 msgstr "Afegeix idioma"
 
@@ -112,7 +107,7 @@ msgstr "Afegeix al menú"
 msgid "Adds multilingual capability to WordPress"
 msgstr "Afegeix capacitat multilingüística a WordPress"
 
-#: admin/admin-filters.php:135
+#: admin/admin-filters.php:145
 msgid "Admin language"
 msgstr "Idioma de l'administrador"
 
@@ -128,16 +123,9 @@ msgstr "Albània"
 msgid "Algeria"
 msgstr "Algèria"
 
-#: admin/admin-filters.php:59 include/translated-post.php:98
+#: admin/admin-filters.php:68 include/translated-post.php:105
 msgid "All languages"
 msgstr "Tots els idiomes"
-
-# modificat xtec
-#: modules/share-slug/settings-share-slug.php:21
-msgid ""
-"Allows to share the same url slug accross languages for posts and terms."
-msgstr ""
-"Permet compartir la mateixa barra d'URL entre idiomes per articles i termes."
 
 #: modules/share-slug/settings-share-slug.php:21
 msgid "Allows to share the same url slug across languages for posts and terms."
@@ -337,15 +325,15 @@ msgstr "Xina"
 msgid "Choose %s as default language"
 msgstr "Tria %s com a idioma per defecte"
 
-#: settings/view-tab-lang.php:116
+#: settings/view-tab-lang.php:137
 msgid "Choose a flag for the language."
 msgstr "Trieu una bandera per a l'idioma."
 
-#: include/widget-languages.php:48 settings/view-tab-lang.php:42
+#: include/widget-languages.php:48 settings/view-tab-lang.php:52
 msgid "Choose a language"
 msgstr "Trieu l'idioma"
 
-#: settings/view-tab-lang.php:99
+#: settings/view-tab-lang.php:118
 msgid "Choose the text direction for the language"
 msgstr "Trieu la direcció del text de l'idioma "
 
@@ -353,7 +341,7 @@ msgstr "Trieu la direcció del text de l'idioma "
 msgid "Christmas Island"
 msgstr "Illa Christmas"
 
-#: settings/view-tab-strings.php:17
+#: settings/view-tab-strings.php:18
 msgid "Clean strings translation database"
 msgstr "Neteja la base de dades de traduccions de cadenes"
 
@@ -377,7 +365,7 @@ msgstr "Codi"
 msgid "Colombia"
 msgstr "Colòmbia"
 
-#: modules/sync/settings-sync.php:87
+#: modules/sync/settings-sync.php:91
 msgid "Comment status"
 msgstr "Estat del comentari"
 
@@ -413,21 +401,21 @@ msgstr "Croàcia"
 msgid "Cuba"
 msgstr "Cuba"
 
-#: modules/sync/settings-sync.php:86
+#: modules/sync/settings-sync.php:90
 msgid "Custom fields"
 msgstr "Camps personalitzats"
 
 # MODIFICAT XTEC
-#: settings/settings-cpt.php:54
+#: settings/settings-cpt.php:61
 msgid "Custom post types"
 msgstr "Tipus d'articles personalitzats"
 
 # MODIFICAT XTEC
-#: settings/settings-cpt.php:20
+#: settings/settings-cpt.php:21
 msgid "Custom post types and Taxonomies"
 msgstr "Personalitza tipus d'articles i taxonomies"
 
-#: settings/settings-cpt.php:72
+#: settings/settings-cpt.php:85
 msgid "Custom taxonomies"
 msgstr "Taxonomies personalitzades"
 
@@ -443,7 +431,7 @@ msgstr "República Txeca"
 msgid "Date Format"
 msgstr "Format de la data"
 
-#: settings/settings-licenses.php:140 settings/settings-module.php:50
+#: settings/settings-licenses.php:143 settings/settings-module.php:50
 msgid "Deactivate"
 msgstr "Desactiva"
 
@@ -484,7 +472,7 @@ msgstr "República Democràtica del Congo"
 msgid "Denmark"
 msgstr "Dinamarca"
 
-#: settings/table-settings.php:147
+#: settings/table-settings.php:165
 msgid "Description"
 msgstr "Descripció"
 
@@ -556,7 +544,7 @@ msgstr "Equador"
 msgid "Edit"
 msgstr "Edita"
 
-#: settings/view-tab-lang.php:27
+#: settings/view-tab-lang.php:31
 msgid "Edit language"
 msgstr "Edita idioma"
 
@@ -600,7 +588,7 @@ msgstr "Guinea Equatorial"
 msgid "Eritrea"
 msgstr "Eritrea"
 
-#: install/plugin-updater.php:342
+#: install/plugin-updater.php:413
 msgid "Error"
 msgstr "Error"
 
@@ -616,8 +604,8 @@ msgstr "Estònia"
 msgid "Ethiopia"
 msgstr "Etiòpia"
 
-#: settings/settings-url.php:50 settings/settings-url.php:59
-#: settings/settings-url.php:110 settings/settings-url.php:119
+#: settings/settings-url.php:54 settings/settings-url.php:65
+#: settings/settings-url.php:128 settings/settings-url.php:139
 msgid "Example:"
 msgstr "Exemple:"
 
@@ -626,11 +614,6 @@ msgstr "Exemple:"
 #: settings/settings-url.php:166
 msgid "Example: %1$s instead of %2$s"
 msgstr "Exemple: %1$s en comptes de %2$s"
-
-#. translators: %s are urls
-#: settings/settings-url.php:141
-msgid "Example: %s instead of %s"
-msgstr "Exemple: %s en comptes de %s"
 
 #: include/widget-calendar.php:224
 msgctxt "daily archives date format"
@@ -645,7 +628,7 @@ msgstr "Illes Falkland"
 msgid "Faroe Islands"
 msgstr "Illes Fèroe"
 
-#: modules/sync/settings-sync.php:95
+#: modules/sync/settings-sync.php:99
 msgid "Featured image"
 msgstr "Imatge destacada"
 
@@ -662,7 +645,7 @@ msgstr "Filtra"
 msgid "Filter by group"
 msgstr "Filtra per grup"
 
-#: admin/admin-base.php:336
+#: admin/admin-base.php:345 admin/admin-base.php:353
 msgid "Filters content by language"
 msgstr "Filtres de contingut per idioma"
 
@@ -670,7 +653,7 @@ msgstr "Filtres de contingut per idioma"
 msgid "Finland"
 msgstr "Finlàndia"
 
-#: settings/table-languages.php:149 settings/view-tab-lang.php:103
+#: settings/table-languages.php:149 settings/view-tab-lang.php:122
 msgid "Flag"
 msgstr "Bandera"
 
@@ -690,7 +673,7 @@ msgstr "Polinèsia Francesa"
 msgid "French Southern Territories"
 msgstr "Terres Australs Franceses"
 
-#: admin/admin-static-pages.php:44
+#: admin/admin-static-pages.php:68
 msgid "Front Page"
 msgstr "Pàgina inicial"
 
@@ -698,7 +681,7 @@ msgstr "Pàgina inicial"
 msgid "Frédéric Demarle"
 msgstr "Frédéric Demarle"
 
-#: settings/table-languages.php:144 settings/view-tab-lang.php:61
+#: settings/table-languages.php:144 settings/view-tab-lang.php:72
 msgid "Full name"
 msgstr "Nom complet"
 
@@ -783,7 +766,7 @@ msgstr "Compta amb taules comparatives de text original i text traduït."
 msgid "Heard Island and McDonald Islands"
 msgstr "Heard Island and McDonald Islands"
 
-#: settings/settings-url.php:91
+#: settings/settings-url.php:104
 msgid "Hide URL language information for default language"
 msgstr "Oculta la informació d'idioma de l'URL a l'idioma predeterminat"
 
@@ -812,7 +795,7 @@ msgid "Iceland"
 msgstr "Islàndia"
 
 # MODIFICAT XTEC
-#: modules/plugins/plugins-compat.php:102
+#: modules/plugins/plugins-compat.php:141
 msgid ""
 "Import <strong>posts, pages, comments, custom fields, categories, and tags</"
 "strong> from a WordPress export file."
@@ -838,12 +821,6 @@ msgid "Invalid license. Please %1$svisit your account page%2$s and verify it."
 msgstr ""
 "Llicència no vàlida. Si us plau, %1$svisita la pàgina del teu compte%2$s i "
 "verifica-la."
-
-# modificat xtec
-#. translators: %s are html tags
-#: settings/settings-licenses.php:106
-msgid "Invalid license. Please %svisit your account page%s and verify it."
-msgstr "Llicència invàlida. %sAccediu al vostre compte%s i verifiqueu-la."
 
 #: settings/flags.php:121
 msgid "Iran"
@@ -881,7 +858,7 @@ msgstr "Jordània"
 msgid "Kazakhstan"
 msgstr "Kazakhstan"
 
-#: settings/settings-url.php:116
+#: settings/settings-url.php:135
 msgid "Keep /language/ in pretty permalinks"
 msgstr "Mantén /idioma/ dels enllaços amigables"
 
@@ -906,8 +883,8 @@ msgid "Kyrgyzstan"
 msgstr "Kirguizistan"
 
 #: admin/admin-filters-columns.php:187 admin/admin-filters-media.php:54
-#: admin/admin-filters-post.php:213 admin/admin-filters-term.php:87
-#: admin/admin-filters-term.php:141 include/translated-post.php:97
+#: admin/admin-filters-post.php:156 admin/admin-filters-term.php:90
+#: admin/admin-filters-term.php:149 include/translated-post.php:104
 msgid "Language"
 msgstr "Idioma"
 
@@ -919,11 +896,11 @@ msgstr "Selector d'idioma"
 msgid "Language added."
 msgstr "S'ha afegit l'idioma"
 
-#: settings/view-tab-lang.php:79
+#: settings/view-tab-lang.php:94
 msgid "Language code"
 msgstr "Codi d'idioma"
 
-#: settings/view-tab-lang.php:84
+#: settings/view-tab-lang.php:101
 msgid "Language code - preferably 2-letters ISO 639-1  (for example: en)"
 msgstr ""
 "Codi d'idioma - preferiblement de dues lletres segons la norma ISO 639-1 "
@@ -934,8 +911,8 @@ msgid "Language deleted."
 msgstr "S'ha esborrat l'idioma."
 
 #: admin/admin-nav-menu.php:50 admin/admin-nav-menu.php:71
-#: admin/admin-nav-menu.php:74 admin/admin-nav-menu.php:103
-#: admin/admin-nav-menu.php:169 install/upgrade.php:320
+#: admin/admin-nav-menu.php:74 admin/admin-nav-menu.php:104
+#: admin/admin-nav-menu.php:169 install/upgrade.php:322
 msgid "Language switcher"
 msgstr "Selector d'idioma"
 
@@ -943,9 +920,9 @@ msgstr "Selector d'idioma"
 msgid "Language updated."
 msgstr "S'ha actualitzat l'idioma."
 
-#: admin/admin-base.php:71 admin/admin-base.php:93
-#: admin/admin-filters-post.php:181 include/translated-post.php:96
-#: settings/settings.php:114
+#: admin/admin-base.php:68 admin/admin-base.php:90
+#: admin/admin-filters-post.php:129 include/translated-post.php:103
+#: settings/settings.php:124
 msgid "Languages"
 msgstr "Idiomes"
 
@@ -961,7 +938,7 @@ msgstr "Letònia"
 msgid "Learn more"
 msgstr "Més informació"
 
-#: lingotek/lingotek.php:262
+#: lingotek/lingotek.php:268
 msgid "Learn more..."
 msgstr "Més informació"
 
@@ -993,7 +970,7 @@ msgstr "Liechtenstein"
 msgid "Lithuania"
 msgstr "Lituània"
 
-#: settings/table-languages.php:145 settings/view-tab-lang.php:70
+#: settings/table-languages.php:145 settings/view-tab-lang.php:83
 msgid "Locale"
 msgstr "Codi d'idioma i regió (locale)"
 
@@ -1078,7 +1055,7 @@ msgstr "Mèxic"
 msgid "Micronesia"
 msgstr "Micronèsia"
 
-#: settings/table-settings.php:146
+#: settings/table-settings.php:164
 msgid "Module"
 msgstr "Mòdul"
 
@@ -1166,7 +1143,7 @@ msgstr "Nigèria"
 msgid "Niue"
 msgstr "Niue"
 
-#: admin/admin-filters-term.php:473
+#: admin/admin-filters-term.php:484
 msgid "None"
 msgstr "Cap"
 
@@ -1203,19 +1180,19 @@ msgstr ""
 "Un cop activat, sol·liciteu una oferta de traducció i un gestor de projectes "
 "qualificat us n'enviarà una sense cap compromís."
 
-#: settings/table-languages.php:148 settings/view-tab-lang.php:120
+#: settings/table-languages.php:148 settings/view-tab-lang.php:141
 msgid "Order"
 msgstr "Ordre"
 
-#: modules/sync/settings-sync.php:94
+#: modules/sync/settings-sync.php:98
 msgid "Page order"
 msgstr "Ordre de la pàgina"
 
-#: modules/sync/settings-sync.php:92
+#: modules/sync/settings-sync.php:96
 msgid "Page parent"
 msgstr "Pàgina mare"
 
-#: modules/sync/settings-sync.php:93
+#: modules/sync/settings-sync.php:97
 msgid "Page template"
 msgstr "Plantilla de la pàgina"
 
@@ -1247,7 +1224,7 @@ msgstr "Perú"
 msgid "Philippines"
 msgstr "Filipines"
 
-#: modules/sync/settings-sync.php:88
+#: modules/sync/settings-sync.php:92
 msgid "Ping status"
 msgstr "Estat dels pings"
 
@@ -1256,7 +1233,7 @@ msgid "Pitcairn"
 msgstr "Pitcairn"
 
 #. translators: %s is a native language name
-#: settings/settings-url.php:197
+#: settings/settings-url.php:231
 msgid "Please enter a valid URL for %s."
 msgstr "Introduiu un URL vàlid per a %s."
 
@@ -1264,11 +1241,6 @@ msgstr "Introduiu un URL vàlid per a %s."
 #: install/upgrade.php:79
 msgid "Please upgrade first to %1$s before ugrading to %2$s."
 msgstr "Actualitza'l primer a %1$s abans d'actualitzar-lo a %2$s."
-
-#. translators: %s are Polylang version numbers
-#: install/upgrade.php:77
-msgid "Please upgrade first to %s before ugrading to %s."
-msgstr "Actualitzeu-lo primer a %s abans d'actualizar-lo a %s."
 
 #: settings/flags.php:192
 msgid "Poland"
@@ -1278,7 +1250,7 @@ msgstr "Polònia"
 msgid "Polylang"
 msgstr "Polylang"
 
-#: install/upgrade.php:74
+#: install/upgrade.php:76
 msgid ""
 "Polylang has been deactivated because you upgraded from a too old version."
 msgstr ""
@@ -1310,19 +1282,6 @@ msgstr ""
 "un ús diari, una pàgina de preguntes freqüents, així com informació per tal "
 "que els programadors puguin adaptar-ne les extensions i temes."
 
-#. translators: %s are html tags
-#: settings/view-about.php:14
-msgid ""
-"Polylang is provided with an extensive %sdocumentation%s (in English only). "
-"It includes information on how to set up your multilingual site and use it "
-"on a daily basis, a FAQ, as well as a documentation for developers to adapt "
-"their plugins and themes."
-msgstr ""
-"Polylang es distribueix amb una %sdocumentació%s extensa (només en anglès). "
-"Inclou informació de com crear un lloc web multilingüe i com fer-ne un ús "
-"diari, una pàgina de preguntes freqüents, així com informació per tal que "
-"els programadors puguin adaptar-ne les extensions i temes."
-
 #. translators: %1$s is link start tag, %2$s is link end tag.
 #: settings/view-about.php:34
 msgid ""
@@ -1331,15 +1290,8 @@ msgstr ""
 "Polylang es distribueix sota la mateixa llicència que WordPress, la %1$sGPL"
 "%2$s."
 
-# modificat xtec
-#. translators: %s are html tags
-#: settings/view-about.php:31
-msgid "Polylang is released under the same license as WordPress, the %sGPL%s."
-msgstr ""
-"Polylang està publicada sota la mateixa llicència que WordPress, la %sGPL%s."
-
 #. translators: %s is an url
-#: settings/settings-url.php:242
+#: settings/settings-url.php:279
 msgid ""
 "Polylang was unable to access the URL %s. Please check that the URL is valid."
 msgstr "Polylang no ha pogut accedir a l'URL %s. Comproveu que sigui vàlida."
@@ -1348,12 +1300,12 @@ msgstr "Polylang no ha pogut accedir a l'URL %s. Comproveu que sigui vàlida."
 msgid "Portugal"
 msgstr "Portugal"
 
-#: settings/view-tab-lang.php:125
+#: settings/view-tab-lang.php:148
 msgid "Position of the language in the language switcher"
 msgstr "Posició al selector d'idioma"
 
 # MODIFICAT XTEC
-#: modules/sync/settings-sync.php:91
+#: modules/sync/settings-sync.php:95
 msgid "Post format"
 msgstr "Format de l'article"
 
@@ -1363,7 +1315,7 @@ msgid "Posts"
 msgstr "Articles"
 
 # MODIFICAT XTEC
-#: admin/admin-static-pages.php:48
+#: admin/admin-static-pages.php:72
 msgid "Posts Page"
 msgstr "Pàgina d'articles"
 
@@ -1373,7 +1325,7 @@ msgid "Posts published on %s"
 msgstr "Articles publicats a %s"
 
 # MODIFICAT XTEC
-#: settings/settings-url.php:42
+#: settings/settings-url.php:44
 msgid "Posts, pages, categories and tags urls are not modified."
 msgstr "L'URL dels articles, pàgines, categories i etiquetes no es modifica."
 
@@ -1381,7 +1333,7 @@ msgstr "L'URL dels articles, pàgines, categories i etiquetes no es modifica."
 msgid "Professionally Translate My Site"
 msgstr "Traduiu el meu lloc web de forma professional"
 
-#: modules/sync/settings-sync.php:90
+#: modules/sync/settings-sync.php:94
 msgid "Published date"
 msgstr "Data de publicació"
 
@@ -1397,16 +1349,7 @@ msgstr "Qatar"
 msgid "Quebec"
 msgstr "Quebec"
 
-#: include/widget-recent-comments.php:47
-msgid "Recent Comments"
-msgstr "Comentaris recents"
-
-# MODIFICAT XTEC
-#: include/widget-recent-posts.php:47
-msgid "Recent Posts"
-msgstr "Articles recents"
-
-#: settings/settings-url.php:107
+#: settings/settings-url.php:124
 msgid "Remove /language/ in pretty permalinks"
 msgstr "Esborra la part /idioma/ dels enllaços amigables"
 
@@ -1491,7 +1434,7 @@ msgstr "Escòcia"
 msgid "Search"
 msgstr "Cerca"
 
-#: settings/view-tab-strings.php:14
+#: settings/view-tab-strings.php:15
 msgid "Search translations"
 msgstr "Cerca traduccions"
 
@@ -1512,15 +1455,15 @@ msgstr "Senegal"
 msgid "Serbia"
 msgstr "Sèrbia"
 
-#: admin/admin-filters-term.php:94 admin/admin-filters-term.php:149
+#: admin/admin-filters-term.php:97 admin/admin-filters-term.php:157
 msgid "Sets the language"
 msgstr "Establiu l'idioma"
 
-#: admin/admin-base.php:78 admin/admin.php:72 settings/settings-module.php:43
+#: admin/admin-base.php:75 admin/admin.php:70 settings/settings-module.php:43
 msgid "Settings"
 msgstr "Paràmetres"
 
-#: settings/settings-licenses.php:190 settings/settings-module.php:180
+#: settings/settings-licenses.php:193 settings/settings-module.php:177
 msgid "Settings saved."
 msgstr "S'ha desat la configuració."
 
@@ -1532,7 +1475,7 @@ msgstr "Seychelles "
 msgid "Share slugs"
 msgstr "Compartir slugs"
 
-#: admin/admin-base.php:321
+#: admin/admin-base.php:336
 msgid "Show all languages"
 msgstr "Mostra tots els idiomes"
 
@@ -1597,7 +1540,7 @@ msgid "Start the process of getting extra services."
 msgstr "Comença a gaudir de serveis addicionals."
 
 # MODIFICAT XTEC
-#: modules/sync/settings-sync.php:89
+#: modules/sync/settings-sync.php:93
 msgid "Sticky posts"
 msgstr "Articles fixats (sticky)"
 
@@ -1605,7 +1548,7 @@ msgstr "Articles fixats (sticky)"
 msgid "String"
 msgstr "Cadena"
 
-#: admin/admin-base.php:75 include/mo.php:18 settings/settings.php:129
+#: admin/admin-base.php:72 include/mo.php:18 settings/settings.php:139
 msgid "Strings translations"
 msgstr "Traduccions de cadenes"
 
@@ -1619,14 +1562,6 @@ msgid "Support and extra features are available to %1$sPolylang Pro%2$s users."
 msgstr ""
 "El servei de suport i les funcionalitats addicionals només estan disponibles "
 "per als usuaris de %1$sPolylang Pro%2$s."
-
-# modificat xtec
-#. translators: %s are html tags
-#: settings/view-about.php:22
-msgid "Support and extra features are available to %sPolylang Pro%s users."
-msgstr ""
-"El suport i les característiques addicionals estan disponibles per a usuaris "
-"%sPolylang Pro%s."
 
 #: settings/flags.php:220
 msgid "Suriname"
@@ -1672,11 +1607,11 @@ msgstr "Tajikistan"
 msgid "Tanzania"
 msgstr "Tanzània"
 
-#: modules/sync/settings-sync.php:85
+#: modules/sync/settings-sync.php:89
 msgid "Taxonomies"
 msgstr "Taxonomies"
 
-#: settings/view-tab-lang.php:88
+#: settings/view-tab-lang.php:105
 msgid "Text direction"
 msgstr "Direcció del text"
 
@@ -1684,16 +1619,16 @@ msgstr "Direcció del text"
 msgid "Thailand"
 msgstr "Tailàndia"
 
-#: admin/admin-static-pages.php:86
+#: admin/admin-static-pages.php:127 admin/admin-static-pages.php:144
 msgid "The chosen static front page must be translated in all languages."
 msgstr ""
 "La pàgina d'inici estàtica que heu triat s'ha de traduir a tots els idiomes."
 
-#: admin/admin-model.php:291
+#: admin/admin-model.php:293
 msgid "The flag does not exist"
 msgstr "La bandera no existeix"
 
-#: settings/settings-url.php:132
+#: settings/settings-url.php:155
 msgid ""
 "The front page url contains the language code instead of the page name or "
 "page id"
@@ -1705,35 +1640,35 @@ msgstr ""
 msgid "The language code contains invalid characters"
 msgstr "El codi d'idioma conté caràcters invàlids"
 
-#: admin/admin-model.php:280
+#: admin/admin-model.php:281
 msgid "The language code must be unique"
 msgstr "El codi d'idioma ha de ser únic"
 
-#: settings/settings-url.php:39
+#: settings/settings-url.php:40
 msgid "The language is set from content"
 msgstr "L'idioma s'extreu del contingut"
 
-#: settings/settings-url.php:65
+#: settings/settings-url.php:72
 msgid "The language is set from different domains"
 msgstr "L'idioma s'extreu a partir dels diversos dominis"
 
-#: settings/settings-url.php:47
+#: settings/settings-url.php:50
 msgid "The language is set from the code in the URL"
 msgstr "L'idioma s'extreu del codi de l'URL"
 
-#: settings/settings-url.php:47
+#: settings/settings-url.php:50
 msgid "The language is set from the directory name in pretty permalinks"
 msgstr "L'idioma s'extreu del nom del directori dels enllaços amigables"
 
-#: settings/settings-url.php:56
+#: settings/settings-url.php:61
 msgid "The language is set from the subdomain name in pretty permalinks"
 msgstr "L'idioma s'extreu del nom del subdomini dels enllaços amigables"
 
-#: admin/admin-model.php:286
+#: admin/admin-model.php:288
 msgid "The language must have a name"
 msgstr "L'idioma ha de tenir un nom"
 
-#: settings/settings.php:166
+#: settings/settings.php:176
 msgid ""
 "The language was created, but the WordPress language file was not "
 "downloaded. Please install it manually."
@@ -1745,7 +1680,7 @@ msgstr ""
 msgid "The license key never expires."
 msgstr "La clau de llicència mai caduca."
 
-#: settings/view-tab-lang.php:66
+#: settings/view-tab-lang.php:79
 msgid "The name is how it is displayed on your site (for example: English)."
 msgstr "El nom és el que apareix al vostre lloc web (per exemple: català)"
 
@@ -1760,12 +1695,12 @@ msgstr ""
 "valors (o traduccions en cas de taxonomies i pàgines mare) de contingut meta "
 "entre les traduccions d'un article o pàgina."
 
-#: admin/admin-filters.php:56
+#: admin/admin-filters.php:65
 msgid "The widget is displayed for:"
 msgstr "El giny es mostra per a:"
 
 # MODIFICAT XTEC
-#: settings/settings.php:295
+#: settings/settings.php:305
 msgid "There are posts, pages, categories or tags without language."
 msgstr "Hi ha articles, pàgines, categories o etiquetes sense idioma."
 
@@ -1835,12 +1770,12 @@ msgstr "Eines"
 msgid "Translate slugs"
 msgstr "Traduir slugs"
 
-#: include/filters.php:323
+#: include/filters.php:301
 msgid "Translated user descriptions"
 msgstr "Descripcions d'usuaris traduïdes"
 
 #. translators: accessibility text
-#: admin/view-translations-post.php:53 admin/view-translations-term.php:64
+#: admin/view-translations-post.php:57 admin/view-translations-term.php:76
 msgid "Translation"
 msgstr "Traducció"
 
@@ -1849,7 +1784,7 @@ msgid "Translation Management System"
 msgstr "Sistema de gestió de traduccions"
 
 #: admin/view-translations-media.php:12 admin/view-translations-post.php:11
-#: admin/view-translations-term.php:13 admin/view-translations-term.php:18
+#: admin/view-translations-term.php:13 admin/view-translations-term.php:20
 #: settings/table-string.php:119
 msgid "Translations"
 msgstr "Traduccions"
@@ -1894,7 +1829,7 @@ msgstr "Uganda"
 msgid "Ukraine"
 msgstr "Ucraïna"
 
-#: include/model.php:396
+#: include/model.php:388
 msgid "Uncategorized"
 msgstr "Sense categoria"
 
@@ -1914,7 +1849,7 @@ msgstr "Estats Units d'Amèrica"
 msgid "United States Virgin Islands"
 msgstr "Illes Verges Nord-americanes"
 
-#: settings/view-tab-lang.php:146
+#: settings/view-tab-lang.php:169
 msgid "Update"
 msgstr "Actualitza"
 
@@ -1922,7 +1857,7 @@ msgstr "Actualitza"
 msgid "Upgrade now."
 msgstr "Actualitzar ara."
 
-#: admin/admin-filters.php:178
+#: admin/admin-filters.php:188
 msgid "Upgrading language files&#8230;"
 msgstr "S'estan actualitzant els arxius d'idioma&#8230;"
 
@@ -1930,7 +1865,7 @@ msgstr "S'estan actualitzant els arxius d'idioma&#8230;"
 msgid "Uruguay"
 msgstr "Uruguai"
 
-#: settings/view-tab-strings.php:18
+#: settings/view-tab-strings.php:20
 msgid ""
 "Use this to remove unused strings from database, for example after a plugin "
 "has been uninstalled."
@@ -1938,12 +1873,12 @@ msgstr ""
 "Feu servir aquesta opció per treure de la base de dades cadenes que no es "
 "fan servir, per exemple, després de desinstal·lar un plugin."
 
-#: include/filters.php:356
+#: include/filters.php:334
 msgid "User"
 msgstr "Usuari"
 
 #. translators: %s is a language native name
-#: include/filters.php:347
+#: include/filters.php:325
 msgid "User description - %s"
 msgstr "Descripció usuari - %s"
 
@@ -2015,7 +1950,7 @@ msgstr "Text del giny"
 msgid "Widget title"
 msgstr "Títol del giny"
 
-#: settings/view-tab-lang.php:75
+#: settings/view-tab-lang.php:90
 msgid ""
 "WordPress Locale for the language (for example: en_US). You will need to "
 "install the .mo file for this language."
@@ -2023,7 +1958,7 @@ msgstr ""
 "Codi d'idioma i regió de WordPress (per exemple: ca_ES). Haureu d'instal·lar "
 "l'arxiu .mo per a aquest idioma"
 
-#: admin/admin-filters.php:138
+#: admin/admin-filters.php:148
 msgid "WordPress default"
 msgstr "Opció per defecte de WordPress"
 
@@ -2044,18 +1979,11 @@ msgstr ""
 "Estàs fent servir WordPress %1$s. Polylang requereix, com a mínim, WordPress "
 "%2$s."
 
-#. translators: %s are WordPress version numbers
-#: install/install.php:25
-msgid "You are using WordPress %s. Polylang requires at least WordPress %s."
-msgstr ""
-"Esteu fent servir WordPress %s. Polylang requereix, com a mínim, WordPress "
-"%s."
-
-#: settings/view-tab-lang.php:57
+#: settings/view-tab-lang.php:68
 msgid "You can choose a language in the list or directly edit it below."
 msgstr "Podeu triar un idioma de la llista o editar-lo directament a sota"
 
-#: settings/settings.php:297
+#: settings/settings.php:307
 msgid "You can set them all to the default language."
 msgstr "Els podeu assignar l'idioma per defecte."
 
@@ -2109,16 +2037,6 @@ msgstr ""
 "La teva clau de llicència ha arribat al seu límit d'activacions. %1$sVeure "
 "actualitzacions possibles%2$s ara mateix."
 
-# modificat xtec
-#. translators: %s are html tags
-#: settings/settings-licenses.php:131
-msgid ""
-"Your license key has reached its activation limit. %sView possible upgrades"
-"%s now."
-msgstr ""
-"La vostra clau de llicència ha assolit el seu límit d'activació. %sVegeu "
-"possibles actualitzacions%s."
-
 #: lingotek/lingotek.php:32
 msgid ""
 "You’ve just upgraded to the latest version of Polylang! Would you like to "
@@ -2135,16 +2053,18 @@ msgstr "Zàmbia"
 msgid "Zimbabwe"
 msgstr "Zimbàbue"
 
+#. #-#-#-#-#  polylang.pot (Polylang 2.3.6)  #-#-#-#-#
 #. Plugin URI of the plugin/theme
+#. #-#-#-#-#  polylang.pot (Polylang 2.3.6)  #-#-#-#-#
 #. Author URI of the plugin/theme
 msgid "https://polylang.pro"
 msgstr "https://polylang.pro"
 
-#: settings/view-tab-lang.php:92
+#: settings/view-tab-lang.php:110
 msgid "left to right"
 msgstr "d'esquerra a dreta"
 
-#: settings/view-tab-lang.php:97
+#: settings/view-tab-lang.php:115
 msgid "right to left"
 msgstr "de dreta a esquerra"
 

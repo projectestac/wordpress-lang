@@ -4,18 +4,18 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Invite Anyone 1.3\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/invite-anyone\n"
-"POT-Creation-Date: 2015-10-26 03:57:19+00:00\n"
+"POT-Creation-Date: 2018-10-10 07:17:46+00:00\n"
 "PO-Revision-Date: 2018-07-16 12:48+0200\n"
 "Last-Translator: Joan Sala Soler <jsala236@xtec.cat>\n"
+"Language-Team: \n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 2.0.7\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"Language-Team: \n"
 
-#: group-invites/group-invites.php:592
+#: group-invites/group-invites.php:594
 msgid ""
 "%1$s has invited you to the group: \"%2$s\".\n"
 "\n"
@@ -53,7 +53,7 @@ msgstr "(%d enviada)"
 msgid "(%s accepted)"
 msgstr "(%s acceptada)"
 
-#: admin/admin-panel.php:568
+#: admin/admin-panel.php:642
 msgid "(no data)"
 msgstr "(sense dades)"
 
@@ -96,30 +96,6 @@ msgstr "3 mesos"
 msgid "4 Weeks"
 msgstr "4 setmanes"
 
-#: admin/admin-panel.php:415
-msgid ""
-"<a href=\"http://www.cloudsponge.com/?utm_source=invite-"
-"anyone&utm_medium=partner&utm_campaign=integrator\">CloudSponge</a> is a "
-"cool service that gives your users easy and secure access to their address "
-"books (Facebook, LinkedIn, Gmail, Yahoo, and a number of other online and "
-"desktop email clients), so that they can more easily invite friends to your "
-"site. It#8217;s a great way to increase engagement on your site, by making "
-"it easier for them to invite new members. In order to enable CloudSponge "
-"support in Invite Anyone and BuddyPress, you'll need to <a href=\"http://www."
-"cloudsponge.com/signup?utm_source=invite-"
-"anyone&utm_medium=partner&utm_campaign=integrator\">register for a "
-"CloudSponge account</a>."
-msgstr ""
-"<a href=\"http://www.cloudsponge.com/?utm_source=invite-"
-"anyone&utm_medium=partner&utm_campaign=integrator\">CloudSponge</a> és un "
-"servei genial que dóna als seus usuaris un accés fàcil i segur a la seves "
-"adreces de contacte (Gmail, Yahoo, i una sèrie d'altres clients de correu "
-"electrònic en línia i d'escriptori), de manera que puguin convidar els amics "
-"més fàcilment al seu lloc. Per tal d'habilitar el suport CloudSponge a "
-"convidar algú i BuddyPress, haureu de <a href=\"http://www.cloudsponge.com/"
-"signup?utm_source=invite-anyone&utm_medium=partner&utm_campaign=integrator"
-"\">registrar un compte a CloudSponge</a>."
-
 #: by-email/by-email.php:1175
 msgid "<strong>%s</strong> has opted out of email invitations from this site."
 msgstr ""
@@ -151,27 +127,27 @@ msgstr ""
 "vos que l'heu escrita correctament."
 
 # MODIFICAT XTEC
-#: admin/admin-panel.php:378
+#: admin/admin-panel.php:407
 msgid "<strong>Group admins</strong> can send group invitations to: "
 msgstr ""
 "Els <strong>administradors de nodes</strong> poden enviar invitacions a: "
 
 # MODIFICAT XTEC
-#: admin/admin-panel.php:394
+#: admin/admin-panel.php:423
 msgid "<strong>Group members</strong> can send group invitations to: "
 msgstr "Els <strong>membres de nodes</strong> poden enviar invitacions a: "
 
 # MODIFICAT XTEC
-#: admin/admin-panel.php:386
+#: admin/admin-panel.php:415
 msgid "<strong>Group mods</strong> can send group invitations to: "
 msgstr "Els <strong>moderadors de nodes</strong> poden enviar invitacions a: "
 
-#: admin/admin-panel.php:370
+#: admin/admin-panel.php:399
 msgid "<strong>Site admins</strong> can send group invitations to: "
 msgstr ""
 "Els <strong>administradors del lloc</strong> poden enviar invitacions a: "
 
-#: admin/admin-panel.php:319
+#: admin/admin-panel.php:348
 msgid "A limited set of users"
 msgstr "Un nombre limitat d'usuaris"
 
@@ -187,15 +163,15 @@ msgstr "Taxa d'acceptació"
 msgid "Acceptance Rate (CloudSponge)"
 msgstr "Taxa d'acceptació (CloudSponge)"
 
-#: admin/admin-panel.php:460 by-email/by-email.php:783
+#: admin/admin-panel.php:534 by-email/by-email.php:783
 msgid "Accepted"
 msgstr "Acceptat"
 
-#: admin/admin-panel.php:121
+#: admin/admin-panel.php:118
 msgid "Access Control"
 msgstr "Control d'accés"
 
-#: admin/admin-panel.php:165
+#: admin/admin-panel.php:182
 msgid "Access Settings"
 msgstr "Paràmetres d'accés"
 
@@ -208,24 +184,24 @@ msgstr "Afegeix nova"
 msgid "Add New Invitation"
 msgstr "Afegeix invitació nova"
 
-#: by-email/by-email-db.php:136
+#: by-email/by-email-db.php:142
 msgid "Add New Invited Group"
 msgstr "Afegeix un node convidat nou"
 
-#: by-email/by-email-db.php:115
+#: by-email/by-email-db.php:121
 msgid "Add New Invitee"
 msgstr "Afegeix convidat nou"
 
-#: admin/admin-panel.php:334
+#: admin/admin-panel.php:363
 msgid "Administrator"
 msgstr "Administrador"
 
 # MODIFICAT XTEC
-#: by-email/by-email-db.php:133
+#: by-email/by-email-db.php:139
 msgid "All Invited Groups"
 msgstr "Tots els nodes convidats"
 
-#: by-email/by-email-db.php:112
+#: by-email/by-email-db.php:118
 msgid "All Invitees"
 msgstr "Tots els convidats"
 
@@ -233,15 +209,15 @@ msgstr "Tots els convidats"
 msgid "All Time"
 msgstr "Total"
 
-#: by-email/by-email-db.php:912
+#: by-email/by-email-db.php:918
 msgid "All done!"
 msgstr "Ja està!"
 
-#: admin/admin-panel.php:317
+#: admin/admin-panel.php:346
 msgid "All users"
 msgstr "Tots els usuaris"
 
-#: admin/admin-panel.php:212
+#: admin/admin-panel.php:241
 msgid ""
 "Allow email invitations to be accepted even when site registration is "
 "disabled"
@@ -249,15 +225,15 @@ msgstr ""
 "Permet invitacions per correu electrònic, fins i tot si el registre està "
 "deshabilitat"
 
-#: admin/admin-panel.php:167
+#: admin/admin-panel.php:184
 msgid "Allow email invitations to be sent by"
 msgstr "Permet invitacions per correu electrònic enviades per"
 
-#: admin/admin-panel.php:206
+#: admin/admin-panel.php:235
 msgid "Allow users to customize invitation"
 msgstr "Permet als usuaris personalitzar la invitació a"
 
-#: admin/admin-panel.php:210
+#: admin/admin-panel.php:239
 msgid "Allow users to send group invitations along with email invitations"
 msgstr ""
 "Permet als usuaris enviar invitacions de grup, juntament amb invitacions per "
@@ -276,12 +252,12 @@ msgstr ""
 msgid "An invitation to join the %s community."
 msgstr "Una invitació per unir-se a la comunitat %s."
 
-#: admin/admin-panel.php:372 admin/admin-panel.php:380
-#: admin/admin-panel.php:388 admin/admin-panel.php:396
+#: admin/admin-panel.php:401 admin/admin-panel.php:409
+#: admin/admin-panel.php:417 admin/admin-panel.php:425
 msgid "Anyone"
 msgstr "Qualsevol"
 
-#: admin/admin-panel.php:332
+#: admin/admin-panel.php:361
 msgid "Author"
 msgstr "Autor"
 
@@ -325,21 +301,21 @@ msgstr ""
 "Feu clic a &ldquo;Envia invitacions&rdquo; per finalitzar l'enviament "
 "d'invitacions noves."
 
-#: admin/admin-panel.php:488
+#: admin/admin-panel.php:491
 msgid "Click in the <strong>test</strong> button to test your integration."
 msgstr ""
 "Cliqueu al botó <strong>prova</strong> per provar la vostra integració."
 
-#: admin/admin-panel.php:125 admin/admin-panel.php:177
-#: admin/admin-panel.php:466
+#: admin/admin-panel.php:127 admin/admin-panel.php:200
+#: admin/admin-panel.php:540
 msgid "CloudSponge"
 msgstr "CloudSponge"
 
-#: admin/admin-panel.php:421
+#: admin/admin-panel.php:476
 msgid "CloudSponge Domain Key"
 msgstr "CloudSponge Domain Key"
 
-#: admin/admin-panel.php:477
+#: admin/admin-panel.php:480
 msgid "CloudSponge Key"
 msgstr "Clau de CloudSponge"
 
@@ -347,33 +323,29 @@ msgstr "Clau de CloudSponge"
 msgid "CloudSponge Usage"
 msgstr "Ús de CloudSponge"
 
-#: admin/admin-panel.php:473
+#: admin/admin-panel.php:476
 msgid ""
 "CloudSponge integration will not work without a valid CloudSponge Domain key."
 msgstr ""
 "La integració amb CloudSponge no funcionarà sense un clau de domini vàlida."
 
-#: admin/admin-panel.php:484
+#: admin/admin-panel.php:487
 msgid "CloudSponge integration will not work without a valid CloudSponge Key."
-msgstr "La integració amb CloudSponge no funcionarà sense un clau vàlida."
-
-#: admin/admin-panel.php:421
-msgid "CloudSponge integration will not work without a valid domain key."
 msgstr "La integració amb CloudSponge no funcionarà sense un clau vàlida."
 
 #: widgets/widgets.php:71
 msgid "Continue"
 msgstr "Continua"
 
-#: admin/admin-panel.php:331
+#: admin/admin-panel.php:360
 msgid "Contributor"
 msgstr "Col·laborador"
 
-#: admin/admin-panel.php:226
+#: admin/admin-panel.php:255
 msgid "Control the default behavior of Invite Anyone."
 msgstr "Controla el comportament predeterminat de Convida Membres."
 
-#: admin/admin-panel.php:308
+#: admin/admin-panel.php:337
 msgid "Control which members are able to send various kinds of invitations."
 msgstr "Controla quins membres poden enviar diferents tipus d'invitacions."
 
@@ -381,15 +353,15 @@ msgstr "Controla quins membres poden enviar diferents tipus d'invitacions."
 msgid "Edit Invitation"
 msgstr "Edita la invitació"
 
-#: by-email/by-email-db.php:134
+#: by-email/by-email-db.php:140
 msgid "Edit Invited Group"
 msgstr "Edita el node convidat"
 
-#: by-email/by-email-db.php:113
+#: by-email/by-email-db.php:119
 msgid "Edit Invitee"
 msgstr "Edita convidat"
 
-#: admin/admin-panel.php:333
+#: admin/admin-panel.php:362
 msgid "Editor"
 msgstr "Editor"
 
@@ -397,11 +369,11 @@ msgstr "Editor"
 msgid "Email:"
 msgstr "Correu electrònic:"
 
-#: admin/admin-panel.php:417
+#: admin/admin-panel.php:468
 msgid "Enable CloudSponge?"
 msgstr "Habilita CloudSponge?"
 
-#: admin/admin-panel.php:214
+#: admin/admin-panel.php:243
 msgid "Enable the Send Invites step during group creation"
 msgstr "Habilita l'enviament d'invitacions durant la creació d'un grup"
 
@@ -415,20 +387,20 @@ msgstr ""
 "Afegiu un correu electrònic per línia per convidar amistats a unir-se a "
 "aquest lloc."
 
-#: by-email/by-email-db.php:914
+#: by-email/by-email-db.php:920
 msgid "Finish"
 msgstr "Acabat"
 
-#: admin/admin-panel.php:204
+#: admin/admin-panel.php:233
 msgid "Footer text of email invitation message (not editable by users)"
 msgstr "Peu del missatge (no és editable pels usuaris)"
 
-#: admin/admin-panel.php:373 admin/admin-panel.php:381
-#: admin/admin-panel.php:389 admin/admin-panel.php:397
+#: admin/admin-panel.php:402 admin/admin-panel.php:410
+#: admin/admin-panel.php:418 admin/admin-panel.php:426
 msgid "Friends"
 msgstr "Amistats"
 
-#: admin/admin-panel.php:117 admin/admin-panel.php:196
+#: admin/admin-panel.php:117 admin/admin-panel.php:225
 msgid "General Settings"
 msgstr "Configuració general"
 
@@ -453,7 +425,7 @@ msgstr ""
 "Si esteu aquí per error i voleu acceptar la invitació a %s, feu clic a "
 "\"Accepta la invitació\"."
 
-#: by-email/by-email-db.php:983
+#: by-email/by-email-db.php:989
 msgid ""
 "If your browser doesn&#8217;t start loading the next page automatically, "
 "click this link:"
@@ -461,7 +433,7 @@ msgstr ""
 "Si el vostre navegador no carrega la pàgina de forma automàtica, feu clic en "
 "aquest enllaç:"
 
-#: by-email/by-email-db.php:972
+#: by-email/by-email-db.php:978
 msgid "Importing: %1$s invited %2$s<br />"
 msgstr "Important: %1$s convidats %2$s<br />"
 
@@ -488,18 +460,19 @@ msgstr ""
 "Les invitacions s'han enviat correctament a les adreces de correu electrònic "
 "següents: %s"
 
+#. #-#-#-#-#  invite-anyone.pot (Invite Anyone 1.3.12)  #-#-#-#-#
 #. Plugin Name of the plugin/theme
-#: admin/admin-panel.php:6 admin/admin-panel.php:113 widgets/widgets.php:41
+#: admin/admin-panel.php:6 admin/admin-panel.php:114 widgets/widgets.php:41
 #: widgets/widgets.php:92
 msgid "Invite Anyone"
 msgstr "Convida Membres"
 
-#: by-email/by-email-db.php:1011
+#: by-email/by-email-db.php:1017
 msgid "Invite Anyone Upgrade"
 msgstr "Actualització de Convida Membres"
 
 # MODIFICAT XTEC
-#: admin/admin-panel.php:368
+#: admin/admin-panel.php:397
 msgid ""
 "Invite Anyone extends BuddyPress's default group invitation settings. "
 "Instead of allowing you to invite only friends to a group, this plugin "
@@ -512,7 +485,7 @@ msgstr ""
 "aquests paràmetres per eliminar possibles invitacions per diferents rols als "
 "nodes."
 
-#: by-email/by-email-db.php:1014
+#: by-email/by-email-db.php:1020
 msgid ""
 "Invite Anyone has just been updated, and needs to move some old invitation "
 "data in order to complete the upgrade. Click GO to start the process."
@@ -537,16 +510,16 @@ msgstr ""
 "Convideu amistats a unir-se a aquest lloc posant el seu correu electrònic a "
 "sota."
 
-#: admin/admin-panel.php:447
+#: admin/admin-panel.php:521
 msgid "Invited Email"
 msgstr "Correu electrònic de qui convida"
 
-#: by-email/by-email-db.php:131 by-email/by-email-db.php:138
+#: by-email/by-email-db.php:137 by-email/by-email-db.php:144
 msgid "Invited Group"
 msgstr "Node convidat"
 
 # MODIFICAT XTEC
-#: by-email/by-email-db.php:130 by-email/by-email-db.php:143
+#: by-email/by-email-db.php:136 by-email/by-email-db.php:149
 msgid "Invited Groups"
 msgstr "Nodes convidats"
 
@@ -554,15 +527,15 @@ msgstr "Nodes convidats"
 msgid "Invited email address"
 msgstr "Adreça de correu electrònic del convidat"
 
-#: by-email/by-email-db.php:110 by-email/by-email-db.php:117
+#: by-email/by-email-db.php:116 by-email/by-email-db.php:123
 msgid "Invitee"
 msgstr "Convidat"
 
-#: by-email/by-email-db.php:109 by-email/by-email-db.php:122
+#: by-email/by-email-db.php:115 by-email/by-email-db.php:128
 msgid "Invitees"
 msgstr "Convidats"
 
-#: admin/admin-panel.php:442
+#: admin/admin-panel.php:516
 msgid "Inviter"
 msgstr "Qui convida"
 
@@ -582,38 +555,38 @@ msgstr ""
 "falta alguna informació. Torneu a intentar-ho fent clic a l'enllaç de la "
 "invitació del correu electrònic."
 
-#: admin/admin-panel.php:169
+#: admin/admin-panel.php:186
 msgid "Limit group invitations"
 msgstr "Limiteu les invitacions de grup"
 
-#: admin/admin-panel.php:356
+#: admin/admin-panel.php:385
 msgid "Limit number of invites per user :"
 msgstr "Nombre màxim d'invitacions per usuari:"
 
-#: admin/admin-panel.php:171
+#: admin/admin-panel.php:188
 msgid "Limit per-user invitations"
 msgstr "Limiteu les invitacions per usuari"
 
-#: admin/admin-panel.php:237
+#: admin/admin-panel.php:266
 msgid "Link that invited users can click to accept the invitation"
 msgstr ""
 "Enllaç on els usuaris convidats poden fer clic per acceptar la invitació"
 
-#: admin/admin-panel.php:238
+#: admin/admin-panel.php:267
 msgid "Link that invited users can click to opt out of future invitations"
 msgstr ""
 "Enllaç on els usuaris convidats poden fer clic per no rebre futures "
 "notificacions"
 
-#: admin/admin-panel.php:202
+#: admin/admin-panel.php:231
 msgid "Main text of email invitation message"
 msgstr "Text principal de la invitació, cos del missatge"
 
-#: admin/admin-panel.php:129 admin/admin-panel.php:183
+#: admin/admin-panel.php:136 admin/admin-panel.php:206
 msgid "Manage Invitations"
 msgstr "Gestió d'invitacions"
 
-#: admin/admin-panel.php:300
+#: admin/admin-panel.php:329
 msgid "Message body"
 msgstr "Cos del missatge"
 
@@ -621,7 +594,7 @@ msgstr "Cos del missatge"
 msgid "Message:"
 msgstr "Missatge:"
 
-#: by-email/by-email-db.php:952
+#: by-email/by-email-db.php:958
 msgid "Migrated Invitation"
 msgstr "Invitació migrada"
 
@@ -629,19 +602,19 @@ msgstr "Invitació migrada"
 msgid "New Invitation"
 msgstr "Invitació nova"
 
-#: by-email/by-email-db.php:137
+#: by-email/by-email-db.php:143
 msgid "New Invited Group Name"
 msgstr "Nom nou del node convidat"
 
-#: by-email/by-email-db.php:116
+#: by-email/by-email-db.php:122
 msgid "New Invitee Name"
 msgstr "Nom del convidat nou"
 
-#: by-email/by-email-db.php:983
+#: by-email/by-email-db.php:989
 msgid "Next Invitations"
 msgstr "Invitacions següents"
 
-#: by-email/by-email-db.php:352
+#: by-email/by-email-db.php:358
 msgid "No"
 msgstr "No"
 
@@ -653,12 +626,12 @@ msgstr "No s'ha trobat cap invitació"
 msgid "No Invitations found in Trash"
 msgstr "No s'ha trobat cap invitació a la paperera"
 
-#: admin/admin-panel.php:592
+#: admin/admin-panel.php:666
 msgid "No invitations have been sent yet."
 msgstr "Encara no s'ha enviat cap invitació."
 
-#: admin/admin-panel.php:374 admin/admin-panel.php:382
-#: admin/admin-panel.php:390 admin/admin-panel.php:398
+#: admin/admin-panel.php:403 admin/admin-panel.php:411
+#: admin/admin-panel.php:419 admin/admin-panel.php:427
 msgid "No one"
 msgstr "Ningú"
 
@@ -666,15 +639,15 @@ msgstr "Ningú"
 msgid "Number of email fields to display in widget:"
 msgstr "Número de camps de correu electrònic que es mostrarà al giny:"
 
-#: admin/admin-panel.php:208
+#: admin/admin-panel.php:237
 msgid "Number of email invitations users are permitted to send at a time"
 msgstr "Nombre d'invitacions que els usuaris poden enviar alhora"
 
-#: admin/admin-panel.php:328
+#: admin/admin-panel.php:357
 msgid "Only users who have at least the following role on this blog:"
 msgstr "Només els usuaris que tenen aquest rol al lloc:"
 
-#: admin/admin-panel.php:323
+#: admin/admin-panel.php:352
 msgid ""
 "Only users who have been members of the site for a minimum number of days:"
 msgstr "Només els usuaris que han estat membres del lloc per un mínim de dies:"
@@ -687,11 +660,11 @@ msgstr "Rebutja"
 msgid "Please correct your errors and resubmit."
 msgstr "Corregiu els errors i reenvieu les invitacions."
 
-#: admin/admin-panel.php:486
+#: admin/admin-panel.php:489
 msgid "Please, click on <strong>Save Changes</strong> to save the key!"
 msgstr "Cliqueu a <strong>Desa el canvis</strong> per desar la clau!"
 
-#: admin/admin-panel.php:339
+#: admin/admin-panel.php:368
 msgid ""
 "Provide a comma-separated list of users (identified by their numerical user "
 "ids) who <strong>cannot</strong> send invitations by email:"
@@ -699,17 +672,17 @@ msgstr ""
 "Afegiu una llista separada per comes (amb els ID d'usuari) que <strong>no "
 "poden</strong> enviar invitacions per correu electrònic:"
 
-#: group-invites/group-invites.php:408
+#: group-invites/group-invites.php:410
 #: group-invites/templates/invite-anyone.php:70
 #: group-invites/templates/invite-anyone.php:159
 msgid "Remove Invite"
 msgstr "Elimina la invitació"
 
-#: admin/admin-panel.php:198
+#: admin/admin-panel.php:227
 msgid "Replacement patterns for email text fields"
 msgstr "Patrons per als camps de text de correu electrònic"
 
-#: admin/admin-panel.php:147
+#: admin/admin-panel.php:164
 msgid "Save Changes"
 msgstr "Desa els canvis"
 
@@ -718,11 +691,11 @@ msgid "Search Invitation"
 msgstr "Cerca invitació"
 
 # MODIFICAT XTEC
-#: by-email/by-email-db.php:132
+#: by-email/by-email-db.php:138
 msgid "Search Invited Groups"
 msgstr "Cerca nodes convidats"
 
-#: by-email/by-email-db.php:111
+#: by-email/by-email-db.php:117
 msgid "Search Invitees"
 msgstr "Cerca convidats"
 
@@ -755,7 +728,7 @@ msgstr "Envia invitacions"
 msgid "Send invitations by email."
 msgstr "Envieu invitacions per correu electrònic."
 
-#: admin/admin-panel.php:452 by-email/by-email.php:782
+#: admin/admin-panel.php:526 by-email/by-email.php:782
 msgid "Sent"
 msgstr "Enviat"
 
@@ -785,11 +758,11 @@ msgstr ""
 msgid "Sorry, there was an error in processing your request"
 msgstr "Ho sentim, hi ha hagut un error processant la vostra petició"
 
-#: admin/admin-panel.php:133 admin/admin-panel.php:189
+#: admin/admin-panel.php:145 admin/admin-panel.php:218
 msgid "Stats"
 msgstr "Estadístiques"
 
-#: admin/admin-panel.php:296
+#: admin/admin-panel.php:325
 msgid "Subject line"
 msgstr "Assumpte del missatge"
 
@@ -797,15 +770,15 @@ msgstr "Assumpte del missatge"
 msgid "Subject:"
 msgstr "Assumpte:"
 
-#: admin/admin-panel.php:330
+#: admin/admin-panel.php:359
 msgid "Subscriber"
 msgstr "Subscriptor"
 
-#: admin/admin-panel.php:480
+#: admin/admin-panel.php:483
 msgid "Test"
 msgstr "Provar"
 
-#: admin/admin-panel.php:200
+#: admin/admin-panel.php:229
 msgid "Text of email invitation subject line"
 msgstr "Text de la invitació, assumpte del correu electrònic"
 
@@ -904,19 +877,19 @@ msgstr "Total d'enviades"
 msgid "Total Sent (CloudSponge)"
 msgstr "Total d'enviades (CloudSponge)"
 
-#: admin/admin-panel.php:236
+#: admin/admin-panel.php:265
 msgid "URL to the profile of the inviter"
 msgstr "URL al perfil de la persona que convida"
 
-#: by-email/by-email-db.php:135
+#: by-email/by-email-db.php:141
 msgid "Update Invited Group"
 msgstr "Actualitza el node convidat"
 
-#: by-email/by-email-db.php:114
+#: by-email/by-email-db.php:120
 msgid "Update Invitee"
 msgstr "Actualitza convidat"
 
-#: admin/admin-panel.php:526 by-email/by-email-db.php:88
+#: admin/admin-panel.php:600 by-email/by-email-db.php:88
 msgid "View Invitation"
 msgstr "Visualitza la invitació"
 
@@ -956,7 +929,7 @@ msgstr ""
 "Benvinguts! Heu estat convidats a unir-vos a aquest lloc. Ompliu la "
 "informació de sota per crear el vostre compte."
 
-#: admin/admin-panel.php:423
+#: admin/admin-panel.php:497
 msgid ""
 "When you use CloudSponge with Invite Anyone, part of your CloudSponge "
 "monthly payment goes to the author of Invite Anyone. This is a great way to "
@@ -967,7 +940,7 @@ msgstr ""
 "una bona forma de donar suport al desenvolupament del giny. Gràcies pel "
 "vostre suport!"
 
-#: admin/admin-stats.php:163 by-email/by-email-db.php:352
+#: admin/admin-stats.php:163 by-email/by-email-db.php:358
 msgid "Yes"
 msgstr "Sí"
 
@@ -987,7 +960,7 @@ msgstr ""
 "Només podeu convidar %s persones alhora. Elimineu alguna adreça de correu "
 "electrònic i torneu a provar-ho"
 
-#: by-email/cloudsponge-integration.php:70
+#: by-email/cloudsponge-integration.php:79
 msgid ""
 "You can also add email addresses <a class=\"cs_import\">from your Address "
 "Book</a>."
@@ -1010,6 +983,10 @@ msgstr ""
 #: by-email/by-email.php:1141
 msgid "You didn't include any email addresses!"
 msgstr "No heu inclòs cap adreça de correu electrònic!"
+
+#: admin/admin-panel.php:196 admin/admin-panel.php:214
+msgid "You do not have permission to do that."
+msgstr "No teniu permís per fer-ho."
 
 #: by-email/by-email.php:930
 msgid ""
@@ -1041,7 +1018,7 @@ msgstr ""
 msgid "You haven't sent any email invitations yet."
 msgstr "Encara no heu enviat cap invitació per correu electrònic."
 
-#: admin/admin-panel.php:235
+#: admin/admin-panel.php:264
 msgid "display name of the inviter"
 msgstr "mostra el nom de la persona que convida"
 
@@ -1058,12 +1035,6 @@ msgstr "http://teleogistic.net/code/buddypress/invite-anyone/"
 msgid "n/a"
 msgstr "n/d"
 
-#: admin/admin-panel.php:234
+#: admin/admin-panel.php:263
 msgid "name of your website"
 msgstr "nom del vostre lloc web"
-
-#~ msgid ""
-#~ "Subject: <span class=\"disabled-subject\">Subject line is fixed</span>"
-#~ msgstr ""
-#~ "Assumpte: <span class=\"disabled-subject\">L'assumpte no es pot "
-#~ "modificar</span>"

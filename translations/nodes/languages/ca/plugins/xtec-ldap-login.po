@@ -1,7 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: XTEC LDAP Login\n"
-"POT-Creation-Date: 2016-02-11 17:11+0100\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/xtec-ldap-login\n"
+"POT-Creation-Date: 2018-10-10 07:17:47+00:00\n"
 "PO-Revision-Date: 2016-04-05 17:17+0100\n"
 "Last-Translator: Toni Ginard <toni.ginard@gmail.com>\n"
 "Language-Team: Àgora <agora@xtec.cat>\n"
@@ -17,15 +18,15 @@ msgstr ""
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-SearchPath-0: .\n"
 
-#: xtec-ldap-login.php:126
+#: xtec-ldap-login.php:129
 msgid "Application Data Base"
 msgstr "Local"
 
-#: xtec-ldap-login.php:94
+#: xtec-ldap-login.php:97
 msgid "Base DN"
 msgstr "Base DN"
 
-#: xtec-ldap-login.php:214
+#: xtec-ldap-login.php:231
 msgid ""
 "Could not bind to the LDAP directory. The username, the password or both are "
 "not correct"
@@ -33,56 +34,62 @@ msgstr ""
 "No s'ha pogut fer la validació. El nom d'usuari, la contrasenya o els dos "
 "són incorrectes"
 
-#: xtec-ldap-login.php:205
+#: xtec-ldap-login.php:220
 msgid "Could not connect to LDAP server"
 msgstr "No s'ha pogut connectar al servidor LDAP"
 
-#: xtec-ldap-login.php:111
+#. Author of the plugin/theme
+msgid "Francesc Bassas & Toni Ginard"
+msgstr "Francesc Bassas & Toni Ginard"
+
+#: xtec-ldap-login.php:114
 msgid "LDAP"
 msgstr "LDAP"
 
-#: xtec-ldap-login.php:82
+#: xtec-ldap-login.php:85
 msgid "LDAP Host"
 msgstr "Servidor LDAP"
 
-#: xtec-ldap-login.php:34 xtec-ldap-login.php:41 xtec-ldap-login.php:339
+#: xtec-ldap-login.php:37 xtec-ldap-login.php:44
 msgid "LDAP Login"
 msgstr "Validació LDAP"
 
-#: xtec-ldap-login.php:86
+#: xtec-ldap-login.php:89
 msgid "LDAP Port"
 msgstr "Port LDAP"
 
-#: xtec-ldap-login.php:90
+#: xtec-ldap-login.php:93
 msgid "LDAP Version"
 msgstr "Versió de l'LDAP"
 
-#: xtec-ldap-login.php:346
-msgid "Login via LDAP is activated"
-msgstr "La validació via LDAP està activada"
-
-#: xtec-ldap-login.php:70
+#: xtec-ldap-login.php:73
 msgid "Options saved."
 msgstr "S'han desat les opcions"
 
-#: xtec-ldap-login.php:136
+#. Description of the plugin/theme
+msgid ""
+"Overrides the core WordPress authentication method to allow the user "
+"authentication and registration through LDAP Server. It also adds an API "
+"function for a web service authentication"
+msgstr ""
+
+#: xtec-ldap-login.php:139
 msgid "Save"
 msgstr "Desa els canvis"
 
-#: xtec-ldap-login.php:257
+#: xtec-ldap-login.php:280
 msgid "Site Suspended"
 msgstr "El lloc web està suspès"
 
-#: xtec-ldap-login.php:167
+#: xtec-ldap-login.php:177
 msgid "The password is empty."
 msgstr "La contrasenya està buida"
 
-#: xtec-ldap-login.php:189
+#: xtec-ldap-login.php:204
 msgid "The password is not correct"
 msgstr "La contrasenya no és correcta"
 
-#: xtec-ldap-login.php:286
-#, php-format
+#: xtec-ldap-login.php:309
 msgid ""
 "The password you entered for the username <strong>%1$s</strong> is "
 "incorrect. <a href=\"%2$s\" title=\"Password Lost and Found\">Lost your "
@@ -92,11 +99,11 @@ msgstr ""
 "no és correcta. <a href=\"%2$s\" title=\"Recuperació de la contrasenya\">Heu "
 "perdut la contrasenya</a>?"
 
-#: xtec-ldap-login.php:129
+#: xtec-ldap-login.php:132
 msgid "The user is validated through Application Data Base"
 msgstr "Els usuaris ens validen contra la taula d'usuaris del WordPress"
 
-#: xtec-ldap-login.php:115
+#: xtec-ldap-login.php:118
 msgid ""
 "The user is validated through the LDAP server. If the user enters for the "
 "first time and validates, the application registers it. First attempt to "
@@ -112,18 +119,24 @@ msgstr ""
 "XTEC per fer la validació via LDAP. <strong>IMPORTANT: Quan la validació per "
 "LDAP està activada, qualsevol usuari XTEC pot entrar.</strong>"
 
-#: xtec-ldap-login.php:164
+#: xtec-ldap-login.php:174
 msgid "The username is empty."
 msgstr "El nom d'usuari està buit"
 
-#: xtec-ldap-login.php:99
+#: xtec-ldap-login.php:102
 msgid "Validation Type"
 msgstr "Tipus de validació"
 
-#: xtec-ldap-login.php:77
+#. #-#-#-#-#  xtec-ldap-login.pot (XTEC LDAP Login 2.1)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: xtec-ldap-login.php:80
 msgid "XTEC LDAP Login"
 msgstr "Validació amb l'LDAP de la XTEC"
 
-#: xtec-ldap-login.php:251
+#: xtec-ldap-login.php:274
 msgid "Your account has been marked as a spammer"
 msgstr "El vostre compte ha estat marcat com a brossa"
+
+#. Plugin URI of the plugin/theme
+msgid "https://github.com/projectestac/wordpress-xtec-ldap-login"
+msgstr ""

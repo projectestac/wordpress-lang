@@ -1,8 +1,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: import-users-from-csv-with-meta\n"
-"Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
-"POT-Creation-Date: 2016-12-21 12:40+0100\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/import-users-from-"
+"csv-with-meta\n"
+"POT-Creation-Date: 2018-10-10 07:17:46+00:00\n"
 "PO-Revision-Date: 2018-07-17 14:49+0200\n"
 "Last-Translator: Joan Sala Soler <jsala236@xtec.cat>\n"
 "Language-Team: Departament Ensenyament Catalunya - Àrea TAC\n"
@@ -16,7 +17,7 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 
 # modificat xtec
-#: importer.php:1059
+#: importer.php:1376
 msgid ""
 "(Documents should look like the one presented into screenshot. Remember you "
 "should fill the first two columns with the next values)"
@@ -25,7 +26,7 @@ msgstr ""
 "Recordeu que heu d'omplir les dues primeres columnes amb els valors següents)"
 
 # modificat xtec
-#: importer.php:1066
+#: importer.php:1383
 msgid ""
 "(If you want to disable the extra profile information, please deactivate "
 "this plugin after make the import)"
@@ -33,7 +34,7 @@ msgstr ""
 "(Si voleu desactivar la informació del perfil extra, desactiveu aquest "
 "complement després de fer la importació)"
 
-#: importer.php:1064
+#: importer.php:1381
 msgid ""
 "(The next columns are totally customizable and you can use whatever you "
 "want. All rows must contains same columns)"
@@ -43,12 +44,12 @@ msgstr ""
 "columnes:"
 
 # modificat xtec
-#: importer.php:1065
+#: importer.php:1382
 msgid "(User profile will be adapted to the kind of data you have selected)"
 msgstr "(El perfil d'usuari s'adaptarà al tipus de dades que heu seleccionat)"
 
 # modificat xtec
-#: importer.php:1030
+#: importer.php:1347
 msgid ""
 "(if you load another CSV with different columns, the new ones will replace "
 "this list)"
@@ -56,26 +57,21 @@ msgstr ""
 "(si carregueu un altre CSV amb columnes diferents, les noves substituiran "
 "aquesta llista)"
 
-#: importer.php:240
+#: importer.php:299
 msgid "(in this CSV file is called:"
 msgstr "(en aquest fitxer CSV es diu:"
 
 # modificat xtec
-#: importer.php:781
+#: importer.php:955
 msgid ", like this ones:"
 msgstr "m'agrada:"
 
 # modificat xtec
-#: importer.php:259
-msgid ", we are going to skip. \\r\\nError: "
-msgstr "Ignorem. \\r\\nError: "
-
-# modificat xtec
-#: import-users-from-csv-with-meta.php:414
+#: import-users-from-csv-with-meta.php:487
 msgid "--Finished at"
 msgstr "--Finalitzat a"
 
-#: importer.php:669
+#: importer.php:833
 msgid "<em>or you can choose directly a file from your host,"
 msgstr "<em>El podeu triar directament del vostre servidor,"
 
@@ -90,15 +86,15 @@ msgstr ""
 "anterior a 2.3. Ignoreu el camp From Name i introduïu Name&lt;email@domain."
 "com&gt; en aquest camp."
 
-#: importer.php:997 importer.php:1097
+#: importer.php:1228 importer.php:1434
 msgid "A string containing content about the user."
 msgstr "Un text amb contingut sobre l'usuari."
 
-#: importer.php:967 importer.php:1092
+#: importer.php:1198 importer.php:1429
 msgid "A string containing the user's URL for the user's web site."
 msgstr "Un text que conté l'URL de l'usuari per al seu lloc web."
 
-#: importer.php:961 importer.php:1091
+#: importer.php:1192 importer.php:1428
 msgid ""
 "A string that contains a URL-friendly name for the user. The default is the "
 "user's username."
@@ -107,7 +103,7 @@ msgstr ""
 "nom de l'usuari."
 
 # modificat xtec
-#: importer.php:1080
+#: importer.php:1397
 msgid ""
 "A string that contains user passwords. We have different options for this "
 "case:"
@@ -115,7 +111,7 @@ msgstr ""
 "Una cadena que conté contrasenyes d'usuari. Hi ha diferents opcions per a "
 "aquest cas:"
 
-#: importer.php:1093
+#: importer.php:1430
 msgid ""
 "A string that will be shown on the site. Defaults to user's username. It is "
 "likely that you will want to change this, for both appearance and security "
@@ -124,7 +120,7 @@ msgid ""
 msgstr ""
 "Un text que es mostrarà al lloc. Per defecte és el vostre nom d'usuari."
 
-#: importer.php:973
+#: importer.php:1204
 msgid ""
 "A string that will be shown on the site. Defaults to user's username. It is "
 "likely that you will want to change this, for both appearance and security "
@@ -134,7 +130,7 @@ msgstr ""
 "Un text que es mostrarà al lloc. Per defecte és el vostre nom d'usuari."
 
 # modificat xtec
-#: importer.php:1183
+#: importer.php:1541
 msgid ""
 "Activate WordPress automattic email when an user is updated or his password "
 "is changed"
@@ -143,17 +139,17 @@ msgstr ""
 "contrasenya es modifiqui"
 
 # modificat xtec
-#: importer.php:1285
+#: importer.php:1657
 msgid "Activate periodical import?"
 msgstr "Activar importació periòdica?"
 
 # modificat xtec
-#: importer.php:734
+#: importer.php:908
 msgid "Activate users when they are being imported"
 msgstr "Activeu els usuaris quan s'estiguin important"
 
 # modificat xtec
-#: importer.php:1326
+#: importer.php:1711
 msgid ""
 "After delete users, we can choose if we want to assign their posts to "
 "another user. Please do not delete them or posts will be deleted."
@@ -163,24 +159,24 @@ msgstr ""
 "publicacions."
 
 # modificat xtec
-#: importer.php:770
+#: importer.php:944 importer.php:1681
 msgid "Allow Multiple Accounts"
 msgstr "Permetre múltiples comptes"
 
 # modificat xtec
-#: importer.php:770
+#: importer.php:944 importer.php:1681
 msgid ""
 "Allow multiple user accounts to be created having the same email address."
 msgstr ""
 "Permeteu crear diversos comptes d'usuari que tinguin la mateixa adreça de "
 "correu electrònic."
 
-#: importer.php:768
+#: importer.php:942
 msgid "Allowed"
 msgstr "Permès"
 
 # modificat xtec
-#: importer.php:1243
+#: importer.php:1482
 msgid ""
 "And the role assigned in this group: <em>Administrator, Moderator or Member</"
 "em>"
@@ -188,22 +184,22 @@ msgstr ""
 "El rol assignat en aquest grup: <em> Administrador, moderador o membre </em>"
 
 # modificat xtec
-#: importer.php:1141
+#: importer.php:1499
 msgid "Any question about it"
 msgstr "Quant a"
 
 # modificat xtec
-#: importer.php:747
+#: importer.php:921
 msgid "Approve users at the same time is being created"
 msgstr "Aprova els usuaris al mateix temps que s'estan creant"
 
 # modificat xtec
-#: importer.php:751
+#: importer.php:925
 msgid "Approve users when they are being imported"
 msgstr "Aprova els usuaris quan s'estan important"
 
 # modificat xtec
-#: importer.php:869
+#: importer.php:1095
 msgid ""
 "Are you sure to delete ALL CSV files uploaded? There can be CSV files from "
 "other plugins."
@@ -212,7 +208,7 @@ msgstr ""
 "d'altres complements."
 
 # modificat xtec
-#: importer.php:1380
+#: importer.php:1777
 msgid ""
 "Are you sure to delete all users that are not present in the CSV? This "
 "action cannot be undone."
@@ -221,12 +217,12 @@ msgstr ""
 "no es pot desfer."
 
 # modificat xtec
-#: importer.php:850
+#: importer.php:1076
 msgid "Are you sure to delete this file?"
 msgstr "Esteu segur que voleu suprimir aquest fitxer?"
 
 # modificat xtec
-#: importer.php:781
+#: importer.php:955
 msgid "As user of"
 msgstr "Un usuari de"
 
@@ -235,27 +231,27 @@ msgid "Authentication"
 msgstr "Autenticació"
 
 # modificat xtec
-#: importer.php:1512
+#: importer.php:1751
 msgid "Auto rename after move?"
 msgstr "Reanomenar després de moure?"
 
 # mdificat xtec
-#: importer.php:894
+#: importer.php:999
 msgid "Become a patron"
 msgstr "Fer-se patró"
 
 # modificat xtec
-#: importer.php:1238
+#: importer.php:1477
 msgid "BuddyPress is activated"
 msgstr "BuddyPress activat"
 
 # modificat xtec
-#: importer.php:714
+#: importer.php:888
 msgid "BuddyPress users"
 msgstr "Usuaris de BuddyPress"
 
 # modificat xtec
-#: importer.php:1245
+#: importer.php:1484
 msgid ""
 "But you will have to assign a role for each group: <em>Moderator,Moderator,"
 "Member,Member</em>"
@@ -268,48 +264,38 @@ msgstr ""
 msgid "CSV file <span class=\"description\">(required)</span>"
 msgstr "Fitxer CSV <span class=\"description\">(requerit)</span></label>"
 
-#: importer.php:665
+#: importer.php:821
 msgid "CSV file <span class=\"description\">(required)</span></label>"
 msgstr "Fitxer CSV <span class=\"description\">(requerit)</span></label>"
 
 # modificat xtec
-#: importer.php:519
+#: importer.php:693
 msgid "Click to open/close"
 msgstr "Premeu per obrir/tancar"
 
 # modificat xtec
-#: importer.php:1029
-msgid "Columns loaded in previous files"
-msgstr "Columnes carregades en fitxers anteriors"
-
-# modificat xtec
-#: importer.php:1058
+#: importer.php:1375
 msgid "Columns position"
 msgstr "Posició de les columnes"
 
 # modificat xtec
-#: importer.php:1033
+#: importer.php:1272
 msgid "Copy to clipboard"
 msgstr "Còpia"
 
 # modificat xtec
-#: importer.php:1025
-msgid "Custom columns loaded"
-msgstr "Columnes personalitzades carregades"
-
-# modificat xtec
-#: importer.php:1193
+#: importer.php:1551
 msgid "Customize the email that can be sent when importing users"
 msgstr ""
 "Personalitzeu el correu electrònic que es pot enviar quan s'importen usuaris"
 
 # modificat xtec
-#: importer.php:1279
+#: importer.php:1651
 msgid "Daily"
 msgstr "Diari"
 
 # modificat xtec
-#: importer.php:1182
+#: importer.php:1540
 msgid ""
 "Deactivate WordPress automattic email when an user is updated or his "
 "password is changed"
@@ -318,54 +304,54 @@ msgstr ""
 "usuari o es canvii la seva contrasenya"
 
 # modificat xtec
-#: importer.php:712
+#: importer.php:773
 msgid "Default role"
 msgstr "Rol per defecte d'usuaris nous"
 
-#: importer.php:552 importer.php:556
+#: importer.php:726 importer.php:730
 msgid "Delete"
 msgstr "Suprimeix"
 
-#: importer.php:538
+#: importer.php:712
 msgid "Delete all CSV files uploaded"
 msgstr "Esborra tots els fitxers CSV pujats"
 
 # modificat xtec
-#: importer.php:1312 importer.php:1314
+#: importer.php:1697 importer.php:1699
 msgid "Delete posts of deled users without assing to any user"
 msgstr ""
 "Elimineu publicacions d'usuaris suprimits sense assignar-los cap usuari"
 
 # modificat xtec
-#: importer.php:688
+#: importer.php:860
 msgid "Delete the metadata"
 msgstr "Elimineu les metadades"
 
 # modificat xtec
-#: importer.php:1303
+#: importer.php:1688
 msgid "Delete users that are not present in the CSV?"
 msgstr "Voleu eliminar els usuaris que no estan al CSV?"
 
 # modificat xtec
-#: importer.php:1336 importer.php:1338
+#: importer.php:1721 importer.php:1723
 msgid "Disable role assignement in cron import"
 msgstr "Desactiva l'assignació de rols a la importació de cron"
 
 # modificat xtec
-#: importer.php:1054 importer.php:1056
+#: importer.php:1293 importer.php:1295
 msgid "Disable role assignement in frontend import"
 msgstr "Desactiva l'assignació de rols a la importació de la interfície"
 
-#: importer.php:733
+#: importer.php:907
 msgid "Do not activate users"
 msgstr "Usuaris No activats"
 
-#: importer.php:750
+#: importer.php:924
 msgid "Do not approve users"
 msgstr "Usuaris no aprovats"
 
 # modificat xtec
-#: importer.php:1412
+#: importer.php:1811
 msgid "Do you like it?"
 msgstr "T'ha agradat?"
 
@@ -379,12 +365,12 @@ msgstr ""
 "la configuració de WordPress?"
 
 # modificat xtec
-#: importer.php:799
+#: importer.php:974
 msgid "Do you wish to send a mail with credentials and other data?"
 msgstr "Voleu enviar un correu amb credencials i altres dades?"
 
 # modificat xtec
-#: importer.php:800
+#: importer.php:978
 msgid ""
 "Do you wish to send this mail also to users that are being updated? (not "
 "only to the one which are being created)"
@@ -392,24 +378,20 @@ msgstr ""
 "Voleu enviar aquest correu també als usuaris que s'estan actualitzant? (no "
 "només al que s'estan creant)"
 
-#: importer.php:1054
+#: importer.php:1371
 msgid "Documentation"
 msgstr "Documentació"
 
 # modificat xtec
-#: import-users-from-csv-with-meta.php:113
+#: import-users-from-csv-with-meta.php:175
 msgid "Donate"
 msgstr "Feu un donatiu"
 
-#: import-users-from-csv-with-meta.php:277
-msgid "Donate/Patreon"
-msgstr ""
-
-#: importer.php:1151
+#: importer.php:1509
 msgid "Download this"
 msgstr "Baixa el fitxer"
 
-#: importer.php:942 importer.php:1062
+#: importer.php:1173 importer.php:1379
 msgid "Email"
 msgstr "email:"
 
@@ -418,51 +400,51 @@ msgid "Encryption"
 msgstr "Encriptació:"
 
 # modificat xtec
-#: import-users-from-csv-with-meta.php:310
+#: import-users-from-csv-with-meta.php:341
 msgid "Error, the file"
 msgstr "Error en desar el fitxer"
 
 # modificat xtec
-#: import-users-from-csv-with-meta.php:258
+#: import-users-from-csv-with-meta.php:289
 msgid "Error, we cannot find the file"
 msgstr "No podem trobar el fitxer"
 
-#: importer.php:1150
+#: importer.php:1508
 msgid "Example"
 msgstr "Exemple:"
 
 # modificat xtec
-#: importer.php:1024
+#: importer.php:1263
 msgid "Execute an import of users in the frontend"
 msgstr "Importa usuaris a la interfície"
 
 # modificat xtec
-#: importer.php:1261
+#: importer.php:1633
 msgid "Execute an import of users periodically"
 msgstr "Importa usuaris periòdicament"
 
 # modificat xtec
-#: import-users-from-csv-with-meta.php:272 importer.php:1093
+#: importer.php:1332
 msgid "Extra profile fields"
 msgstr "Informació extra del perfil"
 
 # modificat xtec
-#: importer.php:1107
+#: importer.php:1346
 msgid "Extra profile fields loadad in previous files"
 msgstr "Els camps de perfil addicional es carreguen en fitxers anteriors"
 
-#: import-users-from-csv-with-meta.php:431
+#: import-users-from-csv-with-meta.php:518
 msgid "Extra profile information"
 msgstr "Informació extra del perfil"
 
-#: importer.php:105
+#: importer.php:154
 msgid "File must contain at least 2 columns: username and email"
 msgstr ""
 "El fitxer ha de contenir almenys 2 columnes: nom d'usuari i adreça "
 "electrònica"
 
 # modificat xtec
-#: importer.php:572
+#: importer.php:746
 msgid ""
 "File must contain at least <strong>2 columns: username and email</strong>. "
 "These should be the first two columns and it should be placed <strong>in "
@@ -476,21 +458,16 @@ msgstr ""
 "columnes, aquest connector ho gestionarà automàticament."
 
 # modificat xtec
-#: importer.php:861
+#: importer.php:1087
 msgid "File successfully deleted"
 msgstr "El fitxer s'ha esborrat correctament"
 
 # modificat xtec
-#: importer.php:879
+#: importer.php:1105
 msgid "Files successfully deleted"
 msgstr "Els fitxers s'han esborrat correctament"
 
-# modificat xtec
-#: importer.php:91
-msgid "First row represents the form of sheet"
-msgstr "La primera fila representa la forma del full"
-
-#: importer.php:537
+#: importer.php:711
 msgid ""
 "For security reasons you should delete this files, probably they would be "
 "visible in the Internet if a bot or someone discover the URL. You can delete "
@@ -502,7 +479,7 @@ msgstr ""
 "que heu pujat."
 
 # modificat xtec
-#: importer.php:1144
+#: importer.php:1502
 msgid "Free support (in WordPress forums):"
 msgstr "Fòrums de suport"
 
@@ -516,40 +493,31 @@ msgid "From Name"
 msgstr "Nom del remitent"
 
 # modificat xtec
-#: import-users-from-csv-with-meta.php:271
-msgid "Frontend"
-msgstr "Interfície"
-
-# modificat xtec
 #: smtp.php:123
 msgid "Global options"
 msgstr "Paràmetres globals"
 
-#: importer.php:927
+#: importer.php:1158
 msgid "Help"
 msgstr "Ajuda"
 
 # modificat xtec
-#: importer.php:1416
+#: importer.php:1815 importer.php:1843
 msgid "Hi! we are"
 msgstr "Hola"
 
-#: import-users-from-csv-with-meta.php:279
-msgid "Hire an expert"
-msgstr ""
-
 # modificat xtec
-#: importer.php:1277
+#: importer.php:1649
 msgid "Hourly"
 msgstr "Cada hora"
 
 # modificat xtec
-#: importer.php:1281
+#: importer.php:1653
 msgid "How often the event should reoccur?"
 msgstr "Amb quina freqüència hauria de tornar a ocórrer l'esdeveniment?"
 
 # modificat xtec
-#: importer.php:1151
+#: importer.php:1390
 msgid ""
 "If id <strong>doesn't exist in your users table</strong>: WordPress core "
 "does not allow us insert it, so it will throw an error of kind: "
@@ -560,16 +528,7 @@ msgstr ""
 "error de tipus: invalid_user_id"
 
 # modificat xtec
-#: importer.php:1073
-msgid ""
-"If id <strong>doesn't exist in your users table</strong>: user will be "
-"inserted"
-msgstr ""
-"Si l'identificador <strong> no existeix a la taula dels usuaris </strong>: "
-"s'inserirà l'usuari"
-
-# modificat xtec
-#: importer.php:1074
+#: importer.php:1391
 msgid ""
 "If id <strong>exists</strong>: plugin check if username is the same, if yes, "
 "it will update the data, if not, it ignores the cell to avoid problems"
@@ -584,7 +543,7 @@ msgid "If this is set to no, the values below are ignored."
 msgstr "Si això s'estableix a no, s'ignoren els valors següents."
 
 # modificat xtec
-#: importer.php:1170
+#: importer.php:1409
 msgid ""
 "If you <strong>create a column called 'role'</strong>: if cell is empty, "
 "roles would be chosen from 'Default role' field in import screen; if cell "
@@ -597,7 +556,7 @@ msgstr ""
 "rol no existeix, s'utilitzarà el predeterminat"
 
 # modificat xtec
-#: importer.php:1083
+#: importer.php:1400
 msgid ""
 "If you <strong>create a column for passwords</strong>: if cell is empty, "
 "password won't be updated; if cell has a value, it will be used"
@@ -607,7 +566,7 @@ msgstr ""
 "s'utilitzarà"
 
 # modificat xtec
-#: importer.php:1082
+#: importer.php:1399
 msgid ""
 "If you <strong>don't create a column for passwords</strong>: passwords will "
 "be generated automatically"
@@ -616,7 +575,7 @@ msgstr ""
 "contrasenyes es generaran automàticament"
 
 # modificat xtec
-#: importer.php:1169
+#: importer.php:1408
 msgid ""
 "If you <strong>don't create a column for roles</strong>: roles would be "
 "chosen from the 'Default role' field in import screen."
@@ -625,23 +584,12 @@ msgstr ""
 "triarien del camp \"Rol per defecte\" a la pantalla d'importació."
 
 # modificat xtec
-#: importer.php:631
-msgid ""
-"If you choose more than one role, the roles would be assigned correctly but "
-"you should use some plugin like <a href=\"https://wordpress.org/plugins/user-"
-"role-editor/\">User Role Editor</a> to manage them."
-msgstr ""
-"Si trieu més d'un rol, els rols se us assignaran correctament, però heu "
-"d'utilitzar algun complement com <a href=\"https://wordpress.org/plugins/"
-"user-role-editor/\"> Editor de rols d'usuari </a> per gestionar-los."
-
-# modificat xtec
-#: importer.php:1246
+#: importer.php:1485
 msgid "If you get some error of this kind:"
 msgstr "Si obteniu algun error d'aquest tipus:"
 
 # modificat xtec
-#: importer.php:790
+#: importer.php:964
 msgid ""
 "If you leave this cell empty for some user or the access area indicated "
 "doesn't exist, user won't be assigned to any access area. You can choose "
@@ -654,7 +602,7 @@ msgstr ""
 "fila, és a dir:"
 
 # modificat xtec
-#: importer.php:1241
+#: importer.php:1480
 msgid ""
 "If you want to assign an user to a group you have to create a column "
 "'bp_group' and a column 'bp_group_role'"
@@ -672,29 +620,16 @@ msgstr ""
 "separar elements"
 
 # modificat xtec
-#: import-users-from-csv-with-meta.php:270
-msgid "Import"
-msgstr "Importa"
-
-# modificat xtec
-#: smtp.php:119
+#: smtp.php:118
 msgid "Import User From CSV With Meta - SMTP server options"
 msgstr "Importar usuari des de CSV amb opcions de servidor Meta - SMTP"
 
-#: importer.php:902
-msgid ""
-"Import Users module require jQuery to be installed on your wordpress in "
-"order to work!"
-msgstr ""
-"El mòdul d'importació d'usuaris requereix tenir instal·lat JQuery al vostre "
-"WordPress per funcionar!"
-
 # modificat xtec
-#: import-users-from-csv-with-meta.php:393
+#: import-users-from-csv-with-meta.php:464
 msgid "Import cron task starts at"
 msgstr "Importa la tasca cron a partir de"
 
-#: import-users-from-csv-with-meta.php:106 importer.php:579
+#: import-users-from-csv-with-meta.php:169 importer.php:753
 msgid "Import users from CSV"
 msgstr "Importa usuaris des d'un fitxer CSV"
 
@@ -704,7 +639,7 @@ msgid "Import users from CSV with meta"
 msgstr "Importa usuaris des d'un fitxer CSV amb metadades"
 
 # modificat xtec
-#: importer.php:1137
+#: importer.php:1495
 msgid "Important notice"
 msgstr "Important:"
 
@@ -718,44 +653,44 @@ msgid "Indeed Ultimate Membership Pro is activated"
 msgstr "L'últim Membre Pro s'ha activat"
 
 # modificat xtec
-#: importer.php:1269 importer.php:1360
+#: importer.php:1641 importer.php:1745
 msgid "Insert complete path to the file"
 msgstr "Inseriu la ruta completa a l'arxiu"
 
-#: import-users-from-csv-with-meta.php:106
+#: import-users-from-csv-with-meta.php:169
 msgid "Insert users massively (CSV)"
 msgstr "Importa usuaris des d'un fitxer CSV"
 
-#: importer.php:133
+#: importer.php:182
 msgid "Inserting and updating data"
 msgstr "Introducció i actualització de dades"
 
 # modificat xtec
-#: importer.php:1366
+#: importer.php:1763
 msgid "Last actions of schedule task"
 msgstr "Últimes accions de tasca de programació"
 
 # modificat xtec
-#: importer.php:687
+#: importer.php:859
 msgid "Leave the old value for this metadata"
 msgstr "Deixeu el valor anterior per a aquestes metadades"
 
 # modificat xtec
-#: importer.php:1181
+#: importer.php:1420
 msgid "Lists"
 msgstr "Llistes"
 
 # modificat xtec
-#: importer.php:1167
+#: importer.php:1525
 msgid "Mail options"
 msgstr "Opcions de correu"
 
-#: importer.php:1195
+#: importer.php:1553
 msgid "Mail subject :"
 msgstr "Assumpte del missatge:"
 
 # modificat xtec
-#: import-users-from-csv-with-meta.php:339
+#: import-users-from-csv-with-meta.php:400
 msgid "Mail template updated correctly"
 msgstr "La plantilla s'ha actualitzat correctament"
 
@@ -764,17 +699,17 @@ msgstr "La plantilla s'ha actualitzat correctament"
 msgid "Mailer"
 msgstr "Remitent"
 
-#: smtp.php:79
+#: smtp.php:78
 msgid "Message sent successfully"
 msgstr "El missatge s'ha enviat correctament"
 
 # modificat xtec
-#: importer.php:1353
+#: importer.php:1738
 msgid "Move file after import?"
 msgstr "Voleu moure l'arxiu després d'importar?"
 
 # modificat xtec
-#: importer.php:1171
+#: importer.php:1410
 msgid ""
 "Multiple roles can be imported creating <strong>a list of roles</strong> "
 "using commas to separate values."
@@ -783,17 +718,17 @@ msgstr ""
 "utilitzant comes per separar els valors."
 
 # modificat xtec
-#: importer.php:1601
+#: importer.php:1840
 msgid "Need help with WordPress or WooCommerce?"
 msgstr "Necessiteu ajuda amb WordPress?"
 
 # modificat xtec
-#: importer.php:754
+#: importer.php:928
 msgid "New User Approve"
 msgstr "Nou usuari aprovat"
 
 # modificat xtec
-#: importer.php:593 importer.php:658
+#: importer.php:767 importer.php:813
 msgid "No"
 msgstr "No"
 
@@ -806,15 +741,16 @@ msgstr "Sense encriptar"
 msgid "No: Do not use SMTP authentication."
 msgstr "No: no utilitzeu l'autenticació SMTP"
 
-#: importer.php:767
+#: importer.php:941
 msgid "Not allowed"
 msgstr "No està permès"
 
-#: importer.php:527 importer.php:531
+#: importer.php:701 importer.php:705
 msgid "Old CSV files uploaded"
 msgstr "Fitxers CSV antics"
 
-#: importer.php:721 importer.php:737 importer.php:754 importer.php:770
+#: importer.php:895 importer.php:911 importer.php:928 importer.php:944
+#: importer.php:1681
 msgid "Only for"
 msgstr "Només per"
 
@@ -824,7 +760,7 @@ msgid "Only users who are able to create users can manage this form."
 msgstr ""
 "Només els usuaris que poden crear usuaris poden gestionar aquest formulari."
 
-#: importer.php:1587
+#: importer.php:1826
 msgid "Or if you prefer, you can also help us becoming a Patreon:"
 msgstr ""
 
@@ -832,48 +768,48 @@ msgstr ""
 msgid "Paid Mebership Pro is activated"
 msgstr ""
 
-#: import-users-from-csv-with-meta.php:205 importer.php:948 smtp.php:222
+#: import-users-from-csv-with-meta.php:267 importer.php:1179 smtp.php:222
 msgid "Password"
 msgstr "password:"
 
 # modificat xtec
-#: importer.php:383
+#: importer.php:546
 msgid "Password has not been changed"
 msgstr "La contrasenya no ha canviat"
 
-#: importer.php:1079
+#: importer.php:1396
 msgid "Passwords"
 msgstr "Contrasenyes"
 
 # modificat xtec
-#: importer.php:1267
+#: importer.php:1639
 msgid "Path of file that are going to be imported"
 msgstr "La ruta de l'arxiu que serà importat"
 
-#: importer.php:1581
+#: importer.php:1820
 msgid "PayPal – The safer, easier way to pay online."
 msgstr ""
 
 # modificat xtec
-#: importer.php:1274
+#: importer.php:1646
 msgid "Period"
 msgstr "Període"
 
-#: importer.php:823 importer.php:831
+#: importer.php:1049 importer.php:1057
 msgid "Please choose a file"
 msgstr "Seleccioneu un fitxer"
 
 # modificat xtec
-#: importer.php:836
+#: importer.php:1062
 msgid "Please enter a path to the file"
 msgstr "Introduïu la ruta al fitxer"
 
-#: importer.php:841
+#: importer.php:1067
 msgid "Please select a role"
 msgstr "Seleccioneu un rol"
 
 # modificat xtec
-#: importer.php:573
+#: importer.php:747
 msgid ""
 "Please, read carefully how <strong>passwords are managed</strong> and also "
 "take note about capitalization, this plugin is <strong>case sensitive</"
@@ -884,18 +820,18 @@ msgstr ""
 "les majúscules i minúscules </strong>."
 
 # modificat xtec
-#: importer.php:1167
+#: importer.php:1406
 msgid "Plugin can import roles from the CSV. This is how it works:"
 msgstr "Aquest complement pot importar funcions des del CSV. Funciona així:"
 
 # modificat xtec
-#: importer.php:1182
+#: importer.php:1421
 msgid "Plugin can now import lists an array. Use this separator:"
 msgstr ""
 "El complement pot importar llistes d'una matriu. Utilitzeu aquest separador:"
 
 # modificat xtec
-#: importer.php:1177
+#: importer.php:1416
 msgid ""
 "Plugin can now import serialized data. You have to use the serialized string "
 "directly in the CSV cell in order the plugin will be able to understand it "
@@ -906,31 +842,30 @@ msgstr ""
 "la com a dades serialitzades en lloc de qualsevol altra cadena."
 
 # modificat xtec
-#: import-users-from-csv-with-meta.php:115
+#: import-users-from-csv-with-meta.php:177
 msgid "Premium plugins"
 msgstr "Complements premium"
 
 # modificat xtec
-#: import-users-from-csv-with-meta.php:114
+#: import-users-from-csv-with-meta.php:176
 msgid "Premium support"
 msgstr "Suport premium"
 
 # modificat xtec
-#: importer.php:1145
+#: importer.php:1503
 msgid "Premium support (with a quote):"
 msgstr "Suport premium (amb quota):"
 
 # modificat xtec
-#: importer.php:193
+#: importer.php:252
 msgid "Problems with ID"
 msgstr "Problemes amb l'identificador"
 
-# modificat xtec
-#: importer.php:259
-msgid "Problems with user:"
-msgstr "Problemes amb l'usuari:"
+#: importer.php:329
+msgid "Problems with user %s. Skiping importation"
+msgstr "Hi ha problemes amb l'usuari %s. Salta la importació"
 
-#: importer.php:458
+#: importer.php:624
 msgid "Process finished you can go"
 msgstr "La importació ha acabat. Feu clic"
 
@@ -940,12 +875,7 @@ msgid "Read more about columns and formats"
 msgstr "Llegiu més sobre columnes i formats"
 
 # modificat xtec
-#: importer.php:90
-msgid "Ready to registers"
-msgstr "Llest per a registrar"
-
-# modificat xtec
-#: importer.php:719
+#: importer.php:893
 msgid ""
 "Remember that all date fields have to be imported using a format like this: "
 "2016-01-01 00:00:00"
@@ -954,7 +884,7 @@ msgstr ""
 "format similar a aquest: 2016-01-01 00:00:00"
 
 # modificat xtec
-#: importer.php:764
+#: importer.php:938 importer.php:1678
 msgid "Repeated email in different users?"
 msgstr "Correus repetits en diferents usuaris?"
 
@@ -963,27 +893,22 @@ msgstr "Correus repetits en diferents usuaris?"
 msgid "Return Path"
 msgstr "Camí de retorn"
 
-#: importer.php:599 importer.php:1331
+#: importer.php:1288 importer.php:1716
 msgid "Role"
 msgstr "Rol"
 
 # modificat xtec
-#: importer.php:1166
+#: importer.php:1405
 msgid "Roles"
 msgstr "Rols"
 
-#: importer.php:135
+#: importer.php:184
 msgid "Row"
 msgstr "Fila"
 
-#: importer.php:140
+#: importer.php:189
 msgid "Row number"
 msgstr "La fila número"
-
-# modificat xtec
-#: import-users-from-csv-with-meta.php:107
-msgid "SMTP Configuration"
-msgstr "Configuració SMTP"
 
 #: smtp.php:187
 msgid "SMTP Host"
@@ -999,41 +924,36 @@ msgstr "Opcions SMTP"
 msgid "SMTP Port"
 msgstr "Port SMTP"
 
-# modificat xtec
-#: import-users-from-csv-with-meta.php:274
-msgid "SMTP settings (deprecated)"
-msgstr "Configuració SMTP (desfasada)"
-
 #: smtp.php:227
 msgid "Save Changes"
 msgstr "Desa els canvis"
 
 # modificat xtec
-#: importer.php:1072
+#: importer.php:1311
 msgid "Save frontend import options"
 msgstr "Desa les opcions d'importació de la interfície"
 
 # modificat xtec
-#: importer.php:1102
+#: importer.php:1341
 msgid "Save option"
 msgstr "Desa"
 
 # modificat xtec
-#: importer.php:1373
+#: importer.php:1770
 msgid "Save schedule options"
 msgstr "Desa les opcions de planificació"
 
 # modificat xtec
-#: smtp.php:26 smtp.php:245
+#: smtp.php:26 smtp.php:241
 msgid "Send Test"
 msgstr "Envieu correu de prova"
 
-#: smtp.php:234
+#: smtp.php:230
 msgid "Send a Test Email"
 msgstr "En via correu electrònic de prova"
 
 # modificat xtec
-#: importer.php:1178
+#: importer.php:1536
 msgid "Send automattic WordPress emails?"
 msgstr "Voleu enviar correus automàtics de WordPress?"
 
@@ -1042,30 +962,30 @@ msgstr "Voleu enviar correus automàtics de WordPress?"
 msgid "Send emails of this plugin via SMTP."
 msgstr "Envia correus electrònics d'aquest complement via SMTP."
 
-#: importer.php:797
+#: importer.php:971
 msgid "Send mail"
 msgstr "Envia missatge de correu electrònic"
 
 # modificat xtec
-#: importer.php:1297
+#: importer.php:1282 importer.php:1669
 msgid "Send mail also to users that are being updated?"
 msgstr "Envia correu també als usuaris que s'estan actualitzant?"
 
 # modificat xtec
-#: importer.php:1037
+#: importer.php:1276
 msgid "Send mail when using frontend import?"
 msgstr ""
 "Voleu enviar un correu electrònic quan s'utilitza la importació de la "
 "interfície?"
 
 # modificat xtec
-#: importer.php:1291
+#: importer.php:1663
 msgid "Send mail when using periodical import?"
 msgstr ""
 "Voleu enviar un correu electrònic quan s'utilitza la importació periòdica?"
 
 # modificat xtec
-#: importer.php:1176
+#: importer.php:1415
 msgid "Serialized data"
 msgstr "Dades serialitzades"
 
@@ -1076,15 +996,15 @@ msgstr ""
 "Estableix la ruta de retorn per a que coincideixi amb el remitent del correu "
 "electrònic"
 
-#: importer.php:938
+#: importer.php:1169
 msgid "Sets the username."
 msgstr "Estableix el nom d'usuari."
 
-#: importer.php:944
+#: importer.php:1175
 msgid "Sets user email."
 msgstr "Estableix l'adreça electrònica de l'usuari."
 
-#: importer.php:950
+#: importer.php:1181
 msgid "Sets user password."
 msgstr "Estableix la contrasenya de l'usuari."
 
@@ -1093,45 +1013,41 @@ msgid "Settings"
 msgstr "Paràmetres"
 
 # modificat xtec
-#: import-users-from-csv-with-meta.php:387
+#: import-users-from-csv-with-meta.php:379
+#: import-users-from-csv-with-meta.php:458
 msgid "Settings updated correctly"
 msgstr "La configuració s'ha actualitzat correctament"
 
 # modificat xtec
-#: import-users-from-csv-with-meta.php:278
-msgid "Shop"
-msgstr "Tenda"
-
-# modificat xtec
-#: importer.php:1097
+#: importer.php:1336
 msgid "Show fields in profile?"
 msgstr "Voleu mostrar els camps del perfil?"
 
-#: importer.php:812
+#: importer.php:992
 msgid "Start importing"
 msgstr "Inicia la importació"
 
 # modificat xtec
-#: smtp.php:83
+#: smtp.php:82
 msgid "Test Message Sent"
 msgstr "S'ha enviat el missatge de prova correctament."
 
 # modificat xtec
-#: smtp.php:40
+#: smtp.php:39
 msgid "Test mail to "
 msgstr "Correu per provar"
 
 # modificat xtec
-#: smtp.php:88
+#: smtp.php:87
 msgid "The SMTP debugging output is shown below:"
 msgstr "A continuació es mostra la depuració de SMTP:"
 
 # modificat xtec
-#: smtp.php:86
+#: smtp.php:85
 msgid "The full debugging output is shown below:"
 msgstr "La depuració completa es mostra a continuació:"
 
-#: importer.php:954
+#: importer.php:1185
 msgid ""
 "The next columns are totally customizable and you can use whatever you want. "
 "All rows must contains same columns"
@@ -1141,19 +1057,19 @@ msgstr ""
 "columnes:"
 
 # modificat xtec
-#: smtp.php:84
+#: smtp.php:83
 msgid "The result was:"
 msgstr "Resultats:"
 
-#: importer.php:985 importer.php:1095
+#: importer.php:1216 importer.php:1432
 msgid "The user's first name."
 msgstr "Nom de l'usuari."
 
-#: importer.php:991 importer.php:1096
+#: importer.php:1222 importer.php:1433
 msgid "The user's last name."
 msgstr "Cognom de l'usuari."
 
-#: importer.php:979 importer.php:1094
+#: importer.php:1210 importer.php:1431
 msgid "The user's nickname, defaults to the user's username."
 msgstr "L'àlies de l'usuari, per defecte, el nom d'usuari."
 
@@ -1165,7 +1081,7 @@ msgstr ""
 "El valor de cada cel·la serà el nom del grup d'usuaris (no utilitzeu slugs)"
 
 # modificat xtec
-#: importer.php:1242
+#: importer.php:1481
 msgid ""
 "Then in each cell you have to fill with the BuddyPress <strong>group slug</"
 "strong>"
@@ -1173,17 +1089,17 @@ msgstr ""
 "Heu d'omplir cada cel·la amb <strong> l'slug de grups</strong> de BuddyPress"
 
 # modificat xtec
-#: importer.php:1039
+#: importer.php:1356
 msgid "There is no columns loaded yet"
 msgstr "Encara no s'han carregat les columnes"
 
 # modiifcat xtec
-#: importer.php:859
+#: importer.php:1085
 msgid "There were problems deleting the file, please check file permissions"
 msgstr "No s'ha pogut esborrar el fitxer, comproveu els permisos dels fitxers"
 
 # modificat xtec
-#: importer.php:877
+#: importer.php:1103
 msgid "There were problems deleting the files, please check files permissions"
 msgstr "No s'ha pogut esborrar el fitxers, comproveu els permisos dels fitxers"
 
@@ -1194,7 +1110,7 @@ msgstr ""
 "Aquestes opcions només s'apliquen si heu triat enviar un correu per SMTP."
 
 # modificat xtec
-#: smtp.php:41
+#: smtp.php:40
 msgid ""
 "This is a test email generated by the Import User From CSV With Meta "
 "WordPress plugin."
@@ -1211,16 +1127,16 @@ msgstr ""
 "Aquests connectors permeten importar usuaris que utilitzin fitxers CSV a la "
 "base de dades WP automàticament"
 
-#: smtp.php:240
+#: smtp.php:236
 msgid "To:"
 msgstr "Per a:"
 
 # modificat xtec
-#: importer.php:1278
+#: importer.php:1650
 msgid "Twicedaily"
 msgstr "Dues vegades al dia"
 
-#: smtp.php:242
+#: smtp.php:238
 msgid ""
 "Type an email address here and then click Send Test to generate a test email."
 msgstr ""
@@ -1228,23 +1144,23 @@ msgstr ""
 "de prova."
 
 # modificat xtec
-#: import-users-from-csv-with-meta.php:60
-#: import-users-from-csv-with-meta.php:205
+#: import-users-from-csv-with-meta.php:90
+#: import-users-from-csv-with-meta.php:267
 msgid "URL to login"
 msgstr "Adreça d'inici de sessió (URL)"
 
 # modificat xtec
-#: import-users-from-csv-with-meta.php:302
+#: import-users-from-csv-with-meta.php:333
 msgid "Unable to write to directory. Is this directory writable by the server?"
 msgstr ""
 "No es pot escriure al directori. Comproveu que el servidor pot pot escriure "
 "en aquest directori."
 
-#: importer.php:589
+#: importer.php:763
 msgid "Update existing users?"
 msgstr "Voleu actualitzar els usuaris existents?"
 
-#: importer.php:655
+#: importer.php:810
 msgid "Update roles for existing users?"
 msgstr "Voleu actualitzar el rol dels usuaris existents?"
 
@@ -1289,42 +1205,42 @@ msgid "Use this settings to send mail."
 msgstr "Utilitzeu aquests paràmetres per enviar el correu."
 
 # modificat xtec
-#: importer.php:1030
+#: importer.php:1269
 msgid "Use this shortcode in any page or post"
 msgstr "Utilitzeu aquest codi a qualsevol pàgina o article"
 
-#: importer.php:240
+#: importer.php:299
 msgid "User already exists as:"
 msgstr "L'usuari ja existeix com:"
 
 # modificat xtec
-#: importer.php:1099
+#: importer.php:1436
 msgid "User's AOL IM account."
 msgstr "Compte AOL IM de l'usuari"
 
 # modificat xtec
-#: importer.php:1098
+#: importer.php:1435
 msgid "User's Jabber account."
 msgstr "Compte Jabber de l'usuari."
 
 # modificat xtec
-#: importer.php:1100
+#: importer.php:1437
 msgid "User's Yahoo IM account."
 msgstr " Compte Yahoo IM de l'usuari."
 
-#: import-users-from-csv-with-meta.php:60
-#: import-users-from-csv-with-meta.php:205 importer.php:936 importer.php:1061
+#: import-users-from-csv-with-meta.php:90
+#: import-users-from-csv-with-meta.php:267 importer.php:1167 importer.php:1378
 #: smtp.php:218
 msgid "Username"
 msgstr "username:"
 
 # modificat xtec
-#: importer.php:1101
+#: importer.php:1438
 msgid "Using the WordPress format for this kind of data Y-m-d H:i:s."
 msgstr "Ús del format de WordPress per a aquest tipus de dades A-m-d H: i: s."
 
 # modificat xtec
-#: importer.php:737
+#: importer.php:911
 msgid "WP Members"
 msgstr "Membres WP"
 
@@ -1333,55 +1249,40 @@ msgstr "Membres WP"
 msgid "WP Users Group is activated"
 msgstr "Grup d'usuaris WP activat"
 
-#: importer.php:1577
+#: importer.php:1816
 msgid ""
 "We have been spending many hours to develop this plugin and answering "
 "questions in the forum to give you the best support. <br>If you like and use "
 "this plugin, you can <strong>buy us a cup of coffee</strong>."
 msgstr ""
 
-#: importer.php:1417
-msgid ""
-"We have been spending many hours to develop this plugin. <br>If you like and "
-"use this plugin, you can <strong>buy us a cup of coffee</strong>."
-msgstr ""
-
-#: importer.php:1605
+#: importer.php:1844
 msgid ""
 "We work everyday with WordPress and WooCommerce, if you need help hire us, "
 "send us a message to"
 msgstr ""
 
-#: import-users-from-csv-with-meta.php:59
-#: import-users-from-csv-with-meta.php:208
+#: import-users-from-csv-with-meta.php:89
+#: import-users-from-csv-with-meta.php:270
 msgid "Welcome to"
 msgstr "Benvinguts a"
 
-#: import-users-from-csv-with-meta.php:60
-#: import-users-from-csv-with-meta.php:205
+#: import-users-from-csv-with-meta.php:90
+#: import-users-from-csv-with-meta.php:267
 msgid "Welcome,"
 msgstr "Benvinguts,"
 
 # modificat xtec
-#: importer.php:684
+#: importer.php:856
 msgid "What should the plugin do with empty cells?"
 msgstr "Què faria el complement amb les cel·les buides?"
 
-# modificat xtec
-#: importer.php:1185
-msgid ""
-"When you update an user or change his password, WordPress prepare and send "
-"automattic email, you can deactivate it here."
-msgstr ""
-"Quan actualitzeu un usuari o modifiqueu la contrasenya, WordPress prepara i "
-"envia un correu automàtic, podeu desactivar-lo aquí."
-
-#: importer.php:646
+#: importer.php:801
 msgid "Where do I get this info?"
 msgstr "On trobo aquesta informació?"
 
 # modificat xtec
-#: importer.php:1349
+#: importer.php:1306 importer.php:1734
 msgid "Which role would be used to import users?"
 msgstr "Quin rol s'hauria d'utilitzar per importar usuaris?"
 
@@ -1391,41 +1292,41 @@ msgid "WooCommerce Membership is activated"
 msgstr "S'ha activat WooCommerce Membership"
 
 # modificat xtec
-#: importer.php:1108
+#: importer.php:1446
 msgid "WooCommerce is activated"
 msgstr "WooCommerce activat"
 
 # modificat xtec
-#: importer.php:781
+#: importer.php:955
 msgid "WordPress Access Areas"
 msgstr "Accés"
 
 # modificat xtec
-#: importer.php:779
+#: importer.php:953
 msgid "WordPress Access Areas is activated"
 msgstr "Les àrees d'accés de WordPress estan activades"
 
 # modificat xtec
-#: importer.php:1174
+#: importer.php:1532
 msgid "WordPress automatic emails users updated"
 msgstr "Els usuaris de correus electrònics de WordPress s'han actualitzat"
 
 # modificat xtec
-#: importer.php:1088
+#: importer.php:1425
 msgid "WordPress default profile data"
 msgstr "Mostra els avatars predefinits del WordPress"
 
-#: importer.php:592 importer.php:659
+#: importer.php:766
 msgid "Yes"
 msgstr "Sí"
 
 # modificat xtec
-#: importer.php:735
+#: importer.php:815
 msgid "Yes, add new roles and not override existing ones"
 msgstr "Afegiu nous rols i no anul·leu els existents"
 
 # modificat xtec
-#: importer.php:734
+#: importer.php:814
 msgid "Yes, update and override existing roles"
 msgstr "Actualitzeu el rol dels usuaris existents"
 
@@ -1434,32 +1335,17 @@ msgstr "Actualitzeu el rol dels usuaris existents"
 msgid "Yes: Use SMTP authentication."
 msgstr "Utilitzeu l'autenticació SMTP"
 
-#: importer.php:473
+#: importer.php:640
 msgid "You are not allowed to see this content."
 msgstr "No esteu autoritzat a veure aquest contingut"
 
 # modificat xtec
-#: import-users-from-csv-with-meta.php:535
+#: import-users-from-csv-with-meta.php:621
 msgid "You are not an adminstrator"
 msgstr "No sou administrador"
 
-# modificat xtec
-#: importer.php:725
-msgid ""
-"You can also import roles from a CSV column. Please read documentation tab "
-"to see how it can be done. If you choose more than one role, the roles would "
-"be assigned correctly but you should use some plugin like <a href=\"https://"
-"wordpress.org/plugins/user-role-editor/\">User Role Editor</a> to manage "
-"them."
-msgstr ""
-"Podeu importar rols des d'una columna CSV. Llegiu la fitxa de documentació "
-"per veure com es pot fer. Si trieu més d'un rol, els rols s'assignaran "
-"correctament, però heu d'utilitzar algun complement com <a href=\"https://"
-"wordpress.org/plugins/user-role-editor/\"> Editor de rols d'usuari </a> per "
-"gestionar-los."
-
 # modificta xtec
-#: importer.php:1209
+#: importer.php:1567
 msgid ""
 "You can also use any WordPress user standard field or an own metadata, if "
 "you have used it in your CSV. For example, if you have a first_name column, "
@@ -1471,7 +1357,7 @@ msgstr ""
 "meta_data com ** my_custom_meta **"
 
 # modificat xtec
-#: importer.php:1244
+#: importer.php:1483
 msgid ""
 "You can do it with multiple groups at the same time using commas to separate "
 "different groups, in bp_group column, i.e.: <em>group_1, group_2, group_3</"
@@ -1490,7 +1376,7 @@ msgstr ""
 "següent format"
 
 # modificat xtec
-#: importer.php:715
+#: importer.php:889
 msgid ""
 "You can insert any profile from BuddyPress using his name as header. Plugin "
 "will check, before import, which fields are defined in BuddyPress and will "
@@ -1501,7 +1387,7 @@ msgstr ""
 "BuddyPress i l'assignarà a l'actualització. Podeu utilitzar aquests camps:"
 
 # modificat xtec
-#: importer.php:1169
+#: importer.php:1527
 msgid "You can set your own SMTP and other mail details"
 msgstr ""
 "Podeu configurar el vostre propi SMTP i altres dades de correu electrònic"
@@ -1526,7 +1412,7 @@ msgstr ""
 "ho deixeu en blanc, els correus electrònics s'enviaran des de WordPress."
 
 # modificat xtec
-#: importer.php:1138
+#: importer.php:1496
 msgid ""
 "You can upload as many files as you want, but all must have the same "
 "columns. If you upload another file, the columns will change to the form of "
@@ -1537,7 +1423,7 @@ msgstr ""
 "la forma de l'últim fitxer carregat."
 
 # modificat xtec
-#: importer.php:1071
+#: importer.php:1388
 msgid ""
 "You can use a column called id in order to make inserts or updates of an "
 "user using the ID used by WordPress in the wp_users table. We have two "
@@ -1557,7 +1443,7 @@ msgstr ""
 "WooCommercer Membership </strong> per importar dades d'aquest connector."
 
 # modificat xtec
-#: importer.php:1239
+#: importer.php:1478
 msgid ""
 "You can use the <strong>profile fields</strong> you have created and also "
 "you can set one or more groups for each user. For example:"
@@ -1584,7 +1470,7 @@ msgstr ""
 "Membership Pro."
 
 # modificat xtec
-#: importer.php:1109
+#: importer.php:1447
 msgid ""
 "You can use those labels if you want to set data adapted to the WooCommerce "
 "default user columns"
@@ -1593,7 +1479,7 @@ msgstr ""
 "columnes d'usuaris predeterminats de WooCommerce"
 
 # modificat xtec
-#: importer.php:1089
+#: importer.php:1426
 msgid ""
 "You can use those labels if you want to set data adapted to the WordPress "
 "default user columns (the ones who use the function"
@@ -1602,22 +1488,22 @@ msgstr ""
 "columnes d'usuaris predeterminades de WordPress (els que utilitzen la funció"
 
 # modificat xtec
-#: importer.php:672 importer.php:1270 importer.php:1361
+#: importer.php:844 importer.php:1642 importer.php:1746
 msgid "You have to introduce the path to file, i.e.:"
 msgstr "Introduïu la ruta d'accés al fitxer, és a dir:"
 
-#: importer.php:932
+#: importer.php:1163
 msgid "You should fill the first three rows with the next values"
 msgstr "Heu d'omplir les tres primeres columnes amb els valors següents:"
 
 # modificat xtec
-#: import-users-from-csv-with-meta.php:60
-#: import-users-from-csv-with-meta.php:205
+#: import-users-from-csv-with-meta.php:90
+#: import-users-from-csv-with-meta.php:267
 msgid "Your data to login in this site is:"
 msgstr "Les vostres dades per iniciar sessió en aquest lloc són:"
 
 # modificat xtec
-#: importer.php:1519
+#: importer.php:1758
 msgid ""
 "Your file will be renamed after moved, so you will not lost any version of "
 "it. The way to rename will be append the time stamp using this date format: "
@@ -1628,17 +1514,17 @@ msgstr ""
 "stamp mitjançant aquest format de data: YmdHis."
 
 # modificat xtec
-#: importer.php:1416
+#: importer.php:1843
 msgid "and"
 msgstr "i"
 
 # modificat xtec
-#: importer.php:1576
+#: importer.php:1815
 msgid "and all the team of"
 msgstr "i tot l'equip de"
 
 # modificat xtec
-#: importer.php:781
+#: importer.php:955
 msgid ""
 "and use this areas in your own CSV file. Please use the column name "
 "<strong>wp-access-areas</strong> and in each row use <strong>the name that "
@@ -1648,11 +1534,11 @@ msgstr ""
 "de columna <strong> wp-access-areas </strong> i, a cada fila, feu servir "
 "<strong> el nom que heu utilitzat"
 
-#: importer.php:1415
+#: importer.php:1814
 msgid "buy me a coffee"
-msgstr ""
+msgstr "comprar-me un cafè"
 
-#: importer.php:669 importer.php:673
+#: importer.php:833 importer.php:845
 msgid "click here"
 msgstr "feu clic aquí"
 
@@ -1662,51 +1548,51 @@ msgid "codection"
 msgstr "codificació"
 
 # modificat xtec
-#: import-users-from-csv-with-meta.php:310
+#: import-users-from-csv-with-meta.php:341
 msgid "could not moved to"
 msgstr "No s'ha pogut moure a"
 
 # modificat xtec
-#: importer.php:1205
+#: importer.php:1563
 msgid "current site login url"
 msgstr "Adreça d'inici de sessió (URL) actual"
 
-#: importer.php:995
+#: importer.php:1226
 msgid "description"
 msgstr "description:"
 
 # modificat xtec
-#: importer.php:1416
+#: importer.php:1815 importer.php:1843
 msgid "developers of this plugin."
 msgstr "Desenvolupadors d'aquest complement"
 
-#: importer.php:971
+#: importer.php:1202
 msgid "display_name"
 msgstr "display_name:"
 
-#: importer.php:140
+#: importer.php:189
 msgid "does not have the same columns than the header, we are going to skip"
 msgstr ""
 "no té el mateix nombre de columnes que la capçalera. Per aquest motiu, "
 "s'ignorarà l'usuari"
 
-#: importer.php:1151
+#: importer.php:1509
 msgid "file"
 msgstr "fitxer"
 
-#: importer.php:983
+#: importer.php:1214
 msgid "first_name"
 msgstr "first_name:"
 
-#: importer.php:1416
+#: importer.php:1843
 msgid "from"
 msgstr "des de"
 
-#: importer.php:781 importer.php:1169
+#: importer.php:955 importer.php:1527
 msgid "here"
 msgstr "aquí"
 
-#: importer.php:458
+#: importer.php:624
 msgid "here to see results"
 msgstr "aquí per veure'n els resultats"
 
@@ -1720,34 +1606,34 @@ msgstr "https://codection.com"
 msgid "https://www.codection.com"
 msgstr "https://www.codection.com"
 
-#: importer.php:1070
+#: importer.php:1387
 msgid "id"
 msgstr "Identificador"
 
-#: importer.php:989
+#: importer.php:1220
 msgid "last_name"
 msgstr "last_name:"
 
 # modificat xtec
-#: importer.php:1206
+#: importer.php:1564
 msgid "lost password url"
 msgstr "Contrasenya perduda"
 
-#: importer.php:977
+#: importer.php:1208
 msgid "nickname"
 msgstr "nickname:"
 
-#: importer.php:673
+#: importer.php:845
 msgid "or you can upload it directly from your PC"
 msgstr "o el podeu pujar directament des del vostre ordinador"
 
 # modificat xtec
-#: importer.php:1207
+#: importer.php:1565
 msgid "password reset url"
 msgstr "Reinicialitza la contrasenya"
 
 # modificat xtec
-#: importer.php:1246
+#: importer.php:1485
 msgid ""
 "please enable Buddypress Extended Profile then import the csv file. You can "
 "then disable this afterwards"
@@ -1755,26 +1641,26 @@ msgstr ""
 "activeu Buddypress Extended Profile i després importeu el fitxer CSV. "
 "Després ho podeu desactivar"
 
-#: importer.php:1151
+#: importer.php:1509
 msgid "to test"
 msgstr "per provar"
 
 # modificat xtec
-#: importer.php:1182
+#: importer.php:1421
 msgid ""
 "two colons, inside the cell in order to split the string in a list of items."
 msgstr ""
 "dos colons, dins de la cel·la per dividir la cadena en una llista d'elements."
 
-#: importer.php:552
+#: importer.php:726
 msgid "uploaded on"
 msgstr "pujat el"
 
-#: importer.php:1208
+#: importer.php:1566
 msgid "user email"
 msgstr "correu electrònic de l'usuari"
 
-#: importer.php:1204
+#: importer.php:1562
 msgid "user password"
 msgstr "contrasenya de l'usuari"
 
@@ -1783,49 +1669,31 @@ msgstr "contrasenya de l'usuari"
 msgid "user_group as the column title"
 msgstr "user_group com a títol de la columna"
 
-#: importer.php:959
+#: importer.php:1190
 msgid "user_nicename"
 msgstr "user_nicename:"
 
-#: importer.php:965
+#: importer.php:1196
 msgid "user_url"
 msgstr "user_url"
 
-#: importer.php:193
+#: importer.php:252
 msgid ""
 "username is not the same in the CSV and in database, we are going to skip."
 msgstr ""
 "el nom d'usuari no és el mateix al CSV que la la bse de dades, s'ignorarà."
 
 # modificat xtec
-#: importer.php:1203
+#: importer.php:1561
 msgid "username to login"
 msgstr "nom d'usuari per iniciar sessió"
 
-#: importer.php:721 importer.php:737 importer.php:754 importer.php:770
+#: importer.php:895 importer.php:911 importer.php:928 importer.php:944
+#: importer.php:1681
 msgid "users"
 msgstr "usuaris"
 
-#: importer.php:799 importer.php:800
-msgid "yes"
-msgstr "sí"
-
 # modificat xtec
-#: importer.php:781
+#: importer.php:955
 msgid "you can use the Access Areas created"
 msgstr "podeu utilitzar les àrees d'accés creades"
-
-#~ msgid "Cron import"
-#~ msgstr "Inicia la importació"
-
-#~ msgid "Import users"
-#~ msgstr "Importa usuaris"
-
-#~ msgid "No user has been imported correctly"
-#~ msgstr "No s'ha importat cap usuari"
-
-#~ msgid "Problems with user %s. Skiping importation"
-#~ msgstr "Hi ha problemes amb l'usuari %s. Salta la importació"
-
-#~ msgid "required"
-#~ msgstr "requerit"

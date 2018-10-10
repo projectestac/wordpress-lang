@@ -2,35 +2,36 @@
 # This file is distributed under the same license as the Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2015-11-27 12:20+0100\n"
+"Project-Id-Version: Stable (latest release)\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/blogger-importer\n"
+"POT-Creation-Date: 2018-10-10 07:17:45+00:00\n"
+"PO-Revision-Date: 2018-10-10 10:51+0200\n"
+"Last-Translator: Joan Sala Soler <jsala236@xtec.cat>\n"
+"Language-Team: \n"
+"Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Poedit 1.7.5\n"
-"Project-Id-Version: Stable (latest release)\n"
-"POT-Creation-Date: \n"
-"Last-Translator: Mònica Grau <mgrau226@xtec.cat>\n"
-"Language-Team: \n"
-"Language: ca\n"
+"X-Generator: Poedit 2.0.6\n"
 
-#: blogger-importer.php:287
+#: blogger-importer.php:314
 msgid "- Select -"
 msgstr "- Seleccioneu -"
 
-#: blogger-importer.php:176
+#: blogger-importer.php:184
 msgid "All done."
 msgstr "Fet!"
 
-#: blogger-importer.php:249
+#: blogger-importer.php:276
 msgid "Assign Authors"
 msgstr "Defineix autors"
 
-#: blogger-importer.php:713 blogger-importer.php:797
+#: blogger-importer.php:764 blogger-importer.php:848
 msgid "Attempting to write back empty content"
 msgstr "S'està intentant escriure de nou contingut buit"
 
-#: blogger-importer.php:911
+#: blogger-importer.php:962
 msgid "Blogger"
 msgstr "Blogger"
 
@@ -38,14 +39,27 @@ msgstr "Blogger"
 msgid "Blogger Importer"
 msgstr "Importador del Blogger"
 
-#: blogger-importer.php:858
+#: blogger-importer.php:909
 msgid "Choose an XML file to upload, then click Upload file and import."
 msgstr ""
 "Trieu un fitxer XML per carregar, després feu clic a Penja el fitxer i "
 "importa'l."
 
+#: blogger-importer.php:247
+msgid "Error getting file info"
+msgstr "S'ha produït un error en obtenir la informació del fitxer"
+
 # MODIFICAT XTEC
-#: blogger-importer.php:334
+#: blogger-importer.php:364
+msgid ""
+"Failed to create new user because already exists. Their posts will be "
+"attributed to the current user."
+msgstr ""
+"No s'ha pogut crear l'usuari nou perquè ja existeix. Els seus articles "
+"s'atribuiran a l'usuari actual."
+
+# MODIFICAT XTEC
+#: blogger-importer.php:366
 msgid ""
 "Failed to create new user for %s. Their posts will be attributed to the "
 "current user."
@@ -53,11 +67,11 @@ msgstr ""
 "Error en crear l'usuari nou per %s. Els seus articles s'atribuiran a "
 "l'usuari actual."
 
-#: blogger-importer.php:176
+#: blogger-importer.php:184
 msgid "Have fun!"
 msgstr "Divertiu-vos!"
 
-#: blogger-importer.php:857
+#: blogger-importer.php:908
 msgid ""
 "Howdy! Upload your Blogger Exported XML file and we&#8217;ll import the "
 "contents from it into this site."
@@ -65,7 +79,7 @@ msgstr ""
 "Hola! Pugeu el vostre fitxer XML exportat de Blogger i importeu el contingut "
 "a aquest lloc."
 
-#: blogger-importer.php:252
+#: blogger-importer.php:279
 msgid ""
 "If a new user is created by WordPress, a new password will be randomly "
 "generated and the new user&#8217;s role will be set as %s. Manually changing "
@@ -75,17 +89,18 @@ msgstr ""
 "nova de forma aleatòria i s'establirà un rol nou com a %s. Si fos necessari, "
 "canvieu manualment els detalls d'aquest usuari."
 
-#: blogger-importer.php:844
+#: blogger-importer.php:895
 msgid "Import Blogger"
 msgstr "Importa des del Blogger"
 
-#: blogger-importer.php:274
+#: blogger-importer.php:301
 msgid "Import author:"
 msgstr "Importa l'autor:"
 
 # MODIFICAT XTEC
+#. #-#-#-#-#  blogger-importer.pot (Blogger Importer 0.9)  #-#-#-#-#
 #. Description of the plugin/theme
-#: blogger-importer.php:911
+#: blogger-importer.php:962
 msgid ""
 "Import posts, comments, and categories from a Blogger blog and migrate "
 "authors to WordPress users."
@@ -93,29 +108,29 @@ msgstr ""
 "Importa articles, comentaris, imatges i etiquetes d'un blog del Blogger i "
 "migra els autors als usuaris del WordPress."
 
-#: blogger-importer.php:631
+#: blogger-importer.php:682
 msgid "Lowrez not an image"
 msgstr "Lowrez no és una imatge"
 
-#: blogger-importer.php:660
+#: blogger-importer.php:711
 msgid "None of the images are valid"
 msgstr "Cap de les imatges són vàlides"
 
-#: blogger-importer.php:177
+#: blogger-importer.php:185
 msgid "Remember to update the passwords and roles of imported users."
 msgstr ""
 "Recordeu actualitzar les contrasenyes i els rols dels usuaris importats."
 
-#: blogger-importer.php:129 blogger-importer.php:138 blogger-importer.php:192
-#: blogger-importer.php:196 blogger-importer.php:206
+#: blogger-importer.php:137 blogger-importer.php:146 blogger-importer.php:200
+#: blogger-importer.php:204 blogger-importer.php:214
 msgid "Sorry, there has been an error."
 msgstr "Ho sentim, s'ha produït un error."
 
-#: blogger-importer.php:261
+#: blogger-importer.php:288
 msgid "Submit"
 msgstr "Tramet"
 
-#: blogger-importer.php:197
+#: blogger-importer.php:205
 msgid ""
 "The export file could not be found at <code>%s</code>. It is likely that "
 "this was caused by a permissions problem."
@@ -123,12 +138,12 @@ msgstr ""
 "El fitxer d'exportació no s'ha pogut trobar a <code>%s</code>. És probable "
 "que això sigui per un problema de permisos."
 
-#: blogger-importer.php:130
+#: blogger-importer.php:138
 msgid "The file does not exist, please try again."
 msgstr "El fitxer no existeix, intenteu-ho de nou."
 
 # MODIFICAT XTEC
-#: blogger-importer.php:250
+#: blogger-importer.php:277
 msgid ""
 "To make it easier for you to edit and save the imported content, you may "
 "want to reassign the author of the imported item to an existing user of this "
@@ -140,7 +155,7 @@ msgstr ""
 "existent d'aquest lloc. Per exemple, és possible que vulgueu importar tots "
 "els articles com a <code>admin</code>."
 
-#: blogger-importer.php:280
+#: blogger-importer.php:307
 msgid "as a new user:"
 msgstr "com a usuari nou:"
 
@@ -153,7 +168,7 @@ msgid "http://wordpress.org/extend/plugins/blogger-importer/"
 msgstr "http://wordpress.org/extend/plugins/blogger-importer/"
 
 # MODIFICAT XTEC
-#: blogger-importer.php:286
+#: blogger-importer.php:313
 msgid "or assign posts to an existing user:"
 msgstr "o assigneu els articles a un usuari existent:"
 

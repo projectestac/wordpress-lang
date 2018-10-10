@@ -2,17 +2,19 @@
 # This file is distributed under the same license as the Stable (latest release) package.
 msgid ""
 msgstr ""
+"Project-Id-Version: Stable (latest release)\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/google-calendar-"
+"events\n"
+"POT-Creation-Date: 2018-10-10 07:17:46+00:00\n"
 "PO-Revision-Date: 2018-07-17 23:15+0200\n"
+"Last-Translator: Joan Sala Soler <jsala236@xtec.cat>\n"
+"Language-Team: \n"
+"Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Poedit 2.0.7\n"
-"Project-Id-Version: Stable (latest release)\n"
-"POT-Creation-Date: \n"
-"Last-Translator: Joan Sala Soler <jsala236@xtec.cat>\n"
-"Language-Team: \n"
-"Language: ca\n"
 "X-Textdomain-Support: yesX-Generator: Poedit 1.6.4\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html_x:1,2c;esc_html__;"
@@ -30,15 +32,6 @@ msgstr ""
 "%1$s - Es recomana configurar la memòria com a mínima a 64MB. Vegeu: <a href="
 "\"%2$s\" target=\"_blank\">Augmentar la memòria allotjada a PHP</a>"
 
-# modificat xtec
-#: includes/admin/pages/system-status.php:339
-msgid ""
-"%1$s - It is recomendend to upgrade at least to PHP version 5.4 for security "
-"reasons. <a href=\"%2$s\" target=\"_blank\">Read more.</a>"
-msgstr ""
-"%1$s - Es recomana actualitzar com a mínima a la versió 5.4 de PHP per raons "
-"de seguretat. <a href=\"%2$s\" target=\"_blank\">Llegeix més.</a>"
-
 #: includes/admin/pages/system-status.php:212
 #: includes/admin/pages/system-status.php:305
 msgid "%s is available"
@@ -50,28 +43,28 @@ msgid "(active)"
 msgstr "(actiu)"
 
 #. translators: One or more persons attending the event whose name is unknown.
-#: includes/events/event-builder.php:841
+#: includes/events/event-builder.php:924
 msgid "1 anonymous attendee"
 msgid_plural "%s anonymous attendees"
 msgstr[0] "1 assistent anònim"
 msgstr[1] "%s assistents anònims"
 
 #. translators: One more person attending the event.
-#: includes/events/event-builder.php:838
+#: includes/events/event-builder.php:921
 msgid "1 more attendee"
 msgid_plural "%s more attendees"
 msgstr[0] "1 assistent més"
 msgstr[1] "%s assistents més"
 
-#: includes/feeds/admin/google-admin.php:134
+#: includes/feeds/admin/google-admin.php:175
 msgid "<a href=\"%s\" target=\"_blank\">Google Developers Console</a> "
 msgstr "<a href=\"%s\" target=\"_blank\">Google Developers Console</a> "
 
-#: includes/feeds/admin/google-admin.php:130
+#: includes/feeds/admin/google-admin.php:171
 msgid "<a href=\"%s\" target=\"_blank\">Step-by-step instructions</a> "
 msgstr "<a href=\"%s\" target=\"_blank\">Instruccions pas a pas</a> "
 
-#: includes/feeds/admin/google-admin.php:87
+#: includes/feeds/admin/google-admin.php:107
 msgid ""
 "<strong>Note:</strong> Calendars configured to use the <strong><a href=\"%s"
 "\" target=\"_blank\">Google Calendar Pro add-on</a></strong> use a different "
@@ -80,16 +73,6 @@ msgstr ""
 "<strong>Nota:</strong> Els calendaris configurats per utilitzar el "
 "complement <strong><a href=\"%s\" target=\"_blank\">Google Calendar Pro </"
 "a></strong> utilitzen un mètode diferent d'autorització."
-
-#: includes/admin/metaboxes/settings.php:586
-msgid ""
-"<strong>Warning:</strong> Using this option can return unexpected results if "
-"you have specified <a href=\"%s\" target=\"_blank\">event level</a> "
-"timezones."
-msgstr ""
-"<strong>Atenció:</strong> Si feu servir aquesta opció es poden mostrar "
-"resultats inesperats si s'han especificat fusos horaris<a href=\"%s\" target="
-"\"_blank\">personalitzats als esdeveniments</a>."
 
 # modificat xtec
 #: includes/admin/welcome.php:52
@@ -145,7 +128,7 @@ msgid "Add a calendar to your post."
 msgstr "Afegeix un calendari al teu article"
 
 # modificat xtec
-#: includes/admin/welcome.php:233
+#: includes/admin/welcome.php:203
 msgid "Add even more display options with add-ons like"
 msgstr "Afegiu més opcions amb complements com"
 
@@ -172,9 +155,9 @@ msgstr "Llicències de complements"
 msgid "Add-on unspecified or invalid action."
 msgstr "Complement no especificat o acció invàlida."
 
-#: includes/admin/menus.php:81 includes/admin/menus.php:82
-#: includes/admin/menus.php:146 includes/admin/pages/add-ons.php:31
-#: includes/admin/welcome.php:140
+#: includes/admin/menus.php:85 includes/admin/menus.php:86
+#: includes/admin/menus.php:162 includes/admin/pages/add-ons.php:31
+#: includes/admin/welcome.php:110
 msgid "Add-ons"
 msgstr "Complements"
 
@@ -215,7 +198,7 @@ msgstr "S'ha produït un error: %s"
 msgid "Appearance"
 msgstr "Aparença"
 
-#: includes/admin/meta-boxes.php:116
+#: includes/admin/meta-boxes.php:138
 msgid "Attach Calendar"
 msgstr "Adjunta un calendari"
 
@@ -224,7 +207,7 @@ msgid "Attach Calendars"
 msgstr "Adjunta calendaris"
 
 #. translators: Someone replied with 'yes' to a rsvp request.
-#: includes/events/event-builder.php:867
+#: includes/events/event-builder.php:950
 msgid "Attending"
 msgstr "Assistir"
 
@@ -238,7 +221,7 @@ msgstr "Autor"
 msgid "Before Content"
 msgstr "Abans del contingut"
 
-#: includes/admin/pages/system-status.php:528
+#: includes/admin/pages/system-status.php:532
 msgid "Browser"
 msgstr "Navegador"
 
@@ -252,7 +235,7 @@ msgstr ""
 "després de la desinstal·lació. Marqueu aquesta opció si voleu eliminar totes "
 "les dades del vostre calendari quan es desinstal·li."
 
-#: includes/admin/metaboxes/settings.php:747
+#: includes/admin/metaboxes/settings.php:785
 msgid "Cache"
 msgstr "Memòria cau"
 
@@ -262,7 +245,7 @@ msgid "Cache cleared."
 msgstr "Memòria cau eliminada."
 
 #: includes/post-types.php:173 includes/post-types.php:201
-#: includes/widgets/calendar.php:125
+#: includes/widgets/calendar.php:148
 msgid "Calendar"
 msgstr "Calendari"
 
@@ -271,19 +254,19 @@ msgctxt "Post Type Singular Name"
 msgid "Calendar"
 msgstr "Calendari"
 
-#: includes/feeds/admin/google-admin.php:178
+#: includes/feeds/admin/google-admin.php:219
 msgid "Calendar ID"
 msgstr "ID del calendari"
 
-#: includes/admin/meta-boxes.php:81
+#: includes/admin/meta-boxes.php:83
 msgid "Calendar Settings"
 msgstr "Configuració del calendari"
 
-#: includes/admin/meta-boxes.php:104
+#: includes/admin/meta-boxes.php:126
 msgid "Calendar Shortcode"
 msgstr "Codi curt del calendari"
 
-#: includes/admin/metaboxes/settings.php:245
+#: includes/admin/metaboxes/settings.php:256
 msgid "Calendar Start"
 msgstr "Inici del calendari"
 
@@ -300,12 +283,12 @@ msgstr "Tipus de calendaris"
 msgid "Calendar to use"
 msgstr "Calendari a fer servir"
 
-#: includes/widgets/calendar.php:142
+#: includes/widgets/calendar.php:165
 msgid "Calendar:"
 msgstr "Calendari:"
 
-#: includes/admin/menus.php:122 includes/admin/pages/calendars.php:42
-#: includes/admin/welcome.php:134 includes/post-types.php:172
+#: includes/admin/menus.php:138 includes/admin/pages/calendars.php:42
+#: includes/admin/welcome.php:104 includes/post-types.php:172
 msgid "Calendars"
 msgstr "Calendaris"
 
@@ -337,26 +320,15 @@ msgid "Category"
 msgstr "Categoria"
 
 # modirficat xtec
-#: includes/admin/welcome.php:181
+#: includes/admin/welcome.php:151
 msgid "Check out our documentation"
 msgstr "Consulteu la nostra documentació"
-
-# modificat xtec
-#: includes/admin/metaboxes/settings.php:724
-msgid ""
-"Checking this box will use the spacing contained in the separator field "
-"above. Otherwise one space on each side of the separator will be used "
-"instead."
-msgstr ""
-"Si marqueu aquesta casella, s'utilitzarà l'espaiat que es troba al camp de "
-"separador anterior. En cas contrari, s'utilitzarà un espai a cada costat del "
-"separador."
 
 #: includes/admin/pages/system-status.php:258
 msgid "Child Theme"
 msgstr "Tema fill"
 
-#: includes/calendars/admin/default-calendar-admin.php:326
+#: includes/calendars/admin/default-calendar-admin.php:345
 msgid "Choose a calendar theme to match your site theme."
 msgstr "Tria un tema del calendari que cassi amb el tema del lloc."
 
@@ -386,7 +358,7 @@ msgstr "Buida la memòria cau"
 msgid "Click"
 msgstr "En fer clic"
 
-#: includes/admin/welcome.php:293
+#: includes/admin/welcome.php:263
 msgid "Click here to help translate"
 msgstr "Clic"
 
@@ -398,12 +370,12 @@ msgstr "Informació del client"
 msgid "Clone"
 msgstr "Clona"
 
-#: includes/calendars/admin/default-calendar-admin.php:213
+#: includes/calendars/admin/default-calendar-admin.php:225
 msgid "Compact List"
 msgstr "Llista compacta"
 
 # modificat xtec
-#: includes/admin/welcome.php:225
+#: includes/admin/welcome.php:195
 msgid ""
 "Configure event colors, number of events to display, grid or list style and "
 "more."
@@ -419,32 +391,32 @@ msgstr "Còpia"
 msgid "Could not find any calendars to add to this post."
 msgstr "o s'ha pogut trobar cap calendari per afegir a aquest missatge."
 
-#: includes/admin/welcome.php:199
+#: includes/admin/welcome.php:169
 msgid "Credits"
 msgstr "Crèdits"
 
-#: includes/admin/metaboxes/settings.php:576
-#: includes/admin/metaboxes/settings.php:606
-#: includes/admin/metaboxes/settings.php:678
-#: includes/admin/metaboxes/settings.php:728
+#: includes/admin/metaboxes/settings.php:612
+#: includes/admin/metaboxes/settings.php:644
+#: includes/admin/metaboxes/settings.php:716
+#: includes/admin/metaboxes/settings.php:766
 msgctxt "Use a custom setting"
 msgid "Custom"
 msgstr "Personalitzada"
 
-#: includes/admin/metaboxes/settings.php:607
-#: includes/admin/metaboxes/settings.php:679
+#: includes/admin/metaboxes/settings.php:645
+#: includes/admin/metaboxes/settings.php:717
 msgid "Custom (PHP format)"
 msgstr "Personalitzada (format PHP)"
 
-#: includes/calendars/admin/default-calendar-admin.php:329
+#: includes/calendars/admin/default-calendar-admin.php:348
 msgid "Dark"
 msgstr "Fosc"
 
-#: includes/admin/metaboxes/settings.php:591
+#: includes/admin/metaboxes/settings.php:629
 msgid "Date Format"
 msgstr "Format de la data"
 
-#: includes/admin/metaboxes/settings.php:546
+#: includes/admin/metaboxes/settings.php:582
 msgid "Date and Time"
 msgstr "Dia i hora"
 
@@ -452,36 +424,36 @@ msgstr "Dia i hora"
 msgid "Day"
 msgstr "Dia"
 
-#: includes/admin/metaboxes/settings.php:418
+#: includes/admin/metaboxes/settings.php:429
 msgid "Day end of start date"
 msgstr "Al final del dia de la data d'inici"
 
-#: includes/admin/metaboxes/settings.php:773
-#: includes/calendars/admin/default-calendar-admin.php:186
+#: includes/admin/metaboxes/settings.php:819
+#: includes/calendars/admin/default-calendar-admin.php:198
 msgid "Day(s)"
 msgstr "Dia(es)"
 
-#: includes/admin/metaboxes/settings.php:419
+#: includes/admin/metaboxes/settings.php:430
 msgid "Day(s) after start date"
 msgstr "Dia(es) després d'avui"
 
-#: includes/admin/metaboxes/settings.php:294
+#: includes/admin/metaboxes/settings.php:305
 msgid "Day(s) after today"
 msgstr "Dia(es) després d'avui"
 
-#: includes/admin/metaboxes/settings.php:381
+#: includes/admin/metaboxes/settings.php:392
 msgid "Day(s) before start date"
 msgstr "Dia(es) abans de la data d'inici"
 
-#: includes/admin/metaboxes/settings.php:291
+#: includes/admin/metaboxes/settings.php:302
 msgid "Day(s) before today"
 msgstr "Dia(es) abans d'avui"
 
-#: includes/admin/metaboxes/settings.php:282
+#: includes/admin/metaboxes/settings.php:293
 msgid "Days"
 msgstr "dies"
 
-#: includes/calendars/admin/default-calendar-admin.php:357
+#: includes/calendars/admin/default-calendar-admin.php:376
 msgid "Days with Events"
 msgstr "Dies amb esdeveniments"
 
@@ -489,7 +461,7 @@ msgstr "Dies amb esdeveniments"
 msgid "Deactivate"
 msgstr "Desactivar"
 
-#: includes/calendars/default-calendar.php:111
+#: includes/calendars/default-calendar.php:120
 msgid "Default"
 msgstr "Per defecte"
 
@@ -535,7 +507,7 @@ msgctxt "A character to separate two elements"
 msgid "Divider"
 msgstr "Divisor"
 
-#: includes/admin/welcome.php:143
+#: includes/admin/welcome.php:113
 msgid "Documentation"
 msgstr "Documentació"
 
@@ -544,12 +516,12 @@ msgstr "Documentació"
 msgid "Download System Report"
 msgstr "Baixa l'informe del sistema"
 
-#: includes/admin/metaboxes/settings.php:353
+#: includes/admin/metaboxes/settings.php:364
 msgid "Earliest Event"
 msgstr "Primer esdeveniment"
 
-#: includes/calendars/views/default-calendar-grid.php:203
-#: includes/calendars/views/default-calendar-list.php:200
+#: includes/calendars/views/default-calendar-grid.php:196
+#: includes/calendars/views/default-calendar-list.php:197
 #: includes/post-types.php:179
 msgid "Edit Calendar"
 msgstr "Edita el calendari"
@@ -567,15 +539,15 @@ msgid "Edit Events Source Type"
 msgstr "Editeu un tipus d'origen d'esdeveniment"
 
 # modificat xtec
-#: includes/admin/metaboxes/settings.php:630
+#: includes/admin/metaboxes/settings.php:668
 msgid "Enter a date format using %s values."
 msgstr "Introduïu un format de data utilitzant els valors de %s."
 
-#: includes/admin/metaboxes/settings.php:702
+#: includes/admin/metaboxes/settings.php:740
 msgid "Enter a time format using %s values."
 msgstr "Introduïu un format d'hora utilitzant els valors de %s."
 
-#: includes/feeds/admin/google-admin.php:180
+#: includes/feeds/admin/google-admin.php:221
 msgid "Enter a valid Google Calendar ID from a public calendar"
 msgstr "Entreu un identificador d'un calendari de Google vàlid."
 
@@ -606,7 +578,7 @@ msgstr "Elimineu les dades del calendari"
 msgid "Error"
 msgstr "Error"
 
-#: includes/calendars/views/default-calendar-grid.php:453
+#: includes/calendars/views/default-calendar-grid.php:457
 msgid "Event"
 msgstr "Esdeveniment"
 
@@ -614,11 +586,11 @@ msgstr "Esdeveniment"
 msgid "Event Bubbles"
 msgstr "Bombolles d'esdeveniments"
 
-#: includes/admin/metaboxes/settings.php:486
+#: includes/admin/metaboxes/settings.php:516
 msgid "Event Formatting"
 msgstr "Format dels esdeveniments"
 
-#: includes/admin/metaboxes/settings.php:241
+#: includes/admin/metaboxes/settings.php:252
 msgid "Event Settings"
 msgstr "Configuració d'esdeveniments"
 
@@ -630,7 +602,7 @@ msgstr "Origen dels esdeveniments"
 msgid "Event Sources"
 msgstr "Orígens dels esdeveniments"
 
-#: includes/admin/metaboxes/settings.php:608
+#: includes/admin/metaboxes/settings.php:610
 msgctxt "Use the calendar default setting"
 msgid "Event source default"
 msgstr "Origen de l'esdeveniment"
@@ -640,7 +612,7 @@ msgstr "Origen de l'esdeveniment"
 msgid "Event titles & start times in grid"
 msgstr "Títols dels esdeveniments i data d'inici a la graella"
 
-#: includes/calendars/admin/default-calendar-admin.php:187
+#: includes/calendars/admin/default-calendar-admin.php:199
 msgid "Event(s)"
 msgstr "Esdeveniment(s)"
 
@@ -660,16 +632,11 @@ msgstr "Tipus d'origens d'esdeveniments"
 msgid "Events Source Types"
 msgstr "Tipus d'origens d'esdeveniments"
 
-#: includes/admin/metaboxes/settings.php:574
-msgctxt "Use the calendar default setting"
-msgid "Events source default"
-msgstr "Tots els tipus d'origens d'esdeveniments"
-
-#: includes/feeds/admin/google-admin.php:198
+#: includes/feeds/admin/google-admin.php:239
 msgid "Events that are programmed to repeat themselves periodically."
 msgstr "Esdeveniments que es repeteixen periòdicament"
 
-#: includes/calendars/admin/default-calendar-admin.php:272
+#: includes/calendars/admin/default-calendar-admin.php:284
 msgid "Expand Multi-day Events"
 msgstr "Estén els esdeveniments de més d'un dia"
 
@@ -678,7 +645,7 @@ msgstr "Estén els esdeveniments de més d'un dia"
 msgid "Fast view switching"
 msgstr "Visualització ràpida"
 
-#: includes/feeds/admin/google-admin.php:191
+#: includes/feeds/admin/google-admin.php:232
 msgid "Filter events to display by search terms..."
 msgstr "Esdeveniments filtrats per les paraules següents..."
 
@@ -686,17 +653,13 @@ msgstr "Esdeveniments filtrats per les paraules següents..."
 msgid "First Name"
 msgstr "Nom"
 
-#: includes/admin/welcome.php:234
+#: includes/admin/welcome.php:204
 msgid "FullCalendar and Google Calendar Pro"
 msgstr "FullCalendar i Google Calendar Pro"
 
 #: includes/admin/pages/calendars.php:77
 msgid "General"
 msgstr "General"
-
-#: includes/admin/meta-boxes.php:93
-msgid "Get 20% off all Pro Add-ons"
-msgstr ""
 
 #: includes/feeds/admin/grouped-calendars-admin.php:88
 msgid "Get Calendars From"
@@ -707,7 +670,8 @@ msgctxt "From which calendar source to load events from"
 msgid "Get events from"
 msgstr "Obté esdeveniments de"
 
-#: includes/feeds/admin/google-admin.php:96
+#: includes/feeds/admin/google-admin.php:116
+#: includes/feeds/admin/google-admin.php:134
 msgid "Google API Key"
 msgstr "Clau de l'API de Google"
 
@@ -715,11 +679,11 @@ msgstr "Clau de l'API de Google"
 msgid "Google Calendar"
 msgstr "Calendari de Google"
 
-#: includes/feeds/admin/google-admin.php:227
+#: includes/feeds/admin/google-admin.php:275
 msgid "Google Calendar Settings"
 msgstr "Configuració de Google Calendar"
 
-#: includes/feeds/admin/google-admin.php:210
+#: includes/feeds/admin/google-admin.php:251
 msgid ""
 "Google Calendar only allows to query for a maximum amount of 2500 events "
 "from a calendar each time."
@@ -727,7 +691,7 @@ msgstr ""
 "Google Calendar només permet consultar un màxim de 2500 esdeveniments d'un "
 "calendari cada vegada."
 
-#: includes/calendars/default-calendar.php:113
+#: includes/calendars/default-calendar.php:122
 #: includes/calendars/views/default-calendar-grid.php:92
 msgid "Grid"
 msgstr "Graella"
@@ -745,7 +709,7 @@ msgstr "Configuració del Calendari agrupat"
 msgid "Grouped calendars can not have any taxonomy associated."
 msgstr "Els calendaris agrupats no poden tenir cap categoria assignada."
 
-#: includes/calendars/admin/default-calendar-admin.php:195
+#: includes/calendars/admin/default-calendar-admin.php:207
 msgid "Hide Header"
 msgstr "Amaga la capçalera"
 
@@ -753,7 +717,7 @@ msgstr "Amaga la capçalera"
 msgid "Home URL"
 msgstr "URL d'inici"
 
-#: includes/admin/metaboxes/settings.php:772
+#: includes/admin/metaboxes/settings.php:818
 msgid "Hour(s)"
 msgstr "Hora(es)"
 
@@ -765,14 +729,14 @@ msgstr "Hores"
 msgid "Hover"
 msgstr "En passar el ratolí"
 
-#: includes/admin/metaboxes/settings.php:496
+#: includes/admin/metaboxes/settings.php:526
 msgid ""
 "How to preserve line breaks and paragraphs in the event template builder."
 msgstr ""
 "Com preservar els salts de línia i els paràgrafs en el generador de "
 "plantilla d'esdeveniments."
 
-#: includes/admin/pages/system-status.php:523
+#: includes/admin/pages/system-status.php:527
 msgid "IP Address"
 msgstr "Adreça IP"
 
@@ -785,7 +749,7 @@ msgstr ""
 "Aquesta opció evitarà que es carreguin tots els fulls d'estil de la "
 "interfície. Això també inclou els fulls d'estil complementaris."
 
-#: includes/admin/metaboxes/settings.php:776
+#: includes/admin/metaboxes/settings.php:822
 msgid ""
 "If you add, edit or remove events in your calendar very often, you can set a "
 "lower interval to refresh the events displayed. Set a higher interval for "
@@ -795,7 +759,7 @@ msgstr ""
 "establir un interval inferior per actualitzar els esdeveniments que es "
 "mostren. Establiu un interval més alt per a un millor rendiment."
 
-#: includes/admin/menus.php:202
+#: includes/admin/menus.php:224
 msgid ""
 "If you like <strong>Simple Calendar</strong> please leave us a %s&#9733;"
 "&#9733;&#9733;&#9733;&#9733; rating on WordPress.org%s. A huge thank you in "
@@ -814,7 +778,7 @@ msgstr "Instaŀlació"
 msgid "Just take me the add-ons"
 msgstr ""
 
-#: includes/admin/metaboxes/settings.php:391
+#: includes/admin/metaboxes/settings.php:402
 msgid "Latest Event"
 msgstr "Darrer esdeveniment"
 
@@ -822,11 +786,11 @@ msgstr "Darrer esdeveniment"
 msgid "License key is invalid."
 msgstr "La clau de llicència no és vàlida"
 
-#: includes/calendars/admin/default-calendar-admin.php:328
+#: includes/calendars/admin/default-calendar-admin.php:347
 msgid "Light"
 msgstr "Clar"
 
-#: includes/calendars/admin/default-calendar-admin.php:231
+#: includes/calendars/admin/default-calendar-admin.php:243
 msgid "Limit Visible Events"
 msgstr "Limita els esdeveniments visibles"
 
@@ -835,14 +799,14 @@ msgstr "Limita els esdeveniments visibles"
 msgid "Limit event display times"
 msgstr "Limita el temps de visualització dels esdeveniments"
 
-#: includes/calendars/admin/default-calendar-admin.php:258
+#: includes/calendars/admin/default-calendar-admin.php:270
 msgid ""
 "Limit the number of initial visible events on each day to a set maximum."
 msgstr ""
 "Limita el nombre d'esdeveniments visibles inicials de cada dia a un màxim "
 "establert."
 
-#: includes/calendars/default-calendar.php:114
+#: includes/calendars/default-calendar.php:123
 #: includes/calendars/views/default-calendar-list.php:112
 msgid "List"
 msgstr "Llista"
@@ -852,11 +816,11 @@ msgid "Locale"
 msgstr "Codi d'idioma i regió (locale)"
 
 # modificat xtec
-#: includes/admin/meta-boxes.php:96
+#: includes/admin/meta-boxes.php:100
 msgid "Looking for more?"
 msgstr "Voleu saber-ne més?"
 
-#: includes/calendars/admin/default-calendar-admin.php:223
+#: includes/calendars/admin/default-calendar-admin.php:235
 msgid ""
 "Make an events list more compact by grouping together events from different "
 "days in a single list."
@@ -881,13 +845,13 @@ msgstr ""
 msgid "Manual selection"
 msgstr "Selecció manual"
 
-#: includes/feeds/admin/google-admin.php:209
+#: includes/feeds/admin/google-admin.php:250
 msgid "Maximum Events"
 msgstr "Nombre màxim d'esdeveniments"
 
 # modificat xtec
 #. translators: Someone replied with 'maybe' to a rsvp request.
-#: includes/events/event-builder.php:873
+#: includes/events/event-builder.php:956
 msgid "Maybe attending"
 msgstr "Potser assistiré"
 
@@ -895,7 +859,7 @@ msgstr "Potser assistiré"
 msgid "Meridiem"
 msgstr "Meridiem"
 
-#: includes/admin/metaboxes/settings.php:771
+#: includes/admin/metaboxes/settings.php:817
 msgid "Minute(s)"
 msgstr "Minut(s)"
 
@@ -903,12 +867,12 @@ msgstr "Minut(s)"
 msgid "Minutes"
 msgstr "Minuts"
 
-#: includes/admin/metaboxes/settings.php:447
+#: includes/admin/metaboxes/settings.php:464
 msgid "Miscellaneous"
 msgstr "Miscel·lània"
 
 # modificat xtec
-#: includes/admin/welcome.php:228
+#: includes/admin/welcome.php:198
 msgid "Mobile responsive and widget ready."
 msgstr "Adaptació d'amplada mòbil i giny preparats."
 
@@ -916,27 +880,27 @@ msgstr "Adaptació d'amplada mòbil i giny preparats."
 msgid "Month"
 msgstr "Mes"
 
-#: includes/calendars/admin/default-calendar-admin.php:184
+#: includes/calendars/admin/default-calendar-admin.php:196
 msgid "Month(s)"
 msgstr "Mes(os)"
 
-#: includes/admin/metaboxes/settings.php:316
+#: includes/admin/metaboxes/settings.php:327
 msgid "Month(s) after current"
 msgstr "Mes(os) després de l'actual"
 
-#: includes/admin/metaboxes/settings.php:421
+#: includes/admin/metaboxes/settings.php:432
 msgid "Month(s) after start date"
 msgstr "Mes(os) després de la data d'inici"
 
-#: includes/admin/metaboxes/settings.php:313
+#: includes/admin/metaboxes/settings.php:324
 msgid "Month(s) before current"
 msgstr "Mes(os) abans de l'actual"
 
-#: includes/admin/metaboxes/settings.php:383
+#: includes/admin/metaboxes/settings.php:394
 msgid "Month(s) before start date"
 msgstr "Mes(os) abans de la data d'inici"
 
-#: includes/admin/metaboxes/settings.php:307
+#: includes/admin/metaboxes/settings.php:318
 msgid "Months"
 msgstr "mesos"
 
@@ -948,7 +912,7 @@ msgstr "multimèdia"
 msgid "Multisite"
 msgstr "Multilloc"
 
-#: includes/admin/pages/system-status.php:428
+#: includes/admin/pages/system-status.php:437
 msgid "MySQL Version"
 msgstr "Versió de MySQL"
 
@@ -957,7 +921,7 @@ msgstr "Versió de MySQL"
 msgid "Name"
 msgstr "Nom i cognoms"
 
-#: includes/admin/pages/system-status.php:509
+#: includes/admin/pages/system-status.php:513
 msgid "Name:"
 msgstr "Nom:"
 
@@ -977,48 +941,46 @@ msgstr "Categoria nova"
 msgid "New Events Source Type"
 msgstr "Tipus nou d'origen d'esdeveniment"
 
-#: includes/calendars/views/default-calendar-list.php:223
+#: includes/calendars/views/default-calendar-list.php:220
 msgid "Next"
 msgstr "Següent"
 
-#: includes/calendars/views/default-calendar-grid.php:242
+#: includes/calendars/views/default-calendar-grid.php:235
 msgid "Next Month"
 msgstr "Mes següent"
 
 #: includes/admin/pages/system-status.php:101
 #: includes/admin/pages/system-status.php:156
 #: includes/admin/pages/system-status.php:260
-#: includes/admin/pages/system-status.php:376
-#: includes/admin/pages/system-status.php:396
-#: includes/admin/pages/system-status.php:446
-#: includes/admin/pages/system-status.php:471
-#: includes/admin/pages/system-status.php:476
-#: includes/admin/pages/system-status.php:481
-#: includes/admin/pages/system-status.php:486
+#: includes/admin/pages/system-status.php:379
+#: includes/admin/pages/system-status.php:399
+#: includes/admin/pages/system-status.php:475
+#: includes/admin/pages/system-status.php:485
+#: includes/admin/pages/system-status.php:490
 msgid "No"
 msgstr "No"
 
-#: includes/admin/metaboxes/settings.php:470
+#: includes/admin/metaboxes/settings.php:499
 msgid "No Events Message"
 msgstr "Missatge de \"no hi ha esdeveniments\""
 
-#: includes/widgets/calendar.php:148
+#: includes/widgets/calendar.php:171
 msgid "No calendars found."
 msgstr "No s'ha trobat cap calendari"
 
-#: includes/events/event-builder.php:243
+#: includes/events/event-builder.php:305
 msgid "No end time"
 msgstr "No hi ha hora de finalització"
 
-#: includes/admin/metaboxes/settings.php:501
+#: includes/admin/metaboxes/settings.php:531
 msgid "No line breaks, auto paragraphs"
 msgstr "No hi ha salts de línia, paràgrafs automàtics"
 
-#: includes/admin/metaboxes/settings.php:502
+#: includes/admin/metaboxes/settings.php:532
 msgid "No line breaks, no auto paragraphs"
 msgstr "No hi ha salts de línia, no hi ha paràgrafs automàtics"
 
-#: includes/events/event-builder.php:846
+#: includes/events/event-builder.php:929
 msgctxt "No one yet rsvp to attend the event."
 msgid "No one yet"
 msgstr "Encara no n'hi ha cap"
@@ -1037,13 +999,13 @@ msgstr "Brossa"
 msgid "No version found."
 msgstr "No s'ha trobat cap versió."
 
-#: includes/calendars/admin/default-calendar-admin.php:295
+#: includes/calendars/admin/default-calendar-admin.php:307
 msgid "No, display on all days of event up to current day (list view only)"
 msgstr ""
 "No, mostra a tots els dies de l'esdeveniment fins a la data actual (només a "
 "la visualització de llista)"
 
-#: includes/calendars/admin/default-calendar-admin.php:294
+#: includes/calendars/admin/default-calendar-admin.php:306
 msgid "No, display only on first day of event"
 msgstr "No, mostra només el primer dia de l'esdeveniment"
 
@@ -1053,27 +1015,23 @@ msgid "Not Found"
 msgstr "No s'ha trobat"
 
 #. translators: Someone replied with 'no' to a rsvp request.
-#: includes/events/event-builder.php:870
+#: includes/events/event-builder.php:953
 msgid "Not attending"
 msgstr "No assistir"
 
-#: includes/calendars/views/default-calendar-list.php:649
+#: includes/calendars/views/default-calendar-list.php:687
 msgid "Nothing from %1$s to %2$s."
 msgstr "Res per mostrar entre el %1$s i el %2$s."
 
-#: includes/calendars/views/default-calendar-list.php:641
-msgid "Nothing to show."
-msgstr "Res per mostrar"
-
-#: includes/admin/metaboxes/settings.php:288
+#: includes/admin/metaboxes/settings.php:299
 msgid "Now"
 msgstr "Ara"
 
-#: includes/feeds/admin/google-admin.php:201
+#: includes/feeds/admin/google-admin.php:242
 msgid "Only show first occurrence"
 msgstr "Només mostra la primera aparició"
 
-#: includes/feeds/google.php:358
+#: includes/feeds/google.php:374
 msgid "Only you can see this notice."
 msgstr "Aquest avís només el podeu veure vosaltres."
 
@@ -1086,11 +1044,11 @@ msgstr ""
 "sobre dels títols dels esdeveniments. En els dispositius mòbils sempre serà "
 "fent clic."
 
-#: includes/admin/metaboxes/settings.php:328
+#: includes/admin/metaboxes/settings.php:339
 msgid "Other"
 msgstr "Altres"
 
-#: includes/admin/pages/system-status.php:422
+#: includes/admin/pages/system-status.php:431
 msgid "PHP Version"
 msgstr "Versió de PHP"
 
@@ -1131,7 +1089,7 @@ msgstr "El tema pare."
 msgid "Permalinks"
 msgstr "Enllaços permanents"
 
-#: includes/admin/pages/system-status.php:515
+#: includes/admin/pages/system-status.php:519
 msgid "Platform:"
 msgstr "Seleccioneu una plataforma"
 
@@ -1145,7 +1103,7 @@ msgstr "Primer, afegiu i configureu un nou calendari."
 msgid "Please copy and paste this information when contacting support:"
 msgstr "Copieu i enganxeu aquesta informació con contacteu amb Suport:"
 
-#: includes/feeds/admin/google-admin.php:311 includes/feeds/google.php:357
+#: includes/feeds/admin/google-admin.php:359 includes/feeds/google.php:373
 msgid ""
 "Please ensure that both your Google Calendar ID and API Key are valid and "
 "that the Google Calendar you want to display is public."
@@ -1167,12 +1125,12 @@ msgid "Popular events source types"
 msgstr "Els tipus d'orígens d'esdeveniments més populars"
 
 # modificat xtec
-#: includes/admin/metaboxes/settings.php:510
+#: includes/admin/metaboxes/settings.php:540
 msgid "Powered By"
 msgstr "Impulsat per"
 
 # modificat xtec
-#: includes/abstracts/calendar.php:792
+#: includes/abstracts/calendar.php:837
 msgid "Powered by <a href=\"%s\" target=\"_blank\">Simple Calendar</a>"
 msgstr "Impulsat per<a href=\"%s\" target=\"_blank\">Simple Calendar</a>"
 
@@ -1181,12 +1139,7 @@ msgstr "Impulsat per<a href=\"%s\" target=\"_blank\">Simple Calendar</a>"
 msgid "Premium Add-on License Keys"
 msgstr "Claus de llicència de complements Premium"
 
-# modificat xtec
-#: includes/admin/metaboxes/settings.php:713
-msgid "Preserve Separator Spacing"
-msgstr "Preserveu l'espai separador"
-
-#: includes/admin/metaboxes/settings.php:500
+#: includes/admin/metaboxes/settings.php:530
 msgid "Preserve line breaks, auto paragraphs (default)"
 msgstr "Conserva els salts de línia, paràgrafs automàtics (per defecte)"
 
@@ -1196,18 +1149,18 @@ msgid "Press %s to copy."
 msgstr "Premeu %s per copiar."
 
 #: includes/admin/fields/datetime-format.php:98
-#: includes/admin/metaboxes/settings.php:611
-#: includes/admin/metaboxes/settings.php:633
-#: includes/admin/metaboxes/settings.php:683
-#: includes/admin/metaboxes/settings.php:705
+#: includes/admin/metaboxes/settings.php:649
+#: includes/admin/metaboxes/settings.php:671
+#: includes/admin/metaboxes/settings.php:721
+#: includes/admin/metaboxes/settings.php:743
 msgid "Preview"
 msgstr "Previsualitzar"
 
-#: includes/calendars/views/default-calendar-list.php:208
+#: includes/calendars/views/default-calendar-list.php:205
 msgid "Previous"
 msgstr "Anterior"
 
-#: includes/calendars/views/default-calendar-grid.php:211
+#: includes/calendars/views/default-calendar-grid.php:204
 msgid "Previous Month"
 msgstr "Mes anterior"
 
@@ -1216,7 +1169,7 @@ msgstr "Mes anterior"
 msgid "Priority email support"
 msgstr "Suport per correus prioritaris"
 
-#: includes/calendars/admin/default-calendar-admin.php:178
+#: includes/calendars/admin/default-calendar-admin.php:190
 msgid "Range of events to show on each calendar page."
 msgstr "Rang d'esdeveniments a mostrar a cada pàgina de calendari."
 
@@ -1225,16 +1178,16 @@ msgstr "Rang d'esdeveniments a mostrar a cada pàgina de calendari."
 msgid "Read more."
 msgstr "Llegiu més."
 
-#: includes/feeds/admin/google-admin.php:197
+#: includes/feeds/admin/google-admin.php:238
 msgid "Recurring Events"
 msgstr "Esdeveniments recurrents"
 
-#: includes/admin/metaboxes/settings.php:760
+#: includes/admin/metaboxes/settings.php:806
 msgctxt "Cache maximum interval"
 msgid "Refresh Interval"
 msgstr "Interval d'actualització"
 
-#: includes/admin/metaboxes/settings.php:461
+#: includes/admin/metaboxes/settings.php:484
 msgid ""
 "Remove the navigation arrows and fix the calendar view to its initial state."
 msgstr ""
@@ -1242,11 +1195,11 @@ msgstr ""
 "seu estat inicial."
 
 #. translators: Someone did not send yet a rsvp confirmation to join an event.
-#: includes/events/event-builder.php:876
+#: includes/events/event-builder.php:959
 msgid "Response pending"
 msgstr "Resposta pendent"
 
-#: includes/admin/metaboxes/settings.php:380
+#: includes/admin/metaboxes/settings.php:391
 msgid "Same as start date"
 msgstr "El mateix que la data d'inici"
 
@@ -1267,16 +1220,16 @@ msgstr "Busca categories"
 msgid "Search Events Source Types"
 msgstr "Cerca els tipus d'orígens d'esdeveniments"
 
-#: includes/feeds/admin/google-admin.php:189
+#: includes/feeds/admin/google-admin.php:230
 msgid "Search Query"
 msgstr "Consulta de cerca"
 
 # modificat xtec
-#: includes/admin/metaboxes/settings.php:625
+#: includes/admin/metaboxes/settings.php:624
 msgid "See details."
 msgstr "Vegeu els detalls."
 
-#: includes/functions/shared.php:283
+#: includes/functions/shared.php:315
 msgid "See more details"
 msgstr "Més detalls"
 
@@ -1297,7 +1250,7 @@ msgstr "Separeu les categories amb comes"
 msgid "Separate events source types with commas"
 msgstr "Separeu els tipus d'orígens d'esdeveniments per comes"
 
-#: includes/admin/metaboxes/settings.php:640
+#: includes/admin/metaboxes/settings.php:678
 msgid "Separator"
 msgstr "Separador"
 
@@ -1305,15 +1258,15 @@ msgstr "Separador"
 msgid "Server Environment"
 msgstr "Entorn del servidor"
 
-#: includes/admin/pages/system-status.php:434
+#: includes/admin/pages/system-status.php:443
 msgid "Server Timezone"
 msgstr "Fus horari del servidor"
 
-#: includes/admin/pages/system-status.php:359
+#: includes/admin/pages/system-status.php:362
 msgid "Server default timezone is %s - it should be UTC"
 msgstr "El fus horari del servidor per defecte és is %s - hauria de ser UTC"
 
-#: includes/admin/metaboxes/settings.php:387
+#: includes/admin/metaboxes/settings.php:398
 msgid ""
 "Set the date for the earliest possible event to show in calendar. There will "
 "not be events before this date."
@@ -1321,7 +1274,7 @@ msgstr ""
 "Fixeu la data per al primer esdeveniment que s'ha de mostrar al calendari. "
 "No hi haurà esdeveniments abans d'aquesta data."
 
-#: includes/admin/metaboxes/settings.php:425
+#: includes/admin/metaboxes/settings.php:436
 msgid ""
 "Set the date for the latest possible event to show on calendar. There will "
 "not be events after this date."
@@ -1339,7 +1292,7 @@ msgstr ""
 "code> pot provocar resultats inesperats. "
 
 #: includes/admin/menus.php:69 includes/admin/menus.php:70
-#: includes/admin/menus.php:121 includes/admin/welcome.php:137
+#: includes/admin/menus.php:137 includes/admin/welcome.php:107
 msgid "Settings"
 msgstr "Configuració"
 
@@ -1347,14 +1300,14 @@ msgstr "Configuració"
 msgid "Shortcode"
 msgstr "Codi breu"
 
-#: includes/calendars/admin/default-calendar-admin.php:137
+#: includes/calendars/admin/default-calendar-admin.php:143
 msgid ""
 "Shorten event titles in calendar grid to a specified length in characters."
 msgstr ""
 "Escurça els títols dels esdeveniments de la graella fins a la longitud "
 "especificada en caràcters."
 
-#: includes/feeds/admin/google-admin.php:200
+#: includes/feeds/admin/google-admin.php:241
 msgid "Show all"
 msgstr "Mostra tot(s)"
 
@@ -1369,6 +1322,7 @@ msgid "Show week & day views"
 msgstr "Mostra les vistes de la setmana i del dia"
 
 # MODIFICAT XTEC
+#. #-#-#-#-#  google-calendar-events.pot (Simple Calendar 3.1.9)  #-#-#-#-#
 #. Plugin Name of the plugin/theme
 #: includes/widgets/calendar.php:49
 msgid "Simple Calendar"
@@ -1376,14 +1330,14 @@ msgstr "Calendaris"
 
 # modificat xtec
 #. translators: %s prints the current version of the plugin.
-#: includes/admin/welcome.php:177
+#: includes/admin/welcome.php:147
 msgid "Simple Calendar %s has a few display options to configure. "
 msgstr ""
 "A Simple Calendar %s trobareu algunes opcions de visualització per "
 "configurar."
 
 # modificat xtec
-#: includes/admin/welcome.php:290
+#: includes/admin/welcome.php:260
 msgid ""
 "Simple Calendar has been kindly translated into several other languages by "
 "contributors from all over the world."
@@ -1392,7 +1346,7 @@ msgstr ""
 "col·laboradors d'arreu del món. "
 
 # modificat xtec
-#: includes/admin/welcome.php:265
+#: includes/admin/welcome.php:235
 msgid ""
 "Simple Calendar is created by a worldwide team of developers. If you'd like "
 "to contribute please visit our <a href='%s' target='_blank'>GitHub repo</a>."
@@ -1409,15 +1363,15 @@ msgstr "Nom del lloc web"
 msgid "Site URL"
 msgstr "URL del web"
 
-#: includes/admin/metaboxes/settings.php:572
-#: includes/admin/metaboxes/settings.php:605
-#: includes/admin/metaboxes/settings.php:677
-#: includes/admin/metaboxes/settings.php:727
+#: includes/admin/metaboxes/settings.php:608
+#: includes/admin/metaboxes/settings.php:643
+#: includes/admin/metaboxes/settings.php:715
+#: includes/admin/metaboxes/settings.php:765
 msgctxt "Use this site default setting"
 msgid "Site default"
 msgstr "Per defecte del lloc"
 
-#: includes/admin/metaboxes/settings.php:478
+#: includes/admin/metaboxes/settings.php:507
 msgid ""
 "Some calendars may display a message when no events are found. You can "
 "change the default message here."
@@ -1425,7 +1379,7 @@ msgstr ""
 "Alguns calendaris poden mostrar un missatge quan no es troba cap "
 "esdeveniment. Podeu canviar el missatge per defecte aquí."
 
-#: includes/admin/metaboxes/settings.php:740
+#: includes/admin/metaboxes/settings.php:778
 msgid ""
 "Some calendars may use this setting to display the start of the week. It is "
 "recommended to keep the site default setting."
@@ -1438,19 +1392,19 @@ msgid "Some of the features included with our premium add-ons"
 msgstr ""
 
 # modificat xtec
-#: includes/calendars/admin/default-calendar-admin.php:151
+#: includes/calendars/admin/default-calendar-admin.php:163
 msgid "Span"
 msgstr "Abast"
 
-#: includes/admin/metaboxes/settings.php:331
+#: includes/admin/metaboxes/settings.php:342
 msgid "Specific date"
 msgstr "Data concreta"
 
-#: includes/admin/metaboxes/settings.php:451
+#: includes/admin/metaboxes/settings.php:474
 msgid "Static Calendar"
 msgstr "Calendari estàtic"
 
-#: includes/feeds/admin/google-admin.php:261
+#: includes/feeds/admin/google-admin.php:309
 msgid ""
 "Step 1: Set the Google Calendar you want to use as <strong>\"public.\"</"
 "strong> <a href=\"%1s\" target=\"_blank\">Detailed instructions</a>"
@@ -1459,7 +1413,7 @@ msgstr ""
 "\"</strong> <a href=\"%1s\" target=\"_blank\">Instruccions detallades (en "
 "anglès)</a>"
 
-#: includes/feeds/admin/google-admin.php:262
+#: includes/feeds/admin/google-admin.php:310
 msgid ""
 "Step 2: Copy and paste your Google Calendar ID here. <a href=\"%2s\" target="
 "\"_blank\">Detailed instructions</a>"
@@ -1480,24 +1434,24 @@ msgstr "Informe del sistema"
 msgid "Thank you!"
 msgstr "Moltes Gràcies!"
 
-#: includes/admin/menus.php:203
+#: includes/admin/menus.php:225
 msgid "Thanks :)"
 msgstr "Gràcies :)"
 
-#: includes/admin/welcome.php:171
+#: includes/admin/welcome.php:141
 msgid "Thanks for installing!"
 msgstr "S'ha instal·lat"
 
-#: includes/admin/welcome.php:169
+#: includes/admin/welcome.php:139
 msgid "Thanks for updating to the latest version!"
 msgstr "Gràcies per actualitzar a la darrera versió!"
 
 # MODIFICAT XTEC
-#: includes/admin/menus.php:215
+#: includes/admin/menus.php:237
 msgid "Thanks for using Simple Calendar!"
 msgstr "Gràcies per utilitzar Calendaris!"
 
-#: includes/admin/metaboxes/settings.php:349
+#: includes/admin/metaboxes/settings.php:360
 msgid ""
 "The calendar default opening date. It will automatically adapt based on the "
 "chosen calendar type."
@@ -1505,7 +1459,7 @@ msgstr ""
 "La data d'obertura predeterminada del calendari. S'adaptarà automàticament "
 "basant-se en el tipus de calendari seleccionat."
 
-#: includes/calendars/admin/default-calendar-admin.php:314
+#: includes/calendars/admin/default-calendar-admin.php:333
 msgid "Theme"
 msgstr "Tema"
 
@@ -1518,7 +1472,7 @@ msgid "There are no calendar categories yet."
 msgstr "Encara no hi ha categories de calendaris"
 
 # modificat xtec
-#: includes/admin/metaboxes/settings.php:504
+#: includes/admin/metaboxes/settings.php:509
 #: includes/calendars/views/default-calendar-list.php:679
 msgid "There are no upcoming events."
 msgstr "No hi ha esdeveniments propers"
@@ -1547,11 +1501,11 @@ msgstr ""
 msgid "There was an error processing your request: %s"
 msgstr "S'ha produït un error processant la vostra petició: %s"
 
-#: includes/admin/metaboxes/settings.php:310
+#: includes/admin/metaboxes/settings.php:321
 msgid "This month"
 msgstr "Aquest mes"
 
-#: includes/admin/metaboxes/settings.php:609
+#: includes/admin/metaboxes/settings.php:647
 msgid ""
 "This option sets how calendars display event dates. It is recommended to "
 "keep your site default setting."
@@ -1559,7 +1513,7 @@ msgstr ""
 "Aquesta opció estableix com el calendari mostra les dates dels "
 "esdeveniments. Es recomana l'opció per defecte del lloc."
 
-#: includes/admin/metaboxes/settings.php:681
+#: includes/admin/metaboxes/settings.php:719
 msgid ""
 "This option sets how calendars display event times. It is recommended to "
 "keep your site default setting."
@@ -1568,7 +1522,7 @@ msgstr ""
 "Es recomana l'opció per defecte del lloc."
 
 # modificat xtec
-#: includes/calendars/admin/default-calendar-admin.php:350
+#: includes/calendars/admin/default-calendar-admin.php:369
 msgid ""
 "This option will set the background color for today's date. It will change "
 "the day number background and the border around the current day."
@@ -1577,7 +1531,7 @@ msgstr ""
 "fons del número del dia i el límit al voltant del dia actual."
 
 # modificat xtec
-#: includes/calendars/admin/default-calendar-admin.php:370
+#: includes/calendars/admin/default-calendar-admin.php:389
 msgid ""
 "This setting will modify the day number background for any days that have "
 "events on them."
@@ -1585,11 +1539,11 @@ msgstr ""
 "Aquest paràmetre modificarà el fons del número del dia per a qualsevol dia "
 "que tingui esdeveniments en ell."
 
-#: includes/admin/metaboxes/settings.php:299
+#: includes/admin/metaboxes/settings.php:310
 msgid "This week"
 msgstr "Aquesta setmana"
 
-#: includes/admin/metaboxes/settings.php:321
+#: includes/admin/metaboxes/settings.php:332
 msgid "This year"
 msgstr "Aquest any"
 
@@ -1602,20 +1556,21 @@ msgstr ""
 "Marqueu aquesta opció si voleu eliminar aquesta configuració del connector "
 "des de la base de dades en desinstal·lar-la."
 
-#: includes/admin/metaboxes/settings.php:663
+#: includes/admin/metaboxes/settings.php:701
 msgid "Time Format"
 msgstr "Format de l'hora"
 
-#: includes/admin/metaboxes/settings.php:550
+#: includes/admin/metaboxes/settings.php:586
 #: includes/admin/pages/system-status.php:149
 msgid "Timezone"
 msgstr "Fus horari"
 
-#: includes/widgets/calendar.php:132
+#: includes/widgets/calendar.php:155
 msgid "Title:"
 msgstr "Títol:"
 
-#: includes/feeds/admin/google-admin.php:84
+#: includes/feeds/admin/google-admin.php:104
+#: includes/feeds/admin/google-admin.php:127
 msgid ""
 "To read events from your public Google Calendars you'll need create a Google "
 "API key and save it here."
@@ -1623,24 +1578,24 @@ msgstr ""
 "Per poder llegir els esdeveniments d'un calendari públic de Google, cal que "
 "creeu una Google API key i que la deseu aquí."
 
-#: includes/admin/metaboxes/settings.php:285
-#: includes/calendars/admin/default-calendar-admin.php:337
+#: includes/admin/metaboxes/settings.php:296
+#: includes/calendars/admin/default-calendar-admin.php:356
 msgid "Today"
 msgstr "Avui"
 
-#: includes/admin/menus.php:93 includes/admin/menus.php:94
+#: includes/admin/menus.php:105 includes/admin/menus.php:106
 msgid "Tools"
 msgstr "Eines"
 
-#: includes/admin/welcome.php:204
+#: includes/admin/welcome.php:174
 msgid "Translators"
 msgstr "Traductors"
 
-#: includes/calendars/admin/default-calendar-admin.php:113
+#: includes/calendars/admin/default-calendar-admin.php:119
 msgid "Trim Event Titles"
 msgstr "Retalla els títols dels esdeveniments"
 
-#: includes/feeds/admin/google-admin.php:190
+#: includes/feeds/admin/google-admin.php:231
 msgid ""
 "Type in keywords if you only want display events that match these terms. You "
 "can use basic boolean search operators too."
@@ -1669,24 +1624,15 @@ msgstr "Actualitzeu un tipus d'origen d'esdeveniment"
 msgid "Upgrade to Premium Now"
 msgstr "Actualitza a Premium"
 
-#: includes/admin/metaboxes/settings.php:653
+#: includes/admin/metaboxes/settings.php:691
 msgid "Used to divide date and time when both are shown."
 msgstr ""
 "Es fa servir per separar la data de l'hora quan les dues es mostren alhora."
 
 # modificat xtec
-#: includes/admin/pages/system-status.php:513
+#: includes/admin/pages/system-status.php:517
 msgid "User Agent:"
 msgstr "Agent d'usuari:"
-
-#: includes/admin/metaboxes/settings.php:584
-msgid ""
-"Using a different timezone may alter the date and time display of your "
-"calendar events. It is recommended to keep the calendar default timezone."
-msgstr ""
-"Si feu servir un fus horari diferent es pot alterar la visualització de la "
-"data i l'hora dels esdeveniments del calendari. Es recomana mantenir el fus "
-"horari per defecte calendari."
 
 # modificat xtec
 #: includes/admin/metaboxes/settings.php:620
@@ -1705,7 +1651,7 @@ msgstr ""
 msgid "Version"
 msgstr "Versió"
 
-#: includes/admin/pages/system-status.php:511
+#: includes/admin/pages/system-status.php:515
 msgid "Version:"
 msgstr "Versió:"
 
@@ -1713,7 +1659,7 @@ msgstr "Versió:"
 msgid "View"
 msgstr "Visualitza"
 
-#: includes/admin/welcome.php:340
+#: includes/admin/welcome.php:310
 msgid "View %s"
 msgstr "Veure %s"
 
@@ -1734,7 +1680,7 @@ msgstr "Mostra la categoria"
 msgid "View Events Source Type"
 msgstr "Visualitzeu els tipus d'origen d'esdeveniment"
 
-#: includes/admin/welcome.php:238
+#: includes/admin/welcome.php:208
 msgid "View Pricing and Try a Demo of our Simple Calendar Pro Add-ons."
 msgstr ""
 
@@ -1742,7 +1688,7 @@ msgstr ""
 msgid "View to display"
 msgstr "Tipus de visualització"
 
-#: includes/feeds/admin/google-admin.php:179
+#: includes/feeds/admin/google-admin.php:220
 msgid ""
 "Visit your Google Calendar account, copy your public calendar ID, then paste "
 "it here."
@@ -1765,28 +1711,28 @@ msgid "Warning"
 msgstr "Avís"
 
 # modificat xtec
-#: includes/admin/pages/system-status.php:417
+#: includes/admin/pages/system-status.php:426
 msgid "Web Server"
 msgstr "Servidor web"
 
-#: includes/admin/metaboxes/settings.php:712
+#: includes/admin/metaboxes/settings.php:750
 msgid "Week Starts On"
 msgstr "La setmana comença en"
 
-#: includes/admin/metaboxes/settings.php:774
-#: includes/calendars/admin/default-calendar-admin.php:185
+#: includes/admin/metaboxes/settings.php:820
+#: includes/calendars/admin/default-calendar-admin.php:197
 msgid "Week(s)"
 msgstr "Setmana(es)"
 
-#: includes/admin/metaboxes/settings.php:305
+#: includes/admin/metaboxes/settings.php:316
 msgid "Week(s) after current"
 msgstr "Setmana(es) després de l'actual"
 
-#: includes/admin/metaboxes/settings.php:302
+#: includes/admin/metaboxes/settings.php:313
 msgid "Week(s) before current"
 msgstr "Setmana(es) abans de l'actual"
 
-#: includes/admin/metaboxes/settings.php:382
+#: includes/admin/metaboxes/settings.php:393
 msgid "Week(s) before start date"
 msgstr "Setmana(es) abans de la data d'inici"
 
@@ -1794,11 +1740,11 @@ msgstr "Setmana(es) abans de la data d'inici"
 msgid "Weekday"
 msgstr "Dia laborable"
 
-#: includes/admin/metaboxes/settings.php:296
+#: includes/admin/metaboxes/settings.php:307
 msgid "Weeks"
 msgstr "setmanes"
 
-#: includes/admin/metaboxes/settings.php:420
+#: includes/admin/metaboxes/settings.php:431
 msgid "Weeks(s) after start date"
 msgstr "Setmana(es) després de la data d'inici"
 
@@ -1809,15 +1755,15 @@ msgstr "Benvinguts a \"Calendaris\""
 
 # MODIFICAT XTEC
 #. translators: %s prints the current version of the plugin.
-#: includes/admin/welcome.php:160
+#: includes/admin/welcome.php:130
 msgid "Welcome to Simple Calendar %s"
 msgstr "Benvinguts a \"Calendaris\" %s"
 
-#: includes/admin/welcome.php:194
+#: includes/admin/welcome.php:164
 msgid "What's New"
 msgstr "Què hi ha de nou"
 
-#: includes/feeds/admin/google-admin.php:309 includes/feeds/google.php:355
+#: includes/feeds/admin/google-admin.php:357 includes/feeds/google.php:371
 msgid "While trying to retrieve events, Google returned an error:"
 msgstr "En tractar de recuperar esdeveniments, Google retorna un error:"
 
@@ -1834,23 +1780,23 @@ msgstr ""
 msgid "Year"
 msgstr "Any"
 
-#: includes/admin/metaboxes/settings.php:326
+#: includes/admin/metaboxes/settings.php:337
 msgid "Year(s) after current"
 msgstr "Any(s) després de l'actual"
 
-#: includes/admin/metaboxes/settings.php:422
+#: includes/admin/metaboxes/settings.php:433
 msgid "Year(s) after start date"
 msgstr "Any(s) després de la data d'inici"
 
-#: includes/admin/metaboxes/settings.php:323
+#: includes/admin/metaboxes/settings.php:334
 msgid "Year(s) before current"
 msgstr "Any(s) abans de l'actual"
 
-#: includes/admin/metaboxes/settings.php:384
+#: includes/admin/metaboxes/settings.php:395
 msgid "Year(s) before start date"
 msgstr "Any(s) abans de la data d'inici"
 
-#: includes/admin/metaboxes/settings.php:318
+#: includes/admin/metaboxes/settings.php:329
 msgid "Years"
 msgstr "anys"
 
@@ -1859,28 +1805,26 @@ msgstr "anys"
 #: includes/admin/pages/system-status.php:106
 #: includes/admin/pages/system-status.php:156
 #: includes/admin/pages/system-status.php:260
-#: includes/admin/pages/system-status.php:373
-#: includes/admin/pages/system-status.php:393
-#: includes/admin/pages/system-status.php:441
-#: includes/admin/pages/system-status.php:446
-#: includes/admin/pages/system-status.php:471
-#: includes/admin/pages/system-status.php:476
-#: includes/admin/pages/system-status.php:481
-#: includes/admin/pages/system-status.php:486
+#: includes/admin/pages/system-status.php:376
+#: includes/admin/pages/system-status.php:396
+#: includes/admin/pages/system-status.php:450
+#: includes/admin/pages/system-status.php:475
+#: includes/admin/pages/system-status.php:485
+#: includes/admin/pages/system-status.php:490
 msgid "Yes"
 msgstr "Sí"
 
-#: includes/admin/metaboxes/settings.php:463
+#: includes/admin/metaboxes/settings.php:486
 msgid "Yes (hide navigation arrows)"
 msgstr "Sí (amaga les fletxes de navegació)"
 
-#: includes/admin/metaboxes/settings.php:521
+#: includes/admin/metaboxes/settings.php:551
 msgid ""
 "Yes, Simple Calendar rocks! Show some love with a little link below this "
 "calendar."
 msgstr ""
 
-#: includes/calendars/admin/default-calendar-admin.php:293
+#: includes/calendars/admin/default-calendar-admin.php:305
 msgid "Yes, display on all days of event"
 msgstr "Sí, mostra a tots els dies de l'esdeveniment"
 
@@ -1900,7 +1844,7 @@ msgstr ""
 "Podeu triar a quin tipus de contingut afegir la capacitat d'adjuntar "
 "calendaris."
 
-#: includes/calendars/admin/default-calendar-admin.php:205
+#: includes/calendars/admin/default-calendar-admin.php:217
 msgid "You can use this to hide the month header for this calendar."
 msgstr ""
 "Podeu fer servir això per amagar el mes a la capçalera d'aquest calendari."
@@ -1914,7 +1858,7 @@ msgstr "No teniu permís per instal·lar actualitzacions de complements"
 msgid "Your Email"
 msgstr "El teu email"
 
-#: includes/feeds/admin/google-admin.php:278
+#: includes/feeds/admin/google-admin.php:326
 msgid ""
 "Your Google Calendar events will not show up until you <a href=\"%s\">create "
 "and save a Google API key</a>."
@@ -1931,22 +1875,24 @@ msgstr ""
 "Les claus de la vostra llicència s'utilitzen per accedir a les "
 "actualitzacions automàtiques i al suport premium."
 
-#: includes/events/event-builder.php:703
+#: includes/events/event-builder.php:791
 msgctxt "human date event builder code modifier"
 msgid "ago"
 msgstr "fa"
 
-#: includes/events/event-builder.php:705
+#: includes/events/event-builder.php:793
 msgctxt "human date event builder code modifier"
 msgid "from now"
 msgstr "des d'ara"
 
+#. #-#-#-#-#  google-calendar-events.pot (Simple Calendar 3.1.9)  #-#-#-#-#
 #. Plugin URI of the plugin/theme
+#. #-#-#-#-#  google-calendar-events.pot (Simple Calendar 3.1.9)  #-#-#-#-#
 #. Author URI of the plugin/theme
 msgid "https://simplecalendar.io"
 msgstr "https://simplecalendar.io"
 
 # modificat xtec
-#: includes/admin/welcome.php:182
+#: includes/admin/welcome.php:152
 msgid "to get started now."
 msgstr "Comencem."

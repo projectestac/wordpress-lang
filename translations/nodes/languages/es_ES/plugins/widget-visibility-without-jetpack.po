@@ -3,10 +3,11 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: JetPack en español\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-05-11 13:25+0100\n"
-"PO-Revision-Date: 2018-07-17 11:29+0200\n"
-"Last-Translator: Toni Ginard <toni.ginard@gmail.com>\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/widget-visibility-"
+"without-jetpack\n"
+"POT-Creation-Date: 2018-10-10 07:17:47+00:00\n"
+"PO-Revision-Date: 2018-10-10 11:23+0200\n"
+"Last-Translator: Joan Sala Soler <jsala236@xtec.cat>\n"
 "Language-Team: Eduardo Larequi <elarequi@gmail.com >\n"
 "Language: es_ES\n"
 "MIME-Version: 1.0\n"
@@ -21,31 +22,26 @@ msgstr ""
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-SearchPath-0: .\n"
 
-#: widget-visibility/widget-conditions.php:308
-#, php-format
+#: widget-visibility/widget-conditions.php:333
 msgctxt ""
 "placeholder: dropdown menu to select widget visibility; hide if or show if"
 msgid "%s if:"
 msgstr "%s si:"
 
-#: widget-visibility/widget-conditions.php:320
+#: widget-visibility/widget-conditions.php:345
 msgctxt "Used as the default option in a dropdown list"
 msgid "-- Select --"
 msgstr "-- Seleccionar --"
 
-#: widget-visibility/widget-conditions.php:117
+#: widget-visibility/widget-conditions.php:122
 msgid "404 error page"
 msgstr "Página de error 404"
 
-#: widget-visibility/widget-conditions.php:169
-msgid ":"
-msgstr ":"
-
-#: widget-visibility/widget-conditions.php:123
+#: widget-visibility/widget-conditions.php:128
 msgid "Activity"
 msgstr "Actividad"
 
-#: widget-visibility/widget-conditions.php:352
+#: widget-visibility/widget-conditions.php:389
 msgid "Add"
 msgstr "Añadir"
 
@@ -57,86 +53,109 @@ msgstr "Todas las páginas de autores"
 msgid "All category pages"
 msgstr "Todas las páginas de categorías"
 
-#: widget-visibility/widget-conditions.php:100
+#: widget-visibility/widget-conditions.php:105
 msgid "All date archives"
 msgstr "Artículos de todas las fechas"
 
-#: widget-visibility/widget-conditions.php:171
+#: widget-visibility/widget-conditions.php:165
+msgid "All groups"
+msgstr "Todos los grupos"
+
+#: widget-visibility/widget-conditions.php:196
 msgid "All pages"
 msgstr "Todas las páginas"
 
-#: widget-visibility/widget-conditions.php:86
+#: widget-visibility/widget-conditions.php:91
 msgid "All tag pages"
 msgstr "Todas las páginas de etiquetas"
 
-#: widget-visibility/widget-conditions.php:154
+#: widget-visibility/widget-conditions.php:179
 msgid "All taxonomy pages"
 msgstr "Todas las páginas de taxonomías"
 
-#: widget-visibility/widget-conditions.php:221
-#, php-format
+#. translators: %s is a plural name of the custom post type, i.e. testimonials
+#: widget-visibility/widget-conditions.php:245
 msgctxt "a label in the list of custom post type archive pages"
 msgid "Archive of %s"
 msgstr "Archivo de %s"
 
-#: widget-visibility/widget-conditions.php:116
+#: widget-visibility/widget-conditions.php:121
 msgid "Archive page"
 msgstr "Página de archivo"
 
-#: widget-visibility/widget-conditions.php:207
+#: widget-visibility/widget-conditions.php:232
 msgctxt "a heading for a list of custom post archive pages"
 msgid "Archive page:"
 msgstr "Pàgina de archivo:"
 
-#: widget-visibility/widget-conditions.php:322
+#: widget-visibility/widget-conditions.php:347
 msgctxt "Noun, as in: \"The author of this post is...\""
 msgid "Author"
 msgstr "Autor"
 
-#: widget-visibility/widget-conditions.php:126
+#: widget-visibility/widget-conditions.php:131
 msgid "BuddyPress Docs Archive"
 msgstr "Índice de documentos"
 
-#: widget-visibility/widget-conditions.php:122
+#: widget-visibility/widget-conditions.php:127
 msgid "BuddyPress:"
 msgstr "BuddyPress:"
 
-#: widget-visibility/widget-conditions.php:321
+#: widget-visibility/widget-conditions.php:346
 msgid "Category"
 msgstr "Categoría"
 
-#: widget-visibility/widget-conditions.php:101
+#. Description of the plugin/theme
+msgid ""
+"Control what pages your widgets appear on. Based on Widget Visibility "
+"module, from Jetpack plugin, http://wordpress.org/plugins/jetpack/. Created "
+"by Eduardo Larequi, mantained by Joan Boluda"
+msgstr ""
+"Controla en qué páginas aparecen tus widgets. Basado en el módulo de "
+"visibilidad de widgets, desde el complemento de Jetpack, http://wordpress."
+"org/plugins/jetpack/. Creado por Eduardo Larequi, mantenido por Joan Boluda"
+
+#: widget-visibility/widget-conditions.php:106
 msgid "Daily archives"
 msgstr "Artículos del día"
 
-#: widget-visibility/widget-conditions.php:330
+#: widget-visibility/widget-conditions.php:355
 msgctxt "Noun, as in: \"This page is a date archive.\""
 msgid "Date"
 msgstr "Fecha"
 
-#: widget-visibility/widget-conditions.php:352
+#: widget-visibility/widget-conditions.php:389
 msgid "Delete"
 msgstr "Borrar"
 
-#: widget-visibility/widget-conditions.php:114
+#: widget-visibility/widget-conditions.php:119
 msgid "Front page"
 msgstr "Página principal"
 
-#: widget-visibility/widget-conditions.php:124
+#: widget-visibility/widget-conditions.php:361
+msgctxt "Example: The user is looking at a page, not a post."
+msgid "Group"
+msgstr "Grupos"
+
+#: widget-visibility/widget-conditions.php:129
 msgid "Groups"
 msgstr "Grupos"
 
-#: widget-visibility/widget-conditions.php:308
+#: widget-visibility/widget-conditions.php:333
 msgctxt "Used in the \"%s if:\" translation for the widget visibility dropdown"
 msgid "Hide"
 msgstr "Ocultar"
 
-#: widget-visibility/widget-conditions.php:269
+#: widget-visibility/widget-conditions.php:294
 msgctxt "Checkbox on Widget Visibility if choosen page has children."
 msgid "Include children"
 msgstr "Incluye los hijos"
 
-#: widget-visibility/widget-conditions.php:340
+#. Author of the plugin/theme
+msgid "Joan Boluda"
+msgstr "Joan Boluda"
+
+#: widget-visibility/widget-conditions.php:377
 msgid "Loading..."
 msgstr "Cargando..."
 
@@ -148,85 +167,96 @@ msgstr "Validado"
 msgid "Logged Out"
 msgstr "No validado"
 
-#: widget-visibility/widget-conditions.php:125
+#: widget-visibility/widget-conditions.php:130
 msgid "Members"
 msgstr "Miembros"
 
-#: widget-visibility/widget-conditions.php:102
+#: widget-visibility/widget-conditions.php:107
 msgid "Monthly archives"
 msgstr "Artículos del mes"
 
-#: widget-visibility/widget-conditions.php:331
+#: widget-visibility/widget-conditions.php:356
 msgctxt "Example: The user is looking at a page, not a post."
 msgid "Page"
 msgstr "Página"
 
-#: widget-visibility/widget-conditions.php:332
+#: widget-visibility/widget-conditions.php:357
 msgctxt "Example: the user is viewing a custom post type archive."
 msgid "Post Type"
 msgstr "Tipo de contenido"
 
-#: widget-visibility/widget-conditions.php:130
+#: widget-visibility/widget-conditions.php:135
 msgid "Post type:"
 msgstr "Tipo de contenido:"
 
-#: widget-visibility/widget-conditions.php:115
+#: widget-visibility/widget-conditions.php:120
 msgid "Posts page"
 msgstr "Página de entradas"
 
-#: widget-visibility/widget-conditions.php:326
+#: widget-visibility/widget-conditions.php:351
 msgctxt "Noun, as in: \"The user role of that can access this widget is...\""
 msgid "Role"
 msgstr "Rol"
 
-#: widget-visibility/widget-conditions.php:118
+#: widget-visibility/widget-conditions.php:123
 msgid "Search results"
 msgstr "Resultados de búsqueda"
 
-#: widget-visibility/widget-conditions.php:308
+#: widget-visibility/widget-conditions.php:333
 msgctxt "Used in the \"%s if:\" translation for the widget visibility dropdown"
 msgid "Show"
 msgstr "Mostrar"
 
-#: widget-visibility/widget-conditions.php:190
+#: widget-visibility/widget-conditions.php:215
 msgctxt "a heading for a list of custom post types"
 msgid "Single post:"
 msgstr "Contenido simple:"
 
-#: widget-visibility/widget-conditions.php:143
+#: widget-visibility/widget-conditions.php:148
 msgid "Static page:"
 msgstr "Página estática:"
 
-#: widget-visibility/widget-conditions.php:329
+#: widget-visibility/widget-conditions.php:354
 msgctxt "Noun, as in: \"This post has one tag.\""
 msgid "Tag"
 msgstr "Etiqueta"
 
-#: widget-visibility/widget-conditions.php:334
+#: widget-visibility/widget-conditions.php:368
 msgctxt "Noun, as in: \"This post has one taxonomy.\""
 msgid "Taxonomy"
 msgstr "Taxonomía"
 
-#: widget-visibility/widget-conditions.php:325
+#: widget-visibility/widget-conditions.php:350
 msgctxt "Noun"
 msgid "User"
 msgstr "Usuario"
 
-#: widget-visibility/widget-conditions.php:305
+#: widget-visibility/widget-conditions.php:330
 msgid "Visibility"
 msgstr "Visibilidad"
 
-#: widget-visibility/widget-conditions.php:103
+#. Plugin Name of the plugin/theme
+msgid "Widget Visibility Without Jetpack"
+msgstr "Visibilidad de widgets sin Jetpack"
+
+#: widget-visibility/widget-conditions.php:108
 msgid "Yearly archives"
 msgstr "Artículos del año"
 
-#: widget-visibility/widget-conditions.php:338
+#. #-#-#-#-#  widget-visibility-without-jetpack.pot (Widget Visibility Without Jetpack 1.1)  #-#-#-#-#
+#. Plugin URI of the plugin/theme
+#. #-#-#-#-#  widget-visibility-without-jetpack.pot (Widget Visibility Without Jetpack 1.1)  #-#-#-#-#
+#. Author URI of the plugin/theme
+msgid "http://boluda.com"
+msgstr "http://boluda.com"
+
+#: widget-visibility/widget-conditions.php:375
 msgctxt ""
 "Widget Visibility: {Rule Major [Page]} is {Rule Minor [Search results]}"
 msgid "is"
 msgstr "es"
 
-#: widget-visibility/widget-conditions.php:350
+#: widget-visibility/widget-conditions.php:387
 msgctxt "Shown between widget visibility conditions."
 msgid "or"
 msgstr "o"
