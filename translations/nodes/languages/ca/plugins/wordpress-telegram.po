@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: WP Telegram 1.6.5\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wordpress-"
 "telegram\n"
-"POT-Creation-Date: 2018-10-10 07:17:47+00:00\n"
-"PO-Revision-Date: 2018-10-10 11:08+0200\n"
+"POT-Creation-Date: 2019-04-05 07:48:22+00:00\n"
+"PO-Revision-Date: 2019-04-05 11:41+0200\n"
 "Last-Translator: Joan Sala Soler <jsala236@xtec.cat>\n"
 "Language-Team: WPTelegram\n"
 "Language: ca\n"
@@ -19,32 +19,159 @@ msgstr ""
 "X-Poedit-KeywordsList: __;_e;_x;esc_attr__;esc_attr_e;esc_html__;esc_html_e\n"
 "X-Poedit-SearchPath-0: .\n"
 
+#: includes/cmb2/includes/CMB2_Hookup_Base.php:42
+msgid "%1$s should be implemented by the extended class."
+msgstr ""
+
+#: modules/p2tg/class-wptelegram-p2tg-admin.php:512
+#, fuzzy
+msgid "%1$s should not be %2$s"
+msgstr "%1$s de %2$s."
+
+#: includes/cmb2/includes/CMB2_Base.php:458
+#, fuzzy
+msgid ""
+"%1$s was called with a parameter that is <strong>deprecated</strong> since "
+"version %2$s with no alternative available."
+msgstr ""
+"S'ha executat %1$s amb un argument que és <strong>obsolet</strong> des de la "
+"versió %2$s sense cap alternativa disponible."
+
+#: includes/cmb2/includes/CMB2_Base.php:456
+#, fuzzy
+msgid ""
+"%1$s was called with a parameter that is <strong>deprecated</strong> since "
+"version %2$s! %3$s"
+msgstr ""
+"S'ha executat %1$s amb un argument que és <strong>obsolet</strong> des de la "
+"versió %2$s! %3$s"
+
+#: includes/cmb2/example-functions.php:732
+#, fuzzy
+msgid "%s &mdash; Updated!"
+msgstr "%1$s &mdash; %2$s"
+
+#: admin/class-wptelegram-admin.php:412
+#, fuzzy
+msgid "%s is empty"
+msgstr "[buit]"
+
+#: modules/p2tg/class-wptelegram-p2tg-admin.php:513
+#, fuzzy
+msgid "%s should not be checked"
+msgstr "no s'hauria de comprovar"
+
+#: includes/cmb2/includes/rest-api/CMB2_REST_Controller.php:378
+#, fuzzy
+msgid "A human-readable description of the object."
+msgstr "Una descripció llegible de la taxonomia."
+
+#: admin/class-wptelegram-admin.php:93
+#, fuzzy
+msgid ""
+"A message will be sent to the Channel/Chat. You can modify the text below"
+msgstr ""
+"S'enviarà un missatge a totes les chat_ids. Pots modificar el text a sota"
+
 #: admin/partials/wptelegram-admin-display.php:140
 msgid "A message will be sent to the chat_ids. You can modify the text below"
 msgstr ""
 "S'enviarà un missatge a totes les chat_ids. Pots modificar el text a sota"
 
+#: modules/p2tg/class-wptelegram-p2tg-admin.php:152
+#, fuzzy
+msgid "A new post is published"
+msgstr ""
+"Afegeix al cron quan es publica un article nou i envia a través de cron."
+
+#: modules/p2tg/class-wptelegram-p2tg-admin.php:532
+#: modules/p2tg/class-wptelegram-p2tg-rules.php:75
+msgid "AND"
+msgstr ""
+
 #: admin/class-wptelegram-admin-settings.php:465
 msgid "ATTENTION!"
 msgstr "ATENCIÓ!"
 
+#: includes/cmb2/example-functions.php:459
+#, fuzzy
+msgid "About Page Metabox"
+msgstr "Afegeix una pàgina Quant a"
+
+#: admin/class-wptelegram-admin.php:462
+#, fuzzy
+msgid "Activate the modules you want to use."
+msgstr "El nom de la base de dades que voleu utilitzar amb el WordPress."
+
 #: admin/class-wptelegram-admin-settings.php:804
+#: modules/p2tg/class-wptelegram-p2tg-rules.php:90
 msgid "Add"
 msgstr "Afegeix"
+
+#: modules/notify/class-wptelegram-notify-admin.php:208
+msgid "Add %s to the group to get its Chat ID."
+msgstr ""
+
+#: includes/cmb2/example-functions.php:501
+#, fuzzy
+msgid "Add Another Entry"
+msgstr "Afegeix una altra opció"
+
+#: includes/cmb2/includes/CMB2_Field.php:1296
+#, fuzzy
+msgid "Add Group"
+msgstr "Afegeix un grup nou"
+
+#: modules/p2tg/class-wptelegram-p2tg-admin.php:289
+#, fuzzy
+msgid "Add Inline URL Button"
+msgstr "Afegiu l'URL d'una altra imatge"
+
+#: includes/cmb2/includes/CMB2_Types.php:349
+#, fuzzy
+msgid "Add Row"
+msgstr "Fila"
+
+#: modules/notify/class-wptelegram-notify-admin.php:210
+#, fuzzy
+msgid "Add YOUR OWN BOT to the group."
+msgstr "No oblidis afegir el teu propi bot al grup."
 
 #: admin/class-wptelegram-admin-settings.php:378
 msgid "Add a hashtag at the end of the message."
 msgstr "Afegeix una etiqueta al final del missatge."
 
+#: modules/p2tg/class-wptelegram-p2tg-admin.php:290
+msgid "Add an inline clickable button for the post URL just below the message."
+msgstr ""
+
+#: includes/cmb2/includes/types/CMB2_Type_File.php:76
+#, fuzzy
+msgid "Add or Upload File"
+msgstr "Pugeu un fitxer"
+
+#: includes/cmb2/includes/types/CMB2_Type_File_List.php:41
+#, fuzzy
+msgid "Add or Upload Files"
+msgstr "Afegeix fitxers"
+
 #: admin/class-wptelegram-admin-settings.php:472
+#: modules/p2tg/class-wptelegram-p2tg-admin.php:902
 msgid "Add the Bot as Administrator to your Channel/Group"
 msgstr "Afegeix el Bot com administrador al teu Canal/Grup"
 
+#: admin/class-wptelegram-admin.php:267
+#, fuzzy
+msgid "Advanced settings"
+msgstr "Paràmetres avançats"
+
 #: admin/class-wptelegram-admin-settings.php:470
+#: admin/class-wptelegram-admin.php:458
 msgid "After completing the steps %s will provide you the Bot Token."
 msgstr "Quan s'hagin completat els passos %s et proporcionarà el Bot Token."
 
 #: admin/class-wptelegram-admin-settings.php:294
+#: modules/p2tg/class-wptelegram-p2tg-admin.php:261
 msgid "After the Text"
 msgstr "A Sota del Text"
 
@@ -53,6 +180,7 @@ msgid "All Channels/Chats"
 msgstr "Tots els Canals/Converses"
 
 #: admin/class-wptelegram-admin-settings.php:386
+#: modules/notify/class-wptelegram-notify-admin.php:115
 msgid "Allow users to receive their email notifications on Telegram"
 msgstr ""
 "Permet que els usuaris rebin les seves notificacions per e-mail a Telegram"
@@ -60,6 +188,16 @@ msgstr ""
 #: public/partials/wptelegram-profile-fields.php:41
 msgid "Also start a conversation with %s to receive notifications"
 msgstr "També inicia una conversa amb %s per rebre notificacions"
+
+#: modules/p2tg/class-wptelegram-p2tg-admin.php:153
+#, fuzzy
+msgid "An existing post is updated"
+msgstr "No es pot crear un article existent."
+
+#: includes/cmb2/example-functions.php:646
+#, fuzzy
+msgid "Arbitrary Term Field"
+msgstr "Control de camp de terme"
 
 #: admin/class-wptelegram-admin-settings.php:300
 msgid "Attach the image below the text"
@@ -69,14 +207,27 @@ msgstr "Adjunta la imatge a sota del text"
 msgid "Authors"
 msgstr "Autors"
 
+#: includes/cmb2/example-functions.php:569
+#, fuzzy
+msgid "Avatar"
+msgstr "URLs de l'avatar per a l'autor de l'objecte."
+
 #: admin/class-wptelegram-admin-settings.php:293
+#: modules/p2tg/class-wptelegram-p2tg-admin.php:260
 msgid "Before the Text"
 msgstr "Abans del Text"
 
+#: admin/class-wptelegram-admin.php:289
+#, fuzzy
+msgid "Bot API"
+msgstr "Bot Token"
+
 #: admin/class-wptelegram-admin-settings.php:97
+#: admin/class-wptelegram-admin.php:192
 msgid "Bot Token"
 msgstr "Bot Token"
 
+#: admin/class-wptelegram-admin.php:89 admin/class-wptelegram-admin.php:585
 #: admin/partials/wptelegram-admin-display.php:77
 msgid "Bot Token is empty"
 msgstr "El Bot Token està buit"
@@ -85,13 +236,25 @@ msgstr "El Bot Token està buit"
 msgid "Bot Token is invalid"
 msgstr "El Bot Token és invàlid"
 
-#: includes/wptelegram-bot-api/classes/class-wptelegram_bot_api.php:159
-msgid "Bot Token is required to make a request"
-msgstr "Cal un Bot Token per fer la petició"
-
 #: admin/partials/wptelegram-admin-display.php:165
 msgid "Bot Token or chat_ids is empty"
 msgstr "Està buit el Bot Token o la chat_id"
+
+#: admin/class-wptelegram-admin.php:208
+#, fuzzy
+msgid "Bot Username"
+msgstr "Bot Token"
+
+#: includes/cmb2/includes/rest-api/CMB2_REST_Controller_Fields.php:297
+msgid ""
+"CMB2 Field value cannot be modified without the object_id and object_type "
+"parameters specified."
+msgstr ""
+
+#: includes/cmb2/includes/rest-api/CMB2_REST_Controller_Fields.php:236
+msgid ""
+"CMB2 Field value cannot be updated without the value parameter specified."
+msgstr ""
 
 #: admin/class-wptelegram-admin-settings.php:318
 msgid "Caption Source"
@@ -105,15 +268,41 @@ msgstr "La llegenda no es pot usar"
 msgid "Categories/Terms"
 msgstr "Categories"
 
+#: includes/cmb2/example-functions.php:624
+#, fuzzy
+msgid "Category Metabox"
+msgstr "Categoria"
+
+#: modules/p2tg/class-wptelegram-p2tg-admin.php:945
+#, fuzzy
+msgid "Channel"
+msgstr "Afegeix el Bot com administrador al teu Canal/Grup"
+
+#: modules/p2tg/class-wptelegram-p2tg-admin.php:114
+#, fuzzy
+msgid "Channel Username"
+msgstr "Nom d'Usuari del(s) Canal(s) o Chat ID(s)"
+
 #: admin/class-wptelegram-admin-settings.php:121
 msgid "Channel Username(s) or Chat ID(s)"
 msgstr "Nom d'Usuari del(s) Canal(s) o Chat ID(s)"
 
 #: admin/class-wptelegram-admin-settings.php:345
+#: modules/notify/class-wptelegram-notify-admin.php:232
+#: modules/p2tg/class-wptelegram-p2tg-admin.php:489
+#: modules/proxy/class-wptelegram-proxy-admin.php:264
 msgid "Chat ID"
 msgstr "Chat ID"
 
+#: admin/class-wptelegram-admin.php:91
+#, fuzzy
+msgid "Chat ID is empty"
+msgstr "Chat ID de Telegram"
+
 #: admin/class-wptelegram-admin-settings.php:513
+#: modules/notify/class-wptelegram-notify-admin.php:234
+#: modules/p2tg/class-wptelegram-p2tg-admin.php:491
+#: modules/proxy/class-wptelegram-proxy-admin.php:266
 msgid "Chat Type"
 msgstr "Tipus de Conversa"
 
@@ -121,32 +310,136 @@ msgstr "Tipus de Conversa"
 msgid "Chat_id"
 msgstr "Chat_id"
 
+#: includes/cmb2/example-functions.php:390
+msgid "Check One"
+msgstr ""
+
+#: includes/cmb2/example-functions.php:392
+#, fuzzy
+msgid "Check Three"
+msgstr "Tres columnes"
+
+#: includes/cmb2/example-functions.php:391
+#, fuzzy
+msgid "Check Two"
+msgstr "Dues columnes"
+
+#: admin/class-wptelegram-admin.php:96
+#, fuzzy
+msgid "Choose"
+msgstr "Trieu un logotip"
+
+#: includes/cmb2/includes/CMB2_JS.php:211
+#, fuzzy
+msgid "Choose Time"
+msgstr "Hora"
+
+#: includes/cmb2/includes/CMB2_JS.php:165
+#: includes/cmb2/includes/CMB2_JS.php:208
+msgid "Clear"
+msgstr "Neteja"
+
+#: includes/class-wptelegram-helpers.php:105
+msgid "Click here"
+msgstr "Feu clic aquí"
+
 #: admin/class-wptelegram-admin-settings.php:649
+#: modules/notify/class-wptelegram-notify-admin.php:263
+#: modules/p2tg/class-wptelegram-p2tg-admin.php:382
+#: modules/proxy/class-wptelegram-proxy-admin.php:295
 msgid "Click to insert"
 msgstr "Cica per inserir"
 
+#: includes/cmb2/includes/CMB2.php:582
+msgid "Click to toggle"
+msgstr "Cliqueu per a commutar"
+
+#: admin/class-wptelegram-admin.php:465
+#, fuzzy
+msgid "Configure the activated modules."
+msgstr "Activat"
+
 #: admin/class-wptelegram-admin-settings.php:471
+#: admin/class-wptelegram-admin.php:459
 msgid "Copy the token and paste into the Bot Token field below."
 msgstr "Copia el token i enganxa'l a sota al camp Bot Token."
 
-#: admin/class-wptelegram-admin.php:226
-msgid "Core"
-msgstr "Nucli"
+#: admin/class-wptelegram-admin.php:88
+#, fuzzy
+msgid "Could not connect"
+msgstr "Error: No s'ha pogut connectar"
 
 #: admin/class-wptelegram-admin-settings.php:468
+#: admin/class-wptelegram-admin.php:456
 msgid "Create a Bot by sending %s command to %s"
 msgstr "Crea un Bot enviant la comanda %s a %s"
 
 #: admin/class-wptelegram-admin-settings.php:467
+#: modules/p2tg/class-wptelegram-p2tg-admin.php:901
 msgid "Create a Channel/group/supergroup"
 msgstr "Crea un Canal/grup/supergrup"
 
+#: includes/cmb2/includes/CMB2_JS.php:168
+msgid "Current Color"
+msgstr "Color actual"
+
+#: includes/cmb2/includes/shim/WP_REST_Controller.php:273
+msgid "Current page of the collection."
+msgstr "Pàgina actual de la col·lecció."
+
+#: includes/cmb2/includes/CMB2_Types.php:231
+msgid "Custom CMB2 field type classes must extend CMB2_Type_Base."
+msgstr ""
+
+#: modules/p2tg/class-wptelegram-p2tg-admin.php:418
+#, fuzzy
+msgid "Custom Fields"
+msgstr "Camps personalitzats"
+
+#: includes/cmb2/example-functions.php:176
+#, fuzzy
+msgid "Custom Rendered Field"
+msgstr "Afegeix un camp personalitzat"
+
+#: modules/p2tg/class-wptelegram-p2tg-rules.php:186
+#, fuzzy
+msgid "Custom Taxonomy"
+msgstr "Taxonomia:"
+
+#: modules/proxy/class-wptelegram-proxy-admin.php:201
+#, fuzzy
+msgid "DISCLAIMER!"
+msgstr "Utilitzeu el servidor intermediari sota la vostra responsabilitat."
+
+#: admin/class-wptelegram-admin.php:294
+#, fuzzy
+msgid "Debug Info"
+msgstr "Informació"
+
+#: includes/cmb2/includes/CMB2_JS.php:166
+msgid "Default"
+msgstr "Predeterminada"
+
+#: modules/p2tg/class-wptelegram-p2tg-admin.php:328
+#: modules/p2tg/class-wptelegram-p2tg-admin.php:742
+#, fuzzy
+msgid "Delay in Posting"
+msgstr "Retard"
+
+#: includes/cmb2/example-functions.php:522
+msgid "Description"
+msgstr "Descripció"
+
 #: admin/class-wptelegram-admin-settings.php:336
+#: modules/p2tg/class-wptelegram-p2tg-admin.php:346
+#: modules/p2tg/class-wptelegram-p2tg-admin.php:725
 msgid "Disable Notifications"
 msgstr "Desactiva les Notificacions"
 
 #: admin/class-wptelegram-admin-settings.php:303
 #: admin/class-wptelegram-admin-settings.php:335
+#: modules/p2tg/class-wptelegram-p2tg-admin.php:345
+#: modules/p2tg/class-wptelegram-p2tg-admin.php:513
 msgid "Disable Web Page Preview"
 msgstr "Desactiva la Previsualització de la Pàgina Web"
 
@@ -171,9 +464,37 @@ msgstr "No publiquis de les seleccionades"
 msgid "Do not send the second message as a reply to the first"
 msgstr "No enviïs el segon missatge com a rèplica del primer"
 
+#: includes/cmb2/includes/CMB2_JS.php:207
+#: includes/cmb2/includes/CMB2_JS.php:217
+msgid "Done"
+msgstr "Fet"
+
+#: includes/cmb2/includes/CMB2_JS.php:229
+#: includes/cmb2/includes/types/CMB2_Type_File_Base.php:82
+msgid "Download"
+msgstr "Baixa"
+
 #: admin/class-wptelegram-admin-settings.php:369
 msgid "Email(s) to watch"
 msgstr "E-mail(s) que cal comprovar"
+
+#: admin/class-wptelegram-admin.php:282
+#, fuzzy
+msgid "Enable logs for"
+msgstr "Registres"
+
+#. translators: %s: link to codex.wordpress.org/Embeds
+#: includes/cmb2/example-functions.php:426
+msgid ""
+"Enter a youtube, twitter, or instagram URL. Supports services listed at %s."
+msgstr ""
+
+#: modules/p2tg/class-wptelegram-p2tg-admin.php:903
+#, fuzzy
+msgid "Enter the Channel Username in the field below"
+msgstr ""
+"Escriu el(s) nom(s) d'usuari del(s) Canal(s) o la(les) Chat ID(s) separats "
+"amb comes en el camp a sota :"
 
 #: admin/class-wptelegram-admin-settings.php:473
 msgid ""
@@ -183,6 +504,11 @@ msgstr ""
 "Escriu el(s) nom(s) d'usuari del(s) Canal(s) o la(les) Chat ID(s) separats "
 "amb comes en el camp a sota :"
 
+#: modules/notify/class-wptelegram-notify-admin.php:209
+#, fuzzy
+msgid "Enter the Chat ID in %s field below."
+msgstr "Escriu el chat_id que has rebut al camp de sota"
+
 #: public/partials/wptelegram-profile-fields.php:40
 msgid "Enter the received chat_id in the field above"
 msgstr "Escriu la chat_id que has rebut al camp anterior"
@@ -191,9 +517,35 @@ msgstr "Escriu la chat_id que has rebut al camp anterior"
 msgid "Enter the received chat_id in the field below"
 msgstr "Escriu el chat_id que has rebut al camp de sota"
 
-#: admin/class-wptelegram-admin.php:363 public/class-wptelegram-public.php:157
-msgid "Error: "
-msgstr "Error: "
+#: includes/cmb2/example-functions.php:529
+#, fuzzy
+msgid "Entry Image"
+msgstr "Edita aquest article"
+
+#: includes/cmb2/example-functions.php:515
+#, fuzzy
+msgid "Entry Title"
+msgstr "Edita aquest article"
+
+#: includes/cmb2/example-functions.php:500
+#, fuzzy
+msgid "Entry {#}"
+msgstr "Llegiu la resta d'aquest article &rarr;"
+
+#: modules/p2tg/class-wptelegram-p2tg-admin.php:946
+#, fuzzy
+msgid "Error code"
+msgstr "Codi de l'error: %s"
+
+#: modules/p2tg/class-wptelegram-p2tg-admin.php:947
+msgid "Error message"
+msgstr "Missatge d'error"
+
+#: admin/class-wptelegram-admin.php:99
+#: modules/notify/class-wptelegram-notify-admin.php:433
+#, fuzzy
+msgid "Error:"
+msgstr "ERROR:"
 
 #: admin/partials/wptelegram-admin-display.php:86
 #: admin/partials/wptelegram-admin-display.php:175
@@ -205,22 +557,52 @@ msgid "Every Telegram user or group has a unique ID called"
 msgstr "Cada usuari o grup de Telegram té una única ID anomenada"
 
 #: admin/class-wptelegram-admin-settings.php:255
+#: modules/p2tg/class-wptelegram-p2tg-admin.php:215
 msgid "Excerpt Length"
 msgstr "Longitud de l'Extracte"
 
 #: admin/class-wptelegram-admin-settings.php:242
+#: modules/p2tg/class-wptelegram-p2tg-admin.php:202
 msgid "Excerpt Source"
 msgstr "Origen de l'Extracte"
 
+#: includes/cmb2/example-functions.php:561
+#: includes/cmb2/example-functions.php:631
+#, fuzzy
+msgid "Extra Info"
+msgstr "Informació"
+
+#: includes/cmb2/example-functions.php:576
+#, fuzzy
+msgid "Facebook URL"
+msgstr "Facebook"
+
+#: admin/class-wptelegram-admin.php:98
 #: admin/partials/wptelegram-admin-display.php:193
 msgid "Failure"
 msgstr "Error"
 
 #: admin/class-wptelegram-admin-settings.php:280
+#: modules/p2tg/class-wptelegram-p2tg-admin.php:243
 msgid "Featured Image"
 msgstr "Imatge Destacada"
 
-#: admin/partials/wptelegram-admin-header.php:48
+#: includes/cmb2/includes/CMB2_Field_Display.php:432
+#: includes/cmb2/includes/CMB2_JS.php:228
+#: includes/cmb2/includes/types/CMB2_Type_File_Base.php:79
+msgid "File:"
+msgstr "Fitxer:"
+
+#: modules/p2tg/class-wptelegram-p2tg-admin.php:733
+msgid "Files"
+msgstr "Fitxers"
+
+#: modules/p2tg/class-wptelegram-p2tg-admin.php:734
+#, fuzzy
+msgid "Files to be sent after the message"
+msgstr "Estructura del missatge que s'ha d'enviar"
+
+#: admin/partials/wptelegram-admin-header.php:47
 msgid "Follow"
 msgstr "Segueix"
 
@@ -232,30 +614,75 @@ msgstr "Segueix aquests passos:"
 msgid "For ease, use"
 msgstr "Per comoditat, usa"
 
+#: admin/class-wptelegram-admin.php:459
+#, fuzzy
+msgid "For ease, use %s"
+msgstr "Per comoditat, usa"
+
+#: modules/p2tg/class-wptelegram-p2tg-admin.php:425
+#, fuzzy
+msgid "For example %1$s and %2$s in WooCommerce"
+msgstr "Exemple: %1$s en comptes de %2$s"
+
+#: modules/p2tg/class-wptelegram-p2tg-admin.php:427
+#, fuzzy
+msgid "For example %1$s or %2$s  in WooCommerce"
+msgstr "Exemple: %1$s en comptes de %2$s"
+
 #: admin/class-wptelegram-admin-settings.php:653
 #: admin/class-wptelegram-admin-settings.php:654
 msgid "For example %s"
 msgstr "Per exemple %s"
 
-#: admin/partials/wptelegram-admin-header.php:41
+#: includes/cmb2/example-functions.php:498
+msgid "Generates reusable form entries"
+msgstr ""
+
+#: admin/partials/wptelegram-admin-header.php:40
 msgid "Get connected"
 msgstr "Mantén-te connectat"
 
-#. Description of the plugin/theme
-msgid ""
-"Get notifications and send posts automatically to Telegram when published or "
-"updated, whether to a Telegram Channel, Group, Supergroup or private chat, "
-"with full control..."
+#: modules/p2tg/class-wptelegram-p2tg-admin.php:906
+#, fuzzy
+msgid "Get it from %s"
+msgstr "Obté esdeveniments de"
+
+#: modules/notify/class-wptelegram-notify-admin.php:361
+msgid "Get your Chat ID from %s and enter it above."
 msgstr ""
-"Obtén notificacions i envia publicacions automàticament a Telegram quan es "
-"publiqui o s'actualitzi, ja sigui a un Canal, Supergrup o conversa privada "
-"de Telegram, amb control total ..."
+
+#: modules/notify/class-wptelegram-notify-admin.php:202
+msgid "Get your Chat ID from %s and enter it below."
+msgstr ""
+
+#: modules/proxy/class-wptelegram-proxy-admin.php:96
+#: modules/proxy/class-wptelegram-proxy-admin.php:102
+#, fuzzy
+msgid "Google Script"
+msgstr "URL de Google Script"
 
 #: admin/class-wptelegram-admin-settings.php:399
+#: modules/proxy/class-wptelegram-proxy-admin.php:109
 msgid "Google Script URL"
 msgstr "URL de Google Script"
 
+#: modules/proxy/class-wptelegram-proxy-admin.php:94
+#, fuzzy
+msgid "Google Script is preferred"
+msgstr "URL de Google Script"
+
+#: admin/class-wptelegram-admin.php:275
+msgid "Google Script proxy does not support file upload."
+msgstr ""
+
+#: includes/cmb2/example-functions.php:590
+#, fuzzy
+msgid "Google+ URL"
+msgstr "URL de Google Script"
+
 #: admin/class-wptelegram-admin-settings.php:275
+#: modules/notify/class-wptelegram-notify-admin.php:152
+#: modules/p2tg/class-wptelegram-p2tg-admin.php:239
 msgid "HTML style"
 msgstr "Estil HTML"
 
@@ -263,13 +690,24 @@ msgstr "Estil HTML"
 msgid "Hashtag (optional)"
 msgstr "Etiqueta (opcional)"
 
+#: includes/cmb2/example-functions.php:167
+msgid "Hey there, I'm a read-only field"
+msgstr ""
+
 #: admin/class-wptelegram-admin-settings.php:479
+#: admin/class-wptelegram-admin.php:464
+#: modules/p2tg/class-wptelegram-p2tg-admin.php:908
 msgid "Hit %s below"
 msgstr "Prem %s a sota"
 
 #: admin/class-wptelegram-admin-settings.php:412
+#: modules/proxy/class-wptelegram-proxy-admin.php:127
 msgid "Host IP or domian name like %s"
 msgstr "IP de l'amfitrió o nom de domini semblant a %s"
+
+#: includes/cmb2/includes/CMB2_JS.php:213
+msgid "Hour"
+msgstr "Hora"
 
 #: admin/class-wptelegram-admin-settings.php:307
 msgid "How to send the image?"
@@ -284,6 +722,10 @@ msgstr ""
 "Ajustaments de Telegram, altrament les notificacions no s'enviaran"
 
 #: admin/class-wptelegram-admin-settings.php:530
+#: admin/class-wptelegram-admin.php:454
+#: modules/notify/class-wptelegram-notify-admin.php:198
+#: modules/notify/class-wptelegram-notify-admin.php:359
+#: modules/p2tg/class-wptelegram-p2tg-admin.php:899
 #: public/partials/wptelegram-profile-fields.php:36
 msgid "INSTRUCTIONS!"
 msgstr "INSTRUCCIONS!"
@@ -296,12 +738,18 @@ msgstr ""
 "Si l'opció \"Posició de la Imatge\" és \"Després del Text\", aleshores només "
 "es pot usar la llegenda \"Només Biblioteca de Medis\"."
 
+#: modules/notify/class-wptelegram-notify-admin.php:90
+#, fuzzy
+msgid "If Email goes to"
+msgstr "Sense correu electrònic"
+
 #: admin/class-wptelegram-admin-settings.php:303
 msgid "If enabled:"
 msgstr "Si està activat:"
 
 #: admin/class-wptelegram-admin-settings.php:122
 #: admin/class-wptelegram-admin-settings.php:370
+#: modules/p2tg/class-wptelegram-p2tg-admin.php:115
 msgid "If more than one, separate them by comma"
 msgstr "Si n'hi ha més d'un, separa'ls amb comes"
 
@@ -324,6 +772,11 @@ msgstr ""
 msgid "If you haven't"
 msgstr "Si no has"
 
+#: modules/notify/class-wptelegram-notify-admin.php:92
+#, fuzzy
+msgid "If you want to receive notification for every email, then write %s"
+msgstr "Si vols rebre notificacions dels e-mails enviats, escriu"
+
 #: admin/class-wptelegram-admin-settings.php:370
 msgid "If you want to receive notification for every sent email, write"
 msgstr "Si vols rebre notificacions dels e-mails enviats, escriu"
@@ -336,7 +789,12 @@ msgstr ""
 "Si vols que un grup rebi notificacions, afegeix %s al grup i t'enviarà la ID "
 "del grup."
 
+#: includes/cmb2/example-functions.php:535
+msgid "Image Caption"
+msgstr "Llegenda de la Imatge"
+
 #: admin/class-wptelegram-admin-settings.php:288
+#: modules/p2tg/class-wptelegram-p2tg-admin.php:253
 msgid "Image Position"
 msgstr "Posició de la Imatge"
 
@@ -369,10 +827,78 @@ msgid "In this section you can teach WordPress how and when to do the job"
 msgstr ""
 "En aquesta secció pots establir com i quan WordPress ha de realitzar la tasca"
 
+#: includes/cmb2/includes/rest-api/CMB2_REST_Controller_Fields.php:27
+msgid ""
+"Includes the box object which the fields are registered to in the response."
+msgstr ""
+
+#: includes/cmb2/includes/rest-api/CMB2_REST_Controller_Boxes.php:72
+msgid ""
+"Includes the fully rendered attributes, 'form_open', 'form_close', as well "
+"as the enqueued 'js_dependencies' script handles, and 'css_dependencies' "
+"stylesheet handles."
+msgstr ""
+
+#: includes/cmb2/includes/rest-api/CMB2_REST_Controller_Boxes.php:51
+msgid "Includes the registered fields for the box in the response."
+msgstr ""
+
+#: modules/p2tg/class-wptelegram-p2tg-admin.php:288
+#, fuzzy
+msgid "Inline Button"
+msgstr "Alineat"
+
+#: modules/p2tg/class-wptelegram-p2tg-admin.php:283
+#, fuzzy
+msgid "Inline Keyboard"
+msgstr "Alineat"
+
+#: modules/p2tg/class-wptelegram-p2tg-admin.php:298
+#, fuzzy
+msgid "Inline button text"
+msgstr "Alineat"
+
+#. Description of the plugin/theme
+#, fuzzy
+msgid ""
+"Integrate your WordPress site perfectly with Telegram. Send posts "
+"automatically to Telegram when published or updated, whether to a Telegram "
+"Channel, Group, Supergroup or private chat, with full control. Get your "
+"email notifications on Telegram."
+msgstr ""
+"Obtén notificacions i envia publicacions automàticament a Telegram quan es "
+"publiqui o s'actualitzi, ja sigui a un Canal, Supergrup o conversa privada "
+"de Telegram, amb control total ..."
+
+#: includes/cmb2/includes/CMB2_Base.php:506
+#: includes/cmb2/includes/types/CMB2_Type_Base.php:156
+#, fuzzy
+msgid "Invalid %1$s method: %2$s"
+msgstr "\"%1$s\" de %2$s."
+
+#: includes/cmb2/includes/CMB2_Base.php:491
+#: includes/cmb2/includes/CMB2_Hookup_Base.php:100
+#: includes/cmb2/includes/CMB2_Options_Hookup.php:341
+#: includes/cmb2/includes/types/CMB2_Type_Base.php:172
+#, fuzzy
+msgid "Invalid %1$s property: %2$s"
+msgstr "%1$s no és una propietat vàlida de l'objecte."
+
+#: admin/class-wptelegram-admin.php:414
+#, fuzzy
+msgid "Invalid %s"
+msgstr "Taxonomia invàlida: %s"
+
 #: admin/class-wptelegram-admin-settings.php:494
+#: admin/class-wptelegram-admin.php:92 admin/class-wptelegram-admin.php:486
 #: includes/wptelegram-functions.php:180
 msgid "Invalid Bot Token"
 msgstr "Bot Token invàlid"
+
+#: admin/class-wptelegram-admin.php:491
+#, fuzzy
+msgid "Invalid Bot Username"
+msgstr "El Bot Token és invàlid"
 
 #: admin/class-wptelegram-admin-settings.php:534
 msgid "It is different from a username and is visible only to bots."
@@ -383,26 +909,55 @@ msgstr "És diferent a un nom d'usuari i només és visible per als bots."
 msgid "It will send you your Telegram chat_id."
 msgstr "T'enviarà el teu chat_id de Telegram."
 
-#: admin/partials/wptelegram-admin-header.php:52
+#: includes/cmb2/includes/CMB2_JS.php:203
+msgid "Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec"
+msgstr ""
+
+#: includes/cmb2/includes/CMB2_JS.php:202
+msgid ""
+"January, February, March, April, May, June, July, August, September, "
+"October, November, December"
+msgstr ""
+
+#: admin/partials/wptelegram-admin-header.php:51
 msgid "Join"
 msgstr "Afegeix-me"
 
 #: admin/class-wptelegram-admin-settings.php:268
+#: modules/notify/class-wptelegram-notify-admin.php:148
+#: modules/p2tg/class-wptelegram-p2tg-admin.php:235
 msgid "Learn more"
 msgstr "Saber-ne més"
 
 #: admin/class-wptelegram-admin-settings.php:440
 #: admin/class-wptelegram-admin-settings.php:447
+#: modules/proxy/class-wptelegram-proxy-admin.php:158
+#: modules/proxy/class-wptelegram-proxy-admin.php:166
 msgid "Leave empty if not required"
 msgstr "Deixeu-ho buit si no és necessari"
+
+#: includes/cmb2/includes/shim/WP_REST_Controller.php:290
+msgid "Limit results to those matching a string."
+msgstr "Limita els resultats als quals coincideixen amb una cadena de text."
+
+#: includes/cmb2/example-functions.php:597
+#, fuzzy
+msgid "Linkedin URL"
+msgstr "LinkedIn"
 
 #. Author of the plugin/theme
 msgid "Manzoor Wani"
 msgstr "Manzoor Wani"
 
 #: admin/class-wptelegram-admin-settings.php:274
+#: modules/notify/class-wptelegram-notify-admin.php:151
+#: modules/p2tg/class-wptelegram-p2tg-admin.php:238
 msgid "Markdown style"
 msgstr "Estil de marcatge"
+
+#: includes/cmb2/includes/shim/WP_REST_Controller.php:281
+msgid "Maximum number of items to be returned in result set."
+msgstr "Màxim nombre d'elements a tornar en el conjunt de resultats."
 
 #: admin/class-wptelegram-admin-settings.php:325
 msgid "Media Library or Message Template (former preferred if not empty)"
@@ -411,6 +966,7 @@ msgstr ""
 "deixa buit)"
 
 #: admin/class-wptelegram-admin-settings.php:505
+#: modules/p2tg/class-wptelegram-p2tg-admin.php:483
 msgid "Members Count:"
 msgstr "Nombre de Membres:"
 
@@ -419,35 +975,130 @@ msgid "Message"
 msgstr "Missatge"
 
 #: admin/class-wptelegram-admin-settings.php:64
+#: modules/notify/class-wptelegram-notify-admin.php:123
+#: modules/p2tg/class-wptelegram-p2tg-admin.php:183
 msgid "Message Settings"
 msgstr "Ajustaments del Missatge"
 
 #: admin/class-wptelegram-admin-settings.php:226
+#: modules/notify/class-wptelegram-notify-admin.php:129
+#: modules/p2tg/class-wptelegram-p2tg-admin.php:188
+#: modules/p2tg/class-wptelegram-p2tg-admin.php:755
 msgid "Message Template"
 msgstr "Plantilla del Missatge"
 
+#: includes/cmb2/includes/CMB2.php:179
+msgid "Metabox configuration is required to have an ID parameter."
+msgstr ""
+
+#. translators: %s: register_routes()
+#: includes/cmb2/includes/shim/WP_REST_Controller.php:25
+msgid "Method '%s' must be overridden."
+msgstr "S'ha de sobreescriure el mètode '%s'."
+
+#: includes/cmb2/includes/shim/WP_REST_Controller.php:35
+#: includes/cmb2/includes/shim/WP_REST_Controller.php:47
+#: includes/cmb2/includes/shim/WP_REST_Controller.php:59
+#: includes/cmb2/includes/shim/WP_REST_Controller.php:71
+#: includes/cmb2/includes/shim/WP_REST_Controller.php:83
+#: includes/cmb2/includes/shim/WP_REST_Controller.php:95
+#: includes/cmb2/includes/shim/WP_REST_Controller.php:107
+#: includes/cmb2/includes/shim/WP_REST_Controller.php:119
+#: includes/cmb2/includes/shim/WP_REST_Controller.php:131
+#: includes/cmb2/includes/shim/WP_REST_Controller.php:143
+#: includes/cmb2/includes/shim/WP_REST_Controller.php:155
+#: includes/cmb2/includes/shim/WP_REST_Controller.php:168
+msgid "Method '%s' not implemented. Must be overridden in subclass."
+msgstr ""
+"El mètode «%s» no està implementat. S'ha de sobreescriure en una subclasse."
+
+#: includes/cmb2/includes/CMB2_JS.php:214
+msgid "Minute"
+msgstr "Minut"
+
+#: modules/p2tg/class-wptelegram-p2tg-admin.php:329
+#: modules/p2tg/class-wptelegram-p2tg-admin.php:743
+msgid "Minute(s)"
+msgstr "Minut(s)"
+
 #: admin/class-wptelegram-admin-settings.php:331
+#: modules/p2tg/class-wptelegram-p2tg-admin.php:314
 msgid "Miscellaneous"
 msgstr "Miscel·lània"
+
+#: admin/class-wptelegram-admin.php:227
+msgid "Modules"
+msgstr ""
+
+#: includes/cmb2/example-functions.php:415
+#, fuzzy
+msgid "Multiple Files"
+msgstr ""
+"<strong>Arrossegueu i deixeu anar</strong> els fitxers en l'àrea d'aquí "
+"sota. Es permeten diversos fitxers a la vegada."
 
 #: admin/class-wptelegram-admin-settings.php:378
 msgid "Must begin with"
 msgstr "Ha de començar amb"
 
 #: admin/class-wptelegram-admin-settings.php:512
+#: modules/notify/class-wptelegram-notify-admin.php:233
+#: modules/p2tg/class-wptelegram-p2tg-admin.php:490
+#: modules/proxy/class-wptelegram-proxy-admin.php:265
 msgid "Name/Title"
 msgstr "Nom/Títol"
 
-#: admin/partials/wptelegram-admin-header.php:24
+#: admin/partials/wptelegram-admin-header.php:23
 msgid "Need help?"
 msgstr "Necessites ajuda?"
+
+#: includes/cmb2/includes/CMB2_JS.php:204
+msgid "Next"
+msgstr "Següent"
+
+#: modules/p2tg/class-wptelegram-p2tg-admin.php:701
+msgid "No"
+msgstr "No"
 
 #: admin/class-wptelegram-admin-settings.php:792
 msgid "No Channels/Chat IDs found"
 msgstr "No s'han trobat IDs de Canals/Converses"
 
+#: includes/cmb2/includes/rest-api/CMB2_REST_Controller.php:300
+msgid ""
+"No box found by that id. A box needs to be registered with the \"show_in_rest"
+"\" parameter configured."
+msgstr ""
+
+#: includes/cmb2/includes/rest-api/CMB2_REST_Controller_Boxes.php:122
+#, fuzzy
+msgid "No boxes found."
+msgstr "Caixes"
+
+#: includes/cmb2/includes/rest-api/CMB2_REST_Controller_Fields.php:312
+#: includes/cmb2/includes/rest-api/CMB2_REST_Controller_Fields.php:341
+#, fuzzy
+msgid "No field found by that id."
+msgstr "No s'ha trobat cap activitat amb aquest ID."
+
+#. translators: 1: results for. 2: link to codex.wordpress.org/Embeds
+#: includes/cmb2/includes/CMB2_Ajax.php:189
+#: includes/cmb2/includes/helper-functions.php:105
+msgid "No oEmbed Results Found for %1$s. View more info at %2$s."
+msgstr ""
+
+#: includes/cmb2/includes/types/CMB2_Type_Taxonomy_Base.php:115
+#, fuzzy
+msgid "No terms"
+msgstr "Termes ampliats de la taxonomia"
+
 #: admin/class-wptelegram-admin-settings.php:273
 #: admin/class-wptelegram-admin-settings.php:303
+#: includes/cmb2/includes/CMB2_Field.php:1328
+#: includes/cmb2/includes/CMB2_Field.php:1332
+#: modules/notify/class-wptelegram-notify-admin.php:150
+#: modules/p2tg/class-wptelegram-p2tg-admin.php:237
+#: modules/p2tg/class-wptelegram-p2tg-admin.php:512
 msgid "None"
 msgstr "Cap"
 
@@ -459,15 +1110,27 @@ msgstr "Cap"
 msgid "Note:"
 msgstr "Nota:"
 
+#: includes/cmb2/includes/CMB2_Options_Hookup.php:131
+#, fuzzy
+msgid "Nothing to update."
+msgstr "No hi ha res a suprimir!"
+
 #: admin/class-wptelegram-admin-settings.php:70
+#: modules/notify/class-wptelegram-notify-admin.php:84
 msgid "Notification Settings"
 msgstr "Ajustaments de Notificacions"
 
 #: admin/class-wptelegram-admin-settings.php:384
+#: modules/notify/class-wptelegram-notify-admin.php:114
 msgid "Notifications to Users"
 msgstr "Notificacions als usuaris"
 
+#: includes/cmb2/includes/CMB2_JS.php:216
+msgid "Now"
+msgstr "Ara"
+
 #: admin/class-wptelegram-admin-settings.php:256
+#: modules/p2tg/class-wptelegram-p2tg-admin.php:216
 msgid ""
 "Number of words for the excerpt. Won't be used when Caption Source is \"Post "
 "Content before Read More tag\""
@@ -476,6 +1139,8 @@ msgstr ""
 "Llegenda sigui \"Envia la Publicació abans de l'etiqueta Llegeix Més\""
 
 #: admin/class-wptelegram-admin-settings.php:406
+#: modules/p2tg/class-wptelegram-p2tg-rules.php:56
+#: modules/p2tg/class-wptelegram-p2tg-rules.php:88
 msgid "OR"
 msgstr "OR"
 
@@ -487,11 +1152,51 @@ msgstr "Només la Biblioteca de Medis"
 msgid "Only Message Template"
 msgstr "Només la Plantilla del Missatge"
 
+#: includes/cmb2/example-functions.php:319
+#: includes/cmb2/example-functions.php:332
+#: includes/cmb2/example-functions.php:344
+#, fuzzy
+msgid "Option One"
+msgstr "opció"
+
+#: includes/cmb2/example-functions.php:321
+#: includes/cmb2/example-functions.php:334
+#: includes/cmb2/example-functions.php:346
+#, fuzzy
+msgid "Option Three"
+msgstr "Tres columnes"
+
+#: includes/cmb2/example-functions.php:320
+#: includes/cmb2/example-functions.php:333
+#: includes/cmb2/example-functions.php:345
+#, fuzzy
+msgid "Option Two"
+msgstr "Dues columnes"
+
+#: modules/p2tg/class-wptelegram-p2tg-admin.php:340
+#, fuzzy
+msgid "Other settings"
+msgstr "Altres ajustaments"
+
 #: admin/class-wptelegram-admin-settings.php:755
 msgid "Override default settings"
 msgstr "Sobreescriu els ajustaments predeterminats"
 
+#: modules/p2tg/class-wptelegram-p2tg-admin.php:706
+#, fuzzy
+msgid "Override settings"
+msgstr "Sobreescriu els ajustaments predeterminats"
+
+#: modules/proxy/class-wptelegram-proxy-admin.php:97
+#: modules/proxy/class-wptelegram-proxy-admin.php:117
+#, fuzzy
+msgid "PHP Proxy"
+msgstr "Amfitrió del servidor intermediari"
+
 #: admin/class-wptelegram-admin-settings.php:267
+#: modules/notify/class-wptelegram-notify-admin.php:144
+#: modules/p2tg/class-wptelegram-p2tg-admin.php:229
+#: modules/p2tg/class-wptelegram-p2tg-admin.php:512
 msgid "Parse Mode"
 msgstr "Mode d'anàlisi"
 
@@ -500,13 +1205,20 @@ msgid "Parse Mode should NOT be"
 msgstr "El Mode d'Anàlisi NO hauria de ser"
 
 #: admin/class-wptelegram-admin-settings.php:446
+#: modules/proxy/class-wptelegram-proxy-admin.php:163
 msgid "Password"
 msgstr "Contrasenya"
 
-#: public/class-wptelegram-public.php:157
+#: modules/notify/class-wptelegram-notify-admin.php:433
 msgid "Please Enter a valid Chat ID"
 msgstr "Si us plau, escriu una Chat ID vàlida"
 
+#: includes/cmb2/includes/CMB2_Ajax.php:75
+#, fuzzy
+msgid "Please Try Again"
+msgstr "Torneu-ho a provar."
+
+#: modules/notify/class-wptelegram-notify-admin.php:338
 #: public/partials/wptelegram-profile-fields.php:30
 msgid "Please enter your Telegram Chat ID"
 msgstr "Si us plau, escriu la teva Chat ID de Telegram"
@@ -515,22 +1227,55 @@ msgstr "Si us plau, escriu la teva Chat ID de Telegram"
 msgid "Please read the instructions above"
 msgstr "Si us plau, llegeix les instruccions anteriors"
 
+#: admin/class-wptelegram-admin.php:95
 #: admin/partials/wptelegram-admin-display.php:68
 #: admin/partials/wptelegram-admin-display.php:146
 msgid "Please wait..."
 msgstr "Si us plau, espera ..."
 
+#: modules/p2tg/class-wptelegram-p2tg-rules.php:179
+#: modules/p2tg/class-wptelegram-p2tg-rules.php:180
+msgid "Post"
+msgstr "Entrada"
+
+#: modules/p2tg/class-wptelegram-p2tg-rules.php:184
+#, fuzzy
+msgid "Post Author"
+msgstr "Autor de l'article"
+
+#: modules/p2tg/class-wptelegram-p2tg-rules.php:181
+msgid "Post Category"
+msgstr "Categoria de l'article"
+
 #: admin/class-wptelegram-admin-settings.php:248
+#: modules/p2tg/class-wptelegram-p2tg-admin.php:209
 msgid "Post Content"
 msgstr "Contingut de la Publicació"
 
 #: admin/class-wptelegram-admin-settings.php:249
+#: modules/p2tg/class-wptelegram-p2tg-admin.php:210
 msgid "Post Content before Read More tag"
 msgstr "Contingut de la Publicació abans de l'etiqueta Llegeix Més"
 
+#: modules/p2tg/class-wptelegram-p2tg-admin.php:396
+#, fuzzy
+msgid "Post Data"
+msgstr "(sense dades)"
+
 #: admin/class-wptelegram-admin-settings.php:250
+#: modules/p2tg/class-wptelegram-p2tg-admin.php:211
 msgid "Post Excerpt"
 msgstr "Extracte de la Publicació"
+
+#: modules/p2tg/class-wptelegram-p2tg-rules.php:183
+#, fuzzy
+msgid "Post Format"
+msgstr "Format de l'article"
+
+#: modules/p2tg/class-wptelegram-p2tg-rules.php:182
+#, fuzzy
+msgid "Post Tag"
+msgstr "No s'ha pogut importar l'etiqueta %s"
 
 #: admin/class-wptelegram-admin-settings.php:199
 msgid "Post from all Authors"
@@ -545,11 +1290,43 @@ msgstr "Publica de totes les Categories"
 msgid "Post only from selected ones"
 msgstr "Envia només de les seleccionades"
 
+#: admin/class-wptelegram-admin.php:290
+#: includes/class-wptelegram-modules.php:67
+#: modules/p2tg/class-wptelegram-p2tg-admin.php:939
+#, fuzzy
+msgid "Post to Telegram"
+msgstr "Ajustaments de Telegram"
+
+#: modules/p2tg/class-wptelegram-p2tg-admin.php:157
+msgid "Post type"
+msgstr "Tipus de contingut"
+
+#: includes/cmb2/includes/CMB2_JS.php:205
+msgid "Prev"
+msgstr "Anterior"
+
+#: includes/class-wptelegram-modules.php:68
+#, fuzzy
+msgid "Private Notifications"
+msgstr "Avisos"
+
+#: includes/class-wptelegram-modules.php:69
+#, fuzzy
+msgid "Proxy"
+msgstr "Amfitrió del servidor intermediari"
+
 #: admin/class-wptelegram-admin-settings.php:411
+#: modules/proxy/class-wptelegram-proxy-admin.php:124
 msgid "Proxy Host"
 msgstr "Amfitrió del servidor intermediari"
 
+#: modules/proxy/class-wptelegram-proxy-admin.php:84
+#, fuzzy
+msgid "Proxy Method"
+msgstr "Pàrametres del servidor intermediari"
+
 #: admin/class-wptelegram-admin-settings.php:418
+#: modules/proxy/class-wptelegram-proxy-admin.php:132
 msgid "Proxy Port"
 msgstr "Port del servidor intermediari"
 
@@ -558,20 +1335,89 @@ msgid "Proxy Settings"
 msgstr "Pàrametres del servidor intermediari"
 
 #: admin/class-wptelegram-admin-settings.php:425
+#: modules/proxy/class-wptelegram-proxy-admin.php:140
 msgid "Proxy Type"
 msgstr "Tipus de servidor intermediari"
 
-#: admin/class-wptelegram-admin.php:358
-msgid "Reason: "
-msgstr "Motiu: "
+#: includes/cmb2/example-functions.php:782
+msgid "REST Editable Test Text"
+msgstr ""
+
+#: includes/cmb2/example-functions.php:766
+#, fuzzy
+msgid "REST Test Box"
+msgstr "per provar"
+
+#: includes/cmb2/example-functions.php:775
+#, fuzzy
+msgid "REST Test Text"
+msgstr "per provar"
+
+#: includes/cmb2/example-functions.php:163
+#, fuzzy
+msgid "Read-only Disabled Field"
+msgstr "Aquesta és una de només lectura d'entrada de data"
+
+#: includes/cmb2/includes/CMB2_JS.php:227
+#: includes/cmb2/includes/CMB2_Types.php:412
+#: includes/cmb2/includes/types/CMB2_Type_File_Base.php:84
+msgid "Remove"
+msgstr "Suprimeix"
 
 #: admin/class-wptelegram-admin-settings.php:806
 msgid "Remove All"
 msgstr "Suprimeix-ho tot"
 
-#: admin/class-wptelegram-admin.php:269
+#: includes/cmb2/includes/CMB2_Ajax.php:181
+#, fuzzy
+msgid "Remove Embed"
+msgstr "Incrusta"
+
+#: includes/cmb2/example-functions.php:502
+#, fuzzy
+msgid "Remove Entry"
+msgstr "Edita aquest article"
+
+#: includes/cmb2/includes/CMB2_Field.php:1297
+#, fuzzy
+msgid "Remove Group"
+msgstr "Treu-lo del node"
+
+#: includes/cmb2/includes/CMB2_JS.php:226
+#: includes/cmb2/includes/types/CMB2_Type_File_Base.php:64
+#, fuzzy
+msgid "Remove Image"
+msgstr "Suprimeix la imatge"
+
+#: includes/cmb2/includes/CMB2_Types.php:412
+#, fuzzy
+msgid "Remove Row"
+msgstr "Suprimeix"
+
+#: admin/class-wptelegram-admin.php:302
 msgid "Remove settings on uninstall"
 msgstr "Elimina els ajustaments en desinstal·lar"
+
+#: includes/cmb2/example-functions.php:490
+#, fuzzy
+msgid "Repeating Field Group"
+msgstr "Camp únic o repetitiu"
+
+#: modules/p2tg/class-wptelegram-p2tg-admin.php:427
+#, fuzzy
+msgid "Replace %1$s in %2$s by the name of the Custom Field."
+msgstr ""
+"Substitueix %s a %s pel nom del Camp Personalitzat, el valor del qual vols "
+"afegir a la plantilla."
+
+#: modules/p2tg/class-wptelegram-p2tg-admin.php:425
+#, fuzzy
+msgid ""
+"Replace %1$s in %2$s by the name of the taxonomy to insert its terms "
+"attached to the post."
+msgstr ""
+"Substitueix %s a %s pel nom de la taxonomia de la qual vols obtenir els "
+"elements adjunts a la publicació."
 
 #: admin/class-wptelegram-admin-settings.php:654
 msgid ""
@@ -589,52 +1435,162 @@ msgstr ""
 "Substitueix %s a %s pel nom de la taxonomia de la qual vols obtenir els "
 "elements adjunts a la publicació."
 
+#: modules/p2tg/class-wptelegram-p2tg-admin.php:138
+#: modules/p2tg/class-wptelegram-p2tg-admin.php:168
+#, fuzzy
+msgid "Rules"
+msgstr ".htaccess (per a regles del mod_rewrite)"
+
+#: includes/cmb2/includes/helper-functions.php:303
+msgid "Save"
+msgstr "Desa"
+
 #: admin/class-wptelegram-admin-settings.php:479
+#: admin/class-wptelegram-admin.php:464
+#: modules/p2tg/class-wptelegram-p2tg-admin.php:908
 msgid "Save Changes"
 msgstr "Desa els canvis"
+
+#: includes/cmb2/includes/shim/WP_REST_Controller.php:308
+msgid ""
+"Scope under which the request is made; determines fields present in response."
+msgstr ""
+"Àmbit sota el qual es fa la petició: determina els camps presents en la "
+"resposta."
+
+#: includes/cmb2/includes/CMB2_JS.php:215
+#, fuzzy
+msgid "Second"
+msgstr "segon"
+
+#: modules/proxy/class-wptelegram-proxy-admin.php:111
+#, fuzzy
+msgid "See this tutorial"
+msgstr ""
+"Podeu evitar el bloqueig de Telegram fent servir Google Scripts. Les "
+"sol·licituds s'enviaran a través del vostre Google Script. Vegeu aquest "
+"tutorial"
+
+#: includes/cmb2/includes/CMB2_JS.php:230
+#, fuzzy
+msgid "Select / Deselect All"
+msgstr "Desselecciona"
+
+#: includes/cmb2/includes/CMB2_JS.php:167
+msgid "Select Color"
+msgstr "Selecciona un color"
 
 #: admin/class-wptelegram-admin-settings.php:762
 msgid "Send"
 msgstr "Envia"
 
 #: admin/class-wptelegram-admin-settings.php:281
+#: modules/p2tg/class-wptelegram-p2tg-admin.php:244
 msgid "Send Featured Image (if exists)"
 msgstr "Envia la Imatge Destacada (si n'hi ha)"
 
 #: admin/class-wptelegram-admin-settings.php:130
 #: admin/class-wptelegram-admin-settings.php:354
 #: admin/partials/wptelegram-admin-display.php:160
+#: modules/notify/class-wptelegram-notify-admin.php:101
+#: modules/p2tg/class-wptelegram-p2tg-admin.php:115
 msgid "Send Test"
 msgstr "Envia la Prova"
+
+#: modules/notify/class-wptelegram-notify-admin.php:203
+msgid "Send YOUR OWN BOT a message to start the conversation."
+msgstr ""
 
 #: admin/class-wptelegram-admin-settings.php:539
 #: public/partials/wptelegram-profile-fields.php:38
 msgid "Send a message to %s"
 msgstr "Envia un missatge a %s"
 
+#: modules/p2tg/class-wptelegram-p2tg-admin.php:266
+msgid "Send both text and image in single message"
+msgstr ""
+
 #: admin/class-wptelegram-admin-settings.php:796
 msgid "Send file(s)"
 msgstr "Envia els fitxers"
 
+#: admin/class-wptelegram-admin.php:273
+#, fuzzy
+msgid "Send files by URL"
+msgstr "Adreça URL completa dels fitxers"
+
+#: modules/notify/class-wptelegram-notify-admin.php:100
+#: modules/notify/class-wptelegram-notify-admin.php:209
+#, fuzzy
+msgid "Send it to"
+msgstr "Envia a"
+
 #: admin/class-wptelegram-admin-settings.php:771
+#: modules/p2tg/class-wptelegram-p2tg-admin.php:715
 msgid "Send to"
 msgstr "Envia a"
 
-#: admin/class-wptelegram-admin.php:137
+#: modules/p2tg/class-wptelegram-p2tg-admin.php:695
+#, fuzzy
+msgid "Send to Telegram"
+msgstr "T'enviarà el teu chat_id de Telegram."
+
+#: modules/p2tg/class-wptelegram-p2tg-admin.php:143
+#: modules/p2tg/class-wptelegram-p2tg-admin.php:526
+#, fuzzy
+msgid "Send when"
+msgstr ""
+"Voleu enviar un correu electrònic quan s'utilitza la importació de la "
+"interfície?"
+
+#: admin/class-wptelegram-admin.php:115 admin/class-wptelegram-admin.php:513
 msgid "Settings"
 msgstr "Ajustaments"
 
-#: admin/partials/wptelegram-admin-header.php:24
+#: admin/class-wptelegram-admin.php:270
+#, fuzzy
+msgid ""
+"Settings in this section should not be changed unless recommended by WP "
+"Telegram Support."
+msgstr ""
+"En aquesta secció pots canviar els ajustaments relacionats amb Telegram."
+
+#: admin/class-wptelegram-admin.php:396
+#, fuzzy
+msgid "Settings updated"
+msgstr "S'han actualitzat els paràmetres."
+
+#: includes/cmb2/includes/CMB2_Options_Hookup.php:135
+msgid "Settings updated."
+msgstr "S'han actualitzat els paràmetres."
+
+#: admin/partials/wptelegram-admin-header.php:23
 msgid "Shout in"
 msgstr "Difon"
 
 #: admin/class-wptelegram-admin-settings.php:217
+#: modules/p2tg/class-wptelegram-p2tg-admin.php:320
 msgid "Show an ON/OFF switch on the post edit screen"
 msgstr "Mostra un botó ON/OFF a la pantalla d'edició de la publicació"
 
-#: admin/class-wptelegram-admin.php:239
-msgid "Sorry, you are not allowed to access this page."
-msgstr "No estàs autoritzat a accedir a aquesta pàgina."
+#: modules/p2tg/class-wptelegram-p2tg-admin.php:265
+#, fuzzy
+msgid "Single message"
+msgstr "Pàgina única"
+
+#: includes/cmb2/example-functions.php:695
+#, fuzzy
+msgid "Site Background Color"
+msgstr "Color de fons"
+
+#: includes/cmb2/includes/CMB2_Field.php:1443
+msgid "Sorry, this field does not have a cmb_id specified."
+msgstr ""
+
+#: modules/notify/class-wptelegram-notify-admin.php:362
+#, fuzzy
+msgid "Start a conversation with %s to receive notifications."
+msgstr "També inicia una conversa amb %s per rebre notificacions"
 
 #: admin/class-wptelegram-admin-settings.php:546
 msgid ""
@@ -643,28 +1599,75 @@ msgstr ""
 "Inicia la conversa amb el teu bot, els bots no poden iniciar una conversa."
 
 #: admin/class-wptelegram-admin-settings.php:227
+#: modules/notify/class-wptelegram-notify-admin.php:130
+#: modules/p2tg/class-wptelegram-p2tg-admin.php:189
+#: modules/p2tg/class-wptelegram-p2tg-admin.php:756
 msgid "Structure of the message to be sent"
 msgstr "Estructura del missatge que s'ha d'enviar"
 
+#: includes/cmb2/includes/CMB2_JS.php:200
+msgid "Su, Mo, Tu, We, Th, Fr, Sa"
+msgstr ""
+
+#: admin/class-wptelegram-admin.php:97
 #: admin/partials/wptelegram-admin-display.php:188
 msgid "Success"
 msgstr "Satisfactori"
 
+#: includes/cmb2/includes/CMB2_JS.php:201
+msgid "Sun, Mon, Tue, Wed, Thu, Fri, Sat"
+msgstr ""
+
+#: includes/cmb2/includes/CMB2_JS.php:199
+msgid "Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday"
+msgstr ""
+
 #: admin/class-wptelegram-admin-settings.php:419
+#: modules/proxy/class-wptelegram-proxy-admin.php:135
 msgid "Target Port like %s"
 msgstr "Port de destinació semblant a %s"
 
+#: modules/p2tg/class-wptelegram-p2tg-admin.php:410
+#, fuzzy
+msgid "Taxonomy Terms"
+msgstr "Termes ampliats de la taxonomia"
+
+#: admin/class-wptelegram-admin.php:209
+msgid "Telegram Bot username (without %s)."
+msgstr ""
+
+#: modules/p2tg/class-wptelegram-p2tg-admin.php:115
+msgid "Telegram Channel Username or Chat ID. Username must start with %s."
+msgstr ""
+
+#: modules/notify/class-wptelegram-notify-admin.php:337
 #: public/partials/wptelegram-profile-fields.php:26
 msgid "Telegram Chat ID"
 msgstr "Chat ID de Telegram"
 
+#: modules/p2tg/class-wptelegram-p2tg-admin.php:108
+#, fuzzy
+msgid "Telegram Destination"
+msgstr "Destinació"
+
+#: modules/notify/class-wptelegram-notify-admin.php:330
 #: public/partials/wptelegram-profile-fields.php:21
 msgid "Telegram Info"
 msgstr "Informació sobre Telegram"
 
+#: admin/class-wptelegram-admin.php:184
+#, fuzzy
+msgid "Telegram Options"
+msgstr "Opcions de WP Telegram"
+
 #: admin/class-wptelegram-admin-settings.php:52
 msgid "Telegram Settings"
 msgstr "Ajustaments de Telegram"
+
+#: modules/notify/class-wptelegram-notify-admin.php:101
+#, fuzzy
+msgid "Telegram User or Group Chat ID."
+msgstr "Chat ID de Telegram"
 
 #: admin/class-wptelegram-admin-settings.php:321
 msgid "Telegram limits photo caption to 200 characters."
@@ -674,11 +1677,153 @@ msgstr "Telegram limita la llegenda de la foto a 200 caracters."
 msgid "Template"
 msgstr "Plantilla"
 
+#: includes/cmb2/example-functions.php:639
+#, fuzzy
+msgid "Term Image"
+msgstr "Terme buit"
+
+#: includes/cmb2/includes/CMB2_hookup.php:181
+msgid ""
+"Term Metadata is a WordPress 4.4+ feature. Please upgrade your WordPress "
+"install."
+msgstr ""
+
+#: includes/cmb2/includes/CMB2_hookup.php:185
+msgid "Term metaboxes configuration requires a \"taxonomies\" parameter."
+msgstr ""
+
+#: includes/cmb2/example-functions.php:377
+#, fuzzy
+msgid "Test Checkbox"
+msgstr "per provar"
+
+#: includes/cmb2/example-functions.php:258
+#, fuzzy
+msgid "Test Color Picker"
+msgstr "per provar"
+
+#: includes/cmb2/example-functions.php:216
+#, fuzzy
+msgid "Test Date Picker"
+msgstr "per provar"
+
+#: includes/cmb2/example-functions.php:224
+msgid "Test Date Picker (UNIX timestamp)"
+msgstr ""
+
+#: includes/cmb2/example-functions.php:232
+msgid "Test Date/Time Picker Combo (UNIX timestamp)"
+msgstr ""
+
+#: includes/cmb2/example-functions.php:408
+#, fuzzy
+msgid "Test Image"
+msgstr "per provar"
+
+#: includes/cmb2/example-functions.php:117
+#, fuzzy
+msgid "Test Metabox"
+msgstr "per provar"
+
+#: includes/cmb2/example-functions.php:249
+#, fuzzy
+msgid "Test Money"
+msgstr "diners"
+
+#: includes/cmb2/example-functions.php:384
+#, fuzzy
+msgid "Test Multi Checkbox"
+msgstr "Camps múltiples"
+
+#: includes/cmb2/example-functions.php:339
+#, fuzzy
+msgid "Test Radio"
+msgstr "Botó d'opció"
+
+#: includes/cmb2/example-functions.php:326
+#, fuzzy
+msgid "Test Radio inline"
+msgstr "Provar"
+
+#: admin/class-wptelegram-admin.php:483
+#, fuzzy
+msgid "Test Result:"
+msgstr "Resultat de la Prova:"
+
+#: includes/cmb2/example-functions.php:313
+#, fuzzy
+msgid "Test Select"
+msgstr "per provar"
+
 #: admin/class-wptelegram-admin-settings.php:514
+#: modules/notify/class-wptelegram-notify-admin.php:235
+#: modules/p2tg/class-wptelegram-p2tg-admin.php:492
+#: modules/proxy/class-wptelegram-proxy-admin.php:267
 msgid "Test Status"
 msgstr "Estat de la Prova"
 
+#: includes/cmb2/example-functions.php:368
+msgid "Test Taxonomy Multi Checkbox"
+msgstr ""
+
+#: includes/cmb2/example-functions.php:351
+#, fuzzy
+msgid "Test Taxonomy Radio"
+msgstr "Provar"
+
+#: includes/cmb2/example-functions.php:360
+#, fuzzy
+msgid "Test Taxonomy Select"
+msgstr "per provar"
+
+#: includes/cmb2/example-functions.php:130
+#: includes/cmb2/example-functions.php:470
+#, fuzzy
+msgid "Test Text"
+msgstr "per provar"
+
+#: includes/cmb2/example-functions.php:274
+#, fuzzy
+msgid "Test Text Area"
+msgstr "Una àrea de text per escriure un extracte personalitzat."
+
+#: includes/cmb2/example-functions.php:281
+#, fuzzy
+msgid "Test Text Area Small"
+msgstr "Àrea de text multilínia"
+
+#: includes/cmb2/example-functions.php:288
+#, fuzzy
+msgid "Test Text Area for Code"
+msgstr "Àrea de text multilínia"
+
+#: includes/cmb2/example-functions.php:193
+#, fuzzy
+msgid "Test Text Email"
+msgstr "En via correu electrònic de prova"
+
+#: includes/cmb2/example-functions.php:156
+#, fuzzy
+msgid "Test Text Medium"
+msgstr "Mitjana"
+
+#: includes/cmb2/example-functions.php:143
+#, fuzzy
+msgid "Test Text Small"
+msgstr "Provar"
+
+#: includes/cmb2/example-functions.php:201
+#, fuzzy
+msgid "Test Time"
+msgstr "per provar"
+
+#: includes/cmb2/example-functions.php:306
+#, fuzzy
+msgid "Test Title Weeeee"
+msgstr "per provar"
+
 #: admin/class-wptelegram-admin-settings.php:106
+#: admin/class-wptelegram-admin.php:193 admin/class-wptelegram-admin.php:211
 #: admin/partials/wptelegram-admin-display.php:73
 msgid "Test Token"
 msgstr "Prova el Token"
@@ -687,9 +1832,34 @@ msgstr "Prova el Token"
 msgid "Test result:"
 msgstr "Resultat de la Prova:"
 
+#: includes/cmb2/example-functions.php:398
+#, fuzzy
+msgid "Test wysiwyg"
+msgstr "WYSIWYG"
+
+#: admin/class-wptelegram-admin.php:460
+#, fuzzy
+msgid "Test your bot token below."
+msgstr "Copia el token i enganxa'l a sota al camp Bot Token."
+
+#: admin/class-wptelegram-admin.php:466
+msgid "That's it! :)"
+msgstr ""
+
 #: admin/class-wptelegram-admin-settings.php:480
 msgid "That's it. Happy WPTelegram :)"
 msgstr "Ja està. Gaudeix de WP Telegram :)"
+
+#: modules/p2tg/class-wptelegram-p2tg-admin.php:909
+#, fuzzy
+msgid "That's it. You are ready to rock :)"
+msgstr "Adaptació d'amplada mòbil i giny preparats."
+
+#: includes/cmb2/includes/CMB2_Base.php:422
+msgid ""
+"The \"%1$s\" field parameter has been deprecated in favor of the \"%2$s\" "
+"parameter."
+msgstr ""
 
 #: admin/class-wptelegram-admin-settings.php:209
 msgid ""
@@ -699,20 +1869,99 @@ msgstr ""
 "Els autors als quals no se'ls permet publicar, no veuran el botó ON/OFF a la "
 "pantalla d'edició de publicacions"
 
+#: modules/p2tg/class-wptelegram-p2tg-admin.php:371
+msgid "The delay starts after the post gets published."
+msgstr ""
+
+#: includes/cmb2/includes/rest-api/CMB2_REST_Controller.php:385
+#, fuzzy
+msgid "The id for the object."
+msgstr "L'ID per l'objecte."
+
+#: modules/proxy/class-wptelegram-proxy-admin.php:190
+msgid ""
+"The module will help you bypass the ban on Telegram by making use of proxy."
+msgstr ""
+
+#: modules/notify/class-wptelegram-notify-admin.php:173
+msgid ""
+"The module will watch the Email Notifications sent from this site and "
+"deliver them on your Telegram"
+msgstr ""
+
+#: modules/proxy/class-wptelegram-proxy-admin.php:111
+msgid "The requests to Telegram will be sent via your Google Script."
+msgstr ""
+
 #: admin/class-wptelegram-admin-settings.php:184
 msgid "The rule will apply to the selected categories/terms and their children"
 msgstr ""
 "La regla s'aplicarà a les categories seleccionades i a les seves sub-"
 "categories"
 
+#: includes/cmb2/includes/rest-api/CMB2_REST_Controller.php:392
+msgid "The title for the object."
+msgstr "El títol de l'objecte."
+
+#: includes/cmb2/example-functions.php:665
+msgid "Theme Options"
+msgstr "Opcions del tema"
+
+#: modules/p2tg/class-wptelegram-p2tg-admin.php:939
+#, fuzzy
+msgid "There was some error!"
+msgstr "Vaja... Estem rebent algun error. El correu no s'està enviant."
+
+#: modules/notify/class-wptelegram-notify-admin.php:116
+#, fuzzy
+msgid "They can also enter their Telegram Chat ID manually on %s page"
+msgstr ""
+"L'usuari pot escriure la informació de Telegram a la pàgina de %sprofile%s"
+
+#: includes/cmb2/includes/rest-api/CMB2_REST_Controller.php:257
+msgid "This box does not have read permissions."
+msgstr ""
+
+#: includes/cmb2/includes/rest-api/CMB2_REST_Controller.php:277
+msgid "This box does not have write permissions."
+msgstr ""
+
 #: admin/class-wptelegram-admin-settings.php:535
 msgid "This chat_id is used by the bots to send messages to a user or group."
 msgstr ""
 "Els bots utilitzen aquesta chat_id per enviar missatges a un usuari o grup."
 
+#: admin/class-wptelegram-admin.php:94
 #: admin/partials/wptelegram-admin-display.php:140
 msgid "This is a test message"
 msgstr "Aquest és un missatge de prova"
+
+#: includes/cmb2/example-functions.php:307
+#, fuzzy
+msgid "This is a title description"
+msgstr "Títol i descripció"
+
+#: includes/cmb2/includes/CMB2_JS.php:212
+msgid "Time"
+msgstr "Hora"
+
+#: includes/cmb2/example-functions.php:209
+#: includes/cmb2/example-functions.php:210
+#, fuzzy
+msgid "Time zone"
+msgstr "Fus horari"
+
+#: modules/notify/class-wptelegram-notify-admin.php:206
+#, fuzzy
+msgid "To receive notifications into a group:"
+msgstr ""
+"Si vols que un grup rebi notificacions, afegeix %s al grup i t'enviarà la ID "
+"del grup."
+
+#: modules/notify/class-wptelegram-notify-admin.php:200
+#, fuzzy
+msgid "To receive notifications privately:"
+msgstr "Voleu rebre notificacions dels vostres articles?"
 
 #: admin/class-wptelegram-admin-settings.php:464
 msgid ""
@@ -722,13 +1971,83 @@ msgstr ""
 "Per enviar missatges a un Canal, grup, supergrup o conversa privada de "
 "Telegram, segueix els passos descrits a sota."
 
+#: includes/cmb2/includes/rest-api/CMB2_REST_Controller_Fields.php:33
+#: includes/cmb2/includes/rest-api/CMB2_REST_Controller_Fields.php:36
+msgid ""
+"To view or modify the field's value, the 'object_id' and 'object_type' "
+"arguments are required."
+msgstr ""
+
+#: includes/cmb2/includes/CMB2_JS.php:206
+msgid "Today"
+msgstr "Avui"
+
+#: includes/cmb2/includes/CMB2_hookup.php:458
+msgid "Toggle panel: %s"
+msgstr "Canvia el panell: %s"
+
+#: admin/class-wptelegram-admin.php:274
+msgid "Turn off to upload the files/images instead of passing the url."
+msgstr ""
+
+#: includes/cmb2/example-functions.php:583
+#, fuzzy
+msgid "Twitter URL"
+msgstr "Twitter:"
+
 #: admin/class-wptelegram-admin-settings.php:154
 msgid "Updating an existing post"
 msgstr "Actualitzant un missatge existent"
 
+#: includes/cmb2/example-functions.php:409
+#, fuzzy
+msgid "Upload an image or enter a URL."
+msgstr "Introdueix URL de la imatge"
+
+#: includes/cmb2/example-functions.php:416
+msgid "Upload or add multiple images/attachments."
+msgstr ""
+
+#: modules/notify/class-wptelegram-notify-admin.php:116
+msgid "Use %s to let them connect their Telegram account."
+msgstr ""
+
+#: admin/class-wptelegram-admin.php:211
+#, fuzzy
+msgid "Use %s to set automatically."
+msgstr "Els fitxers al directori %s s'executen automàticament."
+
+#: modules/proxy/class-wptelegram-proxy-admin.php:202
+#, fuzzy
+msgid "Use the proxy at your own risk!"
+msgstr "Utilitzeu el servidor intermediari sota la vostra responsabilitat."
+
+#: includes/cmb2/includes/CMB2_JS.php:225
+#, fuzzy
+msgid "Use these files"
+msgstr "Utilitzeu"
+
+#: includes/cmb2/includes/CMB2_JS.php:224
+#, fuzzy
+msgid "Use this file"
+msgstr ""
+"Si, tot i així, decidiu tirar pel dret i editar directament els arxius "
+"originals, abans feu-ne una còpia amb un nom diferent. Així, podeu tornar a "
+"la versió funcional en qualsevol moment, si alguna cosa no va bé."
+
 #: admin/class-wptelegram-admin-settings.php:303
 msgid "Useful if you want everything in one message."
 msgstr "Útil si ho vols tot en un únic missatge."
+
+#: includes/cmb2/example-functions.php:604
+#, fuzzy
+msgid "User Field"
+msgstr "Feu clic per activar un camp Grup d'usuari"
+
+#: includes/cmb2/example-functions.php:554
+#, fuzzy
+msgid "User Profile Metabox"
+msgstr "Afegeix camps al perfil d'usuari"
 
 #: admin/class-wptelegram-admin-settings.php:385
 msgid "User can enter the Telegram information on %sprofile%s page"
@@ -736,37 +2055,51 @@ msgstr ""
 "L'usuari pot escriure la informació de Telegram a la pàgina de %sprofile%s"
 
 #: admin/class-wptelegram-admin-settings.php:439
+#: modules/proxy/class-wptelegram-proxy-admin.php:155
 msgid "Username"
 msgstr "Nom d'usuari"
 
+#: admin/class-wptelegram-admin.php:90
+#, fuzzy
+msgid "Username is empty"
+msgstr "El nom d'usuari està buit"
+
 #: admin/class-wptelegram-admin-settings.php:475
+#: modules/p2tg/class-wptelegram-p2tg-admin.php:905
 msgid "Username must start with %s"
 msgstr "El nom d'usuari ha de començar amb %s"
+
+#: includes/cmb2/includes/CMB2_Base.php:426
+msgid ""
+"Using the \"%1$s\" field parameter as a callback has been deprecated in "
+"favor of the \"%2$s\" parameter."
+msgstr ""
 
 #: admin/class-wptelegram-admin-settings.php:370
 msgid "Usually it should be the admin email"
 msgstr "Habitualment hauria de ser l'e-mail de l'administrador"
 
-#. #-#-#-#-#  wordpress-telegram.pot (WP Telegram 1.8.0)  #-#-#-#-#
+#: includes/cmb2/includes/rest-api/CMB2_REST_Controller_Fields.php:415
+#, fuzzy
+msgid "Value Error for %s"
+msgstr "Valor"
+
+#: modules/p2tg/class-wptelegram-p2tg-admin.php:299
+msgid "View Post"
+msgstr "Mostra l'article"
+
 #. Plugin Name of the plugin/theme
-#: admin/class-wptelegram-admin.php:216
 #: admin/partials/wptelegram-admin-header.php:11
-#: admin/partials/wptelegram-admin-header.php:52
-#: includes/class-wptelegram.php:79
+#: admin/partials/wptelegram-admin-header.php:51
+#: includes/class-wptelegram.php:145
+#: modules/p2tg/class-wptelegram-p2tg-admin.php:939
 msgid "WP Telegram"
 msgstr "WP Telegram"
 
-#: admin/class-wptelegram-admin.php:314
-msgid "WP Telegram Options"
-msgstr "Opcions de WP Telegram"
-
-#: admin/class-wptelegram-admin.php:215 admin/class-wptelegram-admin.php:225
-msgid "WP Telegram Settings"
-msgstr "Ajustaments de WP Telegram"
-
-#: admin/class-wptelegram-admin.php:356
-msgid "WP Telegram failed to communicate."
-msgstr "S'ha produït un error de comunicació amb WP Telegram."
+#: modules/p2tg/class-wptelegram-p2tg-admin.php:685
+#, fuzzy
+msgid "WP Telegram P2TG"
+msgstr "WP Telegram"
 
 #: admin/class-wptelegram-admin-settings.php:370
 msgid ""
@@ -780,13 +2113,30 @@ msgstr ""
 "l'enviarà a tu per Telegram. No depèn de sí l'e-mail s'acaba enviant "
 "satisfactòriament o no."
 
+#: includes/cmb2/example-functions.php:184
+#, fuzzy
+msgid "Website URL"
+msgstr "Pàgina web:"
+
 #: admin/class-wptelegram-admin-settings.php:215
+#: modules/p2tg/class-wptelegram-p2tg-admin.php:319
 msgid "When editing a post"
 msgstr "Quan s'editi un missatge"
 
 #: admin/class-wptelegram-admin-settings.php:153
 msgid "When publishing a new post"
 msgstr "Quan es faci una nova publicació"
+
+#: includes/cmb2/includes/rest-api/CMB2_REST_Controller_Fields.php:30
+msgid ""
+"When the '_rendered' argument is passed, the renderable field attributes "
+"will be returned fully rendered. By default, the names of the callback "
+"handers for the renderable attributes will be returned."
+msgstr ""
+
+#: modules/p2tg/class-wptelegram-p2tg-admin.php:144
+msgid "When the post should be sent to Telegram"
+msgstr ""
 
 #: admin/class-wptelegram-admin-settings.php:147
 msgid "When to send?"
@@ -796,9 +2146,35 @@ msgstr "Quan enviar?"
 msgid "Which post type(s) to send?"
 msgstr "Quins tipus de missatges d'han d'enviar?"
 
+#: modules/p2tg/class-wptelegram-p2tg-admin.php:160
+#, fuzzy
+msgid "Which post types should be sent."
+msgstr "Tria el que Correus Tipus aquesta taxonomia ha d'estar associat amb."
+
+#: includes/cmb2/example-functions.php:783
+msgid "Will show in REST API \"editable\" contexts only (`POST` requests)."
+msgstr ""
+
+#: includes/cmb2/example-functions.php:776
+msgid "Will show in the REST API for this box and for pages."
+msgstr ""
+
 #: admin/class-wptelegram-admin-settings.php:312
 msgid "With Caption"
 msgstr "Amb Llegenda"
+
+#: modules/p2tg/class-wptelegram-p2tg-admin.php:888
+#, fuzzy
+msgid "With this module, you can configure how the posts are sent to Telegram"
+msgstr ""
+"En aquesta secció pots canviar la forma en què s'envien els missatges a "
+"Telegram"
+
+#: admin/class-wptelegram-admin.php:442
+msgid ""
+"With this plugin, you can send posts to Telegram and receive notifications "
+"and do lot more :)"
+msgstr ""
 
 #: admin/class-wptelegram-admin-settings.php:313
 msgid "Without Caption"
@@ -807,6 +2183,26 @@ msgstr "Sense Llegenda"
 #: admin/class-wptelegram-admin-settings.php:58
 msgid "WordPress Settings"
 msgstr "Ajustaments de WordPress"
+
+#: modules/p2tg/class-wptelegram-p2tg-admin.php:368
+msgid "WordPress cron should not be disabled!"
+msgstr ""
+
+#: includes/cmb2/example-functions.php:523
+#, fuzzy
+msgid "Write a short description for this entry"
+msgstr "Descripció breu"
+
+#: modules/p2tg/class-wptelegram-p2tg-admin.php:700
+msgid "Yes"
+msgstr "Sí"
+
+#: modules/p2tg/class-wptelegram-p2tg-admin.php:906
+#, fuzzy
+msgid "You can also use the Chat ID of a group or private chat."
+msgstr ""
+"També pots usar la Chat ID d'una conversa privada amb el Bot, comprova-ho "
+"als Ajustaments de Notificacions"
 
 #: admin/class-wptelegram-admin-settings.php:476
 msgid ""
@@ -825,20 +2221,29 @@ msgstr ""
 "sol·licituds s'enviaran a través del vostre Google Script. Vegeu aquest "
 "tutorial"
 
+#: modules/notify/class-wptelegram-notify-admin.php:331
 #: public/partials/wptelegram-profile-fields.php:22
 msgid "You can receive your email notifications on Telegram from %s"
 msgstr "Pots rebre les teves notificacions per e-mail a Telegram de %s"
 
 #: admin/class-wptelegram-admin-settings.php:649
+#: modules/notify/class-wptelegram-notify-admin.php:263
+#: modules/p2tg/class-wptelegram-p2tg-admin.php:382
+#: modules/proxy/class-wptelegram-proxy-admin.php:295
 msgid "You can use any text, emojis or these macros in any order:"
 msgstr "Pots usar qualsevol text, emojis o aquests macros en qualsevol ordre:"
 
 #: admin/class-wptelegram-admin-settings.php:216
+#: modules/p2tg/class-wptelegram-p2tg-admin.php:321
 msgid ""
 "You can use this switch to override the above settings for a particular post"
 msgstr ""
 "Pots usar aquest botó per sobreeescriure els ajustaments anteriors per una "
 "publicació concreta"
+
+#: includes/class-wptelegram-helpers.php:105
+msgid "You must set the Bot Token first."
+msgstr ""
 
 #: includes/wptelegram-functions.php:178
 msgid "Your host seems to block requests to %s"
@@ -851,6 +2256,54 @@ msgstr "El teu servidor sembla que està bloquejant peticions a %s"
 msgid "e.g."
 msgstr "e.g."
 
+#: includes/cmb2/example-functions.php:131
+#: includes/cmb2/example-functions.php:144
+#: includes/cmb2/example-functions.php:157
+#: includes/cmb2/example-functions.php:164
+#: includes/cmb2/example-functions.php:177
+#: includes/cmb2/example-functions.php:185
+#: includes/cmb2/example-functions.php:194
+#: includes/cmb2/example-functions.php:202
+#: includes/cmb2/example-functions.php:217
+#: includes/cmb2/example-functions.php:225
+#: includes/cmb2/example-functions.php:233
+#: includes/cmb2/example-functions.php:250
+#: includes/cmb2/example-functions.php:259
+#: includes/cmb2/example-functions.php:275
+#: includes/cmb2/example-functions.php:282
+#: includes/cmb2/example-functions.php:289
+#: includes/cmb2/example-functions.php:314
+#: includes/cmb2/example-functions.php:327
+#: includes/cmb2/example-functions.php:340
+#: includes/cmb2/example-functions.php:352
+#: includes/cmb2/example-functions.php:361
+#: includes/cmb2/example-functions.php:369
+#: includes/cmb2/example-functions.php:378
+#: includes/cmb2/example-functions.php:385
+#: includes/cmb2/example-functions.php:399
+#: includes/cmb2/example-functions.php:471
+#: includes/cmb2/example-functions.php:562
+#: includes/cmb2/example-functions.php:570
+#: includes/cmb2/example-functions.php:577
+#: includes/cmb2/example-functions.php:584
+#: includes/cmb2/example-functions.php:591
+#: includes/cmb2/example-functions.php:598
+#: includes/cmb2/example-functions.php:605
+#: includes/cmb2/example-functions.php:632
+#: includes/cmb2/example-functions.php:640
+#: includes/cmb2/example-functions.php:647
+#: includes/cmb2/example-functions.php:696
+#, fuzzy
+msgid "field description (optional)"
+msgstr "Camp de descripció del node"
+
+#: includes/cmb2/includes/CMB2_JS.php:218
+msgctxt ""
+"Valid formatting string, as per http://trentrichardson.com/examples/"
+"timepicker/"
+msgid "hh:mm TT"
+msgstr ""
+
 #. Plugin URI of the plugin/theme
 msgid "https://t.me/WPTelegram"
 msgstr "https://t.me/WPTelegram"
@@ -859,10 +2312,38 @@ msgstr "https://t.me/WPTelegram"
 msgid "https://t.me/manzoorwanijk"
 msgstr "https://t.me/manzoorwanijk"
 
+#: modules/p2tg/class-wptelegram-p2tg-rules.php:201
+msgid "is in"
+msgstr ""
+
+#: modules/p2tg/class-wptelegram-p2tg-rules.php:202
+#, fuzzy
+msgid "is not in"
+msgstr "No enviïs"
+
+#: includes/cmb2/includes/CMB2_JS.php:198
+msgctxt "Valid formatDate string for jquery-ui datepicker"
+msgid "mm/dd/yy"
+msgstr ""
+
+#: includes/cmb2/example-functions.php:423
+msgid "oEmbed"
+msgstr "Paràmetres d'incrustació"
+
 #: admin/class-wptelegram-admin-settings.php:335
 msgid "of the link in text"
 msgstr "de l'enllaç en el text"
 
+#: modules/notify/class-wptelegram-notify-admin.php:116
+#, fuzzy
+msgid "profile"
+msgstr "Perfil"
+
 #: admin/class-wptelegram-admin-settings.php:303
 msgid "should not be checked"
 msgstr "no s'hauria de comprovar"
+
+#: modules/notify/class-wptelegram-notify-admin.php:388
+#, fuzzy
+msgid "via %s"
+msgstr "Publicació per correu electrònic"

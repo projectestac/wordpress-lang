@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Themes - Twenty Sixteen\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/twentysixteen\n"
-"POT-Creation-Date: 2018-10-10 07:17:47+00:00\n"
+"POT-Creation-Date: 2019-04-05 07:48:23+00:00\n"
 "PO-Revision-Date: 2015-12-06 15:15:19+0000\n"
 "Language: eu_ES\n"
 "MIME-Version: 1.0\n"
@@ -21,12 +21,12 @@ msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
 msgstr[0] "Erantzun bat &ldquo;%2$s&rdquo; sarreran"
 msgstr[1] "%1$s erantzun &ldquo;%2$s&rdquo; sarreran"
 
-#: inc/template-tags.php:95 inc/template-tags.php:103
+#: inc/template-tags.php:99 inc/template-tags.php:108
 msgctxt "Used between list items, there is a space after the comma."
 msgid ", "
 msgstr ", "
 
-#: image.php:102 single.php:29
+#: image.php:107 single.php:31
 msgctxt "Parent post link"
 msgid ""
 "<span class=\"meta-nav\">Published in</span><span class=\"post-title\">"
@@ -35,15 +35,15 @@ msgstr ""
 "<span class=\"meta-nav\">Argitaratze-lekua</span><span class=\"post-title\">"
 "%title</span>"
 
-#: functions.php:158
+#: functions.php:267
 msgid "Add widgets here to appear in your sidebar."
 msgstr "Gehitu hemen aldameneko barran agertuko diren widgetak"
 
-#: functions.php:168 functions.php:178
+#: functions.php:279 functions.php:291
 msgid "Appears at the bottom of the content on posts and pages."
 msgstr "Bidalketa eta orrialdeetan, edukiaren azpian agertzen da"
 
-#: inc/template-tags.php:25
+#: inc/template-tags.php:26
 msgctxt "Used before post author name."
 msgid "Author"
 msgstr "Egilea"
@@ -52,44 +52,68 @@ msgstr "Egilea"
 msgid "Author:"
 msgstr "Egilea:"
 
-#: inc/customizer.php:130
+#: inc/customizer.php:153
 msgid "Base Color Scheme"
 msgstr "Oinarrizko kolore-eskema"
 
-#: inc/template-tags.php:98
+#: functions.php:172
+msgid "Blue Gray"
+msgstr ""
+
+#: functions.php:177
+msgid "Bright Blue"
+msgstr ""
+
+#: functions.php:202
+msgid "Bright Red"
+msgstr ""
+
+#: inc/template-tags.php:103
 msgctxt "Used before category names."
 msgid "Categories"
 msgstr "Kategoriak"
 
-#: comments.php:69
+#: comments.php:71
 msgid "Comments are closed."
 msgstr "Iruzkinak itxiak daude."
 
-#: functions.php:166
+#: functions.php:277
 msgid "Content Bottom 1"
 msgstr "Edukiaren azpian 1"
 
-#: functions.php:176
+#: functions.php:289
 msgid "Content Bottom 2"
 msgstr "Edukiaren azpian 2"
 
 #. translators: %s: Name of current post
-#: inc/template-tags.php:184 template-parts/content.php:28
+#: inc/template-tags.php:194 template-parts/content.php:29
 msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
 msgstr "<span class=\"screen-reader-text\">\"%s\"</span> irakurtzen jarraitu"
 
-#: inc/customizer.php:263
+#: inc/customizer.php:325
 msgid "Dark"
 msgstr "Iluna"
 
-#: inc/customizer.php:253
+#: functions.php:187
+msgid "Dark Brown"
+msgstr ""
+
+#: functions.php:152
+msgid "Dark Gray"
+msgstr ""
+
+#: functions.php:197
+msgid "Dark Red"
+msgstr ""
+
+#: inc/customizer.php:315
 msgid "Default"
 msgstr "Defektuzkoa"
 
 #. translators: %s: Name of current post
-#: image.php:84 template-parts/content-page.php:37
+#: image.php:88 template-parts/content-page.php:39
 #: template-parts/content-search.php:28 template-parts/content-search.php:43
-#: template-parts/content-single.php:45 template-parts/content.php:49
+#: template-parts/content-single.php:47 template-parts/content.php:53
 msgid "Edit<span class=\"screen-reader-text\"> \"%s\"</span>"
 msgstr "<span class=\"screen-reader-text\"> \"%s\"</span> editatu"
 
@@ -101,21 +125,21 @@ msgstr "Destakatuta"
 msgid "Footer Primary Menu"
 msgstr "Oineko menu nagusia"
 
-#: footer.php:28
+#: footer.php:30
 msgid "Footer Social Links Menu"
 msgstr "Oineko esteka sozialak"
 
-#: inc/template-tags.php:38
+#: inc/template-tags.php:40
 msgctxt "Used before post format."
 msgid "Format"
 msgstr "Formatua"
 
-#: image.php:73
+#: image.php:77
 msgctxt "Used before full size attachment link."
 msgid "Full size"
 msgstr "Tamaina osoa"
 
-#: inc/customizer.php:273
+#: inc/customizer.php:335
 msgid "Gray"
 msgstr "Grisa"
 
@@ -131,35 +155,51 @@ msgstr ""
 "Badirudi ezin izan dugula bila zabiltzana aurkitu. Erabil ezazu bilaketa "
 "mesedez."
 
-#: inc/template-tags.php:50
+#: inc/template-tags.php:52
 msgid "Leave a comment<span class=\"screen-reader-text\"> on %s</span>"
 msgstr "Utzi iruzkina <span class=\"screen-reader-text\">%s</span> bidalketan"
 
-#: inc/customizer.php:160
+#: functions.php:182
+msgid "Light Blue"
+msgstr ""
+
+#: functions.php:162
+msgid "Light Gray"
+msgstr ""
+
+#: inc/customizer.php:200
 msgid "Link Color"
 msgstr "Loturen kolorea"
 
-#: inc/customizer.php:172
+#: inc/customizer.php:221
 msgid "Main Text Color"
 msgstr "Testu nagusiaren kolorea"
 
-#: header.php:47
+#: functions.php:192
+msgid "Medium Brown"
+msgstr ""
+
+#: functions.php:157
+msgid "Medium Gray"
+msgstr ""
+
+#: header.php:49
 msgid "Menu"
 msgstr "Menua"
 
-#: single.php:34
+#: single.php:38
 msgid "Next"
 msgstr "Hurrengoa"
 
-#: image.php:25
+#: image.php:26
 msgid "Next Image"
 msgstr "Hurrengo irudia"
 
-#: archive.php:50 index.php:47 search.php:38
+#: archive.php:52 index.php:49 search.php:40
 msgid "Next page"
 msgstr "Hurrengo orrialdea"
 
-#: single.php:35
+#: single.php:39
 msgid "Next post:"
 msgstr "Hurrengo sarrera:"
 
@@ -177,47 +217,47 @@ msgstr "Erantzun bat &ldquo;%s&rdquo; sarreran"
 msgid "Oops! That page can&rsquo;t be found."
 msgstr "Oops! Orri hori ezin dugu aurkitu"
 
-#: archive.php:51 image.php:60 index.php:48 search.php:39
-#: template-parts/content-page.php:27 template-parts/content-single.php:29
-#: template-parts/content.php:37
+#: archive.php:53 image.php:62 index.php:50 search.php:41
+#: template-parts/content-page.php:28 template-parts/content-single.php:30
+#: template-parts/content.php:40
 msgid "Page"
 msgstr "Orrialdea"
 
-#: inc/customizer.php:145
+#: inc/customizer.php:176
 msgid "Page Background Color"
 msgstr "Atzeko planoko kolorea"
 
-#: image.php:56 template-parts/content-page.php:23
-#: template-parts/content-single.php:25 template-parts/content.php:33
+#: image.php:58 template-parts/content-page.php:24
+#: template-parts/content-single.php:26 template-parts/content.php:36
 msgid "Pages:"
 msgstr "Orrialdeak:"
 
-#: inc/template-tags.php:79
+#: inc/template-tags.php:83
 msgctxt "Used before publish date."
 msgid "Posted on"
 msgstr "Argitaratze-data"
 
-#: single.php:37
+#: single.php:41
 msgid "Previous"
 msgstr "Aurrekoa"
 
-#: image.php:24
+#: image.php:25
 msgid "Previous Image"
 msgstr "Aurreko irudia"
 
-#: archive.php:49 index.php:46 search.php:37
+#: archive.php:51 index.php:48 search.php:39
 msgid "Previous page"
 msgstr "Aurreko orrialdea"
 
-#: single.php:38
+#: single.php:42
 msgid "Previous post:"
 msgstr "Aurreko sarrera:"
 
-#: functions.php:88 header.php:51
+#: functions.php:92 header.php:53
 msgid "Primary Menu"
 msgstr "Lehen mailako menua"
 
-#: footer.php:51
+#: footer.php:61
 msgid "Proudly powered by %s"
 msgstr "%srekin eginda"
 
@@ -227,7 +267,7 @@ msgid ""
 msgstr ""
 "Lehenengo bidalketa argitaratzeko prest? <a href=\"%1$s\">Hemen hasi</a>."
 
-#: inc/customizer.php:283
+#: inc/customizer.php:345
 msgid "Red"
 msgstr "Gorria"
 
@@ -250,11 +290,11 @@ msgctxt "label"
 msgid "Search for:"
 msgstr "Bilatu beharrekoa:"
 
-#: inc/customizer.php:184
+#: inc/customizer.php:242
 msgid "Secondary Text Color"
 msgstr "Bigarren mailako testuaren kolorea"
 
-#: functions.php:156
+#: functions.php:265
 msgid "Sidebar"
 msgstr "Albo-barra"
 
@@ -262,7 +302,7 @@ msgstr "Albo-barra"
 msgid "Skip to content"
 msgstr "Edukira joan"
 
-#: functions.php:89 header.php:62
+#: functions.php:93 header.php:66
 msgid "Social Links Menu"
 msgstr "Lotura sozialen menua"
 
@@ -272,7 +312,7 @@ msgid ""
 "different keywords."
 msgstr "Barkatu, ez dago emaitzik. Saiatu beste gauza bat bilatzen."
 
-#: inc/template-tags.php:106
+#: inc/template-tags.php:112
 msgctxt "Used before tag names."
 msgid "Tags"
 msgstr "Etiketak"
@@ -297,7 +337,7 @@ msgstr ""
 "xehetasun guztiak pentstatuta dator. Twenty Sixteenekin zure WordPressa "
 "ederto ikusiko da edonon."
 
-#: inc/back-compat.php:41 inc/back-compat.php:53 inc/back-compat.php:68
+#: inc/back-compat.php:41 inc/back-compat.php:54 inc/back-compat.php:72
 msgid ""
 "Twenty Sixteen requires at least WordPress version 4.4. You are running "
 "version %s. Please upgrade and try again."
@@ -309,21 +349,25 @@ msgstr ""
 msgid "View all posts by %s"
 msgstr " %s(r)en bidalketa guztiak ikusi"
 
-#: inc/customizer.php:293
+#: functions.php:167
+msgid "White"
+msgstr ""
+
+#: functions.php:207 inc/customizer.php:355
 msgid "Yellow"
 msgstr "Horia"
 
-#: functions.php:285
+#: functions.php:408
 msgid "collapse child menu"
 msgstr "Haurren menua itxi"
 
-#: functions.php:284
+#: functions.php:407
 msgid "expand child menu"
 msgstr "Haurren menua zabaldu"
 
-#. #-#-#-#-#  twentysixteen.pot (Twenty Sixteen 1.4)  #-#-#-#-#
+#. #-#-#-#-#  twentysixteen.pot (Twenty Sixteen 1.9)  #-#-#-#-#
 #. Author URI of the plugin/theme
-#: footer.php:51
+#: footer.php:60
 msgid "https://wordpress.org/"
 msgstr "https://wordpress.org/"
 
@@ -334,7 +378,7 @@ msgstr "https://wordpress.org/themes/twentysixteen/"
 #. translators: If there are characters in your language that are not supported
 #. by Inconsolata, translate this to 'off'. Do not translate into your own
 #. language.
-#: functions.php:213
+#: functions.php:327
 msgctxt "Inconsolata font: on or off"
 msgid "on"
 msgstr "on"
@@ -342,7 +386,7 @@ msgstr "on"
 #. translators: If there are characters in your language that are not supported
 #. by Merriweather, translate this to 'off'. Do not translate into your own
 #. language.
-#: functions.php:203
+#: functions.php:317
 msgctxt "Merriweather font: on or off"
 msgid "on"
 msgstr "on"
@@ -350,7 +394,7 @@ msgstr "on"
 #. translators: If there are characters in your language that are not supported
 #. by Montserrat, translate this to 'off'. Do not translate into your own
 #. language.
-#: functions.php:208
+#: functions.php:322
 msgctxt "Montserrat font: on or off"
 msgid "on"
 msgstr "on"

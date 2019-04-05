@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Plugins - TinyMCE Advanced - Stable (latest release)\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/tinymce-advanced\n"
-"POT-Creation-Date: 2018-10-10 07:17:47+00:00\n"
-"PO-Revision-Date: 2018-07-16 13:03+0200\n"
+"POT-Creation-Date: 2019-04-05 07:48:22+00:00\n"
+"PO-Revision-Date: 2019-04-05 11:26+0200\n"
 "Last-Translator: Joan Sala Soler <jsala236@xtec.cat>\n"
 "Language-Team: \n"
 "Language: ca\n"
@@ -13,73 +13,119 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Poedit 2.0.7\n"
+"X-Generator: Poedit 2.0.6\n"
 
-#: tadv_admin.php:375
+#: tadv_admin.php:166
+#, fuzzy
+msgid "(shown above the block)"
+msgstr "S'ha publicat el bloc."
+
+#: tadv_admin.php:215
+#, fuzzy
+msgid "(shown in the sidebar)"
+msgstr "Barra lateral"
+
+#: tadv_admin.php:797
 msgid "A stylesheet file named editor-style.css was not added by your theme."
 msgstr ""
 "El full d'estils anomenat editor-style.css no s'ha afegit pel vostre tema."
 
-#: tadv_admin.php:408
+#: tadv_admin.php:718
+msgid "Add &#8220;Classic Paragraph&#8221; Block."
+msgstr ""
+
+#: tadv_admin.php:828
 msgid "Administration"
 msgstr "Administració"
 
-#: tadv_admin.php:341
+#: tadv_admin.php:704
 msgid "Advanced Options"
 msgstr "Opcions avançades"
 
-#: tadv_admin.php:325
+#: tadv_admin.php:722
+msgid ""
+"Also, like the Classic Block, most existing TinyMCE plugins and add-ons will "
+"continue to work."
+msgstr ""
+
+#: tadv_admin.php:689
 msgid "Alternative link dialog"
 msgstr "Diàleg d'enllaç alternatiu"
+
+#: tadv_admin.php:214
+#, fuzzy
+msgid "Alternative side toolbar"
+msgstr "Menú lateral"
 
 #. Author of the plugin/theme
 msgid "Andrew Ozz"
 msgstr "Andrew Ozz"
 
-#: tadv_admin.php:65 tadv_admin.php:91
+#: tadv_admin.php:668
+msgid ""
+"Append all buttons to the top toolbar in the Classic Paragraph and Classic "
+"blocks."
+msgstr ""
+
+#: tadv_admin.php:62 tadv_admin.php:88
 msgid "Back to Editor Settings"
 msgstr "Torna a la configuració de l'editor"
 
-#: tadv_admin.php:318
+#: tadv_admin.php:145
+#, fuzzy
+msgid "Block Editor (Gutenberg)"
+msgstr "Bloc"
+
+#: tadv_admin.php:709
+msgid "Brings the best of both editors together."
+msgstr ""
+
+#: tadv_admin.php:150
+#, fuzzy
+msgid "Classic Editor (TinyMCE)"
+msgstr "Instal·la el Classic Editor"
+
+#: tinymce-advanced.php:786
+#, fuzzy
+msgid "Classic Paragraph"
+msgstr "Paràgraf"
+
+#: tadv_admin.php:683
 msgid "Context Menu"
 msgstr "Menú contextual"
 
-#: tadv_admin.php:359
+#: tadv_admin.php:787
 msgid "Create CSS classes menu"
 msgstr "Crea un menú de classes CSS"
 
-#: tadv_admin.php:40
+#: tadv_admin.php:172
+msgid "Current limitations for the Block Editor toolbar:"
+msgstr ""
+
+#: tadv_admin.php:37
 msgid "Default settings restored."
 msgstr "S'ha restaurat la configuració per defecte."
 
-#: tadv_admin.php:263
-msgid ""
-"Drag buttons from the unused buttons below and drop them in the toolbars "
-"above, or drag the buttons in the toolbars to rearrange them."
+#: tadv_admin.php:796
+#, fuzzy
+msgid "Disabled:"
+msgstr "Deshabilitat"
+
+#: tadv_admin.php:440 tadv_admin.php:608
+msgid "Drop buttons in the toolbars, or drag the buttons to rearrange them."
 msgstr ""
-"Arrossegueu els botons no utilitzats i deixeu-los caure sobre les barres "
-"d'eines de dalt, o arrossegueu els botons de les barres d'eines, per "
-"reorganitzar-los."
 
-#: tadv_admin.php:368 tadv_admin.php:374
-msgid "ERROR:"
-msgstr "ERROR:"
-
-#: tadv_admin.php:117
+#: tadv_admin.php:110
 msgid "ERROR: All toolbars are empty. Default settings loaded."
 msgstr ""
 "ERROR: Totes les barres d'eines estan buides. S'ha carregat la configuració "
 "per defecte."
 
-#: tadv_admin.php:128
+#: tadv_admin.php:121
 msgid "Editor Settings"
 msgstr "Configuració de l'editor"
 
-#: tadv_admin.php:428
-msgid "Editors on the front end of the site"
-msgstr "Editors a la part visible del lloc"
-
-#: tadv_admin.php:313
+#: tadv_admin.php:677
 msgid ""
 "Enable more list options: upper or lower case letters for ordered lists, "
 "disk or square for unordered lists, etc."
@@ -87,15 +133,29 @@ msgstr ""
 "Habilita més opcions de llista: lletres majúscules o minúscules per a "
 "llistes ordenades, disc o quadrat per a llistes desordenades, etc."
 
-#: tadv_admin.php:398
+#: tadv_admin.php:807
 msgid "Enable pasting of image source"
 msgstr "Habilita l'enganxament d'un recurs d'imatge"
 
-#: tadv_admin.php:417
-msgid "Enable the editor enhancements for:"
+#: tadv_admin.php:301
+msgid "Enable setting of selected text background color"
+msgstr ""
+
+#: tadv_admin.php:288
+msgid "Enable setting of selected text color"
+msgstr ""
+
+#: tadv_admin.php:837
+#, fuzzy
+msgid "Enable the TinyMCE editor enhancements for:"
 msgstr "Habilita les millores de l'editor per:"
 
-#: tadv_admin.php:151
+#: tadv_admin.php:330
+#, fuzzy
+msgid "Enable the editor menu (recommended)."
+msgstr "Activa el menú de l'editor."
+
+#: tadv_admin.php:494
 msgid "Enable the editor menu."
 msgstr "Activa el menú de l'editor."
 
@@ -107,15 +167,37 @@ msgstr ""
 "Permet funcions avançades i extensions a l'editor visual del TinyMCE a "
 "WordPress."
 
-#: tadv_admin.php:412
+#: tadv_admin.php:832
 msgid "Export Settings"
 msgstr "Exporta la configuració"
 
-#: tadv_admin.php:332
+#: tadv_admin.php:695
 msgid "Font sizes"
 msgstr "Mides de la font"
 
-#: tadv_admin.php:392
+#: tadv_admin.php:324
+msgid "For best results enable the menu and add only essential buttons."
+msgstr ""
+
+#: tadv_admin.php:818
+msgid ""
+"For other advanced TinyMCE settings, including settings for the Classic "
+"Block in the Block Editor, you can use the %1$sAdvanced TinyMCE "
+"Configuration plugin%2$s."
+msgstr ""
+
+#: tinymce-advanced.php:788
+msgid ""
+"For use instead of the Paragraph Block. Supports transforming to and from "
+"multiple Paragraph blocks, Image, Table, List, Quote, Custom HTML, and most "
+"other blocks."
+msgstr ""
+
+#: tadv_admin.php:219 tinymce-advanced.php:817
+msgid "Formatting"
+msgstr "Format"
+
+#: tadv_admin.php:766
 msgid ""
 "However it may behave unexpectedly in rare cases, so test it thoroughly "
 "before enabling it permanently."
@@ -123,19 +205,49 @@ msgstr ""
 "Però, pot comportar problemes inesperats en alguns casos, per tant, cal "
 "provar-ho a fons abans d'habilitar-lo de forma permanent."
 
-#: tadv_admin.php:86
+#: tadv_admin.php:707
+#, fuzzy
+msgid "Hybrid Block Editor Mode"
+msgstr "Aquesta caixa meta no és compatible amb l'editor de blocs."
+
+#: tadv_admin.php:747
+msgid ""
+"If you prefer to use both editors side by side, do not enable this option. "
+"It is better to install the %1$sClassic Editor plugin%2$s."
+msgstr ""
+
+#: tadv_admin.php:83
 msgid "Import"
 msgstr "Importa"
 
-#: tadv_admin.php:413
+#: tadv_admin.php:833
 msgid "Import Settings"
 msgstr "Importa la configuració"
 
-#: tadv_admin.php:104
+#: tadv_admin.php:101
 msgid "Importing of settings failed."
 msgstr "La importació de la configuració ha fallat."
 
-#: tadv_admin.php:58
+#: tadv_admin.php:726
+msgid ""
+"In addition most default blocks can be transformed into classic paragraphs, "
+"and a Classic Paragraph can be converted to multiple blocks."
+msgstr ""
+
+#: tadv_admin.php:711
+msgid ""
+"It also makes the Classic Block or the Classic Paragraph Block the default "
+"block inserted on pressing Enter in the title, or clicking under the last "
+"block."
+msgstr ""
+
+#: tadv_admin.php:727
+msgid ""
+"It can be used everywhere instead of the Paragraph Block including in "
+"columns, when creating reusable blocks, etc."
+msgstr ""
+
+#: tadv_admin.php:55
 msgid ""
 "It is important that the export is not changed in any way, no spaces, line "
 "breaks, etc."
@@ -143,32 +255,53 @@ msgstr ""
 "És important que l'exportació no es canviï de cap manera, sense espais, "
 "salts de línia, etc."
 
-#: tadv_admin.php:388
+#: tadv_admin.php:742
+msgid ""
+"It will allow you to use other plugins that enhance that editor, add old-"
+"style Meta Boxes, or in some way depend on the previous Edit Post screen."
+msgstr ""
+
+#: tadv_admin.php:761
 msgid "Keep paragraph tags"
 msgstr "Manté les etiquetes de paràgraf"
 
-#: tadv_admin.php:393
+#: tadv_admin.php:767
+#, fuzzy
 msgid ""
 "Line breaks in the Text editor would still affect the output, in particular "
-"do not use empty lines, line breaks inside HTML tags or multiple &lt;br /"
-"&gt; tags."
+"do not use empty lines, line breaks inside HTML tags or multiple &lt;br&gt; "
+"tags."
 msgstr ""
 "Els salts de línia dins de l'editor d'HTML afectaran a la visualització, en "
 "particular, no utilitzeu línies buides, salts de línia dins de les etiquetes "
 "HTML o etiquetes com &lt;br /&gt;."
 
-#: tadv_admin.php:311
+#: tadv_admin.php:675
 msgid "List Style Options"
 msgstr "Opcions d'estil de llista"
 
-#: tadv_admin.php:363
+#: tadv_admin.php:789
 msgid ""
 "Load the CSS classes used in editor-style.css and replace the Formats menu."
 msgstr ""
 "Carrega les classes CSS que es fan servir a editor-style.css i reeemplaça el "
 "menú Formats."
 
-#: tadv_admin.php:327
+#: tadv_admin.php:165
+#, fuzzy
+msgid "Main toolbar"
+msgstr "Barra d'eines"
+
+#: tinymce-advanced.php:821
+#, fuzzy
+msgid "Mark"
+msgstr "Marca la resposta com que no és brossa"
+
+#: tadv_admin.php:296 tadv_admin.php:309
+msgid "No"
+msgstr ""
+
+#: tadv_admin.php:690
 msgid ""
 "Open the TinyMCE link dialog when using the link button on the toolbar or "
 "the link menu item."
@@ -176,15 +309,16 @@ msgstr ""
 "Obre una finestra quan es fa clic al botó de la barra d'eines o a l'element "
 "del menú."
 
-#: tadv_admin.php:308
+#: tadv_admin.php:664
 msgid "Options"
 msgstr "Opcions"
 
-#: tadv_admin.php:424
-msgid "Other editors in wp-admin"
+#: tadv_admin.php:844
+#, fuzzy
+msgid "Other TinyMCE editors in wp-admin"
 msgstr "Altres editors a wp-admin"
 
-#: tadv_admin.php:57
+#: tadv_admin.php:54
 msgid ""
 "Please copy the content and save it in a <b>text</b> (.txt) file, using a "
 "plain text editor like Notepad."
@@ -192,7 +326,7 @@ msgstr ""
 "Copieu el contingut i guardeu-lo en un fitxer <b>text</ b> (.TXT), "
 "utilitzant un editor de text pla com el Bloc de notes."
 
-#: tinymce-advanced.php:298
+#: tinymce-advanced.php:362
 msgid ""
 "Please upgrade your WordPress installation or download an <a href=\"%s"
 "\">older version of the plugin</a>."
@@ -200,48 +334,128 @@ msgstr ""
 "Actualitzeu la vostra instal·lació de Wordpress o baixeu una <a href=\"%s"
 "\">versió més antiga de l'extensió</a>."
 
-#: tadv_admin.php:320
+#: tadv_admin.php:762
+msgid "Recommended for better compatibility with the Block Editor (Gutenberg)."
+msgstr ""
+
+#: tinymce-advanced.php:818
+#, fuzzy
+msgid "Remove formatting"
+msgstr "Format"
+
+#: tadv_admin.php:739
+#, fuzzy
+msgid "Replace the Block Editor with the Classic Editor"
+msgstr "Instal·la el Classic Editor"
+
+#: tadv_admin.php:684
 msgid "Replace the browser context (right-click) menu."
 msgstr "Reemplaça el menú contextual del navegador (botó dret)."
 
 # modificat xtec
-#: tadv_admin.php:333
+#: tadv_admin.php:696
 msgid "Replace the size setting available for fonts with: %s."
 msgstr "Substituïu la configuració de mida disponible per fonts amb: %s."
 
-#: tadv_admin.php:439
+#: tadv_admin.php:861
 msgid "Restore Default Settings"
 msgstr "Restaura la configuració per defecte"
 
-#: tadv_admin.php:144 tadv_admin.php:440
+#: tadv_admin.php:140 tadv_admin.php:862
 msgid "Save Changes"
 msgstr "Desa els canvis"
 
-#: tadv_admin.php:63
+#: tadv_admin.php:60
 msgid "Select All"
 msgstr "Selecciona-ho tot"
 
-#: tinymce-advanced.php:867
+#: tadv_admin.php:281 tinymce-advanced.php:827
+#, fuzzy
+msgid "Selected text background color"
+msgstr "Color del text"
+
+#: tadv_admin.php:277 tinymce-advanced.php:825
+#, fuzzy
+msgid "Selected text color"
+msgstr "Color del text de la capçalera i barra lateral"
+
+#: tadv_admin.php:710
+msgid ""
+"Selecting this option makes the Classic Block in the Block Editor somewhat "
+"more prominent and adds improvements and fixes for it."
+msgstr ""
+
+#: tadv_admin.php:741
+msgid ""
+"Selecting this option will restore the previous (&#8220;classic&#8221;) "
+"editor and the previous Edit Post screen."
+msgstr ""
+
+#: tinymce-advanced.php:1134
 msgid "Settings"
 msgstr "Configuració"
 
-#: tadv_admin.php:410
+#: tadv_admin.php:830
 msgid "Settings import and export"
 msgstr "Paràmetres d'importació i exportació"
 
-#: tadv_admin.php:135
+#: tadv_admin.php:128
 msgid "Settings saved."
 msgstr "S'ha desat la configuració."
 
-#: tadv_admin.php:390
+#: tadv_admin.php:764
+#, fuzzy
 msgid ""
-"Stop removing the &lt;p&gt; and &lt;br /&gt; tags when saving and show them "
-"in the Text editor."
+"Stop removing the &lt;p&gt; and &lt;br&gt; tags when saving and show them in "
+"the Text editor."
 msgstr ""
 "Deixa d'eliminar les etiquetes &lt;p&gt; i &lt;br /&gt; al desar i mostra-"
 "les a l'editor de text."
 
-#: tadv_admin.php:445
+#: tinymce-advanced.php:820
+msgid "Subscript"
+msgstr "Subíndex"
+
+#: tinymce-advanced.php:819
+msgid "Superscript"
+msgstr "Superíndex"
+
+#: tinymce-advanced.php:826
+#, fuzzy
+msgid "Text Background Color"
+msgstr "Color del text"
+
+#: tinymce-advanced.php:824
+msgid "Text Color"
+msgstr "Color del text"
+
+#: tadv_admin.php:273
+#, fuzzy
+msgid "Text color"
+msgstr "Color del text"
+
+#: tadv_admin.php:178
+msgid ""
+"The Bold, Italic, and Strikethrough buttons can be disabled or moved to the "
+"side toolbar but cannot be reordered."
+msgstr ""
+
+#: tadv_admin.php:840
+#, fuzzy
+msgid "The Classic Editor (Add New and Edit posts and pages)"
+msgstr "L'editor principal (Afegeix nou i Edita articles i pàgines)"
+
+#: tadv_admin.php:720
+msgid ""
+"The Classic Paragraph Block includes the familiar TinyMCE editor and is an "
+"extended and enhanced Classic Block."
+msgstr ""
+
+#: tadv_admin.php:179
+msgid "The Link button cannot be moved to the side toolbar."
+msgstr ""
+
+#: tadv_admin.php:867
 msgid ""
 "The [Toolbar toggle] button shows or hides the second, third, and forth "
 "button rows. It will only work when it is in the first row and there are "
@@ -251,16 +465,19 @@ msgstr ""
 "altres files de botons. Això només serà possible quan està a la primera fila "
 "i hi ha botons a la segona fila."
 
-# MODIFICAT XTEC
-#: tadv_admin.php:420
-msgid "The main editor (Add New and Edit posts and pages)"
-msgstr "L'editor principal (Afegeix nou i Edita articles i pàgines)"
+#: tadv_admin.php:177
+msgid "The alignment buttons cannot be arranged."
+msgstr ""
 
-#: tadv_admin.php:56
+#: tadv_admin.php:325
+msgid "The buttons will wrap around depending on the width of the toolbar."
+msgstr ""
+
+#: tadv_admin.php:53
 msgid "The settings are exported as a JSON encoded string."
 msgstr "Els ajustos s'exporten com una cadena JSON codificada."
 
-#: tadv_admin.php:80
+#: tadv_admin.php:77
 msgid ""
 "The settings are imported from a JSON encoded string. Please paste the "
 "exported string in the text area below."
@@ -268,11 +485,24 @@ msgstr ""
 "La configuració s'importa d'una cadena JSON codificada. Enganxeu la cadena "
 "exportada a l'àrea de text de sota."
 
-#: tadv_admin.php:402
+#: tadv_admin.php:323
+msgid ""
+"The toolbars in the Classic Paragraph and Classic blocks are narrower and "
+"show on focus."
+msgstr ""
+
+#: tadv_admin.php:811
 msgid "These images will not be available in the Media Library."
 msgstr "Aquestes imatges no estaran disponibles a la Mediateca."
 
-#: tadv_admin.php:401
+#: tadv_admin.php:669
+msgid ""
+"This affects buttons that are added by other plugins. These buttons will be "
+"appended to the top toolbar row instead of forming second, third, and forth "
+"rows."
+msgstr ""
+
+#: tadv_admin.php:810
 msgid ""
 "This is not acceptable for larger images like photos or graphics, but may be "
 "useful in some cases for very small images like icons, not larger than 2-3KB."
@@ -281,7 +511,19 @@ msgstr ""
 "útil en alguns casos amb imatges molt petites com icones, no més grans que "
 "2-3KB."
 
-#: tadv_admin.php:391
+#: tadv_admin.php:723
+msgid ""
+"This makes the Block Editor more familiar, easier to use, easier to get used "
+"to, and more compatible with your existing workflow."
+msgstr ""
+
+#: tadv_admin.php:659
+msgid ""
+"This setting applies to WordPress 5.0 or later. You can pre-select it and it "
+"will be enabled as soon as you upgrade."
+msgstr ""
+
+#: tadv_admin.php:765
 msgid ""
 "This will make it possible to use more advanced coding in the Text editor "
 "without the back-end filtering affecting it much."
@@ -293,15 +535,15 @@ msgstr ""
 msgid "TinyMCE Advanced"
 msgstr "TinyMCE Avançat"
 
-#: tadv_admin.php:52
+#: tadv_admin.php:49
 msgid "TinyMCE Advanced Settings Export"
 msgstr "Configuració avançada d'exportació del TinyMCE"
 
-#: tadv_admin.php:77
+#: tadv_admin.php:74
 msgid "TinyMCE Advanced Settings Import"
 msgstr "Configuració avançada d'importació del TinyMCE"
 
-#: tinymce-advanced.php:291
+#: tinymce-advanced.php:355
 msgid ""
 "TinyMCE Advanced requires WordPress version %1$s or newer. It appears that "
 "you are running %2$s. This can make the editor unstable."
@@ -309,24 +551,47 @@ msgstr ""
 "El TinyMCE Avançat necessita una versió de WordPress %1$s o superior. Sembla "
 "que vosaltres teniu %2$s. Això pot fer que l'editor editor sigui inestable."
 
-#: tadv_admin.php:380
-msgid ""
-"To use this option, add editor-style.css to your theme or a child theme. "
-"Enabling this option will also load that stylesheet in the editor."
-msgstr ""
-"Per utilitzar aquesta opció, afegiu el fitxer editor-style.css al vostre "
-"tema o un tema fill. L'activació d'aquesta opció també carregarà aquest "
-"estil en l'editor."
+#: tadv_admin.php:848
+#, fuzzy
+msgid "TinyMCE editors on the front end of the site"
+msgstr "Editors a la part visible del lloc"
 
-#: tadv_admin.php:266
+#: tadv_admin.php:155
+#, fuzzy
+msgid "Toolbars for the Block Editor"
+msgstr "Bloc"
+
+#: tadv_admin.php:489
+#, fuzzy
+msgid "Toolbars for the Classic Editor (TinyMCE)"
+msgstr "https://ca.wordpress.org/plugins/classic-editor/"
+
+#: tadv_admin.php:320
+msgid "Toolbars for the Classic Paragraph and Classic blocks"
+msgstr ""
+
+#: tinymce-advanced.php:822
+msgid "Underline"
+msgstr "Subratllat"
+
+#: tadv_admin.php:611
 msgid "Unused Buttons"
 msgstr "Botons que no s'utilitzen"
 
-#: tadv_admin.php:85
+#: tadv_admin.php:443
+msgid "Unused Buttons for the Classic Block toolbars"
+msgstr ""
+
+#: tadv_admin.php:247
+#, fuzzy
+msgid "Unused buttons for the blocks toolbars"
+msgstr "Botons que no s'utilitzen"
+
+#: tadv_admin.php:82
 msgid "Verify"
 msgstr "Verifica"
 
-#: tadv_admin.php:400
+#: tadv_admin.php:809
 msgid ""
 "Works only in Firefox and Safari. These browsers support pasting of images "
 "directly in the editor and convert them to base64 encoded text."
@@ -335,9 +600,16 @@ msgstr ""
 "d'imatges directament a l'editor i les converteix en text codificat en "
 "base64."
 
-#: tadv_admin.php:369
-msgid "Your theme does not support editor-style.css."
-msgstr "El vostre tema no suporta el full d'estils editor-style.css."
+#: tadv_admin.php:292 tadv_admin.php:305
+msgid "Yes"
+msgstr "Si"
+
+#: tadv_admin.php:721
+msgid ""
+"You can add multiple paragraphs, tables, galleries, embed video, set fonts "
+"and colors, and generally use everything that is available in the Classic "
+"Editor."
+msgstr ""
 
 #. Author URI of the plugin/theme
 msgid "http://www.laptoptips.ca/"

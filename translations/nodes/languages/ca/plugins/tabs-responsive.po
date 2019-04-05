@@ -2,15 +2,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tabs Responsive 1.7.3\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/tabs-responsive\n"
-"POT-Creation-Date: 2018-10-10 07:17:47+00:00\n"
-"PO-Revision-Date: 2017-08-10 10:46+0200\n"
+"POT-Creation-Date: 2019-04-05 07:48:22+00:00\n"
+"PO-Revision-Date: 2019-04-05 11:26+0200\n"
 "Last-Translator: Joan Sala Soler <jsala236@xtec.cat>\n"
 "Language-Team: \n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.9\n"
+"X-Generator: Poedit 2.0.6\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. translators: 1: The rating, 2: The number of ratings
@@ -47,6 +47,11 @@ msgstr "Afegeix pestanyes"
 msgid "Add Tabs Panel"
 msgstr "Afegeix un panell de pestanyes"
 
+#: ink/admin/fvp.php:61
+#, fuzzy
+msgid "Advanced Bsckend Editor"
+msgstr "Avançat"
+
 #: ink/admin/settings.php:481
 msgid "Align Your Tabs from here"
 msgstr "Alineació de les pestanyes"
@@ -63,9 +68,33 @@ msgstr "Alineeu de la icona de la pestanya abans o després del títol"
 msgid "All Tabs"
 msgstr "Totes les pestanyes"
 
+#: ink/admin/fvp.php:56
+msgid "Animation"
+msgstr "Animació"
+
+#: ink/admin/fvp.php:111
+#, fuzzy
+msgid "Border Customization"
+msgstr "Personalització de l'esborrany"
+
+#: ink/admin/fvp.php:106
+#, fuzzy
+msgid "Button Navigation"
+msgstr "Navegació"
+
 #: ink/admin/free.php:298
 msgid "Compatible with your version of WordPress"
 msgstr "Compatible amb la versió actual del WordPress"
+
+#: ink/admin/fvp.php:31
+#, fuzzy
+msgid "Coulmn Layout"
+msgstr "Format"
+
+#: ink/admin/fvp.php:73
+#, fuzzy
+msgid "Custom Image Icons"
+msgstr "Icones socials Imatge Hover"
 
 #: ink/admin/menu.php:74
 msgid "Date"
@@ -108,6 +137,16 @@ msgstr "Les seves mostrar aquí a àrea de giny."
 msgid "Display Your Title as Vrtical Button or as tabs in Mobile"
 msgstr "Mostra el seu títol com botó vertical o com pestanyes a Mobile"
 
+#: ink/admin/fvp.php:101
+#, fuzzy
+msgid "Dot Navigation"
+msgstr "Navegació"
+
+#: ink/admin/fvp.php:42
+#, fuzzy
+msgid "Drag n Drop Builder"
+msgstr "Arrossegueu i deseu anar per reordenar les pistes."
+
 #: ink/admin/cpt-reg.php:11
 msgid "Edit Tabs"
 msgstr "Edició de pestanyes"
@@ -116,11 +155,21 @@ msgstr "Edició de pestanyes"
 msgid "Font Style/Family"
 msgstr "Família del tipus de lletra"
 
+#: tabs-responsive.php:94
+#, fuzzy
+msgid "Free Vs Pro"
+msgstr "Conjunt d'eines de comparació davant PHP"
+
+#: ink/admin/fvp.php:68
+#, fuzzy
+msgid "Google Fonts"
+msgstr "Google"
+
 #: ink/admin/settings.php:566
 msgid "Hide/display your icon and title on mobile and tablets"
 msgstr "Amaga o mostra la icona i el títol en mòbils i tauletes"
 
-#: ink/install/installation.php:129
+#: ink/install/installation.php:131
 msgid "I already did"
 msgstr "Ja ho he fet"
 
@@ -128,7 +177,12 @@ msgstr "Ja ho he fet"
 msgid "Incompatible with your version of WordPress"
 msgstr "Incompatible amb la versió actual del WordPress"
 
-#: ink/install/installation.php:84
+#: ink/admin/fvp.php:51
+#, fuzzy
+msgid "Individual Color Scheme"
+msgstr "Joc de colors de l'administrador"
+
+#: ink/install/installation.php:86
 msgid "Insert Tabs Shortcode"
 msgstr "Insereix un codi curt de pestanya"
 
@@ -163,7 +217,7 @@ msgstr "Marge entre dues pestanyes "
 msgid "More Details"
 msgstr "Més detalls"
 
-#: tabs-responsive.php:95
+#: tabs-responsive.php:93
 msgid "More Free Plugins"
 msgstr "Altres extensions gratuïtes"
 
@@ -171,7 +225,7 @@ msgstr "Altres extensions gratuïtes"
 msgid "More Pro Plugin From Wpshopmart"
 msgstr "Altres extensions de Wpshopmart"
 
-#: tabs-responsive.php:95
+#: tabs-responsive.php:93
 msgid "More_Free_Plugins"
 msgstr "More_Free_Plugins"
 
@@ -180,7 +234,7 @@ msgstr "More_Free_Plugins"
 msgid "No"
 msgstr "No"
 
-#: ink/admin/cpt-reg.php:14 ink/install/installation.php:87
+#: ink/admin/cpt-reg.php:14 ink/install/installation.php:89
 msgid "No Tabs Found"
 msgstr "No s'ha trobat cap pestanya"
 
@@ -192,9 +246,19 @@ msgstr "No s'han trobat pestanyes a la paperera"
 msgid "No Title"
 msgstr "Sense títol"
 
-#: ink/install/installation.php:128
+#: ink/admin/fvp.php:27
+#, fuzzy
+msgid "No. Of Design Templates"
+msgstr "Les plantilles de disseny per a pàgines individuals"
+
+#: ink/install/installation.php:130
 msgid "Nope, maybe later"
 msgstr "No, potser més tard"
+
+#: ink/admin/fvp.php:80
+#, fuzzy
+msgid "On Hover Tab"
+msgstr "En passar el ratolí"
 
 #: ink/admin/cpt-reg.php:6
 msgid "Parent Item:"
@@ -205,13 +269,34 @@ msgstr "Element pare"
 msgid "Premium Editions"
 msgstr "Edicions premium"
 
+#: ink/admin/fvp.php:122
+#, fuzzy
+msgid "Premium Priority Support"
+msgstr "Suport per correus prioritaris"
+
+#: ink/admin/fvp.php:18
+#, fuzzy
+msgid "Pricing"
+msgstr ""
+"Consulteu preus i proveu una demostració dels nostres complements Simple "
+"Calendar Pro."
+
 #: ink/admin/menu.php:97
 msgid "Rate Us If You Like This Plugin"
 msgstr "Valora'ns si t'agrada aquesta extensió"
 
+#: ink/admin/fvp.php:23
+msgid "Responsive Layout"
+msgstr "Plantilla responsiva"
+
 #: ink/admin/cpt-reg.php:13
 msgid "Search Tabs"
 msgstr "Cerca de pestanyes"
+
+#: ink/admin/fvp.php:116
+#, fuzzy
+msgid "Section Background"
+msgstr "Fons"
 
 #: ink/widget/widget.php:65
 msgid "Select Tabs"
@@ -260,6 +345,16 @@ msgstr "Pestanyes"
 msgid "Tabs Alignment "
 msgstr "Alineació de les pestanyes"
 
+#: ink/admin/fvp.php:95
+#, fuzzy
+msgid "Tabs Custom Height"
+msgstr "Pestanyes"
+
+#: ink/admin/fvp.php:90
+#, fuzzy
+msgid "Tabs Custom Width"
+msgstr "Pestanyes"
+
 #: ink/admin/settings.php:408
 msgid "Tabs Description Animation"
 msgstr "Animació de la descripció de les pestanyes"
@@ -288,7 +383,6 @@ msgstr "Opcions de visualització en mòbils"
 msgid "Tabs Position "
 msgstr "Posició de les pestanyes"
 
-#. #-#-#-#-#  tabs-responsive.pot (Tabs Responsive 1.7.4)  #-#-#-#-#
 #. Plugin Name of the plugin/theme
 #: ink/admin/cpt-reg.php:5 ink/admin/cpt-reg.php:18 ink/admin/cpt-reg.php:19
 msgid "Tabs Responsive"
@@ -306,6 +400,11 @@ msgid ""
 msgstr ""
 "Tabs Responsive is the most easiest drag & drop Tabs builder for WordPress. "
 "You can add unlimited Tabs with unlimited color Scheme."
+
+#: ink/admin/fvp.php:85
+#, fuzzy
+msgid "Tabs Scroll Effect"
+msgstr "Habilita l'efecte de desplaçament suau"
 
 #: ink/admin/menu.php:98
 msgid "Tabs Settings"
@@ -339,6 +438,11 @@ msgstr "Aquesta extensió ja s'ha instal·lat i està actualitzada"
 msgid "Title Display Mode In Mobile"
 msgstr "Mode de visualització del títol en mòbils"
 
+#: ink/admin/fvp.php:37
+#, fuzzy
+msgid "Unlimited Shortcode"
+msgstr "Codi breu"
+
 #. translators: 1: Plugin name and version
 #: ink/admin/free.php:162
 msgid "Update Now"
@@ -363,6 +467,11 @@ msgstr "Visualitza les pestanyes"
 msgid "Visit Website"
 msgstr "Visita el lloc web"
 
+#: ink/admin/fvp.php:46
+#, fuzzy
+msgid "Widget Option"
+msgstr "Trieu com voleu que es gestionin les classes CSS dels ginys."
+
 #: ink/widget/widget.php:60
 msgid "Widget Title"
 msgstr "Títol del giny"
@@ -372,11 +481,14 @@ msgstr "Títol del giny"
 msgid "Yes"
 msgstr "Sí"
 
-#. #-#-#-#-#  tabs-responsive.pot (Tabs Responsive 1.7.4)  #-#-#-#-#
-#. Plugin URI of the plugin/theme
-#. #-#-#-#-#  tabs-responsive.pot (Tabs Responsive 1.7.4)  #-#-#-#-#
 #. Author URI of the plugin/theme
-msgid "http://www.wpshopmart.com"
+#, fuzzy
+msgid "https://www.wpshopmart.com"
+msgstr "http://www.wpshopmart.com"
+
+#. Plugin URI of the plugin/theme
+#, fuzzy
+msgid "https://www.wpshopmart.com/plugins"
 msgstr "http://www.wpshopmart.com"
 
 #: ink/admin/settings.php:497
@@ -391,6 +503,6 @@ msgstr "dreta"
 msgid "wpshopmart"
 msgstr "wpshopmart"
 
-#: ink/install/installation.php:125
+#: ink/install/installation.php:127
 msgid "~ wpshopmart"
 msgstr "~ wpshopmart"

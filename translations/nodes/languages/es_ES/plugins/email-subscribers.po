@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: Email Subscribers\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/email-"
 "subscribers\n"
-"POT-Creation-Date: 2018-10-10 07:17:45+00:00\n"
-"PO-Revision-Date: 2018-10-10 12:18+0200\n"
+"POT-Creation-Date: 2019-04-05 07:48:21+00:00\n"
+"PO-Revision-Date: 2019-04-05 11:32+0200\n"
 "Last-Translator: Joan Sala Soler <jsala236@xtec.cat>\n"
 "Language-Team: \n"
 "Language: es_ES\n"
@@ -24,32 +24,36 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 
-#: sentmail/deliverreport-show.php:50 sentmail/sentmail-show.php:86
+#: sentmail/deliverreport-show.php:48 sentmail/sentmail-show.php:84
 msgid " &gt;&gt; "
 msgstr " &gt;&gt; "
 
-#: sentmail/deliverreport-show.php:49 sentmail/sentmail-show.php:85
+#: sentmail/deliverreport-show.php:47 sentmail/sentmail-show.php:83
 msgid " &lt;&lt; "
 msgstr " &lt;&lt; "
 
-#: help/help.php:126
+#: admin/partials/help.php:43 help/help.php:333
 msgid ""
-" (How to modify the existing email content like Confirmation email, Welcome "
-"email, Admin emails)"
+" (like Confirmation, Welcome, Admin emails), Cron Settings and Assign User "
+"Roles"
 msgstr ""
-"(¿Cómo modificar el contenido existente de correos como correo de envío, "
-"correo de bienvenida, correos al administrador?)"
 
-#: subscribers/view-subscriber-import.php:105
-#: subscribers/view-subscriber-import.php:134
+#: subscribers/view-subscriber-import.php:109
+#: subscribers/view-subscriber-import.php:138
 msgid " to view details."
 msgstr " para ver los detalles."
 
-#: help/help.php:117 help/help.php:126 help/help.php:129 help/help.php:132
-#: help/help.php:135 help/help.php:138 help/help.php:141 help/help.php:144
-#: help/help.php:147 help/help.php:150 help/help.php:153 help/help.php:156
-#: help/help.php:159 help/help.php:162 help/help.php:165 help/help.php:168
-#: help/help.php:171 help/help.php:174 help/help.php:177
+#: admin/partials/dashboard.php:73
+msgid "\" to it."
+msgstr "\" a ello."
+
+#: help/help.php:310 help/help.php:321 help/help.php:324 help/help.php:336
+#: help/help.php:339 help/help.php:342 help/help.php:345 help/help.php:348
+#: help/help.php:351 help/help.php:363 help/help.php:366 help/help.php:373
+#: help/help.php:376 help/help.php:379 help/help.php:387 help/help.php:390
+#: help/help.php:393 help/help.php:396 help/help.php:402 help/help.php:405
+#: help/help.php:408 help/help.php:416 help/help.php:419 help/help.php:434
+#: help/help.php:437
 msgid "%s"
 msgstr "%s"
 
@@ -64,12 +68,25 @@ msgstr ""
 "###POSTLINK-WITHTITLE###, ###POSTLINK-ONLY###, ###POSTIMAGE###, "
 "###POSTDESC###, ###POSTFULL###"
 
-#: notification/notification-add.php:207 notification/notification-edit.php:239
+#: classes/es-register.php:1026
+msgid ""
+"%s for Post Notification: {{NAME}}, {{EMAIL}}, {{DATE}}, {{POSTTITLE}}, "
+"{{POSTLINK}}, {{POSTIMAGE}}, {{POSTDESC}}, {{POSTAUTHOR}}, {{POSTLINK-"
+"WITHTITLE}}, {{POSTLINK-ONLY}}, {{POSTFULL}}"
+msgstr ""
+
+#: notification/notification-add.php:209 notification/notification-edit.php:239
 msgid "(Optional)"
 msgstr "(Opcional)"
 
-#: notification/notification-add.php:142 notification/notification-edit.php:162
-msgid "(Use compose menu to create new)"
+#: includes/admin/class-es-post-notifications.php:300
+msgid ""
+"(Optional) Select custom post type for which you want to send notification."
+msgstr ""
+
+#: notification/notification-add.php:144 notification/notification-edit.php:164
+#, fuzzy
+msgid "(Use templates menu to create new)"
 msgstr "(Utiliza el menú componer para crear uno nuevo)"
 
 #: cron/cron-add.php:102
@@ -80,70 +97,141 @@ msgstr ""
 "servidor de alojamiento tiene límites. Te recomendamos 50 correos por hora "
 "por seguridad)."
 
-#: subscribers/view-subscriber-add.php:203
-#: subscribers/view-subscriber-import.php:231
+#: settings/settings-edit.php:370
+#, fuzzy
+msgid "(Your web host has limits. We suggest 50 emails per hour to be safe.)"
+msgstr ""
+"Introduce el número de correos que quieres enviar por hora/disparador (Tu "
+"servidor de alojamiento tiene límites. Te recomendamos 50 correos por hora "
+"por seguridad)."
+
+#: subscribers/view-subscriber-add.php:208
+#: subscribers/view-subscriber-import.php:229
 msgid "(or)"
 msgstr "(o)"
 
-#: subscribers/view-subscriber-export.php:71
+#: subscribers/view-subscriber-export.php:93
 msgid "1"
 msgstr "1"
 
-#: subscribers/view-subscriber-show.php:344
-msgid "1 to 200 emails"
+#: subscribers/view-subscriber-show.php:371
+#, fuzzy
+msgid "1 to 500 emails"
 msgstr "1 a 200 correos"
 
-#: settings/settings-edit.php:220
+#: admin/partials/dashboard.php:72
+msgid ""
+"1. Created a lead collecting form and added it the default widget area in "
+"your WP admin"
+msgstr ""
+
+#: admin/partials/dashboard.php:60
+msgid ""
+"1. Newsletters are now <b>Broadcasts</b>. Broadcasts and Post notifications "
+"are now merged in <a href=\"%s\" target=\"_blank\">Campaigns</a>"
+msgstr ""
+
+#: settings/settings-edit.php:95
 msgid "1. WP HTML MAIL"
 msgstr "1. WP CORREO HTML"
 
-#: subscribers/view-subscriber-show.php:349
-msgid "1001 to 2000"
+#: subscribers/view-subscriber-show.php:373
+#, fuzzy
+msgid "1001 to 1500"
 msgstr "1001 a 2000"
 
-#: subscribers/view-subscriber-export.php:77
+#: subscribers/view-subscriber-show.php:374
+#, fuzzy
+msgid "1501 to 2000"
+msgstr "1001 a 2000"
+
+#: subscribers/view-subscriber-export.php:99
 msgid "2"
 msgstr "2"
 
-#: settings/settings-edit.php:221
+#: admin/partials/dashboard.php:73
+msgid "2. Created a \"Test\" subscriber list and added \""
+msgstr ""
+
+#: admin/partials/dashboard.php:61
+msgid ""
+"2. Subscribers are now called <b>Contacts</b> and part of an <a href=\"%s\" "
+"target=\"_blank\">Audience</a>"
+msgstr ""
+"2. A los suscriptores ahora se les llama <b>Contactos</b> y parte de una <a "
+"href=\"%s\" target=\"_blank\">Audiencia</a>"
+
+#: settings/settings-edit.php:96
 msgid "2. WP PLAINTEXT MAIL"
 msgstr "2. WP CORREO TEXTO PLANO"
 
-#: subscribers/view-subscriber-show.php:350
-msgid "2001 to 5000"
+#: subscribers/view-subscriber-show.php:375
+#, fuzzy
+msgid "2001 to 4000"
 msgstr "2001 a 5000"
 
-#: subscribers/view-subscriber-show.php:345
-msgid "201 to 400"
-msgstr "201 a 400"
-
-#: subscribers/view-subscriber-export.php:83
+#: subscribers/view-subscriber-export.php:105
 msgid "3"
 msgstr "3"
 
-#: settings/settings-edit.php:222
+#: admin/partials/dashboard.php:62
+msgid "3. Groups are now called <a href=\"%s\" target=\"_blank\">Lists</a>"
+msgstr ""
+"3. Los Grupos ahora se llaman <a href=\"%s\" target=\"_blank\">Listas</a>"
+
+#: settings/settings-edit.php:97
 msgid "3. PHP HTML MAIL"
 msgstr "3. PHP CORREO PHP"
 
-#: settings/settings-edit.php:223
+#: admin/partials/dashboard.php:74
+msgid ""
+"3. Sent a test post notification, test broadcasts to the test subscriber "
+"list."
+msgstr ""
+
+#: subscribers/view-subscriber-export.php:111
+#, fuzzy
+msgid "4"
+msgstr "4. PHP CORREO TEXTO PLANO"
+
+#: admin/partials/dashboard.php:75
+#, fuzzy
+msgid "4. Created a first form."
+msgstr "La primera fila representa la forma de hoja "
+
+#: admin/partials/dashboard.php:63
+msgid "4. Find <a href=\"%s\" target=\"_blank\">Forms</a> here"
+msgstr "4. Encuentra los <a href=\"%s\" target=\"_blank\">Formularios</a> aquí"
+
+#: settings/settings-edit.php:98
 msgid "4. PHP PLAINTEXT MAIL"
 msgstr "4. PHP CORREO TEXTO PLANO"
 
-#: subscribers/view-subscriber-show.php:346
-msgid "401 to 600"
+#: subscribers/view-subscriber-show.php:376
+#, fuzzy
+msgid "4001 to 6000"
 msgstr "401 a 600"
 
-#: subscribers/view-subscriber-show.php:351
-msgid "5001 to 10000"
+#: subscribers/view-subscriber-export.php:117
+#, fuzzy
+msgid "5"
+msgstr "GMT+5"
+
+#: subscribers/view-subscriber-show.php:372
+#, fuzzy
+msgid "501 to 1000"
+msgstr "801 a 1000"
+
+#: subscribers/view-subscriber-show.php:377
+#, fuzzy
+msgid "6001 to 10000"
 msgstr "5001 a 10000"
 
-#: subscribers/view-subscriber-show.php:347
-msgid "601 to 800"
-msgstr "601 a 800"
-
-#: subscribers/view-subscriber-show.php:348
-msgid "801 to 1000"
-msgstr "801 a 1000"
+#: includes/admin/class-es-reports-table.php:48
+msgid ""
+"<a href='%s' target='_blank' class='page-title-action es-imp-button'>Send "
+"Queued Emails Now</a>"
+msgstr ""
 
 #: cron/cron-add.php:128
 msgid ""
@@ -182,7 +270,80 @@ msgstr ""
 "do-if-hosting-doesnt-support-cron-jobs/\">¿Tu alojamiento no permite tareas "
 "cron?</a>"
 
-#: sendmail/sendmail.php:211
+#: settings/settings-edit.php:388
+#, fuzzy
+msgid ""
+"<a target=\"_blank\" href=\"https://www.icegram.com/documentation/es-how-to-"
+"schedule-cron-emails-in-cpanel/?"
+"utm_source=es&utm_medium=in_app&utm_campaign=view_docs_help_page\">Setup "
+"cron job in cPanel</a>"
+msgstr ""
+"<a target=\"_blank\" href=\"http://www.icegram.com/documentation/es-how-to-"
+"schedule-cron-emails-in-cpanel/\">Configurar una tarea cron job en cPanel</a>"
+
+#: settings/settings-edit.php:389
+#, fuzzy
+msgid ""
+"<a target=\"_blank\" href=\"https://www.icegram.com/documentation/es-how-to-"
+"schedule-cron-emails-in-parallels-plesk/?"
+"utm_source=es&utm_medium=in_app&utm_campaign=view_docs_help_page\">Setup "
+"cron job in Plesk</a>"
+msgstr ""
+"<a target=\"_blank\" href=\"http://www.icegram.com/documentation/es-how-to-"
+"schedule-cron-emails-in-parallels-plesk/\">Configurar una tarea cron en "
+"Plesk</a>"
+
+#: settings/settings-edit.php:387
+#, fuzzy
+msgid ""
+"<a target=\"_blank\" href=\"https://www.icegram.com/documentation/es-how-to-"
+"schedule-cron-emails/?"
+"utm_source=es&utm_medium=in_app&utm_campaign=view_docs_help_page\">What is "
+"Cron?</a>"
+msgstr ""
+"<a target=\"_blank\" href=\"http://www.icegram.com/documentation/es-how-to-"
+"schedule-cron-mails/\">¿Qué es Cron?</a>"
+
+#: settings/settings-edit.php:390
+#, fuzzy
+msgid ""
+"<a target=\"_blank\" href=\"https://www.icegram.com/documentation/es-what-to-"
+"do-if-hosting-doesnt-support-cron-jobs/?"
+"utm_source=es&utm_medium=in_app&utm_campaign=view_docs_help_page\">Hosting "
+"does not support cron jobs?</a>"
+msgstr ""
+"<a target=\"_blank\" href=\"http://www.icegram.com/documentation/es-what-to-"
+"do-if-hosting-doesnt-support-cron-jobs/\">¿Tu alojamiento no permite tareas "
+"cron?</a>"
+
+#: classes/es-register.php:778
+msgid ""
+"<b style=\"letter-spacing:0.4px;\">To honour GDPR, kindly enable the "
+"'Consent Checkbox' in the subscription form.</b>"
+msgstr ""
+
+#: help/help.php:223
+#, fuzzy
+msgid ""
+"<b>Like Email Subscribers?</b> If yes, then consider %s to support further "
+"developments."
+msgstr "Email Subscribers & Newsletters"
+
+#: classes/es-register.php:739
+msgid ""
+"<b>Want readymade email templates?</b> Also want to <b>clean your "
+"subscribers list?</b> Come check our Pro plan."
+msgstr ""
+
+#: includes/admin/class-es-reports-table.php:51
+msgid "<br /><span class='es-helper'>No emails found in queue</span>"
+msgstr ""
+
+#: classes/es-register.php:1027
+msgid "<br/><br/>%s for Newsletter: {{NAME}}, {{EMAIL}}"
+msgstr ""
+
+#: sendmail/sendmail.php:213
 msgid ""
 "<br><br><strong>Your Recipients count is above 100.<br>We strongly recommend "
 "that you change above Mail Type to Cron and Send Mail via Cron Job.</"
@@ -192,130 +353,234 @@ msgstr ""
 "recomendamos encarecidamente que cambies el Tipo de Correo a Cron y Enviar "
 "Correo via Cron Job.</strong><br>Haz clic en Ayuda para más información."
 
-#: classes/es-common.php:17
+#: templates/template-preview.php:44
+msgid ""
+"<br><br>Note: Different email services (like gmail, yahoo etc) display email "
+"content differently. So there could be a slight variation on how your "
+"customer will view the email content."
+msgstr ""
+
+#: templates/template-preview.php:42
+msgid ""
+"<br><br>This Post Notification preview has replaced keywords from your last "
+"published blog post."
+msgstr ""
+
+#: includes/admin/class-es-reports-table.php:50
+msgid ""
+"<span class='page-title-action button-disabled'>Send Queued Emails Now</span>"
+msgstr ""
+
+#: classes/es-common.php:22
 msgid "<span style=\"color:#0000FF\">Single Opt In</span>"
 msgstr "<span style=\"color:#0000FF\">Aceptación individual</span>"
 
-#: classes/es-common.php:8
+#: classes/es-common.php:13
 msgid "<span style=\"color:#006600;font-weight:bold;\">Confirmed</span>"
 msgstr "<span style=\"color:#006600;font-weight:bold;\">Confirmado</span>"
 
-#: classes/es-common.php:20
+#: classes/es-common.php:25
 msgid "<span style=\"color:#00CC00;font-weight:bold;\">Viewed</span>"
 msgstr "<span style=\"color:#00CC00;font-weight:bold;\">Visto</span>"
 
-#: classes/es-common.php:32
+#: classes/es-common.php:37
 msgid "<span style=\"color:#00FF00;font-weight:bold;\">Sent</span>"
 msgstr "<span style=\"color:#00FF00;font-weight:bold;\">Enviado</span>"
 
-#: classes/es-common.php:38
-msgid "<span style=\"color:#993399;\">Instant Mail</span>"
+#: classes/es-common.php:40
+#, fuzzy
+msgid "<span style=\"color:#20b2aa;font-weight:bold;\">via Cron</span>"
+msgstr "<span style=\"color:#ffd700;font-weight:bold;\">Correo Cron</span>"
+
+#: classes/es-common.php:43
+#, fuzzy
+msgid "<span style=\"color:#993399;\">Immediately</span>"
 msgstr "<span style=\"color:#993399;\">Correo Instantáneo</span>"
 
-#: classes/es-common.php:14
+#: classes/es-common.php:19
 msgid "<span style=\"color:#999900\">Unsubscribed</span>"
 msgstr "<span style=\"color:#999900\">Suscripción cancelada</span>"
 
-#: classes/es-common.php:23
+#: classes/es-common.php:28
 msgid "<span style=\"color:#999900;\">Nodata</span>"
 msgstr "<span style=\"color:#999900;\">Sin Datos</span>"
 
-#: classes/es-common.php:26
-msgid "<span style=\"color:#FF0000\">Disable</span>"
+#: classes/es-common.php:31
+#, fuzzy
+msgid "<span style=\"color:#FF0000\">Disabled</span>"
 msgstr "<span style=\"color:#FF0000\">Deshabilitad</span>"
 
-#: classes/es-common.php:29
+#: classes/es-common.php:34
 msgid "<span style=\"color:#FF0000\">In Queue</span>"
 msgstr "<span style=\"color:#FF0000\">En Cola</span>"
 
-#: classes/es-common.php:11
+#: classes/es-common.php:16
 msgid "<span style=\"color:#FF0000\">Unconfirmed</span>"
 msgstr "<span style=\"color:#FF0000\">Sin confirmar</span>"
 
-#: classes/es-register.php:167
-msgid "<span style=\"color:#f18500;font-weight:bolder;\">Help & Info"
+#: classes/es-register.php:184
+#, fuzzy
+msgid "<span style=\"color:#f18500;font-weight:bolder;\">Help & Info</span>"
 msgstr "<span style=\"color:#f18500;font-weight:bolder;\">Ayuda e Info"
 
-#: classes/es-common.php:35
-msgid "<span style=\"color:#ffd700;font-weight:bold;\">Cron Mail</span>"
-msgstr "<span style=\"color:#ffd700;font-weight:bold;\">Correo Cron</span>"
+#: admin/partials/dashboard.php:133
+msgid ""
+"<span style=\"color:#ff6f7b\">Join our</span> Email Subscribers Secret Club!"
+msgstr ""
 
-#: sentmail/sentmail-show.php:117 sentmail/sentmail-show.php:130
-#: subscribers/view-subscriber-export.php:58
-#: subscribers/view-subscriber-export.php:66
-#: subscribers/view-subscriber-show.php:369
-#: subscribers/view-subscriber-show.php:383
+#: includes/class-email-subscribers.php:108
+msgid ""
+"<strong>Email Subscribers Pro</strong> plugin is activated but it won't work "
+"because it needs plugin to be updated. Please update %s plugin first."
+msgstr ""
+
+#: sentmail/sentmail-show.php:212
+msgid ""
+"<strong>Note:</strong> If you delete record for the emails with Status = "
+"<span style=\"color:#FF0000;\">In Queue</span>, then cron job in queue will "
+"be deleted too and email will not be sent."
+msgstr ""
+
+#: sentmail/sentmail-show.php:115 sentmail/sentmail-show.php:128
+#: subscribers/view-subscriber-export.php:80
+#: subscribers/view-subscriber-export.php:88
+#: subscribers/view-subscriber-show.php:305
 msgid "Action"
 msgstr "Acción"
+
+#: includes/notices/class-es-admin-notices.php:97
+msgid "Action failed. Please refresh the page and retry."
+msgstr "Falló la acción. Por favor, recarga la página y vuelve a intentarlo."
 
 #: compose/compose-show.php:79 compose/compose-show.php:87
 msgid "Actions"
 msgstr "Acciones"
 
+#: includes/admin/class-es-campaigns-table.php:182
+#: includes/class-es-common.php:321
+msgid "Active"
+msgstr "Activo"
+
+#: includes/admin/class-es-lists-table.php:426
+msgid "Active Contacts"
+msgstr "Contactos activos"
+
+#: subscribers/view-subscriber-export.php:100
+msgid "Active Subscribers (Status: Confirmed & Single Opt In)"
+msgstr ""
+
+#: subscribers/view-subscriber-show.php:270
+#, fuzzy
+msgid "Active Subscribers: %s"
+msgstr "Activo: %s"
+
 #: compose/compose-edit.php:84 compose/compose-show.php:64
-#: notification/notification-edit.php:122 notification/notification-show.php:52
+#: includes/admin/class-es-lists-table.php:206
+#: notification/notification-edit.php:123 notification/notification-show.php:53
 msgid "Add New"
 msgstr "Añadir nuevo"
 
-#: subscribers/view-subscriber-add.php:109
-#: subscribers/view-subscriber-edit.php:108
-#: subscribers/view-subscriber-export.php:33
-#: subscribers/view-subscriber-import.php:151
-#: subscribers/view-subscriber-show.php:241
-#: subscribers/view-subscriber-sync.php:88
+#: includes/admin/class-es-export-subscribers.php:103
+#: includes/admin/class-es-handle-sync-wp-user.php:70
+#: includes/admin/class-es-import-subscribers.php:207
+#: includes/admin/class-es-subscribers-table.php:54
+#: includes/admin/class-es-subscribers-table.php:120
+msgid "Add New Contact"
+msgstr "Añadir nuevo contacto"
+
+#: subscribers/view-subscriber-add.php:114
+#: subscribers/view-subscriber-edit.php:109
+#: subscribers/view-subscriber-export.php:55
+#: subscribers/view-subscriber-import.php:155
+#: subscribers/view-subscriber-show.php:243
+#: subscribers/view-subscriber-sync.php:89
 msgid "Add New Subscriber"
 msgstr "Añadir Nuevo Suscriptor"
 
-#: notification/notification-add.php:111
+#: notification/notification-add.php:112
 msgid "Add Notification"
 msgstr "Añadir Notificación"
 
-#: subscribers/view-subscriber-add.php:212
+#: admin/partials/dashboard.php:89 help/help.php:308
+#, fuzzy
+msgid "Add Subscribe form"
+msgstr "Suscribirse"
+
+#: subscribers/view-subscriber-add.php:217
 msgid "Add Subscriber"
 msgstr "Añadir Suscriptor"
 
 #: compose/compose-add.php:73
 #, fuzzy
 msgid "Add new Email"
-msgstr "Enviar Correo"
+msgstr "Añadir un nuevo correo electrónico"
+
+#: classes/es-register.php:844 classes/es-register.php:845
+#: includes/class-email-subscribers-activator.php:46
+#: includes/class-email-subscribers-activator.php:47
+#, fuzzy
+msgid "Add new Template"
+msgstr "Añadir un nuevo calendario"
 
 #. Description of the plugin/theme
+#, fuzzy
 msgid ""
 "Add subscription forms on website, send HTML newsletters & automatically "
-"notify subscribers about new blog posts once it gets published."
+"notify subscribers about new blog posts once it is published."
 msgstr ""
 "Añade formularios de suscripción en el sitio web, envia newsletters HTML y "
 "notifica automáticamente a los suscriptores sobre nuevas entradas del blog "
 "una vez hayan sido publicadas."
 
-#: notification/notification-show.php:128
-msgid "Add to cron and send mail via cron job."
+#: includes/admin/class-es-admin-settings.php:193
+msgid ""
+"Add text which you want your contact to see in footer to unsubscribe. Use "
+"{{UNSUBSCRIBE-LINK}} keyword to add unsubscribe link."
+msgstr ""
+"Añade el texto que quieres que vea tu contacto en el pie de correo para "
+"cancelar la suscripción. Utiliza la palabra clave {{UNSUBSCRIBE-LINK}} para "
+"añadir un enlace de cancelación de suscripción."
+
+#: notification/notification-show.php:132
+#, fuzzy
+msgid "Add to cron and send email via cron job"
 msgstr "Añadir a cron y enviar correo vía tarea cron."
 
-#: notification/notification-add.php:264 notification/notification-edit.php:303
-msgid "Add to cron when new post is published and send via cron job"
-msgstr ""
-"Añadir a cron cuando se publique una nueva entrada y enviar vía tarea cron"
-
-#: notification/notification-add.php:258 notification/notification-edit.php:297
+#: notification/notification-add.php:257 notification/notification-edit.php:292
 #, fuzzy
 msgid "Add to cron when new post is published and send via cron job."
 msgstr ""
 "Añadir a cron cuando se publique una nueva entrada y enviar vía tarea cron"
 
-#: settings/settings-edit.php:349
+#: admin/partials/help.php:33 help/help.php:318
+#, fuzzy
+msgid "Additional form settings"
+msgstr "Ajustes adicionales"
+
+#: settings/settings-edit.php:24
+msgid "Admin"
+msgstr "Admin"
+
+#: settings/settings-edit.php:130
 msgid "Admin Email Addresses"
 msgstr "Direcciones de correo electrónico de administrador"
 
-#: settings/settings-edit.php:376
-#, fuzzy
-msgid "Admin Email Content"
-msgstr "Contenido correo administrador"
+#: settings/settings-edit.php:157
+msgid "Admin Email Content on new subscriber signs up"
+msgstr ""
 
-#: settings/settings-edit.php:369
+#: settings/settings-edit.php:150
+msgid "Admin Email Subject on new subscriber sign up"
+msgstr ""
+
+#: includes/admin/class-es-admin-settings.php:385
+msgid "Admin Notification On Every Campaign Sent"
+msgstr ""
+
+#: includes/admin/class-es-admin-settings.php:349
 #, fuzzy
-msgid "Admin Email Subject"
-msgstr "Asunto del correo al administrador"
+msgid "Admin Notification On New Subscription"
+msgstr "Nueva suscripción de correo"
 
 #: cron/cron-add.php:107
 msgid "Admin Report"
@@ -323,80 +588,237 @@ msgstr "Informe Admin"
 
 #: roles/roles-add.php:124 roles/roles-add.php:136 roles/roles-add.php:148
 #: roles/roles-add.php:160 roles/roles-add.php:172 roles/roles-add.php:184
-#: roles/roles-add.php:196
+#: roles/roles-add.php:196 settings/settings-edit.php:293
+#: settings/settings-edit.php:305 settings/settings-edit.php:317
+#: settings/settings-edit.php:329 settings/settings-edit.php:341
 msgid "Administrator Only"
 msgstr "Sólo Administrador"
 
 #: roles/roles-add.php:125 roles/roles-add.php:137 roles/roles-add.php:149
 #: roles/roles-add.php:161 roles/roles-add.php:173 roles/roles-add.php:185
-#: roles/roles-add.php:197
+#: roles/roles-add.php:197 settings/settings-edit.php:294
+#: settings/settings-edit.php:306 settings/settings-edit.php:318
+#: settings/settings-edit.php:330 settings/settings-edit.php:342
 msgid "Administrator/Editor"
 msgstr "Administrador/Editor"
 
 #: roles/roles-add.php:126 roles/roles-add.php:138 roles/roles-add.php:150
 #: roles/roles-add.php:162 roles/roles-add.php:174 roles/roles-add.php:186
-#: roles/roles-add.php:198
+#: roles/roles-add.php:198 settings/settings-edit.php:295
+#: settings/settings-edit.php:307 settings/settings-edit.php:319
+#: settings/settings-edit.php:331 settings/settings-edit.php:343
 msgid "Administrator/Editor/Author/Contributor"
 msgstr "Administrador/Editor/Autor/Colaborador"
 
-#: subscribers/view-subscriber-show.php:320
+#: includes/admin/class-es-export-subscribers.php:70
+#: includes/admin/class-es-lists-table.php:427
+msgid "All Contacts"
+msgstr "Todos los contactos"
+
+#: subscribers/view-subscriber-show.php:347
 msgid "All Groups"
 msgstr "Todos los Grupos"
 
-#: subscribers/view-subscriber-show.php:310
-#: subscribers/view-subscriber-show.php:337
+#: subscribers/view-subscriber-show.php:364
 msgid "All Status"
 msgstr "Todos los Estados"
 
-#: subscribers/view-subscriber-export.php:72
-msgid "All Subscribers List"
+#: subscribers/view-subscriber-export.php:94
+#, fuzzy
+msgid "All Subscribers"
 msgstr "Lista de Todos los Suscriptores"
 
-#: subscribers/view-subscriber-show.php:316
+#: admin/partials/pricing.php:224
+msgid "All features of Email Subscribers free plugin + everything below:"
+msgstr ""
+
+#: help/help.php:449
+msgid "Allow Subscribers to get subscribed to any group"
+msgstr ""
+
+#: includes/admin/class-es-forms-table.php:309
+msgid "Allow contact to choose list(s)"
+msgstr ""
+
+#: includes/admin/class-es-forms-table.php:310
+msgid "Allow contacts to choose list(s) in which they want to subscribe."
+msgstr ""
+
+#: subscribers/view-subscriber-show.php:340
 msgid "Apply"
 msgstr "Aplicar"
 
-#: classes/es-register.php:183
+#: classes/es-register.php:200
 msgctxt "view-subscriber-enhanced-select"
 msgid "Are you sure you want to delete selected records?"
 msgstr "¿Estás seguro de que quieres borrar los registros seleccionados?"
 
+#: includes/notices/views/html-notice-update.php:29
+msgid "Are you sure you wish to run the updater now?"
+msgstr "¿Estás seguro de querer ejecutar el actualizador ahora?"
+
+#: admin/class-email-subscribers-admin.php:143 admin/partials/dashboard.php:81
+msgid "Audience"
+msgstr "Audiencia"
+
+#: includes/admin/class-es-subscribers-table.php:53
+msgid "Audience > Contacts"
+msgstr "Audiencia > Contactos"
+
+#: includes/admin/class-es-export-subscribers.php:102
+#, fuzzy
+msgid "Audience > Export Contacts"
+msgstr "Audiencia > Contactos"
+
+#: includes/admin/class-es-import-subscribers.php:206
+#, fuzzy
+msgid "Audience > Import Contacts"
+msgstr "Audiencia > Contactos"
+
+#: includes/admin/class-es-lists-table.php:42
+msgid "Audience > Lists"
+msgstr "Audiencia > Listas"
+
+#: includes/admin/class-es-handle-sync-wp-user.php:69
+#, fuzzy
+msgid "Audience > Sync Contacts"
+msgstr "Audiencia > Contactos"
+
+#: admin/partials/help.php:22 help/help.php:283
+#, fuzzy
+msgid "Automatically add Unsubscribe link in the email."
+msgstr "¿Cómo añadir un enlace de cancelación de suscripción en los correos?"
+
+#: classes/es-register.php:959
+msgid "Available Keyword for Post Notification: {{POSTTITLE}}"
+msgstr ""
+
+#: classes/es-register.php:1026 classes/es-register.php:1027
 #: compose/compose-add.php:105 compose/compose-add.php:110
 #: compose/compose-edit.php:116 compose/compose-edit.php:119
+#: includes/admin/class-es-templates-table.php:45
+#: includes/admin/class-es-templates-table.php:49
 msgid "Available Keywords"
 msgstr "Palabras clave disponibles"
 
-#: sentmail/sentmail-preview.php:41
+#: sentmail/sentmail-preview.php:53
 msgid "Back"
 msgstr "Volver"
 
-#: subscribers/view-subscriber-show.php:288
+#: admin/partials/dashboard.php:134
+msgid ""
+"Be a part of development, share your valuable feedback and get early access "
+"to our upcoming <strong>Email Subscribers 5.0</>"
+msgstr ""
+
+#: includes/admin/class-es-admin-settings.php:454
+msgid "Blocked Domain(s)"
+msgstr "Dominio(s) bloqueado(s)"
+
+#: admin/class-email-subscribers-admin.php:141
+#: includes/admin/class-es-campaigns-table.php:186
+#: includes/admin/class-es-reports-table.php:187
+#, fuzzy
+msgid "Broadcast"
+msgstr "Transmisión en vivo"
+
+#: admin/partials/dashboard.php:104
+msgid ""
+"Build your list and succeed with email marketing <div>in 5 short weeks</div>"
+msgstr ""
+
+#: subscribers/view-subscriber-show.php:312
 msgid "Bulk Actions"
 msgstr "Accione en bloque"
 
-#: classes/es-register.php:255
-msgctxt "widget-enhanced-select"
-msgid "Cannot create XMLHTTP instance"
-msgstr "No se puede crear la instancia XMLHTTP"
+#: help/help.php:192
+msgid ""
+"By default, subscribers subscribed via Email Subscribers, will receive email "
+"updates when you post a new blog. You can turn these updates off like this:"
+msgstr ""
 
-#: classes/es-register.php:272
-msgctxt "widget-page-enhanced-select"
-msgid "Cannot create XMLHTTP instance"
-msgstr "No se puede crear la instancia XMLHTTP"
+#: admin/partials/help.php:91 help/help.php:405
+msgid "CSS Help"
+msgstr "Ayuda CSS"
 
-#: notification/notification-show.php:66 notification/notification-show.php:74
-msgid "Categories / Custom Post"
-msgstr "Categorías / Entrada personalizada"
+#: includes/admin/class-es-campaigns-table.php:19
+#: includes/admin/class-es-campaigns-table.php:20
+msgid "Campaign"
+msgstr "Campaña"
 
-#: notification/notification-add.php:193 notification/notification-edit.php:224
+#: includes/admin/class-es-admin-settings.php:404
+#: includes/admin/class-es-cron.php:132
+msgid "Campaign Sent!"
+msgstr "¡Campaña enviada!"
+
+#: includes/admin/class-es-campaigns-table.php:337
+#, fuzzy
+msgid "Campaign has been deleted successfully!"
+msgstr "El menú se ha borrado con éxito."
+
+#: includes/admin/class-es-campaigns-table.php:356
+#, fuzzy
+msgid "Campaign(s) have been deleted successfully!"
+msgstr "¡Formulario(s) eliminado(s) satisfactoriamente!"
+
+#: admin/class-email-subscribers-admin.php:144 admin/partials/dashboard.php:83
+#: includes/admin/class-es-campaigns-table.php:36
+#: includes/admin/class-es-campaigns-table.php:49
+#: includes/admin/class-es-newsletters.php:76
+#: includes/admin/class-es-post-notifications.php:234
+msgid "Campaigns"
+msgstr "Campañas"
+
+#: includes/admin/class-es-newsletters.php:75
+#, fuzzy
+msgid "Campaigns > Broadcast"
+msgstr "Campañas"
+
+#: includes/admin/class-es-post-notifications.php:218
+#, fuzzy
+msgid "Campaigns > New Post Notification"
+msgstr "Nueva entrada"
+
+#: includes/admin/class-es-post-notifications.php:221
+#, fuzzy
+msgid "Campigns > Edit Post Notification"
+msgstr "Editar Notificación"
+
+#: includes/admin/class-es-subscribers-table.php:584
+msgid "Change Status"
+msgstr "Cambiar estado"
+
+#: notification/notification-add.php:195 notification/notification-edit.php:226
 msgid "Check All"
 msgstr "Selecciona todo"
 
-#: subscribers/view-subscriber-import.php:177
+#: includes/admin/class-es-import-subscribers.php:159
+#, fuzzy
+msgid "Check CSV structure"
+msgstr "Comprobar estructura CSV "
+
+#: subscribers/view-subscriber-import.php:181
 msgid "Check CSV structure "
 msgstr "Comprobar estructura CSV "
 
-#: settings/settings-edit.php:206
+#: classes/es-register.php:740
+#, fuzzy
+msgid "Check Pro plan"
+msgstr "Otras extensiones de Wpshopmart"
+
+#: admin/partials/pricing.php:231
+msgid "Check email status & increase email success rate"
+msgstr ""
+
+#: includes/admin/class-es-admin-settings.php:141
+#, fuzzy
+msgid ""
+"Choose a FROM email address for all the emails to be sent from this plugin"
+msgstr ""
+"Elija un nombre de origen y un correo de origen para todos el correos que se "
+"enviarán desde este plugin."
+
+#: settings/settings-edit.php:80
 msgid ""
 "Choose a FROM name and FROM email address for all the emails to be sent from "
 "this plugin."
@@ -404,39 +826,52 @@ msgstr ""
 "Elija un nombre de origen y un correo de origen para todos el correos que se "
 "enviarán desde este plugin."
 
-#: compose/compose-show.php:13 sendmail/sendmail.php:17
-#: subscribers/view-subscriber-show.php:16
+#: compose/compose-show.php:13 sendmail/sendmail.php:18
+#: subscribers/view-subscriber-show.php:17
 msgid "Click Here"
 msgstr "Haz clic aquí"
 
-#: subscribers/view-subscriber-import.php:105
-#: subscribers/view-subscriber-import.php:134
+#: subscribers/view-subscriber-import.php:109
+#: subscribers/view-subscriber-import.php:138
 msgid "Click here"
 msgstr "Haz clic aquí"
 
-#: sendmail/sendmail.php:62
+#: sendmail/sendmail.php:63
 msgid "Click here to check Statistics"
 msgstr "Haz clic aquí para comprobar Estadísticas"
 
-#: subscribers/view-subscriber-export.php:74
-#: subscribers/view-subscriber-export.php:80
-#: subscribers/view-subscriber-export.php:86
+#: subscribers/view-subscriber-export.php:96
+#: subscribers/view-subscriber-export.php:102
+#: subscribers/view-subscriber-export.php:108
+#: subscribers/view-subscriber-export.php:114
+#: subscribers/view-subscriber-export.php:120
 msgid "Click to Export in CSV"
 msgstr "Clic para Exportar en CSV"
 
-#: settings/setting-sync.php:32
+#: settings/setting-sync.php:33
 msgid "Click to sync tables"
 msgstr "Clic para sincronizar tablas"
 
-#: subscribers/view-subscriber-export.php:84
+#: admin/partials/help.php:17 help/help.php:265
+msgid ""
+"Collect customer emails by adding a subscription box (Widget/Shortcode/PHP "
+"Code)."
+msgstr ""
+
+#: subscribers/view-subscriber-export.php:118
 msgid "Commented Authors"
 msgstr "Autores Comentados"
 
-#: help/help.php:177
-msgid "Commonly Asked Questions"
-msgstr "Preguntas Más Frecuentes"
+#: admin/partials/pricing.php:258
+msgid ""
+"Communicate with subscribers. Redirect them to beautifully designed "
+"<strong>confirmation and unsubscribe pages</strong> on your website."
+msgstr ""
 
-#: classes/es-register.php:145 classes/es-register.php:146
+#: includes/admin/class-es-reports-table.php:203
+msgid "Completed"
+msgstr "Completado"
+
 #: compose/compose-show.php:63
 msgid "Compose"
 msgstr "Componer"
@@ -445,163 +880,389 @@ msgstr "Componer"
 msgid "Compose Menu"
 msgstr "Menú componer"
 
-#: subscribers/view-subscriber-show.php:74
-#: subscribers/view-subscriber-show.php:133
-#, fuzzy
-msgid "Confirmation emails Resent Successfully."
-msgstr "Correo(s) de confirmación Reenviado(s) con éxito."
+#: admin/partials/help.php:18 help/help.php:268
+msgid "Configure double Opt-In and Single Opt-In facility for subscribers."
+msgstr ""
 
-#: subscribers/view-subscriber-add.php:168
-#: subscribers/view-subscriber-add.php:174
-#: subscribers/view-subscriber-edit.php:161
-#: subscribers/view-subscriber-edit.php:167
-#: subscribers/view-subscriber-import.php:204
-#: subscribers/view-subscriber-show.php:311
-#: subscribers/view-subscriber-show.php:338
+#: includes/es-backward.php:99
+msgid "Confirm Your Subscription!"
+msgstr "¡Confirma tu suscripción!"
+
+#: includes/admin/class-es-admin-settings.php:319
+msgid "Confirmation Email"
+msgstr "Correo de confirmación"
+
+#: subscribers/view-subscriber-show.php:75
+#: subscribers/view-subscriber-show.php:134
+#, fuzzy
+msgid "Confirmation emails resent successfully."
+msgstr "Correo de confirmación vuelto a enviar con éxito."
+
+#: subscribers/view-subscriber-add.php:173
+#: subscribers/view-subscriber-add.php:179
+#: subscribers/view-subscriber-edit.php:162
+#: subscribers/view-subscriber-edit.php:168
+#: subscribers/view-subscriber-import.php:202
+#: subscribers/view-subscriber-show.php:335
+#: subscribers/view-subscriber-show.php:365
 msgid "Confirmed"
 msgstr "Confirmado"
 
-#: classes/es-register.php:154 classes/es-register.php:155 cron/cron-add.php:78
+#: includes/admin/class-es-subscribers-table.php:20
+msgid "Contact"
+msgstr "Contacto"
+
+#: admin/partials/dashboard.php:146 help/help.php:218
+#, fuzzy
+msgid "Contact Us"
+msgstr "contacto"
+
+#: includes/admin/class-es-subscribers-table.php:188
+msgid "Contact already exist."
+msgstr "El contacto ya existe."
+
+#: includes/admin/class-es-subscribers-table.php:184
+#, fuzzy
+msgid "Contact has been added successfully!"
+msgstr "Los datos del formulario se han guardado con éxito."
+
+#: includes/admin/class-es-subscribers-table.php:667
+#, fuzzy
+msgid "Contact have been updated successfully!"
+msgstr "El grupo ha sido actualizado correctamente."
+
+#: includes/admin/class-es-subscribers-table.php:322
+#, fuzzy
+msgid "Contact updated successfully!"
+msgstr "%s tema actualizado con éxito."
+
+#: includes/admin/class-es-subscribers-table.php:684
+#: includes/admin/class-es-subscribers-table.php:742
+#, fuzzy
+msgid "Contact(s) have been deleted successfully!"
+msgstr "¡Formulario(s) eliminado(s) satisfactoriamente!"
+
+#: includes/admin/class-es-subscribers-table.php:783
+#, fuzzy
+msgid "Contact(s) have been moved to list successfully!"
+msgstr "La(s) lista(s) se ha(n) borrado correctamente"
+
+#: includes/admin/class-es-export-subscribers.php:59
+#: includes/admin/class-es-subscribers-table.php:21
+#: includes/admin/class-es-subscribers-table.php:107
+msgid "Contacts"
+msgstr "Contactos"
+
+#: includes/admin/class-es-import-subscribers.php:114
+msgid "Contacts are alredy exists."
+msgstr "Los contactos ya existen."
+
+#: includes/admin/class-es-post-notifications.php:248
+msgid ""
+"Contacts from the selected list will be notified about new post notification."
+msgstr ""
+
+#: includes/admin/class-es-newsletters.php:139
+msgid "Contacts from the selected list will be notified."
+msgstr ""
+
+#: includes/admin/class-es-forms-table.php:291
+#, fuzzy
+msgid "Contacts will be added into selected list(s)"
+msgstr "Lista de contactos de %s"
+
+#: includes/admin/class-es-admin-settings.php:311
+#: includes/admin/class-es-admin-settings.php:340
+#: includes/admin/class-es-admin-settings.php:375
+#: includes/admin/class-es-admin-settings.php:417
+msgid "Content"
+msgstr "Contenido"
+
+#: includes/admin/class-es-admin-settings.php:377
+msgid ""
+"Content for the admin email whenever a new subscriber signs up and is "
+"confirmed. Available Keywords: {{NAME}}, {{EMAIL}}, {{LIST}}"
+msgstr ""
+
+#: settings/settings-edit.php:158
+msgid ""
+"Content for the admin email whenever a new subscriber signs up and is "
+"confirmed.<br />Available Keywords: {{NAME}}, {{EMAIL}}, {{GROUP}}"
+msgstr ""
+
+#: settings/settings-edit.php:192
+#, fuzzy
+msgid ""
+"Content for the confirmation email to be sent for Double Opt-In whenever a "
+"subscriber signs up.<br />Available Keywords: {{NAME}}, {{LINK}}"
+msgstr ""
+"Introduce el contenido para el correo de bienvenida al suscriptor. Esto se "
+"enviará cuando un correo se haya suscrito (confirmado) con éxito. (Keyword: "
+"###NAME###)"
+
+#: settings/settings-edit.php:173
+#, fuzzy
+msgid ""
+"Content for the email report which will be sent to admin.<br />Available "
+"Keywords: {{COUNT}}, {{UNIQUE}}, {{STARTTIME}}, {{ENDTIME}}"
+msgstr ""
+"Contenido del correo para el informe de correo enviado. (Keyword: "
+"###COUNT###, ###UNIQUE###, ###STARTTIME###, ###ENDTIME###)"
+
+#: settings/settings-edit.php:233
+#, fuzzy
+msgid ""
+"Content for the subscriber welcome email whenever a user's email is either "
+"confirmed (if Double Opt In) / subscribed (if Single Opt In) successfully."
+"<br />Available Keywords: {{NAME}}, {{GROUP}}, {{LINK}}"
+msgstr ""
+"Introduce el contenido para el correo de bienvenida al suscriptor. Esto se "
+"enviará cuando un correo se haya suscrito (confirmado) con éxito. (Keyword: "
+"###NAME###)"
+
+#: includes/admin/class-es-newsletters.php:127
+#, fuzzy
+msgid "Content of the selected template will be broadcasted."
+msgstr "Incrustar plantilla de contenido"
+
+#: includes/admin/class-es-post-notifications.php:260
+msgid "Content of the selected template will be sent out as post notification."
+msgstr ""
+
+#: help/help.php:298
+msgid "Control user access (User Roles and Capabilities)."
+msgstr ""
+
+#: includes/admin/class-es-campaigns-table.php:50
+#, fuzzy
+msgid "Create Post Notification"
+msgstr "No se puede crear una entrada existente."
+
+#: admin/partials/help.php:59 help/help.php:363
+#, fuzzy
+msgid "Create and Send Newsletter Emails"
+msgstr ""
+"Use esto para enviar correos electrónicos de boletines a sus suscriptores."
+
+#: admin/partials/help.php:82 help/help.php:373
+#, fuzzy
+msgid "Create and Send Post Notification Emails when new posts are published"
+msgstr ""
+"¿Cómo Configurar y Enviar correos de notificación para suscriptores cuando "
+"se publican nuevas entradas?"
+
+#: includes/admin/class-es-forms-table.php:636
+#: includes/admin/class-es-lists-table.php:428
+#: includes/admin/class-es-subscribers-table.php:552
+msgid "Created"
+msgstr "Creado"
+
+#: includes/admin/class-es-export-subscribers.php:225
+msgid "Created On"
+msgstr "Creado el"
+
+#: settings/settings-edit.php:26
+msgid "Cron"
+msgstr "Cron"
+
+#: admin/partials/help.php:64 help/help.php:384
+#, fuzzy
+msgid "Cron Job Setup"
+msgstr "URL tarea Cron"
+
+#: settings/settings-edit.php:375
+#, fuzzy
+msgid "Cron Report"
+msgstr "Reporta esto"
+
+#: cron/cron-add.php:78
 #, fuzzy
 msgid "Cron Settings"
-msgstr "Configuración"
+msgstr "Configurar"
 
-#: cron/cron-add.php:86
+#: includes/admin/class-es-admin-settings.php:433
+msgid "Cron URL"
+msgstr "URL Cron"
+
+#: cron/cron-add.php:86 settings/settings-edit.php:354
 msgid "Cron job URL"
 msgstr "URL tarea Cron"
 
-#: sentmail/deliverreport-show.php:77 sentmail/deliverreport-show.php:89
-msgid "Database ID"
-msgstr "ID Base de Datos"
+#: admin/partials/pricing.php:257
+msgid "Customize confirmation and unsubscribe page"
+msgstr ""
 
-#: settings/settings-edit.php:335
+#: admin/class-email-subscribers-admin.php:138
+msgid "Dashboard"
+msgstr "Escritorio"
+
+#: settings/settings-edit.php:264
 #, fuzzy
 msgid ""
 "Default message to display if there is any issue while clicking on "
-"confirmation link from the Double Opt In (confirmation) Emails."
+"subscribe / confirmation link from the Double Opt-In (Confirmation) emails."
 msgstr ""
 "Mensaje por defecto para mostrar si hay algún problema en el enlace de "
 "confirmación."
 
-#: settings/settings-edit.php:342
+#: settings/settings-edit.php:271
 #, fuzzy
 msgid ""
 "Default message to display if there is any issue while clicking on "
-"unsubscribe link from the Emails."
+"unsubscribe link from the emails."
 msgstr ""
 "Mensaje por defecto para mostrar si hay algún problema en el enlace de "
 "cancelación de suscripción."
 
-#: compose/compose-show.php:115 notification/notification-show.php:99
-#: subscribers/view-subscriber-show.php:289
-#: subscribers/view-subscriber-show.php:415
+#: compose/compose-show.php:115 includes/admin/class-es-forms-table.php:663
+#: includes/admin/class-es-lists-table.php:455
+#: includes/admin/class-es-subscribers-table.php:582
+#: notification/notification-show.php:103
+#: subscribers/view-subscriber-show.php:313
+#: subscribers/view-subscriber-show.php:434
 msgid "Delete"
 msgstr "Borrar"
 
-#: sentmail/deliverreport-show.php:59
+#: sentmail/deliverreport-show.php:60
 msgid "Delivery Report"
 msgstr "Informe envío"
 
-#: notification/notification-add.php:265 notification/notification-edit.php:304
-msgid "Disable notification"
+#: help/help.php:258 includes/admin/class-es-forms-table.php:253
+msgid "Description"
+msgstr "Descripción"
+
+#: includes/admin/class-es-forms-table.php:755
+#: includes/admin/class-es-lists-table.php:562 includes/class-es-common.php:253
+msgid "Disable"
+msgstr "Desactivar"
+
+#: includes/class-es-common.php:106
+#, fuzzy
+msgid "Disable email notification"
 msgstr "Deshabilitar notificación"
 
-#: notification/notification-add.php:260 notification/notification-edit.php:299
+#: notification/notification-add.php:259 notification/notification-edit.php:294
 #, fuzzy
 msgid "Disable notification."
 msgstr "Deshabilitar notificación"
 
-#: subscribers/view-subscriber-show.php:352
+#: includes/notices/views/html-notice-updated.php:12
+msgid "Dismiss"
+msgstr "Descartar"
+
+#: subscribers/view-subscriber-show.php:378
 msgid "Display All"
 msgstr "Mostrar Todo"
 
-#: classes/es-register.php:584
+#: classes/es-register.php:1188 includes/admin/class-es-old-widget.php:80
+#: includes/admin/class-es-widget.php:62
 msgid "Display Name Field"
 msgstr "Mostrar Campo Nombre"
 
-#: classes/es-register.php:230
+#: admin/partials/dashboard.php:111
+msgid ""
+"Do you want to build your list, keep off spam, write emails that people open "
+"and click through? Do you want to build your brand and nurture an amazing "
+"tribe?"
+msgstr ""
+
+#: classes/es-register.php:236
 msgctxt "sentmail-enhanced-select"
 msgid "Do you want to delete all records except latest 10?"
 msgstr "¿Quieres borrar todos los registros excepto los últimos 10?"
 
-#: classes/es-register.php:200
-msgctxt "compose-enhanced-select"
-msgid "Do you want to delete this record?"
-msgstr "¿Quieres borrar este registro?"
-
-#: classes/es-register.php:211
+#: classes/es-register.php:217
 msgctxt "notification-enhanced-select"
 msgid "Do you want to delete this record?"
 msgstr "¿Quieres borrar este registro?"
 
-#: classes/es-register.php:229
+#: classes/es-register.php:235
 msgctxt "sentmail-enhanced-select"
 msgid "Do you want to delete this record?"
 msgstr "¿Quieres borrar este registro?"
 
-#: classes/es-register.php:181
+#: classes/es-register.php:198
 msgctxt "view-subscriber-enhanced-select"
 msgid "Do you want to delete this record?"
 msgstr "¿Quieres borrar este registro?"
 
-#: classes/es-register.php:189
-msgctxt "view-subscriber-enhanced-select"
-msgid "Do you want to export the emails?"
-msgstr "¿Quieres exportar los correos?"
-
-#: classes/es-register.php:184
+#: classes/es-register.php:201
+#, fuzzy
 msgctxt "view-subscriber-enhanced-select"
 msgid ""
-"Do you want to resend confirmation email? \\nAlso please note, this will "
-"update subscriber current status to 'Unconfirmed'."
+"Do you want to resend confirmation email? Also please note, this will update "
+"subscriber current status to 'Unconfirmed'."
 msgstr ""
 "¿Quieres volver a mandar el correo de confirmación?\\nTambién ten en cuenta "
 "que esto actualizará el estado actual a 'Sin confirmar'."
 
-#: classes/es-register.php:187
+#: classes/es-register.php:204
 msgctxt "view-subscriber-enhanced-select"
 msgid "Do you want to update subscribers group?"
 msgstr "¿Quieres actualizar el grupo de suscriptores?"
 
-#: classes/es-register.php:188
+#: classes/es-register.php:205
 msgctxt "view-subscriber-enhanced-select"
 msgid "Do you want to update subscribers status?"
 msgstr "¿Quiere actualizar el estado del suscriptor?"
 
-#: settings/settings-edit.php:235
+#: admin/partials/help.php:102 help/help.php:471
+msgid ""
+"Don't limit your subscriber form to a widget. Embed it within popups, hello "
+"bars, slide-ins, sidebars, full screen popups etc."
+msgstr ""
+
+#: admin/partials/pricing.php:254
+msgid ""
+"Don’t waste time on HTML or CSS. Pick one from the many <strong>ready to use "
+"elegant templates</strong> to send your next email campaign."
+msgstr ""
+
+#: settings/settings-edit.php:110
 msgid "Double Opt In"
 msgstr "Doble Aceptación"
 
-#: settings/settings-edit.php:269
+#: includes/class-es-common.php:430
 #, fuzzy
-msgid "Double Opt In Confirmation Link"
-msgstr "Enlace Aceptación (Enlace de conformación)"
+msgid "Double Opt-In"
+msgstr "Doble Aceptación"
 
-#: settings/settings-edit.php:262
+#: settings/settings-edit.php:106
+msgid ""
+"Double Opt-In : In this type, the subscriber is sent an activation link as "
+"soon as they subscribe to your list. They have to confirm their subscription "
+"by clicking on the activation link.<br />Single Opt-In : In this type, the "
+"subscriber is not asked to confirm their email address. They are subscribed "
+"directly in the list."
+msgstr ""
+
+#: settings/settings-edit.php:198
 #, fuzzy
-msgid "Double Opt In Mail Content (Confirmation Email)"
+msgid "Double Opt-In Confirmation Link"
+msgstr "Enlace para Doble Aceptación. No es necesario que cambies este valor."
+
+#: settings/settings-edit.php:191
+#, fuzzy
+msgid "Double Opt-In Email Content (Confirmation Email)"
 msgstr "Contenido del correo de Aceptación (correo de confirmación)"
 
-#: settings/settings-edit.php:255
+#: settings/settings-edit.php:184
 #, fuzzy
-msgid "Double Opt In Mail Subject (Confirmation Email)"
+msgid "Double Opt-In Email Subject (Confirmation Email)"
 msgstr "Asunto del correo de Aceptación (Correo de confirmación)"
 
-#: settings/settings-edit.php:231
-#, fuzzy
-msgid ""
-"Double Opt In means subscribers need to confirm their email address by an "
-"activation link sent them on a activation email message.<br />Single Opt In "
-"means subscribers do not need to confirm their email address."
+#: admin/partials/pricing.php:232
+msgid "Double check the status of the emails addresses and increase "
 msgstr ""
-"Doble Aceptación, significa que los suscriptores deben confirmar su correo "
-"electrónico por un enlace de activación que se les envía en un mensaje de "
-"confirmación de correo. Aceptación simple significa que los suscriptores no "
-"deben confirmar su dirección de correo."
 
-#: base/es-defined.php:41
+#: includes/admin/class-es-export-subscribers.php:89
+msgid "Download"
+msgstr "Descargar"
+
+#: base/es-defined.php:46
+#, fuzzy
 msgid "Dynamic Template"
-msgstr ""
+msgstr "Plantilla Dinámica (Para Correo de Notificación)"
 
 #: compose/compose-add.php:83 compose/compose-edit.php:94
 msgid "Dynamic Template (For Notification Email)"
@@ -612,62 +1273,118 @@ msgstr "Plantilla Dinámica (Para Correo de Notificación)"
 msgid "Dynamic Template (For Post Notification Emails)"
 msgstr "Plantilla Dinámica (Para Correo de Notificación)"
 
+#: admin/partials/help.php:23 help/help.php:286
+msgid "Easily migrate subscribers from another app using Import & Export."
+msgstr ""
+
 #: compose/compose-preview.php:39 compose/compose-show.php:114
-#: notification/notification-show.php:96
-#: subscribers/view-subscriber-show.php:410
+#: notification/notification-show.php:100
+#: subscribers/view-subscriber-show.php:429 templates/template-preview.php:36
 msgid "Edit"
 msgstr "Editar"
 
-#: compose/compose-edit.php:83
-#, fuzzy
-msgid "Edit Email"
-msgstr "Enviar Correo"
+#: includes/admin/class-es-subscribers-table.php:327
+msgid "Edit Contact"
+msgstr "Editar contacto"
 
-#: notification/notification-edit.php:121
+#: compose/compose-edit.php:83
+msgid "Edit Email"
+msgstr "Editar correo electrónico"
+
+#: includes/admin/class-es-forms-table.php:228
+msgid "Edit Form"
+msgstr "Editar formulario"
+
+#: includes/admin/class-es-lists-table.php:208
+msgid "Edit List"
+msgstr "Editar lista"
+
+#: notification/notification-edit.php:122
 msgid "Edit Notification"
 msgstr "Editar Notificación"
 
-#: subscribers/view-subscriber-edit.php:107
+#: subscribers/view-subscriber-edit.php:108
 msgid "Edit Subscriber"
 msgstr "Editar Suscriptor"
 
-#: sentmail/deliverreport-show.php:71 sentmail/deliverreport-show.php:83
+#: classes/es-register.php:846
+#: includes/class-email-subscribers-activator.php:48
+#, fuzzy
+msgid "Edit Templates"
+msgstr "Lo siento, no tienes permisos para editar plantillas para este sitio."
+
+#: includes/admin/class-es-admin-settings.php:140
+#: includes/admin/class-es-export-subscribers.php:223
+#: includes/admin/class-es-forms-table.php:271
+#: includes/admin/class-es-reports-table.php:97
+#: includes/admin/class-es-subscribers-table.php:369
+#: includes/admin/class-es-subscribers-table.php:550
+#: public/partials/class-es-shortcode.php:169
+#: sentmail/deliverreport-show.php:73 sentmail/deliverreport-show.php:84
 msgid "Email"
 msgstr "Correo"
 
-#: classes/es-loadwidget.php:29 classes/es-register.php:531
-#: classes/es-register.php:537
+#: classes/es-loadwidget.php:39 classes/es-register.php:1123
+#: classes/es-register.php:1129
 msgid "Email *"
 msgstr "Email *"
 
-#: subscribers/view-subscriber-show.php:364
-#: subscribers/view-subscriber-show.php:378
+#: includes/admin/class-es-admin-settings.php:143
+#: subscribers/view-subscriber-show.php:300
 msgid "Email Address"
 msgstr "Dirección E-Mail"
 
-#: classes/es-register.php:258
+#: includes/admin/class-es-handle-subscription.php:381
+#: public/class-email-subscribers-public.php:113
+msgid "Email Address already exists!"
+msgstr "¡La dirección de correo electrónico ya existe!"
+
+#: classes/es-register.php:261
 msgctxt "widget-enhanced-select"
-msgid "Email Address already exists."
-msgstr "El correo electrónico ya existe."
+msgid "Email Address already exists!"
+msgstr "¡La dirección de correo electrónico ya existe!"
 
 #: classes/es-register.php:275
 msgctxt "widget-page-enhanced-select"
-msgid "Email Address already exists."
-msgstr "El correo electrónico ya existe."
+msgid "Email Address already exists!"
+msgstr "¡La dirección de correo electrónico ya existe!"
 
-#: classes/es-register.php:157 classes/es-register.php:158
-#: settings/settings-edit.php:196
+#: includes/admin/class-es-admin-settings.php:151
+msgid "Email Addresses"
+msgstr "Direcciones de correo electrónico"
+
+#: settings/settings-edit.php:232
 #, fuzzy
-msgid "Email Settings"
-msgstr "Guardar configuración"
+msgid "Email Content for Welcome Email"
+msgstr "Correo electrónico de bienvenida al usuario"
+
+#: settings/settings-edit.php:364
+#, fuzzy
+msgid "Email Count"
+msgstr "Cantidad"
+
+#: includes/admin/class-es-admin-settings.php:79
+#, fuzzy
+msgid "Email Sending"
+msgstr "Enviando correo electrónico…"
 
 #: roles/roles-add.php:168
 #, fuzzy
 msgid "Email Settings Menu"
-msgstr "Menú Configuración"
+msgstr "Opciones del Menú"
 
-#: base/es-defined.php:40 classes/es-register.php:139
-#: classes/es-register.php:140
+#: notification/notification-show.php:68 notification/notification-show.php:76
+#, fuzzy
+msgid "Email Subject"
+msgstr "Asunto Correo"
+
+#: admin/class-email-subscribers-admin.php:135 base/es-defined.php:45
+#: classes/es-register.php:162 classes/es-register.php:163
+#: classes/es-register.php:854 includes/admin/class-es-form-widget.php:11
+#: includes/admin/class-es-old-widget.php:11
+#: includes/admin/class-es-old-widget.php:12
+#: includes/admin/class-es-widget.php:11
+#: includes/class-email-subscribers-activator.php:56
 msgid "Email Subscribers"
 msgstr "Email Subscribers"
 
@@ -675,9 +1392,88 @@ msgstr "Email Subscribers"
 msgid "Email Subscribers & Newsletters"
 msgstr "Email Subscribers & Newsletters"
 
+#: help/help.php:193
+msgid ""
+"Email Subscribers -> Post Notification -> Edit -> Select Notification Status "
+"when a new post is published -> Disable -> Save."
+msgstr ""
+
+#: includes/admin/class-es-form-widget.php:11
+#, fuzzy
+msgid "Email Subscribers Form"
+msgstr "Suscriptores de correo electrónico"
+
+#: includes/class-email-subscribers.php:109
+msgid "Email Subscribers Pro"
+msgstr "Email Subscribers Pro"
+
+#: includes/admin/class-es-widget.php:11
+#, fuzzy
+msgid "Email Subscribers Widget"
+msgstr "Suscriptores de correo electrónico"
+
+#: includes/notices/views/html-notice-update.php:19
+#: includes/notices/views/html-notice-updating.php:19
+#, fuzzy
+msgid "Email Subscribers data update"
+msgstr "Actualizar Grupo de Suscriptores"
+
+#: includes/notices/views/html-notice-updated.php:14
+msgid ""
+"Email Subscribers data update complete. Thank you for updating to the latest "
+"version!"
+msgstr ""
+
+#: admin/partials/dashboard.php:68 help/help.php:260
+msgid ""
+"Email Subscribers is a complete newsletter plugin which lets you collect "
+"leads, send automated new blog post notification emails, create & send "
+"newsletters and manage all this in one single place."
+msgstr ""
+
+#: classes/es-register.php:833
+#, fuzzy
+msgid "Email Subscribers version: <strong>%s</strong>"
+msgstr "<strong>%s</strong> no es una dirección de email permitida."
+
+#: includes/admin/class-es-admin-settings.php:159 settings/settings-edit.php:90
+#, fuzzy
+msgid "Email Type"
+msgstr "Selecciona el tipo de plantilla de correo"
+
+#: includes/admin/class-es-tools.php:61
+msgid "Email has been sent. Please check your inbox"
+msgstr ""
+
+#: sendmail/sendmail.php:59
+#, fuzzy
+msgid "Email sent successfully. "
+msgstr "La notificación fue enviada exitosamente."
+
 #: compose/compose-show.php:76 compose/compose-show.php:84
 msgid "Email subject"
 msgstr "Asunto Correo"
+
+#: help/help.php:491
+msgid "Email subscribers easily integrates with another <b>free</b> plugin "
+msgstr ""
+
+#: admin/partials/help.php:110
+msgid ""
+"Email subscribers easily integrates with another <b>free</b> plugin <a class="
+"\"es-cta\" target=\"_blank\" href=\"https://wordpress.org/plugins/icegram-"
+"rainmaker/\">Rainmaker</a>"
+msgstr ""
+
+#: settings/settings-edit.php:376
+#, fuzzy
+msgid ""
+"Email to admin whenever a cron URL is triggered from your server.<br /"
+">Available Keywords: {{DATE}}, {{SUBJECT}}, {{COUNT}}"
+msgstr ""
+"Envía el correo superior al administrador cuando una URL cron haya sido "
+"lanzada en tu servidor.<br />(Keywords Disponibles: ###DATE###, "
+"###SUBJECT###, ###COUNT###)"
 
 #: cron/cron-add.php:108
 #, fuzzy
@@ -689,11 +1485,30 @@ msgstr ""
 "lanzada en tu servidor.<br />(Keywords Disponibles: ###DATE###, "
 "###SUBJECT###, ###COUNT###)"
 
-#: subscribers/view-subscriber-sync.php:49
+#: subscribers/view-subscriber-sync.php:50
 msgid "Emails Successfully Synced."
 msgstr "Correo Correctamente sincronizados."
 
-#: sentmail/sentmail-show.php:115 sentmail/sentmail-show.php:128
+#: includes/admin/class-es-cron.php:241
+msgid "Emails not found."
+msgstr "No se han encontrado correos electrónicos."
+
+#: includes/admin/class-es-cron.php:240
+#, fuzzy
+msgid "Emails sent succssfully!"
+msgstr "Emails enviados"
+
+#: includes/admin/class-es-forms-table.php:754
+#: includes/admin/class-es-lists-table.php:561 includes/class-es-common.php:252
+msgid "Enable"
+msgstr "Activar"
+
+#: includes/admin/class-es-admin-settings.php:290
+msgid "Enable?"
+msgstr "¿Habilitar?"
+
+#: includes/admin/class-es-reports-table.php:263 sentmail/sentmail-show.php:113
+#: sentmail/sentmail-show.php:126
 msgid "End Date"
 msgstr "Fecha Fin"
 
@@ -701,19 +1516,30 @@ msgstr "Fecha Fin"
 msgid "Enter Content for your Mail"
 msgstr "Introduce Contenido para tu Correo"
 
+#: public/partials/class-es-shortcode.php:168
+#, fuzzy
+msgid "Enter Email Address"
+msgstr "Por favor introduce dirección de correo."
+
 #: compose/compose-add.php:94 compose/compose-edit.php:105
 msgid "Enter Mail Subject"
 msgstr "Introduce asunto correo"
 
-#: subscribers/view-subscriber-add.php:144
+#: public/partials/class-es-shortcode.php:136
+#, fuzzy
+msgid "Enter Name"
+msgstr "Escribe tu nombre aquí"
+
+#: subscribers/view-subscriber-add.php:149
 msgid "Enter Subscriber's Email Address"
 msgstr "Introduce la dirección de correo del suscriptor"
 
-#: subscribers/view-subscriber-add.php:134
+#: subscribers/view-subscriber-add.php:139
 msgid "Enter Subscriber's Full name"
 msgstr "Introduce nombre completo del suscriptor"
 
-#: settings/settings-edit.php:350
+#: includes/admin/class-es-admin-settings.php:153
+#: settings/settings-edit.php:131
 msgid ""
 "Enter the admin email addresses that should receive notifications (separated "
 "by comma)."
@@ -721,97 +1547,46 @@ msgstr ""
 "Ingrese las direcciones de correo electrónico del administrador que deberían "
 "recibir notificaciones (separadas por comas)."
 
+#: admin/partials/dashboard.php:112
+msgid "Enter your name and email on the form to get it all."
+msgstr ""
+
+#: includes/admin/class-es-admin-settings.php:220
+#: includes/admin/class-es-admin-settings.php:251
+msgid "Error Message"
+msgstr "Mensaje de error"
+
 #: settings/settings-edit.php:263
 #, fuzzy
-msgid ""
-"Enter the content for the confirmation email to be sent for Double Opt In "
-"whenever a user signs up. (Keyword: ###NAME###)"
-msgstr ""
-"Introduce el contenido para el correo de bienvenida al suscriptor. Esto se "
-"enviará cuando un correo se haya suscrito (confirmado) con éxito. (Keyword: "
-"###NAME###)"
-
-#: settings/settings-edit.php:392
-#, fuzzy
-msgid ""
-"Enter the content for the sent mail report. It will be mailed to Admin. "
-"(Keyword: ###COUNT###, ###UNIQUE###, ###STARTTIME###, ###ENDTIME###)"
-msgstr ""
-"Contenido del correo para el informe de correo enviado. (Keyword: "
-"###COUNT###, ###UNIQUE###, ###STARTTIME###, ###ENDTIME###)"
-
-#: settings/settings-edit.php:304
-#, fuzzy
-msgid ""
-"Enter the content for the subscriber welcome email whenever a user's email "
-"is either confirmed (if Double Opt In) / subscribed (if Single Opt In) "
-"successfully. (Keyword: ###NAME###)"
-msgstr ""
-"Introduce el contenido para el correo de bienvenida al suscriptor. Esto se "
-"enviará cuando un correo se haya suscrito (confirmado) con éxito. (Keyword: "
-"###NAME###)"
-
-#: settings/settings-edit.php:377
-#, fuzzy
-msgid ""
-"Enter the email content for the admin email. This will be sent whenever a "
-"new email is added and confirmed. (Keyword: ###NAME###, ###EMAIL###)"
-msgstr ""
-"Introduce el contenido del correo para administrador. Esto se enviará cuando "
-"un nuevo correo haya sido añadido y confirmado en nuestra base de datos. "
-"(Keyword: ###NAME###, ###EMAIL###)"
-
-#: settings/settings-edit.php:370
-#, fuzzy
-msgid ""
-"Enter the subject for the admin email. This will be sent whenever a new "
-"email is added and confirmed."
-msgstr ""
-"Introduce el asunto para el correo al administrador. Esto se enviará cuando "
-"un nuevo correo se añadido y confirmado en nuestra base de datos."
-
-#: settings/settings-edit.php:256
-msgid ""
-"Enter the subject for the confirmation email to be sent Double Opt In "
-"whenever a user signs up."
-msgstr ""
-
-#: settings/settings-edit.php:385
-msgid ""
-"Enter the subject for the sent email report. It will be mailed to Admin."
-msgstr ""
-
-#: settings/settings-edit.php:297
-#, fuzzy
-msgid ""
-"Enter the subject for the subscriber welcome email. This will be sent "
-"whenever a user's email is either confirmed (if Double Opt In) / subscribed "
-"(if Single Op In) successfully."
-msgstr ""
-"Introduce el asunto para el correo de bienvenida del suscriptor. Esto se "
-"enviará cuando se suscriba exitosamente (confirmado) cualquier correo."
-
-#: settings/settings-edit.php:320
-#, fuzzy
-msgid ""
-"Enter the text for the unsubscribe link. This text is added with unsubscribe "
-"link in the emails. (Keyword: ###LINK###)"
-msgstr ""
-"Introduce el texto para el enlace de cancelación de suscripción. Este texto "
-"es para añadir un enlace de cancelación de suscripción con la newsletter. "
-"(Keyword: ###LINK###)"
-
-#: settings/settings-edit.php:334
-#, fuzzy
-msgid "Error in Confirmation Link"
+msgid "Error in the Subscribe / Confirmation Link"
 msgstr "Enlace Aceptación (Enlace de conformación)"
 
-#: settings/settings-edit.php:341
+#: settings/settings-edit.php:270
 #, fuzzy
-msgid "Error in Unsubscribe Link"
+msgid "Error in the Unsubscribe Link"
 msgstr "Enlace para darse de baja"
 
-#: subscribers/view-subscriber-import.php:43
+#: includes/admin/class-es-import-subscribers.php:122
+#, fuzzy
+msgid "Error: Please Select List"
+msgstr "Por favor, selecciona la lista"
+
+#: includes/admin/class-es-import-subscribers.php:134
+#: includes/admin/class-es-import-subscribers.php:138
+#, fuzzy
+msgid "Error: Please Upload File"
+msgstr "Error en el vídeo. Por favor, sube una foto en su lugar."
+
+#: includes/admin/class-es-import-subscribers.php:130
+msgid "Error: Please Upload only CSV File"
+msgstr ""
+
+#: includes/admin/class-es-import-subscribers.php:126
+#, fuzzy
+msgid "Error: Please select status"
+msgstr "Por favor, elige Nuevo Estado para actualizar."
+
+#: subscribers/view-subscriber-import.php:45
 msgid ""
 "Error: Special characters (['^$%&*()}{@#~?><>,|=_+\\\"]) are not allowed in "
 "the Group name."
@@ -819,7 +1594,7 @@ msgstr ""
 "Error: los caracteres especiales (['^$%&*()}{@#~?><>,|=_+\\\"]) no están "
 "permitidos como nombre de Grupo."
 
-#: subscribers/view-subscriber-add.php:55
+#: subscribers/view-subscriber-add.php:59
 msgid ""
 "Error: Special characters (['^$%&*()}{@#~?><>,|=_+\\\"]) are not allowed in "
 "the group name."
@@ -827,48 +1602,181 @@ msgstr ""
 "Error: los caracteres especiales (['^$%&*()}{@#~?><>,|=_+\\\"]) no se "
 "permiten como nombre de grupo."
 
-#: subscribers/view-subscriber-edit.php:63
+#: subscribers/view-subscriber-edit.php:64
 msgid "Error: Special characters are not allowed in the group name."
 msgstr "Error: No se permiten caracteres especiales en el nombre de grupo."
 
-#: subscribers/view-subscriber-add.php:111
-#: subscribers/view-subscriber-edit.php:110
-#: subscribers/view-subscriber-import.php:152
-#: subscribers/view-subscriber-show.php:243
-#: subscribers/view-subscriber-sync.php:90
+#: includes/libraries/wp-background-process.php:423
+msgid "Every %d Minutes"
+msgstr "Cada %d minutos"
+
+#. translators: %d: interval
+#: includes/upgrade/class-es-background-process.php:171
+msgid "Every %d minutes"
+msgstr "Cada %d minutos"
+
+#: includes/class-email-subscribers.php:418
+msgid "Every Fifteen Minutes"
+msgstr "Cada quince minutos"
+
+#: admin/partials/dashboard.php:65
+msgid "Explore all changes"
+msgstr "Explora todos los cambios"
+
+#: includes/admin/class-es-export-subscribers.php:61
+#: subscribers/view-subscriber-add.php:116
+#: subscribers/view-subscriber-edit.php:111
+#: subscribers/view-subscriber-import.php:156
+#: subscribers/view-subscriber-show.php:245
+#: subscribers/view-subscriber-sync.php:91
 msgid "Export"
 msgstr "Exportar"
 
-#: subscribers/view-subscriber-export.php:32
+#: includes/admin/class-es-export-subscribers.php:50
+#: includes/admin/class-es-handle-sync-wp-user.php:71
+#: includes/admin/class-es-import-subscribers.php:208
+#: includes/admin/class-es-subscribers-table.php:55
+msgid "Export Contacts"
+msgstr "Exportar contactos"
+
+#: subscribers/view-subscriber-export.php:54
 msgid "Export Email Addresses"
 msgstr "Exportar Direcciones Correo"
 
-#: subscribers/view-subscriber-import.php:113
+#: includes/admin/class-es-export-subscribers.php:192
+msgid "Export the Subscribers"
+msgstr "Exportar los suscriptores"
+
+#: admin/partials/help.php:92 help/help.php:408
+#, fuzzy
+msgid "FAQ's"
+msgstr "FAQ"
+
+#: admin/partials/help.php:15 help/help.php:262
+#, fuzzy
+msgid "Feature Overview"
+msgstr "Vista previa"
+
+#: includes/admin/class-es-forms-table.php:266
+msgid "Field"
+msgstr "Campo"
+
+#: subscribers/view-subscriber-import.php:117
 msgid "File Upload Failed."
 msgstr "Fallo en Subida de Archivo."
 
-#: help/help.php:51
-msgid "For more help and tips..."
-msgstr "Para más ayuda y sugerencias..."
+#: help/help.php:462
+msgid "For example: Subscribe either to Updates or to Offers."
+msgstr ""
 
-#: help/help.php:98
-msgid "Frequently Asked Questions"
-msgstr "Preguntas más Frecuentes"
+#: includes/admin/class-es-forms-table.php:261
+msgid "Form Fields"
+msgstr "Campos del formulario"
 
-#: settings/settings-edit.php:247
+#: includes/admin/class-es-forms-table.php:245
+msgid "Form Name"
+msgstr "Nombre del formulario"
+
+#: includes/admin/class-es-forms-table.php:138
+#, fuzzy
+msgid "Form has been added successfully!"
+msgstr "¡El formulario ha sido borrado correctemente!"
+
+#: includes/admin/class-es-forms-table.php:716
+msgid "Form has been deleted successfully!"
+msgstr "¡El formulario ha sido borrado correctemente!"
+
+#: includes/admin/class-es-forms-table.php:183
+#, fuzzy
+msgid "Form has been updated successfully!"
+msgstr "¡El formulario ha sido borrado correctemente!"
+
+#: includes/admin/class-es-forms-table.php:731
+msgid "Form(s) have been deleted successfully!"
+msgstr "¡Formulario(s) eliminado(s) satisfactoriamente!"
+
+#: admin/class-email-subscribers-admin.php:146 admin/partials/dashboard.php:82
+#: includes/admin/class-es-form-widget.php:63
+#: includes/admin/class-es-forms-table.php:19
+#: includes/admin/class-es-forms-table.php:20
+#: includes/admin/class-es-forms-table.php:66
+msgid "Forms"
+msgstr "Formularios"
+
+#: includes/class-es-common.php:438 settings/settings-edit.php:122
 msgid "Full Size"
 msgstr "Tamaño Completo"
 
-#: help/help.php:126
-msgid "General Plugin Settings"
+#: admin/partials/pricing.php:240
+#, fuzzy
+msgid "Fullproof email deliverability"
+msgstr "Tu dirección de correo electrónico"
+
+#: includes/admin/class-es-cron.php:247
+msgid "GUID is empty."
+msgstr "El GUID está vacío."
+
+#: includes/admin/class-es-admin-settings.php:77
+msgid "General"
+msgstr "General"
+
+#: admin/partials/help.php:40 help/help.php:330
+#, fuzzy
+msgid "General Plugin Configuration"
 msgstr "Configuración General Plugin"
 
-#: subscribers/view-subscriber-show.php:367
-#: subscribers/view-subscriber-show.php:381
+#: admin/partials/pricing.php:219
+#, fuzzy
+msgid "Get Max Annual"
+msgstr "Obtener Calendarios desde"
+
+#: admin/partials/pricing.php:214
+#, fuzzy
+msgid "Get Pro Annual"
+msgstr "Otras extensiones de Wpshopmart"
+
+#: admin/partials/pricing.php:209
+#, fuzzy
+msgid "Get Pro Monthly"
+msgstr "Otras extensiones de Wpshopmart"
+
+#: admin/partials/help.php:108 help/help.php:485
+msgid "Get beautiful and elegant form styles"
+msgstr ""
+
+#: admin/partials/help.php:26 help/help.php:295
+msgid "Get detailed sent email reports."
+msgstr ""
+
+#: admin/partials/pricing.php:203
+msgid "Get more with Email Subscribers Pro / Max"
+msgstr ""
+
+#: subscribers/view-subscriber-export.php:14
+#, fuzzy
+msgid "Go back to Subscribers dashboard"
+msgstr "Volver"
+
+#: admin/partials/dashboard.php:93
+msgid ""
+"Go to Appearance -> Widgets. Click on widget Email subscribers and drag it "
+"to the widget area"
+msgstr ""
+
+#: subscribers/view-subscriber-show.php:303
 msgid "Group"
 msgstr "Grupo"
 
-#: classes/es-register.php:221
+#: help/help.php:455
+#, fuzzy
+msgid "Group Selector"
+msgstr "Selector de fecha"
+
+#: includes/class-es-common.php:417
+msgid "HTML Mail"
+msgstr "Correo HTML"
+
+#: classes/es-register.php:227
 msgctxt "sendmail-enhanced-select"
 msgid ""
 "Have you double checked your selected group? If so, let's go ahead and send "
@@ -879,21 +1787,21 @@ msgstr ""
 
 #: compose/compose-add.php:74 compose/compose-edit.php:85
 #: compose/compose-preview.php:27 compose/compose-show.php:65
-#: cron/cron-add.php:79 notification/notification-add.php:112
-#: notification/notification-edit.php:123 notification/notification-show.php:53
-#: roles/roles-add.php:110 sendmail/sendmail.php:93
-#: sentmail/deliverreport-show.php:60 sentmail/sentmail-preview.php:27
-#: sentmail/sentmail-show.php:96 settings/settings-edit.php:197
-#: subscribers/view-subscriber-add.php:125
-#: subscribers/view-subscriber-edit.php:124
-#: subscribers/view-subscriber-export.php:48
-#: subscribers/view-subscriber-import.php:166
-#: subscribers/view-subscriber-show.php:257
-#: subscribers/view-subscriber-sync.php:91
+#: cron/cron-add.php:79 notification/notification-add.php:113
+#: notification/notification-edit.php:124 notification/notification-show.php:54
+#: roles/roles-add.php:110 sendmail/sendmail.php:94
+#: sentmail/deliverreport-show.php:61 sentmail/sentmail-preview.php:28
+#: sentmail/sentmail-show.php:94 settings/settings-edit.php:44
+#: subscribers/view-subscriber-add.php:130
+#: subscribers/view-subscriber-edit.php:125
+#: subscribers/view-subscriber-export.php:70
+#: subscribers/view-subscriber-import.php:170
+#: subscribers/view-subscriber-show.php:259
+#: subscribers/view-subscriber-sync.php:92 templates/template-preview.php:33
 msgid "Help"
 msgstr "Ayuda"
 
-#: classes/es-register.php:166
+#: admin/partials/help.php:10 classes/es-register.php:183
 msgid "Help & Info"
 msgstr "Ayuda e Información"
 
@@ -901,116 +1809,200 @@ msgstr "Ayuda e Información"
 msgid "Help & Info Menu"
 msgstr "Menú Ayuda e Info"
 
-#: help/help.php:117
+#: admin/partials/dashboard.php:80
+msgid "Here are some quick links"
+msgstr "Aquí tienes unos enlaces rápidos"
+
+#: admin/partials/dashboard.php:59
+msgid "Here's a quick look at changes within the plugin:"
+msgstr "Aquí puedes ver un rápido repaso a los cambios en el plugin:"
+
+#: admin/partials/help.php:69 help/help.php:396
+#, fuzzy
+msgid "Hosting doesn’t support Cron Jobs?"
+msgstr "¿Qué hacer si el Proveedor de Alojamiento no permite Cron Jobs?"
+
+#: admin/partials/help.php:44 help/help.php:336
+msgid "How does Sync work?"
+msgstr ""
+
+#: help/help.php:481 help/help.php:501
+#, fuzzy
+msgid "How to %s"
+msgstr "Mostrar en %s de %s"
+
+#: admin/partials/help.php:105
+msgid ""
+"How to <a href=\"https://www.icegram.com/documentation/es-how-to-show-"
+"subscribe-form-inside-a-popup/?"
+"utm_source=es&utm_medium=in_app&utm_campaign=view_docs_help_page\" target="
+"\"_blank\">show subscribe form inside a popup</a>"
+msgstr ""
+
+#: admin/partials/help.php:113
+msgid ""
+"How to <a href=\"https://www.icegram.com/documentation/es-how-to-use-"
+"rainmakers-form-in-email-subscribers/?"
+"utm_source=es&utm_medium=in_app&utm_campaign=view_docs_help_page\" target="
+"\"_blank\">add Rainmaker’s form in Email Subscribers</a>"
+msgstr ""
+
+#: help/help.php:310
 msgid "How to Add Subscription box to website?"
 msgstr "¿Cómo Añadir un cuadro de suscripción a la página web?"
 
-#: help/help.php:153
-msgid "How to Add/Update Existing Subscribers Group?"
+#: help/help.php:342
+#, fuzzy
+msgid "How to Add/Update Existing Subscribers Group & Status?"
 msgstr "¿Cómo Añadir/Actualizar un Grupo de Suscriptores Existentes?"
 
-#: help/help.php:141
+#: admin/partials/help.php:46
 #, fuzzy
-msgid "How to Compose and Send Newsletter Emails?"
-msgstr "¿Cómo Componer y Enviar correos de newsletter estáticos?"
+msgid "How to Add/Update Existing Subscribers List & Status?"
+msgstr "¿Cómo Añadir/Actualizar un Grupo de Suscriptores Existentes?"
 
-#: help/help.php:144
-#, fuzzy
-msgid ""
-"How to Configure and Send Post Notification emails to subscribers when new "
-"posts are published?"
-msgstr ""
-"¿Cómo Configurar y Enviar correos de notificación para suscriptores cuando "
-"se publican nuevas entradas?"
-
-#: help/help.php:129
+#: admin/partials/help.php:45 help/help.php:339
 msgid "How to Import or Export Email Addresses?"
 msgstr "¿Cómo importar y exportar direcciones de correo?"
 
-#: help/help.php:171
-msgid "How to Schedule Cron Emails in Parallels Plesk?"
-msgstr "¿Cómo Programar Correos Cron en Parallels Plesk?"
-
-#: help/help.php:168
-msgid "How to Schedule Cron Emails in cPanel?"
-msgstr "¿Cómo programar correos Cron en cPanel?"
-
-#: help/help.php:165
-msgid "How to Schedule Cron Mails?"
-msgstr "¿Cómo Programar correos Cron?"
-
-#: help/help.php:147
-msgid "How to Send a sample new post notification email to testgroup/myself?"
+#: admin/partials/help.php:35 help/help.php:321
+msgid "How to Redirect Subscribers to a new page/url after successful sign up?"
 msgstr ""
-"¿Cómo Enviar un correo de notificación de nueva entrada de ejemplo a mi "
-"grupo de testeo/yo mismo?"
 
-#: help/help.php:135
+#: admin/partials/help.php:48 help/help.php:348
 msgid "How to add Unsubscribe link in emails?"
 msgstr "¿Cómo añadir un enlace de cancelación de suscripción en los correos?"
 
-#: help/help.php:132
-msgid "How to change/update/translate any texts from Email Subscribers?"
+#: admin/partials/help.php:36 help/help.php:324
+msgid "How to add captcha in Subscribe form of Email Subscribers?"
+msgstr ""
+
+#: admin/partials/help.php:47 help/help.php:345
+#, fuzzy
+msgid "How to change/update/translate any texts from the plugin?"
 msgstr ""
 "¿Cómo cambiar/actualizar/traducir cualquier texto de Email Subscribers?"
 
-#: help/help.php:150
+#: admin/partials/help.php:49 help/help.php:351
 #, fuzzy
-msgid "How to check Sent emails reports?"
+msgid "How to check sent emails?"
 msgstr "¿Cómo revisar correos enviados?"
 
-#: help/help.php:159
-msgid "How to show subscribe form inside a popup?"
-msgstr "¿Cómo mostrar el formulario de suscripción dentro de un popup?"
+#: admin/partials/help.php:75 help/help.php:416 help/help.php:434
+msgid "How to enable consent checkbox in the subscribe form?"
+msgstr ""
 
-#: help/help.php:162
-msgid "How to use Rainmaker’s form in Email Subscribers?"
-msgstr "¿Cómo utilizar el formulario de Rainmaker en Email Subscribers?"
+#: admin/partials/dashboard.php:122 help/help.php:205
+#, fuzzy
+msgid "I have read and agreed to your %s."
+msgstr "He leído y estoy de acuerdo on la %s de este sitio."
 
 #. Author of the plugin/theme
+#: help/help.php:475
 msgid "Icegram"
 msgstr "Icegram"
 
-#: settings/settings-edit.php:242
+#: admin/partials/help.php:104 help/help.php:478
+msgid ""
+"Icegram's beautiful designs instantly capture user attention and help "
+"increase sign-ups to your WordPress website."
+msgstr ""
+
+#: includes/admin/class-es-admin-settings.php:341
+msgid ""
+"If Double Optin is set, contact will receive confirmation email with above "
+"content. You can use {{NAME}}, {{EMAIL}}, {{SUBSCRIBE-LINK}} keywords"
+msgstr ""
+
+#: classes/es-register.php:819
+msgid ""
+"If you like <strong>Email Subscribers</strong>, please consider leaving us a "
+"<a target=\"_blank\" href=\"https://wordpress.org/support/plugin/email-"
+"subscribers/reviews/?filter=5#new-post\">&#9733;&#9733;&#9733;&#9733;&#9733;"
+"</a> rating. A huge thank you from Icegram in advance!"
+msgstr ""
+
+#: includes/admin/class-es-admin-settings.php:177
+#: settings/settings-edit.php:117
 msgid "Image Size"
 msgstr "Tamaño de imagen"
 
-#: subscribers/view-subscriber-add.php:110
-#: subscribers/view-subscriber-edit.php:109
-#: subscribers/view-subscriber-export.php:34
-#: subscribers/view-subscriber-import.php:239
-#: subscribers/view-subscriber-show.php:242
-#: subscribers/view-subscriber-sync.php:89
+#: subscribers/view-subscriber-add.php:115
+#: subscribers/view-subscriber-edit.php:110
+#: subscribers/view-subscriber-export.php:56
+#: subscribers/view-subscriber-import.php:237
+#: subscribers/view-subscriber-show.php:244
+#: subscribers/view-subscriber-sync.php:90
 msgid "Import"
 msgstr "Importar"
 
-#: subscribers/view-subscriber-import.php:150
+#: includes/admin/class-es-export-subscribers.php:104
+#: includes/admin/class-es-subscribers-table.php:56
+msgid "Import Contacts"
+msgstr "Importar contactos"
+
+#: subscribers/view-subscriber-import.php:154
 msgid "Import Email Addresses"
 msgstr "Importar Direcciones Correo"
 
-#: subscribers/view-subscriber-add.php:70
+#: includes/admin/class-es-import-subscribers.php:15
+msgid "Import Subscribers"
+msgstr "Importar suscriptores"
+
+#: includes/admin/class-es-campaigns-table.php:182
+#: includes/class-es-common.php:322
+msgid "Inactive"
+msgstr "Inactivo"
+
+#: subscribers/view-subscriber-export.php:106
+msgid "Inactive Subscribers (Status: Unconfirmed & Unsubscribed)"
+msgstr ""
+
+#: admin/partials/pricing.php:245
+msgid "Insert "
+msgstr "Insertar"
+
+#: includes/admin/class-es-handle-subscription.php:389
+msgid "Invalid Captcha"
+msgstr "Captcha no válido"
+
+#: subscribers/view-subscriber-add.php:74
 msgid "Invalid Email."
 msgstr "Correo no válido."
 
-#: classes/es-register.php:260
+#: includes/admin/class-es-cron.php:243 includes/admin/class-es-cron.php:244
+#: includes/admin/class-es-cron.php:245
+msgid "Invalid GUID."
+msgstr "GUID no válido."
+
+#: includes/admin/class-es-handle-subscription.php:383
+#: public/class-email-subscribers-public.php:115
+msgid "Invalid email address"
+msgstr "DIrección de correo electrónico no válida"
+
+#: classes/es-register.php:263
 msgctxt "widget-enhanced-select"
-msgid "Invalid email address."
-msgstr "Dirección de correo electrónico no válida."
+msgid "Invalid email address"
+msgstr "DIrección de correo electrónico no válida"
 
 #: classes/es-register.php:277
 msgctxt "widget-page-enhanced-select"
-msgid "Invalid email address."
-msgstr "Dirección de correo electrónico no válida."
+msgid "Invalid email address"
+msgstr "DIrección de correo electrónico no válida"
 
-#: settings/settings-edit.php:270 settings/settings-edit.php:313
+#: includes/admin/class-es-handle-subscription.php:384
+msgid "Invalid name"
+msgstr "Nombre no válido"
+
+#: settings/settings-edit.php:199
 msgid "It is a readonly field and you are advised not to modify it."
 msgstr "Es un campo de solo lectura y se recomienda no modificarlo."
 
-#: subscribers/view-subscriber-add.php:159
+#: subscribers/view-subscriber-add.php:164
 msgid "It is necessary to add an email to create a new group."
 msgstr ""
 
-#: sentmail/sentmail-show.php:99
+#: sentmail/sentmail-show.php:97
 msgid ""
 "It will show reports for all Newsletters & Post Notification emails sent."
 msgstr ""
@@ -1021,70 +2013,240 @@ msgstr ""
 msgid "Keyword: ###POSTTITLE###"
 msgstr "Keyword: ###POSTTITLE###"
 
-#: help/help.php:66
+#: admin/partials/help.php:60 help/help.php:366
 #, fuzzy
-msgid "Like Email Subscribers? Please consider %s."
-msgstr "Email Subscribers & Newsletters"
+msgid "Keywords in the Newsletters"
+msgstr "Palabras claves"
+
+#: admin/partials/help.php:83 help/help.php:376
+#, fuzzy
+msgid "Keywords in the Post Notifications"
+msgstr "Palabras claves"
+
+#: includes/admin/class-es-campaigns-table.php:256
+#: includes/admin/class-es-lists-table.php:19
+msgid "List"
+msgstr "Lista"
+
+#: includes/admin/class-es-lists-table.php:128
+#, fuzzy
+msgid "List has been added successfully!"
+msgstr "¡La lista se ha borrado correctamente!"
+
+#: includes/admin/class-es-lists-table.php:523
+msgid "List has been deleted successfully!"
+msgstr "¡La lista se ha borrado correctamente!"
+
+#: includes/admin/class-es-lists-table.php:169
+#: includes/admin/class-es-lists-table.php:506
+#, fuzzy
+msgid "List has been updated successfully!"
+msgstr "¡La lista se ha borrado correctamente!"
+
+#: includes/admin/class-es-subscribers-table.php:373
+#: includes/admin/class-es-subscribers-table.php:551
+msgid "List(s)"
+msgstr "Lista(s)"
+
+#: includes/admin/class-es-lists-table.php:538
+msgid "List(s) have been deleted successfully"
+msgstr "La(s) lista(s) se ha(n) borrado correctamente"
+
+#: admin/class-email-subscribers-admin.php:139 admin/partials/dashboard.php:84
+#: includes/admin/class-es-forms-table.php:290
+#: includes/admin/class-es-lists-table.php:20
+#: includes/admin/class-es-lists-table.php:66
+msgid "Lists"
+msgstr "Listas"
 
 #: cron/cron-add.php:96
 msgid "Mail Count"
 msgstr "Contador Correos"
 
-#: notification/notification-show.php:64 notification/notification-show.php:72
-msgid "Mail Subject"
-msgstr "Asunto Correo"
-
-#: sendmail/sendmail.php:136 settings/settings-edit.php:215
+#: sendmail/sendmail.php:138
 #, fuzzy
 msgid "Mail Type"
 msgstr "Tipo de Correo"
 
-#: sendmail/sendmail.php:58
-msgid "Mail sent successfully. "
-msgstr "Correo enviado con éxito. "
+#: includes/admin/class-es-export-subscribers.php:105
+#: includes/admin/class-es-handle-sync-wp-user.php:72
+#: includes/admin/class-es-import-subscribers.php:209
+#: includes/admin/class-es-lists-table.php:212
+#: includes/admin/class-es-subscribers-table.php:58
+#: includes/admin/class-es-subscribers-table.php:121
+msgid "Manage Lists"
+msgstr "Gestionar listas"
 
-#: settings/settings-edit.php:248
+#: includes/admin/class-es-campaigns-table.php:52
+#: includes/admin/class-es-newsletters.php:77
+#: includes/admin/class-es-post-notifications.php:238
+#, fuzzy
+msgid "Manage Templates"
+msgstr "Plantillas"
+
+#: includes/admin/class-es-admin-settings.php:444
+msgid "Maximum Emails Send In An Hour"
+msgstr "Número máximo de correos enviados a la hora"
+
+#: includes/class-es-common.php:439 settings/settings-edit.php:123
 msgid "Medium Size"
 msgstr "Tamaño Medio"
 
-#: settings/settings-edit.php:290 settings/settings-edit.php:363
-#: subscribers/view-subscriber-sync.php:105
+#: admin/partials/help.php:42
+msgid "Modify "
+msgstr "Modificar"
+
+#: help/help.php:333
+#, fuzzy
+msgid "Modify %s"
+msgstr "Modificar"
+
+#: includes/admin/class-es-subscribers-table.php:583
+msgid "Move To List"
+msgstr "Mover a lista"
+
+#: classes/es-register.php:1191 includes/admin/class-es-old-widget.php:83
+#: settings/settings-edit.php:144 settings/settings-edit.php:219
+#: subscribers/view-subscriber-sync.php:106
 msgid "NO"
 msgstr "NO"
 
-#: classes/es-loadwidget.php:24 classes/es-register.php:517
-#: classes/es-register.php:520 subscribers/view-subscriber-show.php:365
-#: subscribers/view-subscriber-show.php:379
+#: classes/es-loadwidget.php:34 classes/es-register.php:1116
+#: includes/admin/class-es-admin-settings.php:131
+#: includes/admin/class-es-admin-settings.php:134
+#: includes/admin/class-es-campaigns-table.php:254
+#: includes/admin/class-es-export-subscribers.php:222
+#: includes/admin/class-es-forms-table.php:276
+#: includes/admin/class-es-forms-table.php:634
+#: includes/admin/class-es-lists-table.php:223
+#: includes/admin/class-es-lists-table.php:425
+#: includes/admin/class-es-subscribers-table.php:365
+#: includes/admin/class-es-subscribers-table.php:549
+#: public/partials/class-es-shortcode.php:138
+#: subscribers/view-subscriber-show.php:301
 msgid "Name"
 msgstr "Nombre"
 
-#: classes/es-register.php:151 classes/es-register.php:152
-#: sendmail/sendmail.php:92
+#: includes/admin/class-es-forms-table.php:226
+msgid "New Form"
+msgstr "Nuevo formulario"
+
+#: classes/es-register.php:847
+#: includes/class-email-subscribers-activator.php:49
+#, fuzzy
+msgid "New Templates"
+msgstr "Plantillas"
+
+#: includes/admin/class-es-admin-settings.php:370
+msgid "New email subscription"
+msgstr "Nueva suscripción de correo"
+
+#: classes/es-register.php:964
+#, fuzzy
+msgid "Newsletter"
+msgstr "para la lista de correo:"
+
+#: admin/partials/help.php:57 classes/es-register.php:174
+#: classes/es-register.php:175 help/help.php:360 sendmail/sendmail.php:93
+#: settings/settings-edit.php:325
 msgid "Newsletters"
 msgstr "Boletines informativos"
 
 #: roles/roles-add.php:156
+#, fuzzy
 msgid "Newsletters + Cron Settings Menu"
-msgstr ""
+msgstr "Menú Envío Correo/Menú Cron"
 
-#: notification/notification-add.php:236 notification/notification-edit.php:273
+#: includes/admin/class-es-admin-settings.php:358
+#: includes/admin/class-es-admin-settings.php:394
+#: includes/admin/class-es-export-subscribers.php:58
+#: includes/admin/class-es-forms-table.php:319
+#: includes/admin/class-es-handle-sync-wp-user.php:109
+#: includes/admin/class-es-reports-table.php:96
+#: includes/admin/class-es-widget.php:49
+msgid "No"
+msgstr "No"
+
+#: includes/admin/class-es-campaigns-table.php:158
+msgid "No Campaigns Found."
+msgstr "No se han encontrado campañas."
+
+#: includes/class-es-common.php:408 notification/notification-add.php:238
+#: notification/notification-edit.php:273
 msgid "No Custom Post Types Available"
 msgstr "No hay Tipos de Entrada Personalizadas Disponibles"
 
-#: subscribers/view-subscriber-show.php:99
-#: subscribers/view-subscriber-show.php:138
-#: subscribers/view-subscriber-show.php:176
-#: subscribers/view-subscriber-show.php:215
+#: includes/admin/class-es-reports-table.php:154
+msgid "No Data"
+msgstr "No hay datos."
+
+#: includes/admin/class-es-forms-table.php:767
+msgid "No Forms avaliable."
+msgstr "No hay formularios disponibles."
+
+#: includes/admin/class-es-reports-table.php:167
+msgid "No Reports avaliable."
+msgstr "No hay informes disponibles."
+
+#: classes/es-register.php:851
+#: includes/class-email-subscribers-activator.php:53
+msgid "No Templates found"
+msgstr "No se han encontrado plantillas"
+
+#: classes/es-register.php:852
+#: includes/class-email-subscribers-activator.php:54
+#, fuzzy
+msgid "No Templates found in Trash"
+msgstr "Calendarios no encontrados en la Papelera"
+
+#: includes/admin/class-es-subscribers-table.php:793
+msgid "No contacts avaliable."
+msgstr "No hay contactos disponibles."
+
+#: includes/admin/class-es-export-subscribers.php:27
+msgid "No data available"
+msgstr "No hay datos disponibles"
+
+#: includes/admin/class-es-subscribers-table.php:358
+msgid "No list found"
+msgstr "No se ha encontrado ninguna lista"
+
+#: includes/admin/class-es-lists-table.php:574
+msgid "No lists avaliable."
+msgstr "No hay listas disponibles."
+
+#: includes/admin/class-es-cron.php:242
+#, fuzzy
+msgid "No notifications found to send."
+msgstr "Calendarios no encontrados"
+
+#: subscribers/view-subscriber-show.php:100
+#: subscribers/view-subscriber-show.php:139
+#: subscribers/view-subscriber-show.php:178
+#: subscribers/view-subscriber-show.php:217
 msgid "No record was selected."
 msgstr "No se seleccionó ningún registro."
 
-#: compose/compose-show.php:124 notification/notification-show.php:139
-#: sentmail/deliverreport-show.php:113 sentmail/sentmail-show.php:166
-#: subscribers/view-subscriber-show.php:438
+#: compose/compose-show.php:124 notification/notification-show.php:143
+#: sentmail/deliverreport-show.php:128 sentmail/sentmail-show.php:180
+#: subscribers/view-subscriber-show.php:468
 msgid "No records available."
 msgstr "No hay registros disponibles."
 
-#: sentmail/sentmail-show.php:185
+#: includes/admin/class-es-cron.php:246
+msgid "Not allowed to process request."
+msgstr "No se permite procesar la petición."
+
+#: classes/es-register.php:740
+#, fuzzy
+msgid "Not interested."
+msgstr ""
+"Una vez que hayas generado una lista de temas puedes previsualizar e "
+"instalar cualquiera de ellos. Haz clic en la miniatura del tema que quieras "
+"previsualizar. Se abrirá una vista previa a pantalla completa para darte una "
+"mejor idea de como se verá ese tema."
+
+#: sentmail/sentmail-show.php:201
 msgid ""
 "Note: Please click on <strong>Optimize Table & Delete Records</strong> "
 "button to delete all reports except latest 10."
@@ -1092,22 +2254,44 @@ msgstr ""
 "Nota: Por favor, haz clic en el botón <strong>Optimizar Tabla y Borrar "
 "Registros</strong> para borrar todos los informes excepto los últimos 10."
 
-#: notification/notification-show.php:67 notification/notification-show.php:75
+#: notification/notification-show.php:71 notification/notification-show.php:79
 msgid "Notification Status"
 msgstr "Estado de Notificación"
 
-#: notification/notification-add.php:70
+#: notification/notification-add.php:71
 msgid "Notification successfully created. "
 msgstr "La notificación se ha creado con éxito. "
 
-#: notification/notification-edit.php:88
+#: notification/notification-edit.php:89
 msgid "Notification successfully updated. "
 msgstr "Notificación actualizada con éxito. "
 
-#: settings/settings-edit.php:356
+#: includes/admin/class-es-post-notifications.php:286
+msgid ""
+"Notification will be sent out when any post from selected categories will be "
+"published."
+msgstr ""
+
+#: includes/admin/class-es-admin-settings.php:78
+msgid "Notifications"
+msgstr "Notificaciones"
+
+#: settings/settings-edit.php:137
 #, fuzzy
-msgid "Notify Admin about New Subscriber"
+msgid "Notify Admin when a new subscriber signs up"
 msgstr "Añadir Nuevo Suscriptor"
+
+#: includes/admin/class-es-admin-settings.php:354
+#: includes/admin/class-es-admin-settings.php:390
+msgid "Notify?"
+msgstr "¿Notificar?"
+
+#: settings/settings-edit.php:365
+#, fuzzy
+msgid "Number of emails that you want to trigger per hour."
+msgstr ""
+"Por favor, introduce el número de correos que quieres enviar por hora/"
+"disparador."
 
 #: cron/cron-add.php:97
 #, fuzzy
@@ -1116,19 +2300,44 @@ msgstr ""
 "Por favor, introduce el número de correos que quieres enviar por hora/"
 "disparador."
 
+#: includes/class-email-subscribers.php:124
+msgid "OK, I Got it!"
+msgstr "¡Vale, lo pillo!"
+
+#: classes/es-register.php:779
+#, fuzzy
+msgid "Ok, got it"
+msgstr "¡Vale, lo pillo!"
+
+#: includes/admin/class-es-admin-settings.php:240
+msgid ""
+"Once contact clicks on unsubscribe link, he/she will be redirected to a page "
+"where this message will be shown."
+msgstr ""
+
+#: subscribers/view-subscriber-export.php:12
+msgid ""
+"Oops! Looks like you are not the site administrator.<br><br>Only the site "
+"administrator can export subscriber list."
+msgstr ""
+
 #: compose/compose-edit.php:19 compose/compose-preview.php:17
-#: compose/compose-show.php:32 notification/notification-edit.php:19
-#: notification/notification-show.php:20 sentmail/sentmail-preview.php:17
-#: sentmail/sentmail-show.php:21 settings/settings-edit.php:19
-#: subscribers/view-subscriber-edit.php:21
+#: compose/compose-show.php:32 notification/notification-edit.php:20
+#: notification/notification-show.php:21 sentmail/sentmail-preview.php:18
+#: sentmail/sentmail-show.php:22 subscribers/view-subscriber-edit.php:22
 msgid "Oops, selected details does not exists."
 msgstr "Ups, los detalles seleccionados no existen."
 
-#: settings/settings-edit.php:157
+#: settings/settings-edit.php:570
 msgid "Oops, unable to update."
 msgstr "Ups, no se ha podido actualizadar."
 
-#: classes/es-register.php:259
+#: includes/admin/class-es-handle-subscription.php:382
+#: public/class-email-subscribers-public.php:114
+msgid "Oops.. Unexpected error occurred."
+msgstr "Ups... Ha ocurrido un error inesperado."
+
+#: classes/es-register.php:262
 msgctxt "widget-enhanced-select"
 msgid "Oops.. Unexpected error occurred."
 msgstr "Ups. Ha sucedido un error inesperado."
@@ -1138,15 +2347,15 @@ msgctxt "widget-page-enhanced-select"
 msgid "Oops.. Unexpected error occurred."
 msgstr "Ups. Ha sucedido un error inesperado."
 
-#: sentmail/deliverreport-show.php:13
+#: sentmail/deliverreport-show.php:14
 msgid "Oops.. Unexpected error occurred. Please try again."
 msgstr "Ups. Ha sucedido un error inesperado. Por favor, inténtelo de nuevo."
 
-#: sendmail/sendmail.php:68
+#: sendmail/sendmail.php:69
 msgid "Oops.. We are getting some error. mail not sending."
 msgstr "Ups. Estamos obteniendo algún error. No se envía correo."
 
-#: job/es-optin.php:57 job/es-optin.php:67 job/es-unsubscribe.php:54
+#: job/es-optin.php:58 job/es-optin.php:68 job/es-unsubscribe.php:54
 #: job/es-unsubscribe.php:61
 msgid ""
 "Oops.. We are getting some technical error. Please try again or contact "
@@ -1155,58 +2364,127 @@ msgstr ""
 "Ups. Estamos teniendo algún problema técnico. Por favor inténtalo otra vez o "
 "contacta al administrador."
 
-#: settings/settings-edit.php:230
-#, fuzzy
-msgid "Opt-in Option"
-msgstr "Opción Aceptación"
+#: includes/admin/class-es-admin-settings.php:218
+msgid ""
+"Oops.. Your request couldn't be completed. This email address seems to be "
+"already subscribed / blocked."
+msgstr ""
 
-#: sentmail/sentmail-show.php:176
+#: includes/admin/class-es-handle-subscription.php:386
+#, fuzzy
+msgid "Oops...unable to add subscriber"
+msgstr "Añadir Suscriptor"
+
+#: settings/settings-edit.php:105
+#, fuzzy
+msgid "Opt-In Type"
+msgstr "Tipo de Calendario"
+
+#: includes/admin/class-es-admin-settings.php:168
+#, fuzzy
+msgid "Opt-in Type"
+msgstr "Tipo de Calendario"
+
+#: sentmail/sentmail-show.php:190
 msgid "Optimize Table & Delete Records"
 msgstr "Optimizar Tabla y Borrar Registros"
 
-#: settings/settings-edit.php:216
+#: settings/settings-edit.php:91
 #, fuzzy
 msgid ""
-"Option 1 & 2 is to send mails with default Wordpress method wp_mail(). "
-"Option 3 & 4 is to send mails with PHP method mail()."
+"Option 1 & 2 is to send emails with default Wordpress method wp_mail(). "
+"Option 3 & 4 is to send emails with PHP method mail()."
 msgstr ""
 "Las opciones 1 y 2 envían correos con el método por defecto de WordPress "
 "wp_mail(). Las opciones 3 y 4 envían correos con el método PHP mail()."
 
-#: base/es-defined.php:43
-#, fuzzy
+#: base/es-defined.php:48
 msgid "Options"
-msgstr "Acciones"
+msgstr "Opciones"
 
-#: classes/es-register.php:252
+#: includes/class-email-subscribers.php:122
+msgid "Or schedule Cron in <a href=\"%s\" target=\"_blank\">cPanel</a>"
+msgstr ""
+
+#: includes/class-email-subscribers.php:123
+msgid ""
+"Or use <strong><a href=\"%s\" target=\"_blank\">Email Subscribners Pro</a></"
+"strong> for automatic Cron support"
+msgstr ""
+
+#: includes/class-es-common.php:419
+msgid "PHP HTML MAIL"
+msgstr "PHP HTML MAIL"
+
+#: includes/class-es-common.php:420
+#, fuzzy
+msgid "PHP PLAINTEXT MAIL"
+msgstr "4. PHP CORREO TEXTO PLANO"
+
+#: admin/partials/dashboard.php:94
+msgid "Paste below PHP code to your desired location :"
+msgstr ""
+
+#: includes/class-es-common.php:418
+#, fuzzy
+msgid "Plain Text Mail"
+msgstr "Texto sin formato"
+
+#: includes/admin/class-es-subscribers-table.php:145
+#, fuzzy
+msgid "Please Select List"
+msgstr "Por favor, selecciona la lista."
+
+#: includes/admin/class-es-tools.php:53
+#, fuzzy
+msgid "Please add email"
+msgstr "Añadir"
+
+#: includes/admin/class-es-forms-table.php:88
+msgid "Please add form name."
+msgstr "Por favor, añade el nombre del formulario."
+
+#: includes/admin/class-es-lists-table.php:85
+msgid "Please add list name"
+msgstr "Por favor, añade nombre de lista"
+
+#: includes/admin/class-es-campaigns-table.php:361
+#, fuzzy
+msgid "Please check campaign(s) to delete."
+msgstr "Por favor, elige formulario(s) para eliminar."
+
+#: includes/admin/class-es-handle-subscription.php:377
+#: public/class-email-subscribers-public.php:109
+#, fuzzy
+msgid "Please enter email address"
+msgstr "Por favor introduce dirección de correo."
+
+#: classes/es-register.php:258
+#, fuzzy
 msgctxt "widget-enhanced-select"
-msgid "Please enter email address."
+msgid "Please enter email address"
 msgstr "Por favor introduce dirección de correo."
 
-#: classes/es-register.php:269
+#: classes/es-register.php:272
+#, fuzzy
 msgctxt "widget-page-enhanced-select"
-msgid "Please enter email address."
+msgid "Please enter email address"
 msgstr "Por favor introduce dirección de correo."
 
-#: classes/es-register.php:198
-msgctxt "compose-enhanced-select"
-msgid "Please enter name for configuration."
-msgstr "Por favor, introduce nombre para configuración."
-
-#: settings/settings-edit.php:121
+#: settings/settings-edit.php:510
 msgid "Please enter sender of notifications from email."
 msgstr "Por favor introduce el correo 'de' para el emisor de notificaciones."
 
-#: settings/settings-edit.php:116
+#: settings/settings-edit.php:505
 msgid "Please enter sender of notifications from name."
 msgstr "Por favor introduce el nombre 'de' para el emisor de notificaciones."
 
-#: subscribers/view-subscriber-add.php:35
-#: subscribers/view-subscriber-edit.php:53
+#: subscribers/view-subscriber-add.php:39
+#: subscribers/view-subscriber-edit.php:54
 msgid "Please enter subscriber email address."
 msgstr "Por favor introduce la dirección de correo de suscriptor."
 
-#: classes/es-register.php:178
+#: classes/es-register.php:195
 msgctxt "view-subscriber-enhanced-select"
 msgid "Please enter subscriber email address."
 msgstr "Por favor introduce la dirección de correo de suscriptor."
@@ -1215,84 +2493,104 @@ msgstr "Por favor introduce la dirección de correo de suscriptor."
 msgid "Please enter template heading."
 msgstr "Por favor, indica un encabezado de plantilla."
 
-#: classes/es-register.php:239
+#: classes/es-register.php:245
 msgctxt "cron-enhanced-select"
 msgid "Please enter the mail count, only number."
 msgstr "Por favor, introduce el conteo de correos, sólo numérico."
 
-#: cron/cron-add.php:23
+#: cron/cron-add.php:23 settings/settings-edit.php:554
 msgid "Please enter valid mail count."
 msgstr "Por favor, introduzca una cuenta de correo válida."
 
-#: classes/es-register.php:253
-msgctxt "widget-enhanced-select"
-msgid "Please provide a valid email address."
-msgstr "Por favor introduce una dirección de correo válida."
+#: includes/admin/class-es-handle-sync-wp-user.php:84
+#, fuzzy
+msgid "Please select List"
+msgstr "Por favor, selecciona la lista."
 
-#: classes/es-register.php:270
-msgctxt "widget-page-enhanced-select"
-msgid "Please provide a valid email address."
-msgstr "Por favor introduce una dirección de correo válida."
-
-#: subscribers/view-subscriber-show.php:206
+#: subscribers/view-subscriber-show.php:208
 msgid "Please select New Status to update."
 msgstr "Por favor, elige Nuevo Estado para actualizar."
 
-#: subscribers/view-subscriber-show.php:167
+#: subscribers/view-subscriber-show.php:169
 msgid "Please select New group to update."
 msgstr "Por favor, elige Nuevo grupo para actualizar."
 
-#: subscribers/view-subscriber-sync.php:35
+#: includes/admin/class-es-post-notifications.php:59
+#, fuzzy
+msgid "Please select categories."
+msgstr "Por favor selecciona categorías de entrada."
+
+#: subscribers/view-subscriber-sync.php:36
 msgid "Please select default group to newly registered user."
 msgstr ""
 "Por favor selecciona el grupo por defecto para el usuario recién registrado."
 
-#: classes/es-register.php:238
+#: classes/es-register.php:244
 msgctxt "cron-enhanced-select"
 msgid "Please select enter number of mails you want to send per hour/trigger."
 msgstr ""
 "Por favor, introduce el número de correos que quieres enviar por hora/"
 "disparador."
 
-#: classes/es-register.php:186
+#: includes/admin/class-es-forms-table.php:734
+msgid "Please select form(s) to delete."
+msgstr "Por favor, elige formulario(s) para eliminar."
+
+#: includes/admin/class-es-lists-table.php:541
+msgid "Please select list"
+msgstr "Por favor, selecciona la lista."
+
+#: includes/admin/class-es-forms-table.php:93
+msgid "Please select list(s) in which contact will be subscribed."
+msgstr ""
+
+#: includes/admin/class-es-newsletters.php:49
+#: includes/admin/class-es-post-notifications.php:43
+#: includes/admin/class-es-subscribers-table.php:774
+msgid "Please select list."
+msgstr "Por favor, selecciona la lista."
+
+#: classes/es-register.php:203
 msgctxt "view-subscriber-enhanced-select"
 msgid "Please select new status for subscribers"
 msgstr "Por favor, selecciona un nuevo estado para los suscriptores"
 
-#: classes/es-register.php:185
+#: classes/es-register.php:202
 msgctxt "view-subscriber-enhanced-select"
 msgid "Please select new subscriber group."
 msgstr "Por favor selecciona un nuevo grupo de suscriptores."
 
-#: notification/notification-add.php:44 notification/notification-edit.php:60
+#: notification/notification-add.php:45 notification/notification-edit.php:61
+#, fuzzy
 msgid ""
-"Please select notification mail subject. Use compose menu to create new."
+"Please select notification mail subject. Use templates menu to create new."
 msgstr ""
 "Por favor selecciona el asunto de notificación del correo. Utiliza el menú "
 "componer para crear uno nuevo."
 
-#: classes/es-register.php:209
+#: classes/es-register.php:215
+#, fuzzy
 msgctxt "notification-enhanced-select"
 msgid ""
-"Please select notification mail subject. Use compose menu to create new."
+"Please select notification mail subject. Use templates menu to create new."
 msgstr ""
 "Por favor selecciona el asunto de notificación del correo. Utiliza el menú "
 "componer para crear uno nuevo."
 
-#: notification/notification-edit.php:54
+#: notification/notification-edit.php:55
 msgid "Please select notification status"
 msgstr "Por favor, selecciona el estado de notificación"
 
-#: notification/notification-add.php:38
+#: notification/notification-add.php:39
 msgid "Please select notification status."
 msgstr "Por favor selecciona el estado de notificación."
 
-#: classes/es-register.php:210
+#: classes/es-register.php:216
 msgctxt "notification-enhanced-select"
 msgid "Please select notification status."
 msgstr "Por favor selecciona el estado de notificación."
 
-#: classes/es-register.php:190
+#: classes/es-register.php:206
 msgctxt "view-subscriber-enhanced-select"
 msgid ""
 "Please select only csv file. Please check official website for csv "
@@ -1301,48 +2599,61 @@ msgstr ""
 "Por favor selecciona el archivo de entrada csv. Por favor, consulta el sitio "
 "oficial para ver la estructura csv."
 
-#: classes/es-register.php:180
+#: classes/es-register.php:197
 msgctxt "view-subscriber-enhanced-select"
 msgid "Please select or create group for this subscriber."
 msgstr "Por favor selecciona o crea grupo para este suscriptor."
 
-#: subscribers/view-subscriber-add.php:48
+#: subscribers/view-subscriber-add.php:52
 msgid "Please select or create your group for this email."
 msgstr "Por favor selecciona o crea tu grupo para este correo."
 
-#: notification/notification-add.php:50 notification/notification-edit.php:66
+#: notification/notification-add.php:51 notification/notification-edit.php:67
 msgid "Please select post categories."
 msgstr "Por favor selecciona categorías de entrada."
 
-#: classes/es-register.php:179
+#: includes/admin/class-es-subscribers-table.php:753
+msgid "Please select status."
+msgstr "Por favor, selecciona el estado."
+
+#: classes/es-register.php:196
 msgctxt "view-subscriber-enhanced-select"
 msgid "Please select subscriber email status."
 msgstr "Por favor selecciona el estado de correo de suscriptor."
 
-#: notification/notification-edit.php:48
+#: notification/notification-edit.php:49
 msgid "Please select subscribers group"
 msgstr "Por favor, selecciona el grupo de suscriptores"
 
-#: notification/notification-add.php:32
+#: notification/notification-add.php:33
 msgid "Please select subscribers group."
 msgstr "Por favor selecciona el grupo de suscriptores."
 
-#: classes/es-register.php:208
+#: classes/es-register.php:214
 msgctxt "notification-enhanced-select"
 msgid "Please select subscribers group."
 msgstr "Por favor selecciona el grupo de suscriptores."
 
-#: classes/es-register.php:199
-msgctxt "compose-enhanced-select"
-msgid "Please select template for this configuration."
-msgstr "Por favor selecciona una plantilla para esta configuración."
+#: includes/admin/class-es-subscribers-table.php:730
+#, fuzzy
+msgid "Please select subscribers to update."
+msgstr "Por favor selecciona el grupo de suscriptores."
 
-#: classes/es-register.php:182
+#: includes/admin/class-es-newsletters.php:46
+#: includes/admin/class-es-post-notifications.php:51
+msgid "Please select template."
+msgstr "Por favor, selecciona plantilla."
+
+#: classes/es-register.php:199
 msgctxt "view-subscriber-enhanced-select"
 msgid "Please select the bulk action."
 msgstr "Por favor selecciona la acción en bloque."
 
-#: sendmail/sendmail.php:51
+#: includes/admin/class-es-handle-subscription.php:388
+msgid "Please select the list"
+msgstr "Por favor, selecciona la lista"
+
+#: sendmail/sendmail.php:52
 msgid "Please select your group."
 msgstr "Por favor selecciona tu grupo."
 
@@ -1350,85 +2661,179 @@ msgstr "Por favor selecciona tu grupo."
 msgid "Please select your mail status"
 msgstr "Por favor, selecciona el estado de tu correo"
 
-#: sendmail/sendmail.php:39
+#: sendmail/sendmail.php:40
 msgid "Please select your mail subject."
 msgstr "Por favor selecciona el asunto de tu correo."
 
-#: classes/es-register.php:219
+#: classes/es-register.php:225
 msgctxt "sendmail-enhanced-select"
 msgid "Please select your mail subject."
 msgstr "Por favor selecciona el asunto de tu correo."
 
-#: sendmail/sendmail.php:45
+#: sendmail/sendmail.php:46
 msgid "Please select your mail type."
 msgstr "Por favor selecciona tu tipo de correo."
 
-#: classes/es-register.php:220
+#: classes/es-register.php:226
 msgctxt "sendmail-enhanced-select"
 msgid "Please select your mail type."
 msgstr "Por favor selecciona tu tipo de correo."
 
-#: classes/es-register.php:261
+#: includes/admin/class-es-handle-subscription.php:385
+#: public/class-email-subscribers-public.php:116
+msgid "Please try after some time"
+msgstr "Por favor, vuelve a intentarlo pasados unos minutos"
+
+#: classes/es-register.php:264
 msgctxt "widget-enhanced-select"
-msgid "Please try after some time."
-msgstr "Por favor inténtalo en otro momento."
+msgid "Please try after some time"
+msgstr "Por favor, vuelve a intentarlo pasados unos minutos"
 
 #: classes/es-register.php:278
 msgctxt "widget-page-enhanced-select"
-msgid "Please try after some time."
-msgstr "Por favor inténtalo en otro momento."
+msgid "Please try after some time"
+msgstr "Por favor, vuelve a intentarlo pasados unos minutos"
 
-#: classes/es-register.php:148 classes/es-register.php:149
-#: notification/notification-show.php:51
+#: includes/admin/class-es-cron.php:248
+msgid "Please try after sometime."
+msgstr "Por favor, vuelve a intentarlo en un rato."
+
+#: notification/notification-show.php:70 notification/notification-show.php:78
+#, fuzzy
+msgid "Post Categories / Custom Post Types"
+msgstr "Taxonomías y tipos de artículos personalizados"
+
+#: classes/es-register.php:965
+#, fuzzy
+msgid "Post Notification"
+msgstr ""
+"¿Cómo Enviar un correo de notificación de nueva entrada de ejemplo a mi "
+"grupo de testeo/yo mismo?"
+
+#: admin/class-email-subscribers-admin.php:140 admin/partials/help.php:80
+#: classes/es-register.php:171 classes/es-register.php:172 help/help.php:370
+#: notification/notification-show.php:52
 msgid "Post Notifications"
 msgstr "Notificaciones de Publicación"
 
-#: roles/roles-add.php:144
+#: roles/roles-add.php:144 settings/settings-edit.php:313
 msgid "Post Notifications Menu"
 msgstr "Menú de Notificaciones de Publicación"
 
-#: compose/compose-show.php:116 sentmail/sentmail-show.php:110
-#: sentmail/sentmail-show.php:123
+#: includes/admin/class-es-post-notifications.php:78
+msgid "Post notification has been added successfully!"
+msgstr ""
+
+#: includes/admin/class-es-post-notifications.php:191
+#, fuzzy
+msgid "Post notification has been updated successfully!"
+msgstr "El grupo ha sido actualizado correctamente."
+
+#: classes/es-register.php:942 compose/compose-show.php:116
+#: sentmail/sentmail-show.php:108 sentmail/sentmail-show.php:121
 msgid "Preview"
 msgstr "Previsualizar"
 
-#: compose/compose-preview.php:26 sentmail/sentmail-preview.php:26
+#: includes/admin/class-es-reports-table.php:427
+#: sentmail/sentmail-preview.php:27
+#, fuzzy
+msgid "Preview Email"
+msgstr "Vista previa"
+
+#: compose/compose-preview.php:26
 msgid "Preview Mail"
 msgstr "Previsualizar Correo"
+
+#: classes/es-register.php:1012 includes/admin/class-es-templates-table.php:87
+#, fuzzy
+msgid "Preview Template"
+msgstr "Plantilla %"
+
+#: admin/partials/dashboard.php:122 help/help.php:205
+msgid "Privacy Policy"
+msgstr "Política de privacidad"
+
+#: admin/partials/pricing.php:227
+msgid "Protect your list from bot attacks"
+msgstr ""
 
 #: compose/compose-add.php:121 compose/compose-add.php:124
 #: compose/compose-edit.php:130 compose/compose-edit.php:133
 msgid "Published"
 msgstr "Publicado"
 
-#: sendmail/sendmail.php:208
+#: admin/partials/dashboard.php:145 help/help.php:217
+msgid "Questions? Need Help?"
+msgstr "¿Preguntas? ¿Necesitas ayuda?"
+
+#: help/help.php:492
+#, fuzzy
+msgid "Rainmaker"
+msgstr ""
+"Email Subscribers recomienda el plugin gratuito <b>Rainmaker</b> para "
+"recoger contactos instantáneamente"
+
+#: admin/partials/help.php:111 help/help.php:495
+msgid ""
+"Rainmaker extends the core features of Email Subscribers and provides "
+"elegant form styles."
+msgstr ""
+
+#: sendmail/sendmail.php:210
 msgid "Recipients : %s"
 msgstr "Destinatarios: %s"
 
-#: sendmail/sendmail.php:206
+#: sendmail/sendmail.php:208
 msgid "Recipients : 0 "
 msgstr "Destinatarios: 0 "
 
-#: subscribers/view-subscriber-show.php:55
-#: subscribers/view-subscriber-show.php:94
+#: subscribers/view-subscriber-show.php:56
+#: subscribers/view-subscriber-show.php:95
 msgid "Record deleted."
 msgstr "Registro borrado."
 
-#: classes/es-register.php:163 classes/es-register.php:164
-#: sentmail/sentmail-show.php:95
+#: admin/partials/pricing.php:241
+msgid ""
+"Reduce the risk of emails ending in trash or spam. Increase email "
+"deliverability by double checking emails for their "
+msgstr ""
+
+#: includes/admin/class-es-reports-table.php:19
+msgid "Report"
+msgstr "Informe"
+
+#: includes/admin/class-es-reports-table.php:379
+#, fuzzy
+msgid "Report has been deleted successfully!"
+msgstr "El menú se ha borrado con éxito."
+
+#: admin/class-email-subscribers-admin.php:142 admin/partials/dashboard.php:85
+#: classes/es-register.php:180 classes/es-register.php:181
+#: includes/admin/class-es-reports-table.php:20
+#: includes/admin/class-es-reports-table.php:43
+#: includes/admin/class-es-reports-table.php:82 sentmail/sentmail-show.php:93
 msgid "Reports"
 msgstr "Informes"
 
-#: roles/roles-add.php:180
+#: roles/roles-add.php:180 settings/settings-edit.php:337
 msgid "Reports Menu"
 msgstr "Menú de Informes"
 
-#: subscribers/view-subscriber-show.php:290
-#: subscribers/view-subscriber-show.php:423
+#: includes/admin/class-es-reports-table.php:406
+#, fuzzy
+msgid "Reports have been deleted successfully!"
+msgstr "Los menús seleccionados han sido eliminados con éxito."
+
+#: includes/admin/class-es-forms-table.php:268
+msgid "Required?"
+msgstr "¿Requerido?"
+
+#: subscribers/view-subscriber-show.php:314
+#: subscribers/view-subscriber-show.php:425
 msgid "Resend Confirmation"
 msgstr "Reenviar Confirmación"
 
-#: sendmail/sendmail.php:227
+#: sendmail/sendmail.php:230
 msgid "Reset"
 msgstr "Reiniciar"
 
@@ -1436,216 +2841,435 @@ msgstr "Reiniciar"
 msgid "Role Updated. "
 msgstr "Rol Actualizado. "
 
+#: includes/notices/views/html-notice-update.php:23
+msgid "Run the updater"
+msgstr "Ejecutar el actualizador"
+
 #: compose/compose-add.php:133 compose/compose-edit.php:143
-#: cron/cron-add.php:119 notification/notification-add.php:276
-#: notification/notification-edit.php:316 roles/roles-add.php:206
-#: subscribers/view-subscriber-edit.php:214
+#: cron/cron-add.php:119 notification/notification-add.php:268
+#: notification/notification-edit.php:304 roles/roles-add.php:206
+#: subscribers/view-subscriber-edit.php:215
 msgid "Save"
 msgstr "Guardar"
 
-#: settings/settings-edit.php:402
+#: settings/settings-edit.php:68
 msgid "Save Settings"
 msgstr "Guardar configuración"
 
-#: notification/notification-add.php:123 notification/notification-add.php:147
-#: notification/notification-edit.php:134
-#: notification/notification-edit.php:167 sendmail/sendmail.php:109
-#: sendmail/sendmail.php:142 sendmail/sendmail.php:162
-#: sendmail/sendmail.php:179 subscribers/view-subscriber-add.php:191
-#: subscribers/view-subscriber-edit.php:185
-#: subscribers/view-subscriber-import.php:219
-#: subscribers/view-subscriber-sync.php:118
+#: admin/partials/pricing.php:253
+msgid "Save time, use readymade email templates"
+msgstr ""
+
+#: admin/partials/help.php:68 help/help.php:393
+#, fuzzy
+msgid "Schedule Cron Emails in Parallels Plesk"
+msgstr "¿Cómo Programar Correos Cron en Parallels Plesk?"
+
+#: admin/partials/help.php:67 help/help.php:390
+#, fuzzy
+msgid "Schedule Cron Emails in cPanel"
+msgstr "¿Cómo programar correos Cron en cPanel?"
+
+#: help/help.php:277
+msgid "Schedule email (Cron job) or send them manually."
+msgstr ""
+
+#: classes/es-register.php:850
+#: includes/class-email-subscribers-activator.php:52
+#, fuzzy
+msgid "Search Templates"
+msgstr "Buscar"
+
+#: includes/admin/class-es-admin-settings.php:80
+msgid "Security"
+msgstr "Seguridad"
+
+#: notification/notification-add.php:125 notification/notification-add.php:149
+#: notification/notification-edit.php:136
+#: notification/notification-edit.php:169 sendmail/sendmail.php:111
+#: sendmail/sendmail.php:144 sendmail/sendmail.php:164
+#: sendmail/sendmail.php:181 subscribers/view-subscriber-add.php:196
+#: subscribers/view-subscriber-edit.php:186
+#: subscribers/view-subscriber-import.php:217
+#: subscribers/view-subscriber-sync.php:119
 msgid "Select"
 msgstr "Seleccionar"
 
-#: subscribers/view-subscriber-add.php:187
+#: subscribers/view-subscriber-add.php:192
 msgid "Select (or) Create Group for Subscriber"
 msgstr "Selecciona (o) Crear Grupo para Suscriptores"
 
-#: subscribers/view-subscriber-import.php:214
+#: subscribers/view-subscriber-import.php:212
 msgid "Select (or) Create Group for Subscribers"
 msgstr "Selecciona (o) Crear Grupo para Suscriptores"
 
-#: subscribers/view-subscriber-import.php:175
+#: includes/admin/class-es-import-subscribers.php:157
+#: subscribers/view-subscriber-import.php:179
 msgid "Select CSV file"
 msgstr "Selecciona archivo CSV"
 
-#: subscribers/view-subscriber-show.php:295
+#: sendmail/sendmail.php:106
+#, fuzzy
+msgid "Select Email Subject from available list"
+msgstr "Selecciona un asunto de correo de la lista disponible"
+
+#: sendmail/sendmail.php:159
+#, fuzzy
+msgid "Select Email Type"
+msgstr "Selecciona el tipo de plantilla de correo"
+
+#: subscribers/view-subscriber-show.php:319
 msgid "Select Group"
 msgstr "Seleccionar Grupo"
 
-#: sendmail/sendmail.php:104
-msgid "Select Mail Subject from available list"
-msgstr "Selecciona un asunto de correo de la lista disponible"
+#: includes/admin/class-es-newsletters.php:133
+#: includes/admin/class-es-post-notifications.php:247
+#, fuzzy
+msgid "Select List"
+msgstr "Selecciona lista"
 
-#: sendmail/sendmail.php:157
-msgid "Select Mail Type"
-msgstr "Seleccionar tipo de correo"
-
-#: notification/notification-add.php:141 notification/notification-edit.php:161
-msgid "Select Notification Mail Subject"
+#: notification/notification-add.php:143 notification/notification-edit.php:163
+#, fuzzy
+msgid "Select Notification Email Subject"
 msgstr "Seleccionar Asunto de Correo de notificación"
 
-#: notification/notification-add.php:249 notification/notification-edit.php:287
-msgid "Select Notification Status"
-msgstr "Seleccionar estado de notificación"
+#: notification/notification-add.php:249 notification/notification-edit.php:284
+#, fuzzy
+msgid "Select Notification Status when a new post is published"
+msgstr "Enviar correo inmediatamente cuando se publique una nueva entrada"
 
-#: notification/notification-add.php:166 notification/notification-edit.php:189
+#: notification/notification-add.php:168 notification/notification-edit.php:191
 msgid "Select Post Categories"
 msgstr "Seleccionar Categorías de Entradas"
 
-#: subscribers/view-subscriber-add.php:154
+#: includes/admin/class-es-post-notifications.php:285
+#, fuzzy
+msgid "Select Post Category"
+msgstr "Elegir categoría"
+
+#: includes/admin/class-es-post-notifications.php:273
+#: includes/class-es-common.php:251 subscribers/view-subscriber-show.php:334
+msgid "Select Status"
+msgstr "Selecciona estado"
+
+#: subscribers/view-subscriber-add.php:159
 msgid "Select Subscriber's Status"
 msgstr "Selecciona Estado Suscriptor"
 
-#: subscribers/view-subscriber-import.php:198
+#: subscribers/view-subscriber-import.php:196
 msgid "Select Subscribers Email Status"
 msgstr "Selecciona el estado de correo de suscriptor"
 
-#: notification/notification-add.php:119
+#: notification/notification-add.php:121
 msgid "Select Subscribers Group"
 msgstr "Selecciona grupo de suscriptores"
 
-#: sendmail/sendmail.php:174
-msgid "Select Subscribers group to Send Mail"
+#: sendmail/sendmail.php:176
+#, fuzzy
+msgid "Select Subscribers group to Send Email"
 msgstr "Selecciona grupo de suscriptores a los que mandar correo"
 
-#: subscribers/view-subscriber-sync.php:113
+#: includes/admin/class-es-newsletters.php:121 includes/class-es-common.php:292
+#, fuzzy
+msgid "Select Template"
+msgstr "Selecciona plantilla"
+
+#: includes/admin/class-es-post-notifications.php:299
+msgid "Select custom post type(s)"
+msgstr "Selecciona tipo(s) de contenido personalizado"
+
+#: subscribers/view-subscriber-sync.php:114
 msgid "Select group to add newly registered users to"
 msgstr "Selecciona grupo en el que añadir los usuarios recién registrados"
 
-#: settings/settings-edit.php:243
+#: settings/settings-edit.php:118
 #, fuzzy
 msgid ""
-"Select image size for ###POSTIMAGE### to be shown in the Post Notification "
+"Select image size for {{POSTIMAGE}} to be shown in the Post Notification "
 "Emails."
 msgstr ""
 "Selecciona el tamaño de imagen para ###POSTIMAGE### que se mostrará en el "
 "correo de notificación de entrada"
 
-#: roles/roles-add.php:113
+#: includes/admin/class-es-import-subscribers.php:183
+msgid "Select list"
+msgstr "Selecciona lista"
+
+#: includes/admin/class-es-handle-sync-wp-user.php:117
+#, fuzzy
+msgid "Select list to add newly registered users to"
+msgstr "Selecciona grupo en el que añadir los usuarios recién registrados"
+
+#: includes/admin/class-es-import-subscribers.php:171
+msgid "Select status"
+msgstr "Selecciona estado"
+
+#: includes/admin/class-es-post-notifications.php:259
+msgid "Select template"
+msgstr "Selecciona plantilla"
+
+#: roles/roles-add.php:113 settings/settings-edit.php:283
 msgid ""
 "Select user roles who can access following menus. Only Admin can change this."
 msgstr ""
 "Selecciona roles de usuario que puedan acceder a los siguientes menús. Sólo "
 "el administrador puede cambiar esto."
 
-#: notification/notification-add.php:206 notification/notification-edit.php:238
+#: includes/admin/class-es-admin-settings.php:160
+msgid "Select whether to send HTML or Plain Text email."
+msgstr ""
+
+#: notification/notification-add.php:208 notification/notification-edit.php:238
 msgid "Select your Custom Post Type"
 msgstr "Seleccionar tu tipo de entrada personalizada"
+
+#: classes/es-register.php:962
+msgid "Select your Email Template Type"
+msgstr "Selecciona el tipo de plantilla de correo"
 
 #: compose/compose-add.php:77 compose/compose-edit.php:88
 msgid "Select your Mail Type"
 msgstr "Seleccionar tu tipo de correo"
 
-#: sendmail/sendmail.php:137
+#: sendmail/sendmail.php:139
 #, fuzzy
 msgid "Select your mail type."
 msgstr "Seleccionar tu tipo de correo"
 
-#: subscribers/view-subscriber-show.php:44
+#: subscribers/view-subscriber-show.php:45
 msgid "Selected details does not exists."
 msgstr "Los detalles seleccionados no existen."
 
-#: compose/compose-show.php:46 notification/notification-show.php:34
-#: sentmail/sentmail-show.php:35
+#: compose/compose-show.php:46 notification/notification-show.php:35
+#: sentmail/sentmail-show.php:36
 msgid "Selected record deleted."
 msgstr "Registro seleccionado borrado."
 
-#: sendmail/sendmail.php:222 sendmail/sendmail.php:224
+#: includes/admin/class-es-campaigns-table.php:51
+#, fuzzy
+msgid "Send Broadcast"
+msgstr "Transmisión en vivo"
+
+#: sendmail/sendmail.php:225 sendmail/sendmail.php:227
 msgid "Send Email"
 msgstr "Enviar Correo"
 
-#: sendmail/sendmail.php:163
-msgid "Send mail immediately"
+#: settings/settings-edit.php:213
+#, fuzzy
+msgid "Send Welcome Email to New Subscribers after Sign Up?"
+msgstr "¡Bienvenido a Email Subscribers!"
+
+#: admin/partials/help.php:84 help/help.php:379
+#, fuzzy
+msgid "Send a test post notification email to myself/testgroup"
+msgstr ""
+"¿Cómo Enviar un correo de notificación de nueva entrada de ejemplo a mi "
+"grupo de testeo/yo mismo?"
+
+#: admin/partials/help.php:19 help/help.php:271
+#, fuzzy
+msgid "Send automatic welcome email to subscribers."
+msgstr "¡Bienvenido a Email Subscribers!"
+
+#: admin/partials/help.php:25
+msgid "Send broadcast to different lists."
+msgstr ""
+
+#: includes/class-es-common.php:107 notification/notification-show.php:130
+#: sendmail/sendmail.php:165
+#, fuzzy
+msgid "Send email immediately"
 msgstr "Enviar correo inmediatamente"
 
-#: notification/notification-add.php:263 notification/notification-edit.php:302
-msgid "Send mail immediately when new post is published"
-msgstr "Enviar correo inmediatamente cuando se publique una nueva entrada"
+#: admin/partials/help.php:21 help/help.php:280
+msgid "Send email notification to admin when a new user signs up."
+msgstr ""
 
-#: notification/notification-add.php:256 notification/notification-edit.php:295
-#: notification/notification-show.php:126
+#: includes/class-es-common.php:108 sendmail/sendmail.php:166
+#, fuzzy
+msgid "Send email via cron job"
+msgstr "Añadir a cron y enviar correo vía tarea cron."
+
+#: notification/notification-add.php:255 notification/notification-edit.php:290
 msgid "Send mail immediately when new post is published."
 msgstr "Enviar correo inmediatamente cuando una nueva entrada sea publicada."
 
-#: sendmail/sendmail.php:143
+#: sendmail/sendmail.php:145
 #, fuzzy
 msgid "Send mail immediately."
 msgstr "Enviar correo inmediatamente"
 
-#: sendmail/sendmail.php:164
-msgid "Send mail via cron job"
-msgstr "Enviar correo vía tarea cron"
-
-#: sendmail/sendmail.php:144
+#: sendmail/sendmail.php:146
 #, fuzzy
 msgid "Send mail via cron job."
 msgstr "Enviar correo vía tarea cron"
 
-#: settings/settings-edit.php:204
+#: admin/partials/help.php:20 help/help.php:274
+msgid ""
+"Send new post notification emails to subscribers when new posts are "
+"published on your website."
+msgstr ""
+
+#: help/help.php:292
+msgid "Send newsletters to different groups."
+msgstr ""
+
+#: includes/admin/class-es-admin-settings.php:418
+msgid ""
+"Send report to admin(s) whenever campaign is successfully sent to all "
+"contacts. Available Keywords: {{DATE}}, {{SUBJECT}}, {{COUNT}}"
+msgstr ""
+
+#: includes/admin/class-es-admin-settings.php:291
+msgid "Send welcome email to new contact after signup."
+msgstr ""
+
+#: includes/admin/class-es-admin-settings.php:127
+msgid "Sender"
+msgstr "Remitente"
+
+#: settings/settings-edit.php:79
 msgid "Sender of Notifications"
 msgstr "Remitente de las notificaciones"
 
-#: sentmail/deliverreport-show.php:72 sentmail/deliverreport-show.php:84
+#: sentmail/deliverreport-show.php:75 sentmail/deliverreport-show.php:86
+#: sentmail/sentmail-show.php:111 sentmail/sentmail-show.php:124
+msgid "Sent"
+msgstr "Enviadas"
+
+#: includes/admin/class-es-reports-table.php:99
+#: sentmail/deliverreport-show.php:76 sentmail/deliverreport-show.php:87
 msgid "Sent Date"
 msgstr "Fecha Envío"
 
-#: settings/settings-edit.php:391
+#: settings/settings-edit.php:172
 msgid "Sent Report Content"
 msgstr "Contenido del informe enviado"
 
-#: settings/settings-edit.php:384
+#: settings/settings-edit.php:165
 msgid "Sent Report Subject"
 msgstr "Asunto de informe enviado"
 
-#: settings/settings-edit.php:154
+#: includes/admin/class-es-admin-settings.php:360
+msgid "Set this option to \"Yes\" to notify admin(s) for new contact signup."
+msgstr ""
+
+#: includes/admin/class-es-admin-settings.php:396
+msgid "Set this option to \"Yes\" to notify admin(s) on every campaign sent."
+msgstr ""
+
+#: classes/es-register.php:856
+#: includes/class-email-subscribers-activator.php:58
+#, fuzzy
+msgid "Set thumbnail"
+msgstr "Sin miniatura"
+
+#: admin/class-email-subscribers-admin.php:145 classes/es-register.php:177
+#: classes/es-register.php:178 settings/settings-edit.php:43
+msgid "Settings"
+msgstr "Configurar"
+
+#: settings/settings-edit.php:567
 msgid "Settings Saved."
 msgstr "Configuración guardada."
 
-#: classes/es-register.php:591
-msgid "Short Description"
-msgstr "Descripción Corta"
+#: includes/admin/class-es-admin-settings.php:60
+#, fuzzy
+msgid "Settings have been saved successfully!"
+msgstr "La configuración se ha guardado correctamente"
 
-#: classes/es-register.php:593
-msgid "Short description about your subscription form."
+#: includes/admin/class-es-widget.php:58
+msgid "Short description"
+msgstr "Descripción corta"
+
+#: classes/es-register.php:1184 includes/admin/class-es-old-widget.php:76
+#, fuzzy
+msgid "Short description about subscription form"
 msgstr "Descripción corta sobre tu formulario de suscripción."
 
-#: subscribers/view-subscriber-show.php:368
-#: subscribers/view-subscriber-show.php:382
+#: includes/admin/class-es-forms-table.php:635
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: admin/partials/dashboard.php:92
+msgid ""
+"Shortcode in any page/post : <code>[email-subscribers-form id=\"{form-"
+"id}\"]</code> "
+msgstr ""
+
+#: includes/admin/class-es-admin-settings.php:192
+msgid "Show Unsubscribe Message In Email Footer"
+msgstr "Mostrar mensaje de cancelación de suscripción en el pie del correo"
+
+#: includes/admin/class-es-admin-settings.php:221
+msgid ""
+"Show this message if any error occured after clicking confirmation link from "
+"Double Opt-In (Confirmation) Email."
+msgstr ""
+
+#: includes/admin/class-es-admin-settings.php:252
+msgid ""
+"Show this message if any error occured after clicking on unsubscribe link."
+msgstr ""
+
+#: includes/admin/class-es-admin-settings.php:210
+msgid ""
+"Show this message if contact is successfully subscribed from Double Opt-In "
+"(Confirmation) Email"
+msgstr ""
+
+#: admin/partials/help.php:100 help/help.php:466
+msgid "Show your subscribe form inside attractive popups"
+msgstr ""
+
+#: includes/admin/class-es-forms-table.php:267
+msgid "Show?"
+msgstr "¿Mostrar?"
+
+#: settings/settings-edit.php:25
 #, fuzzy
-msgid "Signup Date<br>(YYYY-MM-DD)"
+msgid "Signup Confirmation"
+msgstr "Registrarse"
+
+#: subscribers/view-subscriber-show.php:304
+#, fuzzy
+msgid "Signup Date & Time<br>(Y-M-D H:I:S)"
 msgstr "Fecha Envío<br>(YYYY-MM-DD)"
 
-#: settings/settings-edit.php:236 subscribers/view-subscriber-add.php:171
-#: subscribers/view-subscriber-add.php:177
-#: subscribers/view-subscriber-edit.php:164
-#: subscribers/view-subscriber-edit.php:170
-#: subscribers/view-subscriber-import.php:207
-#: subscribers/view-subscriber-show.php:314
-#: subscribers/view-subscriber-show.php:341
+#: settings/settings-edit.php:111 subscribers/view-subscriber-add.php:176
+#: subscribers/view-subscriber-add.php:182
+#: subscribers/view-subscriber-edit.php:165
+#: subscribers/view-subscriber-edit.php:171
+#: subscribers/view-subscriber-import.php:205
+#: subscribers/view-subscriber-show.php:338
+#: subscribers/view-subscriber-show.php:368
 msgid "Single Opt In"
 msgstr "Aceptación individual"
 
-#: sentmail/deliverreport-show.php:70 sentmail/deliverreport-show.php:82
-#: subscribers/view-subscriber-export.php:55
-#: subscribers/view-subscriber-export.php:63
-#: subscribers/view-subscriber-show.php:363
-#: subscribers/view-subscriber-show.php:377
+#: includes/class-es-common.php:429
+#, fuzzy
+msgid "Single Opt-In"
+msgstr "Aceptación individual"
+
+#: sentmail/deliverreport-show.php:72 sentmail/deliverreport-show.php:83
+#: subscribers/view-subscriber-export.php:77
+#: subscribers/view-subscriber-export.php:85
 msgid "Sno"
 msgstr "Sno"
 
-#: sentmail/sentmail-show.php:111 sentmail/sentmail-show.php:124
-msgid "Source"
-msgstr "Origen"
+#: includes/admin/class-es-forms-table.php:192
+msgid "Sorry, form not found"
+msgstr "Lo sentimos, no se ha encontrado el formulario"
 
-#: sentmail/sentmail-show.php:114 sentmail/sentmail-show.php:127
+#: includes/admin/class-es-reports-table.php:262 sentmail/sentmail-show.php:112
+#: sentmail/sentmail-show.php:125
 msgid "Start Date"
 msgstr "Fecha Comienzo"
 
-#: base/es-defined.php:42
+#: base/es-defined.php:47
+#, fuzzy
 msgid "Static Template"
-msgstr ""
+msgstr "Plantilla Estática (Para Correo de Newsletter)"
 
 #: compose/compose-add.php:82 compose/compose-edit.php:93
 msgid "Static Template (For Newsletter Email)"
@@ -1658,130 +3282,251 @@ msgstr "Plantilla Estática (Para Correo de Newsletter)"
 
 #: compose/compose-add.php:116 compose/compose-edit.php:125
 #: compose/compose-show.php:77 compose/compose-show.php:85
-#: sentmail/deliverreport-show.php:73 sentmail/deliverreport-show.php:85
-#: sentmail/sentmail-show.php:112 sentmail/sentmail-show.php:125
-#: subscribers/view-subscriber-show.php:366
-#: subscribers/view-subscriber-show.php:380
+#: includes/admin/class-es-campaigns-table.php:257
+#: includes/admin/class-es-export-subscribers.php:224
+#: includes/admin/class-es-reports-table.php:98
+#: includes/admin/class-es-reports-table.php:261
+#: sentmail/deliverreport-show.php:74 sentmail/deliverreport-show.php:85
+#: sentmail/sentmail-show.php:110 sentmail/sentmail-show.php:123
+#: subscribers/view-subscriber-show.php:302
 msgid "Status"
 msgstr "Estado"
 
-#: classes/es-loadwidget.php:34 classes/es-register.php:534
-#: classes/es-register.php:542
+#: includes/admin/class-es-subscribers-table.php:763
+msgid "Status has been changed successfully!"
+msgstr "¡Se ha cambiado el estado correctamente!"
+
+#: help/help.php:197
+msgid ""
+"Stay in touch with us. We send out plugin help, tips, periodic updates and "
+"even the occasional discounts."
+msgstr ""
+
+#: classes/es-register.php:779
+#, fuzzy
+msgid "Steps to enable"
+msgstr ""
+"Completa los siguientes pasos para activar la función de creación de red de "
+"sitios."
+
+#: includes/admin/class-es-admin-settings.php:301
+#: includes/admin/class-es-admin-settings.php:329
+#: includes/admin/class-es-admin-settings.php:367
+#: includes/admin/class-es-admin-settings.php:406
+#: includes/admin/class-es-reports-table.php:259
+msgid "Subject"
+msgstr "Asunto"
+
+#: settings/settings-edit.php:225
+#, fuzzy
+msgid "Subject for Welcome Email"
+msgstr "Asunto del email:"
+
+#: includes/admin/class-es-admin-settings.php:369
+msgid ""
+"Subject for the admin email whenever a new contact signs up and is confirmed"
+msgstr ""
+
+#: settings/settings-edit.php:151
+#, fuzzy
+msgid ""
+"Subject for the admin email whenever a new subscriber signs up and is "
+"confirmed."
+msgstr ""
+"Introduce el asunto para el correo al administrador. Esto se enviará cuando "
+"un nuevo correo se añadido y confirmado en nuestra base de datos."
+
+#: settings/settings-edit.php:185
+#, fuzzy
+msgid ""
+"Subject for the confirmation email to be sent for Double Opt-In whenever a "
+"subscriber signs up."
+msgstr ""
+"Introduce el contenido para el correo de bienvenida al suscriptor. Esto se "
+"enviará cuando un correo se haya suscrito (confirmado) con éxito. (Keyword: "
+"###NAME###)"
+
+#: settings/settings-edit.php:166
+msgid "Subject for the email report which will be sent to admin."
+msgstr ""
+
+#: settings/settings-edit.php:226
+#, fuzzy
+msgid ""
+"Subject for the subscriber welcome email. This will be sent whenever a "
+"user's email is either confirmed (if Double Opt-In) / subscribed (if Single "
+"Opt-In) successfully."
+msgstr ""
+"Introduce el asunto para el correo de bienvenida del suscriptor. Esto se "
+"enviará cuando se suscriba exitosamente (confirmado) cualquier correo."
+
+#: admin/partials/dashboard.php:124 classes/es-loadwidget.php:47
+#: classes/es-register.php:1126 classes/es-register.php:1137 help/help.php:202
+#: public/partials/class-es-shortcode.php:191
 msgid "Subscribe"
 msgstr "Suscribirse"
 
-#: classes/es-register.php:256
-msgctxt "widget-enhanced-select"
-msgid "Subscribed successfully."
-msgstr "Suscripción exitosa."
+#: includes/admin/class-es-export-subscribers.php:234
+#: includes/admin/class-es-subscribers-table.php:484
+#: includes/class-es-common.php:89
+msgid "Subscribed"
+msgstr "Subscriptores"
 
-#: classes/es-register.php:273
-msgctxt "widget-page-enhanced-select"
-msgid "Subscribed successfully."
-msgstr "Suscripción exitosa."
+#: includes/admin/class-es-export-subscribers.php:71
+msgid "Subscribed Contacts"
+msgstr "Contactos suscritos"
 
-#: classes/es-register.php:596
+#: classes/es-register.php:1195 includes/admin/class-es-old-widget.php:87
 msgid "Subscriber Group"
 msgstr "Grupo de suscripción"
 
-#: settings/settings-edit.php:284
-#, fuzzy
-msgid "Subscriber Welcome Email"
-msgstr "Correo de bienvenida para el Suscriptor"
+#: includes/admin/class-es-widget.php:70
+msgid "Subscriber List"
+msgstr "Lista de suscriptores"
 
-#: settings/settings-edit.php:303
-#, fuzzy
-msgid "Subscriber Welcome Email Content"
-msgstr "Contenido del correo de bienvenida al suscriptor"
-
-#: settings/settings-edit.php:296
-#, fuzzy
-msgid "Subscriber Welcome Email Subject"
-msgstr "Contenido del correo de bienvenida al suscriptor"
-
-#: subscribers/view-subscriber-edit.php:75
+#: subscribers/view-subscriber-edit.php:76
 msgid "Subscriber already exists for this group."
 msgstr "El suscriptor ya existe en este grupo."
 
-#: subscribers/view-subscriber-add.php:67
+#: subscribers/view-subscriber-add.php:71
 msgid "Subscriber already exists."
 msgstr "Suscriptor ya existe."
 
-#: subscribers/view-subscriber-edit.php:73
+#: subscribers/view-subscriber-edit.php:74
 msgid "Subscriber details updated."
 msgstr "Detalles del Suscriptor actualizados."
 
-#: subscribers/view-subscriber-add.php:65
+#: subscribers/view-subscriber-add.php:69
 msgid "Subscriber has been saved."
 msgstr "Suscriptor ha sido guardado."
 
-#: subscribers/view-subscriber-edit.php:143
+#: subscribers/view-subscriber-edit.php:144
 msgid "Subscriber's Email Address"
 msgstr "Dirección de correo electrónico del suscriptor"
 
-#: subscribers/view-subscriber-edit.php:133
+#: subscribers/view-subscriber-edit.php:134
 msgid "Subscriber's Full Name"
 msgstr "Nombre completo del suscriptor"
 
-#: classes/es-register.php:142 classes/es-register.php:143
-#: subscribers/view-subscriber-show.php:240
+#: classes/es-register.php:165 classes/es-register.php:166
+#: subscribers/view-subscriber-show.php:242
 msgid "Subscribers"
 msgstr "Suscriptores"
 
-#: notification/notification-show.php:65 notification/notification-show.php:73
+#: notification/notification-show.php:69 notification/notification-show.php:77
 msgid "Subscribers Group"
 msgstr "Grupo de suscriptores"
 
-#: subscribers/view-subscriber-show.php:162
+#: subscribers/view-subscriber-show.php:164
 msgid "Subscribers Group updated."
 msgstr "Actualizado grupo de los suscriptores."
 
-#: roles/roles-add.php:120
+#: roles/roles-add.php:120 settings/settings-edit.php:289
 msgid "Subscribers Menu"
 msgstr "Menú suscriptores"
 
-#: subscribers/view-subscriber-show.php:201
+#: subscribers/view-subscriber-show.php:203
 msgid "Subscribers Status updated."
 msgstr "Estado de los suscriptores actualizado."
 
-#: help/help.php:156
+#: admin/partials/help.php:90 help/help.php:402
 msgid "Subscribers are not receiving Emails?"
 msgstr "¿Los suscriptores no reciben correos electrónicos?"
 
-#: sentmail/sentmail-show.php:42
+#: includes/admin/class-es-admin-settings.php:200
+msgid "Subscription Success/ Error Messages"
+msgstr "Mensajes de éxito/error al suscribirse"
+
+#: includes/admin/class-es-admin-settings.php:209
+#: includes/admin/class-es-admin-settings.php:239
+msgid "Success Message"
+msgstr "Mensaje de éxito"
+
+#: includes/admin/class-es-handle-subscription.php:379
+#: public/class-email-subscribers-public.php:111
+#, fuzzy
+msgid "Successfully Subscribed."
+msgstr "Suscripción exitosa."
+
+#: classes/es-register.php:259
+#, fuzzy
+msgctxt "widget-enhanced-select"
+msgid "Successfully Subscribed."
+msgstr "Suscripción exitosa."
+
+#: classes/es-register.php:273
+#, fuzzy
+msgctxt "widget-page-enhanced-select"
+msgid "Successfully Subscribed."
+msgstr "Suscripción exitosa."
+
+#: sentmail/sentmail-show.php:43
 msgid "Successfully deleted all reports except latest 10."
 msgstr "Se borraron con éxito todos los informes excepto los últimos 10."
 
 #: cron/cron-add.php:33
 #, fuzzy
 msgid "Successfully updated."
-msgstr "Plantilla Actualizada correctamente."
+msgstr "Se han actualizado correctamente los datos del grupo."
 
-#: subscribers/view-subscriber-add.php:118
-#: subscribers/view-subscriber-edit.php:117
-#: subscribers/view-subscriber-export.php:41
-#: subscribers/view-subscriber-import.php:159
-#: subscribers/view-subscriber-show.php:250
-#: subscribers/view-subscriber-sync.php:142
+#: admin/partials/help.php:27 help/help.php:301
+#, fuzzy
+msgid "Supports localization and internationalization."
+msgstr "Soporte avanzado"
+
+#: includes/admin/class-es-handle-sync-wp-user.php:12
+#: includes/admin/class-es-subscribers-table.php:57
+#: subscribers/view-subscriber-add.php:123
+#: subscribers/view-subscriber-edit.php:118
+#: subscribers/view-subscriber-export.php:63
+#: subscribers/view-subscriber-import.php:163
+#: subscribers/view-subscriber-show.php:252
+#: subscribers/view-subscriber-sync.php:143
 msgid "Sync"
 msgstr "Sincronizar"
 
-#: subscribers/view-subscriber-sync.php:87
+#: subscribers/view-subscriber-sync.php:88
 msgid "Sync Email"
 msgstr "Sincronizar Correo"
 
-#: subscribers/view-subscriber-sync.php:100
+#: includes/admin/class-es-handle-sync-wp-user.php:130
+msgid "Sync Now"
+msgstr "Sincronizar ahora"
+
+#: includes/admin/class-es-handle-sync-wp-user.php:104
+#: subscribers/view-subscriber-sync.php:101
 msgid "Sync newly registered users to subscribers list"
 msgstr ""
 "Sincronizar usuarios registrados recientemente con lista de suscriptores"
 
-#: settings/setting-sync.php:28
+#: settings/setting-sync.php:29
 msgid "Sync plugin tables"
 msgstr "Sincronizar tablas del plugin"
 
-#: settings/setting-sync.php:15
+#: includes/admin/class-es-admin-settings.php:456
+msgid ""
+"System won't allow email addresses which ends with any of domain availble in "
+"above lists. Add list of domain(s) one per line to block."
+msgstr ""
+
+#: settings/setting-sync.php:16
 msgid "Table sync completed successfully."
 msgstr "Sincronización de la Tabla finalizada con éxito."
+
+#: includes/notices/views/html-notice-updating.php:21
+msgid "Taking a while? Click here to run it now."
+msgstr ""
+
+#: admin/class-email-subscribers-admin.php:148
+#: templates/template-preview.php:32
+#, fuzzy
+msgid "Template Preview"
+msgstr "Plantilla %"
+
+#: classes/es-register.php:893 includes/admin/class-es-templates-table.php:191
+#, fuzzy
+msgid "Template Type"
+msgstr "Selecciona el tipo de plantilla de correo"
 
 #: compose/compose-add.php:42
 msgid "Template successfully created. "
@@ -1791,38 +3536,90 @@ msgstr "Plantilla creada correctamente. "
 msgid "Template successfully updated. "
 msgstr "Plantilla Actualizada correctamente. "
 
-#: settings/settings-edit.php:276
-msgid ""
-"Text to display after Email is successfully subscribed from Double Opt In "
-"(confirmation) Email"
-msgstr ""
+#: classes/es-register.php:168 classes/es-register.php:169
+#: classes/es-register.php:842 classes/es-register.php:843
+#: classes/es-register.php:848
+#: includes/class-email-subscribers-activator.php:44
+#: includes/class-email-subscribers-activator.php:45
+#: includes/class-email-subscribers-activator.php:50
+msgid "Templates"
+msgstr "Plantillas"
 
-#: settings/settings-edit.php:326
+#: settings/settings-edit.php:301
 #, fuzzy
-msgid "Text to display after Email is unsubscribed"
+msgid "Templates Menu"
+msgstr "Plantillas"
+
+#: includes/admin/class-es-tools.php:160
+#, fuzzy
+msgid "Test email to %s"
+msgstr "Enviar un correo electrónico de prueba"
+
+#: settings/settings-edit.php:205
+#, fuzzy
+msgid ""
+"Text to display after an email address is successfully subscribed from "
+"Double Opt-In (Confirmation) Email"
+msgstr ""
+"Este texto se mostrará una vez que el usuario haga clic en el enlace de "
+"confirmación de correo electrónico desde el correo electrónico de doble "
+"suscripción (confirmación)."
+
+#: settings/settings-edit.php:255
+#, fuzzy
+msgid "Text to display after an email address is unsubscribed"
 msgstr "Texto para mostrar una vez el correo haya cancelado la suscripción"
 
-#: help/help.php:47
+#: includes/admin/class-es-admin-settings.php:237
 msgid ""
-"Thanks for installing and we hope you will enjoy using Email Subscribers."
+"Thank You, You have been successfully unsubscribed. You will no longer hear "
+"from us."
+msgstr ""
+
+#: help/help.php:191
+#, fuzzy
+msgid "Thanks for installing and we hope you will enjoy using this plugin."
 msgstr ""
 "Gracias por instalar y esperamos que disfrute el uso de Email Subscribers."
 
-#: classes/es-register.php:262
-msgctxt "widget-enhanced-select"
-msgid "There was a problem with the request."
-msgstr "Ha habido un problema con la petición."
+#: settings/settings-edit.php:249
+#, fuzzy
+msgid ""
+"The text for the unsubscribe link. This text is automatically added with "
+"unsubscribe link in the emails.<br />Available Keyword: {{LINK}}"
+msgstr ""
+"Introduce el texto para el enlace de cancelación de suscripción. Este texto "
+"es para añadir un enlace de cancelación de suscripción con la newsletter. "
+"(Keyword: ###LINK###)"
 
-#: classes/es-register.php:279
-msgctxt "widget-page-enhanced-select"
-msgid "There was a problem with the request."
-msgstr "Ha habido un problema con la petición."
+#: help/help.php:459
+msgid "The user can then subscribe to whichever group most appeals to them."
+msgstr ""
 
-#: job/es-optin.php:60
+#: admin/partials/help.php:112 help/help.php:498
+msgid ""
+"These styles are well designed and beautify your subscription form making it "
+"more appealing."
+msgstr ""
+
+#: job/es-optin.php:61
 msgid "This email address has already been confirmed."
 msgstr "Esta dirección de correo ya ha sido confirmada."
 
-#: cron/cron-add.php:87
+#: includes/admin/class-es-reports-table.php:430
+#: sentmail/sentmail-preview.php:31
+msgid ""
+"This is how the email you sent may look. <br>Note: Different email services "
+"(like gmail, yahoo etc) display email content differently. So there could be "
+"a slight variation on how your customer will view the email content."
+msgstr ""
+
+#: templates/template-preview.php:40
+#, fuzzy
+msgid "This is how your email may look."
+msgstr "Decidir cómo será el aspecto de tus URLs."
+
+#: cron/cron-add.php:87 settings/settings-edit.php:355
 msgid ""
 "This is your Cron Job URL. It is a readonly field and you are advised not to "
 "modify it."
@@ -1830,7 +3627,7 @@ msgstr ""
 "Esta es su URL de trabajo de Cron. Es un campo de solo lectura y se "
 "recomienda no modificarlo."
 
-#: settings/settings-edit.php:277
+#: settings/settings-edit.php:206
 msgid ""
 "This text will be displayed once user clicks on email confirmation link from "
 "the Double Opt In (confirmation) Email."
@@ -1839,18 +3636,43 @@ msgstr ""
 "confirmación de correo electrónico desde el correo electrónico de doble "
 "suscripción (confirmación)."
 
-#: settings/settings-edit.php:327
+#: settings/settings-edit.php:256
 #, fuzzy
-msgid "This text will be displayed once user clicks on unsubscribe link."
+msgid ""
+"This text will be displayed once user clicks on unsubscribe link from the "
+"email."
 msgstr ""
 "Este texto se mostrará una vez que el usuario haga clic sobre el enlace de "
 "cancelación de suscripción desde nuestra newsletter."
 
-#: settings/settings-edit.php:249
+#: settings/settings-edit.php:242
+#, fuzzy
+msgid ""
+"This unsubscribe link is automatically added to all the emails that are sent "
+"from this plugin. It is a readonly field and you are advised not to modify "
+"it."
+msgstr ""
+"Esta es su URL de trabajo de Cron. Es un campo de solo lectura y se "
+"recomienda no modificarlo."
+
+#: classes/es-register.php:894 includes/admin/class-es-templates-table.php:192
+#: includes/class-es-common.php:440 settings/settings-edit.php:124
 msgid "Thumbnail"
 msgstr "Miniatura"
 
-#: settings/settings-edit.php:357
+#: classes/es-register.php:855
+#: includes/class-email-subscribers-activator.php:57
+msgid "Thumbnail (For Visual Representation only)"
+msgstr ""
+
+#: admin/partials/dashboard.php:70
+msgid ""
+"To get started, we did some initial setup to save your time <img draggable="
+"\"false\" class=\"emoji\" alt=\"😊\" src=\"https://s.w.org/images/core/"
+"emoji/11/svg/1f60a.svg\">"
+msgstr ""
+
+#: settings/settings-edit.php:138
 msgid ""
 "To send admin email notifications for the new subscriber. This option must "
 "be set to YES."
@@ -1858,21 +3680,21 @@ msgstr ""
 "Para enviar notificaciones de correo electrónico de administrador para el "
 "nuevo suscriptor. Esta opción debe establecerse en SÍ."
 
-#: subscribers/view-subscriber-show.php:66
+#: subscribers/view-subscriber-show.php:67
 msgid ""
 "To send confirmation email, please change the Opt-in option to Double Opt In."
 msgstr ""
 "Para mandar correo de confirmación, por favor cambia la opción de Aceptación "
 "a Doble Aceptación."
 
-#: subscribers/view-subscriber-show.php:114
+#: subscribers/view-subscriber-show.php:115
 msgid ""
 "To send confirmation mail, please change the Opt-in option to Double Opt In."
 msgstr ""
 "Para mandar correo de confirmación, por favor cambia la opción de Aceptación "
 "a Doble Aceptación."
 
-#: settings/settings-edit.php:285
+#: settings/settings-edit.php:214
 msgid ""
 "To send welcome email to subscriber after successful signup. This option "
 "must be set to YES."
@@ -1880,186 +3702,523 @@ msgstr ""
 "Para enviar un correo electrónico de bienvenida al suscriptor después de un "
 "registro exitoso. Esta opción debe establecerse en SÍ."
 
-#: sentmail/sentmail-show.php:116 sentmail/sentmail-show.php:129
+#: admin/class-email-subscribers-admin.php:147
+msgid "Tools"
+msgstr "Herramientas"
+
+#: sentmail/sentmail-show.php:114 sentmail/sentmail-show.php:127
 msgid "Total"
 msgstr "Total"
 
-#: subscribers/view-subscriber-export.php:57
-#: subscribers/view-subscriber-export.php:65
-msgid "Total Emails"
+#: includes/admin/class-es-import-subscribers.php:111
+msgid "Total %d contacts have been imported successfully!"
+msgstr ""
+
+#: includes/admin/class-es-export-subscribers.php:60
+#: includes/admin/class-es-reports-table.php:264
+msgid "Total Contacts"
+msgstr "Contactos totales"
+
+#: subscribers/view-subscriber-export.php:79
+#: subscribers/view-subscriber-export.php:87
+#, fuzzy
+msgid "Total Emails Count"
+msgstr "Reparar el recuento total de miembros."
+
+#: public/partials/cron-message.php:37
+#, fuzzy
+msgid "Total Emails In Queue"
 msgstr "Total Correos"
 
+#: public/partials/cron-message.php:33
+#, fuzzy
+msgid "Total Emails Sent"
+msgstr "Total enviado"
+
+#: subscribers/view-subscriber-show.php:268
+#, fuzzy
+msgid "Total Subscribers: "
+msgstr "Suscriptores"
+
+#: includes/admin/class-es-admin-settings.php:445
+msgid "Total emails your host can send in an hour."
+msgstr "Correos totales que puede enviar tu proveedor a la hora."
+
+#: admin/partials/pricing.php:244
+msgid "Track email leads in Google"
+msgstr ""
+
+#: admin/partials/help.php:88 help/help.php:399
+#, fuzzy
+msgid "Troubleshooting Steps"
+msgstr "Solución de problemas"
+
 #: compose/compose-show.php:78 compose/compose-show.php:86
-#: sentmail/deliverreport-show.php:74 sentmail/deliverreport-show.php:86
-#: sentmail/sentmail-show.php:113 sentmail/sentmail-show.php:126
+#: includes/admin/class-es-campaigns-table.php:255
+#: includes/admin/class-es-reports-table.php:260 sentmail/sentmail-show.php:109
+#: sentmail/sentmail-show.php:122
 msgid "Type"
 msgstr "Tipo"
 
-#: subscribers/view-subscriber-export.php:56
-#: subscribers/view-subscriber-export.php:64
+#: subscribers/view-subscriber-export.php:78
+#: subscribers/view-subscriber-export.php:86
 msgid "Type of List to Export"
 msgstr "Tipo de Lista para Exportar"
 
-#: notification/notification-add.php:194 notification/notification-edit.php:225
+#: admin/partials/pricing.php:245
+msgid "UTM tracking"
+msgstr "Seguimiento UTM"
+
+#: notification/notification-add.php:196 notification/notification-edit.php:227
 msgid "Uncheck All"
 msgstr "Deselecciona todo"
 
-#: subscribers/view-subscriber-add.php:169
-#: subscribers/view-subscriber-add.php:175
-#: subscribers/view-subscriber-edit.php:162
-#: subscribers/view-subscriber-edit.php:168
-#: subscribers/view-subscriber-import.php:205
-#: subscribers/view-subscriber-show.php:312
-#: subscribers/view-subscriber-show.php:339
+#: includes/admin/class-es-subscribers-table.php:485
+#: includes/class-es-common.php:90 subscribers/view-subscriber-add.php:174
+#: subscribers/view-subscriber-add.php:180
+#: subscribers/view-subscriber-edit.php:163
+#: subscribers/view-subscriber-edit.php:169
+#: subscribers/view-subscriber-import.php:203
+#: subscribers/view-subscriber-show.php:336
+#: subscribers/view-subscriber-show.php:366
 msgid "Unconfirmed"
 msgstr "Sin Confirmar"
 
-#: export/export-email-address.php:33 export/export-email-address.php:37
-msgid "Unexpected url submit has been detected"
+#: export/export-email-address.php:50 export/export-email-address.php:54
+#, fuzzy
+msgid "Unexpected url submit has been detected!"
 msgstr "Se ha detectado envío de URL inexperada"
 
-#: settings/settings-edit.php:312
+#: settings/settings-edit.php:241
 msgid "Unsubscribe Link"
 msgstr "Enlace para darse de baja"
 
-#: settings/settings-edit.php:319
+#: includes/admin/class-es-admin-settings.php:229
+#, fuzzy
+msgid "Unsubscribe Success/ Error Messages"
+msgstr "Mensajes de éxito/error al suscribirse"
+
+#: settings/settings-edit.php:248
 msgid "Unsubscribe Text in Email"
 msgstr "Texto de baja de suscripción en correo"
 
-#: subscribers/view-subscriber-add.php:170
-#: subscribers/view-subscriber-add.php:176
-#: subscribers/view-subscriber-edit.php:163
-#: subscribers/view-subscriber-edit.php:169
-#: subscribers/view-subscriber-import.php:206
-#: subscribers/view-subscriber-show.php:313
-#: subscribers/view-subscriber-show.php:340
+#: includes/admin/class-es-export-subscribers.php:234
+#: includes/admin/class-es-subscribers-table.php:486
+#: includes/class-es-common.php:91 subscribers/view-subscriber-add.php:175
+#: subscribers/view-subscriber-add.php:181
+#: subscribers/view-subscriber-edit.php:164
+#: subscribers/view-subscriber-edit.php:170
+#: subscribers/view-subscriber-import.php:204
+#: subscribers/view-subscriber-show.php:337
+#: subscribers/view-subscriber-show.php:367
 msgid "Unsubscribed"
 msgstr "Suscripciones canceladas"
 
-#: subscribers/view-subscriber-edit.php:180
+#: includes/admin/class-es-export-subscribers.php:72
+#, fuzzy
+msgid "Unsubscribed Contacts"
+msgstr "Contactos"
+
+#: subscribers/view-subscriber-edit.php:181
 msgid "Update Subscriber's Group"
 msgstr "Actualizar Grupo de Suscriptores"
 
-#: subscribers/view-subscriber-edit.php:153
+#: subscribers/view-subscriber-edit.php:154
 msgid "Update Subscriber's Status"
 msgstr "Actualizar Estado Suscriptor"
 
-#: notification/notification-edit.php:130
-#: subscribers/view-subscriber-show.php:291
+#: notification/notification-edit.php:132
+#: subscribers/view-subscriber-show.php:315
 msgid "Update Subscribers Group"
 msgstr "Actualizar Grupo de Suscriptores"
 
-#: subscribers/view-subscriber-show.php:292
+#: subscribers/view-subscriber-show.php:316
 msgid "Update Subscribers Status"
 msgstr "Actualizar el estado de los suscriptores"
 
-#: sendmail/sendmail.php:96
+#: admin/partials/pricing.php:228
+#, fuzzy
+msgid "Use "
+msgstr "Usar"
+
+#: admin/partials/help.php:24
+msgid ""
+"Use HTML editor to create broadcast (Newsletters) and post notifications."
+msgstr ""
+
+#: help/help.php:289
+msgid "Use HTML editor to create newsletters and post notifications."
+msgstr ""
+
+#: admin/partials/dashboard.php:90
+msgid "Use any of the following 3 methods :"
+msgstr "Utiliza cualquiera de los siguientes 3 métodos:"
+
+#: help/help.php:313
+msgid ""
+"Use any of the following 3 methods :<br>\r\n"
+"\t\t\t\t\t\t\t\ta) Shortcode in any page/post : <strong>[email-subscribers "
+"namefield=\"YES\" desc=\"\" group=\"Public\"]</strong> <i>Or</i><br>\r\n"
+"\t\t\t\t\t\t\t\tb) Go to Appearance -> Widgets. Click on widget Email "
+"subscribers and drag it to the sidebar on the right <i>Or</i><br>\r\n"
+"\t\t\t\t\t\t\t\tc) Copy and past this php code to your desired template "
+"location : <strong>%s</strong>"
+msgstr ""
+
+#: sendmail/sendmail.php:97
 msgid "Use this to send newsletter emails to your subscribers."
 msgstr ""
 "Use esto para enviar correos electrónicos de boletines a sus suscriptores."
 
-#: classes/es-register.php:160 classes/es-register.php:161
-#: roles/roles-add.php:109
+#: notification/notification-show.php:57
+#, fuzzy
+msgid ""
+"Use this to setup and send notification emails to your subscribers when a "
+"new post is published in your blog."
+msgstr ""
+"¿Cómo Configurar y Enviar correos de notificación para suscriptores cuando "
+"se publican nuevas entradas?"
+
+#: roles/roles-add.php:109 settings/settings-edit.php:27
 msgid "User Roles"
 msgstr "Roles de usuario"
 
-#: sentmail/sentmail-show.php:109 sentmail/sentmail-show.php:122
+#: help/help.php:474
+msgid ""
+"Using Email Subscribers you can achieve this easily with our <b>free</b> "
+"plugin "
+msgstr ""
+
+#: admin/partials/help.php:103
+msgid ""
+"Using Email Subscribers you can achieve this easily with our <b>free</b> "
+"plugin <a target=\"_blank\" class=\"es-cta\" href=\"https://wordpress.org/"
+"plugins/icegram/\">Icegram</a>"
+msgstr ""
+
+#: help/help.php:454
+msgid "Using our <b>free</b> "
+msgstr ""
+
+#: admin/partials/dashboard.php:147 help/help.php:214
+msgid "Version: %s"
+msgstr "Versión: %s"
+
+#: sentmail/sentmail-show.php:107 sentmail/sentmail-show.php:120
 msgid "View Reports"
 msgstr "Ver Informes"
 
-#: sentmail/deliverreport-show.php:76 sentmail/deliverreport-show.php:88
+#: classes/es-register.php:849
+#: includes/class-email-subscribers-activator.php:51
+#, fuzzy
+msgid "View Templates"
+msgstr "Ver datos"
+
+#: includes/admin/class-es-reports-table.php:154
+msgid "Viewed"
+msgstr "Visto"
+
+#: includes/admin/class-es-reports-table.php:101
+#: sentmail/deliverreport-show.php:78 sentmail/deliverreport-show.php:89
 msgid "Viewed Date"
 msgstr "Fecha Visualización"
 
-#: sentmail/deliverreport-show.php:75 sentmail/deliverreport-show.php:87
+#: includes/admin/class-es-reports-table.php:100
+#: sentmail/deliverreport-show.php:77 sentmail/deliverreport-show.php:88
 msgid "Viewed Status"
 msgstr "Estado visualización"
 
-#: help/help.php:46
+#: admin/partials/help.php:97 help/help.php:446
+#, fuzzy
+msgid "Want to do more? Here's how.."
+msgstr "¿Cómo deseas leer este grupo?"
+
+#: admin/partials/dashboard.php:69
+msgid ""
+"We hope our plugin adds to your success <img draggable=\"false\" class="
+"\"emoji\" alt=\"🏆\" src=\"https://s.w.org/images/core/emoji/11/svg/1f3c6.svg"
+"\">"
+msgstr ""
+
+#: includes/notices/views/html-notice-update.php:19
+msgid "We need to update your data store to the latest version."
+msgstr ""
+
+#: includes/class-es-mailer.php:101
+msgid "Welcome !"
+msgstr "¡Bienvenido!"
+
+#: includes/admin/class-es-admin-settings.php:280
+msgid "Welcome Email"
+msgstr "Correo electrónico de bienvenida"
+
+#: help/help.php:190
 msgid "Welcome to Email Subscribers!"
 msgstr "¡Bienvenido a Email Subscribers!"
 
-#: help/help.php:138
-msgid "What are Static Templates and Dynamic Templates?"
-msgstr "¿Qué son Plantillas Estáticas o Plantillas Dinámicas?"
+#: admin/partials/dashboard.php:67
+msgid "Welcome to the Email Subscribers Community!"
+msgstr "¡Bienvenido a la Comunidad de Email Subscribers!"
 
-#: cron/cron-add.php:125
+#: help/help.php:437
+msgid "What data Email Subscribers - Group Selector stores on your end?"
+msgstr ""
+
+#: admin/partials/help.php:76 help/help.php:419
+msgid "What data Email Subscribers stores on your end?"
+msgstr ""
+
+#: cron/cron-add.php:125 settings/settings-edit.php:386
 msgid "What is Cron (auto emails) and how to setup Cron Job?"
 msgstr ""
 "¿Qué es Cron (correos automáticos) y cómo se configuran las tareas Cron?"
 
-#: help/help.php:174
-msgid "What to do if Hosting doesn’t support Cron Jobs?"
-msgstr "¿Qué hacer si el Proveedor de Alojamiento no permite Cron Jobs?"
+#: admin/partials/help.php:66 help/help.php:387
+#, fuzzy
+msgid "What is Cron and how to Schedule Cron Emails?"
+msgstr "¿Cómo programar correos Cron en cPanel?"
 
-#: classes/es-register.php:580
+#: classes/es-register.php:1180 includes/admin/class-es-old-widget.php:72
 msgid "Widget Title"
 msgstr "Título Widget"
 
-#: subscribers/view-subscriber-export.php:78
+#: includes/admin/class-es-form-widget.php:59
+#: includes/admin/class-es-widget.php:54
+#, fuzzy
+msgid "Widget Title:"
+msgstr "Título del widget"
+
+#: includes/class-email-subscribers.php:121
+msgid ""
+"WordPress Cron is disable on your site. Email notifications from Email "
+"Subscribers plugin will not be sent automatically. <a href=\"%s\" target="
+"\"_blank\" >Here's how you can enable it.</a>"
+msgstr ""
+
+#: subscribers/view-subscriber-export.php:112
 msgid "WordPress Registered Users"
 msgstr "Usuarios Registrados WordPress"
 
-#: settings/settings-edit.php:289 settings/settings-edit.php:362
-#: subscribers/view-subscriber-sync.php:106
+#: email-subscribers.php:101
+msgctxt "timezone date format"
+msgid "Y-m-d H:i:s"
+msgstr "d-m-Y H:i:s"
+
+#: classes/es-register.php:1190 includes/admin/class-es-old-widget.php:82
+#: settings/settings-edit.php:143 settings/settings-edit.php:218
+#: subscribers/view-subscriber-sync.php:107
 msgid "YES"
 msgstr "SÍ"
 
-#: classes/es-register.php:257
+#: includes/admin/class-es-admin-settings.php:357
+#: includes/admin/class-es-admin-settings.php:393
+#: includes/admin/class-es-forms-table.php:315
+#: includes/admin/class-es-handle-sync-wp-user.php:110
+#: includes/admin/class-es-widget.php:49
+msgid "Yes"
+msgstr "Sí"
+
+#: includes/admin/class-es-campaigns-table.php:333
+#, fuzzy
+msgid "You are not allowed to delete campaign."
+msgstr "Lo siento, no tienes permisos para borrar esta categoría. "
+
+#: includes/admin/class-es-handle-subscription.php:387
+#, fuzzy
+msgid "You do not have permission to add subscriber"
+msgstr "No tienes permiso para hacer eso."
+
+#: includes/admin/class-es-lists-table.php:518
+msgid "You do not have permission to delete list"
+msgstr "No tienes permiso para eliminar la lista"
+
+#: includes/admin/class-es-reports-table.php:374
+#, fuzzy
+msgid "You do not have permission to delete notification"
+msgstr "No tienes permiso para eliminar este formulario."
+
+#: includes/admin/class-es-forms-table.php:709
+msgid "You do not have permission to delete this form."
+msgstr "No tienes permiso para eliminar este formulario."
+
+#: includes/admin/class-es-lists-table.php:83
+#: includes/admin/class-es-lists-table.php:502
+#, fuzzy
+msgid "You do not have permission to edit list"
+msgstr "No tienes permisos para editar el documento."
+
+#: includes/admin/class-es-forms-table.php:85
+msgid "You do not have permission to edit this form."
+msgstr "No tienes permisos para editar este formulario."
+
+#: includes/admin/class-es-reports-table.php:388
+#, fuzzy
+msgid "You do not have permission to preview notification"
+msgstr "No tienes permiso para hacer eso."
+
+#: includes/admin/class-es-reports-table.php:362
+#, fuzzy
+msgid "You do not have permission to view notification"
+msgstr "No tienes permiso para ver este foro."
+
+#: includes/admin/class-es-admin-settings.php:207
+msgid "You have been subscribed successfully!"
+msgstr "¡Te has suscrito correctamente!"
+
+#: includes/admin/class-es-handle-subscription.php:378
+#: public/class-email-subscribers-public.php:110
+msgid "You need to wait for sometime before subscribing again"
+msgstr "Tienes que esperar algo de tiempo antes de volver a suscribirte."
+
+#: includes/notices/views/html-notice-updating.php:19
+#, fuzzy
+msgid "Your database is being updated in the background."
+msgstr "¡La base de datos de WordPress se ha actualizado con éxito!"
+
+#: includes/admin/class-es-handle-subscription.php:380
+#: public/class-email-subscribers-public.php:112
+msgid ""
+"Your subscription was successful! Kindly check your mailbox and confirm your "
+"subscription. If you don't see the email within a few minutes, check the "
+"spam/junk folder."
+msgstr ""
+
+#: classes/es-register.php:260
+#, fuzzy
 msgctxt "widget-enhanced-select"
 msgid ""
-"Your subscription was successful! Within a few minutes, kindly check the "
-"mail in your mailbox and confirm your subscription. If you can't see the "
-"mail in your mailbox, please check your spam folder."
+"Your subscription was successful! Kindly check your mailbox and confirm your "
+"subscription. If you don't see the email within a few minutes, check the "
+"spam/junk folder."
 msgstr ""
 "¡Te has suscrito con éxito! En pocos minutos, por favor comprueba el correo "
 "en tu bandeja de entrada y confirma tu suscripción. Si no ves el correo en "
 "la bandeja de entrada, por favor revisa tu carpeta de correo no deseado."
 
 #: classes/es-register.php:274
+#, fuzzy
 msgctxt "widget-page-enhanced-select"
 msgid ""
-"Your subscription was successful! Within a few minutes, kindly check the "
-"mail in your mailbox and confirm your subscription. If you can't see the "
-"mail in your mailbox, please check your spam folder."
+"Your subscription was successful! Kindly check your mailbox and confirm your "
+"subscription. If you don't see the email within a few minutes, check the "
+"spam/junk folder."
 msgstr ""
 "Te has suscrito con éxito a la newsletter. En pocos minutos, comprueba tu "
 "correo en tu bandeja de entrada y confirma tu suscripción . Si no ves el "
 "correo en tu bandeja de entrada,  por favor revisa tu carpeta de correo no "
 "deseado."
 
-#: help/help.php:66
-msgid "contributing to us"
-msgstr ""
+#: admin/partials/help.php:73 help/help.php:413
+#, fuzzy
+msgid "[GDPR] Email Subscribers"
+msgstr "Suscriptores de correo electrónico"
 
-#: subscribers/view-subscriber-import.php:101
+#: help/help.php:431
+#, fuzzy
+msgid "[GDPR] Email Subscribers - Group Selector"
+msgstr "Email Subscribers & Newsletters"
+
+#: help/help.php:501
+#, fuzzy
+msgid "add Rainmaker’s form in Email Subscribers"
+msgstr "¿Cómo utilizar el formulario de Rainmaker en Email Subscribers?"
+
+#: admin/partials/pricing.php:241
+#, fuzzy
+msgid "before hitting send."
+msgstr "Día(s) antes de hoy"
+
+#: admin/partials/pricing.php:228
+#, fuzzy
+msgid "captcha"
+msgstr "Captcha no válido"
+
+#: admin/partials/help.php:42 help/help.php:333
+#, fuzzy
+msgid "default text, email contents"
+msgstr "Contenido de correo electrónico en texto plano"
+
+#: help/help.php:223
+#, fuzzy
+msgid "donating to us"
+msgstr "Dólar estadounidense"
+
+#: subscribers/view-subscriber-import.php:105
 msgid "email already exists."
 msgstr "ese correo electrónico ya existe."
 
-#: subscribers/view-subscriber-import.php:102
+#: subscribers/view-subscriber-import.php:106
 msgid "email are invalid."
 msgstr "correo no válido."
 
-#: subscribers/view-subscriber-import.php:100
+#: subscribers/view-subscriber-import.php:104
 msgid "email imported."
 msgstr "correo importado."
 
-#: subscribers/view-subscriber-import.php:181
+#: admin/partials/pricing.php:232
+#, fuzzy
+msgid "email success rate"
+msgstr "Valóranos si te gusta esta extensión"
+
+#: includes/admin/class-es-templates-table.php:49
+msgid "for Newsletter:"
+msgstr "para la lista de correo:"
+
+#: includes/admin/class-es-templates-table.php:45
+#, fuzzy
+msgid "for Post Notification: "
+msgstr ""
+"¿Cómo Enviar un correo de notificación de nueva entrada de ejemplo a mi "
+"grupo de testeo/yo mismo?"
+
+#: includes/admin/class-es-import-subscribers.php:160
 #: subscribers/view-subscriber-import.php:184
 msgid "from here"
 msgstr "desde aquí"
 
 #. Plugin URI of the plugin/theme
 #. Author URI of the plugin/theme
-msgid "http://www.icegram.com/"
+#, fuzzy
+msgid "https://www.icegram.com/"
 msgstr "http://www.icegram.com/"
 
-#: classes/es-register.php:254
-msgctxt "widget-enhanced-select"
-msgid "loading..."
-msgstr "cargando..."
+#: admin/partials/pricing.php:245
+msgid ""
+"in all your email CTA’s and track the effectiveness of your emails directly "
+"within Google. Know which/ how many leads landed up from your emails and "
+"tweak emails for better performance."
+msgstr ""
 
-#: classes/es-register.php:271
-msgctxt "widget-page-enhanced-select"
-msgid "loading..."
-msgstr "cargando..."
+#: admin/partials/pricing.php:208
+msgid "month"
+msgstr "mes"
+
+#: admin/partials/pricing.php:232
+#, fuzzy
+msgid "of your email campaign. "
+msgstr "Tu dirección de correo electrónico"
+
+#: help/help.php:456
+msgid ""
+"plugin, you can extend Email Subscribers Form functionality by providing an "
+"grouping option right next to the form."
+msgstr ""
+
+#: help/help.php:481
+#, fuzzy
+msgid "show subscribe form inside a popup"
+msgstr "¿Cómo mostrar el formulario de suscripción dentro de un popup?"
+
+#: admin/partials/pricing.php:241
+msgid "spam score"
+msgstr "puntuación de spam"
+
+#: admin/partials/pricing.php:228
+msgid ""
+"to protect your email list from bots. The simple maths captcha helps "
+"identifying bots from humans and eliminates spam signups."
+msgstr ""
+
+#: admin/partials/pricing.php:213 admin/partials/pricing.php:218
+msgid "year"
+msgstr "año"

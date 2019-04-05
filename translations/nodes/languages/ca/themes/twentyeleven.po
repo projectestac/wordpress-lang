@@ -1,0 +1,751 @@
+# Translation of Themes - Twenty Eleven in Catalan
+# This file is distributed under the same license as the Themes - Twenty Eleven package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-03-19 02:20:34+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: ca\n"
+"Project-Id-Version: Themes - Twenty Eleven\n"
+
+#: content-image.php:23 content.php:30 content-status.php:24
+#: content-quote.php:24 content-aside.php:24 content-link.php:24
+msgctxt "comments number"
+msgid "%"
+msgstr "%"
+
+#: inc/widgets.php:117 inc/widgets.php:126
+msgid "% <span class=\"reply\">comments &rarr;</span>"
+msgstr "% <span class=\"reply\">comentaris &rarr;</span>"
+
+#. translators: 1: date, 2: time
+#: functions.php:736
+msgid "%1$s at %2$s"
+msgstr "%1$s a les %2$s"
+
+#: functions.php:729
+msgid "%1$s on %2$s <span class=\"says\">said:</span>"
+msgstr "%1$s el %2$s <span class=\"says\">ha dit:</span>"
+
+#. translators: %1$s: The number of comments. %2$s: The post title.
+#: comments.php:43
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "Un pensament a &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s pensaments a &ldquo;%2$s&rdquo;"
+
+#: inc/theme-options.php:341
+msgid "%s Theme Options"
+msgstr "Opcions del tema %s"
+
+#: comments.php:54 comments.php:75
+msgid "&larr; Older Comments"
+msgstr "&larr; Comentaris anteriors"
+
+#: image.php:22
+msgid "&larr; Previous"
+msgstr "&larr; Anteriors"
+
+#. translators: used between list items, there is a space after the comma
+#: content-image.php:57 content-image.php:66 content-gallery.php:73
+#: content-gallery.php:85 content-featured.php:36 content-featured.php:45
+#: content.php:58 content.php:72 content-quote.php:51 content-quote.php:63
+#: content-single.php:37 content-single.php:40
+msgid ", "
+msgstr ", "
+
+#: inc/widgets.php:117 inc/widgets.php:126
+msgid "0 <span class=\"reply\">comments &rarr;</span>"
+msgstr "0 <span class=\"reply\">comentaris &rarr;</span>"
+
+#: content-image.php:23 content.php:30 content-status.php:24
+#: content-quote.php:24 content-aside.php:24 content-link.php:24
+msgctxt "comments number"
+msgid "1"
+msgstr "1"
+
+#: inc/widgets.php:117 inc/widgets.php:126
+msgid "1 <span class=\"reply\">comment &rarr;</span>"
+msgstr "1 <span class=\"reply\">comentari &rarr;</span>"
+
+#: content-image.php:44
+msgid ""
+"<a href=\"%1$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%2$s"
+"\">%3$s</time></a><span class=\"by-author\"> <span class=\"sep\"> by </span> "
+"<span class=\"author vcard\"><a class=\"url fn n\" href=\"%4$s\" title=\"%5$s"
+"\" rel=\"author\">%6$s</a></span></span>"
+msgstr ""
+"<a href=\"%1$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%2$s"
+"\">%3$s</time></a><span class=\"by-author\"> <span class=\"sep\"> per </"
+"span> <span class=\"author vcard\"><a class=\"url fn n\" href=\"%4$s\" title="
+"\"%5$s\" rel=\"author\">%6$s</a></span></span>"
+
+#: inc/theme-options.php:121
+msgid ""
+"<a href=\"https://codex.wordpress.org/Appearance_Theme_Options_Screen\" "
+"target=\"_blank\">Documentation on Theme Options</a>"
+msgstr ""
+"<a href=\"https://codex.wordpress.org/Appearance_Theme_Options_Screen\" "
+"target=\"_blank\">Documentació sobre les opcions del tema</a>"
+
+#: inc/theme-options.php:122
+msgid ""
+"<a href=\"https://wordpress.org/support/\" target=\"_blank\">Support Forums</"
+"a>"
+msgstr ""
+"<a href=\"http://ca.forums.wordpress.org/\" target=\"_blank\">Fòrums de "
+"suport</a>"
+
+#: content-image.php:75 content-gallery.php:103 content.php:91
+#: content-status.php:64 content-quote.php:81 content-aside.php:51
+#: showcase.php:214 content-link.php:51
+msgid "<b>%</b> Replies"
+msgstr "<b>%</b> respostes"
+
+#: content-image.php:75 content-gallery.php:103 content.php:91
+#: content-status.php:64 content-quote.php:81 content-aside.php:51
+#: showcase.php:214 content-link.php:51
+msgid "<b>1</b> Reply"
+msgstr "<b>1</b> resposta"
+
+#: content-image.php:61 content-gallery.php:78 content.php:63
+#: content-quote.php:56
+msgid "<span class=\"%1$s\">Posted in</span> %2$s"
+msgstr "<span class=\"%1$s\">Publicat dins de</span> %2$s"
+
+#: content-image.php:70 content-gallery.php:93 content.php:80
+#: content-quote.php:71
+msgid "<span class=\"%1$s\">Tagged</span> %2$s"
+msgstr "<span class=\"%1$s\">Etiquetat com a</span> %2$s"
+
+#: functions.php:604
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Entrades més antigues"
+
+#: single.php:22
+msgid "<span class=\"meta-nav\">&larr;</span> Previous"
+msgstr "<span class=\"meta-nav\">&larr;</span> Anteriors"
+
+#: image.php:34
+msgid ""
+"<span class=\"meta-prep meta-prep-entry-date\">Published </span> <span class="
+"\"entry-date\"><abbr class=\"published\" title=\"%1$s\">%2$s</abbr></span> "
+"at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a> "
+"in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%8$s</a>"
+msgstr ""
+"<span class=\"meta-prep meta-prep-entry-date\">Publicat el </span> <span "
+"class=\"entry-date\"><abbr class=\"published\" title=\"%1$s\">%2$s</abbr></"
+"span> amb <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; "
+"%5$s</a> a <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%8$s</a>"
+
+#: functions.php:785
+msgid ""
+"<span class=\"sep\">Posted on </span><a href=\"%1$s\" title=\"%2$s\" rel="
+"\"bookmark\"><time class=\"entry-date\" datetime=\"%3$s\">%4$s</time></"
+"a><span class=\"by-author\"> <span class=\"sep\"> by </span> <span class="
+"\"author vcard\"><a class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" rel="
+"\"author\">%7$s</a></span></span>"
+msgstr ""
+"<span class=\"sep\">Publicat el </span><a href=\"%1$s\" title=\"%2$s\" rel="
+"\"bookmark\"><time class=\"entry-date\" datetime=\"%3$s\">%4$s</time></"
+"a><span class=\"by-author\"> <span class=\"sep\"> per </span> <span class="
+"\"author vcard\"><a class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" rel="
+"\"author\">%7$s</a></span></span>"
+
+#: inc/theme-options.php:114
+msgid ""
+"<strong>Color Scheme</strong>: You can choose a color palette of \"Light"
+"\" (light background with dark text) or \"Dark\" (dark background with light "
+"text) for your site."
+msgstr ""
+"<strong>Esquema de color</strong>: podeu triar una paleta de color \"Clara"
+"\" (fons clar amb text negre) o \"Fosca\" (fons negre amb text clar) per al "
+"lloc."
+
+#: inc/theme-options.php:116
+msgid ""
+"<strong>Default Layout</strong>: You can choose if you want your site&#8217;"
+"s default layout to have a sidebar on the left, the right, or not at all."
+msgstr ""
+"<strong>Format predeterminat</strong>: podeu triar si voleu que el lloc "
+"tingui una barra lateral a l'esquerra, a la dreta, o no en tingui."
+
+#: inc/theme-options.php:115
+msgid ""
+"<strong>Link Color</strong>: You can choose the color used for text links on "
+"your site. You can enter the HTML color or hex code, or you can choose "
+"visually by clicking the \"Select a Color\" button to pick from a color "
+"wheel."
+msgstr ""
+"<strong>Color de l'enllaç</strong>: podeu triar el color que s'usarà per al "
+"enllaços del text al lloc. Podeu introduir el color HTML o el codi "
+"hexadecimal, o podeu escollir-lo de manera visual en fer clic al botó "
+"\"Selecciona un color\" i triar-ne un de la roda de color."
+
+#: author.php:61 content-single.php:70
+msgid "About %s"
+msgstr "Quant a %s"
+
+#: functions.php:555 functions.php:567 functions.php:579
+msgid "An optional widget area for your site footer"
+msgstr "Una àrea per a ginys opcions al peu del lloc"
+
+#: author.php:94 category.php:68 tag.php:69 archive.php:64 index.php:44
+msgid ""
+"Apologies, but no results were found for the requested archive. Perhaps "
+"searching will help find a related post."
+msgstr ""
+"No hi ha cap resultat per l'arxiu sol·licitat. Potser cercar us ajudarà a "
+"trobar una entrada relacionada."
+
+#: sidebar.php:19
+msgid "Archives"
+msgstr "Arxius"
+
+#: content-aside.php:19
+msgid "Aside"
+msgstr "Anotació"
+
+#: author.php:29
+msgid "Author Archives: %s"
+msgstr "Arxiu de l'autor: %s"
+
+#: functions.php:105
+msgid "Black"
+msgstr "Negre"
+
+#: archive.php:31
+msgid "Blog Archives"
+msgstr "Arxiu del Bloc"
+
+#: functions.php:100
+msgid "Blue"
+msgstr "Blau"
+
+#: category.php:20
+msgid "Category Archives: %s"
+msgstr "Arxiu de la categoria: %s"
+
+#. translators: header image description
+#: functions.php:260
+msgid "Chessboard"
+msgstr "Escacs"
+
+#: inc/theme-options.php:56 inc/theme-options.php:564
+msgid "Color Scheme"
+msgstr "Esquema de color"
+
+#: comments.php:53 comments.php:74
+msgid "Comment navigation"
+msgstr "Navegació dels comentaris"
+
+#: comments.php:87
+msgid "Comments are closed."
+msgstr "Els comentaris estan tancats."
+
+#: inc/theme-options.php:183
+msgid "Content on left"
+msgstr "Contingut a l'esquerra"
+
+#: inc/theme-options.php:188
+msgid "Content on right"
+msgstr "Contingut a la dreta"
+
+#: content-image.php:29 functions.php:457 content-gallery.php:34 content.php:41
+#: content-status.php:48 content-quote.php:35 content-aside.php:35
+#: content-link.php:35
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Continua llegint <span class=\"meta-nav\">&rarr;</span>"
+
+#: archive.php:25
+msgid "Daily Archives: %s"
+msgstr "Arxiu diari: %s"
+
+#: inc/theme-options.php:158
+msgid "Dark"
+msgstr "Obscur"
+
+#: functions.php:110
+msgid "Dark Gray"
+msgstr "Gris fosc"
+
+#: inc/theme-options.php:63
+msgid "Default Layout"
+msgstr "Format predeterminat"
+
+#: inc/theme-options.php:305
+msgid "Default color: %s"
+msgstr "Color predeterminat: %s"
+
+#: content-intro.php:26 content-image.php:79 content-page.php:28
+#: functions.php:710 functions.php:741 content-gallery.php:106
+#: content-featured.php:52 content.php:94 image.php:45 content-status.php:66
+#: content-quote.php:84 content-aside.php:53 content-link.php:53
+#: content-single.php:59
+msgid "Edit"
+msgstr "Edita"
+
+#: inc/widgets.php:73
+msgid "Ephemera"
+msgstr "Efímera"
+
+#: archive.php:27
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F \\d\\e Y"
+
+#: content.php:16
+msgid "Featured"
+msgstr "Destacades"
+
+#: showcase.php:83
+msgid "Featured Post"
+msgstr "Entrada destacada"
+
+#: showcase.php:160
+msgid "Featuring: %s"
+msgstr "Amb les següents característiques: %s"
+
+#: functions.php:553
+msgid "Footer Area One"
+msgstr "Àrea del peu de pàgina una"
+
+#: functions.php:577
+msgid "Footer Area Three"
+msgstr "Àrea del peu de pàgina tres"
+
+#: functions.php:565
+msgid "Footer Area Two"
+msgstr "Àrea del peu de pàgina dos"
+
+#: inc/theme-options.php:120
+msgid "For more information:"
+msgstr "Per a més informació:"
+
+#: content-gallery.php:19
+msgid "Gallery"
+msgstr "Galeria"
+
+#. translators: header image description
+#: functions.php:278
+msgid "Hanoi Plant"
+msgstr "Planta"
+
+#: content-image.php:18
+msgid "Image"
+msgstr "Imatge"
+
+#: image.php:21
+msgid "Image navigation"
+msgstr "Navegació de la imatge"
+
+#: 404.php:21
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching, or one of the links below, can help."
+msgstr ""
+"Sembla que no podem trobar el que esteu cercant. Potser la cerca, o un dels "
+"enllaços següents, poden ajudar."
+
+#. translators: header image description
+#: functions.php:266
+msgid "Lanterns"
+msgstr "Fanals"
+
+#: inc/theme-options.php:600
+msgid "Layout"
+msgstr "Format"
+
+#: content-image.php:75 content-gallery.php:103 content.php:91
+#: content-status.php:64 content-quote.php:81 content-aside.php:51
+#: showcase.php:214 content-link.php:51
+msgid "Leave a reply"
+msgstr "Deixa un comentari"
+
+#: inc/theme-options.php:152
+msgid "Light"
+msgstr "Clar"
+
+#: functions.php:120
+msgid "Light Gray"
+msgstr "Gris clar"
+
+#: content-link.php:19
+msgid "Link"
+msgstr "Enllaç"
+
+#: inc/theme-options.php:62 inc/theme-options.php:589
+msgid "Link Color"
+msgstr "Color de l'enllaçs"
+
+#: functions.php:530
+msgid "Main Sidebar"
+msgstr "Barra lateral principal"
+
+#: header.php:142
+msgid "Main menu"
+msgstr "Menú principal"
+
+#: functions.php:115
+msgid "Medium Gray"
+msgstr "Gris"
+
+#: sidebar.php:26
+msgid "Meta"
+msgstr "Meta"
+
+#: archive.php:27
+msgid "Monthly Archives: %s"
+msgstr "Arxiu mensual: %s"
+
+#: 404.php:28
+msgid "Most Used Categories"
+msgstr "Categories més usades"
+
+#: comments.php:55 comments.php:76
+msgid "Newer Comments &rarr;"
+msgstr "Comentaris més recents  &rarr;"
+
+#: functions.php:605
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Entrades més recents <span class=\"meta-nav\">&rarr;</span>"
+
+#: image.php:23
+msgid "Next &rarr;"
+msgstr "Següent &rarr;"
+
+#: single.php:23
+msgid "Next <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Següents <span class=\"meta-nav\">&rarr;</span>"
+
+#: author.php:90 category.php:64 search.php:47 tag.php:65 archive.php:60
+#: index.php:40
+msgid "Nothing Found"
+msgstr "No s'ha trobat res"
+
+#: inc/widgets.php:196
+msgid "Number of posts to show:"
+msgstr "Nombre d'entrades que cal mostrar:"
+
+#. translators: %s: The post title.
+#: comments.php:37
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr "Un pensament a \"%1$s\""
+
+#: inc/theme-options.php:193
+msgid "One-column, no sidebar"
+msgstr "Una columna, sense barra lateral"
+
+#: inc/theme-options.php:130
+msgid "Overview"
+msgstr "Resum"
+
+#: header.php:45
+msgid "Page %s"
+msgstr "Pàgina %s"
+
+#: content-intro.php:21 content-image.php:33 content-page.php:21
+#: content-gallery.php:61 content-featured.php:26 content.php:45 image.php:119
+#: content-status.php:52 content-quote.php:39 content-aside.php:39
+#: content-link.php:39 content-single.php:27
+msgid "Pages:"
+msgstr "Pàgines:"
+
+#: content-gallery.php:50 showcase.php:128
+msgid "Permalink to %s"
+msgstr "Enllaç permanent a %s"
+
+#. translators: header image description
+#: functions.php:254
+msgid "Pine Cone"
+msgstr "Pinya"
+
+#: functions.php:710
+msgid "Pingback:"
+msgstr "Retroenllaç:"
+
+#: functions.php:603 single.php:21
+msgid "Post navigation"
+msgstr "Navegació per les entrades"
+
+#: functions.php:142
+msgid "Primary Menu"
+msgstr "Menú principal"
+
+#: footer.php:35
+msgid "Proudly powered by %s"
+msgstr "Gràcies al %s."
+
+#: content-quote.php:15
+msgid "Quote"
+msgstr "Citació"
+
+#: showcase.php:170
+msgid "Recent Posts"
+msgstr "Entrades recents"
+
+#: inc/theme-options.php:118
+msgid ""
+"Remember to click \"Save Changes\" to save any changes you have made to the "
+"theme options."
+msgstr ""
+"Recordeu fer clic a \"Desa els canvis\" per a desar qualsevol canvi que "
+"hagueu fet a les opcions del tema."
+
+#: content-image.php:23 content.php:30 content-status.php:24
+#: content-quote.php:24 content-aside.php:24 content-link.php:24
+msgid "Reply"
+msgstr "Respon"
+
+#: functions.php:759
+msgid "Reply <span>&darr;</span>"
+msgstr "Respon <span>&darr;</span>"
+
+#: searchform.php:11 searchform.php:12 searchform.php:13
+msgid "Search"
+msgstr "Cerca"
+
+#: search.php:18
+msgid "Search Results for: %s"
+msgstr "Resultats de la cerca per a: %s"
+
+#: inc/theme-options.php:302
+msgid "Select a Color"
+msgstr "Selecciona un color"
+
+#: footer.php:34
+msgid "Semantic Personal Publishing Platform"
+msgstr "Plataforma de publicació personal i semàntica."
+
+#. translators: header image description
+#: functions.php:242
+msgid "Shore"
+msgstr "Costa"
+
+#: functions.php:541
+msgid "Showcase Sidebar"
+msgstr "Barra lateral secundària"
+
+#. Template Name of the theme
+msgid "Showcase Template"
+msgstr "Plantilla de l'aparador"
+
+#. Template Name of the theme
+msgid "Sidebar Template"
+msgstr "Plantilla de la barra lateral"
+
+#: header.php:144
+msgid "Skip to primary content"
+msgstr "Aneu al contingut principal"
+
+#: header.php:146
+msgid "Skip to secondary content"
+msgstr "Aneu al contingut secundari "
+
+#: inc/theme-options.php:112
+msgid ""
+"Some themes provide customization options that are grouped together on a "
+"Theme Options screen. If you change themes, options may change or disappear, "
+"as they are theme-specific. Your current theme, Twenty Eleven, provides the "
+"following Theme Options:"
+msgstr ""
+"Alguns temes ofereixen opcions de personalització que estan agrupades en una "
+"pantalla d'opcions del tema. Si canvieu els temes, les opcions poden canviar "
+"o desaparèixer, ja que són específiques del tema. El tema actual, Twenty "
+"Eleven, ofereix les següents opcions:"
+
+#: search.php:51
+msgid ""
+"Sorry, but nothing matched your search criteria. Please try again with some "
+"different keywords."
+msgstr ""
+"Ho sentim, res no coincideix amb els criteris de cerca. Intenteu-ho de nou "
+"amb altres paraules claus diferents."
+
+#: content-status.php:19
+msgid "Status"
+msgstr "Estat"
+
+#: tag.php:20
+msgid "Tag Archives: %s"
+msgstr "Arxiu d'etiquetes: %s"
+
+#. Description of the theme
+msgid ""
+"The 2011 theme for WordPress is sophisticated, lightweight, and adaptable. "
+"Make it yours with a custom menu, header image, and background -- then go "
+"further with available theme options for light or dark color scheme, custom "
+"link colors, and three layout choices. Twenty Eleven comes equipped with a "
+"Showcase page template that transforms your front page into a showcase to "
+"show off your best content, widget support galore (sidebar, three footer "
+"areas, and a Showcase page widget area), and a custom \"Ephemera\" widget to "
+"display your Aside, Link, Quote, or Status posts. Included are styles for "
+"print and for the admin editor, support for featured images (as custom "
+"header images on posts and pages and as large images on featured \"sticky\" "
+"posts), and special styles for six different post formats."
+msgstr ""
+"El tema 2011 per al WordPress és sofisticat, lleuger i adaptable. Feu-lo al "
+"vostre gust amb un menú, una imatge de capçalera i un fons personalitzats -- "
+"aleshores aneu més enllà amb les opcions del tema disponibles per als "
+"esquemes de color clar o negre, colors dels enllaços personalitzats, i tres "
+"formats a elegir. El Twenty Eleven ve equipat amb una plantilla de pàgina "
+"que transforma la pàgina principal en un aparador per a presumir del millor "
+"contingut, de l'ampli suport per a ginys (barra lateral, tres àrees al peu "
+"de pàgina, i una àrea de giny de pàgina), i un giny \"Efímera\" "
+"personalitzat per mostrar les anotacions, enllaços, citacions o entrades "
+"d'estat. Estan inclosos estils per a impressió i per la l'editor "
+"d'administració, suport per a imatges destacades (con les imatges de "
+"capçalera personalitzades en els entrades i pàgines i com les imatges grans "
+"en les entrades enganxades destacades), i estils especials per a sis formats "
+"d'entrades diferents."
+
+#: functions.php:543
+msgid "The sidebar for the optional Showcase Template"
+msgstr "La barra lateral per a la plantilla de mostra opcional"
+
+#: inc/theme-options.php:95 inc/theme-options.php:96
+msgid "Theme Options"
+msgstr "Opcions del tema"
+
+#: content-single.php:46
+msgid ""
+"This entry was posted by <a href=\"%6$s\">%5$s</a>. Bookmark the <a href="
+"\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+msgstr ""
+"Aquesta entrada ha estat publicada per <a href=\"%6$s\">%5$s</a>. Afegiu a "
+"les adreces d'interès l'<a href=\"%3$s\" title=\"Enllaç permanent a %4$s\" "
+"rel=\"bookmark\">enllaç permanent</a>."
+
+#: content-single.php:42
+msgid ""
+"This entry was posted in %1$s and tagged %2$s by <a href=\"%6$s\">%5$s</a>. "
+"Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark"
+"\">permalink</a>."
+msgstr ""
+"Aquesta entrada s'ha publicat dins de %1$s i s'ha etiquetat en %2$s per <a "
+"href=\"%6$s\">%5$s</a>. Afegeix a les adreces d'interès l'<a href=\"%3$s\" "
+"title=\"Enllaç permanent a %4$s\" rel=\"bookmark\">enllaç permanent</a>."
+
+#: content-featured.php:38
+msgid ""
+"This entry was posted in %1$s and tagged %2$s. Bookmark the <a href=\"%3$s\" "
+"title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+msgstr ""
+"Aquesta entrada s'ha publicat dins de %1$s i etiquetada amb %2$s. Afegiu a "
+"les adreces d'interès l'<a href=\"%3$s\" title=\"Enllaç permanent a: %4$s\" "
+"rel=\"bookmark\">enllaç permanent</a>."
+
+#: content-single.php:44
+msgid ""
+"This entry was posted in %1$s by <a href=\"%6$s\">%5$s</a>. Bookmark the <a "
+"href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+msgstr ""
+"Aquesta entrada s'ha publicat dins de %1$s per <a href=\"%6$s\">%5$s</a>. "
+"Afegeix a les adreces d'interès l'<a href=\"%3$s\" title=\"Enllaç permanent "
+"a %4$s\" rel=\"bookmark\">enllaç permanent</a>."
+
+#: content-featured.php:40
+msgid ""
+"This entry was posted in %1$s. Bookmark the <a href=\"%3$s\" title="
+"\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+msgstr ""
+"Aquesta entrada ha esta publicada en %1$s. Afegeix a les adreces d'interès "
+"l'<a href=\"%3$s\" title=\"Enllaç permanent a: %4$s\" rel=\"bookmark"
+"\">enllaç permanent</a>."
+
+#: content-gallery.php:49
+msgid "This gallery contains <a %1$s>%2$s photo</a>."
+msgid_plural "This gallery contains <a %1$s>%2$s photos</a>."
+msgstr[0] "Aquesta galeria conté <a %1$s>%2$s fotografia</a>."
+msgstr[1] "Aquesta galeria conté <a %1$s>%2$s fotografies</a>."
+
+#: 404.php:17
+msgid "This is somewhat embarrassing, isn&rsquo;t it?"
+msgstr "Açò és una mica compromès, no?"
+
+#: comments.php:17
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr ""
+"Aquesta entrada està protegida amb contrasenya. Introduïu la contrasenya per "
+"veure'n els comentaris."
+
+#: inc/widgets.php:193
+msgid "Title:"
+msgstr "Títol:"
+
+#. translators: header image description
+#: functions.php:248
+msgid "Trolley"
+msgstr "Tramvia "
+
+#. translators: %1$s: smilie
+#: 404.php:46
+msgid "Try looking in the monthly archives. %1$s"
+msgstr "Intenteu cercar en l'arxiu mensual. %1$s"
+
+#. Theme Name of the theme
+msgid "Twenty Eleven"
+msgstr "Twenty Eleven"
+
+#: inc/widgets.php:23
+msgid "Twenty Eleven Ephemera"
+msgstr "Efímera Vint Onze"
+
+#: inc/widgets.php:26
+msgid ""
+"Use this widget to list your recent Aside, Status, Quote, and Link posts"
+msgstr ""
+"Useu aquest giny per llistar les entrades recents d'anotació, d'estat, de "
+"citació o d'enllaç."
+
+#: content-image.php:49 functions.php:791
+msgid "View all posts by %s"
+msgstr "Mostra totes les entrades de %s"
+
+#: content-single.php:74
+msgid "View all posts by %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Mostra totes les entrades de %s <span class=\"meta-nav\">&rarr;</span>"
+
+#. translators: header image description
+#: functions.php:236
+msgid "Wheel"
+msgstr "Roda"
+
+#: functions.php:125
+msgid "White"
+msgstr "Blanc"
+
+#. translators: header image description
+#: functions.php:272
+msgid "Willow"
+msgstr "Salze"
+
+#: archive.php:29
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: archive.php:29
+msgid "Yearly Archives: %s"
+msgstr "Arxiu anual: %s"
+
+#: functions.php:745
+msgid "Your comment is awaiting moderation."
+msgstr "El comentari està esperant moderació."
+
+#. Author URI of the theme
+#: footer.php:34
+msgid "https://wordpress.org/"
+msgstr "https://wordpress.org/"
+
+#. Theme URI of the theme
+msgid "https://wordpress.org/themes/twentyeleven/"
+msgstr "https://wordpress.org/themes/twentyeleven/"
+
+#. Author of the theme
+msgid "the WordPress team"
+msgstr "L'equip del WordPress"

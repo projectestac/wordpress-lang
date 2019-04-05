@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tabs Responsive 1.7.3\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/tabs-responsive\n"
-"POT-Creation-Date: 2018-10-10 07:17:47+00:00\n"
-"PO-Revision-Date: 2017-08-21 15:55+0200\n"
+"POT-Creation-Date: 2019-04-05 07:48:22+00:00\n"
+"PO-Revision-Date: 2019-04-05 11:34+0200\n"
 "Last-Translator: Joan Sala Soler <jsala236@xtec.cat>\n"
 "Language-Team: \n"
 "Language: es\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 1.8.9\n"
+"X-Generator: Poedit 2.0.6\n"
 
 #. translators: 1: The rating, 2: The number of ratings
 #: ink/admin/free.php:72
@@ -47,6 +47,11 @@ msgstr "Añadir pestañas"
 msgid "Add Tabs Panel"
 msgstr "Añade un panel de pestañas"
 
+#: ink/admin/fvp.php:61
+#, fuzzy
+msgid "Advanced Bsckend Editor"
+msgstr "Opciones avanzadas"
+
 #: ink/admin/settings.php:481
 msgid "Align Your Tabs from here"
 msgstr "Alineación de las pestañas"
@@ -63,9 +68,33 @@ msgstr "Alineación del icono de la pestaña antes o después del título"
 msgid "All Tabs"
 msgstr "Todas las pestañas"
 
+#: ink/admin/fvp.php:56
+msgid "Animation"
+msgstr "Animación"
+
+#: ink/admin/fvp.php:111
+#, fuzzy
+msgid "Border Customization"
+msgstr "Mostrar el contorno de las pestañas"
+
+#: ink/admin/fvp.php:106
+#, fuzzy
+msgid "Button Navigation"
+msgstr "Botón universal"
+
 #: ink/admin/free.php:298
 msgid "Compatible with your version of WordPress"
 msgstr "Compatible con la versión actual del WordPress"
+
+#: ink/admin/fvp.php:31
+#, fuzzy
+msgid "Coulmn Layout"
+msgstr "Diseño de pantalla"
+
+#: ink/admin/fvp.php:73
+#, fuzzy
+msgid "Custom Image Icons"
+msgstr "Usar iconos personalizados. URL:"
 
 #: ink/admin/menu.php:74
 msgid "Date"
@@ -108,6 +137,15 @@ msgstr "Muestra tus pestañas en el área de widgets."
 msgid "Display Your Title as Vrtical Button or as tabs in Mobile"
 msgstr "Muestra su título como botón vertical o como pestañas en móviles"
 
+#: ink/admin/fvp.php:101
+#, fuzzy
+msgid "Dot Navigation"
+msgstr "Navegación"
+
+#: ink/admin/fvp.php:42
+msgid "Drag n Drop Builder"
+msgstr ""
+
 #: ink/admin/cpt-reg.php:11
 msgid "Edit Tabs"
 msgstr "Edición de pestañas"
@@ -116,11 +154,21 @@ msgstr "Edición de pestañas"
 msgid "Font Style/Family"
 msgstr "Familia del tipo de letra"
 
+#: tabs-responsive.php:94
+#, fuzzy
+msgid "Free Vs Pro"
+msgstr "Indeed Ultimate Membership Pro está activado"
+
+#: ink/admin/fvp.php:68
+#, fuzzy
+msgid "Google Fonts"
+msgstr "Google"
+
 #: ink/admin/settings.php:566
 msgid "Hide/display your icon and title on mobile and tablets"
 msgstr "Esconder o mostrar el icono y el título en móviles y mesitas"
 
-#: ink/install/installation.php:129
+#: ink/install/installation.php:131
 msgid "I already did"
 msgstr "Ya lo he hecho"
 
@@ -128,7 +176,12 @@ msgstr "Ya lo he hecho"
 msgid "Incompatible with your version of WordPress"
 msgstr "Incompatible con la versión actual del WordPress"
 
-#: ink/install/installation.php:84
+#: ink/admin/fvp.php:51
+#, fuzzy
+msgid "Individual Color Scheme"
+msgstr "Esquema de color de administración"
+
+#: ink/install/installation.php:86
 msgid "Insert Tabs Shortcode"
 msgstr "Insertar un código corto de pestaña"
 
@@ -163,7 +216,7 @@ msgstr "Margen entre dos pestañas"
 msgid "More Details"
 msgstr "Más detalles"
 
-#: tabs-responsive.php:95
+#: tabs-responsive.php:93
 msgid "More Free Plugins"
 msgstr "Otras extensiones gratuitas"
 
@@ -171,7 +224,7 @@ msgstr "Otras extensiones gratuitas"
 msgid "More Pro Plugin From Wpshopmart"
 msgstr "Otras extensiones de Wpshopmart"
 
-#: tabs-responsive.php:95
+#: tabs-responsive.php:93
 msgid "More_Free_Plugins"
 msgstr "More_Free_Plugins"
 
@@ -180,7 +233,7 @@ msgstr "More_Free_Plugins"
 msgid "No"
 msgstr "No"
 
-#: ink/admin/cpt-reg.php:14 ink/install/installation.php:87
+#: ink/admin/cpt-reg.php:14 ink/install/installation.php:89
 msgid "No Tabs Found"
 msgstr "No se ha encontrado ninguna pestaña"
 
@@ -192,9 +245,19 @@ msgstr "No se han encontrado pestañas en la papelera"
 msgid "No Title"
 msgstr "Sin título"
 
-#: ink/install/installation.php:128
+#: ink/admin/fvp.php:27
+#, fuzzy
+msgid "No. Of Design Templates"
+msgstr "Plantillas"
+
+#: ink/install/installation.php:130
 msgid "Nope, maybe later"
 msgstr "No, quizás más tarde"
+
+#: ink/admin/fvp.php:80
+#, fuzzy
+msgid "On Hover Tab"
+msgstr "Al pasar por encima de las pestañas"
 
 #: ink/admin/cpt-reg.php:6
 msgid "Parent Item:"
@@ -205,13 +268,31 @@ msgstr "Elemento padre"
 msgid "Premium Editions"
 msgstr "Ediciones premium"
 
+#: ink/admin/fvp.php:122
+#, fuzzy
+msgid "Premium Priority Support"
+msgstr "Soporte prioritario por correo electrónico"
+
+#: ink/admin/fvp.php:18
+msgid "Pricing"
+msgstr ""
+
 #: ink/admin/menu.php:97
 msgid "Rate Us If You Like This Plugin"
 msgstr "Valóranos si te gusta esta extensión"
 
+#: ink/admin/fvp.php:23
+msgid "Responsive Layout"
+msgstr "Diseño adaptable"
+
 #: ink/admin/cpt-reg.php:13
 msgid "Search Tabs"
 msgstr "Búsqueda de pestañas"
+
+#: ink/admin/fvp.php:116
+#, fuzzy
+msgid "Section Background"
+msgstr "Fondo"
 
 #: ink/widget/widget.php:65
 msgid "Select Tabs"
@@ -260,6 +341,16 @@ msgstr "Pestañas"
 msgid "Tabs Alignment "
 msgstr "Alineación de las pestañas"
 
+#: ink/admin/fvp.php:95
+#, fuzzy
+msgid "Tabs Custom Height"
+msgstr "Pestañas"
+
+#: ink/admin/fvp.php:90
+#, fuzzy
+msgid "Tabs Custom Width"
+msgstr "Pestañas"
+
 #: ink/admin/settings.php:408
 msgid "Tabs Description Animation"
 msgstr "Animación de la descripción de las pestañas"
@@ -288,7 +379,6 @@ msgstr "Opciones de visualización en móviles"
 msgid "Tabs Position "
 msgstr "Posición de las pestañas"
 
-#. #-#-#-#-#  tabs-responsive.pot (Tabs Responsive 1.7.4)  #-#-#-#-#
 #. Plugin Name of the plugin/theme
 #: ink/admin/cpt-reg.php:5 ink/admin/cpt-reg.php:18 ink/admin/cpt-reg.php:19
 msgid "Tabs Responsive"
@@ -306,6 +396,11 @@ msgid ""
 msgstr ""
 "Tabs Responsive is the most easiest drag & drop Tabs builder for WordPress. "
 "You can add unlimited Tabs with unlimited color Scheme."
+
+#: ink/admin/fvp.php:85
+#, fuzzy
+msgid "Tabs Scroll Effect"
+msgstr "Permitir efecto de desplazamiento suave"
 
 #: ink/admin/menu.php:98
 msgid "Tabs Settings"
@@ -339,6 +434,11 @@ msgstr "Esta extensión ya se ha instalado y está actualizada"
 msgid "Title Display Mode In Mobile"
 msgstr "Modo de visualización del título en móviles"
 
+#: ink/admin/fvp.php:37
+#, fuzzy
+msgid "Unlimited Shortcode"
+msgstr "Shortcodes"
+
 #. translators: 1: Plugin name and version
 #: ink/admin/free.php:162
 msgid "Update Now"
@@ -363,6 +463,11 @@ msgstr "Visualizar las pestañas"
 msgid "Visit Website"
 msgstr "Visitar el sitio web"
 
+#: ink/admin/fvp.php:46
+#, fuzzy
+msgid "Widget Option"
+msgstr "Elija cómo quiere que se gestionen las clases CSS de los widgets."
+
 #: ink/widget/widget.php:60
 msgid "Widget Title"
 msgstr "Título del widget"
@@ -372,11 +477,14 @@ msgstr "Título del widget"
 msgid "Yes"
 msgstr "Sí"
 
-#. #-#-#-#-#  tabs-responsive.pot (Tabs Responsive 1.7.4)  #-#-#-#-#
-#. Plugin URI of the plugin/theme
-#. #-#-#-#-#  tabs-responsive.pot (Tabs Responsive 1.7.4)  #-#-#-#-#
 #. Author URI of the plugin/theme
-msgid "http://www.wpshopmart.com"
+#, fuzzy
+msgid "https://www.wpshopmart.com"
+msgstr "http://www.wpshopmart.com"
+
+#. Plugin URI of the plugin/theme
+#, fuzzy
+msgid "https://www.wpshopmart.com/plugins"
 msgstr "http://www.wpshopmart.com"
 
 #: ink/admin/settings.php:497
@@ -391,6 +499,6 @@ msgstr "derecha"
 msgid "wpshopmart"
 msgstr "wpshopmart"
 
-#: ink/install/installation.php:125
+#: ink/install/installation.php:127
 msgid "~ wpshopmart"
 msgstr "~ wpshopmart"

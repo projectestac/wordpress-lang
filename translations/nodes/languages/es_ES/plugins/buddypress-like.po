@@ -1,0 +1,427 @@
+# Copyright (C) 2019 BuddyPress Like
+# This file is distributed under the same license as the BuddyPress Like package.
+msgid ""
+msgstr ""
+"Project-Id-Version: BuddyPress Like 0.3.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/buddypress-like\n"
+"POT-Creation-Date: 2019-04-05 07:48:20+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2019-04-05 11:31+0200\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.0.6\n"
+"Last-Translator: Joan Sala Soler <jsala236@xtec.cat>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: es_ES\n"
+
+#: admin/admin.php:30 includes/admin.php:31
+msgid "You do not have permission to do that."
+msgstr "No tienes permiso para hacer eso."
+
+#: admin/admin.php:74 includes/admin.php:76
+msgid "Settings saved."
+msgstr "Ajustes guardados."
+
+#. Plugin Name of the plugin/theme
+#: admin/admin.php:79 includes/admin.php:81
+#, fuzzy
+msgid "BuddyPress Like"
+msgstr "¿Te gusta este plugin?"
+
+#: admin/admin.php:101 admin/admin.php:105 includes/admin.php:103
+#: includes/admin.php:107
+#, fuzzy
+msgid "Posting Settings"
+msgstr "Publicación anónima"
+
+#: admin/admin.php:109 includes/admin.php:111
+msgid "Post an activity update when something is liked"
+msgstr ""
+
+#: admin/admin.php:111 includes/admin.php:116 includes/admin.php:118
+#, fuzzy
+msgid "e.g. "
+msgstr "Ej: Categorías, Lista de categoría"
+
+#: admin/admin.php:111 includes/admin.php:116 includes/admin.php:118
+#, fuzzy
+msgid " liked Darren's activity. "
+msgstr "Artículos votados"
+
+#: admin/admin.php:115 includes/admin.php:124
+msgid "Show a short excerpt of the activity that has been liked."
+msgstr ""
+
+#: admin/admin.php:124 admin/admin.php:128 includes/admin.php:139
+#: includes/admin.php:143
+#, fuzzy
+msgid "Remove Favorite Button"
+msgstr "Eliminar favorito"
+
+#: admin/admin.php:132 includes/admin.php:147
+msgid "Remove the BuddyPress favorite button from activity."
+msgstr ""
+
+#: admin/admin.php:134 includes/admin.php:149
+msgid " Currently only uses jQuery to remove the buttons."
+msgstr ""
+
+#: admin/admin.php:166 admin/admin.php:170 includes/admin.php:186
+#: includes/admin.php:190
+#, fuzzy
+msgid "Custom Messages"
+msgstr "Personalizado"
+
+#: admin/admin.php:173 includes/admin.php:196 includes/admin.php:198
+msgid ""
+"Change what messages are shown to users. For example, they can 'love' or "
+"'dig' items instead of liking them."
+msgstr ""
+
+#: admin/admin.php:182 includes/admin.php:211
+msgid "Default"
+msgstr "Predeterminada"
+
+#: admin/admin.php:183 includes/admin.php:212
+msgid "Custom"
+msgstr "Personalizada"
+
+#: admin/admin.php:202 includes/admin.php:234 includes/admin.php:236
+msgid "Save Changes"
+msgstr "Guardar cambios"
+
+#: includes/install-functions.php:14 includes/install-functions.php:15
+#: includes/install.php:13 includes/install.php:14
+msgid "Like"
+msgstr "Me gusta"
+
+#: includes/install-functions.php:18 includes/install-functions.php:19
+#: includes/install.php:17 includes/install.php:18
+#, fuzzy
+msgid "Unlike"
+msgstr ""
+"Puedes asignar palabras clave a tu entradas utilizando las "
+"<strong>etiquetas</strong>. A diferencia de las categorías, las etiquetas no "
+"tienen jerarquía, lo que significa que no hay relación  de una etiqueta con "
+"otra."
+
+#: includes/install-functions.php:22 includes/install-functions.php:23
+#: includes/install.php:21 includes/install.php:22
+#, fuzzy
+msgid "Like this item"
+msgstr "Elemento padre"
+
+#: includes/install-functions.php:26 includes/install-functions.php:27
+#: includes/install.php:25 includes/install.php:26
+#, fuzzy
+msgid "Unlike this item"
+msgstr "Sin objeto"
+
+#: includes/install-functions.php:30 includes/install-functions.php:31
+#: includes/install.php:29 includes/install.php:30
+#, fuzzy
+msgid "View likes"
+msgstr "Vistas %s"
+
+#: includes/install-functions.php:34 includes/install-functions.php:35
+#: includes/install.php:33 includes/install.php:34
+#, fuzzy
+msgid "Hide likes"
+msgstr "Ocultar cabecera"
+
+#: includes/install-functions.php:38 includes/install-functions.php:39
+#, fuzzy
+msgid "Update Likes"
+msgstr "Actualizar Tipo de Calendario"
+
+#: includes/install-functions.php:42 includes/install-functions.php:43
+#, fuzzy
+msgid "Blog Post Likes"
+msgstr "Añade una entrada"
+
+#: includes/install-functions.php:46 includes/install-functions.php:47
+#: includes/install.php:45 includes/install.php:46
+#: includes/like-functions.php:182
+#, fuzzy
+msgid "Sorry, you must be logged in to like that."
+msgstr "Lo siento, debes estar conectado para comentar."
+
+#: includes/install-functions.php:50 includes/install-functions.php:51
+msgid "%user% liked their own <a href=\"%permalink%\">update</a>"
+msgstr ""
+
+#: includes/install-functions.php:54 includes/install-functions.php:55
+msgid "%user% liked an <a href=\"%permalink%\">update</a>"
+msgstr ""
+
+#: includes/install-functions.php:58 includes/install-functions.php:59
+msgid "%user% liked %author%'s <a href=\"%permalink%\">update</a>"
+msgstr ""
+
+#: includes/install-functions.php:62 includes/install-functions.php:63
+msgid "%user% liked their own blog post, <a href=\"%permalink%\">%title%</a>"
+msgstr ""
+
+#: includes/install-functions.php:66
+msgid "%user% liked a blog post, <a href=\"%permalink%\">%title%</a>"
+msgstr ""
+
+#: includes/install-functions.php:67
+msgid "%user% liked an blog post, <a href=\"%permalink%\">%title%</a>"
+msgstr ""
+
+#: includes/install-functions.php:70 includes/install-functions.php:71
+msgid "%user% liked %author%'s blog post, <a href=\"%permalink%\">%title%</a>"
+msgstr ""
+
+#: includes/install-functions.php:74 includes/install-functions.php:75
+#, fuzzy
+msgid "You like this."
+msgstr "¿Te gusta?"
+
+#: includes/install-functions.php:78 includes/install-functions.php:79
+#: includes/install.php:80 includes/install.php:81
+msgid "You and %count% other person like this."
+msgstr ""
+
+#: includes/install-functions.php:82 includes/install-functions.php:83
+#, fuzzy
+msgid "You and %s like this."
+msgstr "Valóranos si te gusta esta extensión"
+
+#: includes/install-functions.php:86 includes/install-functions.php:87
+#: includes/install.php:84 includes/install.php:85
+msgid "You and %count% other people like this"
+msgstr ""
+
+#: includes/install-functions.php:90 includes/install-functions.php:91
+#: includes/install.php:88 includes/install.php:89
+#, fuzzy
+msgid "%count% person likes this."
+msgstr "Persona misteriosa"
+
+#: includes/install-functions.php:94 includes/install-functions.php:95
+#: includes/install.php:92 includes/install.php:93
+#, fuzzy
+msgid "%count% people like this."
+msgstr "¿Te gusta este plugin?"
+
+#: includes/install-functions.php:98 includes/install-functions.php:99
+#: includes/install.php:96 includes/install.php:97
+msgid "and %count% other person like this."
+msgstr ""
+
+#: includes/install-functions.php:102 includes/install-functions.php:103
+#: includes/install.php:100 includes/install.php:101
+msgid "and %count% other people like this."
+msgstr ""
+
+#: includes/install-functions.php:106 includes/install-functions.php:107
+#: includes/notifications.php:102
+#, fuzzy
+msgid "%s and %s like this."
+msgstr "Mostrar en %s de %s"
+
+#: includes/install-functions.php:110 includes/install-functions.php:111
+#, fuzzy
+msgid "%s likes this."
+msgstr "%s está disponible"
+
+#: includes/install-functions.php:114 includes/install-functions.php:115
+#: includes/install.php:112 includes/install.php:113
+msgid ""
+"None of your friends like this yet, but you and %count% other person does."
+msgstr ""
+
+#: includes/install-functions.php:118 includes/install-functions.php:119
+#: includes/install.php:116 includes/install.php:117
+msgid ""
+"None of your friends like this yet, but you and %count% other people do."
+msgstr ""
+
+#: includes/install-functions.php:122 includes/install-functions.php:123
+#: includes/install.php:120 includes/install.php:121
+msgid "None of your friends like this yet, but %count% other person does."
+msgstr ""
+
+#: includes/install-functions.php:126 includes/install-functions.php:127
+#: includes/install.php:124 includes/install.php:125
+msgid "None of your friends like this yet, but %count% other people do."
+msgstr ""
+
+#: includes/install-functions.php:241
+msgid ""
+"<strong>BuddyPress Like</strong> has been successfully updated to version %s."
+msgstr ""
+
+#: includes/install-functions.php:253
+msgid ""
+"<strong>BuddyPress Like</strong></a> requires the BuddyPress plugin to work. "
+"Please <a href=\"http://buddypress.org\">install BuddyPress</a> first, or <a "
+"href=\"plugins.php\">deactivate BuddyPress Like</a>."
+msgstr ""
+
+#: includes/install.php:37 includes/install.php:38
+#, fuzzy
+msgid "Show Activity Likes"
+msgstr "Muestra solo la primera existencia"
+
+#: includes/install.php:41 includes/install.php:42
+#, fuzzy
+msgid "Show Blog Post Likes"
+msgstr "Número máximo de entradas a mostrar en el sitio"
+
+#: includes/install.php:48 includes/install.php:49
+msgid "%user% likes their own <a href=\"%permalink%\">activity</a>"
+msgstr ""
+
+#: includes/install.php:52 includes/install.php:53
+msgid "%user% likes an <a href=\"%permalink%\">activity</a>"
+msgstr ""
+
+#: includes/install.php:56 includes/install.php:57
+msgid "%user% likes %author%'s <a href=\"%permalink%\">activity</a>"
+msgstr ""
+
+#: includes/install.php:60 includes/install.php:61
+msgid "%user% likes their own blog post, <a href=\"%permalink%\">%title%</a>"
+msgstr ""
+
+#: includes/install.php:64
+msgid "%user% likes a blog post, <a href=\"%permalink%\">%title%</a>"
+msgstr ""
+
+#: includes/install.php:65
+msgid "%user% likes an blog post, <a href=\"%permalink%\">%title%</a>"
+msgstr ""
+
+#: includes/install.php:68 includes/install.php:69
+msgid "%user% likes %author%'s blog post, <a href=\"%permalink%\">%title%</a>"
+msgstr ""
+
+#: includes/install.php:72 includes/install.php:73
+#, fuzzy
+msgid "Nobody likes this yet."
+msgstr "No hay categorías de calendario todavía."
+
+#: includes/install.php:76 includes/install.php:77
+msgid "You are the only person who likes this so far."
+msgstr ""
+
+#: includes/install.php:104 includes/install.php:105
+msgid "likes this."
+msgstr ""
+
+#: includes/install.php:108 includes/install.php:109
+#, fuzzy
+msgid "like this."
+msgstr "¿Te gusta este plugin?"
+
+#: includes/like-functions.php:424 includes/like-functions.php:484
+msgid "other"
+msgid_plural "others"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/notifications.php:71
+#, fuzzy
+msgid "%s liked your update"
+msgstr "Actualizar a %s"
+
+#: includes/notifications.php:78
+#, fuzzy
+msgid "%s and %s liked your update"
+msgstr "La actualización de %s falló"
+
+#: includes/notifications.php:120
+msgid ""
+"%1$s liked your update in the group \"%2$s\":\n"
+"\n"
+"\"%3$s\"\n"
+"\n"
+"To view your liked update, log in and visit: %4$s\n"
+"\n"
+"---------------------\n"
+msgstr ""
+
+#: includes/notifications.php:130
+msgid ""
+"%1$s liked your update:\n"
+"\n"
+"\"%2$s\"\n"
+"\n"
+"To view your liked update, log in and visit: %3$s\n"
+"\n"
+"---------------------\n"
+msgstr ""
+
+#: includes/notifications.php:143 includes/notifications.php:260
+#: includes/notifications.php:348
+msgid "To disable these notifications please log in and go to: %s"
+msgstr ""
+"Para desabilitar estas notificaciones por favor indentifícate y visita a: %s"
+
+#: includes/notifications.php:247
+#, fuzzy
+msgid "%s replied to one of your updates"
+msgstr "%1$s respondió a uno de tus comentarios de actividad"
+
+#: includes/notifications.php:248
+msgid ""
+"%1$s replied to one of your updates:\n"
+"\n"
+"\"%2$s\"\n"
+"\n"
+"To view your original update and all comments, log in and visit: %3$s\n"
+"\n"
+"---------------------\n"
+msgstr ""
+
+#: includes/notifications.php:331
+#, fuzzy
+msgid "%s replied to one of your comments"
+msgstr "%1$s respondió a uno de tus comentarios de actividad"
+
+#: includes/notifications.php:336
+msgid ""
+"%1$s replied to one of your comments:\n"
+"\n"
+"\"%2$s\"\n"
+"\n"
+"To view the original activity, your comment and all replies, log in and "
+"visit: %3$s\n"
+"\n"
+"---------------------\n"
+msgstr ""
+
+#: includes/notifications.php:442
+msgid "@%s Mentions"
+msgstr "Menciones a @%s"
+
+#: includes/notifications.php:446
+msgid "You have %1$d new mentions"
+msgstr "Tienes %1$d menciones nuevas"
+
+#: includes/notifications.php:450
+msgid "%1$s mentioned you"
+msgstr "%1$s te ha mencionado"
+
+#. Plugin URI of the plugin/theme
+#, fuzzy
+msgid "http://darrenmeehan.me/"
+msgstr "http://www.wpshopmart.com"
+
+#. Description of the plugin/theme
+msgid ""
+"Adds the ability for users to like content throughout your BuddyPress site."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Darren Meehan"
+msgstr ""
+
+#. Author URI of the plugin/theme
+#, fuzzy
+msgid "http://darrenmeehan.me"
+msgstr "http://www.wpshopmart.com"
