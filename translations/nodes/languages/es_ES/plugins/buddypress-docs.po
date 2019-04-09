@@ -1,27 +1,25 @@
-# Copyright (C) 2010 
+# Copyright (C) 2010
 # This file is distributed under the same license as the  package.
 msgid ""
 msgstr ""
 "Project-Id-Version: Buddypres Doc\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/buddypress-docs\n"
 "POT-Creation-Date: 2019-04-05 07:48:20+00:00\n"
-"PO-Revision-Date: 2019-04-05 11:32+0200\n"
+"PO-Revision-Date: 2019-04-09 14:47+0200\n"
 "Last-Translator: Joan Sala Soler <jsala236@xtec.cat>\n"
 "Language-Team: glindoo <selu@glindoo.com>\n"
 "Language: es_ES\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.6\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.0.6\n"
 
 #: includes/templatetags.php:1659
-#, fuzzy
 msgid " %s"
-msgstr "%s está disponible"
+msgstr " %s"
 
 #: includes/addon-folders.php:1698
-#, fuzzy
 msgid " - None - "
 msgstr "Ninguna"
 
@@ -100,16 +98,15 @@ msgid "(%d)"
 msgstr "(%d)"
 
 #: includes/class-wp-widget-recent-docs.php:45
-#, fuzzy
 msgctxt "widget name"
 msgid "(BuddyPress Docs) Recent Docs"
-msgstr "Índice de documentos"
+msgstr "(BuddyPress Docs) Documentos recientes"
 
 #: includes/templates/docs/single/edit.php:169
 msgid ""
-"(Optional) Assigning a parent Doc means that a link to the parent will "
-"appear at the bottom of this Doc, and a link to this Doc will appear at the "
-"bottom of the parent."
+"(Optional) Assigning a parent Doc means that a link to the parent will appear "
+"at the bottom of this Doc, and a link to this Doc will appear at the bottom of "
+"the parent."
 msgstr ""
 "(Opcional) Asignando un Documento Raíz significa que un enlace al padre "
 "aparecerá en el fondo de este Documento, y un enlace a este Documento "
@@ -117,8 +114,8 @@ msgstr ""
 
 #: includes/templatetags.php:1025
 msgid ""
-"(Optional) Note that the Access settings available for this Doc may be "
-"limited by the privacy settings of the group you choose."
+"(Optional) Note that the Access settings available for this Doc may be limited "
+"by the privacy settings of the group you choose."
 msgstr ""
 "(Opcional) Observe que la configuración de acceso disponibles para este "
 "documento puede estar limitada por la configuración de privacidad del grupo "
@@ -140,11 +137,10 @@ msgstr "+ %s"
 #: includes/templates/docs/docs-loop.php:85
 msgctxt "up one folder"
 msgid ".."
-msgstr ""
+msgstr ".."
 
 #: includes/templatetags.php:279
-msgid ""
-"<strong><a href=\"%s\" title=\"View All Docs\">View All Docs</a></strong>"
+msgid "<strong><a href=\"%s\" title=\"View All Docs\">View All Docs</a></strong>"
 msgstr ""
 "<strong><a href=\"%s\" title=\"View All Docs\">Ver todos los documentos</a></"
 "strong>"
@@ -152,11 +148,11 @@ msgstr ""
 #: includes/templatetags.php:276
 #, fuzzy
 msgid ""
-"<strong><a href=\"%s\" title=\"View Docs with all selected tags\">Viewing "
-"docs with each of these tags</a></strong>"
+"<strong><a href=\"%s\" title=\"View Docs with all selected tags\">Viewing docs "
+"with each of these tags</a></strong>"
 msgstr ""
-"<strong><a href=\"%s\" title=\"View All Docs\">Ver todos los documentos</a></"
-"strong>"
+"<Strong> <a href=\"%s\" title=\"Visualitza documentos con todas las etiquetas "
+"seleccionades\"> Documentos con todas las etiquetas </a> </ strong>"
 
 #: includes/templatetags.php:273
 #, fuzzy
@@ -164,22 +160,30 @@ msgid ""
 "<strong><a href=\"%s\" title=\"View Docs with some of the selected tags"
 "\">Viewing docs with some of these tags</a></strong>"
 msgstr ""
-"<strong><a href=\"%s\" title=\"View All Docs\">Ver todos los documentos</a></"
-"strong>"
+"<Strong> <a href=\"%s\" title=\"Visualitza documentos con alguna de las "
+"etiquetas seleccionades\"> Documentos con alguna etiqueta </a> </ strong>"
 
 #: includes/templates/docs/manage-folders.php:19
+#, fuzzy
 msgid ""
 "<strong>WARNING:</strong> Deleting a folder will also delete all Docs and "
 "subfolders in the folder. This action cannot be undone. To preserve your "
 "content, remove everything from this folder before deleting it."
 msgstr ""
+"<Strong> Atención: </ strong> Si elimina una carpeta también borrará todos los "
+"documentos y subcarpetas existentes. Esta acción no se puede deshacer. Para "
+"conservar el contenido, elimine todo de la carpeta antes de borrarla."
 
 #: includes/attachments.php:780
+#, fuzzy
 msgid ""
 "<strong>Your BuddyPress Docs attachments directory is publicly accessible.</"
 "strong> Doc attachments will not be properly protected from direct viewing, "
 "even if the parent Docs are non-public."
 msgstr ""
+"<Strong> Su directorio de archivos adjuntos de los documentos de BuddyPress es "
+"accesible de forma pública. </ Strong> Los archivos adjuntos no están "
+"protegidos de la vista aunque el documento del que cuelgue no sea público."
 
 #: includes/templates/docs/single/edit.php:110
 #: includes/templates/docs/single/edit.php:111
@@ -195,9 +199,8 @@ msgid "Actions"
 msgstr "Acciones"
 
 #: includes/templatetags.php:2085
-#, fuzzy
 msgid "Add Files"
-msgstr "Añadir archivos desde tu ordenador"
+msgstr "Añadir archivos"
 
 #: bp-docs.php:293
 msgctxt "add new"
@@ -211,7 +214,7 @@ msgstr "Añadir Documento nuevo"
 #. Description of the plugin/theme
 #, fuzzy
 msgid "Adds collaborative Docs to BuddyPress"
-msgstr "Índice de documentos"
+msgstr "Agregar documentos colaborativos al buddypress"
 
 #: includes/integration-groups.php:552
 msgid "Admins and mods of %s"
@@ -227,13 +230,14 @@ msgid "All Docs"
 msgstr "Todos los documentos"
 
 #: includes/admin.php:225
+#, fuzzy
 msgid "Allow users to add attachments to their Docs."
-msgstr ""
+msgstr "Permite a los usuarios añadir archivos adjuntos a sus documentos."
 
 #: includes/admin.php:220
 #, fuzzy
 msgid "Allow users to add attachments."
-msgstr "Permitir a los usuarios a personalizar la invitación"
+msgstr "Permite a los usuarios adjuntar archivos."
 
 #: includes/templates/docs/single/history.php:17
 msgid ""
@@ -265,9 +269,8 @@ msgid "Associated Items"
 msgstr "Objetos Asociados"
 
 #: includes/attachments.php:346
-#, fuzzy
 msgid "Attachment deleted"
-msgstr "Borrado"
+msgstr "Se ha eliminado el archivo adjunto"
 
 #: includes/admin.php:134 includes/attachments.php:576
 #: includes/templates/docs/single/edit.php:75
@@ -281,25 +284,24 @@ msgid "Author"
 msgstr "Autor"
 
 #: includes/addon-moderation.php:59 includes/templatetags.php:2360
-#, fuzzy
 msgid "Awaiting Moderation"
-msgstr "No hay comentarios esperando moderación."
+msgstr "A la espera de validación"
 
 #: includes/addon-moderation.php:39
 #, fuzzy
 msgctxt "General name of pending doc status"
 msgid "Awaiting Moderation"
-msgstr "No hay comentarios esperando moderación."
+msgstr "A la espera de validación"
 
 #: includes/addon-moderation.php:40
 msgid "Awaiting Moderation (%s)"
 msgid_plural "Awaiting Moderation (%s)"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "En espera de moderación (%s)"
+msgstr[1] "En espera de moderación (%s)"
 
 #. Author of the plugin/theme
 msgid "Boone B Gorges, David Cavins"
-msgstr ""
+msgstr "Boone B Gorges, David Cavins"
 
 #. Plugin Name of the plugin/theme
 #: includes/component.php:42
@@ -309,17 +311,17 @@ msgstr "Documentos BuddyPress"
 #: includes/addon-folders.php:42
 #, fuzzy
 msgid "BuddyPress Docs Folder"
-msgstr "Documentos BuddyPress"
+msgstr "Carpeta de documentos de buddypress"
 
 #: includes/addon-folders.php:41
 #, fuzzy
 msgid "BuddyPress Docs Folders"
-msgstr "Documentos BuddyPress"
+msgstr "Carpetas de documentos de buddypress"
 
 #: includes/admin.php:31 includes/admin.php:43
 #, fuzzy
 msgid "BuddyPress Docs Settings"
-msgstr "Índice de documentos"
+msgstr "Configuración de los documentos"
 
 #: includes/upgrade.php:70 includes/upgrade.php:91
 msgid "BuddyPress Docs Upgrade"
@@ -331,28 +333,37 @@ msgid "Cancel"
 msgstr "Cancelar"
 
 #: includes/admin.php:162 includes/admin.php:164
+#, fuzzy
 msgid "Change the slug used to build Docs URLs."
-msgstr ""
+msgstr "Cambiar nombre corto utilizado para construir las url de los documentos."
 
 #: includes/admin.php:186
+#, fuzzy
 msgid ""
-"Change the title of the main Docs directory from 'Docs Directory' to "
-"whatever you&rsquo;d like."
+"Change the title of the main Docs directory from 'Docs Directory' to whatever "
+"you&rsquo;d like."
 msgstr ""
+"Cambie el título de la carpeta docs principal de 'docs directory' hacia el que "
+"desee."
 
 #: includes/admin.php:184
+#, fuzzy
 msgid "Change the title of the main Docs directory."
-msgstr ""
+msgstr "Cambia el título de la carpeta docs principal"
 
 #: includes/admin.php:173
+#, fuzzy
 msgid "Change the value for longer or shorter excerpts."
-msgstr ""
+msgstr "Cambie el valor para tener resúmenes más largos o más cortos."
 
 #: includes/admin.php:198
+#, fuzzy
 msgid "Change the word on groups' Docs tab."
 msgstr ""
+"Cambia la palabra que aparece en la pestaña de los documentos de los grupos"
 
 #: includes/admin.php:200
+#, fuzzy
 msgid ""
 "Change the word on the BuddyPress group tab from 'Docs' to whatever you'd "
 "like. Keep in mind that this will not change the text anywhere else on the "
@@ -360,23 +371,36 @@ msgid ""
 "buddypress.org/extending-buddypress/customizing-labels-messages-and-"
 "urls/'>language file</a> for BuddyPress Docs."
 msgstr ""
+"Cambie la palabra 'documentos' de la pestaña del buddypress por otra. tenga en "
+"cuenta que esto no cambiará el texto en todas partes. por un cambio de texto "
+"general cree un <a href='http://codex.buddypress.org/extending-buddypress/"
+"customizing-labels-messages-and-urls/'> fichero de idioma </a> para los "
+"documentos de buddypress."
 
 #: includes/admin.php:209
+#, fuzzy
 msgid "Change the word on users' Docs tab."
 msgstr ""
+"Cambia la palabra que aparece en la pestaña de los documentos de los usuarios."
 
 #: includes/admin.php:211
+#, fuzzy
 msgid ""
 "Change the word on users' Docs tabs from 'Docs' to whatever you'd like. Keep "
 "in mind that this will not change the text anywhere else on the page. For a "
 "more thorough text change, create a <a href='http://codex.buddypress.org/"
-"extending-buddypress/customizing-labels-messages-and-urls/'>language file</"
-"a> for BuddyPress Docs."
+"extending-buddypress/customizing-labels-messages-and-urls/'>language file</a> "
+"for BuddyPress Docs."
 msgstr ""
+"Cambie la palabra 'documentos' en las pestañas de los usuarios por otra. tenga "
+"en cuenta que esto no cambiará el texto en todas partes. por un cambio de "
+"texto general cree un <a href='http://codex.buddypress.org/extending-"
+"buddypress/customizing-labels-messages-and-urls/'> fichero de idioma </a> para "
+"los documentos de buddypress."
 
 #: includes/addon-hierarchy.php:168
 msgid "Children: "
-msgstr "Hijos:"
+msgstr "Hijos: "
 
 #: includes/upgrade.php:62
 msgid "Click here to start the upgrade."
@@ -401,9 +425,8 @@ msgid "Comment posting has been disabled on this doc."
 msgstr "La generación de comentarios ha sido deactivada en este documento."
 
 #: includes/activity.php:293
-#, fuzzy
 msgid "Commented on a Doc"
-msgstr "%1$s comentó en el documento %2$s  en el grupo %3$s"
+msgstr "Ha comentado el documento"
 
 #: includes/templatetags.php:1699
 msgid "Comments are visible to: <strong>%s</strong>"
@@ -423,31 +446,30 @@ msgstr "Comparar Revisiones de &#8220;%1$s&#8221;"
 
 #: includes/templates/docs/single/edit.php:55
 msgid "Content"
-msgstr "contenido"
+msgstr "Contenido"
 
 #: includes/attachments.php:348
 #, fuzzy
 msgid "Could not delete attachment"
-msgstr "Suprimir"
+msgstr "No se puede eliminar el archivo adjunto"
 
 #: includes/component.php:522
-#, fuzzy
 msgid "Could not delete doc."
-msgstr "Documento"
+msgstr "No se pudo borrar el documento."
 
 #: includes/addon-folders.php:1315
 #, fuzzy
 msgid "Could not delete folder."
-msgstr "Suprimir"
+msgstr "La carpeta no se puede borrar."
 
 #: includes/component.php:548
+#, fuzzy
 msgid "Could not remove Doc from Trash."
-msgstr ""
+msgstr "No se pudo borrar el documento de la papelera."
 
 #: includes/component.php:568
-#, fuzzy
 msgid "Could not remove Doc from the group."
-msgstr "No es posible eliminar todos los administradores de un grupo."
+msgstr "No se pudo borrar el documento del grupo."
 
 #: includes/templates/docs/manage-folders.php:61
 msgid "Create"
@@ -460,17 +482,16 @@ msgstr "Crear Documento Nuevo"
 #: includes/templates/docs/manage-folders.php:55
 #, fuzzy
 msgid "Create New Folder"
-msgstr "Crear un nuevo proyecto %"
+msgstr "Crea una carpeta nueva"
 
 #: includes/theme-bridge.php:268
-#, fuzzy
 msgid "Create a Doc"
-msgstr "Crear Documento Nuevo"
+msgstr "Crea un documento"
 
 #: includes/addon-folders.php:1943
 #, fuzzy
 msgid "Create a new folder"
-msgstr "Crear un nuevo proyecto %"
+msgstr "Crea una carpeta nueva"
 
 #: includes/templates/docs/docs-loop-list.php:21
 #: includes/templates/docs/docs-loop.php:60
@@ -478,34 +499,32 @@ msgid "Created"
 msgstr "CReado"
 
 #: includes/activity.php:279
-#, fuzzy
 msgid "Created a Doc"
-msgstr "%1$s creó el documento %2$s  en el grupo %3$s"
+msgstr "Ha creado un documento"
 
 #. translators: column name in revisons
 #: includes/addon-history.php:419
 msgid "Date Created"
 msgstr "Fecha Creada"
 
-#: includes/addon-folders.php:2373
-#: includes/templates/docs/manage-folders.php:27 includes/templatetags.php:2199
+#: includes/addon-folders.php:2373 includes/templates/docs/manage-folders.php:27
+#: includes/templatetags.php:2199
 msgid "Delete"
 msgstr "Borrado"
 
 #: includes/templates/docs/manage-folders.php:3
 #, fuzzy
 msgid "Delete Folder"
-msgstr "Suprimir"
+msgstr "Elimina la carpeta"
 
 #: includes/admin.php:76
 #, fuzzy
 msgid "Directory Excerpt Length"
-msgstr "Extracto"
+msgstr "Longitud del resumen del directorio"
 
 #: includes/admin.php:86
-#, fuzzy
 msgid "Directory Title"
-msgstr "Título:"
+msgstr "Título de la carpeta"
 
 #: includes/templates/docs/tabs-nouveau.php:2
 msgid "Directory menu"
@@ -520,17 +539,18 @@ msgid "Discussion (%d)"
 msgstr "Discusión (%d)"
 
 #: includes/attachments.php:790
-#, fuzzy
 msgid "Dismiss this message"
-msgstr "Descartar"
+msgstr "Descarta este mensaje"
 
 #: includes/class-wp-widget-recent-docs.php:184
 msgid "Display post date?"
 msgstr "¿Mostrar la fecha de la entrada?"
 
 #: includes/class-wp-widget-recent-docs.php:44
+#, fuzzy
 msgid "Displays the most recent BuddyPress Docs that the visitor can read."
 msgstr ""
+"Ver los documentos más recientes de buddypress que los visitantes pueden leer."
 
 #: bp-docs.php:292
 msgctxt "post type singular name"
@@ -540,12 +560,12 @@ msgstr "Documento"
 #: includes/activity.php:450
 #, fuzzy
 msgid "Doc Comments"
-msgstr "No hay comentarios para este documento aún."
+msgstr "Ver los comentarios del documento"
 
 #: includes/activity.php:449
 #, fuzzy
 msgid "Doc Edits"
-msgstr "Documento"
+msgstr "Muestra las ediciones del documento"
 
 #: includes/query-builder.php:619
 msgid "Doc successfully created!"
@@ -560,14 +580,12 @@ msgid "Doc successfully edited!"
 msgstr "¡Documento editado satisfactoriamente!"
 
 #: includes/component.php:546
-#, fuzzy
 msgid "Doc successfully removed from Trash!"
-msgstr "Bloqueo eliminado satisfactoriamente"
+msgstr "El documento se ha eliminado correctamente de la papelera!"
 
 #: includes/component.php:566
-#, fuzzy
 msgid "Doc successfully removed from the group"
-msgstr "Bloqueo eliminado satisfactoriamente"
+msgstr "El documento se ha eliminado correctamente del grupo"
 
 #: bp-docs.php:307 includes/integration-groups.php:960
 #: includes/integration-groups.php:1059 includes/integration-groups.php:1243
@@ -585,14 +603,12 @@ msgid "Docs Directory"
 msgstr "Directorio de documentos"
 
 #: includes/addon-folders.php:44
-#, fuzzy
 msgid "Docs Folder"
-msgstr "carpeta"
+msgstr "Carpeta de documentos"
 
 #: includes/addon-folders.php:43
-#, fuzzy
 msgid "Docs Folders"
-msgstr "Área de Trabajo Compartido"
+msgstr "Carpetas de documentos"
 
 #: includes/addon-taxonomy.php:87
 msgid "Docs Tag"
@@ -608,7 +624,7 @@ msgctxt ""
 "Description for the associated-item taxonomy term. Of the form \"Docs "
 "associated with the [item-type] [item-name]\" - item-type is group, user, etc"
 msgid "Docs associated with the %1$s %2$s"
-msgstr "Documentos asociados con el grupo %s"
+msgstr "Documento asociado a% 1 $ s% 2 $ s"
 
 #: includes/upgrade.php:243
 msgid "Docs associated with the group %s"
@@ -617,24 +633,24 @@ msgstr "Documentos asociados con el grupo %s"
 #: includes/integration-groups.php:1245
 #, fuzzy
 msgid ""
-"Docs is a powerful tool for collaboration with members of your group. A "
-"cross between document editor and wiki, Docs allows you to co-author and co-"
-"edit documents with your fellow group members, which you can then sort and "
-"tag in a way that helps your group to get work done."
+"Docs is a powerful tool for collaboration with members of your group. A cross "
+"between document editor and wiki, Docs allows you to co-author and co-edit "
+"documents with your fellow group members, which you can then sort and tag in a "
+"way that helps your group to get work done."
 msgstr ""
-"El área de trabajo compartido es una poderosa herramienta de colaboración "
-"con miembros de tu mismo grupo. Una mezcla entre un editor de documentos y "
-"una wiki, que te permite ser coautor y coeditar documentos con tus "
-"compañeros del grupo."
+"Documentos del buddypress es una herramienta colaborativa muy potente para la "
+"colaboración entre los miembros de su grupo. entre una wiki y un editor de "
+"documentos, documentos del buddypress permite crear y editar documentos de "
+"forma colaborativa entre los miembros de su grupo, que luego podrá clasificar "
+"y etiquetar de forma que ayude a sus usuarios a hacer el trabajo."
 
 #: includes/addon-taxonomy.php:505 includes/addon-taxonomy.php:578
 msgid "Docs tagged %s"
 msgstr "Documentos etiquetados %s"
 
 #: includes/attachments.php:596
-#, fuzzy
 msgid "Doesn&#8217;t matter"
-msgstr "¿El archivo no existe?"
+msgstr "Es indiferente"
 
 #: includes/addon-folders.php:2397 includes/integration-groups.php:973
 #: includes/templates/docs/docs-header.php:30 includes/templatetags.php:1216
@@ -657,35 +673,35 @@ msgid "Edited By Me"
 msgstr "Editado Por Mi"
 
 #: includes/activity.php:286
-#, fuzzy
 msgid "Edited a Doc"
-msgstr "%1$s editó el documento %2$s  en el grupo %3$s"
+msgstr "Ha editado un documento"
 
 #: includes/admin.php:142
-#, fuzzy
 msgid "Enable Attachments"
-msgstr "Mostrar adjuntos"
+msgstr "Habilitar los archivos adjuntos"
 
 #: includes/integration-groups.php:1248
-#, fuzzy
 msgid "Enable Docs for this group"
-msgstr "Habilitar"
+msgstr "Activar documentos para este grupo"
 
 #: includes/admin.php:222
 msgid "Enabled"
 msgstr "Habilitado"
 
 #: includes/admin.php:175
+#, fuzzy
 msgid ""
 "Excerpts are shown on Docs directories, to provide better context. If your "
-"theme or language requires longer or shorter excerpts, change this value. "
-"Set to <code>0</code> to disable these excerpts."
+"theme or language requires longer or shorter excerpts, change this value. Set "
+"to <code>0</code> to disable these excerpts."
 msgstr ""
+"En el directorio documentos aparece un resumen para proporcionar un contexto "
+"mejor. si el tema o el idioma requieren fragmentos más largos o más cortos, "
+"cambie este valor. defina a <code> 0 </ code> para desactivar estos resúmenes."
 
 #: includes/attachments.php:74 includes/attachments.php:81
-#, fuzzy
 msgid "File not found."
-msgstr "No encontrado"
+msgstr "No se encontró el archivo."
 
 #: includes/attachments.php:598
 msgid "Filter"
@@ -694,38 +710,33 @@ msgstr "Filtrar"
 #: includes/templatetags.php:289
 #, fuzzy
 msgid "Filter by: %s"
-msgstr "Filtrar temas (%s)"
+msgstr "Filtrar por:% s"
 
 #: includes/addon-folders.php:1313
-#, fuzzy
 msgid "Folder deleted."
-msgstr "carpeta"
+msgstr "Se ha borrado la carpeta."
 
 #: includes/addon-folders.php:1262
-#, fuzzy
 msgid "Folder successfully created."
-msgstr "Aviso creado con éxito."
+msgstr "La carpeta se ha creado correctamente."
 
 #: includes/addon-folders.php:1192
-#, fuzzy
 msgid "Folder successfully updated."
-msgstr "El plugin se ha actualizado con éxito."
+msgstr "La carpeta se ha actualizado correctamente."
 
 #: includes/addon-folders.php:1864
-#, fuzzy
 msgid "Folder type"
-msgstr "carpeta"
+msgstr "Tipo de carpeta"
 
 #: includes/addon-folders.php:1916 includes/addon-folders.php:1917
-#, fuzzy
 msgid "Folders"
-msgstr "Organizar mis archivos subidos en carpetas basadas en mes y año"
+msgstr "Carpetas"
 
 #: includes/addon-folders.php:193
 #, fuzzy
 msgctxt "Doc edit tab name"
 msgid "Folders"
-msgstr "Organizar mis archivos subidos en carpetas basadas en mes y año"
+msgstr "Carpetas"
 
 #: includes/admin.php:56
 msgid "General"
@@ -734,27 +745,25 @@ msgstr "Opciones generales"
 #: includes/addon-folders.php:1634 includes/addon-folders.php:1741
 #, fuzzy
 msgid "Global"
-msgstr "Modifica las opciones globales de la red"
+msgstr "Parámetros globales"
 
 #: includes/templates/docs/docs-loop.php:85
 #, fuzzy
 msgid "Go up one folder"
-msgstr "Mover a un nivel superior"
+msgstr "Sube una carpeta"
 
 #: includes/integration-groups.php:771
 msgid "Group"
 msgstr "Grupo"
 
 #: includes/addon-folders.php:194
-#, fuzzy
 msgctxt "Doc edit tab name"
 msgid "Group Folders"
-msgstr "Grupos"
+msgstr "Carpetas del grupo"
 
 #: includes/admin.php:123
-#, fuzzy
 msgid "Group Tab Name"
-msgstr "Título"
+msgstr "Nombre de la pestaña del grupo"
 
 #: includes/integration-groups.php:1256
 msgid "Group admin"
@@ -777,12 +786,11 @@ msgstr ""
 #: includes/addon-folders.php:1745
 #, fuzzy
 msgid "Group-specific"
-msgstr "Fecha especifica"
+msgstr "Grupos-específico"
 
 #: includes/templatetags.php:1657
-#, fuzzy
 msgid "Group: "
-msgstr "Grupos"
+msgstr "Grupo: "
 
 #: includes/admin.php:115
 msgid "Groups"
@@ -790,14 +798,13 @@ msgstr "Grupos"
 
 #: includes/templates/docs/docs-loop-list.php:9
 #: includes/templates/docs/docs-loop.php:46
-#, fuzzy
 msgid "Has attachment"
-msgstr "Plantilla de archivos adjuntos"
+msgstr "Contiene un adjunto"
 
 #: includes/attachments.php:592
 #, fuzzy
 msgid "Has attachment?"
-msgstr "Plantilla de archivos adjuntos"
+msgstr "Hay algún archivo adjunto?"
 
 #: includes/templatetags.php:1096
 msgid "Hidden Group"
@@ -808,9 +815,8 @@ msgid "Hide Details"
 msgstr "Detalles Ocultos"
 
 #: includes/templates/docs/docs-loop.php:35
-#, fuzzy
 msgid "Hide Folders"
-msgstr "Ocultar cabecera"
+msgstr "Ocultar carpetas"
 
 #: includes/addon-history.php:448 includes/integration-groups.php:975
 #: includes/templatetags.php:1220
@@ -822,9 +828,9 @@ msgid "History can be viewed by: <strong>%s</strong>"
 msgstr "Historial puede ser visto por: <strong>%s</strong>"
 
 #: includes/templates/docs/manage-folders.php:23
-msgid ""
-"I understand the consequences and wish to continue deleting this folder."
-msgstr ""
+#, fuzzy
+msgid "I understand the consequences and wish to continue deleting this folder."
+msgstr "Entiendo las consecuencias y quiero seguir borrando esta carpeta."
 
 #: includes/templates/docs/single/edit.php:230
 msgid "I'm still editing!"
@@ -832,37 +838,47 @@ msgstr "¡Aún estoy editando!"
 
 #: includes/templates/docs/single/edit.php:228
 msgid ""
-"In order to prevent overwriting content, only one person can edit a given "
-"doc at a time. For that reason, you must periodically ensure the system that "
-"you're still actively editing. If you are idle for more than 30 minutes, "
-"your changes will be auto-saved, and you'll be sent out of Edit mode so that "
-"others can access the doc."
+"In order to prevent overwriting content, only one person can edit a given doc "
+"at a time. For that reason, you must periodically ensure the system that "
+"you're still actively editing. If you are idle for more than 30 minutes, your "
+"changes will be auto-saved, and you'll be sent out of Edit mode so that others "
+"can access the doc."
 msgstr ""
 "Para prevenir contenido sobreescrito, solo una persona puede editar un "
-"documento entregado a la vez. Por esta razón, debes periódicamente asegurar "
-"al sistema que tue estás actívamente editando. Si estás en pausa por más de "
-"30 minutos, tus cambios serán autoguardados y será enviado fuera del modo de "
+"documento entregado a la vez. Por esta razón, debes periódicamente asegurar al "
+"sistema que tue estás actívamente editando. Si estás en pausa por más de 30 "
+"minutos, tus cambios serán autoguardados y será enviado fuera del modo de "
 "edición para que otros puedan acceder al documento."
 
 #: includes/attachments.php:774
+#, fuzzy
 msgid ""
 "It looks like you are running <strong>Apache</strong>. The most likely cause "
 "of your problem is that the <code>AllowOverride</code> directive has been "
-"disabled, either globally (<code>httpd.conf</code>) or in a "
-"<code>VirtualHost</code> definition. Contact your host for assistance."
+"disabled, either globally (<code>httpd.conf</code>) or in a <code>VirtualHost</"
+"code> definition. Contact your host for assistance."
 msgstr ""
+"Parece que está utilizando <strong> apache </ strong>. la causa más posible de "
+"su problema es que la directiva <code> allowoverride </ code> haya sido "
+"desactivada."
 
 #: includes/attachments.php:762
+#, fuzzy
 msgid ""
 "It looks like you are running <strong>IIS 7</strong>. We recommend the "
 "following setting in your Web.config file:"
 msgstr ""
+"Parece que está utilizando <strong> iis 7 </ strong>. recomendamos los "
+"siguientes parámetros en el archivo web.config:"
 
 #: includes/attachments.php:752
+#, fuzzy
 msgid ""
 "It looks like you are running <strong>nginx</strong>. We recommend the "
 "following setting in your site configuration file:"
 msgstr ""
+"Parece que está utilizando <strong> nginx </ strong>. recomendamos los "
+"siguientes parámetros en el archivo de configuración del sitio:"
 
 #: includes/templatetags.php:1675
 msgid "Just Me"
@@ -890,15 +906,13 @@ msgid "Logged-in Users"
 msgstr "Usuarios Registrados"
 
 #: includes/templates/docs/manage-folders.php:46
-#, fuzzy
 msgid "Manage Existing Folders"
-msgstr "Gestionar las opciones de los widgets"
+msgstr "Administrar carpetas existentes"
 
 #: includes/templates/docs/docs-loop-tree.php:7
 #: includes/templates/docs/docs-loop.php:30
-#, fuzzy
 msgid "Manage Folders"
-msgstr "Gestionar las opciones de los widgets"
+msgstr "Administrar carpetas"
 
 #: includes/integration-groups.php:540
 msgid "Members of %s"
@@ -923,11 +937,11 @@ msgstr "Migracion completa! <a href=\"%s\">Dashboard</a>"
 #: includes/integration-groups.php:1254
 #, fuzzy
 msgid "Minimum role to associate Docs with this group:"
-msgstr "No tienes permisos para asociar documento a este grupo."
+msgstr "Quién puede añadir documentos?"
 
 #: includes/addon-taxonomy.php:652
 msgid "Most Used"
-msgstr "Más usado."
+msgstr "Más usado"
 
 #: includes/templatetags.php:1329
 msgid "Move to Trash"
@@ -935,12 +949,11 @@ msgstr "Mover a la papelera"
 
 #: includes/component.php:314
 msgid "My Docs "
-msgstr "Mis Documentos"
+msgstr "Mis Documentos "
 
 #: includes/addon-folders.php:1665
-#, fuzzy
 msgid "My Folders"
-msgstr "Mis Amigos"
+msgstr "Mis carpetas"
 
 #: includes/templatetags.php:1673
 msgid "My Friends"
@@ -969,18 +982,15 @@ msgstr "Nuevo Documento"
 #: includes/activity.php:448
 #, fuzzy
 msgid "New Docs"
-msgstr ""
-"Gracias por actualizar BuddyPress Docs. Tenemos que ejecutar algunas tareas "
-"antes de que la nueva version esté listo para su uso."
+msgstr "Documentos nuevo"
 
 #: includes/templates/docs/single/history.php:29
 msgid "Newer: %s"
 msgstr "Más nuevos: %s"
 
 #: includes/attachments.php:595
-#, fuzzy
 msgid "No"
-msgstr "Ninguno"
+msgstr "No"
 
 #: bp-docs.php:299
 msgid "No Docs found"
@@ -997,16 +1007,15 @@ msgstr "No existen comentarios aún."
 #: includes/addon-taxonomy.php:401
 #, fuzzy
 msgid "No tags to show."
-msgstr "Mostrar todos"
+msgstr "Ninguna etiqueta para mostrar."
 
 #: includes/templatetags.php:958
 msgid "None"
 msgstr "Ninguno"
 
 #: includes/class-wp-widget-recent-docs.php:180
-#, fuzzy
 msgid "Number of docs to show:"
-msgstr "Número de entradas a mostrar:"
+msgstr "Número de documentos a mostrar:"
 
 #: includes/attachments.php:396 includes/component.php:1006
 msgid "OK"
@@ -1031,22 +1040,20 @@ msgid "Parent"
 msgstr "Documento Raíz"
 
 #: includes/addon-folders.php:1874
-#, fuzzy
 msgid "Parent (optional)"
-msgstr "ID del menú padre (opcional)"
+msgstr "Padre (opcional)"
 
 #: includes/addon-hierarchy.php:118
 msgid "Parent: "
-msgstr "Padre:"
+msgstr "Padre: "
 
 #: includes/templates/docs/single/edit.php:47
 msgid "Permalink"
 msgstr "Enlace Permanente"
 
 #: includes/templatetags.php:1326 includes/templatetags.php:1331
-#, fuzzy
 msgid "Permanently Delete"
-msgstr "Borrar comentario permanentemente"
+msgstr "Borra de forma definitiva"
 
 #: includes/addon-folders.php:1742
 msgid "Personal"
@@ -1061,8 +1068,8 @@ msgid ""
 "Please try again in a few minutes. Or, as an admin, you can <a href=\"%s"
 "\">force cancel</a> the edit lock."
 msgstr ""
-"Por favor inténtelo de nuevo en algunos minutos. O, como administrador, "
-"puede <a href=\"%s\">forzar la cancelación</a> del bloqueo de edición."
+"Por favor inténtelo de nuevo en algunos minutos. O, como administrador, puede "
+"<a href=\"%s\">forzar la cancelación</a> del bloqueo de edición."
 
 #: includes/templatetags.php:1749
 msgid "Private"
@@ -1087,16 +1094,15 @@ msgstr "Leer"
 #: includes/class-wp-widget-recent-docs.php:70
 #, fuzzy
 msgid "Recent BuddyPress Docs"
-msgstr "Documentos BuddyPress"
+msgstr "Documentos recientes de buddypress docs"
 
 #: includes/admin.php:267
 msgid "Recent Comments"
 msgstr "Comentarios recientes"
 
 #: includes/templatetags.php:1324
-#, fuzzy
 msgid "Remove from Trash"
-msgstr "Error al restaurar de la papelera."
+msgstr "Borrar de la papelera"
 
 #: includes/addon-history.php:378
 msgid "Restore"
@@ -1119,9 +1125,8 @@ msgid "Save Changes"
 msgstr "Guardar Cambios"
 
 #: includes/templates/docs/single/edit.php:193
-#, fuzzy
 msgid "Save and Continue Editing"
-msgstr "Guarda y continua"
+msgstr "Guardar y continuar la edición"
 
 #: includes/component.php:906 includes/component.php:929
 #: includes/component.php:931
@@ -1135,17 +1140,17 @@ msgstr "Buscar Documentos"
 #: includes/component.php:152
 #, fuzzy
 msgid "Search Docs..."
-msgstr "Buscar Documentos"
+msgstr "Buscar documentos ..."
 
 #: includes/attachments.php:787
 #, fuzzy
 msgid "See <a href=\"%s\">this wiki page</a> for more information."
-msgstr "Mira <a href=\"%s\">la guía del Codex</a> para más información."
+msgstr "Vea <a href=\"%s\"> esta página </a> para más información."
 
 #: includes/addon-folders.php:1924
 #, fuzzy
 msgid "Select a folder for this Doc."
-msgstr "Selecciona un documento raíz para este documento."
+msgstr "Seleccione una carpeta para este documento."
 
 #: includes/templates/docs/single/edit.php:167
 msgid "Select a parent for this Doc."
@@ -1168,9 +1173,8 @@ msgid "Settings saved successfully"
 msgstr "Las configuraciones fueron guardadas satisfactoriamente"
 
 #: includes/admin.php:233
-#, fuzzy
 msgid "Settings updated."
-msgstr "Ajustes actualizados correctamente"
+msgstr "Se han actualizado los parámetros."
 
 #: includes/templatetags.php:1761
 msgid "Show Details"
@@ -1179,7 +1183,7 @@ msgstr "Muestra Detalles"
 #: includes/templates/docs/docs-loop.php:36
 #, fuzzy
 msgid "Show Folders"
-msgstr "Mostrar los detalles"
+msgstr "Muestra las carpetas"
 
 #: includes/admin.php:64
 msgid "Slug"
@@ -1239,9 +1243,8 @@ msgid "The Doc author only (that's you!)"
 msgstr "Sólo el creador del documento (eres tú)"
 
 #: includes/query-builder.php:518
-#, fuzzy
 msgid "The title field is required."
-msgstr "Este es un campo obligatorio"
+msgstr "El campo de título es un campo requerido."
 
 #: includes/templates/docs/single/comments.php:49
 msgid "There are no comments for this doc yet."
@@ -1263,15 +1266,13 @@ msgstr ""
 #: includes/addon-folders.php:1264
 #, fuzzy
 msgid "There was a problem creating the folder. Please try again."
-msgstr ""
-"Hubo un problema activando las cuentas. Por favor, vuelve a intentarlo."
+msgstr "Ha habido un error creando la carpeta, vuelva a intentarlo de nuevo."
 
 #: includes/addon-folders.php:1166 includes/addon-folders.php:1194
 #: includes/addon-folders.php:1222
 #, fuzzy
 msgid "There was a problem editing that folder. Please try again."
-msgstr ""
-"Hubo un problema activando las cuentas. Por favor, vuelve a intentarlo."
+msgstr "Ha habido un error editando la carpeta, vuelva a intentarlo de nuevo."
 
 #: includes/integration-groups.php:1179
 msgid "There was an error saving, please try again"
@@ -1287,7 +1288,7 @@ msgstr "Hubo un error mientras guardaba documentos."
 
 #: includes/templates/docs/single/history.php:60
 msgid "These revisions are identical."
-msgstr "Estas revisiones son idénticas"
+msgstr "Estas revisiones son idénticas."
 
 #: includes/templatetags.php:1695
 msgid "This Doc can be edited by: <strong>%s</strong>"
@@ -1298,14 +1299,12 @@ msgid "This Doc can be read by: <strong>%s</strong>"
 msgstr "Este documento puede leerlo: <strong>%s</strong>"
 
 #: includes/templatetags.php:2360
-#, fuzzy
 msgid "This Doc is awaiting moderation"
-msgstr "Tu comentario está pendiente de moderación."
+msgstr "Este documento está esperando ser validado"
 
 #: includes/templates/docs/docs-header.php:16 includes/templatetags.php:2358
-#, fuzzy
 msgid "This Doc is in the Trash"
-msgstr "Papelera"
+msgstr "El documento está en la papelera"
 
 #: includes/templates/docs/single/index.php:18
 msgid ""
@@ -1327,12 +1326,11 @@ msgstr ""
 #: includes/templates/docs/manage-folders.php:7
 #, fuzzy
 msgid "This does not appear to be a valid folder."
-msgstr "Falta un directorio de contenido válido"
+msgstr "Esto no parece ser una carpeta válida."
 
 #: includes/addon-folders.php:2488
-#, fuzzy
 msgid "This folder contains no Docs."
-msgstr "carpeta"
+msgstr "Esta carpeta no contiene documentos."
 
 #: includes/templates/docs/docs-loop-list.php:13
 #: includes/templates/docs/docs-loop.php:50
@@ -1357,9 +1355,8 @@ msgid "Unknown error. Please try again."
 msgstr "Error Desconocido, por favor Inténtelo de Nuevo."
 
 #: includes/integration-groups.php:849
-#, fuzzy
 msgid "Unlink from Group"
-msgstr "Eliminar del grupo"
+msgstr "Quitar el enlace al grupo"
 
 #: includes/templatetags.php:1224
 msgid "Untrash"
@@ -1371,7 +1368,7 @@ msgstr "Actualización"
 
 #: includes/upgrade.php:40
 msgid "Upgrade complete!"
-msgstr "Actualización completada"
+msgstr "Actualización completada!"
 
 #: includes/attachments.php:395 includes/component.php:1005
 msgid "Upload File"
@@ -1380,12 +1377,11 @@ msgstr "Subir archivo"
 #: includes/addon-folders.php:1930
 #, fuzzy
 msgid "Use an existing folder"
-msgstr "carpeta"
+msgstr "Utilice una carpeta existente"
 
 #: includes/admin.php:104
-#, fuzzy
 msgid "User Tab Name"
-msgstr "Título"
+msgstr "Nombre de la pestaña del usuario"
 
 #: includes/admin.php:96
 msgid "Users"
@@ -1402,7 +1398,7 @@ msgstr "Ver Documentos"
 #: includes/templates/docs/docs-folder-loop.php:86
 #, fuzzy
 msgid "View all docs in <strong>%s</strong>."
-msgstr "Está viendo <strong>todos</strong> los documentos."
+msgstr "Ver todos los documentos en: <strong>% s </ strong>."
 
 #: includes/templates/docs/docs-loop-list.php:78
 #: includes/templates/docs/docs-loop.php:189
@@ -1412,13 +1408,16 @@ msgstr "Viendo %1$s-%2$s de %3$s documentos"
 #: includes/templates/docs/docs-folder-loop.php:85
 #, fuzzy
 msgid "Viewing %1$s-%2$s of %3$s docs in this folder."
-msgstr "Viendo %1$s-%2$s de %3$s documentos"
+msgstr "Viendo% 1 $ s-% 2 $ s de% 3 $ s documentos en esta carpeta."
 
 #: includes/class-wp-widget-recent-docs.php:187
+#, fuzzy
 msgid ""
 "When used within a group or on a user&rsquo;s profile, limit docs to the "
 "current group or displayed user&rsquo;s docs."
 msgstr ""
+"Cuando se utilizan dentro de un grupo o en el perfil de un usuario, limita los "
+"documentos al grupo actual o en los documentos del usuario mostrados."
 
 #: includes/templatetags.php:1024
 msgid "Which group should this Doc be associated with?"
@@ -1443,7 +1442,7 @@ msgstr "¿Quién puede leer este documento?"
 #: includes/templatetags.php:1153
 #, fuzzy
 msgid "Who can view the history of this doc?"
-msgstr "¿Quién puede editar este documento?"
+msgstr "¿quién puede ver las revisiones de este documento?"
 
 #: includes/attachments.php:594
 msgid "Yes"
@@ -1452,14 +1451,14 @@ msgstr "Sí"
 #: includes/templates/docs/manage-folders.php:13
 #, fuzzy
 msgid "You are about to delete the folder %s."
-msgstr "Estás a punto de eliminar el sitio %s."
+msgstr "¿está a punto de borrar la carpeta% s."
 
 #: includes/templates/docs/single/history.php:36
 msgid ""
 "You are currently viewing a revision titled \"%1$s\", saved on %2$s by %3$s"
 msgstr ""
-"Actualmente está viendo una revisión titulada \"%1$s\", guardada en  %2$s "
-"por %3$s"
+"Actualmente está viendo una revisión titulada \"%1$s\", guardada en  %2$s por "
+"%3$s"
 
 #: includes/integration-groups.php:334
 msgid "You are not allowed to associate a Doc with that group."
@@ -1467,7 +1466,7 @@ msgstr "No tienes permisos para asociar documento a este grupo."
 
 #: includes/templatetags.php:437
 msgid "You are searching for docs containing the term <em>%s</em>"
-msgstr "Está buscando Documentos que contengan el termino "
+msgstr "Está buscando documentos que contengan el termino <em>%s</em>"
 
 #: includes/templatetags.php:254
 msgid "You are viewing <strong>all</strong> docs."
@@ -1503,22 +1502,25 @@ msgstr "No tienes permisos para editar el documento."
 #: includes/component.php:551
 #, fuzzy
 msgid "You do not have permission to remove that Doc from the Trash."
-msgstr "No tienes permisos para crear un documento en este grupo."
+msgstr "No tiene permiso para borrar este documento de la papelera."
 
 #: includes/component.php:571
 #, fuzzy
 msgid "You do not have permission to remove that Doc from this group."
-msgstr "No tienes permisos para crear un documento en este grupo."
+msgstr "No tiene permiso para borrar este documento de este grupo"
 
 #: includes/component.php:464
 msgid "You do not have permission to view this Doc's history."
 msgstr "No tienes permisos para ver el historial del documento."
 
 #: includes/admin.php:164
+#, fuzzy
 msgid ""
 "You have already defined this value in <code>wp-config.php</code>, so it "
 "cannot be edited here."
 msgstr ""
+"Este valor está definido en el archivo <code> wp-config.php </ code>, por eso "
+"no se puede modificar aquí."
 
 #: includes/addon-history.php:114
 msgid "You have successfully restored the Doc to the revision from %s."
@@ -1526,19 +1528,19 @@ msgstr "Ha restaurado satisfactoriamente el documento desde la revisión %s."
 
 #: includes/query-builder.php:622
 msgid ""
-"You idled a bit too long while in Edit mode. In order to allow others to "
-"edit the doc you were working on, your changes have been autosaved. Click "
-"the Edit button to return to Edit mode."
+"You idled a bit too long while in Edit mode. In order to allow others to edit "
+"the doc you were working on, your changes have been autosaved. Click the Edit "
+"button to return to Edit mode."
 msgstr ""
 "Ha estado ausente demasiado tiempo en el modo Edición, para permitir a otros "
-"usuarios editar el documento en el que has estado trabajando, tus cambios "
-"han sido autoguardados. Haz Click en el boton de Editar para regresar al "
-"modod de Edición."
+"usuarios editar el documento en el que has estado trabajando, tus cambios han "
+"sido autoguardados. Haz Click en el boton de Editar para regresar al modod de "
+"Edición."
 
 #: includes/addon-folders.php:1084
 #, fuzzy
 msgid "You must provide a folder name."
-msgstr "Debes facilitarnos un nombre de dominio."
+msgstr "Debe poner un nombre a la carpeta."
 
 #: includes/functions.php:648
 msgid ""
@@ -1551,7 +1553,7 @@ msgstr ""
 #: includes/component.php:1008
 #, fuzzy
 msgid "and %d more"
-msgstr "(%d)"
+msgstr "y% d más"
 
 #. Author URI of the plugin/theme
 msgid "http://boone.gorg.es"
@@ -1559,4 +1561,4 @@ msgstr "http://boone.gorg.es"
 
 #. Plugin URI of the plugin/theme
 msgid "http://github.com/boonebgorges/buddypress-docs"
-msgstr ""
+msgstr "http://github.com/boonebgorges/buddypress-docs"

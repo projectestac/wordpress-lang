@@ -5,15 +5,15 @@ msgstr ""
 "Project-Id-Version: BuddyPress Docs 1.7.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/buddypress-docs\n"
 "POT-Creation-Date: 2019-04-05 07:48:20+00:00\n"
-"PO-Revision-Date: 2019-04-05 11:25+0200\n"
+"PO-Revision-Date: 2019-04-05 12:28+0200\n"
 "Last-Translator: Joan Sala Soler <jsala236@xtec.cat>\n"
 "Language-Team: \n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.6\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.0.6\n"
 
 #: includes/templatetags.php:1659
 msgid " %s"
@@ -139,8 +139,7 @@ msgid ".."
 msgstr ".."
 
 #: includes/templatetags.php:279
-msgid ""
-"<strong><a href=\"%s\" title=\"View All Docs\">View All Docs</a></strong>"
+msgid "<strong><a href=\"%s\" title=\"View All Docs\">View All Docs</a></strong>"
 msgstr ""
 "<strong><a href=\"%s\" title=\"View All Docs\">Visualitza tots els "
 "documents</a></strong>"
@@ -155,8 +154,8 @@ msgstr ""
 
 #: includes/templatetags.php:273
 msgid ""
-"<strong><a href=\"%s\" title=\"View Docs with some of the selected tags"
-"\">Viewing docs with some of these tags</a></strong>"
+"<strong><a href=\"%s\" title=\"View Docs with some of the selected "
+"tags\">Viewing docs with some of these tags</a></strong>"
 msgstr ""
 "<strong><a href=\"%s\" title=\"Visualitza documents amb alguna de les "
 "etiquetes seleccionades\">Documents amb alguna etiqueta</a></strong>"
@@ -173,9 +172,9 @@ msgstr ""
 
 #: includes/attachments.php:780
 msgid ""
-"<strong>Your BuddyPress Docs attachments directory is publicly accessible.</"
-"strong> Doc attachments will not be properly protected from direct viewing, "
-"even if the parent Docs are non-public."
+"<strong>Your BuddyPress Docs attachments directory is publicly "
+"accessible.</strong> Doc attachments will not be properly protected from "
+"direct viewing, even if the parent Docs are non-public."
 msgstr ""
 "<strong>El vostre directori de fitxers adjunts dels documents de BuddyPress "
 "és accessible de forma pública.</strong> Els fitxers adjunts no estan "
@@ -272,27 +271,26 @@ msgstr "S'ha suprimit el fitxer adjunt"
 msgid "Attachments"
 msgstr "Fitxers adjunts"
 
-#: includes/addon-history.php:420 includes/templates/docs/docs-loop-list.php:17
+#: includes/addon-history.php:420
+#: includes/templates/docs/docs-loop-list.php:17
 #: includes/templates/docs/docs-loop.php:55
 msgid "Author"
 msgstr "Autor"
 
 #: includes/addon-moderation.php:59 includes/templatetags.php:2360
-#, fuzzy
 msgid "Awaiting Moderation"
-msgstr "Cap comentari està esperant moderació."
+msgstr "A l'espera de validació"
 
 #: includes/addon-moderation.php:39
-#, fuzzy
 msgctxt "General name of pending doc status"
 msgid "Awaiting Moderation"
-msgstr "Cap comentari està esperant moderació."
+msgstr "A l'espera de validació"
 
 #: includes/addon-moderation.php:40
 msgid "Awaiting Moderation (%s)"
 msgid_plural "Awaiting Moderation (%s)"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "A l'espera de validació (%s)"
+msgstr[1] "A l'espera de validació (%s)"
 
 #. Author of the plugin/theme
 msgid "Boone B Gorges, David Cavins"
@@ -333,8 +331,8 @@ msgid ""
 "Change the title of the main Docs directory from 'Docs Directory' to "
 "whatever you&rsquo;d like."
 msgstr ""
-"Canvieu el títol de la carpeta Docs principal de 'Docs Directory' cap al que "
-"vulgueu."
+"Canvieu el títol de la carpeta Docs principal de 'Docs Directory' cap al que"
+" vulgueu."
 
 #: includes/admin.php:184
 msgid "Change the title of the main Docs directory."
@@ -352,9 +350,9 @@ msgstr "Canvia la paraula que apareix a la pestanya dels documents dels grups"
 msgid ""
 "Change the word on the BuddyPress group tab from 'Docs' to whatever you'd "
 "like. Keep in mind that this will not change the text anywhere else on the "
-"page. For a more thorough text change, create a <a href='http://codex."
-"buddypress.org/extending-buddypress/customizing-labels-messages-and-"
-"urls/'>language file</a> for BuddyPress Docs."
+"page. For a more thorough text change, create a <a "
+"href='http://codex.buddypress.org/extending-buddypress/customizing-labels-"
+"messages-and-urls/'>language file</a> for BuddyPress Docs."
 msgstr ""
 "Canvieu la paraula 'Documents' de la pestanya del BuddyPress per una altra. "
 "Tingueu en compte que això no canviarà el text a tot arreu. Per un canvi de "
@@ -369,11 +367,11 @@ msgstr ""
 
 #: includes/admin.php:211
 msgid ""
-"Change the word on users' Docs tabs from 'Docs' to whatever you'd like. Keep "
-"in mind that this will not change the text anywhere else on the page. For a "
-"more thorough text change, create a <a href='http://codex.buddypress.org/"
-"extending-buddypress/customizing-labels-messages-and-urls/'>language file</"
-"a> for BuddyPress Docs."
+"Change the word on users' Docs tabs from 'Docs' to whatever you'd like. Keep"
+" in mind that this will not change the text anywhere else on the page. For a"
+" more thorough text change, create a <a href='http://codex.buddypress.org"
+"/extending-buddypress/customizing-labels-messages-and-urls/'>language "
+"file</a> for BuddyPress Docs."
 msgstr ""
 "Canvieu la paraula 'Documents' a les pestanyes dels usuaris per una altra. "
 "Tingueu en compte que això no canviarà el text a tot arreu. Per un canvi de "
@@ -485,7 +483,8 @@ msgid "Date Created"
 msgstr "Data de creació"
 
 #: includes/addon-folders.php:2373
-#: includes/templates/docs/manage-folders.php:27 includes/templatetags.php:2199
+#: includes/templates/docs/manage-folders.php:27
+#: includes/templatetags.php:2199
 msgid "Delete"
 msgstr "Suprimeix"
 
@@ -522,12 +521,10 @@ msgid "Display post date?"
 msgstr "Mostra la data dels articles?"
 
 #: includes/class-wp-widget-recent-docs.php:44
-#, fuzzy
 msgid "Displays the most recent BuddyPress Docs that the visitor can read."
 msgstr ""
 "Mostra els documents més recents de BuddyPress que els visitants poden "
-"llegir. Mostra només els documents associats a grups quan es fa servir a la "
-"barra lateral d'un sol grup."
+"llegir."
 
 #: bp-docs.php:292
 msgctxt "post type singular name"
@@ -596,7 +593,8 @@ msgstr "Etiquetes dels documents"
 #: includes/functions.php:159
 msgctxt ""
 "Description for the associated-item taxonomy term. Of the form \"Docs "
-"associated with the [item-type] [item-name]\" - item-type is group, user, etc"
+"associated with the [item-type] [item-name]\" - item-type is group, user, "
+"etc"
 msgid "Docs associated with the %1$s %2$s"
 msgstr "Document associat a %1$s %2$s"
 
@@ -641,7 +639,8 @@ msgid "Edited By %s"
 msgstr "Editats per %s"
 
 #: includes/component.php:206 includes/component.php:326
-#: includes/integration-users.php:314 includes/templates/docs/tabs-legacy.php:9
+#: includes/integration-users.php:314
+#: includes/templates/docs/tabs-legacy.php:9
 #: includes/templates/docs/tabs-nouveau.php:11
 msgid "Edited By Me"
 msgstr "Editats per mi"
@@ -766,9 +765,8 @@ msgstr "Grups"
 
 #: includes/templates/docs/docs-loop-list.php:9
 #: includes/templates/docs/docs-loop.php:46
-#, fuzzy
 msgid "Has attachment"
-msgstr "Hi ha algun fitxer adjunt?"
+msgstr "Conté un adjunt"
 
 #: includes/attachments.php:592
 msgid "Has attachment?"
@@ -807,10 +805,10 @@ msgstr "Encara estic editant!"
 #: includes/templates/docs/single/edit.php:228
 msgid ""
 "In order to prevent overwriting content, only one person can edit a given "
-"doc at a time. For that reason, you must periodically ensure the system that "
-"you're still actively editing. If you are idle for more than 30 minutes, "
-"your changes will be auto-saved, and you'll be sent out of Edit mode so that "
-"others can access the doc."
+"doc at a time. For that reason, you must periodically ensure the system that"
+" you're still actively editing. If you are idle for more than 30 minutes, "
+"your changes will be auto-saved, and you'll be sent out of Edit mode so that"
+" others can access the doc."
 msgstr ""
 "Per tal d'evitar sobreescriure contingut, el document només el pot editar "
 "una persona alhora. Per aquesta raó, de forma periòdica, heu de comprovar "
@@ -820,8 +818,8 @@ msgstr ""
 
 #: includes/attachments.php:774
 msgid ""
-"It looks like you are running <strong>Apache</strong>. The most likely cause "
-"of your problem is that the <code>AllowOverride</code> directive has been "
+"It looks like you are running <strong>Apache</strong>. The most likely cause"
+" of your problem is that the <code>AllowOverride</code> directive has been "
 "disabled, either globally (<code>httpd.conf</code>) or in a "
 "<code>VirtualHost</code> definition. Contact your host for assistance."
 msgstr ""
@@ -1027,11 +1025,11 @@ msgstr "Proveu de nou en uns minuts."
 
 #: includes/templates/docs/single/index.php:21
 msgid ""
-"Please try again in a few minutes. Or, as an admin, you can <a href=\"%s"
-"\">force cancel</a> the edit lock."
+"Please try again in a few minutes. Or, as an admin, you can <a "
+"href=\"%s\">force cancel</a> the edit lock."
 msgstr ""
-"Proveu en uns minuts. O, com a administrador, podeu <a href=\"%s\">forçar la "
-"cancel·lació</a> del bloqueig d'edició."
+"Proveu en uns minuts. O, com a administrador, podeu <a href=\"%s\">forçar la"
+" cancel·lació</a> del bloqueig d'edició."
 
 #: includes/templatetags.php:1749
 msgid "Private"
@@ -1119,8 +1117,8 @@ msgid ""
 "Separate tags with commas (for example: <em>orchestra, snare drum, piccolo, "
 "Brahms</em>)"
 msgstr ""
-"Etiquetes separades per comes (per exemple: <em>orquestra, tambor, Brahms</"
-"em>)"
+"Etiquetes separades per comes (per exemple: <em>orquestra, tambor, "
+"Brahms</em>)"
 
 #: includes/admin.php:32
 msgid "Settings"
@@ -1155,7 +1153,8 @@ msgid "Started By %s"
 msgstr "Iniciats per %s"
 
 #: includes/component.php:199 includes/component.php:317
-#: includes/integration-users.php:305 includes/templates/docs/tabs-legacy.php:8
+#: includes/integration-users.php:305
+#: includes/templates/docs/tabs-legacy.php:8
 #: includes/templates/docs/tabs-nouveau.php:10
 msgid "Started By Me"
 msgstr "Iniciats per mi"
@@ -1174,7 +1173,8 @@ msgid "Tags"
 msgstr "Etiquetes"
 
 #: includes/templates/docs/single/edit.php:138
-msgid "Tags are words or phrases that help to describe and organize your Docs."
+msgid ""
+"Tags are words or phrases that help to describe and organize your Docs."
 msgstr ""
 "Les etiquetes són paraules o frases que ajuden a descriure i organitzar els "
 "vostres documents."
@@ -1253,9 +1253,8 @@ msgid "This Doc can be read by: <strong>%s</strong>"
 msgstr "El document el pot llegir: <strong>%s</strong>"
 
 #: includes/templatetags.php:2360
-#, fuzzy
 msgid "This Doc is awaiting moderation"
-msgstr "Cap comentari està esperant moderació."
+msgstr "Aquest document està a l'espera de validació."
 
 #: includes/templates/docs/docs-header.php:16 includes/templatetags.php:2358
 msgid "This Doc is in the Trash"
@@ -1274,8 +1273,8 @@ msgid ""
 "This doc is currently being edited by %s. To prevent overwrites, you cannot "
 "edit until that user has finished. Please try again in a few minutes."
 msgstr ""
-"Aquest document està essent editat en aquests moments per %s. Per evitar que "
-"se sobreescriguin, no es podrà editar fins que aquest usuari hagi acabat. "
+"Aquest document està essent editat en aquests moments per %s. Per evitar que"
+" se sobreescriguin, no es podrà editar fins que aquest usuari hagi acabat. "
 "Torneu a intentar-ho de nou en uns minuts."
 
 #: includes/templates/docs/manage-folders.php:7
@@ -1366,6 +1365,8 @@ msgid ""
 "When used within a group or on a user&rsquo;s profile, limit docs to the "
 "current group or displayed user&rsquo;s docs."
 msgstr ""
+"Quan s’utilitzen dins d’un grup o en el perfil d’un usuari, limita els "
+"documents al grup actual o als documents de l’usuari mostrats."
 
 #: includes/templatetags.php:1024
 msgid "Which group should this Doc be associated with?"
@@ -1487,7 +1488,8 @@ msgid ""
 "changed to match the Doc's permissions."
 msgstr ""
 "El vostre document s'ha desat correctament, però alguns dels seus valors "
-"d'accés s'han modificat per a que coincideixin amb els permisos del document."
+"d'accés s'han modificat per a que coincideixin amb els permisos del "
+"document."
 
 #: includes/component.php:1008
 msgid "and %d more"

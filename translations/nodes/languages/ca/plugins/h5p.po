@@ -2,11 +2,10 @@
 # This file is distributed under the same license as the Plugins - Interactive Content – H5P - Stable (latest release) package.
 msgid ""
 msgstr ""
-"Project-Id-Version: Plugins - Interactive Content – H5P - Stable (latest "
-"release)\n"
+"Project-Id-Version: Plugins - Interactive Content – H5P - Stable (latest release)\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/h5p\n"
 "POT-Creation-Date: 2019-04-05 07:48:22+00:00\n"
-"PO-Revision-Date: 2019-04-05 11:24+0200\n"
+"PO-Revision-Date: 2019-04-09 15:47+0200\n"
 "Last-Translator: Joan Sala Soler <jsala236@xtec.cat>\n"
 "Language-Team: Catalan\n"
 "Language: ca\n"
@@ -15,13 +14,12 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Poedit 2.0.6\n"
-"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
-"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
-"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
-"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
-"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
-"X-Poedit-Basepath: ..\n"
 "X-Loco-Target-Locale: ca\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;__:1;_e:1;_c:1;_n:1,2;"
+"_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;"
+"_n_js:1,2;_nx_js:1,2,3c;esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 
@@ -66,29 +64,24 @@ msgid "All H5P Content"
 msgstr "Tots el continguts H5P"
 
 #: admin/views/settings.php:36
-#, fuzzy
 msgid "Allow download"
-msgstr "Baixa el fitxer"
+msgstr "Permet la descàrrega"
 
 #: admin/views/settings.php:117
 msgid "Allow logged-in users to resume tasks"
 msgstr "Permetre reprendre tasques als usuaris que hagin iniciat la sessió"
 
 #: admin/views/new-content.php:76
-#, fuzzy
 msgid "Allow users to download the content"
-msgstr "Permet als usuaris personalitzar la invitació a"
+msgstr "Permet que els usuaris es baixin el contingut"
 
 #. Description of the plugin/theme
-msgid ""
-"Allows you to upload, create, share and use rich interactive content on your "
-"WordPress site."
+msgid "Allows you to upload, create, share and use rich interactive content on your WordPress site."
 msgstr ""
-"Us permet publicar, crear, compartir i utilitzar continguts interactius "
-"enriquits al vostre lloc WordPress."
+"Us permet publicar, crear, compartir i utilitzar continguts interactius enriquits al vostre lloc "
+"WordPress."
 
-#: admin/views/settings.php:43 admin/views/settings.php:68
-#: admin/views/settings.php:99
+#: admin/views/settings.php:43 admin/views/settings.php:68 admin/views/settings.php:99
 msgid "Always"
 msgstr "Sempre"
 
@@ -117,21 +110,12 @@ msgid "Automatically contribute usage statistics"
 msgstr "Notifica les estadístiques d'ús de manera automàtica"
 
 #: admin/views/user-consent.php:15
-#, fuzzy
 msgid "Before you start"
-msgstr ""
-"No s'ha pogut crear un fitxer de configuració. Cap problema, però haureu de "
-"desar el text següent en fitxer amb el nom %s al directori arrel de la "
-"instal·lació del WordPress abans de començar a utilitzar la funcionalitat "
-"del fòrum."
+msgstr "Abans de començar"
 
 #: admin/views/settings.php:31
-msgid ""
-"By default, a toolbar with 4 buttons is displayed below each interactive "
-"content."
-msgstr ""
-"Per defecte es mostra una barra d'eines amb 4 botons a sota de cada "
-"contingut interactiu."
+msgid "By default, a toolbar with 4 buttons is displayed below each interactive content."
+msgstr "Per defecte es mostra una barra d'eines amb 4 botons a sota de cada contingut interactiu."
 
 #: public/class-h5p-plugin.php:844
 msgid "Cannot find H5P content with id: %d."
@@ -146,8 +130,7 @@ msgid "Cannot find library with id: %d."
 msgstr "No es troba la biblioteca amb l'id: %d."
 
 #: admin/class-h5p-plugin-admin.php:993 admin/class-h5p-privacy-policy.php:256
-#: admin/class-h5p-privacy-policy.php:311
-#: admin/class-h5p-privacy-policy.php:393
+#: admin/class-h5p-privacy-policy.php:311 admin/class-h5p-privacy-policy.php:393
 msgid "Content"
 msgstr "Contingut"
 
@@ -192,8 +175,8 @@ msgstr "Continguts que l'utilitzen"
 msgid "Controlled by author - off by default"
 msgstr "Controlat per l'autor - desactivat per defecte"
 
-#: admin/views/settings.php:28 admin/views/settings.php:49
-#: admin/views/settings.php:74 admin/views/settings.php:90
+#: admin/views/settings.php:28 admin/views/settings.php:49 admin/views/settings.php:74
+#: admin/views/settings.php:90
 msgid "Controlled by author - on by default"
 msgstr "Controlat per l'autor - activat per defecte"
 
@@ -213,21 +196,17 @@ msgstr "No s'ha pogut actualitzar el contingut %id:"
 msgid "Create"
 msgstr "Crea"
 
-#: admin/class-h5p-privacy-policy.php:381
-#: admin/class-h5p-privacy-policy.php:435
-#, fuzzy
+#: admin/class-h5p-privacy-policy.php:381 admin/class-h5p-privacy-policy.php:435
 msgid "Created at"
-msgstr "S'ha creat!"
+msgstr "Creat a"
 
 #: admin/class-h5p-privacy-policy.php:327
-#, fuzzy
 msgid "Data"
-msgstr "(sense dades)"
+msgstr "Dada"
 
 #: admin/class-h5p-privacy-policy.php:323
-#, fuzzy
 msgid "Data ID"
-msgstr "(sense dades)"
+msgstr "ID de dada"
 
 #: public/class-h5p-plugin.php:870
 msgid "Database error: %s."
@@ -283,15 +262,12 @@ msgid "Elements per page"
 msgstr "Elements per pàgina"
 
 #: admin/class-h5p-privacy-policy.php:463
-#, fuzzy
 msgid "Embed type"
-msgstr "Incrusta"
+msgstr "Tipus d'integració"
 
 #: admin/views/settings.php:154
 msgid "Enable LRS dependent content types"
-msgstr ""
-"Activa els tipus de contingut dependents d'un repositori d'objectes "
-"d'aprenentatge (LRS)"
+msgstr "Activa els tipus de contingut dependents d'un repositori d'objectes d'aprenentatge (LRS)"
 
 #: admin/class-h5p-library-admin.php:564 admin/class-h5p-library-admin.php:677
 msgid "Error, invalid library!"
@@ -318,9 +294,8 @@ msgid "Filter content"
 msgstr "Filtra el contingut"
 
 #: admin/class-h5p-privacy-policy.php:455
-#, fuzzy
 msgid "Filtered parameters"
-msgstr "Paràmetres"
+msgstr "Paràmetres filtrats"
 
 #: admin/class-h5p-content-admin.php:260 admin/class-h5p-plugin-admin.php:1009
 #: admin/class-h5p-privacy-policy.php:276
@@ -332,9 +307,8 @@ msgid "Fullscreen"
 msgstr "Pantalla completa"
 
 #: admin/class-h5p-privacy-policy.php:63
-#, fuzzy
 msgid "Google's Privacy policy"
-msgstr "Guia de la política de privadesa"
+msgstr "Política de privadesa de Google"
 
 #. Plugin Name of the plugin/theme
 msgid "H5P"
@@ -346,40 +320,36 @@ msgstr "Continguts H5P"
 
 #: admin/class-h5p-plugin-admin.php:304
 msgid ""
-"H5P now fetches content types directly from the H5P Hub. In order to do "
-"this, the H5P plugin will communicate with H5P.org once per day to fetch "
-"information about new and updated content types. It will send in anonymous "
-"data to the hub about H5P usage. You may disable the data contribution and/"
-"or the H5P Hub in the H5P settings."
+"H5P now fetches content types directly from the H5P Hub. In order to do this, the H5P plugin will "
+"communicate with H5P.org once per day to fetch information about new and updated content types. It "
+"will send in anonymous data to the hub about H5P usage. You may disable the data contribution and/or "
+"the H5P Hub in the H5P settings."
 msgstr ""
-"Ara l'H5P agafa els tipus de contingut directament del servei \"H5P Hub\". "
-"El complement H5P es comunica un cop al dia amb H5P.org per obtenir "
-"informació sobre els tipus de contingut nous o que s'han actualitzat. Això "
-"fa que s'enviïn dades anònimes sobre l'ús de l'H5P. Podeu desactivar aquesta "
-"contribució de dades i/o el servei \"H5P Hub\" en la configuració de "
-"l'extensió H5P del menú \"Extensions\"."
+"Ara l'H5P agafa els tipus de contingut directament del servei \"H5P Hub\". El complement H5P es "
+"comunica un cop al dia amb H5P.org per obtenir informació sobre els tipus de contingut nous o que "
+"s'han actualitzat. Això fa que s'enviïn dades anònimes sobre l'ús de l'H5P. Podeu desactivar aquesta "
+"contribució de dades i/o el servei \"H5P Hub\" en la configuració de l'extensió H5P del menú "
+"\"Extensions\"."
 
 #: admin/class-h5p-privacy-policy.php:59
-#, fuzzy
 msgid "H5P tracking information"
-msgstr "Afegeix un H5P"
+msgstr "Informació de seguiment H5P"
 
 #: admin/views/libraries.php:55
 msgid ""
-"Here you can upload new libraries or upload updates to existing libraries. "
-"Files uploaded here must be in the .h5p file format."
+"Here you can upload new libraries or upload updates to existing libraries. Files uploaded here must "
+"be in the .h5p file format."
 msgstr ""
-"Des d'aquí podeu afegir biblioteques noves al servidor o actualitzar les "
-"biblioteques existents. Els fitxers s'han de penjar en format \".h5p\""
+"Des d'aquí podeu afegir biblioteques noves al servidor o actualitzar les biblioteques existents. Els "
+"fitxers s'han de penjar en format \".h5p\""
 
 #: admin/views/user-consent.php:26
 msgid "I consent, give me the Hub!"
-msgstr ""
+msgstr "Accepto, dóna'm el Hub!"
 
 #: admin/views/user-consent.php:27
-#, fuzzy
 msgid "I disapprove"
-msgstr "G:i"
+msgstr "Ho desaprovo"
 
 #: admin/class-h5p-content-admin.php:181 admin/class-h5p-privacy-policy.php:373
 #: admin/class-h5p-privacy-policy.php:427
@@ -388,61 +358,60 @@ msgstr "ID"
 
 #: admin/views/new-content.php:74
 msgid ""
-"If checked a reuse button will always be displayed for this content and "
-"allow users to download the content as an .h5p file"
+"If checked a reuse button will always be displayed for this content and allow users to download the "
+"content as an .h5p file"
 msgstr ""
+"Si està marcada, es mostrarà sempre un botó de reutilització per a aquest contingut i es permetrà als "
+"usuaris baixar-se el contingut com a fitxer .h5p"
 
 #: admin/class-h5p-plugin-admin.php:317 admin/views/new-content.php:42
 msgid ""
-"If you need any help you can always file a <a href=\"%s\" target=\"_blank"
-"\">Support Request</a>, check out our <a href=\"%s\" target=\"_blank"
-"\">Forum</a> or join the conversation in the <a href=\"%s\" target=\"_blank"
-"\">H5P Community Chat</a>."
+"If you need any help you can always file a <a href=\"%s\" target=\"_blank\">Support Request</a>, "
+"check out our <a href=\"%s\" target=\"_blank\">Forum</a> or join the conversation in the <a href=\"%s"
+"\" target=\"_blank\">H5P Community Chat</a>."
 msgstr ""
-"Si necessiteu ajuda podeu omplir una <a href=\"%s\" target=\"_blank"
-"\">sol·licitud de suport</a>, consultar el nostre <a href=\"%s\" target="
-"\"_blank\">fòrum</a> o participar al <a href=\"%s\" target=\"_blank\">xat de "
-"la comunitat H5P</a> (preferiblement en anglès)."
+"Si necessiteu ajuda podeu omplir una <a href=\"%s\" target=\"_blank\">sol·licitud de suport</a>, "
+"consultar el nostre <a href=\"%s\" target=\"_blank\">fòrum</a> o participar al <a href=\"%s\" target="
+"\"_blank\">xat de la comunitat H5P</a> (preferiblement en anglès)."
 
 #: admin/class-h5p-privacy-policy.php:78
 msgid ""
-"If you use interactive content that contains a Twitter feed, Twitter will "
-"set a cookie on your computer. Twitter uses these cookies to help them and "
-"their partners to make their advertizing more relevant to you. Please "
-"consult %s for details. It is our legitimate interest to use Twitter, "
-"because we need their services for our interactive content and would not be "
-"able to provide you with it otherwise."
+"If you use interactive content that contains a Twitter feed, Twitter will set a cookie on your "
+"computer. Twitter uses these cookies to help them and their partners to make their advertizing more "
+"relevant to you. Please consult %s for details. It is our legitimate interest to use Twitter, because "
+"we need their services for our interactive content and would not be able to provide you with it "
+"otherwise."
 msgstr ""
 
 #: admin/class-h5p-privacy-policy.php:77
 msgid ""
-"If you use interactive content that contains a video that is hosted on "
-"YouTube, YouTube will set cookies on your computer. YouTube uses these "
-"cookies to help them and their partners to analyze the traffic to their "
-"websites. Please consult %s for details. It is our legitimate interest to "
-"use YouTube, because we we need their services for our interactive content "
-"and would not be able to provide you with their video content features "
-"otherwise."
+"If you use interactive content that contains a video that is hosted on YouTube, YouTube will set "
+"cookies on your computer. YouTube uses these cookies to help them and their partners to analyze the "
+"traffic to their websites. Please consult %s for details. It is our legitimate interest to use "
+"YouTube, because we we need their services for our interactive content and would not be able to "
+"provide you with their video content features otherwise."
 msgstr ""
 
 #: admin/class-h5p-privacy-policy.php:79
 msgid ""
-"If you use interactive content that contains speech recognition, Google "
-"Cloud will process your voice for converting it to text. Please consult %s "
-"for details. It is our legitimate interest to use Google Cloud, because we "
-"we need their services for our interactive content and would not be able to "
-"provide you with speech recognition features otherwise."
+"If you use interactive content that contains speech recognition, Google Cloud will process your voice "
+"for converting it to text. Please consult %s for details. It is our legitimate interest to use Google "
+"Cloud, because we we need their services for our interactive content and would not be able to provide "
+"you with speech recognition features otherwise."
 msgstr ""
 
 #: admin/views/user-consent.php:22
+#, fuzzy
 msgid ""
-"In order for the H5P Hub to be able to do this, communication with H5P.org "
-"is required.<br/>\n"
-"        As this will provide H5P.org with anonymous data on how H5P is used "
-"we kindly ask for your consent before proceeding.<br/>\n"
-"        You can read more on <a href=\"%s\" target=\"_blank\">the plugin "
-"communication page</a>."
+"In order for the H5P Hub to be able to do this, communication with H5P.org is required.<br/>\n"
+"        As this will provide H5P.org with anonymous data on how H5P is used we kindly ask for your "
+"consent before proceeding.<br/>\n"
+"        You can read more on <a href=\"%s\" target=\"_blank\">the plugin communication page</a>."
 msgstr ""
+"Dins ordre pel h5p hub per ser capaç de fer aquest, comunicació amb h5p.org és requerit.<br/>\n"
+"        tan aquest proporcionarà h5p.org amb dada anònima damunt que h5p és utilitzat amablement "
+"demanem el vostre consentiment abans procedint.<br/>\n"
+"        pots llegir més en <un href=\"%s\" espai=\"_d'objectiu\">el plugin pàgina de comunicació</un>."
 
 #: admin/class-h5p-content-admin.php:852
 msgid "Insert"
@@ -477,38 +446,32 @@ msgid "Invalid security token"
 msgstr "El testimoni de seguretat no és vàlid"
 
 #: admin/class-h5p-privacy-policy.php:335
-#, fuzzy
 msgid "Invalidate"
-msgstr ""
-"Invalidar les imatges en memòria cau que són més de <element> hores d'edat."
+msgstr "Invalida"
 
 #: admin/views/new-content.php:41
 msgid ""
-"It looks like there are no content types installed. You can get the ones you "
-"want by using the small 'Download' button in the lower left corner on any "
-"example from the <a href=\"%s\" target=\"_blank\">Examples and Downloads</a> "
-"page and then you upload the file here."
+"It looks like there are no content types installed. You can get the ones you want by using the small "
+"'Download' button in the lower left corner on any example from the <a href=\"%s\" target=\"_blank"
+"\">Examples and Downloads</a> page and then you upload the file here."
 msgstr ""
-"Sembla que no teniu cap tipus de contingut instal·lat. Podeu aconseguir els "
-"tipus de contingut que vulgueu amb el botó 'Baixa' que hi ha a la cantonada "
-"inferior esquerra de qualsevol dels exemples de la pàgina <a href=\"%s\" "
-"target=\"_blank\">Exemples i baixades</a>. Els fitxers obtinguts amb aquest "
+"Sembla que no teniu cap tipus de contingut instal·lat. Podeu aconseguir els tipus de contingut que "
+"vulgueu amb el botó 'Baixa' que hi ha a la cantonada inferior esquerra de qualsevol dels exemples de "
+"la pàgina <a href=\"%s\" target=\"_blank\">Exemples i baixades</a>. Els fitxers obtinguts amb aquest "
 "botó s'han de penjar des d'aquí al vostre servidor."
 
 #: admin/views/settings.php:169
 msgid ""
-"It's strongly encouraged to keep this option <strong>enabled</strong>. The "
-"H5P Hub provides an easy interface for getting new content types and keeping "
-"existing content types up to date. In the future, it will also make it "
-"easier to share and reuse content. If this option is disabled you'll have to "
+"It's strongly encouraged to keep this option <strong>enabled</strong>. The H5P Hub provides an easy "
+"interface for getting new content types and keeping existing content types up to date. In the future, "
+"it will also make it easier to share and reuse content. If this option is disabled you'll have to "
 "install and update content types through file upload forms."
 msgstr ""
-"Es recomana vivament deixar aquesta opció <strong>habilitada</strong>. El "
-"servei \"H5P Hub\" us proporciona una interfície simple per aconseguir nous "
-"tipus de contingut i mantenir actualitzats els que ja teniu instal·lats. En "
-"el futur també farà més senzill compartir i reutilitzar continguts creats "
-"pels usuaris. Si desactiveu aquesta opció haureu d'instal·lar i actualitzar "
-"manualment els tipus de contingut mitjançant formularis de pujada de fitxers."
+"Es recomana vivament deixar aquesta opció <strong>habilitada</strong>. El servei \"H5P Hub\" us "
+"proporciona una interfície simple per aconseguir nous tipus de contingut i mantenir actualitzats els "
+"que ja teniu instal·lats. En el futur també farà més senzill compartir i reutilitzar continguts "
+"creats pels usuaris. Si desactiveu aquesta opció haureu d'instal·lar i actualitzar manualment els "
+"tipus de contingut mitjançant formularis de pujada de fitxers."
 
 #. Author of the plugin/theme
 msgid "Joubel"
@@ -530,8 +493,7 @@ msgstr "Biblioteques"
 msgid "Libraries using it"
 msgstr "Biblioteques que l'utilitzen"
 
-#: admin/class-h5p-privacy-policy.php:397
-#: admin/class-h5p-privacy-policy.php:447
+#: admin/class-h5p-privacy-policy.php:397 admin/class-h5p-privacy-policy.php:447
 msgid "Library"
 msgstr "Mediateca"
 
@@ -545,22 +507,20 @@ msgstr "Registra els resultats dels usuaris que hagin iniciat la sessió"
 
 #: admin/views/settings.php:157
 msgid ""
-"Makes it possible to use content types that rely upon a Learning Record "
-"Store to function properly, like the Questionnaire content type."
+"Makes it possible to use content types that rely upon a Learning Record Store to function properly, "
+"like the Questionnaire content type."
 msgstr ""
-"Fa possible l'ús dels tipus de contingut que requereixen d'un repositori "
-"d'objectes d'aprenentatge (LRS) per funcionar correctament, com ara el tipus "
-"\"Questionnaire\"."
+"Fa possible l'ús dels tipus de contingut que requereixen d'un repositori d'objectes d'aprenentatge "
+"(LRS) per funcionar correctament, com ara el tipus \"Questionnaire\"."
 
 #: admin/views/libraries.php:20
 msgid ""
-"Making sure the content type cache is up to date will ensure that you can "
-"view, download and use the latest libraries. This is different from updating "
-"the libraries themselves."
+"Making sure the content type cache is up to date will ensure that you can view, download and use the "
+"latest libraries. This is different from updating the libraries themselves."
 msgstr ""
-"Mantenint actualitzada la memòria cau dels tipus de contingut podreu veure, "
-"baixar i utilitzar les darreres versions de les biblioteques. Aquesta acció "
-"és diferent de la d'actualitzar cada una de les biblioteques."
+"Mantenint actualitzada la memòria cau dels tipus de contingut podreu veure, baixar i utilitzar les "
+"darreres versions de les biblioteques. Aquesta acció és diferent de la d'actualitzar cada una de les "
+"biblioteques."
 
 #: admin/class-h5p-content-admin.php:252 admin/class-h5p-plugin-admin.php:1001
 #: admin/class-h5p-privacy-policy.php:268
@@ -576,9 +536,8 @@ msgid "Missing H5P identifier."
 msgstr "Manca l'identificador H5P"
 
 #: admin/class-h5p-library-admin.php:444
-#, fuzzy
 msgid "Missing required library %lib."
-msgstr "No s'han pogut llegir les dades de la biblioteca %lib."
+msgstr "Falta la biblioteca necessària %lib."
 
 #: admin/class-h5p-plugin-admin.php:394 admin/views/my-results.php:14
 msgid "My Results"
@@ -603,9 +562,7 @@ msgstr "No"
 #: admin/class-h5p-content-admin.php:200 admin/class-h5p-content-admin.php:678
 #: admin/views/select-content.php:31
 msgid "No H5P content available. You must upload or create new content."
-msgstr ""
-"No hi ha cap contingut H5P disponible. Heu de penjar o crear algun contingut "
-"nou."
+msgstr "No hi ha cap contingut H5P disponible. Heu de penjar o crear algun contingut nou."
 
 #: admin/class-h5p-library-admin.php:344
 msgid "No content is using this library"
@@ -621,12 +578,11 @@ msgstr "Cap etiqueta"
 
 #: admin/class-h5p-library-admin.php:532
 msgid ""
-"Not all content has gotten their cache rebuilt. This is required to be able "
-"to delete libraries, and to display how many contents that uses the library."
+"Not all content has gotten their cache rebuilt. This is required to be able to delete libraries, and "
+"to display how many contents that uses the library."
 msgstr ""
-"No s'ha pogut regenerar la memòria cau de tots els continguts. Això es "
-"necessari per permetre l'eliminació de biblioteques i per mostrar quins "
-"continguts utilitza cada biblioteca."
+"No s'ha pogut regenerar la memòria cau de tots els continguts. Això es necessari per permetre "
+"l'eliminació de biblioteques i per mostrar quins continguts utilitza cada biblioteca."
 
 #: admin/views/settings.php:46 admin/views/settings.php:71
 msgid "Only for editors"
@@ -659,12 +615,11 @@ msgstr "Els paràmetres estan trencats."
 
 #: admin/class-h5p-library-admin.php:446
 msgid "Parameters contain %used which is not supported."
-msgstr ""
+msgstr "Els paràmetres contenen %used però no és compatible."
 
 #: admin/class-h5p-library-admin.php:445
-msgid ""
-"Parameters contain %used while only %supported or earlier are supported."
-msgstr ""
+msgid "Parameters contain %used while only %supported or earlier are supported."
+msgstr "Els paràmetres contenen %used mentre que només és compatible amb %supported o anteriors."
 
 #: admin/views/library-content-upgrade.php:19
 msgid "Please enable JavaScript."
@@ -684,9 +639,7 @@ msgstr "Reconstrueix la memòria cau"
 
 #: admin/views/settings.php:144
 msgid "Reference content by <a href=\"%s\" target=\"_blank\">slug</a>"
-msgstr ""
-"Referencia el contingut mitjançant una <a href=\"%s\" target=\"_blank"
-"\">expressió resumida</a>"
+msgstr "Referencia el contingut mitjançant una <a href=\"%s\" target=\"_blank\">expressió resumida</a>"
 
 #: admin/views/settings.php:136
 msgid "Reference content by id"
@@ -718,9 +671,8 @@ msgid "Save Content State"
 msgstr "Desa l'estat del contingut interactiu"
 
 #: admin/class-h5p-privacy-policy.php:346
-#, fuzzy
 msgid "Saved content state"
-msgstr "Desa l'estat del contingut interactiu"
+msgstr "Estat de contingut desat"
 
 #: admin/class-h5p-content-admin.php:248 admin/class-h5p-plugin-admin.php:997
 #: admin/class-h5p-privacy-policy.php:264
@@ -737,17 +689,11 @@ msgstr "Separa les etiquetes amb comes"
 
 #: admin/views/settings.php:81
 msgid "Setting this to 'Never' will disable already existing embed codes."
-msgstr ""
-"Fixant aquest paràmetre a 'Mai' es desactivaran tots els codis actualment "
-"incrustats."
+msgstr "Fixant aquest paràmetre a 'Mai' es desactivaran tots els codis actualment incrustats."
 
 #: admin/views/settings.php:56
-msgid ""
-"Setting this to 'Never' will reduce the amount of disk space required for "
-"interactive content."
-msgstr ""
-"Fixant aquest paràmetre a 'Mai' reduireu l'espai de disc requerit pels "
-"continguts interactius."
+msgid "Setting this to 'Never' will reduce the amount of disk space required for interactive content."
+msgstr "Fixant aquest paràmetre a 'Mai' reduireu l'espai de disc requerit pels continguts interactius."
 
 #: admin/views/settings.php:17
 msgid "Settings saved."
@@ -763,21 +709,19 @@ msgstr "Nom curt"
 
 #: admin/class-h5p-content-admin.php:528
 msgid "Something unexpected happened. We were unable to save this content."
-msgstr ""
+msgstr "S'ha produït un problema inesperat. No s'ha pogut desar aquest contingut."
 
 #: admin/class-h5p-privacy-policy.php:389
-#, fuzzy
 msgid "Sub type"
-msgstr "subelement"
+msgstr "Subtipus"
 
 #: admin/class-h5p-privacy-policy.php:319
-#, fuzzy
 msgid "Subcontent ID"
-msgstr "ID de l'aplicació"
+msgstr "ID del contingut fill"
 
 #: admin/class-h5p-privacy-policy.php:73
 msgid "Suggested text (\"We\" and \"our\" mean \"you\", not \"us\"!):"
-msgstr ""
+msgstr "Text suggerit (\"nosaltres\" i \"el nostre\" vol dir \"vós\", no \"nosaltres\"!):"
 
 #: admin/class-h5p-content-admin.php:172 admin/class-h5p-content-admin.php:665
 #: admin/views/new-content.php:98 admin/views/show-content.php:39
@@ -793,10 +737,13 @@ msgid "Thank you for staying up to date with H5P."
 msgstr "Gràcies per actualitzar l'H5P!"
 
 #: admin/views/user-consent.php:20
+#, fuzzy
 msgid ""
-"The H5P Hub is here to simplify this process by automatically installing the "
-"content types you choose and providing updates for those already installed."
+"The H5P Hub is here to simplify this process by automatically installing the content types you choose "
+"and providing updates for those already installed."
 msgstr ""
+"El h5p hub és aquí per simplificar aquest procés per automàticament instal·lant el contingut escriu "
+"esculls i proporcionant actualitza per aquells ja instal·lat."
 
 #: admin/class-h5p-library-admin.php:419
 msgid "There are no available upgrades for this library."
@@ -819,12 +766,10 @@ msgid "There's no data available that matches your criteria."
 msgstr "No hi ha cap dada que concideixi amb aquests criteris"
 
 #: admin/class-h5p-library-admin.php:308
-msgid ""
-"This Library is used by content or other libraries and can therefore not be "
-"deleted."
+msgid "This Library is used by content or other libraries and can therefore not be deleted."
 msgstr ""
-"Aquesta biblioteca està sent utilitzada per algun contingut o bé per altres "
-"biblioteques, i això fa que no sigui possible esborrar-lo."
+"Aquesta biblioteca està sent utilitzada per algun contingut o bé per altres biblioteques, i això fa "
+"que no sigui possible esborrar-lo."
 
 #: admin/class-h5p-content-admin.php:263 admin/class-h5p-plugin-admin.php:1012
 #: admin/class-h5p-privacy-policy.php:280
@@ -841,10 +786,12 @@ msgid "Title is too long. Must be 256 letters or shorter."
 msgstr "El títol és massa llarg. Ha de tenir 256 caràcters com a màxim."
 
 #: admin/views/user-consent.php:19
+#, fuzzy
 msgid ""
-"To be able to start creating interactive content you must first install at "
-"least one content type."
+"To be able to start creating interactive content you must first install at least one content type."
 msgstr ""
+"Per ser capaç de començar creant contingut interactiu primer has d'instal·lar com a mínim un tipus de "
+"contingut."
 
 #: admin/views/new-content.php:64 admin/views/new-content.php:97
 msgid "Toggle panel"
@@ -855,9 +802,8 @@ msgid "Toolbar Below Content"
 msgstr "Mostra la barra d'eines a sota del contingut"
 
 #: admin/class-h5p-privacy-policy.php:67
-#, fuzzy
 msgid "Twitter's Privacy policy"
-msgstr "Guia de la política de privadesa"
+msgstr "Política de privadesa de Twitter"
 
 #: admin/class-h5p-privacy-policy.php:385
 msgid "Type"
@@ -871,11 +817,9 @@ msgstr "Tasca desconeguda."
 msgid "Update"
 msgstr "Actualitza"
 
-#: admin/class-h5p-privacy-policy.php:339
-#: admin/class-h5p-privacy-policy.php:439
-#, fuzzy
+#: admin/class-h5p-privacy-policy.php:339 admin/class-h5p-privacy-policy.php:439
 msgid "Updated at"
-msgstr "S'ha actualitzat!"
+msgstr "Actualitzat a"
 
 #: admin/class-h5p-library-admin.php:457
 msgid "Upgrade"
@@ -907,15 +851,13 @@ msgstr "Estadístiques d'ús"
 
 #: admin/views/settings.php:191
 msgid ""
-"Usage statistics numbers will automatically be reported to help the "
-"developers better understand how H5P is used and to determine potential "
-"areas of improvement. Read more about which <a href=\"%s\" target=\"_blank"
-"\">data is collected on h5p.org</a>."
+"Usage statistics numbers will automatically be reported to help the developers better understand how "
+"H5P is used and to determine potential areas of improvement. Read more about which <a href=\"%s\" "
+"target=\"_blank\">data is collected on h5p.org</a>."
 msgstr ""
-"Les estadístiques d'ús es notificaran de manera automàtica per ajudar els "
-"desenvolupadors a entendre millor com s'està utilitzant l'H5P i determinar "
-"les possibles àrees de millora. Llegiu més sobre <a href=\"%s\" target="
-"\"_blank\">com recull les dades h5p.org</a>."
+"Les estadístiques d'ús es notificaran de manera automàtica per ajudar els desenvolupadors a entendre "
+"millor com s'està utilitzant l'H5P i determinar les possibles àrees de millora. Llegiu més sobre <a "
+"href=\"%s\" target=\"_blank\">com recull les dades h5p.org</a>."
 
 #: admin/views/settings.php:166
 msgid "Use H5P Hub"
@@ -929,10 +871,8 @@ msgstr "Usat per"
 msgid "User"
 msgstr "Usuari"
 
-#: admin/class-h5p-privacy-policy.php:260
-#: admin/class-h5p-privacy-policy.php:315
-#: admin/class-h5p-privacy-policy.php:377
-#: admin/class-h5p-privacy-policy.php:443
+#: admin/class-h5p-privacy-policy.php:260 admin/class-h5p-privacy-policy.php:315
+#: admin/class-h5p-privacy-policy.php:377 admin/class-h5p-privacy-policy.php:443
 msgid "User ID"
 msgstr "ID de l'usuari"
 
@@ -952,8 +892,8 @@ msgstr "Mostra"
 msgid "View library details"
 msgstr "Mostra els detalls de la biblioteca"
 
-#: admin/views/content-results.php:22 admin/views/contents.php:16
-#: admin/views/libraries.php:73 admin/views/my-results.php:16
+#: admin/views/content-results.php:22 admin/views/contents.php:16 admin/views/libraries.php:73
+#: admin/views/my-results.php:16
 msgid "Waiting for JavaScript."
 msgstr "S'està esperant el Javascript."
 
@@ -963,40 +903,50 @@ msgstr "S'està esperant el Javascript..."
 
 #: admin/views/libraries.php:62 admin/views/new-content.php:34
 msgid ""
-"Warning! This may have security implications as it allows for uploading php "
-"files. That in turn could make it possible for attackers to execute "
-"malicious code on your site. Please make sure you know exactly what you're "
-"uploading."
+"Warning! This may have security implications as it allows for uploading php files. That in turn could "
+"make it possible for attackers to execute malicious code on your site. Please make sure you know "
+"exactly what you're uploading."
 msgstr ""
-"Atenció! Pot tenir implicacions en la seguretat del lloc, ja que permet "
-"penjar fitxers php al servidor. Això podria permetre a atacants potencials "
-"l'execució de codi maliciós. Assegureu-vos de conèixer exactament què esteu "
-"penjant."
+"Atenció! Pot tenir implicacions en la seguretat del lloc, ja que permet penjar fitxers php al "
+"servidor. Això podria permetre a atacants potencials l'execució de codi maliciós. Assegureu-vos de "
+"conèixer exactament què esteu penjant."
 
 #: admin/class-h5p-privacy-policy.php:74
+#, fuzzy
 msgid ""
-"We may process and store personal data about your interactions using %s. We "
-"use the data to learn about how well the interactions are designed and how "
-"it could be adapted to improve the usability and your learning outcomes. The "
-"data is processed and stored [on our platform|on an external platform] until "
-"further notice."
+"We may process and store personal data about your interactions using %s. We use the data to learn "
+"about how well the interactions are designed and how it could be adapted to improve the usability and "
+"your learning outcomes. The data is processed and stored [on our platform|on an external platform] "
+"until further notice."
 msgstr ""
+"Podem processar i emmagatzema dada personal sobre les vostres interaccions que utilitzen %s. "
+"utilitzem la dada per aprendre aproximadament que bé les interaccions són dissenyades i com pugui ser "
+"adaptat per millorar el usability i els vostres resultats d'aprenentatge. la dada és processada i "
+"emmagatzemat [en la nostra plataforma|en una plataforma externa] fins a un altre avís."
 
 #: admin/class-h5p-privacy-policy.php:76
+#, fuzzy
 msgid ""
-"We may store interactive content that you create on our platform. We also "
-"may send anonymized reports about content creation without any personal data "
-"to the plugin creators. Please consult the %s page for details."
+"We may store interactive content that you create on our platform. We also may send anonymized reports "
+"about content creation without any personal data to the plugin creators. Please consult the %s page "
+"for details."
 msgstr ""
+"Podem emmagatzemar contingut interactiu que crees en la nostra plataforma. també podem enviar "
+"anonymized informa aproximadament creació de contingut sense qualsevol dada personal al plugin "
+"creadors. si us plau consultar el %s pàgina per detalls."
 
 #: admin/class-h5p-privacy-policy.php:75
+#, fuzzy
 msgid ""
-"We may store the results of your interactions on our platform until further "
-"notice. The results may contain your score, the maximum score possible, when "
-"you started, when you finished, and how much time you used. We use the "
-"results to learn about how well you performed and to help us give you "
+"We may store the results of your interactions on our platform until further notice. The results may "
+"contain your score, the maximum score possible, when you started, when you finished, and how much "
+"time you used. We use the results to learn about how well you performed and to help us give you "
 "feedback."
 msgstr ""
+"Podem emmagatzemar el resulta de les vostres interaccions en la nostra plataforma fins a un altre "
+"avís. el resulta pot contenir la vostra puntuació, la puntuació màxima possible, quan vas començar, "
+"quan vas acabar, i quant temps vas utilitzar. utilitzem el resulta per aprendre aproximadament que bé "
+"vas actuar i per ajudar-nos donar-te retroalimentació."
 
 #: admin/class-h5p-privacy-policy.php:71
 msgid "What personal data we collect and why we collect it"
@@ -1007,11 +957,10 @@ msgid "What's next?"
 msgstr "Què ve ara?"
 
 #: admin/views/settings.php:129
-msgid ""
-"When adding H5P content to posts and pages using the \"Add H5P\" button:"
+msgid "When adding H5P content to posts and pages using the \"Add H5P\" button:"
 msgstr ""
-"Quan s'afegeixi algun contingut interactiu en entrades, articles o pàgines "
-"mitjançant el botó \"Afegeix H5P\":"
+"Quan s'afegeixi algun contingut interactiu en entrades, articles o pàgines mitjançant el botó "
+"\"Afegeix H5P\":"
 
 #: admin/class-h5p-library-admin.php:377 admin/class-h5p-library-admin.php:378
 msgid "Yes"
@@ -1019,8 +968,7 @@ msgstr "Sí"
 
 #: admin/class-h5p-library-admin.php:437
 msgid "You are about to upgrade %s. Please select upgrade version."
-msgstr ""
-"Sou a punt d'actualitzar %s. Escolliu la versió a la qual voleu actualitzar."
+msgstr "Sou a punt d'actualitzar %s. Escolliu la versió a la qual voleu actualitzar."
 
 #: admin/class-h5p-content-admin.php:318
 msgid "You are not allowed to edit this content."
@@ -1029,20 +977,19 @@ msgstr "No teniu autorització per editar aquest contingut."
 #: admin/class-h5p-plugin-admin.php:286
 #, fuzzy
 msgid ""
-"You are ready to <a href=\"%s\">start creating</a> interactive content. "
-"Check out our <a href=\"%s\" target=\"_blank\">Examples and Downloads</a> "
-"page for inspiration."
+"You are ready to <a href=\"%s\">start creating</a> interactive content. Check out our <a href=\"%s\" "
+"target=\"_blank\">Examples and Downloads</a> page for inspiration."
 msgstr ""
-"Visiteu la pàgina d'<a href=\"%s\" target=\"_blank\">Exemples i Baixades</a> "
-"per inspirar-vos."
+"Ets a punt a <un href=\"%s\">comença crear</un> contingut interactiu. comprova el nostre <un href=\"%s"
+"\" exemples=\"_d'espai\">de l'objectiu i descarrega</una> pàgina per inspiració."
 
 #: admin/views/show-content.php:33
 msgid ""
-"You can use the following shortcode to insert this interactive content into "
-"posts, pages, widgets, templates etc."
+"You can use the following shortcode to insert this interactive content into posts, pages, widgets, "
+"templates etc."
 msgstr ""
-"Utilitzeu el codi següent per inserir aquest contingut interactiu dins "
-"d'entrades, articles, pàgines, ginys, plantilles, etc."
+"Utilitzeu el codi següent per inserir aquest contingut interactiu dins d'entrades, articles, pàgines, "
+"ginys, plantilles, etc."
 
 #: admin/class-h5p-library-admin.php:447
 msgid "You have successfully upgraded %s."
@@ -1050,22 +997,24 @@ msgstr "Heu actualitzat correctament %s."
 
 #: admin/class-h5p-plugin-admin.php:298
 msgid ""
-"You should <strong>upgrade your H5P content types!</strong> The old content "
-"types still work, but the authoring tool's look and feel is greatly improved "
-"with the new content types. Here's some more info about <a href=\"%s\" "
-"target=\"_blank\">upgrading the content types</a>."
+"You should <strong>upgrade your H5P content types!</strong> The old content types still work, but the "
+"authoring tool's look and feel is greatly improved with the new content types. Here's some more info "
+"about <a href=\"%s\" target=\"_blank\">upgrading the content types</a>."
 msgstr ""
-"Heu d'<strong>actualitzar els tipus de contingut H5P!</strong> Els tipus de "
-"contingut antics seguiran funcionant, però l'aparença de l'eina d'autor ha "
-"millorat molt en la nova versió. Aquí teniu més informació sobre l'<a href="
-"\"%s\" target=\"_blank\">actualització dels tipus de contingut</a>."
+"Heu d'<strong>actualitzar els tipus de contingut H5P!</strong> Els tipus de contingut antics seguiran "
+"funcionant, però l'aparença de l'eina d'autor ha millorat molt en la nova versió. Aquí teniu més "
+"informació sobre l'<a href=\"%s\" target=\"_blank\">actualització dels tipus de contingut</a>."
 
 #: admin/class-h5p-plugin-admin.php:567
+#, fuzzy
 msgid ""
-"You're trying to upload content of an older version of H5P. Please upgrade "
-"the content on the server it originated from and try to upload again or turn "
-"on the H5P Hub to have this server upgrade it for your automaticall."
+"You're trying to upload content of an older version of H5P. Please upgrade the content on the server "
+"it originated from and try to upload again or turn on the H5P Hub to have this server upgrade it for "
+"your automaticall."
 msgstr ""
+"Estàs provant a upload contingut d'una versió més vella de h5p. si us plau upgrade el contingut en el "
+"servidor va originar d'i prova a upload un altre cop o volta en el h5p hub a té aquest servidor "
+"upgrade ell pel vostre automaticall."
 
 #. Plugin URI of the plugin/theme
 msgid "http://h5p.org/wordpress"
@@ -1077,4 +1026,4 @@ msgstr "http://joubel.com"
 
 #: admin/class-h5p-privacy-policy.php:55
 msgid "xAPI"
-msgstr ""
+msgstr "xAPI"

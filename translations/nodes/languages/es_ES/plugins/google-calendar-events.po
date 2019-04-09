@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Simple Calendar &#8211; Google Calendar Plugin - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2019-04-05 11:28+0200\n"
+"PO-Revision-Date: 2019-04-08 17:39+0200\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -20,6 +20,8 @@ msgid ""
 "%1$s - It is recomendend to set memory to at least 64MB. See: <a href=\"%2$s"
 "\" target=\"_blank\">Increasing memory allocated to PHP</a>"
 msgstr ""
+"%1$s - Se recomienda configurar la memoria como mínimo a 64MB. Véase: <a "
+"href=\"%2$s\" target=\"_blank\">Aumentar la memoria alojada para PHP</a>"
 
 #: includes/admin/pages/system-status.php:212
 #: includes/admin/pages/system-status.php:305
@@ -1013,6 +1015,9 @@ msgid ""
 "Open event bubbles in calendar grid by clicking or hovering on event titles. "
 "On mobile devices it will always default to tapping."
 msgstr ""
+"Abrir las burbujas de evento de la parrilla haciendo clic o pasando por "
+"encima de los títulos de los acontecimientos. En los dispositivos móviles "
+"siempre será haciendo clic."
 
 #: includes/admin/metaboxes/settings.php:332
 msgid "Other"
@@ -1235,12 +1240,16 @@ msgid ""
 "Set the date for the earliest possible event to show in calendar. There will "
 "not be events before this date."
 msgstr ""
+"Fije la fecha para el primer evento que se ha de mostrar en el calendario. "
+"No habrá eventos antes de esa fecha."
 
 #: includes/admin/metaboxes/settings.php:443
 msgid ""
 "Set the date for the latest possible event to show on calendar. There will "
 "not be events after this date."
 msgstr ""
+"Fije la fecha para el último evento que se ha de mostrar en el calendario. "
+"No habrá eventos después de esta fecha."
 
 #: includes/admin/metaboxes/settings.php:623
 msgid ""
@@ -1335,6 +1344,8 @@ msgid ""
 "Some calendars may use this setting to display the start of the week. It is "
 "recommended to keep the site default setting."
 msgstr ""
+"Algunos calendarios pueden utilizar esta opción para mostrar el inicio de la "
+"semana. Se recomienda mantener la configuración predeterminada del sitio."
 
 #: includes/functions/admin.php:354
 msgid "Some of the features included with our premium add-ons"
@@ -1358,12 +1369,16 @@ msgid ""
 "Step 1: Set the Google Calendar you want to use as <strong>\"public.\"</"
 "strong> <a href=\"%1s\" target=\"_blank\">Detailed instructions</a>"
 msgstr ""
+"Paso 1: Configure el calendario que desea utilizar como <strong>\"público."
+"\"</strong> <a href=\"%1s\" target=\"_blank\">Instrucciones detalladas</a>"
 
 #: includes/feeds/admin/google-admin.php:262
 msgid ""
 "Step 2: Copy and paste your Google Calendar ID here. <a href=\"%2s\" target="
 "\"_blank\">Detailed instructions</a>"
 msgstr ""
+"Paso 2: Copie y pegue el ID del calendario aquí. <a href=\"%2s\" target="
+"\"_blank\">Instrucciones detalladas</a>"
 
 #: includes/admin/pages/advanced.php:48
 msgid "Styles"
@@ -1398,6 +1413,8 @@ msgid ""
 "The calendar default opening date. It will automatically adapt based on the "
 "chosen calendar type."
 msgstr ""
+"La fecha de apertura predeterminada del calendario. Se adaptará "
+"automáticamente basándose en el tipo de calendario seleccionado."
 
 #: includes/calendars/admin/default-calendar-admin.php:315
 msgid "Theme"
@@ -1451,7 +1468,6 @@ msgstr ""
 "recomendable mantener la configuración por defecto de su sitio."
 
 #: includes/admin/metaboxes/settings.php:757
-#, fuzzy
 msgid ""
 "This option sets how calendars display event times. It is recommended to "
 "keep your site default setting."
@@ -1464,6 +1480,8 @@ msgid ""
 "This option will set the background color for today's date. It will change "
 "the day number background and the border around the current day."
 msgstr ""
+"Esta opción establecerá el color de fondo para la fecha de hoy. Cambiará el "
+"fondo del número del día y el borde alrededor del día actual."
 
 #: includes/calendars/admin/default-calendar-admin.php:371
 msgid ""
@@ -1549,9 +1567,8 @@ msgid "Update Category"
 msgstr "Actualizar categoría"
 
 #: includes/post-types.php:60
-#, fuzzy
 msgid "Update Events Source Type"
-msgstr "Tipo superior de fuente de eventos"
+msgstr "Actualizar el tipo de origen de los eventos"
 
 #: includes/functions/admin.php:372
 msgid "Upgrade to Premium Now"
@@ -1612,6 +1629,8 @@ msgstr "Ver tipo de fuente de eventos"
 #: includes/admin/welcome.php:208
 msgid "View Pricing and Try a Demo of our Simple Calendar Pro Add-ons."
 msgstr ""
+"Consulte precios y pruebe una demostración de nuestro complemento Simple "
+"Calendar Pro."
 
 #: includes/admin/metaboxes/settings.php:165
 msgid "View to display"
@@ -1622,6 +1641,8 @@ msgid ""
 "Visit your Google Calendar account, copy your public calendar ID, then paste "
 "it here."
 msgstr ""
+"Abra el calendario de Google con su cuenta, copie el identificador público "
+"(ID) y péguelo aquí."
 
 #: includes/admin/pages/licenses.php:58
 msgid ""
@@ -1787,12 +1808,16 @@ msgid ""
 "Your Google Calendar events will not show up until you <a href=\"%s\">create "
 "and save a Google API key</a>."
 msgstr ""
+"Sus eventos de Google Calendar no se mostrarán hasta que no <a href=\"%s"
+"\">cree y guarde una clave de Google API</a>."
 
 #: includes/admin/pages/licenses.php:79
 msgid ""
 "Your license keys are used for access to automatic upgrades and premium "
 "support."
 msgstr ""
+"Las claves de su licencia se utilizan para acceder a las actualizaciones "
+"automáticas y al soporte premium."
 
 #: includes/events/event-builder.php:791
 msgctxt "human date event builder code modifier"

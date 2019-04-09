@@ -3,73 +3,74 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WP Telegram 2.0.9\n"
-"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wordpress-"
-"telegram\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wordpress-telegram\n"
 "POT-Creation-Date: 2019-04-05 07:48:22+00:00\n"
+"PO-Revision-Date: 2019-04-05 11:28+0200\n"
+"Last-Translator: Joan Sala Soler <jsala236@xtec.cat>\n"
+"Language-Team: \n"
+"Language: es_ES\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2019-04-05 11:28+0200\n"
-"Language-Team: \n"
-"X-Generator: Poedit 2.0.6\n"
-"Last-Translator: Joan Sala Soler <jsala236@xtec.cat>\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"Language: es_ES\n"
+"X-Generator: Poedit 2.0.6\n"
 
 #: admin/class-wptelegram-admin-settings.php:52
 #, fuzzy
 msgid "Telegram Settings"
-msgstr "Ajustes de AddToAny"
+msgstr "Encuadres de telegrama"
 
 #: admin/class-wptelegram-admin-settings.php:58
 #, fuzzy
 msgid "WordPress Settings"
-msgstr ""
-"Te permite usar enlaces permanentes bonitos, si se activa en Ajustes-"
-">Lectura. Si no está habilitado, tus enlaces estarán en forma de \"example."
-"com/?pod_name=post_slug\" independientemente de la configuración de enlaces "
-"permanentes."
+msgstr "Encuadres de wordpress"
 
 #: admin/class-wptelegram-admin-settings.php:59
+#, fuzzy
 msgid "In this section you can teach WordPress how and when to do the job"
 msgstr ""
+"En esta sección  puedes enseñar wordpress qué y cuando para hacer el trabajo"
 
 #: admin/class-wptelegram-admin-settings.php:64
 #: modules/notify/class-wptelegram-notify-admin.php:123
 #: modules/p2tg/class-wptelegram-p2tg-admin.php:183
 #, fuzzy
 msgid "Message Settings"
-msgstr "Mensaje"
+msgstr "Encuadres de mensaje"
 
 #: admin/class-wptelegram-admin-settings.php:65
+#, fuzzy
 msgid "In this section you can change the way messages are sent to Telegram"
 msgstr ""
+"En esta sección  puedes cambio los mensajes de manera están enviados a "
+"telegrama"
 
 #: admin/class-wptelegram-admin-settings.php:70
 #: modules/notify/class-wptelegram-notify-admin.php:84
 #, fuzzy
 msgid "Notification Settings"
-msgstr "Ajustes de notificaciones"
+msgstr "Encuadres de notificación"
 
 #: admin/class-wptelegram-admin-settings.php:79
+#, fuzzy
 msgid "Disclaimer! Use the proxy at your own risk!"
-msgstr ""
+msgstr "Descargo de responsabilidad! uso el proxy en vuestro riesgo propio!"
 
 #: admin/class-wptelegram-admin-settings.php:80
 #, fuzzy
 msgid "Proxy Settings"
-msgstr "Ajustes de AddToAny"
+msgstr "Proxy encuadres"
 
 #: admin/class-wptelegram-admin-settings.php:97
 #: admin/class-wptelegram-admin.php:192
 #, fuzzy
 msgid "Bot Token"
-msgstr "Token de acceso"
+msgstr "Bot token"
 
 #: admin/class-wptelegram-admin-settings.php:98
 #, fuzzy
 msgid "Please read the instructions above"
-msgstr "Marcando mensajes como leídos. Por favor, espera."
+msgstr "Por favor leyó las instrucciones encima"
 
 #: admin/class-wptelegram-admin-settings.php:99
 #: admin/class-wptelegram-admin-settings.php:123
@@ -77,24 +78,26 @@ msgstr "Marcando mensajes como leídos. Por favor, espera."
 #: admin/class-wptelegram-admin-settings.php:347
 #, fuzzy
 msgid "e.g."
-msgstr "Ej: Categorías, Lista de categoría"
+msgstr "P. ej."
 
 #: admin/class-wptelegram-admin-settings.php:106
 #: admin/class-wptelegram-admin.php:193 admin/class-wptelegram-admin.php:211
 #: admin/partials/wptelegram-admin-display.php:73
 #, fuzzy
 msgid "Test Token"
-msgstr "Para probar"
+msgstr "Prueba token"
 
 #: admin/class-wptelegram-admin-settings.php:121
+#, fuzzy
 msgid "Channel Username(s) or Chat ID(s)"
-msgstr ""
+msgstr "Canal username(s) o charla id(s)"
 
 #: admin/class-wptelegram-admin-settings.php:122
 #: admin/class-wptelegram-admin-settings.php:370
 #: modules/p2tg/class-wptelegram-p2tg-admin.php:115
+#, fuzzy
 msgid "If more than one, separate them by comma"
-msgstr ""
+msgstr "Si más de un, separado les por coma"
 
 #: admin/class-wptelegram-admin-settings.php:130
 #: admin/class-wptelegram-admin-settings.php:354
@@ -107,45 +110,50 @@ msgstr "Enviar Prueba"
 #: admin/class-wptelegram-admin-settings.php:147
 #, fuzzy
 msgid "When to send?"
-msgstr "Enviar una notificación por email cuando:"
+msgstr "Cuando para enviar?"
 
 #: admin/class-wptelegram-admin-settings.php:153
 #, fuzzy
 msgid "When publishing a new post"
-msgstr "Nueva entrada"
+msgstr "Cuando editorial un correo nuevo"
 
 #: admin/class-wptelegram-admin-settings.php:154
 #, fuzzy
 msgid "Updating an existing post"
-msgstr "No se puede crear una entrada existente."
+msgstr "Actualizando un correo de existir"
 
 #: admin/class-wptelegram-admin-settings.php:160
 #, fuzzy
 msgid "Which post type(s) to send?"
-msgstr "Selecciona tipo(s) de contenido personalizado"
+msgstr "Qué tipo de correo(s) para enviar?"
 
 #: admin/class-wptelegram-admin-settings.php:170
 #, fuzzy
 msgid "Categories/Terms"
-msgstr "Categorías"
+msgstr "Las categorías/denomina"
 
 #: admin/class-wptelegram-admin-settings.php:176
+#, fuzzy
 msgid "Post from all Categories/Terms"
-msgstr ""
+msgstr "El correo de todas las  categorías/denomina"
 
 #: admin/class-wptelegram-admin-settings.php:177
 #: admin/class-wptelegram-admin-settings.php:200
+#, fuzzy
 msgid "Post only from selected ones"
-msgstr ""
+msgstr "El correo único de seleccionado unos"
 
 #: admin/class-wptelegram-admin-settings.php:178
 #: admin/class-wptelegram-admin-settings.php:201
+#, fuzzy
 msgid "Do not post from selected ones"
-msgstr ""
+msgstr "No correo de seleccionado unos"
 
 #: admin/class-wptelegram-admin-settings.php:184
-msgid "The rule will apply to the selected categories/terms and their children"
-msgstr ""
+#, fuzzy
+msgid ""
+"The rule will apply to the selected categories/terms and their children"
+msgstr "La regla aplicará al seleccionó las categorías/denomina y sus niños"
 
 #: admin/class-wptelegram-admin-settings.php:193
 msgid "Authors"
@@ -154,7 +162,7 @@ msgstr "Autores"
 #: admin/class-wptelegram-admin-settings.php:199
 #, fuzzy
 msgid "Post from all Authors"
-msgstr "Remover este widget del escritorio de todos los usuarios"
+msgstr "Correo de todos los  autores"
 
 #: admin/class-wptelegram-admin-settings.php:209
 #: admin/class-wptelegram-admin-settings.php:303
@@ -165,35 +173,41 @@ msgid "Note:"
 msgstr "Nota:"
 
 #: admin/class-wptelegram-admin-settings.php:209
+#, fuzzy
 msgid ""
 "The authors not chosen to post from, will not see the ON/OFF switch on the "
 "post edit screen"
 msgstr ""
+"Los autores no escogidos a correo de, no verá el encima/fuera el cambio en "
+"el correo edita pantalla"
 
 #: admin/class-wptelegram-admin-settings.php:215
 #: modules/p2tg/class-wptelegram-p2tg-admin.php:319
 #, fuzzy
 msgid "When editing a post"
-msgstr "Una entrada no actualizada, alguien la está editando."
+msgstr "Cuando editando un correo"
 
 #: admin/class-wptelegram-admin-settings.php:216
 #: modules/p2tg/class-wptelegram-p2tg-admin.php:321
+#, fuzzy
 msgid ""
 "You can use this switch to override the above settings for a particular post"
 msgstr ""
+"Puedes uso este cambio a override el encima encuadres para un correo "
+"particular"
 
 #: admin/class-wptelegram-admin-settings.php:217
 #: modules/p2tg/class-wptelegram-p2tg-admin.php:320
+#, fuzzy
 msgid "Show an ON/OFF switch on the post edit screen"
-msgstr ""
+msgstr "Espectáculo un encima/fuera el cambio en el correo edita pantalla"
 
 #: admin/class-wptelegram-admin-settings.php:226
 #: modules/notify/class-wptelegram-notify-admin.php:129
 #: modules/p2tg/class-wptelegram-p2tg-admin.php:188
 #: modules/p2tg/class-wptelegram-p2tg-admin.php:755
-#, fuzzy
 msgid "Message Template"
-msgstr "Mensaje"
+msgstr "Plantilla de mensaje"
 
 #: admin/class-wptelegram-admin-settings.php:227
 #: modules/notify/class-wptelegram-notify-admin.php:130
@@ -201,52 +215,47 @@ msgstr "Mensaje"
 #: modules/p2tg/class-wptelegram-p2tg-admin.php:756
 #, fuzzy
 msgid "Structure of the message to be sent"
-msgstr "Mensaje no enviado. Por favor, inténtalo de nuevo."
+msgstr "Estructura del mensaje para ser enviado"
 
 #: admin/class-wptelegram-admin-settings.php:242
 #: modules/p2tg/class-wptelegram-p2tg-admin.php:202
 #, fuzzy
 msgid "Excerpt Source"
-msgstr "Fuente"
+msgstr "Excerpt fuente"
 
 #: admin/class-wptelegram-admin-settings.php:248
 #: modules/p2tg/class-wptelegram-p2tg-admin.php:209
 #, fuzzy
 msgid "Post Content"
-msgstr ""
-"Si la plantilla va antes, después o en lugar del contenido de la entrada."
+msgstr "Contenido de correo"
 
 #: admin/class-wptelegram-admin-settings.php:249
 #: modules/p2tg/class-wptelegram-p2tg-admin.php:210
+#, fuzzy
 msgid "Post Content before Read More tag"
-msgstr ""
+msgstr "Contenido de correo antes leído más etiqueta"
 
 #: admin/class-wptelegram-admin-settings.php:250
 #: modules/p2tg/class-wptelegram-p2tg-admin.php:211
 #, fuzzy
 msgid "Post Excerpt"
-msgstr ""
-"Publicar esto es un marcador de enlaces que hace fácil bloguear sobre algo "
-"con lo que te hayas topado en la web. Puedes usarlo para guardar un enlace, "
-"para publicar un resumen del mismo. Publicar esto te permite elegir de entre "
-"las imágenes de esa página cuál se utilizará para tu entrada. \n"
-"Sólo tienes que arrastrar el enlace de Publicar esto de esta pantalla a la "
-"barra de enlaces favoritos de tu navegador y tendrás la forma más fácil de "
-"crear contenido. Haciendo clic en él mientras estés visitando cualquier "
-"sitio web se abre una ventana emergente con las opciones mencionadas. "
+msgstr "Correo excerpt"
 
 #: admin/class-wptelegram-admin-settings.php:255
 #: modules/p2tg/class-wptelegram-p2tg-admin.php:215
 #, fuzzy
 msgid "Excerpt Length"
-msgstr "Extracto"
+msgstr "Excerpt longitud"
 
 #: admin/class-wptelegram-admin-settings.php:256
 #: modules/p2tg/class-wptelegram-p2tg-admin.php:216
+#, fuzzy
 msgid ""
-"Number of words for the excerpt. Won't be used when Caption Source is \"Post "
-"Content before Read More tag\""
+"Number of words for the excerpt. Won't be used when Caption Source is \"Post"
+" Content before Read More tag\""
 msgstr ""
+"Número de palabras para el excerpt. no será utilizado cuando caption la "
+"fuente es contenido de correo \" antes leído más etiqueta\""
 
 #: admin/class-wptelegram-admin-settings.php:267
 #: modules/notify/class-wptelegram-notify-admin.php:144
@@ -254,7 +263,7 @@ msgstr ""
 #: modules/p2tg/class-wptelegram-p2tg-admin.php:512
 #, fuzzy
 msgid "Parse Mode"
-msgstr "Modo de visualización del título en móviles"
+msgstr "Parse modo"
 
 #: admin/class-wptelegram-admin-settings.php:268
 #: modules/notify/class-wptelegram-notify-admin.php:148
@@ -277,26 +286,26 @@ msgstr "Ninguna"
 #: modules/p2tg/class-wptelegram-p2tg-admin.php:238
 #, fuzzy
 msgid "Markdown style"
-msgstr "Estilo de icono"
+msgstr "Markdown estilo"
 
 #: admin/class-wptelegram-admin-settings.php:275
 #: modules/notify/class-wptelegram-notify-admin.php:152
 #: modules/p2tg/class-wptelegram-p2tg-admin.php:239
 #, fuzzy
 msgid "HTML style"
-msgstr "Estilo"
+msgstr "Estilo de html"
 
 #: admin/class-wptelegram-admin-settings.php:280
 #: modules/p2tg/class-wptelegram-p2tg-admin.php:243
 #, fuzzy
 msgid "Featured Image"
-msgstr "Imagen destacada"
+msgstr "Imagen presentada"
 
 #: admin/class-wptelegram-admin-settings.php:281
 #: modules/p2tg/class-wptelegram-p2tg-admin.php:244
 #, fuzzy
 msgid "Send Featured Image (if exists)"
-msgstr "Eliminar la imagen destacada"
+msgstr "Envía imagen presentada (si existe)"
 
 #: admin/class-wptelegram-admin-settings.php:288
 #: modules/p2tg/class-wptelegram-p2tg-admin.php:253
@@ -307,36 +316,37 @@ msgstr "Posición de la imagen"
 #: modules/p2tg/class-wptelegram-p2tg-admin.php:260
 #, fuzzy
 msgid "Before the Text"
-msgstr "Antes"
+msgstr "Antes del texto"
 
 #: admin/class-wptelegram-admin-settings.php:294
 #: modules/p2tg/class-wptelegram-p2tg-admin.php:261
-#, fuzzy
 msgid "After the Text"
-msgstr "Solo texto"
+msgstr "Después del texto"
 
 #: admin/class-wptelegram-admin-settings.php:300
+#, fuzzy
 msgid "Attach the image below the text"
-msgstr ""
+msgstr "Sujeta la imagen bajo el texto"
 
 #: admin/class-wptelegram-admin-settings.php:303
+#, fuzzy
 msgid "Useful if you want everything in one message."
-msgstr ""
+msgstr "Útil si  quieres todo en un mensaje."
 
 #: admin/class-wptelegram-admin-settings.php:303
 #, fuzzy
 msgid "If enabled:"
-msgstr "Habilitado"
+msgstr "Si habilitado:"
 
 #: admin/class-wptelegram-admin-settings.php:303
 #, fuzzy
 msgid "Caption cannot be used"
-msgstr "Esta acción no puede deshacerse."
+msgstr "Caption no puede ser utilizado"
 
 #: admin/class-wptelegram-admin-settings.php:303
 #, fuzzy
 msgid "Parse Mode should NOT be"
-msgstr "Modo de visualización del título en móviles"
+msgstr "Parse el modo no tendría que ser"
 
 #: admin/class-wptelegram-admin-settings.php:303
 #: admin/class-wptelegram-admin-settings.php:335
@@ -344,63 +354,70 @@ msgstr "Modo de visualización del título en móviles"
 #: modules/p2tg/class-wptelegram-p2tg-admin.php:513
 #, fuzzy
 msgid "Disable Web Page Preview"
-msgstr "Página web, blog o web del usuario"
+msgstr "Inutiliza preestreno de página web"
 
 #: admin/class-wptelegram-admin-settings.php:303
 #, fuzzy
 msgid "should not be checked"
-msgstr "Esconder en las páginas marcadas"
+msgstr "No tendría que ser comprobado"
 
 #: admin/class-wptelegram-admin-settings.php:307
 #, fuzzy
 msgid "How to send the image?"
-msgstr "URL de la imagen"
+msgstr "Qué para enviar la imagen?"
 
 #: admin/class-wptelegram-admin-settings.php:312
 #, fuzzy
 msgid "With Caption"
-msgstr "Leyenda"
+msgstr "Con caption"
 
 #: admin/class-wptelegram-admin-settings.php:313
 #, fuzzy
 msgid "Without Caption"
-msgstr "Leyenda"
+msgstr "Sin caption"
 
 #: admin/class-wptelegram-admin-settings.php:318
 #, fuzzy
 msgid "Caption Source"
-msgstr "Leyenda"
+msgstr "Caption fuente"
 
 #: admin/class-wptelegram-admin-settings.php:321
+#, fuzzy
 msgid "Telegram limits photo caption to 200 characters."
-msgstr ""
+msgstr "El telegrama limita foto caption a 200 caracteres."
 
 #: admin/class-wptelegram-admin-settings.php:321
+#, fuzzy
 msgid ""
 "If the Media Library caption is not used and the Message Template exceeds "
 "the limit, the remaining part of the Template will be sent separately after "
 "the photo without breaking the words."
 msgstr ""
+"Si la mediateca caption no es utilizado y la plantilla de mensaje supera el "
+"límite, la parte restante de la plantilla será enviada por separado después "
+"de la foto sin ruptura las palabras."
 
 #: admin/class-wptelegram-admin-settings.php:321
+#, fuzzy
 msgid ""
-"If \"Image Position\" is set to \"After the Text\", then \"Only Media Library"
-"\" caption can be used."
+"If \"Image Position\" is set to \"After the Text\", then \"Only Media "
+"Library\" caption can be used."
 msgstr ""
+"Si \"posición de imagen\" es puso a \"después del texto\", entonces "
+"\"mediateca única\" caption puede ser utilizado."
 
 #: admin/class-wptelegram-admin-settings.php:324
-#, fuzzy
 msgid "Only Media Library"
-msgstr "Librería multimedia"
+msgstr "Mediateca única"
 
 #: admin/class-wptelegram-admin-settings.php:325
+#, fuzzy
 msgid "Media Library or Message Template (former preferred if not empty)"
-msgstr ""
+msgstr "Mediateca o plantilla de mensaje (anteriores preferidos si no vacíos)"
 
 #: admin/class-wptelegram-admin-settings.php:326
-#, fuzzy
 msgid "Only Message Template"
-msgstr "Solo texto"
+msgstr "Plantilla de mensaje único"
 
 #: admin/class-wptelegram-admin-settings.php:331
 #: modules/p2tg/class-wptelegram-p2tg-admin.php:314
@@ -410,22 +427,19 @@ msgstr "Herramientas"
 #: admin/class-wptelegram-admin-settings.php:335
 #, fuzzy
 msgid "of the link in text"
-msgstr ""
-"Introduce el texto para el enlace de cancelación de suscripción. Este texto "
-"es para añadir un enlace de cancelación de suscripción con la newsletter. "
-"(Keyword: ###LINK###)"
+msgstr "Del enlace en texto"
 
 #: admin/class-wptelegram-admin-settings.php:336
 #: modules/p2tg/class-wptelegram-p2tg-admin.php:346
 #: modules/p2tg/class-wptelegram-p2tg-admin.php:725
 #, fuzzy
 msgid "Disable Notifications"
-msgstr ""
-"Para desabilitar estas notificaciones por favor indentifícate y visita a: %s"
+msgstr "Inutiliza notificaciones"
 
 #: admin/class-wptelegram-admin-settings.php:337
+#, fuzzy
 msgid "Do not send the second message as a reply to the first"
-msgstr ""
+msgstr "No envía el mensaje de segundo como respuesta al primero"
 
 #: admin/class-wptelegram-admin-settings.php:345
 #: modules/notify/class-wptelegram-notify-admin.php:232
@@ -433,110 +447,124 @@ msgstr ""
 #: modules/proxy/class-wptelegram-proxy-admin.php:264
 #, fuzzy
 msgid "Chat ID"
-msgstr "Chat"
+msgstr "Charla id"
 
 #: admin/class-wptelegram-admin-settings.php:346
+#, fuzzy
 msgid "If more than one, separate them by comma. Read the instructions above"
-msgstr ""
+msgstr "Si más de un, separado les por coma. leído las instrucciones encima"
 
 #: admin/class-wptelegram-admin-settings.php:369
 #, fuzzy
 msgid "Email(s) to watch"
-msgstr "Suscribirse por correo electrónico"
+msgstr "Email(s) a reloj"
 
 #: admin/class-wptelegram-admin-settings.php:370
+#, fuzzy
 msgid ""
 "WP Telegram will watch the Email Notifications sent from this site, if the "
 "email is sent to one of the above email ids, it will be sent to you on "
 "Telegram by your bot. It does not matter whether the email was successfully "
 "sent or not."
 msgstr ""
+"Wp telegrama  reloj las notificaciones de email enviadas de este sitio, si "
+"el email está enviado a un del encima email ids,  sea enviado a ti encima "
+"telegrama por vuestro bot. él  no asunto si el email era exitosamente "
+"enviado o no."
 
 #: admin/class-wptelegram-admin-settings.php:370
+#, fuzzy
 msgid "If you want to receive notification for every sent email, write"
-msgstr ""
+msgstr "Si  quieres recibir notificación para cada email enviado, escribe"
 
 #: admin/class-wptelegram-admin-settings.php:370
 #, fuzzy
 msgid "Usually it should be the admin email"
-msgstr "Correo electrónico del administrador"
+msgstr "Normalmente  tenga que ser el admin email"
 
 #: admin/class-wptelegram-admin-settings.php:377
-#, fuzzy
 msgid "Hashtag (optional)"
-msgstr "(Opcional)"
+msgstr "Hashtag (opcional)"
 
 #: admin/class-wptelegram-admin-settings.php:378
 #, fuzzy
 msgid "Add a hashtag at the end of the message."
-msgstr "Opcional: agrega un mensaje a tu invitación."
+msgstr "Añade un hashtag al final del mensaje."
 
 #: admin/class-wptelegram-admin-settings.php:378
 #, fuzzy
 msgid "Must begin with"
-msgstr "Hay que llenar todos los campos."
+msgstr "El mosto empieza con"
 
 #: admin/class-wptelegram-admin-settings.php:384
 #: modules/notify/class-wptelegram-notify-admin.php:114
-#, fuzzy
 msgid "Notifications to Users"
-msgstr "Notificaciones"
+msgstr "Notificaciones a usuarios"
 
 #: admin/class-wptelegram-admin-settings.php:385
+#, fuzzy
 msgid "User can enter the Telegram information on %sprofile%s page"
 msgstr ""
+"El usuario puede introducir la información de telegrama en %sprofile%s "
+"página"
 
 #: admin/class-wptelegram-admin-settings.php:386
 #: modules/notify/class-wptelegram-notify-admin.php:115
+#, fuzzy
 msgid "Allow users to receive their email notifications on Telegram"
 msgstr ""
+"Deja usuarios para recibir sus notificaciones de email encima telegrama"
 
 #: admin/class-wptelegram-admin-settings.php:399
 #: modules/proxy/class-wptelegram-proxy-admin.php:109
 #, fuzzy
 msgid "Google Script URL"
-msgstr "%s URL:"
+msgstr "Guión de google url"
 
 #: admin/class-wptelegram-admin-settings.php:400
+#, fuzzy
 msgid ""
 "You can bypass the ban on Telegram by making using of Google Scripts. The "
 "requests will be sent via your Google Script. See this tutorial"
 msgstr ""
+"Puedes bypass la prohibición encima telegrama por hacer utilizando de "
+"guiones de google. el pide será enviado vía vuestro guión de google. ve este"
+" preceptoral"
 
 #: admin/class-wptelegram-admin-settings.php:406
 #: modules/p2tg/class-wptelegram-p2tg-rules.php:56
 #: modules/p2tg/class-wptelegram-p2tg-rules.php:88
 msgid "OR"
-msgstr ""
+msgstr "O"
 
 #: admin/class-wptelegram-admin-settings.php:411
 #: modules/proxy/class-wptelegram-proxy-admin.php:124
-#, fuzzy
 msgid "Proxy Host"
-msgstr "Host SMTP"
+msgstr "Proxy anfitrión"
 
 #: admin/class-wptelegram-admin-settings.php:412
 #: modules/proxy/class-wptelegram-proxy-admin.php:127
+#, fuzzy
 msgid "Host IP or domian name like %s"
-msgstr ""
+msgstr "Ip anfitriona o domian nombre como %s"
 
 #: admin/class-wptelegram-admin-settings.php:418
 #: modules/proxy/class-wptelegram-proxy-admin.php:132
 #, fuzzy
 msgid "Proxy Port"
-msgstr "Puerto"
+msgstr "Proxy puerto"
 
 #: admin/class-wptelegram-admin-settings.php:419
 #: modules/proxy/class-wptelegram-proxy-admin.php:135
 #, fuzzy
 msgid "Target Port like %s"
-msgstr "No puedes usar números de puerto como %s."
+msgstr "Puerto de objetivo como %s"
 
 #: admin/class-wptelegram-admin-settings.php:425
 #: modules/proxy/class-wptelegram-proxy-admin.php:140
 #, fuzzy
 msgid "Proxy Type"
-msgstr "Tipo de campo de las clases"
+msgstr "Proxy tipo"
 
 #: admin/class-wptelegram-admin-settings.php:439
 #: modules/proxy/class-wptelegram-proxy-admin.php:155
@@ -549,7 +577,7 @@ msgstr "Nombre de usuario"
 #: modules/proxy/class-wptelegram-proxy-admin.php:166
 #, fuzzy
 msgid "Leave empty if not required"
-msgstr "(Déjalo vacío para un fondo transparente)"
+msgstr "Deja vacío si no requerido"
 
 #: admin/class-wptelegram-admin-settings.php:446
 #: modules/proxy/class-wptelegram-proxy-admin.php:163
@@ -557,82 +585,95 @@ msgid "Password"
 msgstr "Contraseña"
 
 #: admin/class-wptelegram-admin-settings.php:464
+#, fuzzy
 msgid "In this section you can change the settings related to Telegram."
 msgstr ""
+"En esta sección  puedes cambio los encuadres relacionados a telegrama."
 
 #: admin/class-wptelegram-admin-settings.php:464
+#, fuzzy
 msgid ""
-"To send messages to a Telegram Channel, group, supergroup or a private chat, "
-"follow the steps below."
+"To send messages to a Telegram Channel, group, supergroup or a private chat,"
+" follow the steps below."
 msgstr ""
+"Para enviar mensajes a un canal de telegrama, grupo, supergroup o una charla"
+" privada, sigue el da un paso abajo."
 
 #: admin/class-wptelegram-admin-settings.php:465
 #, fuzzy
 msgid "ATTENTION!"
-msgstr ""
-"<strong>Atención Administrador:</strong> Los foros del grupo, requieren una "
-"<a href=\"%s\">correcta configuración y puesta en marcha</a> de la "
-"instalación de bbPress."
+msgstr "Atención!"
 
 #: admin/class-wptelegram-admin-settings.php:467
 #: modules/p2tg/class-wptelegram-p2tg-admin.php:901
 #, fuzzy
 msgid "Create a Channel/group/supergroup"
-msgstr "Crear un grupo nuevo"
+msgstr "Crea un grupo/de canal/supergroup"
 
 #: admin/class-wptelegram-admin-settings.php:467
 #, fuzzy
 msgid "If you haven't"
-msgstr "Nos ha enviado ninguna invitación todavía."
+msgstr "Si  has no"
 
 #: admin/class-wptelegram-admin-settings.php:468
 #: admin/class-wptelegram-admin.php:456
+#, fuzzy
 msgid "Create a Bot by sending %s command to %s"
-msgstr ""
+msgstr "Crea un bot por envío %s orden a %s"
 
 #: admin/class-wptelegram-admin-settings.php:470
 #: admin/class-wptelegram-admin.php:458
+#, fuzzy
 msgid "After completing the steps %s will provide you the Bot Token."
-msgstr ""
+msgstr "Después completando el da un paso %s te proporcionará el bot token."
 
 #: admin/class-wptelegram-admin-settings.php:471
 #: admin/class-wptelegram-admin.php:459
+#, fuzzy
 msgid "Copy the token and paste into the Bot Token field below."
-msgstr ""
+msgstr "Copia el token y pasta al bot token campo abajo."
 
 #: admin/class-wptelegram-admin-settings.php:471
 #, fuzzy
 msgid "For ease, use"
-msgstr "Usar iconos personalizados. URL:"
+msgstr "Para facilidad, uso"
 
 #: admin/class-wptelegram-admin-settings.php:472
 #: modules/p2tg/class-wptelegram-p2tg-admin.php:902
+#, fuzzy
 msgid "Add the Bot as Administrator to your Channel/Group"
-msgstr ""
+msgstr "Añade el bot cuando administrador a vuestro grupo/de canal"
 
 #: admin/class-wptelegram-admin-settings.php:473
+#, fuzzy
 msgid ""
 "Enter the Channel Username(s) or Chat ID(s) separated by comma in the field "
 "below"
 msgstr ""
+"Introduce el canal username(s) o charla id(s) separado por coma en el campo "
+"abajo"
 
 #: admin/class-wptelegram-admin-settings.php:475
 #: modules/p2tg/class-wptelegram-p2tg-admin.php:905
 #, fuzzy
 msgid "Username must start with %s"
-msgstr "Comienza escribiendo un nombre de usuario para agregar uno nuevo."
+msgstr "Username inicio de mosto con %s"
 
 #: admin/class-wptelegram-admin-settings.php:476
+#, fuzzy
 msgid ""
 "You can also use the Chat ID of a private chat with the Bot, see "
 "Notification Settings"
 msgstr ""
+"Puedes también uso la charla id de una charla privada con el bot, ve "
+"encuadres de notificación"
 
 #: admin/class-wptelegram-admin-settings.php:479
 #: admin/class-wptelegram-admin.php:464
 #: modules/p2tg/class-wptelegram-p2tg-admin.php:908
+#, fuzzy
 msgid "Hit %s below"
-msgstr ""
+msgstr "Pega %s abajo"
 
 #: admin/class-wptelegram-admin-settings.php:479
 #: admin/class-wptelegram-admin.php:464
@@ -641,31 +682,30 @@ msgid "Save Changes"
 msgstr "Guardar cambios"
 
 #: admin/class-wptelegram-admin-settings.php:480
+#, fuzzy
 msgid "That's it. Happy WPTelegram :)"
-msgstr ""
+msgstr "Aquello es. feliz wptelegram :)"
 
 #: admin/class-wptelegram-admin-settings.php:493
-#, fuzzy
 msgid "Test result:"
-msgstr "Para probar"
+msgstr "Resultado de prueba:"
 
 #: admin/class-wptelegram-admin-settings.php:494
 #: admin/class-wptelegram-admin.php:92 admin/class-wptelegram-admin.php:486
 #: includes/wptelegram-functions.php:180
 #, fuzzy
 msgid "Invalid Bot Token"
-msgstr "Token de seguridad inválido"
+msgstr "Nulo bot token"
 
 #: admin/class-wptelegram-admin-settings.php:505
 #: modules/p2tg/class-wptelegram-p2tg-admin.php:483
 #, fuzzy
 msgid "Members Count:"
-msgstr "Reparar el recuento total de miembros."
+msgstr "Cuenta de miembros:"
 
 #: admin/class-wptelegram-admin-settings.php:511
-#, fuzzy
 msgid "Chat_id"
-msgstr "Chat"
+msgstr "Chat_id"
 
 #: admin/class-wptelegram-admin-settings.php:512
 #: modules/notify/class-wptelegram-notify-admin.php:233
@@ -673,29 +713,30 @@ msgstr "Chat"
 #: modules/proxy/class-wptelegram-proxy-admin.php:265
 #, fuzzy
 msgid "Name/Title"
-msgstr "Sin título"
+msgstr "Título/de nombre"
 
 #: admin/class-wptelegram-admin-settings.php:513
 #: modules/notify/class-wptelegram-notify-admin.php:234
 #: modules/p2tg/class-wptelegram-p2tg-admin.php:491
 #: modules/proxy/class-wptelegram-proxy-admin.php:266
-#, fuzzy
 msgid "Chat Type"
-msgstr "Chat"
+msgstr "Tipo de charla"
 
 #: admin/class-wptelegram-admin-settings.php:514
 #: modules/notify/class-wptelegram-notify-admin.php:235
 #: modules/p2tg/class-wptelegram-p2tg-admin.php:492
 #: modules/proxy/class-wptelegram-proxy-admin.php:267
-#, fuzzy
 msgid "Test Status"
-msgstr "Para probar"
+msgstr "Estado de prueba"
 
 #: admin/class-wptelegram-admin-settings.php:529
+#, fuzzy
 msgid ""
 "In this section you can set/change the settings related to Notifications "
 "sent to Telegram"
 msgstr ""
+"En esta sección  puedes poner/cambio los encuadres relacionados a las "
+"notificaciones enviadas a telegrama"
 
 #: admin/class-wptelegram-admin-settings.php:530
 #: admin/class-wptelegram-admin.php:454
@@ -703,105 +744,129 @@ msgstr ""
 #: modules/notify/class-wptelegram-notify-admin.php:359
 #: modules/p2tg/class-wptelegram-p2tg-admin.php:899
 #: public/partials/wptelegram-profile-fields.php:36
-#, fuzzy
 msgid "INSTRUCTIONS!"
-msgstr "<a href=\"%s\" target=\"_blank\">Instrucciones paso-a-paso</a> "
+msgstr "Instrucciones!"
 
 #: admin/class-wptelegram-admin-settings.php:531
+#, fuzzy
 msgid ""
 "IMPORTANT! First complete at least first 4 steps in Telegram Settings "
 "section, otherwise notifications won't be sent"
 msgstr ""
+"Importante! primero completo al menos primero 4 da un paso en sección de "
+"encuadres del telegrama, otherwise las notificaciones no serán enviadas"
 
 #: admin/class-wptelegram-admin-settings.php:533
+#, fuzzy
 msgid "Every Telegram user or group has a unique ID called"
-msgstr ""
+msgstr "Cada usuario de telegrama o el grupo tiene un único id llamó"
 
 #: admin/class-wptelegram-admin-settings.php:534
+#, fuzzy
 msgid "It is different from a username and is visible only to bots."
-msgstr ""
+msgstr "Es diferente de un username y es visible único a bots."
 
 #: admin/class-wptelegram-admin-settings.php:535
+#, fuzzy
 msgid "This chat_id is used by the bots to send messages to a user or group."
 msgstr ""
+"Esta charla_id está utilizado por el bots para enviar mensajes a un usuario "
+"o grupo."
 
 #: admin/class-wptelegram-admin-settings.php:536
+#, fuzzy
 msgid ""
 "In order to receive notifications through your bot, you need to find your"
 msgstr ""
+"Para recibir notificaciones a través de vuestro bot, te necesidad de "
+"encontrar vuestro"
 
 #: admin/class-wptelegram-admin-settings.php:537
 #, fuzzy
 msgid "Follow these steps:"
-msgstr "Siguientes pasos"
+msgstr "Sigue estos da un paso:"
 
 #: admin/class-wptelegram-admin-settings.php:539
 #: public/partials/wptelegram-profile-fields.php:38
 #, fuzzy
 msgid "Send a message to %s"
-msgstr "Enviar mensaje"
+msgstr "Envía un mensaje a %s"
 
 #: admin/class-wptelegram-admin-settings.php:540
 #: public/partials/wptelegram-profile-fields.php:39
+#, fuzzy
 msgid "It will send you your Telegram chat_id."
-msgstr ""
+msgstr "Te envíe vuestra charla de telegrama_id."
 
 #: admin/class-wptelegram-admin-settings.php:541
+#, fuzzy
 msgid ""
 "If you want to receive notifications into a group, then add %s to the group "
 "and it will send you the group ID."
 msgstr ""
+"Si  quieres recibir notificaciones a un grupo, entonces añade %s al grupo y "
+"él te enviarán el grupo id."
 
 #: admin/class-wptelegram-admin-settings.php:543
+#, fuzzy
 msgid "Do not forget to add your own bot to the group."
-msgstr ""
+msgstr "No olvida para añadir vuestro propio bot al grupo."
 
 #: admin/class-wptelegram-admin-settings.php:545
+#, fuzzy
 msgid "Enter the received chat_id in the field below"
-msgstr ""
+msgstr "Introduce la charla recibida_id en el campo abajo"
 
 #: admin/class-wptelegram-admin-settings.php:546
+#, fuzzy
 msgid ""
 "Start the conversation with your bot, bots cannot initialize a conversation."
 msgstr ""
-
-#: admin/class-wptelegram-admin-settings.php:649
-#: modules/notify/class-wptelegram-notify-admin.php:263
-#: modules/p2tg/class-wptelegram-p2tg-admin.php:382
-#: modules/proxy/class-wptelegram-proxy-admin.php:295
-msgid "You can use any text, emojis or these macros in any order:"
-msgstr ""
+"Inicio la conversación con vuestro bot, bots no puede inicializar una "
+"conversación."
 
 #: admin/class-wptelegram-admin-settings.php:649
 #: modules/notify/class-wptelegram-notify-admin.php:263
 #: modules/p2tg/class-wptelegram-p2tg-admin.php:382
 #: modules/proxy/class-wptelegram-proxy-admin.php:295
 #, fuzzy
+msgid "You can use any text, emojis or these macros in any order:"
+msgstr "Puedes uso cualquier texto, emojis o estos macros en cualquier orden:"
+
+#: admin/class-wptelegram-admin-settings.php:649
+#: modules/notify/class-wptelegram-notify-admin.php:263
+#: modules/p2tg/class-wptelegram-p2tg-admin.php:382
+#: modules/proxy/class-wptelegram-proxy-admin.php:295
 msgid "Click to insert"
-msgstr "Insertar"
+msgstr "Clic para insertar"
 
 #: admin/class-wptelegram-admin-settings.php:653
+#, fuzzy
 msgid ""
 "Replace %s in %s by the name of the taxonomy from which you want to get the "
 "terms attached to the post."
 msgstr ""
+"Reemplaza %s en %s por el nombre de la taxonomía de qué  quieres conseguir "
+"el denomina sujetado al correo."
 
 #: admin/class-wptelegram-admin-settings.php:653
 #: admin/class-wptelegram-admin-settings.php:654
-#, fuzzy
 msgid "For example %s"
-msgstr "por ejemplo: %s en vez de %s"
+msgstr "Por ejemplo %s"
 
 #: admin/class-wptelegram-admin-settings.php:654
+#, fuzzy
 msgid ""
 "Replace %s in %s by the name of the Custom Field, the value of which you "
 "want to add to the template."
 msgstr ""
+"Reemplaza %s en %s por el nombre del campo hecho de encargo, el valor del "
+"cual  quieres añadir a la plantilla."
 
 #: admin/class-wptelegram-admin-settings.php:755
 #, fuzzy
 msgid "Override default settings"
-msgstr "Opciones de configuración"
+msgstr "Override default encuadres"
 
 #: admin/class-wptelegram-admin-settings.php:758
 msgid "Message"
@@ -814,27 +879,28 @@ msgstr "Enviar"
 #: admin/class-wptelegram-admin-settings.php:766
 #, fuzzy
 msgid "Do not Send"
-msgstr "No, no enviar email"
+msgstr "No envía"
 
 #: admin/class-wptelegram-admin-settings.php:771
 #: modules/p2tg/class-wptelegram-p2tg-admin.php:715
 #, fuzzy
 msgid "Send to"
-msgstr "Enviar"
+msgstr "Envía a"
 
 #: admin/class-wptelegram-admin-settings.php:777
 #, fuzzy
 msgid "All Channels/Chats"
-msgstr "Chats"
+msgstr "Todos los  canales/charla"
 
 #: admin/class-wptelegram-admin-settings.php:792
+#, fuzzy
 msgid "No Channels/Chat IDs found"
-msgstr ""
+msgstr "Ninguna charla/de canales ids encontró"
 
 #: admin/class-wptelegram-admin-settings.php:796
 #, fuzzy
 msgid "Send file(s)"
-msgstr "Mostrar en %s de %s"
+msgstr "Envía archivo(s)"
 
 #: admin/class-wptelegram-admin-settings.php:804
 #: modules/p2tg/class-wptelegram-p2tg-rules.php:90
@@ -844,7 +910,7 @@ msgstr "Añadir"
 #: admin/class-wptelegram-admin-settings.php:806
 #, fuzzy
 msgid "Remove All"
-msgstr "No es posible eliminar todos los administradores de un grupo."
+msgstr "Saca todo"
 
 #: admin/class-wptelegram-admin-settings.php:811
 msgid "Template"
@@ -853,41 +919,43 @@ msgstr "Plantilla"
 #: admin/class-wptelegram-admin.php:88
 #, fuzzy
 msgid "Could not connect"
-msgstr "Conectar con:"
+msgstr "No podría conectar"
 
 #: admin/class-wptelegram-admin.php:89 admin/class-wptelegram-admin.php:585
 #: admin/partials/wptelegram-admin-display.php:77
 #, fuzzy
 msgid "Bot Token is empty"
-msgstr "Token de acceso"
+msgstr "Bot token es vacío"
 
 #: admin/class-wptelegram-admin.php:90
 #, fuzzy
 msgid "Username is empty"
-msgstr "<strong>ERROR</strong>: El campo Nombre de usuario está vacío."
+msgstr "Username es vacío"
 
 #: admin/class-wptelegram-admin.php:91
 #, fuzzy
 msgid "Chat ID is empty"
-msgstr "Chat"
+msgstr "Charla id es vacío"
 
 #: admin/class-wptelegram-admin.php:93
+#, fuzzy
 msgid ""
 "A message will be sent to the Channel/Chat. You can modify the text below"
 msgstr ""
+"Un mensaje será enviado a la charla/de canal.  puedes modificar el texto "
+"abajo"
 
 #: admin/class-wptelegram-admin.php:94
 #: admin/partials/wptelegram-admin-display.php:140
-#, fuzzy
 msgid "This is a test message"
-msgstr "Mensaje de prueba enviado"
+msgstr "Este es un mensaje de prueba"
 
 #: admin/class-wptelegram-admin.php:95
 #: admin/partials/wptelegram-admin-display.php:68
 #: admin/partials/wptelegram-admin-display.php:146
 #, fuzzy
 msgid "Please wait..."
-msgstr "Actualizando... por favor, espera."
+msgstr "Por favor espera..."
 
 #: admin/class-wptelegram-admin.php:96
 msgid "Choose"
@@ -895,21 +963,18 @@ msgstr "Elegir"
 
 #: admin/class-wptelegram-admin.php:97
 #: admin/partials/wptelegram-admin-display.php:188
-#, fuzzy
 msgid "Success"
-msgstr "¡Lo lograste!"
+msgstr "Éxito"
 
 #: admin/class-wptelegram-admin.php:98
 #: admin/partials/wptelegram-admin-display.php:193
-#, fuzzy
 msgid "Failure"
-msgstr "Aviso de fallo de WordPress"
+msgstr "Fracaso"
 
 #: admin/class-wptelegram-admin.php:99
 #: modules/notify/class-wptelegram-notify-admin.php:433
-#, fuzzy
 msgid "Error:"
-msgstr "ERROR:"
+msgstr "Error:"
 
 #: admin/class-wptelegram-admin.php:115 admin/class-wptelegram-admin.php:513
 msgid "Settings"
@@ -918,81 +983,87 @@ msgstr "Opciones de configuración"
 #: admin/class-wptelegram-admin.php:184
 #, fuzzy
 msgid "Telegram Options"
-msgstr "Opciones avanzadas"
+msgstr "Opciones de telegrama"
 
 #: admin/class-wptelegram-admin.php:208
 #, fuzzy
 msgid "Bot Username"
-msgstr "Nombre de usuario"
+msgstr "Bot username"
 
 #: admin/class-wptelegram-admin.php:209
+#, fuzzy
 msgid "Telegram Bot username (without %s)."
-msgstr ""
+msgstr "Telegrama bot username (sin %s)."
 
 #: admin/class-wptelegram-admin.php:211
 #, fuzzy
 msgid "Use %s to set automatically."
-msgstr "Los archivos del directorio %s se ejecutan automáticamente."
+msgstr "Uso %s para poner automáticamente."
 
 #: admin/class-wptelegram-admin.php:227
 msgid "Modules"
-msgstr ""
+msgstr "Módulos"
 
 #: admin/class-wptelegram-admin.php:267
 #, fuzzy
 msgid "Advanced settings"
-msgstr "Configuración avanzada"
+msgstr "Adelantó encuadres"
 
 #: admin/class-wptelegram-admin.php:270
+#, fuzzy
 msgid ""
 "Settings in this section should not be changed unless recommended by WP "
 "Telegram Support."
 msgstr ""
+"Encuadres en esta sección no tendría que ser cambiada a no ser que "
+"recomendable por wp soporte de telegrama."
 
 #: admin/class-wptelegram-admin.php:273
 #, fuzzy
 msgid "Send files by URL"
-msgstr "%s URL:"
+msgstr "Envía archiva por url"
 
 #: admin/class-wptelegram-admin.php:274
+#, fuzzy
 msgid "Turn off to upload the files/images instead of passing the url."
-msgstr ""
+msgstr "Apaga para cargar el archiva/imágenes en vez de paso el url."
 
 #: admin/class-wptelegram-admin.php:275
+#, fuzzy
 msgid "Google Script proxy does not support file upload."
-msgstr ""
+msgstr "Guión de google proxy  no archivo de soporte carga."
 
 #: admin/class-wptelegram-admin.php:282
 #, fuzzy
 msgid "Enable logs for"
-msgstr "Habilitar"
+msgstr "Habilita registros para"
 
 #: admin/class-wptelegram-admin.php:289
 #, fuzzy
 msgid "Bot API"
-msgstr "API del Cron"
+msgstr "Bot api"
 
 #: admin/class-wptelegram-admin.php:290
 #: includes/class-wptelegram-modules.php:67
 #: modules/p2tg/class-wptelegram-p2tg-admin.php:939
 #, fuzzy
 msgid "Post to Telegram"
-msgstr "Pestaña de tipo de artículo"
+msgstr "Correo a telegrama"
 
 #: admin/class-wptelegram-admin.php:294
 #, fuzzy
 msgid "Debug Info"
-msgstr "Información de depuración"
+msgstr "Depura info"
 
 #: admin/class-wptelegram-admin.php:302
 #, fuzzy
 msgid "Remove settings on uninstall"
-msgstr "Opciones de configuración"
+msgstr "Saca encuadres en uninstall"
 
 #: admin/class-wptelegram-admin.php:396
 #, fuzzy
 msgid "Settings updated"
-msgstr "Ajustes actualizados correctamente"
+msgstr "Los encuadres actualizaron"
 
 #: admin/class-wptelegram-admin.php:412
 msgid "%s is empty"
@@ -1001,89 +1072,96 @@ msgstr "%s esta vacío"
 #: admin/class-wptelegram-admin.php:414
 #, fuzzy
 msgid "Invalid %s"
-msgstr "Taxonomía no válida: %s."
+msgstr "Nulo %s"
 
 #: admin/class-wptelegram-admin.php:442
+#, fuzzy
 msgid ""
 "With this plugin, you can send posts to Telegram and receive notifications "
 "and do lot more :)"
 msgstr ""
+"Con este plugin,  puedes enviar correos a telegrama y recibir notificaciones"
+" y hacer parcela más :)"
 
 #: admin/class-wptelegram-admin.php:459
 #, fuzzy
 msgid "For ease, use %s"
-msgstr "Usar iconos personalizados. URL:"
+msgstr "Para facilidad, uso %s"
 
 #: admin/class-wptelegram-admin.php:460
 #, fuzzy
 msgid "Test your bot token below."
-msgstr "Dona algo como muestra de tu aprecio usando el botón abajo."
+msgstr "Prueba vuestro bot token abajo."
 
 #: admin/class-wptelegram-admin.php:462
 #, fuzzy
 msgid "Activate the modules you want to use."
-msgstr "El nombre de la base de datos que quieres usar con WordPress."
+msgstr "Activa los módulos  quieres uso."
 
 #: admin/class-wptelegram-admin.php:465
 #, fuzzy
 msgid "Configure the activated modules."
-msgstr "Configurar"
+msgstr "Configura el activó módulos."
 
 #: admin/class-wptelegram-admin.php:466
+#, fuzzy
 msgid "That's it! :)"
-msgstr ""
+msgstr "Aquello es! :)"
 
 #: admin/class-wptelegram-admin.php:483
 #, fuzzy
 msgid "Test Result:"
-msgstr "Para probar"
+msgstr "Resultado de prueba:"
 
 #: admin/class-wptelegram-admin.php:491
 #, fuzzy
 msgid "Invalid Bot Username"
-msgstr "El nombre de usuario contiene caracteres no válidos."
+msgstr "Nulo bot username"
 
 #: admin/partials/wptelegram-admin-display.php:86
 #: admin/partials/wptelegram-admin-display.php:175
 #, fuzzy
 msgid "Error: Could not connect"
-msgstr "ERROR: La red no ha podido crearse."
+msgstr "Error: no podría conectar"
 
 #: admin/partials/wptelegram-admin-display.php:136
 #, fuzzy
 msgid "Bot Token is invalid"
-msgstr "Token de seguridad inválido"
+msgstr "Bot token es inválido"
 
 #: admin/partials/wptelegram-admin-display.php:140
+#, fuzzy
 msgid "A message will be sent to the chat_ids. You can modify the text below"
 msgstr ""
+"Un mensaje será enviado a la charla_ids.  puedes modificar el texto abajo"
 
 #: admin/partials/wptelegram-admin-display.php:165
+#, fuzzy
 msgid "Bot Token or chat_ids is empty"
-msgstr ""
+msgstr "Bot token o charla_ids es vacío"
 
 #. Plugin Name of the plugin/theme
 #: admin/partials/wptelegram-admin-header.php:11
 #: admin/partials/wptelegram-admin-header.php:51
 #: includes/class-wptelegram.php:145
 #: modules/p2tg/class-wptelegram-p2tg-admin.php:939
-#, fuzzy
 msgid "WP Telegram"
-msgstr "Miembros WP"
+msgstr "WP Telegram"
 
 #: admin/partials/wptelegram-admin-header.php:23
 #, fuzzy
 msgid "Need help?"
-msgstr "¿Preguntas? ¿Necesitas ayuda?"
+msgstr "Ayuda de necesidad?"
 
 #: admin/partials/wptelegram-admin-header.php:23
+#, fuzzy
 msgid "Shout in"
-msgstr ""
+msgstr "Grito en"
 
 #: admin/partials/wptelegram-admin-header.php:40
 #, fuzzy
 msgid "Get connected"
-msgstr "Obtenga consejos para la gestión de los widgets"
+msgstr "Consigue conectado"
 
 #: admin/partials/wptelegram-admin-header.php:47
 msgid "Follow"
@@ -1092,36 +1170,35 @@ msgstr "Seguir"
 #: admin/partials/wptelegram-admin-header.php:51
 #, fuzzy
 msgid "Join"
-msgstr "Una invitación para unirte a la comunidad %s."
+msgstr "Une"
 
 #: includes/class-wptelegram-helpers.php:105
+#, fuzzy
 msgid "You must set the Bot Token first."
-msgstr ""
+msgstr "Tienes que poner el bot token primero."
 
 #: includes/class-wptelegram-helpers.php:105
 #, fuzzy
 msgid "Click here"
-msgstr "Haga clic aquí"
+msgstr "Clic aquí"
 
 #: includes/class-wptelegram-modules.php:68
-#, fuzzy
 msgid "Private Notifications"
-msgstr "Notificaciones"
+msgstr "Notificaciones privadas"
 
 #: includes/class-wptelegram-modules.php:69
 msgid "Proxy"
-msgstr ""
+msgstr "Proxy"
 
 #: includes/cmb2/example-functions.php:117
 #, fuzzy
 msgid "Test Metabox"
-msgstr "Para probar"
+msgstr "Prueba metabox"
 
 #: includes/cmb2/example-functions.php:130
 #: includes/cmb2/example-functions.php:470
-#, fuzzy
 msgid "Test Text"
-msgstr "Para probar"
+msgstr "Texto de prueba"
 
 #: includes/cmb2/example-functions.php:131
 #: includes/cmb2/example-functions.php:144
@@ -1162,32 +1239,32 @@ msgstr "Para probar"
 #: includes/cmb2/example-functions.php:696
 #, fuzzy
 msgid "field description (optional)"
-msgstr "Descripción del campo del grupo"
+msgstr "Descripción de campo (opcional)"
 
 #: includes/cmb2/example-functions.php:143
 #, fuzzy
 msgid "Test Text Small"
-msgstr "Test"
+msgstr "Texto de prueba pequeño"
 
 #: includes/cmb2/example-functions.php:156
 #, fuzzy
 msgid "Test Text Medium"
-msgstr "Medio"
+msgstr "Medio de texto de la prueba"
 
 #: includes/cmb2/example-functions.php:163
 #, fuzzy
 msgid "Read-only Disabled Field"
-msgstr "Hacer el campo \"solo lectura\" en la UI"
+msgstr "Leído-campo discapacitado único"
 
 #: includes/cmb2/example-functions.php:167
 #, fuzzy
 msgid "Hey there, I'm a read-only field"
-msgstr "Hacer el campo \"solo lectura\" en la UI"
+msgstr "Hey allí,  soy un leído-campo único"
 
 #: includes/cmb2/example-functions.php:176
 #, fuzzy
 msgid "Custom Rendered Field"
-msgstr "Añadir un campo personalizado"
+msgstr "Hecho de encargo rendered campo"
 
 #: includes/cmb2/example-functions.php:184
 msgid "Website URL"
@@ -1196,164 +1273,162 @@ msgstr "URL de la web"
 #: includes/cmb2/example-functions.php:193
 #, fuzzy
 msgid "Test Text Email"
-msgstr "Enviar un correo electrónico de prueba"
+msgstr "Email de texto de la prueba"
 
 #: includes/cmb2/example-functions.php:201
-#, fuzzy
 msgid "Test Time"
-msgstr "Para probar"
+msgstr "Tiempo de prueba"
 
 #: includes/cmb2/example-functions.php:209
 #: includes/cmb2/example-functions.php:210
-#, fuzzy
 msgid "Time zone"
-msgstr "Zona horaria"
+msgstr "Huso horario"
 
 #: includes/cmb2/example-functions.php:216
 #, fuzzy
 msgid "Test Date Picker"
-msgstr "Test"
+msgstr "Fecha de prueba picker"
 
 #: includes/cmb2/example-functions.php:224
+#, fuzzy
 msgid "Test Date Picker (UNIX timestamp)"
-msgstr ""
+msgstr "Fecha de prueba picker (unix timestamp)"
 
 #: includes/cmb2/example-functions.php:232
+#, fuzzy
 msgid "Test Date/Time Picker Combo (UNIX timestamp)"
-msgstr ""
+msgstr "Tiempo de fecha/de la prueba picker combo (unix timestamp)"
 
 #: includes/cmb2/example-functions.php:249
-#, fuzzy
 msgid "Test Money"
-msgstr "Para probar"
+msgstr "Dinero de prueba"
 
 #: includes/cmb2/example-functions.php:258
 #, fuzzy
 msgid "Test Color Picker"
-msgstr "Selector de color"
+msgstr "Color de prueba picker"
 
 #: includes/cmb2/example-functions.php:274
 #, fuzzy
 msgid "Test Text Area"
-msgstr "Test"
+msgstr "Área de texto de la prueba"
 
 #: includes/cmb2/example-functions.php:281
 #, fuzzy
 msgid "Test Text Area Small"
-msgstr "Cuadro de texto multi-lineas"
+msgstr "Área de texto de la prueba pequeña"
 
 #: includes/cmb2/example-functions.php:288
 #, fuzzy
 msgid "Test Text Area for Code"
-msgstr "Cuadro de texto multi-lineas"
+msgstr "Área de texto de la prueba para código"
 
 #: includes/cmb2/example-functions.php:306
 #, fuzzy
 msgid "Test Title Weeeee"
-msgstr "Test"
+msgstr "Título de prueba weeeee"
 
 #: includes/cmb2/example-functions.php:307
 #, fuzzy
 msgid "This is a title description"
-msgstr "Mostrar título y descripción"
+msgstr "Este es una descripción de título"
 
 #: includes/cmb2/example-functions.php:313
 #, fuzzy
 msgid "Test Select"
-msgstr "Para probar"
+msgstr "La prueba selecciona"
 
 #: includes/cmb2/example-functions.php:319
 #: includes/cmb2/example-functions.php:332
 #: includes/cmb2/example-functions.php:344
 #, fuzzy
 msgid "Option One"
-msgstr "Opciones de visualización del título y el icono"
+msgstr "Opción un"
 
 #: includes/cmb2/example-functions.php:320
 #: includes/cmb2/example-functions.php:333
 #: includes/cmb2/example-functions.php:345
 #, fuzzy
 msgid "Option Two"
-msgstr "Opciones de visualización del título y el icono"
+msgstr "Opción dos"
 
 #: includes/cmb2/example-functions.php:321
 #: includes/cmb2/example-functions.php:334
 #: includes/cmb2/example-functions.php:346
-#, fuzzy
 msgid "Option Three"
-msgstr "opción"
+msgstr "Opción tres"
 
 #: includes/cmb2/example-functions.php:326
 #, fuzzy
 msgid "Test Radio inline"
-msgstr "Alineado"
+msgstr "Radio de prueba inline"
 
 #: includes/cmb2/example-functions.php:339
-#, fuzzy
 msgid "Test Radio"
-msgstr "Botones de opción"
+msgstr "Radio de prueba"
 
 #: includes/cmb2/example-functions.php:351
 #, fuzzy
 msgid "Test Taxonomy Radio"
-msgstr "Botones de opción"
+msgstr "Radio de taxonomía de la prueba"
 
 #: includes/cmb2/example-functions.php:360
 #, fuzzy
 msgid "Test Taxonomy Select"
-msgstr "Términos ampliados de la taxonomía"
+msgstr "Taxonomía de prueba selecciona"
 
 #: includes/cmb2/example-functions.php:368
+#, fuzzy
 msgid "Test Taxonomy Multi Checkbox"
-msgstr ""
+msgstr "Taxonomía de prueba multi checkbox"
 
 #: includes/cmb2/example-functions.php:377
 #, fuzzy
 msgid "Test Checkbox"
-msgstr "Test"
+msgstr "Prueba checkbox"
 
 #: includes/cmb2/example-functions.php:384
 #, fuzzy
 msgid "Test Multi Checkbox"
-msgstr "Test"
+msgstr "Prueba multi checkbox"
 
 #: includes/cmb2/example-functions.php:390
 #, fuzzy
 msgid "Check One"
-msgstr "Nadie"
+msgstr "Control un"
 
 #: includes/cmb2/example-functions.php:391
 #, fuzzy
 msgid "Check Two"
-msgstr "Marque para esconder el título del widget"
+msgstr "Control dos"
 
 #: includes/cmb2/example-functions.php:392
 #, fuzzy
 msgid "Check Three"
-msgstr "Marque para esconder el título del widget"
+msgstr "Control tres"
 
 #: includes/cmb2/example-functions.php:398
 #, fuzzy
 msgid "Test wysiwyg"
-msgstr "Para probar"
+msgstr "Prueba wysiwyg"
 
 #: includes/cmb2/example-functions.php:408
-#, fuzzy
 msgid "Test Image"
-msgstr "Para probar"
+msgstr "Imagen de prueba"
 
 #: includes/cmb2/example-functions.php:409
 #, fuzzy
 msgid "Upload an image or enter a URL."
-msgstr "URL de la imagen"
+msgstr "Carga una imagen o introducir un url."
 
 #: includes/cmb2/example-functions.php:415
 msgid "Multiple Files"
 msgstr "Varios archivos"
 
 #: includes/cmb2/example-functions.php:416
+#, fuzzy
 msgid "Upload or add multiple images/attachments."
-msgstr ""
+msgstr "Carga o añade anexos de imágenes/múltiples."
 
 #: includes/cmb2/example-functions.php:423
 msgid "oEmbed"
@@ -1361,43 +1436,46 @@ msgstr "oEmbed"
 
 #. translators: %s: link to codex.wordpress.org/Embeds
 #: includes/cmb2/example-functions.php:426
+#, fuzzy
 msgid ""
 "Enter a youtube, twitter, or instagram URL. Supports services listed at %s."
 msgstr ""
+"Introduce un youtube, twitter, o instagram url. apoya los servicios listados"
+" en %s."
 
 #: includes/cmb2/example-functions.php:459
 #, fuzzy
 msgid "About Page Metabox"
-msgstr "Añade una página Sobre mí"
+msgstr "Aproximadamente página metabox"
 
 #: includes/cmb2/example-functions.php:490
 #, fuzzy
 msgid "Repeating Field Group"
-msgstr "Campo de texto"
+msgstr "Repitiendo grupo de campo"
 
 #: includes/cmb2/example-functions.php:498
+#, fuzzy
 msgid "Generates reusable form entries"
-msgstr ""
+msgstr "Genera entradas de forma reutilizable"
 
 #: includes/cmb2/example-functions.php:500
-#, fuzzy
 msgid "Entry {#}"
-msgstr "Lee el resto de la entrada &rarr;"
+msgstr "Entrada {#}"
 
 #: includes/cmb2/example-functions.php:501
 #, fuzzy
 msgid "Add Another Entry"
-msgstr "Añadir otra Opción"
+msgstr "Añade otra entrada"
 
 #: includes/cmb2/example-functions.php:502
 #, fuzzy
 msgid "Remove Entry"
-msgstr "Editar esta entrada"
+msgstr "Saca entrada"
 
 #: includes/cmb2/example-functions.php:515
 #, fuzzy
 msgid "Entry Title"
-msgstr "Sin título"
+msgstr "Título de entrada"
 
 #: includes/cmb2/example-functions.php:522
 msgid "Description"
@@ -1406,12 +1484,12 @@ msgstr "Descripción"
 #: includes/cmb2/example-functions.php:523
 #, fuzzy
 msgid "Write a short description for this entry"
-msgstr "Descripción corta"
+msgstr "Escribe descripción a escasa para esta entrada"
 
 #: includes/cmb2/example-functions.php:529
 #, fuzzy
 msgid "Entry Image"
-msgstr "URL de la imagen"
+msgstr "Imagen de entrada"
 
 #: includes/cmb2/example-functions.php:535
 msgid "Image Caption"
@@ -1420,13 +1498,13 @@ msgstr "Leyenda de la imagen"
 #: includes/cmb2/example-functions.php:554
 #, fuzzy
 msgid "User Profile Metabox"
-msgstr "Personaliza las URLs de perfil de usuario"
+msgstr "Perfil de usuario metabox"
 
 #: includes/cmb2/example-functions.php:561
 #: includes/cmb2/example-functions.php:631
 #, fuzzy
 msgid "Extra Info"
-msgstr "Campos extra"
+msgstr "Extra info"
 
 #: includes/cmb2/example-functions.php:569
 msgid "Avatar"
@@ -1435,118 +1513,123 @@ msgstr "Avatar"
 #: includes/cmb2/example-functions.php:576
 #, fuzzy
 msgid "Facebook URL"
-msgstr "Compartir en Facebook"
+msgstr "Facebook url"
 
 #: includes/cmb2/example-functions.php:583
 #, fuzzy
 msgid "Twitter URL"
-msgstr "Compartir en Twitter"
+msgstr "Twitter url"
 
 #: includes/cmb2/example-functions.php:590
 #, fuzzy
 msgid "Google+ URL"
-msgstr "%s URL:"
+msgstr "Google+ url"
 
 #: includes/cmb2/example-functions.php:597
 #, fuzzy
 msgid "Linkedin URL"
-msgstr "LinkedIn"
+msgstr "Linkedin url"
 
 #: includes/cmb2/example-functions.php:604
-#, fuzzy
 msgid "User Field"
-msgstr ""
-"También puede usar cualquier campo estándar de usuario de WordPress o un "
-"metadato propio, si los has usado en tu CSV. Por ejemplo, si tu tienes una "
-"columna first_name, puedes usar **first_name** o cualquier otro metadato "
-"como **my_custom_meta**"
+msgstr "Campo de usuario"
 
 #: includes/cmb2/example-functions.php:624
 #, fuzzy
 msgid "Category Metabox"
-msgstr "Categoría"
+msgstr "Categoría metabox"
 
 #: includes/cmb2/example-functions.php:639
 #, fuzzy
 msgid "Term Image"
-msgstr "URL de la imagen"
+msgstr "Imagen de plazo"
 
 #: includes/cmb2/example-functions.php:646
 #, fuzzy
 msgid "Arbitrary Term Field"
-msgstr "Mostrar el campo de edición del identificador"
+msgstr "Campo de plazo arbitrario"
 
 #: includes/cmb2/example-functions.php:665
 msgid "Theme Options"
 msgstr "Opciones del tema"
 
 #: includes/cmb2/example-functions.php:695
-#, fuzzy
 msgid "Site Background Color"
-msgstr "Color de fondo"
+msgstr "Color de fondo del sitio"
 
 #: includes/cmb2/example-functions.php:732
-#, fuzzy
 msgid "%s &mdash; Updated!"
-msgstr "Actualizado %s."
+msgstr "%s &mdash; Actualizado!"
 
 #: includes/cmb2/example-functions.php:766
 #, fuzzy
 msgid "REST Test Box"
-msgstr "Para probar"
+msgstr "Caja de prueba del resto"
 
 #: includes/cmb2/example-functions.php:775
 #, fuzzy
 msgid "REST Test Text"
-msgstr "Solo texto"
+msgstr "Texto de prueba del resto"
 
 #: includes/cmb2/example-functions.php:776
+#, fuzzy
 msgid "Will show in the REST API for this box and for pages."
-msgstr ""
+msgstr "Will espectáculo en el resto api para esta caja y para páginas."
 
 #: includes/cmb2/example-functions.php:782
+#, fuzzy
 msgid "REST Editable Test Text"
-msgstr ""
+msgstr "Resto texto de prueba editable"
 
 #: includes/cmb2/example-functions.php:783
+#, fuzzy
 msgid "Will show in REST API \"editable\" contexts only (`POST` requests)."
 msgstr ""
+"Will espectáculo en resto api \"los contextos\" editables únicos (`el "
+"correo` pide)."
 
 #: includes/cmb2/includes/CMB2.php:179
+#, fuzzy
 msgid "Metabox configuration is required to have an ID parameter."
-msgstr ""
+msgstr "Metabox la configuración está requerida para tener un id parámetro."
 
 #: includes/cmb2/includes/CMB2.php:582
 msgid "Click to toggle"
 msgstr "Haz clic para alternar"
 
 #: includes/cmb2/includes/CMB2_Ajax.php:75
-#, fuzzy
 msgid "Please Try Again"
-msgstr "Por favor, inténtalo de nuevo."
+msgstr "Por favor prueba otra vez"
 
 #: includes/cmb2/includes/CMB2_Ajax.php:181
 #, fuzzy
 msgid "Remove Embed"
-msgstr "Añadir/Quitar servicios"
+msgstr "Saca embed"
 
 #. translators: 1: results for. 2: link to codex.wordpress.org/Embeds
 #: includes/cmb2/includes/CMB2_Ajax.php:189
 #: includes/cmb2/includes/helper-functions.php:105
+#, fuzzy
 msgid "No oEmbed Results Found for %1$s. View more info at %2$s."
-msgstr ""
+msgstr "Ningún oembed resulta encontrado para %1$s. vista más info en %2$s."
 
 #: includes/cmb2/includes/CMB2_Base.php:422
+#, fuzzy
 msgid ""
 "The \"%1$s\" field parameter has been deprecated in favor of the \"%2$s\" "
 "parameter."
 msgstr ""
+"El \"%1$s\" parámetro de campo ha sido deprecated a favor del \"%2$s\" "
+"parámetro."
 
 #: includes/cmb2/includes/CMB2_Base.php:426
+#, fuzzy
 msgid ""
 "Using the \"%1$s\" field parameter as a callback has been deprecated in "
 "favor of the \"%2$s\" parameter."
 msgstr ""
+"Utilizando el \"%1$s\" parámetro de campo como callback ha sido deprecated a"
+" favor del \"%2$s\" parámetro."
 
 #: includes/cmb2/includes/CMB2_Base.php:456
 #, fuzzy
@@ -1554,8 +1637,8 @@ msgid ""
 "%1$s was called with a parameter that is <strong>deprecated</strong> since "
 "version %2$s! %3$s"
 msgstr ""
-"%1$s fue llamado con un argumento que está <strong>obsoleto</strong> desde "
-"la versión %2$s! %3$s"
+"%1$s se apellidó con un parámetro aquello es <fuerte>deprecated</fuerte> "
+"desde entonces versión %2$s! %3$s"
 
 #: includes/cmb2/includes/CMB2_Base.php:458
 #, fuzzy
@@ -1563,8 +1646,8 @@ msgid ""
 "%1$s was called with a parameter that is <strong>deprecated</strong> since "
 "version %2$s with no alternative available."
 msgstr ""
-"%1$s fue llamado con un argumento que está <strong>obsoleto</strong> desde "
-"la versión %2$s y no hay alternativas disponibles."
+"%1$s se apellidó con un parámetro aquello es <fuerte>deprecated</fuerte> "
+"desde entonces versión %2$s sin alternativo disponible."
 
 #: includes/cmb2/includes/CMB2_Base.php:491
 #: includes/cmb2/includes/CMB2_Hookup_Base.php:100
@@ -1572,38 +1655,39 @@ msgstr ""
 #: includes/cmb2/includes/types/CMB2_Type_Base.php:172
 #, fuzzy
 msgid "Invalid %1$s property: %2$s"
-msgstr "%1$s no es una propiedad válida del objeto."
+msgstr "Inválido %1$s propiedad: %2$s"
 
 #: includes/cmb2/includes/CMB2_Base.php:506
 #: includes/cmb2/includes/types/CMB2_Type_Base.php:156
 #, fuzzy
 msgid "Invalid %1$s method: %2$s"
-msgstr "%1$s y %2$s"
+msgstr "Inválido %1$s método: %2$s"
 
 #: includes/cmb2/includes/CMB2_Field.php:1296
 #, fuzzy
 msgid "Add Group"
-msgstr "Añadir nuevo grupo"
+msgstr "Añade grupo"
 
 #: includes/cmb2/includes/CMB2_Field.php:1297
 #, fuzzy
 msgid "Remove Group"
-msgstr "Eliminar del grupo"
+msgstr "Saca grupo"
 
 #: includes/cmb2/includes/CMB2_Field.php:1443
+#, fuzzy
 msgid "Sorry, this field does not have a cmb_id specified."
-msgstr ""
+msgstr "Triste, este campo no tiene un cmb_id especificó."
 
 #: includes/cmb2/includes/CMB2_Field_Display.php:432
 #: includes/cmb2/includes/CMB2_JS.php:228
 #: includes/cmb2/includes/types/CMB2_Type_File_Base.php:79
-#, fuzzy
 msgid "File:"
-msgstr "fichero"
+msgstr "Archivo:"
 
 #: includes/cmb2/includes/CMB2_Hookup_Base.php:42
+#, fuzzy
 msgid "%1$s should be implemented by the extended class."
-msgstr ""
+msgstr "%1$s tendría que ser implementado por la clase extendida."
 
 #: includes/cmb2/includes/CMB2_JS.php:165
 #: includes/cmb2/includes/CMB2_JS.php:208
@@ -1623,31 +1707,39 @@ msgid "Current Color"
 msgstr "Color actual"
 
 #: includes/cmb2/includes/CMB2_JS.php:198
+#, fuzzy
 msgctxt "Valid formatDate string for jquery-ui datepicker"
 msgid "mm/dd/yy"
-msgstr ""
+msgstr "mm/dd/yy"
 
 #: includes/cmb2/includes/CMB2_JS.php:199
+#, fuzzy
 msgid "Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday"
-msgstr ""
+msgstr "Domingo, lunes, martes, miércoles, jueves, viernes, sábado"
 
 #: includes/cmb2/includes/CMB2_JS.php:200
+#, fuzzy
 msgid "Su, Mo, Tu, We, Th, Fr, Sa"
-msgstr ""
+msgstr "Su, mo, tu, nosotros, th, fr, sa"
 
 #: includes/cmb2/includes/CMB2_JS.php:201
+#, fuzzy
 msgid "Sun, Mon, Tue, Wed, Thu, Fri, Sat"
-msgstr ""
+msgstr "Sol, mon, tue, wed, thu, fri, sentado"
 
 #: includes/cmb2/includes/CMB2_JS.php:202
+#, fuzzy
 msgid ""
 "January, February, March, April, May, June, July, August, September, "
 "October, November, December"
 msgstr ""
+"Enero, febrero, march, april, mayo, junio, julio, august, septiembre, "
+"octubre, noviembre, diciembre"
 
 #: includes/cmb2/includes/CMB2_JS.php:203
+#, fuzzy
 msgid "Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec"
-msgstr ""
+msgstr "Jan, feb, mar, apr, mayo, jun, jul, aug, sep, oct, nov, dic"
 
 #: includes/cmb2/includes/CMB2_JS.php:204
 msgid "Next"
@@ -1669,7 +1761,7 @@ msgstr "Hecho"
 #: includes/cmb2/includes/CMB2_JS.php:211
 #, fuzzy
 msgid "Choose Time"
-msgstr "En cualquier momento"
+msgstr "Escoge tiempo"
 
 #: includes/cmb2/includes/CMB2_JS.php:212
 msgid "Time"
@@ -1684,9 +1776,8 @@ msgid "Minute"
 msgstr "Minuto"
 
 #: includes/cmb2/includes/CMB2_JS.php:215
-#, fuzzy
 msgid "Second"
-msgstr "segundo"
+msgstr "Segundo"
 
 #: includes/cmb2/includes/CMB2_JS.php:216
 msgid "Now"
@@ -1694,23 +1785,20 @@ msgstr "Ahora"
 
 #: includes/cmb2/includes/CMB2_JS.php:218
 msgctxt ""
-"Valid formatting string, as per http://trentrichardson.com/examples/"
-"timepicker/"
+"Valid formatting string, as per "
+"http://trentrichardson.com/examples/timepicker/"
 msgid "hh:mm TT"
-msgstr ""
+msgstr "hh:mm TT"
 
 #: includes/cmb2/includes/CMB2_JS.php:224
 #, fuzzy
 msgid "Use this file"
-msgstr ""
-"Si aún así decides seguir adelante con la edición directa, utiliza un gestor "
-"de archivos para crear una copia con un nombre nuevo y guarda el original. "
-"De esta forma podrás volver a activar una versión funcional si algo falla."
+msgstr "Uso este archivo"
 
 #: includes/cmb2/includes/CMB2_JS.php:225
 #, fuzzy
 msgid "Use these files"
-msgstr "Usar iconos personalizados. URL:"
+msgstr "Uso estos archiva"
 
 #: includes/cmb2/includes/CMB2_JS.php:226
 #: includes/cmb2/includes/types/CMB2_Type_File_Base.php:64
@@ -1731,41 +1819,48 @@ msgstr "Descargar"
 #: includes/cmb2/includes/CMB2_JS.php:230
 #, fuzzy
 msgid "Select / Deselect All"
-msgstr "Desmarcar"
+msgstr "Selecciona / deselect todo"
 
 #: includes/cmb2/includes/CMB2_Options_Hookup.php:131
 #, fuzzy
 msgid "Nothing to update."
-msgstr "Actualizar las pestañas"
+msgstr "Nada a actualización."
 
 #: includes/cmb2/includes/CMB2_Options_Hookup.php:135
 #, fuzzy
 msgid "Settings updated."
-msgstr "Ajustes actualizados correctamente"
+msgstr "Los encuadres actualizaron."
 
 #: includes/cmb2/includes/CMB2_Types.php:231
+#, fuzzy
 msgid "Custom CMB2 field type classes must extend CMB2_Type_Base."
 msgstr ""
+"Hecho de encargo cmb2 tipo de campo las clases tienen que extender "
+"cmb2_base_de tipo."
 
 #: includes/cmb2/includes/CMB2_Types.php:349
 #, fuzzy
 msgid "Add Row"
-msgstr "Añadir pestañas"
+msgstr "Añade fila"
 
 #: includes/cmb2/includes/CMB2_Types.php:412
 #, fuzzy
 msgid "Remove Row"
-msgstr "Añadir/Quitar servicios"
+msgstr "Saca fila"
 
 #: includes/cmb2/includes/CMB2_hookup.php:181
+#, fuzzy
 msgid ""
 "Term Metadata is a WordPress 4.4+ feature. Please upgrade your WordPress "
 "install."
 msgstr ""
+"Plazo metadata es un wordpress 4.4+ característica. por favor upgrade "
+"vuestro wordpress instala."
 
 #: includes/cmb2/includes/CMB2_hookup.php:185
+#, fuzzy
 msgid "Term metaboxes configuration requires a \"taxonomies\" parameter."
-msgstr ""
+msgstr "Plazo metaboxes la configuración requiere un \"parámetro\" de taxonomías."
 
 #: includes/cmb2/includes/CMB2_hookup.php:458
 msgid "Toggle panel: %s"
@@ -1776,89 +1871,114 @@ msgid "Save"
 msgstr "Guardar"
 
 #: includes/cmb2/includes/rest-api/CMB2_REST_Controller.php:257
+#, fuzzy
 msgid "This box does not have read permissions."
-msgstr ""
+msgstr "Esta caja no tiene leer permisos."
 
 #: includes/cmb2/includes/rest-api/CMB2_REST_Controller.php:277
+#, fuzzy
 msgid "This box does not have write permissions."
-msgstr ""
+msgstr "Esta caja no tiene escribir permisos."
 
 #: includes/cmb2/includes/rest-api/CMB2_REST_Controller.php:300
+#, fuzzy
 msgid ""
-"No box found by that id. A box needs to be registered with the \"show_in_rest"
-"\" parameter configured."
+"No box found by that id. A box needs to be registered with the "
+"\"show_in_rest\" parameter configured."
 msgstr ""
+"Ninguna caja encontrada por aquel id. una caja necesita ser registrada con "
+"el \"espectáculo_en_parámetro\" de resto configuró."
 
 #: includes/cmb2/includes/rest-api/CMB2_REST_Controller.php:378
 #, fuzzy
 msgid "A human-readable description of the object."
-msgstr "Descripción legible de la taxonomía."
+msgstr "Un humano-descripción legible del objeto."
 
 #: includes/cmb2/includes/rest-api/CMB2_REST_Controller.php:385
 #, fuzzy
 msgid "The id for the object."
-msgstr "El ID del objeto."
+msgstr "El id para el objeto."
 
 #: includes/cmb2/includes/rest-api/CMB2_REST_Controller.php:392
 msgid "The title for the object."
 msgstr "El título para el objeto."
 
 #: includes/cmb2/includes/rest-api/CMB2_REST_Controller_Boxes.php:51
+#, fuzzy
 msgid "Includes the registered fields for the box in the response."
-msgstr ""
+msgstr "Incluye el registró campos para la caja en la respuesta."
 
 #: includes/cmb2/includes/rest-api/CMB2_REST_Controller_Boxes.php:72
+#, fuzzy
 msgid ""
 "Includes the fully rendered attributes, 'form_open', 'form_close', as well "
 "as the enqueued 'js_dependencies' script handles, and 'css_dependencies' "
 "stylesheet handles."
 msgstr ""
+"Incluye el plenamente rendered atribuye, 'la forma_abierta', 'la "
+"forma_cercana', así como el enqueued 'js_dependencias' el guión maneja, y "
+"'css_dependencias' stylesheet maneja."
 
 #: includes/cmb2/includes/rest-api/CMB2_REST_Controller_Boxes.php:122
 #, fuzzy
 msgid "No boxes found."
-msgstr "¿Encontraste un \"bug\"?"
+msgstr "Ningún boxea encontrado."
 
 #: includes/cmb2/includes/rest-api/CMB2_REST_Controller_Fields.php:27
+#, fuzzy
 msgid ""
 "Includes the box object which the fields are registered to in the response."
 msgstr ""
+"Incluye el objeto de caja qué los campos están registrados a en la "
+"respuesta."
 
 #: includes/cmb2/includes/rest-api/CMB2_REST_Controller_Fields.php:30
+#, fuzzy
 msgid ""
 "When the '_rendered' argument is passed, the renderable field attributes "
 "will be returned fully rendered. By default, the names of the callback "
 "handers for the renderable attributes will be returned."
 msgstr ""
+"Cuando el '_rendered' el argumento está pasado, el renderable el campo "
+"atribuye será regresado plenamente rendered. por default, el nombra del "
+"callback handers para el renderable atribuye será regresado."
 
 #: includes/cmb2/includes/rest-api/CMB2_REST_Controller_Fields.php:33
 #: includes/cmb2/includes/rest-api/CMB2_REST_Controller_Fields.php:36
+#, fuzzy
 msgid ""
 "To view or modify the field's value, the 'object_id' and 'object_type' "
 "arguments are required."
 msgstr ""
+"A vista o modificar el valor del campo, el 'objeto_id' y 'tipo_de objeto' "
+"los argumentos están requeridos."
 
 #: includes/cmb2/includes/rest-api/CMB2_REST_Controller_Fields.php:236
+#, fuzzy
 msgid ""
 "CMB2 Field value cannot be updated without the value parameter specified."
 msgstr ""
+"Cmb2 valor de campo no puede ser actualizado sin el parámetro de valor "
+"especificó."
 
 #: includes/cmb2/includes/rest-api/CMB2_REST_Controller_Fields.php:297
+#, fuzzy
 msgid ""
 "CMB2 Field value cannot be modified without the object_id and object_type "
 "parameters specified."
 msgstr ""
+"Cmb2 valor de campo no puede ser modificado sin el objeto_id y parámetros_de"
+" tipo del objeto especificaron."
 
 #: includes/cmb2/includes/rest-api/CMB2_REST_Controller_Fields.php:312
 #: includes/cmb2/includes/rest-api/CMB2_REST_Controller_Fields.php:341
 #, fuzzy
 msgid "No field found by that id."
-msgstr "Campo no encontrado"
+msgstr "Ningún campo encontrado por aquel id."
 
 #: includes/cmb2/includes/rest-api/CMB2_REST_Controller_Fields.php:415
-#, fuzzy
 msgid "Value Error for %s"
-msgstr "Tipo de valor no compatible (%s)."
+msgstr "Error de valor para %s"
 
 #. translators: %s: register_routes()
 #: includes/cmb2/includes/shim/WP_REST_Controller.php:25
@@ -1896,7 +2016,8 @@ msgstr "Limitar resultados a aquellos que coinciden con una cadena."
 
 #: includes/cmb2/includes/shim/WP_REST_Controller.php:308
 msgid ""
-"Scope under which the request is made; determines fields present in response."
+"Scope under which the request is made; determines fields present in "
+"response."
 msgstr ""
 "Ámbito de aplicación de la solicitud; determina los campos presentes en la "
 "respuesta."
@@ -1904,48 +2025,54 @@ msgstr ""
 #: includes/cmb2/includes/types/CMB2_Type_File.php:76
 #, fuzzy
 msgid "Add or Upload File"
-msgstr "Añadir archivo"
+msgstr "Añade o carga archivo"
 
 #: includes/cmb2/includes/types/CMB2_Type_File_List.php:41
 #, fuzzy
 msgid "Add or Upload Files"
-msgstr "Arrastra archivos a cualquier lugar para subirlos"
+msgstr "Añade o carga archiva"
 
 #: includes/cmb2/includes/types/CMB2_Type_Taxonomy_Base.php:115
 #, fuzzy
 msgid "No terms"
-msgstr "Términos inexistentes."
+msgstr "Ningún denomina"
 
 #: includes/wptelegram-functions.php:178
+#, fuzzy
 msgid "Your host seems to block requests to %s"
-msgstr ""
+msgstr "Vuestro anfitrión parece al bloque pide a %s"
 
 #: modules/notify/class-wptelegram-notify-admin.php:90
 #, fuzzy
 msgid "If Email goes to"
-msgstr "Suscribirse por correo electrónico"
+msgstr "Si el email va a"
 
 #: modules/notify/class-wptelegram-notify-admin.php:92
+#, fuzzy
 msgid "If you want to receive notification for every email, then write %s"
-msgstr ""
+msgstr "Si  quieres recibir notificación para cada email, entonces escribe %s"
 
 #: modules/notify/class-wptelegram-notify-admin.php:100
 #: modules/notify/class-wptelegram-notify-admin.php:209
 #, fuzzy
 msgid "Send it to"
-msgstr "Enviar"
+msgstr "Lo envía a"
 
 #: modules/notify/class-wptelegram-notify-admin.php:101
+#, fuzzy
 msgid "Telegram User or Group Chat ID."
-msgstr ""
+msgstr "Usuario de telegrama o charla de grupo id."
 
 #: modules/notify/class-wptelegram-notify-admin.php:116
+#, fuzzy
 msgid "Use %s to let them connect their Telegram account."
-msgstr ""
+msgstr "Uso %s para dejarles conectar su cuenta de telegrama."
 
 #: modules/notify/class-wptelegram-notify-admin.php:116
+#, fuzzy
 msgid "They can also enter their Telegram Chat ID manually on %s page"
 msgstr ""
+"También pueden introducir su charla de telegrama id manualmente en %s página"
 
 #: modules/notify/class-wptelegram-notify-admin.php:116
 #, fuzzy
@@ -1953,165 +2080,180 @@ msgid "profile"
 msgstr "Perfil"
 
 #: modules/notify/class-wptelegram-notify-admin.php:173
+#, fuzzy
 msgid ""
 "The module will watch the Email Notifications sent from this site and "
 "deliver them on your Telegram"
 msgstr ""
+"El módulo  reloj las notificaciones de email enviadas de este sitio y "
+"entregarles encima vuestro telegrama"
 
 #: modules/notify/class-wptelegram-notify-admin.php:200
-#, fuzzy
 msgid "To receive notifications privately:"
-msgstr "Publicada como privada"
+msgstr "Para recibir notificaciones en privado:"
 
 #: modules/notify/class-wptelegram-notify-admin.php:202
+#, fuzzy
 msgid "Get your Chat ID from %s and enter it below."
-msgstr ""
+msgstr "Consigue vuestra charla id de %s e introducirlo abajo."
 
 #: modules/notify/class-wptelegram-notify-admin.php:203
+#, fuzzy
 msgid "Send YOUR OWN BOT a message to start the conversation."
-msgstr ""
+msgstr "Envía vuestro propio bot un mensaje a inicio la conversación."
 
 #: modules/notify/class-wptelegram-notify-admin.php:206
-#, fuzzy
 msgid "To receive notifications into a group:"
-msgstr "Notificaciones"
+msgstr "Para recibir notificaciones a un grupo:"
 
 #: modules/notify/class-wptelegram-notify-admin.php:208
+#, fuzzy
 msgid "Add %s to the group to get its Chat ID."
-msgstr ""
+msgstr "Añade %s al grupo para conseguir su charla id."
 
 #: modules/notify/class-wptelegram-notify-admin.php:209
+#, fuzzy
 msgid "Enter the Chat ID in %s field below."
-msgstr ""
+msgstr "Introduce la charla id en %s campo abajo."
 
 #: modules/notify/class-wptelegram-notify-admin.php:210
+#, fuzzy
 msgid "Add YOUR OWN BOT to the group."
-msgstr ""
+msgstr "Añade vuestro propio bot al grupo."
 
 #: modules/notify/class-wptelegram-notify-admin.php:330
 #: public/partials/wptelegram-profile-fields.php:21
 #, fuzzy
 msgid "Telegram Info"
-msgstr "Información"
+msgstr "Telegrama info"
 
 #: modules/notify/class-wptelegram-notify-admin.php:331
 #: public/partials/wptelegram-profile-fields.php:22
+#, fuzzy
 msgid "You can receive your email notifications on Telegram from %s"
 msgstr ""
+"Puedes recibir vuestras notificaciones de email encima telegrama de %s"
 
 #: modules/notify/class-wptelegram-notify-admin.php:337
 #: public/partials/wptelegram-profile-fields.php:26
 #, fuzzy
 msgid "Telegram Chat ID"
-msgstr "ID de %s:"
+msgstr "Charla de telegrama id"
 
 #: modules/notify/class-wptelegram-notify-admin.php:338
 #: public/partials/wptelegram-profile-fields.php:30
+#, fuzzy
 msgid "Please enter your Telegram Chat ID"
-msgstr ""
+msgstr "Por favor introducir vuestra charla de telegrama id"
 
 #: modules/notify/class-wptelegram-notify-admin.php:361
+#, fuzzy
 msgid "Get your Chat ID from %s and enter it above."
-msgstr ""
+msgstr "Consigue vuestra charla id de %s e introducirlo encima."
 
 #: modules/notify/class-wptelegram-notify-admin.php:362
+#, fuzzy
 msgid "Start a conversation with %s to receive notifications."
-msgstr ""
+msgstr "Inicio una conversación con %s para recibir notificaciones."
 
 #: modules/notify/class-wptelegram-notify-admin.php:388
 #, fuzzy
 msgid "via %s"
-msgstr "Compartir por correo electrónico"
+msgstr "Vía %s"
 
 #: modules/notify/class-wptelegram-notify-admin.php:433
 #, fuzzy
 msgid "Please Enter a valid Chat ID"
-msgstr "Por favor, introduzca una cuenta de correo válida."
+msgstr "Por favor introducir una charla válida id"
 
 #: modules/p2tg/class-wptelegram-p2tg-admin.php:108
 #, fuzzy
 msgid "Telegram Destination"
-msgstr "Destino"
+msgstr "Destino de telegrama"
 
 #: modules/p2tg/class-wptelegram-p2tg-admin.php:114
 #, fuzzy
 msgid "Channel Username"
-msgstr "Nombre de usuario:"
+msgstr "Canal username"
 
 #: modules/p2tg/class-wptelegram-p2tg-admin.php:115
+#, fuzzy
 msgid "Telegram Channel Username or Chat ID. Username must start with %s."
 msgstr ""
+"Canal de telegrama username o charla id. username inicio de mosto con %s."
 
 #: modules/p2tg/class-wptelegram-p2tg-admin.php:138
 #: modules/p2tg/class-wptelegram-p2tg-admin.php:168
 #, fuzzy
 msgid "Rules"
-msgstr ".htaccess (para reglas de reescritura)"
+msgstr "Gobierna"
 
 #: modules/p2tg/class-wptelegram-p2tg-admin.php:143
 #: modules/p2tg/class-wptelegram-p2tg-admin.php:526
 #, fuzzy
 msgid "Send when"
-msgstr "¿Enviar un correo cuando usas la importación desde el frontal?"
+msgstr "Envía cuando"
 
 #: modules/p2tg/class-wptelegram-p2tg-admin.php:144
+#, fuzzy
 msgid "When the post should be sent to Telegram"
-msgstr ""
+msgstr "Cuando el correo tendría que ser enviado a telegrama"
 
 #: modules/p2tg/class-wptelegram-p2tg-admin.php:152
 #, fuzzy
 msgid "A new post is published"
-msgstr ""
-"Añadir a cron cuando se publique una nueva entrada y enviar vía tarea cron"
+msgstr "Un correo nuevo está publicado"
 
 #: modules/p2tg/class-wptelegram-p2tg-admin.php:153
 #, fuzzy
 msgid "An existing post is updated"
-msgstr "No se puede crear una entrada existente."
+msgstr "Un correo de existir está actualizado"
 
 #: modules/p2tg/class-wptelegram-p2tg-admin.php:157
-#, fuzzy
 msgid "Post type"
-msgstr "Tipo de publicaciones"
+msgstr "Tipo de correo"
 
 #: modules/p2tg/class-wptelegram-p2tg-admin.php:160
 #, fuzzy
 msgid "Which post types should be sent."
-msgstr ""
-"Elige los tipos de contenido en los que se debería desactivar Gutenberg."
+msgstr "Qué correo escribe tendría que ser enviado."
 
 #: modules/p2tg/class-wptelegram-p2tg-admin.php:265
 #, fuzzy
 msgid "Single message"
-msgstr "Artículo individual"
+msgstr "Mensaje solo"
 
 #: modules/p2tg/class-wptelegram-p2tg-admin.php:266
+#, fuzzy
 msgid "Send both text and image in single message"
-msgstr ""
+msgstr "Envía ambos texto e imagen en mensaje solo"
 
 #: modules/p2tg/class-wptelegram-p2tg-admin.php:283
 #, fuzzy
 msgid "Inline Keyboard"
-msgstr "Alineado"
+msgstr "Inline teclado"
 
 #: modules/p2tg/class-wptelegram-p2tg-admin.php:288
 #, fuzzy
 msgid "Inline Button"
-msgstr "Botón"
+msgstr "Inline botón"
 
 #: modules/p2tg/class-wptelegram-p2tg-admin.php:289
 #, fuzzy
 msgid "Add Inline URL Button"
-msgstr "Añadir texto del botón"
+msgstr "Añade inline url botón"
 
 #: modules/p2tg/class-wptelegram-p2tg-admin.php:290
-msgid "Add an inline clickable button for the post URL just below the message."
+#, fuzzy
+msgid ""
+"Add an inline clickable button for the post URL just below the message."
 msgstr ""
+"Añade un inline clickable botón para el correo url justo bajo el mensaje."
 
 #: modules/p2tg/class-wptelegram-p2tg-admin.php:298
 #, fuzzy
 msgid "Inline button text"
-msgstr "Añadir texto del botón"
+msgstr "Inline texto de botón"
 
 #: modules/p2tg/class-wptelegram-p2tg-admin.php:299
 msgid "View Post"
@@ -2121,7 +2263,7 @@ msgstr "Ver entrada"
 #: modules/p2tg/class-wptelegram-p2tg-admin.php:742
 #, fuzzy
 msgid "Delay in Posting"
-msgstr "Tiempo de retardo"
+msgstr "Retraso en posting"
 
 #: modules/p2tg/class-wptelegram-p2tg-admin.php:329
 #: modules/p2tg/class-wptelegram-p2tg-admin.php:743
@@ -2131,143 +2273,144 @@ msgstr "Minuto(s)"
 #: modules/p2tg/class-wptelegram-p2tg-admin.php:340
 #, fuzzy
 msgid "Other settings"
-msgstr "Otros ajustamientos"
+msgstr "Otros encuadres"
 
 #: modules/p2tg/class-wptelegram-p2tg-admin.php:368
+#, fuzzy
 msgid "WordPress cron should not be disabled!"
-msgstr ""
+msgstr "Wordpress cron no tendría que ser discapacitado!"
 
 #: modules/p2tg/class-wptelegram-p2tg-admin.php:371
+#, fuzzy
 msgid "The delay starts after the post gets published."
-msgstr ""
+msgstr "El retraso empieza después del correo consigue publicado."
 
 #: modules/p2tg/class-wptelegram-p2tg-admin.php:396
 #, fuzzy
 msgid "Post Data"
-msgstr "Pestaña de tipo de artículo"
+msgstr "Datos de correo"
 
 #: modules/p2tg/class-wptelegram-p2tg-admin.php:410
 #, fuzzy
 msgid "Taxonomy Terms"
-msgstr "Términos ampliados de la taxonomía"
+msgstr "La taxonomía denomina"
 
 #: modules/p2tg/class-wptelegram-p2tg-admin.php:418
 msgid "Custom Fields"
 msgstr "Campos personalizados"
 
 #: modules/p2tg/class-wptelegram-p2tg-admin.php:425
+#, fuzzy
 msgid ""
 "Replace %1$s in %2$s by the name of the taxonomy to insert its terms "
 "attached to the post."
 msgstr ""
+"Reemplaza %1$s en %2$s por el nombre de la taxonomía para insertar su "
+"denomina sujetado al correo."
 
 #: modules/p2tg/class-wptelegram-p2tg-admin.php:425
 #, fuzzy
 msgid "For example %1$s and %2$s in WooCommerce"
-msgstr "Ejemplo:%1$s en vez de %2$s"
+msgstr "Por ejemplo %1$s y %2$s en woocommerce"
 
 #: modules/p2tg/class-wptelegram-p2tg-admin.php:427
+#, fuzzy
 msgid "Replace %1$s in %2$s by the name of the Custom Field."
-msgstr ""
+msgstr "Reemplaza %1$s en %2$s por el nombre del campo hecho de encargo."
 
 #: modules/p2tg/class-wptelegram-p2tg-admin.php:427
 #, fuzzy
 msgid "For example %1$s or %2$s  in WooCommerce"
-msgstr "Ejemplo:%1$s en vez de %2$s"
+msgstr "Por ejemplo %1$s o %2$s  en woocommerce"
 
 #: modules/p2tg/class-wptelegram-p2tg-admin.php:512
-#, fuzzy
 msgid "%1$s should not be %2$s"
-msgstr "%1$s y %2$s"
+msgstr "%1$s no tendría que ser %2$s"
 
 #: modules/p2tg/class-wptelegram-p2tg-admin.php:513
 #, fuzzy
 msgid "%s should not be checked"
-msgstr "Esconder en los dispositivos marcados"
+msgstr "%s No tendría que ser comprobado"
 
 #: modules/p2tg/class-wptelegram-p2tg-admin.php:532
 #: modules/p2tg/class-wptelegram-p2tg-rules.php:75
 msgid "AND"
-msgstr ""
+msgstr "Y"
 
 #: modules/p2tg/class-wptelegram-p2tg-admin.php:685
-#, fuzzy
 msgid "WP Telegram P2TG"
-msgstr "Miembros WP"
+msgstr "WP Telegram P2TG"
 
 #: modules/p2tg/class-wptelegram-p2tg-admin.php:695
 #, fuzzy
 msgid "Send to Telegram"
-msgstr "Enviar"
+msgstr "Envía a telegrama"
 
 #: modules/p2tg/class-wptelegram-p2tg-admin.php:700
 msgid "Yes"
 msgstr "Sí"
 
 #: modules/p2tg/class-wptelegram-p2tg-admin.php:701
+#, fuzzy
 msgid "No"
-msgstr ""
+msgstr "Núm"
 
 #: modules/p2tg/class-wptelegram-p2tg-admin.php:706
 #, fuzzy
 msgid "Override settings"
-msgstr ""
-"Permitir a los administradores del grupo cambiar las configuraciones de "
-"suscripción y enviar emails a cualquier miembro del grupo: "
+msgstr "Override encuadres"
 
 #: modules/p2tg/class-wptelegram-p2tg-admin.php:733
 #, fuzzy
 msgid "Files"
-msgstr "No se encontraron archivos multimedia"
+msgstr "Archiva"
 
 #: modules/p2tg/class-wptelegram-p2tg-admin.php:734
 #, fuzzy
 msgid "Files to be sent after the message"
-msgstr "Mensaje no enviado. Por favor, inténtalo de nuevo."
+msgstr "Archiva para ser enviado después del mensaje"
 
 #: modules/p2tg/class-wptelegram-p2tg-admin.php:888
+#, fuzzy
 msgid "With this module, you can configure how the posts are sent to Telegram"
 msgstr ""
+"Con este módulo,  puedes configurar qué los correos están enviados a "
+"telegrama"
 
 #: modules/p2tg/class-wptelegram-p2tg-admin.php:903
+#, fuzzy
 msgid "Enter the Channel Username in the field below"
-msgstr ""
+msgstr "Introduce el canal username en el campo abajo"
 
 #: modules/p2tg/class-wptelegram-p2tg-admin.php:906
+#, fuzzy
 msgid "You can also use the Chat ID of a group or private chat."
-msgstr ""
+msgstr "Puedes también uso la charla id de un grupo o charla privada."
 
 #: modules/p2tg/class-wptelegram-p2tg-admin.php:906
 #, fuzzy
 msgid "Get it from %s"
-msgstr "Obtenga consejos para la gestión de los widgets"
+msgstr "Consigue él de %s"
 
 #: modules/p2tg/class-wptelegram-p2tg-admin.php:909
 #, fuzzy
 msgid "That's it. You are ready to rock :)"
-msgstr "¿Quieres suprimir este bloque?"
+msgstr "Aquello es.  estás a punto a rock :)"
 
 #: modules/p2tg/class-wptelegram-p2tg-admin.php:939
 #, fuzzy
 msgid "There was some error!"
-msgstr "Ups. Estamos obteniendo algún error. No se envía correo."
+msgstr "Había algún error!"
 
 #: modules/p2tg/class-wptelegram-p2tg-admin.php:945
-#, fuzzy
 msgid "Channel"
-msgstr ""
-"Para aprender más acerca del uso de Pods consulta nuestra <a href=\"https://"
-"pods.io/docs/\" target=\"_blank\">documentación</a> y suscríbete a nuestro "
-"<a href=\"https://www.youtube.com/user/podsframework/\" target=\"_blank"
-"\">canal de YouTube</a>"
+msgstr "Canal"
 
 #: modules/p2tg/class-wptelegram-p2tg-admin.php:946
-#, fuzzy
 msgid "Error code"
-msgstr "Código de error: %s"
+msgstr "Código de error"
 
 #: modules/p2tg/class-wptelegram-p2tg-admin.php:947
-#, fuzzy
 msgid "Error message"
 msgstr "Mensaje de error"
 
@@ -2279,105 +2422,117 @@ msgstr "Entrada"
 #: modules/p2tg/class-wptelegram-p2tg-rules.php:181
 #, fuzzy
 msgid "Post Category"
-msgstr "Categoría predeterminada para las entradas"
+msgstr "Categoría de correo"
 
 #: modules/p2tg/class-wptelegram-p2tg-rules.php:182
 #, fuzzy
 msgid "Post Tag"
-msgstr "Error al importar la etiqueta de entrada %s"
+msgstr "Etiqueta de correo"
 
 #: modules/p2tg/class-wptelegram-p2tg-rules.php:183
 #, fuzzy
 msgid "Post Format"
-msgstr "Formato de entrada"
+msgstr "Formato de correo"
 
 #: modules/p2tg/class-wptelegram-p2tg-rules.php:184
 #, fuzzy
 msgid "Post Author"
-msgstr "Autor"
+msgstr "Autor de correo"
 
 #: modules/p2tg/class-wptelegram-p2tg-rules.php:186
 msgid "Custom Taxonomy"
 msgstr "Taxonomía personalizada"
 
 #: modules/p2tg/class-wptelegram-p2tg-rules.php:201
+#, fuzzy
 msgid "is in"
-msgstr ""
+msgstr "Es en"
 
 #: modules/p2tg/class-wptelegram-p2tg-rules.php:202
+#, fuzzy
 msgid "is not in"
-msgstr ""
+msgstr "No es en"
 
 #: modules/proxy/class-wptelegram-proxy-admin.php:84
 #, fuzzy
 msgid "Proxy Method"
-msgstr "Método"
+msgstr "Proxy método"
 
 #: modules/proxy/class-wptelegram-proxy-admin.php:94
 #, fuzzy
 msgid "Google Script is preferred"
-msgstr "Google"
+msgstr "Guión de google está preferido"
 
 #: modules/proxy/class-wptelegram-proxy-admin.php:96
 #: modules/proxy/class-wptelegram-proxy-admin.php:102
-#, fuzzy
 msgid "Google Script"
-msgstr "Google"
+msgstr "Google Script"
 
 #: modules/proxy/class-wptelegram-proxy-admin.php:97
 #: modules/proxy/class-wptelegram-proxy-admin.php:117
 #, fuzzy
 msgid "PHP Proxy"
-msgstr "Actualizar PHP"
+msgstr "Php proxy"
 
 #: modules/proxy/class-wptelegram-proxy-admin.php:111
+#, fuzzy
 msgid "The requests to Telegram will be sent via your Google Script."
-msgstr ""
+msgstr "El pide al telegrama será enviado vía vuestro guión de google."
 
 #: modules/proxy/class-wptelegram-proxy-admin.php:111
 #, fuzzy
 msgid "See this tutorial"
-msgstr "Mostrar todas las funciones"
+msgstr "Ve este preceptoral"
 
 #: modules/proxy/class-wptelegram-proxy-admin.php:190
+#, fuzzy
 msgid ""
 "The module will help you bypass the ban on Telegram by making use of proxy."
 msgstr ""
+"El módulo  ayuda tú bypass la prohibición encima telegrama por hacer uso de "
+"proxy."
 
 #: modules/proxy/class-wptelegram-proxy-admin.php:201
 msgid "DISCLAIMER!"
-msgstr ""
+msgstr "Descargo de responsabilidad!"
 
 #: modules/proxy/class-wptelegram-proxy-admin.php:202
+#, fuzzy
 msgid "Use the proxy at your own risk!"
-msgstr ""
+msgstr "Uso el proxy en vuestro riesgo propio!"
 
 #: public/partials/wptelegram-profile-fields.php:40
+#, fuzzy
 msgid "Enter the received chat_id in the field above"
-msgstr ""
+msgstr "Introduce la charla recibida_id en el campo encima"
 
 #: public/partials/wptelegram-profile-fields.php:41
+#, fuzzy
 msgid "Also start a conversation with %s to receive notifications"
-msgstr ""
+msgstr "También inicio una conversación con %s para recibir notificaciones"
 
 #. Plugin URI of the plugin/theme
-#, fuzzy
 msgid "https://t.me/WPTelegram"
-msgstr "https://widget-options.com/"
+msgstr "https://t.me/WPTelegram"
 
 #. Description of the plugin/theme
+#, fuzzy
 msgid ""
 "Integrate your WordPress site perfectly with Telegram. Send posts "
 "automatically to Telegram when published or updated, whether to a Telegram "
 "Channel, Group, Supergroup or private chat, with full control. Get your "
 "email notifications on Telegram."
 msgstr ""
+"Integra vuestro sitio de wordpress perfectamente con telegrama. envía "
+"correos automáticamente a telegrama cuando publicado o actualizado, si a un "
+"canal de telegrama, grupo, supergroup o charla privada, con control lleno. "
+"consigue vuestras notificaciones de email encima telegrama."
 
 #. Author of the plugin/theme
+#, fuzzy
 msgid "Manzoor Wani"
-msgstr ""
+msgstr "Manzoor wani"
 
 #. Author URI of the plugin/theme
-#, fuzzy
 msgid "https://t.me/manzoorwanijk"
-msgstr "https://widget-options.com/"
+msgstr "https://t.me/manzoorwanijk"

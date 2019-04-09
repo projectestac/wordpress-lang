@@ -8,7 +8,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2019-04-05 11:47+0200\n"
+"PO-Revision-Date: 2019-04-08 12:07+0200\n"
 "Language-Team: \n"
 "X-Generator: Poedit 2.0.6\n"
 "Last-Translator: Joan Sala Soler <jsala236@xtec.cat>\n"
@@ -16,9 +16,8 @@ msgstr ""
 "Language: es_ES\n"
 
 #: xtec-mail.php:31 xtec-mail.php:36
-#, fuzzy
 msgid "Mail"
-msgstr "Programa de e-mail"
+msgstr "Correo"
 
 #: xtec-mail.php:57 xtec-mail.php:117
 msgid "Options saved."
@@ -26,18 +25,16 @@ msgstr "Opciones guardadas."
 
 #. Plugin Name of the plugin/theme
 #: xtec-mail.php:68 xtec-mail.php:127
-#, fuzzy
 msgid "XTEC Mail"
-msgstr "XTEC Eduhack"
+msgstr "Correo XTEC"
 
 #: xtec-mail.php:71
-#, fuzzy
 msgid "XTEC Mail is active"
-msgstr "(activo)"
+msgstr "El correo XTEC está activado"
 
 #: xtec-mail.php:77 xtec-mail.php:137
 msgid "replyto"
-msgstr ""
+msgstr "Responder a"
 
 #: xtec-mail.php:85 xtec-mail.php:184
 msgid "Save"
@@ -45,49 +42,45 @@ msgstr "Guardar"
 
 #: xtec-mail.php:131
 msgid "idApp"
-msgstr ""
+msgstr "ID de la aplicación"
 
 #: xtec-mail.php:133 xtec-mail.php:145
-#, fuzzy
 msgid "Set in config"
-msgstr "Establecer como fondo"
+msgstr "Definido en los ficheros de configuración"
 
 #: xtec-mail.php:143
-#, fuzzy
 msgid "Environment"
-msgstr "Entorno del servidor"
+msgstr "Entorno"
 
 #: xtec-mail.php:149
 msgid "Sender"
 msgstr "Remitente"
 
 #: xtec-mail.php:155
-#, fuzzy
 msgid "Mail Log"
-msgstr "E-mail"
+msgstr "Registro de correo"
 
 #: xtec-mail.php:159
 msgid "Enable the log for the mail system"
-msgstr ""
+msgstr "Activar el registro de correo"
 
 #: xtec-mail.php:164
-#, fuzzy
 msgid "Mail Debug"
-msgstr "Adaptador de debug conectado"
+msgstr "Depuración del correo"
 
 #: xtec-mail.php:168
 msgid "Enable the debug mode for log of the mail system"
 msgstr ""
+"Activar el modo de depuración (requiere que el registro esté activado)"
 
 #: xtec-mail.php:173
-#, fuzzy
 msgid "Log Path"
-msgstr "Ruta"
+msgstr "Ubicación del registro"
 
 #: xtec-mail.php:177
-#, fuzzy
 msgid "Absolute path to log file"
-msgstr "Por favor, introduzca la ruta del fichero"
+msgstr ""
+"Ruta absoluta al archivo de registro (incluye el nombre del archivo)"
 
 #. Description of the plugin/theme
 msgid ""
@@ -95,6 +88,9 @@ msgid ""
 "Departament d'Ensenyament instead of mail(). The plugin use v.11.04.07 of "
 "Mail Sender By WS PHP library."
 msgstr ""
+"Reconfigura la función wp_mail() para usar el servicio web de correo del "
+"Departamento de Educación en lugar de mail(). El conector utiliza "
+"v.11.04.07 de la librería Mail Sender By WS PHP library."
 
 #. Author of the plugin/theme
 msgid "Francesc Bassas i Bullich"
