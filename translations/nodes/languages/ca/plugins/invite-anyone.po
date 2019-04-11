@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Invite Anyone 1.3\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/invite-anyone\n"
-"POT-Creation-Date: 2019-04-05 07:48:22+00:00\n"
-"PO-Revision-Date: 2019-04-04 17:57+0200\n"
+"POT-Creation-Date: 2019-04-11T16:48:41+02:00\n"
+"PO-Revision-Date: 2019-04-11 17:24+0200\n"
 "Last-Translator: Joan Sala Soler <jsala236@xtec.cat>\n"
 "Language-Team: \n"
 "Language: ca\n"
@@ -36,14 +36,6 @@ msgstr ""
 "Per veure el perfil de %5$s aneu a: %6$s\n"
 "\n"
 "---------------------\n"
-
-#: lib/bbg-cpt-pag.php:211
-msgid "&laquo;"
-msgstr "&laquo;"
-
-#: lib/bbg-cpt-pag.php:212
-msgid "&raquo;"
-msgstr "&raquo;"
 
 #: admin/admin-stats.php:378 admin/admin-stats.php:403
 msgid "(%d sent)"
@@ -200,10 +192,6 @@ msgstr "Afegeix un node convidat nou"
 msgid "Add New Invitee"
 msgstr "Afegeix convidat nou"
 
-#: admin/admin-panel.php:443
-msgid "Administrator"
-msgstr "Administrador"
-
 # MODIFICAT XTEC
 #: by-email/by-email-db.php:140
 msgid "All Invited Groups"
@@ -248,7 +236,7 @@ msgstr ""
 "correu electrònic"
 
 # MODIFICAT XTEC
-#. Description of the plugin/theme
+#. Description of the plugin
 msgid ""
 "Allows group admins to invite any member of their BuddyPress community to a "
 "group or to the site"
@@ -265,11 +253,7 @@ msgstr "Una invitació per unir-se a la comunitat %s."
 msgid "Anyone"
 msgstr "Qualsevol"
 
-#: admin/admin-panel.php:441
-msgid "Author"
-msgstr "Autor"
-
-#. Author of the plugin/theme
+#. Author of the plugin
 msgid "Boone Gorges"
 msgstr "Boone Gorges"
 
@@ -341,13 +325,26 @@ msgstr ""
 msgid "CloudSponge integration will not work without a valid CloudSponge Key."
 msgstr "La integració amb CloudSponge no funcionarà sense un clau vàlida."
 
+#: admin/admin-panel.php:547
+msgid ""
+"CloudSponge is a cool service that gives your users easy and secure access "
+"to their address books (LinkedIn, Gmail, Yahoo, and a number of other online "
+"and desktop email clients), so that they can more easily invite friends to "
+"your site. It's a great way to increase engagement on your site, by making "
+"it easier for them to invite new members. In order to enable CloudSponge "
+"support in Invite Anyone and BuddyPress, you'll need to <a href=\""
+msgstr ""
+"CloudSponge és un servei genial que proporciona un accés fàcil i segur a les "
+"llibretes d'adreces dels seus usuaris (LinkedIn, Gmail, Yahoo i altres "
+"clients de correu electrònic en línia i d'escriptori), de manera que puguin "
+"convidar més fàcilment amics al vostre lloc. És una bona manera d’augmentar "
+"la participació al vostre lloc, fent-los més fàcil convidar membres nous. "
+"Per activar CloudSponge a Invite Anyone i BuddyPress, necessitareu <a href = "
+"\""
+
 #: widgets/widgets.php:71
 msgid "Continue"
 msgstr "Continua"
-
-#: admin/admin-panel.php:440
-msgid "Contributor"
-msgstr "Col·laborador"
 
 #: admin/admin-panel.php:334
 msgid "Control the default behavior of Invite Anyone."
@@ -368,10 +365,6 @@ msgstr "Edita el node convidat"
 #: by-email/by-email-db.php:119
 msgid "Edit Invitee"
 msgstr "Edita convidat"
-
-#: admin/admin-panel.php:442
-msgid "Editor"
-msgstr "Editor"
 
 #: by-email/by-email.php:128
 msgid "Email:"
@@ -473,8 +466,7 @@ msgstr ""
 "Les invitacions s'han enviat correctament a les adreces de correu electrònic "
 "següents: %s"
 
-#. #-#-#-#-#  invite-anyone.pot (Invite Anyone 1.4.0)  #-#-#-#-#
-#. Plugin Name of the plugin/theme
+#. Plugin Name of the plugin
 #: admin/admin-panel.php:87 admin/admin-panel.php:193 widgets/widgets.php:41
 #: widgets/widgets.php:92
 msgid "Invite Anyone"
@@ -527,7 +519,7 @@ msgstr ""
 msgid "Invited Email"
 msgstr "Correu electrònic de qui convida"
 
-#: by-email/by-email-db.php:138 by-email/by-email-db.php:145
+#: by-email/by-email-db.php:138
 msgid "Invited Group"
 msgstr "Node convidat"
 
@@ -540,7 +532,7 @@ msgstr "Nodes convidats"
 msgid "Invited email address"
 msgstr "Adreça de correu electrònic del convidat"
 
-#: by-email/by-email-db.php:116 by-email/by-email-db.php:123
+#: by-email/by-email-db.php:116
 msgid "Invitee"
 msgstr "Convidat"
 
@@ -685,19 +677,15 @@ msgstr ""
 "Afegiu una llista separada per comes (amb els ID d'usuari) que <strong>no "
 "poden</strong> enviar invitacions per correu electrònic:"
 
-#: group-invites/group-invites.php:410
 #: group-invites/templates/invite-anyone.php:70
 #: group-invites/templates/invite-anyone.php:159
+#: group-invites/group-invites.php:410
 msgid "Remove Invite"
 msgstr "Elimina la invitació"
 
 #: admin/admin-panel.php:306
 msgid "Replacement patterns for email text fields"
 msgstr "Patrons per als camps de text de correu electrònic"
-
-#: admin/admin-panel.php:243
-msgid "Save Changes"
-msgstr "Desa els canvis"
 
 #: by-email/by-email-db.php:89
 msgid "Search Invitation"
@@ -730,10 +718,10 @@ msgstr "Seleccioneu usuaris per convidar de la vostra llista d'amistats."
 msgid "Select people to invite."
 msgstr "Selecciona usuaris per convidar."
 
-#: by-email/by-email.php:286 by-email/by-email.php:726
-#: group-invites/group-invites.php:73
 #: group-invites/templates/invite-anyone.php:87
 #: group-invites/templates/invite-anyone.php:178
+#: group-invites/group-invites.php:73 by-email/by-email.php:286
+#: by-email/by-email.php:726
 msgid "Send Invites"
 msgstr "Envia invitacions"
 
@@ -782,10 +770,6 @@ msgstr "Assumpte del missatge"
 #: by-email/by-email.php:672
 msgid "Subject:"
 msgstr "Assumpte:"
-
-#: admin/admin-panel.php:439
-msgid "Subscriber"
-msgstr "Subscriptor"
 
 #: admin/admin-panel.php:563
 msgid "Test"
@@ -836,10 +820,6 @@ msgstr ""
 "llistes.\n"
 "\t\t\tPodeu esborrar les invitacions individuals, totes invitacions "
 "acceptades o totes les invitacions de la llista."
-
-#: widgets/widgets.php:104
-msgid "Title:"
-msgstr "Títol:"
 
 #: by-email/by-email.php:985
 msgid "To accept this invitation, please visit %%ACCEPTURL%%"
@@ -997,10 +977,6 @@ msgstr ""
 msgid "You didn't include any email addresses!"
 msgstr "No heu inclòs cap adreça de correu electrònic!"
 
-#: admin/admin-panel.php:275 admin/admin-panel.php:293
-msgid "You do not have permission to do that."
-msgstr "No teniu permís per fer-ho."
-
 #: by-email/by-email.php:962
 msgid ""
 "You have been invited by %%INVITERNAME%% to join the %s community.\n"
@@ -1040,11 +1016,11 @@ msgstr "[{{{site.name}}}] {{{ia.subject}}}"
 msgid "display name of the inviter"
 msgstr "mostra el nom de la persona que convida"
 
-#. Author URI of the plugin/theme
+#. Author URI of the plugin
 msgid "http://boone.gorg.es"
 msgstr "http://boone.gorg.es"
 
-#. Plugin URI of the plugin/theme
+#. Plugin URI of the plugin
 msgid "http://teleogistic.net/code/buddypress/invite-anyone/"
 msgstr "http://teleogistic.net/code/buddypress/invite-anyone/"
 

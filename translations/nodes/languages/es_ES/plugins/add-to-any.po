@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: add-to-any\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/add-to-any\n"
-"POT-Creation-Date: 2019-04-05 07:48:20+00:00\n"
+"POT-Creation-Date: 2019-04-11T16:48:07+02:00\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Joan Sala Soler <jsala236@xtec.cat>\n"
 "Language-Team: \n"
@@ -14,14 +14,6 @@ msgstr ""
 "X-Poedit-Basepath: ..\n"
 "X-Generator: Poedit 2.0.6\n"
 "X-Poedit-SearchPath-0: .\n"
-
-#: addtoany.widgets.php:232
-msgid "%s ID:"
-msgstr "ID de %s:"
-
-#: addtoany.widgets.php:232
-msgid "%s URL:"
-msgstr "%s URL:"
 
 #: addtoany.admin.php:1012
 msgid ""
@@ -55,9 +47,8 @@ msgstr "Agregar a favoritos"
 msgid "Add/Remove Services"
 msgstr "Añadir/Quitar servicios"
 
-#. #-#-#-#-#  add-to-any.pot (AddToAny Share Buttons 1.7.9)  #-#-#-#-#
-#. Author of the plugin/theme
-#: add-to-any.php:1092 addtoany.admin.php:11
+#. Author of the plugin
+#: addtoany.admin.php:11 add-to-any.php:1092
 msgid "AddToAny"
 msgstr "AddToAny"
 
@@ -81,11 +72,11 @@ msgstr "Ajustes de AddToAny"
 msgid "AddToAny Share"
 msgstr "AddToAny: Compartición"
 
-#. Plugin Name of the plugin/theme
+#. Plugin Name of the plugin
 msgid "AddToAny Share Buttons"
 msgstr "Botones de compartir de AddToAny"
 
-#: add-to-any.php:1091 addtoany.admin.php:452
+#: addtoany.admin.php:452 add-to-any.php:1091
 msgid "AddToAny Share Settings"
 msgstr "Ajustes de compartir AddToAny"
 
@@ -195,19 +186,11 @@ msgstr "Extensión de archivo"
 msgid "Find service(s)"
 msgstr "Buscar servicios(s)"
 
-#: addtoany.admin.php:485
-msgid "Floating"
-msgstr "Flotante"
-
 #: addtoany.widgets.php:124
 msgid "Follow buttons link to your social media."
 msgstr ""
 "Los botones de seguimiento enlazan con tus redes sociales medios de "
 "comunicación sociales."
-
-#: addtoany.admin.php:866
-msgid "Height"
-msgstr "Ancho"
 
 #: addtoany.admin.php:950
 msgid "Horizontal Buttons"
@@ -216,10 +199,6 @@ msgstr "Botones horizontales"
 #: addtoany.admin.php:504 addtoany.admin.php:943 addtoany.admin.php:985
 msgid "Icon Size"
 msgstr "Tamaño del icono"
-
-#: addtoany.admin.php:604
-msgid "Image URL"
-msgstr "URL de la imagen"
 
 #: add-to-any.php:575
 msgid "Instantly find any service to add to"
@@ -279,7 +258,7 @@ msgstr ""
 msgid "Need support?"
 msgstr "¿Necesitas ayuda?"
 
-#: addtoany.admin.php:625 addtoany.admin.php:917 addtoany.admin.php:959
+#: addtoany.admin.php:917 addtoany.admin.php:959
 msgid "None"
 msgstr "Ninguno"
 
@@ -384,17 +363,9 @@ msgstr ""
 msgid "Send from any email address or email program"
 msgstr "Enviar desde cualquier dirección o programa de correo electrónico"
 
-#: add-to-any.php:1134
-msgid "Settings"
-msgstr "Configuración"
-
-#: addtoany.admin.php:374
-msgid "Settings saved."
-msgstr "Configuración guardada."
-
-#: add-to-any.php:567 addtoany.admin.php:324 addtoany.admin.php:576
-#: addtoany.admin.php:578 addtoany.admin.php:581 addtoany.admin.php:583
-#: addtoany.admin.php:621
+#: addtoany.admin.php:324 addtoany.admin.php:576 addtoany.admin.php:578
+#: addtoany.admin.php:581 addtoany.admin.php:583 addtoany.admin.php:621
+#: add-to-any.php:567
 msgid "Share"
 msgstr "Compartir"
 
@@ -402,7 +373,7 @@ msgstr "Compartir"
 msgid "Share buttons for sharing your content."
 msgstr "Botones de compartición para compartir tus contenidos."
 
-#. Description of the plugin/theme
+#. Description of the plugin
 msgid ""
 "Share buttons for your pages including AddToAny's universal sharing button, "
 "Facebook, Twitter, Google+, Pinterest, WhatsApp and many more."
@@ -411,7 +382,7 @@ msgstr ""
 "universal de AddToAny, Facebook, Twitter, Google+, Pinterest, WhatsApp y "
 "muchos más."
 
-#: addtoany.admin.php:663
+#: addtoany.admin.php:661
 msgid "Share this:"
 msgstr "Compártelo:"
 
@@ -468,9 +439,9 @@ msgstr ""
 msgid "Standalone Buttons"
 msgstr "Botones para compartir"
 
-#: addtoany.admin.php:464
-msgid "Standard"
-msgstr "Estándar"
+#: addtoany.admin.php:462
+msgid "Standard:"
+msgstr "Estándar:"
 
 #: add-to-any.php:569
 msgid "Subscribe"
@@ -480,7 +451,7 @@ msgstr "Suscribirse"
 msgid "Subscribe via email"
 msgstr "Suscribirse a través de correo electrónico"
 
-#: addtoany.admin.php:614 addtoany.admin.php:617
+#: addtoany.admin.php:614
 msgid "Text only"
 msgstr "Solo texto"
 
@@ -491,18 +462,6 @@ msgid ""
 msgstr ""
 "Esta opción desactiva la compartición universal. ¿Estás seguro que deseas "
 "desactivar el compartir universalmente?"
-
-#: addtoany.widgets.php:100 addtoany.widgets.php:226
-msgid "Title:"
-msgstr "Título:"
-
-#: add-to-any.php:1046
-msgid ""
-"Unable to create directory %s. Is its parent directory writable by the "
-"server?"
-msgstr ""
-"No se pudo crear el directorio %s. ¿Es el directorio padre escribirle por el "
-"servidor?"
 
 #: addtoany.admin.php:563
 msgid "Universal Button"
@@ -519,10 +478,6 @@ msgstr "Usar el CSS por defecto"
 #: addtoany.admin.php:908
 msgid "Vertical Buttons"
 msgstr "Botones verticales"
-
-#: addtoany.admin.php:864
-msgid "Width"
-msgstr "Largo"
 
 #: addtoany.admin.php:816
 msgid ""
@@ -542,10 +497,8 @@ msgstr ""
 msgid "bottom"
 msgstr "inferior"
 
-#. #-#-#-#-#  add-to-any.pot (AddToAny Share Buttons 1.7.9)  #-#-#-#-#
-#. Plugin URI of the plugin/theme
-#. #-#-#-#-#  add-to-any.pot (AddToAny Share Buttons 1.7.9)  #-#-#-#-#
-#. Author URI of the plugin/theme
+#. Plugin URI of the plugin
+#. Author URI of the plugin
 msgid "https://www.addtoany.com/"
 msgstr "https://www.addtoany.com/"
 

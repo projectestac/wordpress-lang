@@ -2,8 +2,11 @@
 # This file is distributed under the same license as the Plugins - BuddyPress Activity Plus - Stable (latest release) package.
 msgid ""
 msgstr ""
-"Project-Id-Version: Plugins - BuddyPress Activity Plus - Stable (latest release)\n"
-"POT-Creation-Date: \n"
+"Project-Id-Version: Plugins - BuddyPress Activity Plus - Stable (latest "
+"release)\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/buddypress-"
+"activity-plus\n"
+"POT-Creation-Date: 2019-04-11T16:48:11+02:00\n"
 "PO-Revision-Date: 2019-04-09 09:57+0200\n"
 "Last-Translator: Joan Sala Soler <jsala236@xtec.cat>\n"
 "Language-Team: \n"
@@ -14,223 +17,25 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Poedit 2.0.6\n"
 
-#: lib/bpfb_group_documents.php:201
-msgid "%s uploaded new file(s): %s to %s"
-msgstr "%s archivos nuevos subidos: %s a %s"
-
-#. Description of the plugin/theme
+#. Description of the plugin
 msgid "A Facebook-style media sharing improvement for the activity box."
 msgstr ""
 "Una mejora al estilo de Facebook para la compartición de medios en la caja "
 "de la actividad."
 
-#: lib/class_bpfb_admin_pages.php:33
-msgid "Activity Plus"
-msgstr "Activity Plus"
-
-#: lib/class_bpfb_binder.php:175
-msgid "Add"
-msgstr "Añadir"
-
-#: lib/class_bpfb_binder.php:170
-msgid "Add another image URL"
-msgstr "Agregar otra URL de imagen"
-
-#: lib/bpfb_group_documents.php:48
-msgid "Add documents"
-msgstr "Añadir documentos"
-
-#: lib/class_bpfb_binder.php:169
-msgid "Add image URL"
-msgstr "Agregar URL de imagen"
-
-#: lib/class_bpfb_binder.php:174
-msgid "Add link"
-msgstr "Añadir link"
-
-#: lib/class_bpfb_binder.php:173
-msgid "Add links"
-msgstr "Añadir enlaces"
-
-#: lib/class_bpfb_binder.php:168
-msgid "Add photos"
-msgstr "Añadir fotos"
-
-#: lib/class_bpfb_binder.php:172
-msgid "Add video"
-msgstr "Añadir video"
-
-#: lib/class_bpfb_binder.php:171
-msgid "Add videos"
-msgstr "Añadir videos"
-
-#: lib/class_bpfb_admin_pages.php:119
-msgid "Alignment"
-msgstr "Alineación"
-
-#: lib/class_bpfb_admin_pages.php:92
-msgid "Appearance"
-msgstr "Apariencia"
-
-#. #-#-#-#-#  tmp-buddypress-activity-plus.pot (BuddyPress Activity Plus
-#. 1.6.3)
-#. Plugin Name of the plugin/theme
-#: lib/class_bpfb_admin_pages.php:32
+#. Plugin Name of the plugin
 msgid "BuddyPress Activity Plus"
 msgstr "BuddyPress Activity Plus"
 
-#: lib/class_bpfb_binder.php:176
-msgid "Cancel"
-msgstr "Cancelar"
-
-#: lib/class_bpfb_binder.php:180
-msgid "Choose thumbnail"
-msgstr "Elige miniatura"
-
-#: lib/class_bpfb_admin_pages.php:167
-msgid "Clean up images?"
-msgstr "¿Borrar las imágenes?"
-
-#: lib/class_bpfb_admin_pages.php:105
-msgid "Default (legacy)"
-msgstr "Por defecto (legacy)"
-
-#: lib/class_bpfb_binder.php:178
-msgid "Drop files here to upload"
-msgstr "Arrastra los archivos aquí para subir"
-
-#: lib/class_bpfb_admin_pages.php:133
-msgid "Functional"
-msgstr "Funcional"
-
-#: lib/class_bpfb_admin_pages.php:159
-msgid "Height"
-msgstr "Altura"
-
-#: lib/class_bpfb_admin_pages.php:148
-msgid "Image thumbnails"
-msgstr "Miniaturas de la imagen"
-
-#: lib/class_bpfb_admin_pages.php:122
-msgid "Left"
-msgstr "Izquierda"
-
-#: lib/class_bpfb_admin_pages.php:164
-msgid "Misc"
-msgstr "Otros"
-
-#: lib/class_bpfb_admin_pages.php:110
-msgid "New"
-msgstr "Nuevo"
-
-#: lib/class_bpfb_binder.php:181
-msgid "No thumbnail"
-msgstr "Sin miniatura"
-
-#: lib/class_bpfb_binder.php:183
-msgid "Paste link here"
-msgstr "Pega el enlace aquí"
-
-#: lib/class_bpfb_binder.php:182
-msgid "Paste video URL here"
-msgstr "Pega la URL del video aquí"
-
-#: lib/bpfb_group_documents.php:49
-msgid "Please select a group to upload to"
-msgstr "Seleccione un nodo para la carga"
-
-#: lib/class_bpfb_binder.php:177
-msgid "Preview"
-msgstr "Vista previa"
-
-#: lib/class_bpfb_binder.php:211 lib/class_bpfb_binder.php:228
-msgid "Processing..."
-msgstr "Procesando..."
-
-#: lib/class_bpfb_admin_pages.php:126
-msgid "Right"
-msgstr "Derecha"
-
-#: lib/class_bpfb_admin_pages.php:115
-msgid "Round"
-msgstr "Redondeado"
-
-#: lib/class_bpfb_admin_pages.php:174
-msgid "Save"
-msgstr "Guardar"
-
-#: lib/class_bpfb_admin_pages.php:101
-msgid "Theme"
-msgstr "Tema"
-
-#: lib/class_bpfb_binder.php:210 lib/class_bpfb_binder.php:227
-msgid "There has been an error processing your request"
-msgstr "Ha habido un error procesando su petición"
-
-#: bpfb.php:50
-msgid ""
-"There was an issue determining where BuddyPress Activity Plus plugin is "
-"installed. Please reinstall."
-msgstr ""
-"Ha habido un problema para determinar donde está instalada la extensión "
-"BuddyPress Activity Plus. Por favor, vuelva a instalarla."
-
-#: lib/class_bpfb_binder.php:179
-msgid "Upload a file"
-msgstr "Sube un archivo"
-
-#. Author of the plugin/theme
+#. Author of the plugin
 msgid "WPMU DEV"
 msgstr "WPMU DEV"
 
-#: lib/class_bpfb_admin_pages.php:143 lib/class_bpfb_admin_pages.php:155
-msgid "Width"
-msgstr "Ancho"
-
-#: lib/class_bpfb_binder.php:184
-msgid "You tried to add too many images, only %d will be posted."
-msgstr "Ha intentado añadir demasiadas imágenes, sólo %d se subirán."
-
-#: lib/class_bpfb_admin_pages.php:96
-msgid ""
-"Your BuddyPress theme incorporates Activity Plus style overrides. Respecting"
-" the selection you make in the &quot;Appearance&quot; section is entirely up"
-" to your theme."
-msgstr ""
-"Su tema de BuddyPress incorpora estilos que sobrescriben los de la extensión"
-" Activity Plus. Esto puede provocar que no se respeten los parámetros "
-"escogidos en la sección &quot;Apariencia&quot;."
-
-#: lib/class_bpfb_admin_pages.php:139
-msgid ""
-"Your oEmbed dimensions will be dictated by the "
-"<code>BPFB_OEMBED_WIDTH</code> define value (%s). Remove this define to "
-"enable this option."
-msgstr ""
-"Las dimensiones del oEmbed serán las indicadas por el valor de la constante "
-"<code>BPFB_OEMBED_WIDTH</code> (%s). Elimine la constante para activar esta "
-"opción."
-
-#: lib/class_bpfb_admin_pages.php:151
-msgid ""
-"Your thumbnail dimensions will be dictated by the "
-"<code>BPFB_THUMBNAIL_IMAGE_SIZE</code> define value (%s). Remove this define"
-" to enable these options."
-msgstr ""
-"Las dimensiones de las miniaturas serán las indicadas por el valor de la "
-"constante <code>BPFB_THUMBNAIL_IMAGE_SIZE</code> (%s). Elimine la constante "
-"para activar esta opción."
-
-#. Author URI of the plugin/theme
+#. Author URI of the plugin
 msgid "http://premium.wpmudev.org"
 msgstr "http://premium.wpmudev.org"
 
-#. Plugin URI of the plugin/theme
-msgid ""
-"http://premium.wpmudev.org/project/media-embeds-for-buddypress-activity"
+#. Plugin URI of the plugin
+msgid "http://premium.wpmudev.org/project/media-embeds-for-buddypress-activity"
 msgstr ""
 "http://premium.wpmudev.org/project/media-embeds-for-buddypress-activity"
-
-#: lib/class_bpfb_admin_pages.php:136
-msgid "oEmbed"
-msgstr "oEmbed"

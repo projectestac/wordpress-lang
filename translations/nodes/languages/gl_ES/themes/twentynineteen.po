@@ -2,14 +2,16 @@
 # This file is distributed under the same license as the Themes - Twenty Nineteen package.
 msgid ""
 msgstr ""
+"Project-Id-Version: Themes - Twenty Nineteen\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/twentynineteen\n"
+"POT-Creation-Date: 2019-04-11T16:48:58+02:00\n"
 "PO-Revision-Date: 2019-01-11 02:38:12+0000\n"
+"Language: gl_ES\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: GlotPress/2.4.0-alpha\n"
-"Language: gl_ES\n"
-"Project-Id-Version: Themes - Twenty Nineteen\n"
 
 #. translators: 1: comment date, 2: comment time
 #: classes/class-twentynineteen-walker-comment.php:87
@@ -63,7 +65,7 @@ msgstr ""
 "<span class=\"meta-nav\">Publicado en</span><span class=\"post-title\">%s</"
 "span>"
 
-#: functions.php:194
+#: functions.php:190
 msgid "Add widgets here to appear in your footer."
 msgstr "Engade aquí os widgets que queres que aparezan no teu pé de páxina."
 
@@ -101,8 +103,8 @@ msgid "Comments are closed."
 msgstr "Comentarios pechados."
 
 #. translators: %s: Name of current post. Only visible to screen readers
-#: template-parts/content/content.php:36
 #: template-parts/content/content-single.php:27
+#: template-parts/content/content.php:36
 msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
 msgstr "Continuar lendo<span class=\"screen-reader-text\"> \"%s\"</span>"
 
@@ -115,7 +117,7 @@ msgstr "Personalizado"
 msgid "Daily Archives: "
 msgstr "Arquivos diarios:"
 
-#: functions.php:160
+#: functions.php:156
 msgid "Dark Gray"
 msgstr "Gris escuro"
 
@@ -128,10 +130,10 @@ msgstr "Por defecto"
 msgid "Edit"
 msgstr "Editar"
 
-#. translators: %s: Name of current post. Only visible to screen readers
 #. translators: %s: Name of current post. Only visible to screen readers.
+#. translators: %s: Name of current post. Only visible to screen readers
+#: inc/template-tags.php:120 template-parts/header/entry-header.php:32
 #: template-parts/content/content-page.php:41
-#: template-parts/header/entry-header.php:32 inc/template-tags.php:120
 msgid "Edit <span class=\"screen-reader-text\">%s</span>"
 msgstr "Editar <span class=\"screen-reader-text\">%s</span>"
 
@@ -140,13 +142,13 @@ msgctxt "monthly archives date format"
 msgid "F Y"
 msgstr "F Y"
 
-#: template-parts/content/content.php:18
 #: template-parts/content/content-excerpt.php:18
+#: template-parts/content/content.php:18
 msgctxt "post"
 msgid "Featured"
 msgstr "Destacado"
 
-#: template-parts/footer/footer-widgets.php:12 functions.php:192
+#: functions.php:188 template-parts/footer/footer-widgets.php:12
 msgid "Footer"
 msgstr "Pé de páxina"
 
@@ -196,7 +198,7 @@ msgstr "Deixar un comentario"
 msgid "Leave a comment<span class=\"screen-reader-text\"> on %s</span>"
 msgstr "Deixa un comentario<span class=\"screen-reader-text\"> en %s</span>"
 
-#: functions.php:165
+#: functions.php:161
 msgid "Light Gray"
 msgstr "Gris claro"
 
@@ -278,9 +280,9 @@ msgstr ""
 msgid "Page"
 msgstr "Páxina"
 
-#: template-parts/content/content.php:49
+#: image.php:52 template-parts/content/content-single.php:40
 #: template-parts/content/content-page.php:27
-#: template-parts/content/content-single.php:40 image.php:52
+#: template-parts/content/content.php:49
 msgid "Pages:"
 msgstr "Paxinas:"
 
@@ -308,7 +310,7 @@ msgstr "Artigo anterior"
 msgid "Previous post:"
 msgstr "Publicación anterior:"
 
-#: functions.php:59 functions.php:150
+#: functions.php:59 functions.php:146
 msgid "Primary"
 msgstr "Principal"
 
@@ -342,7 +344,7 @@ msgstr "S"
 msgid "Search results for:"
 msgstr "Resultados de procura para:"
 
-#: functions.php:155
+#: functions.php:151
 msgid "Secondary"
 msgstr "Secundario"
 
@@ -354,7 +356,7 @@ msgstr "Ir o contido"
 msgid "Small"
 msgstr "Pequeno"
 
-#: template-parts/header/site-branding.php:46 functions.php:61
+#: functions.php:61 template-parts/header/site-branding.php:46
 msgid "Social Links Menu"
 msgstr "Menú de Conexións sociais "
 
@@ -394,7 +396,7 @@ msgstr ""
 msgid "View more posts"
 msgstr "Ver máis entradas"
 
-#: functions.php:170
+#: functions.php:166
 msgid "White"
 msgstr "Branco"
 

@@ -1,25 +1,67 @@
 # Copyright (C) 2019 Albert Bachiller
-# This file is distributed under the same license as the NODES GENERAL package.
+# This file is distributed under the .
 msgid ""
 msgstr ""
 "Project-Id-Version: NODES GENERAL 1.0.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/reactor\n"
-"POT-Creation-Date: 2019-04-05 07:48:23+00:00\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2019-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2019-04-11T16:48:58+02:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.1.0\n"
+"X-Domain: reactor\n"
 
-#: 404.php:25
-msgid "This is somewhat embarrassing, isn&rsquo;t it?"
+#. Theme Name of the theme
+msgid "NODES GENERAL"
 msgstr ""
 
-#: 404.php:29
-msgid ""
-"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
-"searching will help."
+#. Description of the theme
+msgid "Tema desenvolupat pel Departament d'Ensenyament de Catalunya"
+msgstr ""
+
+#. Author of the theme
+msgid "Albert Bachiller"
+msgstr ""
+
+#. Author URI of the theme
+msgid "http://jurjur.org"
+msgstr ""
+
+#: searchform.php:13
+msgid "Search for:"
+msgstr ""
+
+#: searchform.php:15
+#: searchform.php:18
+#: library/inc/functions/top-bar.php:81
+#: library/inc/functions/top-bar.php:84
+msgid "Search"
+msgstr ""
+
+#: post-formats/format-standard.php:25
+#: library/inc/content/content-pages.php:36
+#: image.php:98
+msgid "Pages:"
+msgstr ""
+
+#: post-formats/format-none.php:13
+msgid "Nothing Found"
+msgstr ""
+
+#: post-formats/format-none.php:17
+msgid "Apologies, but no results were found. Perhaps searching will help find a related post."
+msgstr ""
+
+#: post-formats/format-portfolio.php:28
+#: library/inc/content/content-posts.php:30
+msgid "%s"
+msgstr ""
+
+#: taxonomy-portfolio-category.php:24
+msgid "Category: %s"
 msgstr ""
 
 #: archive-portfolio.php:26
@@ -44,438 +86,76 @@ msgctxt "yearly archives date format"
 msgid "Y"
 msgstr ""
 
-#: comments.php:19
-msgid "This post is password protected. Enter the password to view comments."
+#: library/inc/extensions/menus.php:31
+msgid "Top Bar Left"
 msgstr ""
 
-#: comments.php:32
-msgid "NO Comments"
+#: library/inc/extensions/menus.php:35
+msgid "Top Bar Right"
 msgstr ""
 
-#: comments.php:32
-msgid "1 Comment"
+#: library/inc/extensions/menus.php:39
+msgid "Main Menu"
 msgstr ""
 
-#: comments.php:32
-msgid "% Comments"
+#: library/inc/extensions/menus.php:43
+msgid "Footer Links"
 msgstr ""
 
-#: comments.php:43
-msgid "&larr; Older Comments"
+#: library/inc/extensions/menus.php:160
+msgid "&larr; Home"
 msgstr ""
 
-#: comments.php:44
-msgid "Newer Comments &rarr;"
+#: library/inc/extensions/comments.php:23
+msgid "Pingback:"
 msgstr ""
 
-#: comments.php:49
-msgid "Comments are closed."
-msgstr ""
-
-#: comments.php:67
-msgid ""
-"Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of "
-"this account\">Log out &raquo;</a>"
-msgstr ""
-
-#: comments.php:69
-msgid "Name "
-msgstr ""
-
-#: comments.php:69 comments.php:71
-msgid "( required )"
-msgstr ""
-
-#: comments.php:69
-msgid "Your Name*"
-msgstr ""
-
-#: comments.php:69 comments.php:71
-msgid "aria-required='true'"
-msgstr ""
-
-#: comments.php:71
-msgid "Email "
-msgstr ""
-
-#: comments.php:71
-msgid "Your E-Mail*"
-msgstr ""
-
-#: comments.php:73
-msgid "Website "
-msgstr ""
-
-#: comments.php:73
-msgid "URL "
-msgstr ""
-
-#: comments.php:76
-msgid "Your Comment here..."
-msgstr ""
-
-#: comments.php:78
-msgid "You can use these tags"
-msgstr ""
-
-#: comments.php:80
-msgid "Submit"
-msgstr ""
-
-#: content.php:16
-msgid "Continue reading..."
-msgstr ""
-
-#: custom-tac/capcalera/icones-capcalera-settings.php:29
-#: custom-tac/capcalera/icones-capcalera-settings.php:47
-msgid "Icones de capçalera"
-msgstr ""
-
-#: custom-tac/capcalera/icones-capcalera-settings.php:60
-msgid "Icones disponibles"
-msgstr ""
-
-#: custom-tac/capcalera/icones-capcalera-settings.php:61
-msgid "Copia el nom de la icona i enganxa'l a la posició desitjada."
-msgstr ""
-
-#: custom-tac/capcalera/icones-capcalera-settings.php:108
-msgid "Icones a la fila 1"
-msgstr ""
-
-#: custom-tac/capcalera/icones-capcalera-settings.php:116
-#: custom-tac/capcalera/icones-capcalera-settings.php:190
-msgid "Element 1:"
-msgstr ""
-
-#: custom-tac/capcalera/icones-capcalera-settings.php:124
-#: custom-tac/capcalera/icones-capcalera-settings.php:157
-#: custom-tac/capcalera/icones-capcalera-settings.php:198
-#: custom-tac/capcalera/icones-capcalera-settings.php:231
-msgid "Icona:"
-msgstr ""
-
-#: custom-tac/capcalera/icones-capcalera-settings.php:132
-#: custom-tac/capcalera/icones-capcalera-settings.php:165
-#: custom-tac/capcalera/icones-capcalera-settings.php:206
-#: custom-tac/capcalera/icones-capcalera-settings.php:239
-msgid "Enllaç:"
-msgstr ""
-
-#: custom-tac/capcalera/icones-capcalera-settings.php:149
-#: custom-tac/capcalera/icones-capcalera-settings.php:223
-msgid "Element 2:"
-msgstr ""
-
-#: custom-tac/capcalera/icones-capcalera-settings.php:182
-msgid "Icones a la fila 2"
-msgstr ""
-
-#: custom-tac/capcalera/icones-capcalera-settings.php:255
-#: library/inc/customizer/customize.php:171
-msgid "General"
-msgstr ""
-
-#: custom-tac/capcalera/icones-capcalera-settings.php:263
-msgid "Mostra text sota la icona:"
-msgstr ""
-
-#: custom-tac/metabox-post-parametres.php:15
-msgid "Parameters"
-msgstr ""
-
-#: custom-tac/metabox-post-parametres.php:41
-msgid "Summary image in original size"
-msgstr ""
-
-#: custom-tac/metabox-post-parametres.php:42
-msgid "View full content"
-msgstr ""
-
-#: custom-tac/metabox-post-parametres.php:43
-msgid "Hide title"
-msgstr ""
-
-#: custom-tac/metabox-post-parametres.php:44
-msgid "Hide metadata"
-msgstr ""
-
-#: custom-tac/metabox-post-parametres.php:50
-msgid "Icon"
-msgstr ""
-
-#: custom-tac/metabox-post-parametres.php:53
-msgid "Video"
-msgstr ""
-
-#: custom-tac/metabox-post-parametres.php:54
-msgid "Photo/Slideshow"
-msgstr ""
-
-#: custom-tac/metabox-post-parametres.php:55
-msgid "Podcast"
-msgstr ""
-
-#: custom-tac/metabox-post-parametres.php:56
-msgid "Document"
-msgstr ""
-
-#: custom-tac/metabox-post-parametres.php:57
-msgid "Music"
-msgstr ""
-
-#: custom-tac/metabox-post-parametres.php:58
-msgid "Alert"
-msgstr ""
-
-#: custom-tac/rss-metabox.php:47
-msgid "No item"
-msgstr ""
-
-#: custom-tac/rss-metabox.php:55
-msgid "ago"
-msgstr ""
-
-#: custom-tac/welcome-panel.php:21
-msgid "Welcome to NODES"
-msgstr ""
-
-#: custom-tac/welcome-panel.php:22
-msgid "Project for the new website from Departament d'Ensenyament"
-msgstr ""
-
-#: custom-tac/welcome-panel.php:26
-msgid "Actions"
-msgstr ""
-
-#: custom-tac/welcome-panel.php:28
-msgid "Customize"
-msgstr ""
-
-#: custom-tac/welcome-panel.php:30 custom-tac/welcome-panel.php:33
-msgid "Edit Home Page"
-msgstr ""
-
-#: custom-tac/welcome-panel.php:31
-msgid "Header icons"
-msgstr ""
-
-#: custom-tac/welcome-panel.php:34
-msgid "Add additional pages"
-msgstr ""
-
-#: custom-tac/welcome-panel.php:35
-msgid "Add a blog post"
-msgstr ""
-
-#: custom-tac/welcome-panel.php:37
-msgid "Write your first blog post"
-msgstr ""
-
-#: custom-tac/welcome-panel.php:38
-msgid "Add an About page"
-msgstr ""
-
-#: custom-tac/welcome-panel.php:44
-msgid "More Actions"
-msgstr ""
-
-#: custom-tac/welcome-panel.php:46
-msgid "Manage <a href=\"%1$s\">widgets</a> or <a href=\"%2$s\">menus</a>"
-msgstr ""
-
-#: custom-tac/welcome-panel.php:47
-msgid "Bookings"
-msgstr ""
-
-#: custom-tac/welcome-panel.php:48 functions.php:252 functions.php:300
-msgid "BuddyPress"
-msgstr ""
-
-#: custom-tac/welcome-panel.php:53
-msgid "Do you need help?"
-msgstr ""
-
-#: custom-tac/welcome-panel.php:55
-msgid "FAQ"
-msgstr ""
-
-#: custom-tac/welcome-panel.php:56
-msgid "Support"
-msgstr ""
-
-#: functions.php:157
-msgid "Categories (Barra esquerra)"
-msgstr ""
-
-#: functions.php:253 functions.php:302
-msgid "Activity"
-msgstr ""
-
-#: functions.php:254
-msgid "Activity Plus"
-msgstr ""
-
-#: functions.php:255 functions.php:325
-msgid "Components"
-msgstr ""
-
-#: functions.php:256 functions.php:327
-msgid "Groups"
-msgstr ""
-
-#: functions.php:257 functions.php:328
-msgid "BuddyPress Like"
-msgstr ""
-
-#: functions.php:258
-msgid "Logs"
-msgstr ""
-
-#: functions.php:259 functions.php:329
-msgid "Group Email Options"
-msgstr ""
-
-#: functions.php:260 functions.php:339
-msgid "Configuració"
-msgstr ""
-
-#: functions.php:264 functions.php:265
-msgid "BuddyPress Docs"
-msgstr ""
-
-#: functions.php:266
-msgctxt "add new"
-msgid "Add New"
-msgstr ""
-
-#: functions.php:267
-msgid "Associated Items"
-msgstr ""
-
-#: functions.php:268
-msgid "Docs Tags"
-msgstr ""
-
-#: functions.php:269
-msgid "Settings"
-msgstr ""
-
-#: functions.php:273
-msgid "BuddyPress Invitations"
-msgstr ""
-
-#: functions.php:274 functions.php:335
-msgid "Invite Anyone"
-msgstr ""
-
-#: functions.php:275
-msgid "Manage Invitations"
-msgstr ""
-
-#: functions.php:276
-msgid "Add New Invitation"
-msgstr ""
-
-#: functions.php:277
-msgid "Invitees"
-msgstr ""
-
-#: functions.php:278
-msgid "Invited Groups"
-msgstr ""
-
-#: functions.php:282
-msgid "Reports"
-msgstr ""
-
-#: functions.php:283
-msgid "Activity report in social network"
-msgstr ""
-
-#: functions.php:353 functions.php:381
-msgid "Forums"
-msgstr ""
-
-#: functions.php:354
-msgid "All Forums"
-msgstr ""
-
-#: functions.php:355
-msgid "New Forum"
-msgstr ""
-
-#: functions.php:359
-msgid "Topics"
-msgstr ""
-
-#: functions.php:360
-msgid "All Topics"
-msgstr ""
-
-#: functions.php:361
-msgid "New Topic"
-msgstr ""
-
-#: functions.php:362
-msgid "Topic Tags"
-msgstr ""
-
-#: functions.php:366
-msgid "Replies"
-msgstr ""
-
-#: functions.php:367
-msgid "All Replies"
-msgstr ""
-
-#: functions.php:368
-msgid "New Reply"
-msgstr ""
-
-#: image.php:32
-msgid ""
-"<span class=\"meta-prep meta-prep-entry-date\">Published </span> <span class="
-"\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\" pubdate>%2$s</"
-"time></span> at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s "
-"&times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery"
-"\">%8$s</a>."
-msgstr ""
-
-#: image.php:43 library/inc/content/content-pages.php:48
-#: library/inc/content/content-posts.php:23
-#: library/inc/content/content-posts.php:33
 #: library/inc/extensions/comments.php:23
 #: library/inc/extensions/comments.php:55
-#: library/inc/functions/breadcrumbs.php:1149
-#: library/inc/functions/breadcrumbs.php:1185
-#: library/inc/functions/breadcrumbs.php:1202
-#: library/inc/functions/breadcrumbs.php:1233
+#: library/inc/content/content-pages.php:48
+#: image.php:43
 msgid "Edit"
 msgstr ""
 
-#: image.php:47
-msgid "&larr; Previous"
+#: library/inc/extensions/comments.php:38
+msgid "Post author"
 msgstr ""
 
-#: image.php:48
-msgid "Next &rarr;"
+#. translators: 1: date, 2: time
+#: library/inc/extensions/comments.php:44
+msgid "%1$s at %2$s"
 msgstr ""
 
-#: image.php:98 library/inc/content/content-pages.php:36
-#: post-formats/format-standard.php:25
-msgid "Pages:"
+#: library/inc/extensions/comments.php:50
+msgid "Your comment is awaiting moderation."
 msgstr ""
 
-#: library/inc/content/content-posts.php:30
-#: post-formats/format-portfolio.php:28
-msgid "%s"
+#: library/inc/extensions/comments.php:58
+msgid "Reply"
 msgstr ""
 
-#: library/inc/content/content-posts.php:102
-#: library/inc/functions/post-meta.php:44
-#: library/inc/functions/post-meta.php:50
-msgid "View all posts in %s"
+#: library/inc/extensions/sidebars.php:24
+msgid "Primary Sidebar"
+msgstr ""
+
+#: library/inc/extensions/sidebars.php:37
+msgid "Secondary Sidebar"
+msgstr ""
+
+#: library/inc/extensions/sidebars.php:50
+msgid "Front Page Primary"
+msgstr ""
+
+#: library/inc/extensions/sidebars.php:63
+msgid "Front Page Secondary"
+msgstr ""
+
+#: library/inc/extensions/sidebars.php:79
+msgid "Peu"
+msgstr ""
+
+#: library/inc/extensions/sidebars.php:108
+msgid "Invalid sidebar ID"
 msgstr ""
 
 #: library/inc/customizer/customize.php:102
@@ -484,6 +164,11 @@ msgstr ""
 #: library/inc/metaboxes/custom-meta.php:123
 #: library/inc/metaboxes/custom-meta.php:179
 msgid "Select"
+msgstr ""
+
+#: library/inc/customizer/customize.php:171
+#: custom-tac/capcalera/icones-capcalera-settings.php:255
+msgid "General"
 msgstr ""
 
 #: library/inc/customizer/customize.php:182
@@ -698,14 +383,12 @@ msgstr ""
 msgid "Show Page Links"
 msgstr ""
 
-#. #-#-#-#-#  reactor.pot (NODES GENERAL 1.0.0)  #-#-#-#-#
-#. Template Name of the plugin/theme
+#. Template Name of the theme
 #: library/inc/customizer/customize.php:667
 msgid "News Page"
 msgstr ""
 
-#. #-#-#-#-#  reactor.pot (NODES GENERAL 1.0.0)  #-#-#-#-#
-#. Template Name of the plugin/theme
+#. Template Name of the theme
 #: library/inc/customizer/customize.php:747
 msgid "Contact Page"
 msgstr ""
@@ -714,7 +397,8 @@ msgstr ""
 msgid "Email Address"
 msgstr ""
 
-#: library/inc/customizer/customize.php:766 page-templates/contact.php:14
+#: library/inc/customizer/customize.php:766
+#: page-templates/contact.php:14
 msgid " - Contact Form Message"
 msgstr ""
 
@@ -722,7 +406,8 @@ msgstr ""
 msgid "Email Subject"
 msgstr ""
 
-#: library/inc/customizer/customize.php:779 page-templates/contact.php:15
+#: library/inc/customizer/customize.php:779
+#: page-templates/contact.php:15
 msgid "Thank you! Your email was sent successfully."
 msgstr ""
 
@@ -758,69 +443,136 @@ msgstr ""
 msgid "Show Meta"
 msgstr ""
 
-#: library/inc/extensions/comments.php:23
-msgid "Pingback:"
+#: library/inc/metaboxes/meta-fields.php:21
+msgid "Sense barres laterals"
 msgstr ""
 
-#: library/inc/extensions/comments.php:38
-msgid "Post author"
+#: library/inc/metaboxes/meta-fields.php:23
+msgid "Barra esquerra (Ginys)"
 msgstr ""
 
-#. translators: 1: date, 2: time
-#: library/inc/extensions/comments.php:44
-msgid "%1$s at %2$s"
+#: library/inc/metaboxes/meta-fields.php:170
+msgid "URL"
 msgstr ""
 
-#: library/inc/extensions/comments.php:50
-msgid "Your comment is awaiting moderation."
+#: library/inc/metaboxes/meta-fields.php:171
+msgid "A URL for the slide title to direct to (ex. http://awtheme.com)"
 msgstr ""
 
-#: library/inc/extensions/comments.php:58
-msgid "Reply"
+#: library/inc/metaboxes/meta-fields.php:181
+msgid "Només aplica si la Plantilla és del tipus \"Plantilla predeterminada\""
 msgstr ""
 
-#: library/inc/extensions/menus.php:31
-msgid "Top Bar Left"
+#: library/inc/metaboxes/meta-fields.php:204
+msgid "Slide Link"
 msgstr ""
 
-#: library/inc/extensions/menus.php:35
-msgid "Top Bar Right"
+#: library/inc/metaboxes/meta-fields.php:208
+msgid "Esquema"
 msgstr ""
 
-#: library/inc/extensions/menus.php:39
-msgid "Main Menu"
+#: library/inc/metaboxes/custom-meta.php:128
+#: library/inc/metaboxes/custom-meta.php:196
+msgid "Manage "
 msgstr ""
 
-#: library/inc/extensions/menus.php:43
-msgid "Footer Links"
+#: library/inc/metaboxes/custom-meta.php:169
+msgid "Available "
 msgstr ""
 
-#: library/inc/extensions/menus.php:160
-msgid "&larr; Home"
+#: library/inc/metaboxes/custom-meta.php:231
+msgid "Choose File"
 msgstr ""
 
-#: library/inc/extensions/sidebars.php:24
-msgid "Primary Sidebar"
+#: library/inc/metaboxes/custom-meta.php:232
+msgid "Remove File"
 msgstr ""
 
-#: library/inc/extensions/sidebars.php:37
-msgid "Secondary Sidebar"
+#: library/inc/metaboxes/custom-meta.php:241
+#: library/inc/metaboxes/custom-meta.php:271
+msgid "Fields"
 msgstr ""
 
-#: library/inc/extensions/sidebars.php:50
-msgid "Front Page Primary"
+#: library/inc/widgets/recent-posts.php:11
+msgid "The most recent posts on your site"
 msgstr ""
 
-#: library/inc/extensions/sidebars.php:63
-msgid "Front Page Secondary"
+#: library/inc/widgets/recent-posts.php:12
+#: library/inc/widgets/recent-posts.php:37
+msgid "Recent Posts"
 msgstr ""
 
-#: library/inc/extensions/sidebars.php:79
-msgid "Peu"
+#: library/inc/widgets/recent-posts.php:86
+msgid "Title:"
 msgstr ""
 
-#: library/inc/extensions/sidebars.php:108
-msgid "Invalid sidebar ID"
+#: library/inc/widgets/recent-posts.php:89
+msgid "Number of posts to show:"
+msgstr ""
+
+#: library/inc/widgets/recent-posts.php:93
+msgid "Exclude Category(s):"
+msgstr ""
+
+#: library/inc/widgets/recent-posts.php:95
+msgid "Category IDs, separated by commas."
+msgstr ""
+
+#: library/inc/functions/post-meta.php:44
+#: library/inc/functions/post-meta.php:50
+msgid "View all posts in %s"
+msgstr ""
+
+#: library/inc/functions/post-meta.php:68
+msgid "View all posts from %s %s"
+msgstr ""
+
+#: library/inc/functions/post-meta.php:75
+msgid "View all posts by %s"
+msgstr ""
+
+#: library/inc/functions/post-meta.php:84
+msgid "by"
+msgstr ""
+
+#: library/inc/functions/post-meta.php:85
+msgid "in"
+msgstr ""
+
+#: library/inc/functions/post-meta.php:86
+msgid "Tags:"
+msgstr ""
+
+#: library/inc/functions/post-meta.php:89
+msgid "Posted: "
+msgstr ""
+
+#: library/inc/functions/page-links.php:42
+msgid "Older posts"
+msgstr ""
+
+#: library/inc/functions/page-links.php:45
+msgid "Newer posts"
+msgstr ""
+
+#: library/inc/functions/page-links.php:72
+msgid "&laquo; Previous"
+msgstr ""
+
+#: library/inc/functions/page-links.php:73
+msgid "Next &raquo;"
+msgstr ""
+
+#: library/inc/functions/page-links.php:121
+msgid "&hellip;"
+msgstr ""
+
+#: library/inc/functions/taxonomy-subnav.php:18
+msgid "All"
+msgstr ""
+
+#: library/inc/functions/taxonomy-subnav.php:30
+msgid "Categories: "
 msgstr ""
 
 #: library/inc/functions/breadcrumbs.php:173
@@ -868,208 +620,285 @@ msgid "F"
 msgstr ""
 
 #: library/inc/functions/breadcrumbs.php:184
-#: library/inc/functions/breadcrumbs.php:1050
 msgid "Y"
-msgstr ""
-
-#: library/inc/functions/breadcrumbs.php:1054
-msgid "F Y"
-msgstr ""
-
-#: library/inc/functions/breadcrumbs.php:1058
-msgid "F j, Y"
-msgstr ""
-
-#: library/inc/functions/breadcrumbs.php:1177
-msgid "Split"
-msgstr ""
-
-#: library/inc/functions/breadcrumbs.php:1181
-msgid "Merge"
 msgstr ""
 
 #: library/inc/functions/helpers.php:291
 msgid "Page %s"
 msgstr ""
 
-#: library/inc/functions/page-links.php:42
-msgid "Older posts"
+#: comments.php:19
+msgid "This post is password protected. Enter the password to view comments."
 msgstr ""
 
-#: library/inc/functions/page-links.php:45
-msgid "Newer posts"
+#: comments.php:32
+msgid "NO Comments"
 msgstr ""
 
-#: library/inc/functions/page-links.php:72
-msgid "&laquo; Previous"
+#: comments.php:32
+msgid "1 Comment"
 msgstr ""
 
-#: library/inc/functions/page-links.php:73
-msgid "Next &raquo;"
+#: comments.php:32
+msgid "% Comments"
 msgstr ""
 
-#: library/inc/functions/page-links.php:121
-msgid "&hellip;"
+#: comments.php:43
+msgid "&larr; Older Comments"
 msgstr ""
 
-#: library/inc/functions/post-meta.php:68
-msgid "View all posts from %s %s"
+#: comments.php:44
+msgid "Newer Comments &rarr;"
 msgstr ""
 
-#: library/inc/functions/post-meta.php:75
-msgid "View all posts by %s"
+#: comments.php:69
+msgid "Name "
 msgstr ""
 
-#: library/inc/functions/post-meta.php:84
-msgid "by"
+#: comments.php:69
+#: comments.php:71
+msgid "( required )"
 msgstr ""
 
-#: library/inc/functions/post-meta.php:85
-msgid "in"
+#: comments.php:69
+msgid "Your Name*"
 msgstr ""
 
-#: library/inc/functions/post-meta.php:86
-msgid "Tags:"
+#: comments.php:71
+msgid "Email "
 msgstr ""
 
-#: library/inc/functions/post-meta.php:89
-msgid "Posted: "
+#: comments.php:71
+msgid "Your E-Mail*"
 msgstr ""
 
-#: library/inc/functions/taxonomy-subnav.php:18
-msgid "All"
+#: comments.php:73
+msgid "Website "
 msgstr ""
 
-#: library/inc/functions/taxonomy-subnav.php:30
-msgid "Categories: "
+#: comments.php:73
+msgid "URL "
 msgstr ""
 
-#: library/inc/functions/top-bar.php:81 library/inc/functions/top-bar.php:84
-#: searchform.php:15 searchform.php:18
-msgid "Search"
+#: comments.php:76
+msgid "Your Comment here..."
 msgstr ""
 
-#: library/inc/metaboxes/custom-meta.php:128
-#: library/inc/metaboxes/custom-meta.php:196
-msgid "Manage "
+#: comments.php:78
+msgid "You can use these tags"
 msgstr ""
 
-#: library/inc/metaboxes/custom-meta.php:169
-msgid "Available "
+#: custom-tac/capcalera/icones-capcalera-settings.php:29
+#: custom-tac/capcalera/icones-capcalera-settings.php:47
+msgid "Icones de capçalera"
 msgstr ""
 
-#: library/inc/metaboxes/custom-meta.php:231
-msgid "Choose File"
+#: custom-tac/capcalera/icones-capcalera-settings.php:60
+msgid "Icones disponibles"
 msgstr ""
 
-#: library/inc/metaboxes/custom-meta.php:232
-msgid "Remove File"
+#: custom-tac/capcalera/icones-capcalera-settings.php:61
+msgid "Copia el nom de la icona i enganxa'l a la posició desitjada."
 msgstr ""
 
-#: library/inc/metaboxes/custom-meta.php:241
-#: library/inc/metaboxes/custom-meta.php:271
-msgid "Fields"
+#: custom-tac/capcalera/icones-capcalera-settings.php:108
+msgid "Icones a la fila 1"
 msgstr ""
 
-#: library/inc/metaboxes/meta-fields.php:21
-msgid "Sense barres laterals"
+#: custom-tac/capcalera/icones-capcalera-settings.php:116
+#: custom-tac/capcalera/icones-capcalera-settings.php:190
+msgid "Element 1:"
 msgstr ""
 
-#: library/inc/metaboxes/meta-fields.php:23
-msgid "Barra esquerra (Ginys)"
+#: custom-tac/capcalera/icones-capcalera-settings.php:124
+#: custom-tac/capcalera/icones-capcalera-settings.php:157
+#: custom-tac/capcalera/icones-capcalera-settings.php:198
+#: custom-tac/capcalera/icones-capcalera-settings.php:231
+msgid "Icona:"
 msgstr ""
 
-#: library/inc/metaboxes/meta-fields.php:170
-msgid "URL"
+#: custom-tac/capcalera/icones-capcalera-settings.php:132
+#: custom-tac/capcalera/icones-capcalera-settings.php:165
+#: custom-tac/capcalera/icones-capcalera-settings.php:206
+#: custom-tac/capcalera/icones-capcalera-settings.php:239
+msgid "Enllaç:"
 msgstr ""
 
-#: library/inc/metaboxes/meta-fields.php:171
-msgid "A URL for the slide title to direct to (ex. http://awtheme.com)"
+#: custom-tac/capcalera/icones-capcalera-settings.php:149
+#: custom-tac/capcalera/icones-capcalera-settings.php:223
+msgid "Element 2:"
 msgstr ""
 
-#: library/inc/metaboxes/meta-fields.php:181
-msgid "Només aplica si la Plantilla és del tipus \"Plantilla predeterminada\""
+#: custom-tac/capcalera/icones-capcalera-settings.php:182
+msgid "Icones a la fila 2"
 msgstr ""
 
-#: library/inc/metaboxes/meta-fields.php:204
-msgid "Slide Link"
+#: custom-tac/capcalera/icones-capcalera-settings.php:263
+msgid "Mostra text sota la icona:"
 msgstr ""
 
-#: library/inc/metaboxes/meta-fields.php:208
-msgid "Esquema"
+#: custom-tac/metabox-post-parametres.php:15
+msgid "Parameters"
 msgstr ""
 
-#: library/inc/widgets/recent-posts.php:11
-msgid "The most recent posts on your site"
+#: custom-tac/metabox-post-parametres.php:41
+msgid "Summary image in original size"
 msgstr ""
 
-#: library/inc/widgets/recent-posts.php:12
-#: library/inc/widgets/recent-posts.php:37
-msgid "Recent Posts"
+#: custom-tac/metabox-post-parametres.php:42
+msgid "View full content"
 msgstr ""
 
-#: library/inc/widgets/recent-posts.php:86
-msgid "Title:"
+#: custom-tac/metabox-post-parametres.php:43
+msgid "Hide title"
 msgstr ""
 
-#: library/inc/widgets/recent-posts.php:89
-msgid "Number of posts to show:"
+#: custom-tac/metabox-post-parametres.php:44
+msgid "Hide metadata"
 msgstr ""
 
-#: library/inc/widgets/recent-posts.php:93
-msgid "Exclude Category(s):"
+#: custom-tac/metabox-post-parametres.php:50
+msgid "Icon"
 msgstr ""
 
-#: library/inc/widgets/recent-posts.php:95
-msgid "Category IDs, separated by commas."
+#: custom-tac/metabox-post-parametres.php:53
+msgid "Video"
 msgstr ""
 
-#: post-formats/format-none.php:13
-msgid "Nothing Found"
+#: custom-tac/metabox-post-parametres.php:54
+msgid "Photo/Slideshow"
 msgstr ""
 
-#: post-formats/format-none.php:17
-msgid ""
-"Apologies, but no results were found. Perhaps searching will help find a "
-"related post."
+#: custom-tac/metabox-post-parametres.php:55
+msgid "Podcast"
 msgstr ""
 
-#: searchform.php:13
-msgid "Search for:"
+#: custom-tac/metabox-post-parametres.php:56
+msgid "Document"
 msgstr ""
 
-#: taxonomy-portfolio-category.php:24
-msgid "Category: %s"
+#: custom-tac/metabox-post-parametres.php:57
+msgid "Music"
+msgstr ""
+
+#: custom-tac/metabox-post-parametres.php:58
+msgid "Alert"
+msgstr ""
+
+#: custom-tac/welcome-panel.php:21
+msgid "Welcome to NODES"
+msgstr ""
+
+#: custom-tac/welcome-panel.php:22
+msgid "Project for the new website from Departament d'Ensenyament"
+msgstr ""
+
+#: custom-tac/welcome-panel.php:26
+msgid "Actions"
+msgstr ""
+
+#: custom-tac/welcome-panel.php:28
+msgid "Customize"
+msgstr ""
+
+#: custom-tac/welcome-panel.php:30
+#: custom-tac/welcome-panel.php:33
+msgid "Edit Home Page"
+msgstr ""
+
+#: custom-tac/welcome-panel.php:31
+msgid "Header icons"
+msgstr ""
+
+#: custom-tac/welcome-panel.php:34
+msgid "Add additional pages"
+msgstr ""
+
+#: custom-tac/welcome-panel.php:35
+msgid "Add a blog post"
+msgstr ""
+
+#: custom-tac/welcome-panel.php:37
+msgid "Write your first blog post"
+msgstr ""
+
+#: custom-tac/welcome-panel.php:38
+msgid "Add an About page"
+msgstr ""
+
+#: custom-tac/welcome-panel.php:44
+msgid "More Actions"
+msgstr ""
+
+#: custom-tac/welcome-panel.php:46
+msgid "Manage <a href=\"%1$s\">widgets</a> or <a href=\"%2$s\">menus</a>"
+msgstr ""
+
+#: custom-tac/welcome-panel.php:47
+msgid "Bookings"
+msgstr ""
+
+#: custom-tac/welcome-panel.php:48
+msgid "BuddyPress"
+msgstr ""
+
+#: custom-tac/welcome-panel.php:53
+msgid "Do you need help?"
+msgstr ""
+
+#: custom-tac/welcome-panel.php:55
+msgid "FAQ"
+msgstr ""
+
+#: custom-tac/welcome-panel.php:56
+msgid "Support"
+msgstr ""
+
+#: functions.php:157
+msgid "Categories (Barra esquerra)"
+msgstr ""
+
+#: functions.php:255
+msgid "Components"
+msgstr ""
+
+#: functions.php:260
+#: functions.php:339
+msgid "Configuració"
+msgstr ""
+
+#: image.php:32
+msgid "<span class=\"meta-prep meta-prep-entry-date\">Published </span> <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\" pubdate>%2$s</time></span> at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%8$s</a>."
+msgstr ""
+
+#: image.php:47
+msgid "&larr; Previous"
+msgstr ""
+
+#: image.php:48
+msgid "Next &rarr;"
+msgstr ""
+
+#: 404.php:25
+msgid "This is somewhat embarrassing, isn&rsquo;t it?"
+msgstr ""
+
+#: 404.php:29
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching will help."
 msgstr ""
 
 #: taxonomy-portfolio-tag.php:24
 msgid "Tag: %s"
 msgstr ""
 
-#. Theme Name of the plugin/theme
-msgid "NODES GENERAL"
-msgstr ""
-
-#. Description of the plugin/theme
-msgid "Tema desenvolupat pel Departament d'Ensenyament de Catalunya"
-msgstr ""
-
-#. Author of the plugin/theme
-msgid "Albert Bachiller"
-msgstr ""
-
-#. Author URI of the plugin/theme
-msgid "http://jurjur.org"
-msgstr ""
-
-#. Template Name of the plugin/theme
+#. Template Name of the theme
 msgid "Portada"
 msgstr ""
 
-#. Template Name of the plugin/theme
+#. Template Name of the theme
 msgid "Portfolio"
 msgstr ""
 
-#. Template Name of the plugin/theme
+#. Template Name of the theme
 msgid "Barra esquerra (Subpàgines)"
 msgstr ""

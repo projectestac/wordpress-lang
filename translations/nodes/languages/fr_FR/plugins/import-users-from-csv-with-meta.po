@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: WordPress Blank Pot v1.0.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/import-users-from-"
 "csv-with-meta\n"
-"POT-Creation-Date: 2019-04-05 07:48:22+00:00\n"
+"POT-Creation-Date: 2019-04-11T16:48:41+02:00\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Joan Sala Soler <jsala236@xtec.cat>\n"
 "Language-Team: Your Team <translations@example.com>\n"
@@ -75,16 +75,6 @@ msgstr "-- Finis à"
 #: classes/homepage.php:80
 msgid "<em>or you can choose directly a file from your host,"
 msgstr "<em>ou vous pouvez choisir directement un fichier de votre hôte,"
-
-#: smtp.php:145
-msgid ""
-"<strong>Please Note:</strong> You appear to be using a version of WordPress "
-"prior to 2.3. Please ignore the From Name field and instead enter Name&lt;"
-"email@domain.com&gt; in this field."
-msgstr ""
-"<strong>Remarque :</strong> Vous semblez utiliser une version de WordPress < "
-"2.3. Veuillez ignorer le champ de nom et entrez le nom&lt;email@domaine."
-"com&gt; dans ce champ."
 
 #: classes/doc.php:72 classes/homepage.php:459
 msgid "A string containing content about the user."
@@ -156,13 +146,13 @@ msgstr "Activer les utilisateurs lors de leur importation"
 msgid "Add new email template"
 msgstr ""
 
-#: classes/cron.php:200 classes/frontend.php:103 classes/homepage.php:210
+#: classes/homepage.php:210 classes/frontend.php:103 classes/cron.php:200
 msgid ""
 "After delete users, we can choose if we want to assign their posts to "
 "another user. Please do not delete them or posts will be deleted."
 msgstr ""
 
-#: classes/cron.php:220 classes/frontend.php:123 classes/homepage.php:231
+#: classes/homepage.php:231 classes/frontend.php:123 classes/cron.php:220
 msgid ""
 "After import users which is not present in the CSV and can be changed to a "
 "different role."
@@ -233,14 +223,10 @@ msgstr ""
 msgid "Are you sure to delete this file?"
 msgstr "Voulez-vous vraiment supprimer ce fichier ?"
 
-#: classes/email-options.php:74 classes/email-templates.php:113
-#: classes/email-templates.php:125
+#: classes/email-templates.php:113 classes/email-templates.php:125
+#: classes/email-options.php:74
 msgid "Attachment"
 msgstr ""
-
-#: smtp.php:208
-msgid "Authentication"
-msgstr "Authentification"
 
 #: classes/cron.php:156
 msgid "Auto rename after move?"
@@ -283,7 +269,7 @@ msgid ""
 "CSV to be sure the format is correct"
 msgstr ""
 
-#: classes/cron.php:206 classes/frontend.php:109 classes/homepage.php:216
+#: classes/homepage.php:216 classes/frontend.php:109 classes/cron.php:206
 msgid "Change role of users that are not present in the CSV?"
 msgstr ""
 
@@ -331,8 +317,8 @@ msgstr "Supprimer"
 msgid "Delete all CSV files uploaded"
 msgstr "Supprimer tous les fichiers CSV téléchargés"
 
-#: classes/cron.php:186 classes/cron.php:188 classes/frontend.php:89
-#: classes/frontend.php:91 classes/homepage.php:201
+#: classes/homepage.php:201 classes/frontend.php:89 classes/frontend.php:91
+#: classes/cron.php:186 classes/cron.php:188
 msgid "Delete posts of deled users without assing to any user"
 msgstr ""
 
@@ -340,7 +326,7 @@ msgstr ""
 msgid "Delete the metadata"
 msgstr "Supprimer les métadonnées"
 
-#: classes/cron.php:177 classes/frontend.php:80 classes/homepage.php:194
+#: classes/homepage.php:194 classes/frontend.php:80 classes/cron.php:177
 msgid "Delete users that are not present in the CSV?"
 msgstr "Supprimer les utilisateurs qui ne sont pas présents dans le CSV ?"
 
@@ -367,14 +353,6 @@ msgstr "Vous aimez cette extension ?"
 #: classes/email-options.php:48
 msgid "Do you want to enable mail templates?"
 msgstr ""
-
-#: smtp.php:124
-msgid ""
-"Do you want to use your own SMTP settings for this plugin or the WordPress "
-"settings."
-msgstr ""
-"Voulez-vous utiliser vos propres paramètres SMTP pour cette extension ou les "
-"paramètres WordPress."
 
 #: classes/homepage.php:146
 msgid "Do you wish to send a mail with credentials and other data?"
@@ -439,10 +417,6 @@ msgstr ""
 #: classes/email-options.php:44
 msgid "Enable mail templates:"
 msgstr ""
-
-#: smtp.php:195 smtp.php:198
-msgid "Encryption"
-msgstr "Chiffrement"
 
 #: import-users-from-csv-with-meta.php:329
 msgid "Error, the file"
@@ -527,21 +501,9 @@ msgstr ""
 msgid "Free support (in WordPress forums):"
 msgstr "Support gratuit (dans les forums WordPress) :"
 
-#: smtp.php:143
-msgid "From Email"
-msgstr "Courriel source de l’envoi"
-
-#: smtp.php:148
-msgid "From Name"
-msgstr "Nom de l’envoyeur"
-
 #: classes/homepage.php:63
 msgid "General"
 msgstr ""
-
-#: smtp.php:123
-msgid "Global options"
-msgstr "Options globales"
 
 #: classes/homepage.php:389
 msgid "Help"
@@ -570,11 +532,6 @@ msgstr ""
 "Si l’ID <strong>existe</strong> : l’extension va vérifier si le nom "
 "d’utilisateur est le même, si oui, il va mettre à jour les données, si non, "
 "il ignore la cellule pour éviter les problèmes"
-
-#: smtp.php:214
-msgid "If this is set to no, the values below are ignored."
-msgstr ""
-"Si cette valeur est définie sur non, les valeurs ci-dessous sont ignorées."
 
 #: classes/doc.php:46
 msgid ""
@@ -623,17 +580,12 @@ msgid ""
 "separate items"
 msgstr ""
 
-#: addons/acui-users-group.php:24 addons/acui-wp-users-group.php:24
-#: addons/users-group.php:24 addons/wp-users-group.php:24
+#: addons/acui-wp-users-group.php:24 addons/acui-users-group.php:24
+#: addons/wp-users-group.php:24 addons/users-group.php:24
 msgid ""
 "If you want to import multiple values, you can use a list using commas to "
 "separate items"
 msgstr ""
-
-#: smtp.php:118
-msgid "Import User From CSV With Meta - SMTP server options"
-msgstr ""
-"Importer un utilisateur à partir de CSV avec Meta - Options du serveur SMTP"
 
 #: import-users-from-csv-with-meta.php:504
 msgid "Import cron task starts at"
@@ -643,7 +595,7 @@ msgstr "La tâche cron d’importation commence à"
 msgid "Import users from CSV"
 msgstr "Importer des utilisateurs à partir de CSV"
 
-#. Plugin Name of the plugin/theme
+#. Plugin Name of the plugin
 #, fuzzy
 msgid "Import users from CSV with meta"
 msgstr ""
@@ -757,14 +709,6 @@ msgstr "Modèle de courriel mis à jour correctement"
 msgid "Mail templates for Import Users From CSV With Meta"
 msgstr ""
 
-#: smtp.php:156 smtp.php:159
-msgid "Mailer"
-msgstr "Mailer"
-
-#: smtp.php:78
-msgid "Message sent successfully"
-msgstr "Message envoyé avec succès"
-
 #: classes/cron.php:142
 msgid "Move file after import?"
 msgstr "Déplacer le fichier après l'importation ?"
@@ -795,14 +739,6 @@ msgstr ""
 msgid "No"
 msgstr "Non"
 
-#: smtp.php:200
-msgid "No encryption."
-msgstr "Pas de chiffrement."
-
-#: smtp.php:211
-msgid "No: Do not use SMTP authentication."
-msgstr "Non : ne pas utiliser l'authentification SMTP."
-
 #: import-users-from-csv-with-meta.php:281
 #: import-users-from-csv-with-meta.php:402 include/shortcode-frontend.php:12
 msgid "Nonce check failed"
@@ -832,8 +768,8 @@ msgstr ""
 msgid "Old CSV files uploaded"
 msgstr "Anciens fichiers CSV téléchargés"
 
+#: addons/new-user-approve.php:23 addons/buddypress.php:41
 #: addons/allow-multiple-accounts.php:23 addons/allow-multiple-accounts.php:42
-#: addons/buddypress.php:41 addons/new-user-approve.php:23
 #: addons/wp-members.php:24 addons/wp-members.php:47
 msgid "Only for"
 msgstr "Seulement pour"
@@ -855,7 +791,6 @@ msgid "Parent Item:"
 msgstr ""
 
 #: classes/homepage.php:410 import-users-from-csv-with-meta.php:269
-#: smtp.php:222
 msgid "Password"
 msgstr "Mot de passe"
 
@@ -949,7 +884,7 @@ msgstr ""
 msgid "Remove featured image"
 msgstr ""
 
-#: classes/email-options.php:78 classes/email-templates.php:129
+#: classes/email-templates.php:129 classes/email-options.php:78
 msgid "Remove file"
 msgstr ""
 
@@ -957,11 +892,7 @@ msgstr ""
 msgid "Repeated email in different users?"
 msgstr "Courriel répété dans différents utilisateurs ?"
 
-#: smtp.php:171 smtp.php:174
-msgid "Return Path"
-msgstr "Chemin de retour"
-
-#: classes/cron.php:112 classes/frontend.php:37
+#: classes/frontend.php:37 classes/cron.php:112
 msgid "Role"
 msgstr "Rôle"
 
@@ -976,22 +907,6 @@ msgstr "Rangée"
 #: importer.php:188
 msgid "Row number"
 msgstr "Numéro de rangée"
-
-#: smtp.php:187
-msgid "SMTP Host"
-msgstr "Hôte SMTP"
-
-#: smtp.php:182
-msgid "SMTP Options"
-msgstr "Options SMTP"
-
-#: smtp.php:191
-msgid "SMTP Port"
-msgstr "Port SMTP"
-
-#: smtp.php:227
-msgid "Save Changes"
-msgstr "Sauvegarder les changements"
 
 #: classes/email-options.php:83
 msgid "Save email template and options"
@@ -1014,27 +929,15 @@ msgstr "Enregistrer les options de planification"
 msgid "Search email template"
 msgstr ""
 
-#: smtp.php:26 smtp.php:241
-msgid "Send Test"
-msgstr "Envoyer un courriel de test"
-
-#: smtp.php:230
-msgid "Send a Test Email"
-msgstr "Envoyer un courriel de test"
-
 #: classes/email-options.php:31
 msgid "Send automattic WordPress emails?"
 msgstr "Envoyer des courriels automatiques WordPress ?"
-
-#: smtp.php:161
-msgid "Send emails of this plugin via SMTP."
-msgstr "Envoyez des emails de cette extension via SMTP."
 
 #: classes/homepage.php:143
 msgid "Send mail"
 msgstr "Envoyer le courriel"
 
-#: classes/cron.php:105 classes/frontend.php:67
+#: classes/frontend.php:67 classes/cron.php:105
 msgid "Send mail also to users that are being updated?"
 msgstr "Envoyer également aux utilisateurs qui sont mis à jour ?"
 
@@ -1055,10 +958,6 @@ msgstr "Aucune donnée fournie."
 msgid "Set featured image"
 msgstr ""
 
-#: smtp.php:176
-msgid "Set the return-path to match the From Email"
-msgstr "Définissez le courriel pour correspondre à De"
-
 #: classes/homepage.php:400
 #, fuzzy
 msgid "Sets the username."
@@ -1074,10 +973,6 @@ msgstr "courriel utilisateur"
 msgid "Sets user password."
 msgstr "mot de passe utilisateur"
 
-#: smtp.php:128
-msgid "Settings"
-msgstr "Paramètres"
-
 #: import-users-from-csv-with-meta.php:385
 #: import-users-from-csv-with-meta.php:498
 msgid "Settings updated correctly"
@@ -1092,22 +987,6 @@ msgstr "Profil"
 msgid "Start importing"
 msgstr "Démarrer l’importation"
 
-#: smtp.php:82
-msgid "Test Message Sent"
-msgstr "Message de test envoyé"
-
-#: smtp.php:39
-msgid "Test mail to "
-msgstr "Tester le courriel pour"
-
-#: smtp.php:87
-msgid "The SMTP debugging output is shown below:"
-msgstr "La sortie de débogage SMTP est illustrée ci-dessous :"
-
-#: smtp.php:85
-msgid "The full debugging output is shown below:"
-msgstr "La sortie de débogage complète est montrée ci-dessous :"
-
 #: classes/homepage.php:416
 #, fuzzy
 msgid ""
@@ -1117,10 +996,6 @@ msgstr ""
 "(Les colonnes suivantes sont totalement personnalisables et vous pouvez "
 "utiliser ce que vous voulez. Toutes les lignes doivent contenir les mêmes "
 "colonnes)"
-
-#: smtp.php:83
-msgid "The result was:"
-msgstr "Le résultat est :"
 
 #: classes/doc.php:70 classes/homepage.php:447
 msgid "The user's first name."
@@ -1142,8 +1017,8 @@ msgid ""
 "use slugs)"
 msgstr ""
 
-#: addons/acui-users-group.php:23 addons/acui-wp-users-group.php:23
-#: addons/users-group.php:23 addons/wp-users-group.php:23
+#: addons/acui-wp-users-group.php:23 addons/acui-users-group.php:23
+#: addons/wp-users-group.php:23 addons/users-group.php:23
 msgid ""
 "The value of each cell will be the name of the user group (do not use slugs)"
 msgstr ""
@@ -1168,36 +1043,11 @@ msgstr ""
 msgid "There were problems deleting the files, please check files permissions"
 msgstr "Des problèmes ont été rencontrés lors de la suppression des fichiers."
 
-#: smtp.php:183
-msgid "These options only apply if you have chosen to send mail by SMTP above."
-msgstr ""
-"Ces options s'appliquent uniquement si vous avez choisi d'envoyer des "
-"messages par SMTP ci-dessus."
-
-#: smtp.php:40
-msgid ""
-"This is a test email generated by the Import User From CSV With Meta "
-"WordPress plugin."
-msgstr ""
-"Il s'agit d'un test de courrier électronique généré par l'utilisateur "
-"d'importation de CSV avec l’extension Meta WordPress."
-
-#. Description of the plugin/theme
+#. Description of the plugin
 msgid ""
 "This plugins allows to import users using CSV files to WP database "
 "automatically"
 msgstr ""
-
-#: smtp.php:236
-msgid "To:"
-msgstr "A :"
-
-#: smtp.php:238
-msgid ""
-"Type an email address here and then click Send Test to generate a test email."
-msgstr ""
-"Entrez une adresse courriel ici, puis cliquez sur Envoyer un test pour "
-"générer un courriel de test."
 
 #: import-users-from-csv-with-meta.php:99
 #: import-users-from-csv-with-meta.php:269
@@ -1218,7 +1068,7 @@ msgstr ""
 msgid "Update existing users?"
 msgstr "Mettre à jour les utilisateurs existants ?"
 
-#: classes/cron.php:135 classes/homepage.php:176
+#: classes/homepage.php:176 classes/cron.php:135
 msgid "Update roles for existing users?"
 msgstr "Mise à jour des rôles pour les utilisateurs existants ?"
 
@@ -1231,7 +1081,7 @@ msgstr ""
 msgid "Upload and process"
 msgstr "Le téléchargement a échoué."
 
-#: classes/email-options.php:77 classes/email-templates.php:128
+#: classes/email-templates.php:128 classes/email-options.php:77
 msgid "Upload file"
 msgstr ""
 
@@ -1239,41 +1089,13 @@ msgstr ""
 msgid "Uploaded to this email template"
 msgstr ""
 
-#: smtp.php:202
-msgid "Use SSL encryption."
-msgstr "Utiliser le chiffrage SSL."
-
-#: smtp.php:204
-msgid ""
-"Use TLS encryption. This is not the same as STARTTLS. For most servers SSL "
-"is the recommended option."
-msgstr ""
-"Utilisez le chiffrage TLS. Ce n'est pas la même chose que STARTTLS. Pour la "
-"plupart des serveurs l'option SSL est recommandée."
-
-#: smtp.php:135
-msgid "Use WordPress general settings to send mail."
-msgstr "Utilisez les paramètres généraux WordPress pour envoyer les courriels."
-
 #: classes/email-templates.php:41
 msgid "Use as featured image"
 msgstr ""
 
-#: smtp.php:131
-msgid "Use plugin SMTP settings"
-msgstr "Utiliser les paramètres SMTP de l’extension"
-
-#: smtp.php:163
-msgid "Use the PHP mail() function to send emails."
-msgstr "Utilisez la fonction PHP mail() pour envoyer des courriels."
-
 #: classes/email-options.php:102
 msgid "Use this file"
 msgstr ""
-
-#: smtp.php:133
-msgid "Use this settings to send mail."
-msgstr "Utilisez ces paramètres pour envoyer les courriels."
 
 #: classes/frontend.php:29
 msgid "Use this shortcode in any page or post"
@@ -1297,17 +1119,13 @@ msgstr "Compte Yahoo IM de l'utilisateur."
 
 #: classes/doc.php:15 classes/homepage.php:398
 #: import-users-from-csv-with-meta.php:99
-#: import-users-from-csv-with-meta.php:269 smtp.php:218
+#: import-users-from-csv-with-meta.php:269
 msgid "Username"
 msgstr "Nom d’utilisateur"
 
-#: classes/cron.php:171 classes/frontend.php:75 classes/homepage.php:188
+#: classes/homepage.php:188 classes/frontend.php:75 classes/cron.php:171
 msgid "Users not present in CSV file"
 msgstr ""
-
-#: classes/doc.php:76
-msgid "Using the WordPress format for this kind of data Y-m-d H:i:s."
-msgstr "Utilisation du format WordPress pour ce type de données Y-m-d H:i:s."
 
 #: classes/email-templates.php:33
 msgid "View email template"
@@ -1325,8 +1143,8 @@ msgstr "Membres WP"
 msgid "WP Members compatibility"
 msgstr ""
 
-#: addons/acui-users-group.php:18 addons/acui-wp-users-group.php:18
-#: addons/users-group.php:18 addons/wp-users-group.php:18
+#: addons/acui-wp-users-group.php:18 addons/acui-users-group.php:18
+#: addons/wp-users-group.php:18 addons/users-group.php:18
 #, fuzzy
 msgid "WP Users Group is activated"
 msgstr "Sélectionnez un groupe auquel ajouter les nouveaux abonnés du site."
@@ -1364,7 +1182,7 @@ msgstr "Que doit faire l’extension avec les cellules vides ?"
 msgid "Where do I get this info?"
 msgstr ""
 
-#: classes/cron.php:130 classes/frontend.php:55
+#: classes/frontend.php:55 classes/cron.php:130
 msgid "Which role would be used to import users?"
 msgstr "Quel rôle serait utilisé pour importer des utilisateurs ?"
 
@@ -1397,10 +1215,6 @@ msgstr ""
 #: classes/homepage.php:180
 msgid "Yes, update and override existing roles"
 msgstr ""
-
-#: smtp.php:213
-msgid "Yes: Use SMTP authentication."
-msgstr "Oui : utiliser l'authentification SMTP."
 
 #: importer.php:739
 msgid "You are not allowed to see this content."
@@ -1437,8 +1251,8 @@ msgid ""
 "em>"
 msgstr ""
 
-#: addons/acui-users-group.php:20 addons/acui-wp-users-group.php:20
-#: addons/users-group.php:20 addons/wp-users-group.php:20
+#: addons/acui-wp-users-group.php:20 addons/acui-users-group.php:20
+#: addons/wp-users-group.php:20 addons/users-group.php:20
 msgid ""
 "You can import user groups and assign them to the users using the next format"
 msgstr ""
@@ -1457,24 +1271,6 @@ msgstr ""
 "comme en-tête. L’extension vérifiera, avant l'importation, quels champs sont "
 "définis dans BuddyPress et l'affectera dans la mise à jour. Vous pouvez "
 "utiliser les champs suivants :"
-
-#: smtp.php:145
-msgid ""
-"You can specify the email address that emails should be sent from. If you "
-"leave this blank, the default email will be used."
-msgstr ""
-"Vous pouvez spécifier l'adresse courriel à laquelle les messages doivent "
-"être envoyés. Si vous laissez cette case vide, le courriel admin par défaut "
-"sera utilisé."
-
-#: smtp.php:150
-msgid ""
-"You can specify the name that emails should be sent from. If you leave this "
-"blank, the emails will be sent from WordPress."
-msgstr ""
-"Vous pouvez spécifier le nom duquel les courriels doivent être envoyés. Si "
-"vous laissez ce champ vide, les courriels seront envoyés à partir de nom "
-"admin WordPress."
 
 #: classes/doc.php:134
 msgid ""
@@ -1543,7 +1339,7 @@ msgstr ""
 "adaptées aux colonnes utilisateur par défaut de WordPress (celles qui "
 "utilisent la fonction"
 
-#: classes/cron.php:81 classes/cron.php:150 classes/homepage.php:91
+#: classes/homepage.php:91 classes/cron.php:81 classes/cron.php:150
 msgid "You have to introduce the path to file, i.e.:"
 msgstr "Vous devez saisir le chemin d'accès au fichier, par exemple :"
 
@@ -1580,7 +1376,7 @@ msgstr "payez moi un café"
 msgid "click here"
 msgstr "cliquer ici"
 
-#. Author of the plugin/theme
+#. Author of the plugin
 msgid "codection"
 msgstr ""
 
@@ -1621,12 +1417,12 @@ msgstr ""
 msgid "here to see results"
 msgstr "Ici pour voir les résultats"
 
-#. Author URI of the plugin/theme
+#. Author URI of the plugin
 #, fuzzy
 msgid "https://codection.com"
 msgstr "http://www.wordpress-fr.net/"
 
-#. Plugin URI of the plugin/theme
+#. Plugin URI of the plugin
 #, fuzzy
 msgid "https://www.codection.com"
 msgstr "https://fr.gravatar.com/"
@@ -1686,8 +1482,8 @@ msgstr "courriel utilisateur"
 msgid "user password"
 msgstr "mot de passe utilisateur"
 
-#: addons/acui-users-group.php:22 addons/acui-wp-users-group.php:22
-#: addons/users-group.php:22 addons/wp-users-group.php:22
+#: addons/acui-wp-users-group.php:22 addons/acui-users-group.php:22
+#: addons/wp-users-group.php:22 addons/users-group.php:22
 #, fuzzy
 msgid "user_group as the column title"
 msgstr "Groupe de colonnes"
@@ -1713,8 +1509,8 @@ msgstr ""
 msgid "username to login"
 msgstr "nom d'utilisateur pour ce connecter"
 
+#: addons/new-user-approve.php:23 addons/buddypress.php:41
 #: addons/allow-multiple-accounts.php:23 addons/allow-multiple-accounts.php:42
-#: addons/buddypress.php:41 addons/new-user-approve.php:23
 #: addons/wp-members.php:24 addons/wp-members.php:47
 msgid "users"
 msgstr "utilisateurs"

@@ -1,29 +1,43 @@
-# Copyright (C) 2019 XTEC LDAP Login
-# This file is distributed under the same license as the XTEC LDAP Login package.
+# Copyright (C) 2019 Francesc Bassas & Toni Ginard
+# This file is distributed under the same license as the XTEC LDAP Login plugin.
 msgid ""
 msgstr ""
 "Project-Id-Version: XTEC LDAP Login 2.1\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/xtec-ldap-login\n"
-"POT-Creation-Date: 2019-04-05 07:48:22+00:00\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2019-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2019-04-11T16:48:57+02:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.1.0\n"
+"X-Domain: xtec-ldap-login\n"
 
-#: xtec-ldap-login.php:37 xtec-ldap-login.php:44
+#. Plugin Name of the plugin
+#: xtec-ldap-login.php:80
+msgid "XTEC LDAP Login"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://github.com/projectestac/wordpress-xtec-ldap-login"
+msgstr ""
+
+#. Description of the plugin
+msgid "Overrides the core WordPress authentication method to allow the user authentication and registration through LDAP Server. It also adds an API function for a web service authentication"
+msgstr ""
+
+#. Author of the plugin
+msgid "Francesc Bassas & Toni Ginard"
+msgstr ""
+
+#: xtec-ldap-login.php:37
+#: xtec-ldap-login.php:44
 msgid "LDAP Login"
 msgstr ""
 
 #: xtec-ldap-login.php:73
 msgid "Options saved."
-msgstr ""
-
-#. #-#-#-#-#  xtec-ldap-login.pot (XTEC LDAP Login 2.1)  #-#-#-#-#
-#. Plugin Name of the plugin/theme
-#: xtec-ldap-login.php:80
-msgid "XTEC LDAP Login"
 msgstr ""
 
 #: xtec-ldap-login.php:85
@@ -51,12 +65,7 @@ msgid "LDAP"
 msgstr ""
 
 #: xtec-ldap-login.php:118
-msgid ""
-"The user is validated through the LDAP server. If the user enters for the "
-"first time and validates, the application registers it. First attempt to "
-"validate as user of LDAP server and then if fails attempt to validate as "
-"user of the application. <strong>IMPORTANT: When LDAP is on, any XTEC user "
-"can log in.</strong>"
+msgid "The user is validated through the LDAP server. If the user enters for the first time and validates, the application registers it. First attempt to validate as user of LDAP server and then if fails attempt to validate as user of the application. <strong>IMPORTANT: When LDAP is on, any XTEC user can log in.</strong>"
 msgstr ""
 
 #: xtec-ldap-login.php:129
@@ -88,9 +97,7 @@ msgid "Could not connect to LDAP server"
 msgstr ""
 
 #: xtec-ldap-login.php:231
-msgid ""
-"Could not bind to the LDAP directory. The username, the password or both are "
-"not correct"
+msgid "Could not bind to the LDAP directory. The username, the password or both are not correct"
 msgstr ""
 
 #: xtec-ldap-login.php:274
@@ -102,23 +109,5 @@ msgid "Site Suspended"
 msgstr ""
 
 #: xtec-ldap-login.php:309
-msgid ""
-"The password you entered for the username <strong>%1$s</strong> is "
-"incorrect. <a href=\"%2$s\" title=\"Password Lost and Found\">Lost your "
-"password</a>?"
-msgstr ""
-
-#. Plugin URI of the plugin/theme
-msgid "https://github.com/projectestac/wordpress-xtec-ldap-login"
-msgstr ""
-
-#. Description of the plugin/theme
-msgid ""
-"Overrides the core WordPress authentication method to allow the user "
-"authentication and registration through LDAP Server. It also adds an API "
-"function for a web service authentication"
-msgstr ""
-
-#. Author of the plugin/theme
-msgid "Francesc Bassas & Toni Ginard"
+msgid "The password you entered for the username <strong>%1$s</strong> is incorrect. <a href=\"%2$s\" title=\"Password Lost and Found\">Lost your password</a>?"
 msgstr ""

@@ -2,18 +2,19 @@
 # This file is distributed under the same license as the Plugins - Pods &#8211; Custom Content Types and Fields - Stable (latest release) package.
 msgid ""
 msgstr ""
+"Project-Id-Version: Plugins - Pods &#8211; Custom Content Types and Fields - "
+"Stable (latest release)\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/pods\n"
+"POT-Creation-Date: 2019-04-11T16:48:42+02:00\n"
 "PO-Revision-Date: 2019-04-05 12:21+0200\n"
+"Last-Translator: Joan Sala Soler <jsala236@xtec.cat>\n"
+"Language-Team: \n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Poedit 2.0.6\n"
-"Language: es\n"
-"Project-Id-Version: Plugins - Pods &#8211; Custom Content Types and Fields - "
-"Stable (latest release)\n"
-"POT-Creation-Date: \n"
-"Last-Translator: Joan Sala Soler <jsala236@xtec.cat>\n"
-"Language-Team: \n"
 
 #: classes/PodsAPI.php:5476
 msgid "$params->id instead of $params->pod_id"
@@ -35,8 +36,8 @@ msgstr "$params->pod requerido"
 msgid "$params->pod_id instead of $params->datatype_id"
 msgstr "$params->pod_id en lugar de $params->datatype_id"
 
-#: classes/PodsInit.php:1211 components/Pages.php:219
-#: components/Helpers.php:131 components/Templates/Templates.php:189
+#: classes/PodsInit.php:1211 components/Helpers.php:131
+#: components/Templates/Templates.php:189 components/Pages.php:219
 msgid "%1$s draft updated. <a target=\"_blank\" href=\"%2$s\">Preview %3$s</a>"
 msgstr ""
 "Borrador de %1$s actualizado. <a target=\"_blank\" href=\"%2$s"
@@ -58,24 +59,24 @@ msgstr ""
 "%1$s fue declarado <strong>obsoleto</strong> desde la version Pods %2$s! Usa "
 "%3$s."
 
-#: classes/PodsInit.php:1203 components/Pages.php:211
-#: components/Helpers.php:123 components/Templates/Templates.php:181
+#: classes/PodsInit.php:1203 components/Helpers.php:123
+#: components/Templates/Templates.php:181 components/Pages.php:211
 msgid "%1$s published. <a href=\"%2$s\">%3$s</a>"
 msgstr "%1$s publicado. <a href=\"%2$s\">%3$s</a>"
 
 #. translators: %s: date and time of the revision
-#: classes/PodsInit.php:1202 components/Pages.php:210
-#: components/Helpers.php:122 components/Templates/Templates.php:180
+#: classes/PodsInit.php:1202 components/Helpers.php:122
+#: components/Templates/Templates.php:180 components/Pages.php:210
 msgid "%1$s restored to revision from %2$s"
 msgstr "%1$s restaurado a la revisión de %2$s"
 
-#: classes/PodsInit.php:1219 components/Pages.php:227
-#: components/Helpers.php:139 components/Templates/Templates.php:197
+#: classes/PodsInit.php:1219 components/Helpers.php:139
+#: components/Templates/Templates.php:197 components/Pages.php:227
 msgid "%1$s scheduled for: <strong>%2$s</strong>."
 msgstr "%1$s programado para: <strong>%2$s</strong>."
 
-#: classes/PodsInit.php:1207 components/Pages.php:215
-#: components/Helpers.php:127 components/Templates/Templates.php:185
+#: classes/PodsInit.php:1207 components/Helpers.php:127
+#: components/Templates/Templates.php:185 components/Pages.php:215
 msgid ""
 "%1$s scheduled for: <strong>%2$s</strong>. <a target=\"_blank\" href=\"%3$s"
 "\">Preview %4$s</a>"
@@ -83,14 +84,14 @@ msgstr ""
 "%1$s programado para: <strong>%2$s</strong>. <a target=\"_blank\" href=\"%3$s"
 "\">Previsualizar %4$s</a>"
 
-#: classes/PodsInit.php:1205 components/Pages.php:213
-#: components/Helpers.php:125 components/Templates/Templates.php:183
+#: classes/PodsInit.php:1205 components/Helpers.php:125
+#: components/Templates/Templates.php:183 components/Pages.php:213
 msgid "%1$s submitted. <a target=\"_blank\" href=\"%2$s\">Preview %3$s</a>"
 msgstr ""
 "%1$s enviado. <a target=\"_blank\" href=\"%2$s\">Previsualizar %3$s</a>"
 
-#: classes/PodsInit.php:1197 components/Pages.php:205
-#: components/Helpers.php:117 components/Templates/Templates.php:175
+#: classes/PodsInit.php:1197 components/Helpers.php:117
+#: components/Templates/Templates.php:175 components/Pages.php:205
 msgid "%1$s updated. <a href=\"%2$s\">%3$s</a>"
 msgstr "%1$s actualizado. <a href=\"%2$s\">%3$s</a>"
 
@@ -120,8 +121,8 @@ msgid_plural "%s Users"
 msgstr[0] "%s usuario"
 msgstr[1] "%s usuarios"
 
-#: classes/PodsInit.php:1223 components/Pages.php:231
-#: components/Helpers.php:143 components/Templates/Templates.php:201
+#: classes/PodsInit.php:1223 components/Helpers.php:143
+#: components/Templates/Templates.php:201 components/Pages.php:231
 msgid "%s draft updated."
 msgstr "%s del borrador actualizado."
 
@@ -141,7 +142,7 @@ msgstr "%s no es numérico"
 msgid "%s is required"
 msgstr "%s requerido"
 
-#: classes/PodsI18n.php:149 ui/js/jquery.pods.js:54 ui/js/jquery.pods.js:56
+#: classes/PodsI18n.php:149
 msgid "%s is required."
 msgstr "%s es obligatorio."
 
@@ -168,13 +169,9 @@ msgstr ""
 "%s está reservado para uso interno de WordPress o Pods, intenta un nombre "
 "diferente. También considera lo que WordPress y Pods te proporcionan."
 
-#: classes/PodsI18n.php:195 ui/js/pods-dfv/_src/pick/views/select-view.js:208
-#: ui/js/pods-dfv/_src/pick/views/select-view.js:326
-#: ui/js/pods-dfv/pods-dfv.min.js:1314 ui/js/pods-dfv/pods-dfv.min.js:1432
+#: classes/PodsI18n.php:195
 msgid "%s item"
-msgid_plural "%s items"
-msgstr[0] "%s elemento"
-msgstr[1] "%s elementos"
+msgstr "%s elemento"
 
 #: classes/PodsI18n.php:197
 msgid "%s items"
@@ -204,8 +201,8 @@ msgstr "%s publicado"
 msgid "%s published privately"
 msgstr "%s publicado como privado"
 
-#: classes/PodsInit.php:1216 components/Pages.php:224
-#: components/Helpers.php:136 components/Templates/Templates.php:194
+#: classes/PodsInit.php:1216 components/Helpers.php:136
+#: components/Templates/Templates.php:194 components/Pages.php:224
 msgid "%s published."
 msgstr "%s publicado."
 
@@ -213,8 +210,8 @@ msgstr "%s publicado."
 msgid "%s reverted to draft"
 msgstr "%s devuelto a borrador"
 
-#: classes/PodsInit.php:1204 components/Pages.php:212
-#: components/Helpers.php:124 components/Templates/Templates.php:182
+#: classes/PodsInit.php:1204 components/Helpers.php:124
+#: components/Templates/Templates.php:182 components/Pages.php:212
 msgid "%s saved."
 msgstr "%s guardado."
 
@@ -222,8 +219,8 @@ msgstr "%s guardado."
 msgid "%s scheduled"
 msgstr "%s programado"
 
-#: classes/PodsInit.php:1217 components/Pages.php:225
-#: components/Helpers.php:137 components/Templates/Templates.php:195
+#: classes/PodsInit.php:1217 components/Helpers.php:137
+#: components/Templates/Templates.php:195 components/Pages.php:225
 msgid "%s submitted."
 msgstr "%s enviado."
 
@@ -231,10 +228,11 @@ msgstr "%s enviado."
 msgid "%s updated"
 msgstr "%s actualizado"
 
-#: classes/PodsInit.php:1200 classes/PodsInit.php:1215 components/Pages.php:208
-#: components/Pages.php:223 components/Helpers.php:120
-#: components/Helpers.php:135 components/Templates/Templates.php:178
-#: components/Templates/Templates.php:193
+#: classes/PodsInit.php:1200 classes/PodsInit.php:1215
+#: components/Helpers.php:120 components/Helpers.php:135
+#: components/Templates/Templates.php:178
+#: components/Templates/Templates.php:193 components/Pages.php:208
+#: components/Pages.php:223
 msgid "%s updated."
 msgstr "%s actualizado."
 
@@ -282,11 +280,11 @@ msgstr "1 mes gratis"
 msgid "1.x Updates"
 msgstr "Actualizaciones 1.x"
 
-#: classes/fields/time.php:76 classes/fields/datetime.php:128
+#: classes/fields/datetime.php:128 classes/fields/time.php:76
 msgid "12 hour"
 msgstr "12 horas"
 
-#: classes/fields/time.php:73 classes/fields/datetime.php:125
+#: classes/fields/datetime.php:125 classes/fields/time.php:73
 msgid ""
 "12/24 hour will allow you to select from a list of commonly used time "
 "formats."
@@ -294,7 +292,7 @@ msgstr ""
 "12/24 horas te permite seleccionar una opción entre una lista de formatos de "
 "hora comunes."
 
-#: classes/fields/time.php:77 classes/fields/datetime.php:129
+#: classes/fields/datetime.php:129 classes/fields/time.php:77
 msgid "24 hour"
 msgstr "24 horas"
 
@@ -303,7 +301,7 @@ msgid "<a href=\"%s\" target=\"_blank\">Click here for more info</a>"
 msgstr ""
 "<a href=\"%s\" target=\"_blank\">Haga clic aquí para más información</a>"
 
-#: components/Pages.php:557 components/Templates/Templates.php:377
+#: components/Templates/Templates.php:377 components/Pages.php:557
 msgid ""
 "<h6>Capabilities</h6> Capabilities denote access to specific functionality "
 "in WordPress, and are assigned to specific User Roles. Please see the Roles "
@@ -589,9 +587,9 @@ msgstr ""
 "dato de tipos de publicaciones, taxonomía, media, usuarios o comentarios que "
 "hayas podido añadir o modificar."
 
-#: components/Roles/ui/edit.php:25 ui/admin/setup-edit.php:247
 #: ui/admin/form-settings.php:60 ui/admin/form-settings.php:74
-#: ui/admin/form.php:87 ui/admin/form.php:112
+#: ui/admin/form.php:87 ui/admin/form.php:112 ui/admin/setup-edit.php:247
+#: components/Roles/ui/edit.php:25
 msgid "<strong>Success!</strong> %1$s %2$s successfully."
 msgstr "<strong>¡Funcionó!</strong> %1$s %2$s correctamente."
 
@@ -653,7 +651,7 @@ msgstr "Acciones disponibles"
 msgid "Active"
 msgstr "Activo"
 
-#: classes/PodsI18n.php:153 ui/js/jquery.pods.attach.js:18
+#: classes/PodsI18n.php:153
 msgid "Add"
 msgstr "Añadir"
 
@@ -678,11 +676,11 @@ msgstr "Añadir archivo"
 msgid "Add Filter"
 msgstr "Agregar filtros"
 
-#: classes/PodsI18n.php:155 classes/PodsAdmin.php:297 classes/PodsAdmin.php:324
+#: classes/PodsI18n.php:155 classes/PodsInit.php:1257 classes/PodsUI.php:1045
+#: classes/PodsUI.php:1070 classes/PodsAdmin.php:297 classes/PodsAdmin.php:324
 #: classes/PodsAdmin.php:325 classes/PodsAdmin.php:371
 #: classes/PodsAdmin.php:390 classes/PodsAdmin.php:576
 #: classes/PodsAdmin.php:1221 classes/PodsAdmin.php:2200
-#: classes/PodsInit.php:1257 classes/PodsUI.php:1045 classes/PodsUI.php:1070
 msgid "Add New"
 msgstr "Añadir nuevo"
 
@@ -695,8 +693,7 @@ msgstr "Añadir nuevo %s"
 msgid "Add New Pod"
 msgstr "Agregar nuevo pod"
 
-#: classes/PodsI18n.php:157 ui/js/pods-dfv/_src/core/iframe-frame.js:37
-#: ui/js/pods-dfv/pods-dfv.min.js:816
+#: classes/PodsI18n.php:157
 msgid "Add New Record"
 msgstr "Añadir nuevo registro"
 
@@ -748,11 +745,11 @@ msgstr "Anadir al menú Ajustes"
 msgid "Add translation"
 msgstr "Añadir traducción"
 
-#: classes/PodsI18n.php:159 ui/js/jquery.pods.attach.js:27
+#: classes/PodsI18n.php:159
 msgid "Added!"
 msgstr "¡Añadido!"
 
-#: classes/PodsI18n.php:161 ui/js/jquery.pods.attach.js:96
+#: classes/PodsI18n.php:161
 msgid "Added! Choose another or <a href=\"#\">close this box</a>"
 msgstr "¡Añadido! Elige otro o <a href=\"#\">cierra este cuadro</a>"
 
@@ -823,10 +820,6 @@ msgstr "Opciones avanzadas"
 msgid "Advanced Supports"
 msgstr "Soporte avanzado"
 
-#: classes/fields/pick.php:2778
-msgid "Afghanistan"
-msgstr "Afganistán"
-
 #: components/Templates/includes/auto-template/Pods_Templates_Auto_Template_Settings.php:229
 msgid "After"
 msgstr "Después"
@@ -842,26 +835,6 @@ msgstr "Después del contenido"
 #: classes/fields/currency.php:95
 msgid "After with space (ex. 100 $)"
 msgstr "Después con espacio (ej. 100 $)"
-
-#: classes/fields/pick.php:3064
-msgid "Alabama"
-msgstr "Alabama"
-
-#: classes/fields/pick.php:3065
-msgid "Alaska"
-msgstr "Alaska"
-
-#: classes/fields/pick.php:2779
-msgid "Albania"
-msgstr "Albania"
-
-#: classes/fields/pick.php:3137
-msgid "Alberta"
-msgstr "Alberta"
-
-#: classes/fields/pick.php:2780
-msgid "Algeria"
-msgstr "Algeria"
 
 #: classes/PodsAdmin.php:291 classes/PodsAdmin.php:1073
 #: classes/PodsAdmin.php:2887
@@ -892,8 +865,8 @@ msgstr "Permitir que todos los campos se actualicen"
 msgid "Allow Front Prepend"
 msgstr "Permitir anteponer al front"
 
-#: classes/fields/text.php:61 classes/fields/html.php:46
-#: classes/fields/link.php:79 classes/fields/paragraph.php:59
+#: classes/fields/html.php:46 classes/fields/link.php:79
+#: classes/fields/text.php:61 classes/fields/paragraph.php:59
 msgid "Allow HTML?"
 msgstr "¿Permitir HTML?"
 
@@ -901,9 +874,9 @@ msgstr "¿Permitir HTML?"
 msgid "Allow Markdown Syntax?"
 msgstr "¿Permitir sintaxis de Markdown?"
 
-#: classes/fields/text.php:55 classes/fields/html.php:88
-#: classes/fields/link.php:73 classes/fields/code.php:57
-#: classes/fields/wysiwyg.php:114 classes/fields/paragraph.php:101
+#: classes/fields/html.php:88 classes/fields/link.php:73
+#: classes/fields/wysiwyg.php:114 classes/fields/code.php:57
+#: classes/fields/text.php:55 classes/fields/paragraph.php:101
 msgid "Allow Shortcodes?"
 msgstr "¿Permitir shortcodes?"
 
@@ -919,8 +892,8 @@ msgstr ""
 "Permitir que todos los campos se actualicen a través de la API REST. Si los "
 "campos no están marcados deben ser habilitados campo a campo."
 
-#: classes/fields/time.php:133 classes/fields/datetime.php:185
-#: classes/fields/date.php:115
+#: classes/fields/date.php:115 classes/fields/datetime.php:185
+#: classes/fields/time.php:133
 msgid "Allow empty value?"
 msgstr "¿Permitir valor vacío?"
 
@@ -951,13 +924,11 @@ msgid "Allowed File Extensions"
 msgstr "Extensiones de archivo permitidas"
 
 #: classes/PodsI18n.php:187 classes/fields/file.php:485
-#: ui/js/pods-dfv/_src/file-upload/uploaders/media-modal.js:14
-#: ui/js/pods-dfv/pods-dfv.min.js:676
 msgid "Allowed Files"
 msgstr "Archivos permitidos"
 
-#: classes/fields/text.php:69 classes/fields/link.php:87
-#: classes/fields/wysiwyg.php:126 classes/fields/paragraph.php:113
+#: classes/fields/link.php:87 classes/fields/wysiwyg.php:126
+#: classes/fields/text.php:69 classes/fields/paragraph.php:113
 msgid "Allowed HTML Tags"
 msgstr "Etiquetas HTML permitidas"
 
@@ -1002,33 +973,9 @@ msgstr ""
 "com/?pod_name=post_slug\" independientemente de la configuración de enlaces "
 "permanentes."
 
-#: classes/fields/pick.php:2781
-msgid "American Samoa"
-msgstr "Samoa Americana"
-
 #: includes/general.php:184
 msgid "An unknown error has occurred"
 msgstr "Ocurrió un error desconocido"
-
-#: classes/fields/pick.php:2782
-msgid "Andorra"
-msgstr "Andorra"
-
-#: classes/fields/pick.php:2783
-msgid "Angola"
-msgstr "Angola"
-
-#: classes/fields/pick.php:2784
-msgid "Anguilla"
-msgstr "Anguila"
-
-#: classes/fields/pick.php:2785
-msgid "Antarctica"
-msgstr "Antártida"
-
-#: classes/fields/pick.php:2786
-msgid "Antigua and Barbuda"
-msgstr "Antigua y Barbuda"
 
 #: classes/fields/phone.php:62
 msgid "Any (no validation available)"
@@ -1154,26 +1101,6 @@ msgstr ""
 "Este es un buen momento para asegurarte de que tienes una copia de "
 "seguridad. Vamos a borrar todos los datos y no hay vuelta atrás."
 
-#: classes/fields/pick.php:2787
-msgid "Argentina"
-msgstr "Argentina"
-
-#: classes/fields/pick.php:3066
-msgid "Arizona"
-msgstr "Arizona"
-
-#: classes/fields/pick.php:3067
-msgid "Arkansas"
-msgstr "Arkansas"
-
-#: classes/fields/pick.php:2788
-msgid "Armenia"
-msgstr "Armenia"
-
-#: classes/fields/pick.php:2789
-msgid "Aruba"
-msgstr "Aruba"
-
 #: components/Roles/ui/edit.php:76 components/Roles/ui/add.php:68
 msgid "Assign the Capabilities for"
 msgstr "Asigne las capacidades para"
@@ -1202,17 +1129,9 @@ msgstr "Pestaña de archivos adjuntos por defecto"
 msgid "Audio (mp3, m4a, wav, wma, etc..)"
 msgstr "Audio (mp3, m4a, wav, wma, etc.)"
 
-#: classes/fields/pick.php:2790
-msgid "Australia"
-msgstr "Australia"
-
 #: classes/fields/currency.php:382
 msgid "Australian Dollar"
 msgstr "Dólar australiano"
-
-#: classes/fields/pick.php:2791
-msgid "Austria"
-msgstr "Austria"
 
 #: ui/admin/setup-edit.php:391
 msgid "Author"
@@ -1238,35 +1157,15 @@ msgstr "Taxonomías disponibles"
 msgid "Avatar"
 msgstr "Avatar"
 
-#: classes/fields/pick.php:2792
-msgid "Azerbaijan"
-msgstr "Azerbaiyán"
-
 #: classes/PodsUI.php:1649 classes/PodsUI.php:1723 classes/PodsUI.php:2039
 #: classes/PodsUI.php:2846
 msgid "Back to %s"
 msgstr "Volver a %s"
 
-#: classes/PodsAdmin.php:1309 ui/admin/setup-edit.php:693
-#: ui/admin/setup-add.php:41
+#: classes/PodsAdmin.php:1309 ui/admin/setup-add.php:41
+#: ui/admin/setup-edit.php:693
 msgid "Back to Manage"
 msgstr "Volver a administrar"
-
-#: classes/fields/pick.php:2793
-msgid "Bahamas"
-msgstr "Bahamas"
-
-#: classes/fields/pick.php:2794
-msgid "Bahrain"
-msgstr "Bahrein"
-
-#: classes/fields/pick.php:2795
-msgid "Bangladesh"
-msgstr "Bangladesh"
-
-#: classes/fields/pick.php:2796
-msgid "Barbados"
-msgstr "Barbados"
 
 #: classes/PodsAdmin.php:2310
 msgid "Basic"
@@ -1298,30 +1197,6 @@ msgstr "Antes con el código de moneda al final (ej. $100 USD)"
 msgid "Before with space (ex. $ 100)"
 msgstr "Antes con espacio (por ej. $ 100)"
 
-#: classes/fields/pick.php:2797
-msgid "Belarus"
-msgstr "Bielorrusia"
-
-#: classes/fields/pick.php:2798
-msgid "Belgium"
-msgstr "Bélgica"
-
-#: classes/fields/pick.php:2799
-msgid "Belize"
-msgstr "Belice"
-
-#: classes/fields/pick.php:2800
-msgid "Benin"
-msgstr "Benin"
-
-#: classes/fields/pick.php:2801
-msgid "Bermuda"
-msgstr "Bermuda"
-
-#: classes/fields/pick.php:2802
-msgid "Bhutan"
-msgstr "Bután"
-
 #: ui/admin/setup-edit-field-fluid.php:132 ui/admin/setup-edit-field.php:103
 msgid "Bi-directional Field"
 msgstr "Campo bidireccional"
@@ -1340,73 +1215,21 @@ msgstr ""
 "padre para relacionarlo con un elemento hijo, cuando editas ese elemento "
 "hijo verás seleccionado el pod padre."
 
-#: classes/fields/pick.php:2803
-msgid "Bolivia"
-msgstr "Bolivia"
-
-#: classes/fields/pick.php:2804
-msgid "Bosnia and Herzegovina"
-msgstr "Bosnia y Herzegovina"
-
-#: classes/fields/pick.php:2805
-msgid "Botswana"
-msgstr "Botswana"
-
-#: classes/fields/pick.php:2806
-msgid "Bouvet Island"
-msgstr "Isla Bouvet"
-
-#: classes/fields/pick.php:2807
-msgid "Brazil"
-msgstr "Brasil"
-
 #: classes/fields/currency.php:388
 msgid "Brazilian Real"
 msgstr "Real brasileño"
-
-#: classes/fields/pick.php:2808
-msgid "British Antarctic Territory"
-msgstr "Territorio Antártico Británico"
-
-#: classes/fields/pick.php:3138
-msgid "British Columbia"
-msgstr "Columbia Británica"
-
-#: classes/fields/pick.php:2809
-msgid "British Indian Ocean Territory"
-msgstr "Territorio Británico del Océano Índico"
 
 #: classes/fields/currency.php:394
 msgid "British Pound"
 msgstr "Libra británica"
 
-#: classes/fields/pick.php:2810
-msgid "British Virgin Islands"
-msgstr "Islas Vírgenes Británicas"
-
-#: classes/fields/pick.php:2811
-msgid "Brunei"
-msgstr "Brunei"
-
 #: ui/admin/setup-edit.php:482
 msgid "Built-in Taxonomies"
 msgstr "Taxonomías incorporadas"
 
-#: classes/fields/pick.php:2812
-msgid "Bulgaria"
-msgstr "Bulgaria"
-
 #: classes/PodsUI.php:3106
 msgid "Bulk Actions"
 msgstr "Acciones globales"
-
-#: classes/fields/pick.php:2813
-msgid "Burkina Faso"
-msgstr "Burkina Faso"
-
-#: classes/fields/pick.php:2814
-msgid "Burundi"
-msgstr "Burundi"
 
 #: ui/admin/settings-reset.php:113
 msgid ""
@@ -1426,17 +1249,17 @@ msgstr "Provincias canadienses"
 msgid "CLEditor"
 msgstr "CLEditor"
 
-#: components/Builder/modules/view/PodsBuilderModuleView.php:101
+#: ui/admin/shortcode.php:516 ui/admin/widgets/view.php:48
+#: ui/admin/widgets/list.php:132
 #: components/Builder/modules/list/PodsBuilderModuleList.php:202
-#: ui/admin/shortcode.php:516 ui/admin/widgets/list.php:132
-#: ui/admin/widgets/view.php:48
+#: components/Builder/modules/view/PodsBuilderModuleView.php:101
 msgid "Cache Expiration (in seconds)"
 msgstr "Tiempo de expiración de la caché (en segundos)"
 
-#: components/Builder/modules/view/PodsBuilderModuleView.php:84
+#: ui/admin/shortcode.php:494 ui/admin/widgets/view.php:27
+#: ui/admin/widgets/list.php:112
 #: components/Builder/modules/list/PodsBuilderModuleList.php:185
-#: ui/admin/shortcode.php:494 ui/admin/widgets/list.php:112
-#: ui/admin/widgets/view.php:27
+#: components/Builder/modules/view/PodsBuilderModuleView.php:84
 msgid "Cache Type"
 msgstr "Tipo de caché"
 
@@ -1448,28 +1271,12 @@ msgstr "Calendario - Días de la semana"
 msgid "Calendar - Months of Year"
 msgstr "Calendario - Meses del año"
 
-#: classes/fields/pick.php:3068
-msgid "California"
-msgstr "California"
-
-#: classes/fields/pick.php:2815
-msgid "Cambodia"
-msgstr "Camboya"
-
-#: classes/fields/pick.php:2816
-msgid "Cameroon"
-msgstr "Camerún"
-
-#: classes/fields/pick.php:2817
-msgid "Canada"
-msgstr "Canadá"
-
 #: classes/fields/currency.php:400
 msgid "Canadian Dollar"
 msgstr "Dolar canadiense"
 
-#: classes/PodsUI.php:3148 ui/admin/setup-edit.php:191
-#: ui/admin/setup-edit-field-fluid.php:240
+#: classes/PodsUI.php:3148 ui/admin/setup-edit-field-fluid.php:240
+#: ui/admin/setup-edit.php:191
 msgid "Cancel"
 msgstr "Cancelar"
 
@@ -1497,38 +1304,18 @@ msgstr "No se puede guardar el campo %s"
 msgid "Cannot update Database Table for Pod"
 msgstr "No se puede actualizar la tabla de la base de datos para el Pod"
 
-#: classes/fields/pick.php:2818
-msgid "Canton and Enderbury Islands"
-msgstr "Islas Cantón y Enderbury"
-
-#: components/Roles/Roles.php:105 components/Roles/ui/add.php:26
+#: components/Roles/ui/add.php:26 components/Roles/Roles.php:105
 msgid "Capabilities"
 msgstr "Funcionalidades"
 
-#: classes/PodsAdmin.php:2512 components/Pages.php:566
-#: components/Templates/Templates.php:386
+#: classes/PodsAdmin.php:2512 components/Templates/Templates.php:386
+#: components/Pages.php:566
 msgid "Capability Allowed"
 msgstr "Funcionalidades permitidas"
-
-#: classes/fields/pick.php:2819
-msgid "Cape Verde"
-msgstr "Cabo Verde"
 
 #: classes/PodsAdmin.php:2860 classes/PodsAdmin.php:2897
 msgid "Category"
 msgstr "Categoría"
-
-#: classes/fields/pick.php:2820
-msgid "Cayman Islands"
-msgstr "Islas Caimán"
-
-#: classes/fields/pick.php:2821
-msgid "Central African Republic"
-msgstr "República Centroafricana"
-
-#: classes/fields/pick.php:2822
-msgid "Chad"
-msgstr "Chad"
 
 #: classes/fields/wysiwyg.php:109 classes/fields/paragraph.php:96
 msgid "Changes double line-breaks in the text into HTML paragraphs"
@@ -1557,14 +1344,6 @@ msgstr "Casilla de verificación"
 #: classes/fields/pick.php:163
 msgid "Checkboxes"
 msgstr "Casillas de verificación"
-
-#: classes/fields/pick.php:2823
-msgid "Chile"
-msgstr "Chile"
-
-#: classes/fields/pick.php:2824
-msgid "China"
-msgstr "China"
 
 #: classes/fields/currency.php:406
 msgid "Chinese Yen (¥)"
@@ -1647,12 +1426,8 @@ msgstr "Elige los pods a exportar"
 msgid "Choose which Pods, Fields, and other settings to export into a package."
 msgstr "Elije los pods, campos y otros ajustes a exportar en un paquete."
 
-#: classes/fields/pick.php:2825
-msgid "Christmas Island"
-msgstr "Isla de Navidad"
-
-#: ui/admin/upgrade/upgrade_2_0_0.php:258
 #: ui/admin/upgrade/upgrade_2_1_0.php:105
+#: ui/admin/upgrade/upgrade_2_0_0.php:258
 msgid "Cleanup"
 msgstr "Limpieza"
 
@@ -1661,7 +1436,7 @@ msgid "Cleanup &amp; Reset"
 msgstr "Limpiar &amp; reiniciar"
 
 #: classes/PodsUI.php:3554 classes/PodsUI.php:3586 classes/PodsUI.php:3621
-#: classes/PodsUI.php:3647 ui/fields/color.php:14
+#: classes/PodsUI.php:3647
 msgid "Clear"
 msgstr "Limpiar"
 
@@ -1677,10 +1452,6 @@ msgstr "Clic para registrarse"
 msgid "Closed"
 msgstr "Cerrado"
 
-#: classes/fields/pick.php:2826
-msgid "Cocos [Keeling] Islands"
-msgstr "Islas Cocos [Keeling]"
-
 #: components/Helpers.php:298
 msgid "Code"
 msgstr "Código"
@@ -1689,17 +1460,9 @@ msgstr "Código"
 msgid "Code (Syntax Highlighting)"
 msgstr "Código (resaltado de sintaxis)"
 
-#: classes/fields/pick.php:2827
-msgid "Colombia"
-msgstr "Colombia"
-
 #: classes/fields/color.php:28
 msgid "Color Picker"
 msgstr "Selector de color"
-
-#: classes/fields/pick.php:3069
-msgid "Colorado"
-msgstr "Colorado"
 
 #: classes/PodsAdmin.php:2513
 msgid ""
@@ -1724,18 +1487,14 @@ msgid "Comment data is required but is either invalid or empty"
 msgstr ""
 "Los datos de comentario son necesarios pero no son válidos o están vacíos."
 
-#: classes/fields/pick.php:511 ui/admin/setup-edit.php:416
-#: ui/admin/setup-add.php:262
+#: classes/fields/pick.php:511 ui/admin/setup-add.php:262
+#: ui/admin/setup-edit.php:416
 msgid "Comments"
 msgstr "Comentarios"
 
 #: classes/PodsAdmin.php:936
 msgid "Comments (extended)"
 msgstr "Comentarios (extendidos)"
-
-#: classes/fields/pick.php:2828
-msgid "Comoros"
-msgstr "Comoras"
 
 #: classes/PodsAdmin.php:2848
 msgid "Component"
@@ -1773,18 +1532,6 @@ msgstr "Componentes"
 msgid "Configure"
 msgstr "Configurar"
 
-#: classes/fields/pick.php:2829
-msgid "Congo - Brazzaville"
-msgstr "Congo - Brazzaville"
-
-#: classes/fields/pick.php:2830
-msgid "Congo - Kinshasa"
-msgstr "Congo - Kinshasa"
-
-#: classes/fields/pick.php:3070
-msgid "Connecticut"
-msgstr "Connecticut"
-
 #: ui/admin/upgrade/upgrade_2_0_0.php:137
 #: ui/admin/upgrade/upgrade_2_0_0.php:245
 msgid "Content"
@@ -1807,17 +1554,9 @@ msgstr "Convertir a guión"
 msgid "Converts text into valid XHTML and Unicode"
 msgstr "Convierte texto en XHTML válido y Unicode"
 
-#: classes/fields/pick.php:2831
-msgid "Cook Islands"
-msgstr "Islas Cook"
-
-#: classes/PodsI18n.php:163 ui/js/jquery.pods.js:1887
+#: classes/PodsI18n.php:163
 msgid "Copy"
 msgstr "Copiar"
-
-#: classes/fields/pick.php:2832
-msgid "Costa Rica"
-msgstr "Costa Rica"
 
 #: classes/fields/pick.php:543
 msgid "Countries"
@@ -1861,14 +1600,6 @@ msgstr ""
 "lo que hace ese tipo de contenido, cómo actúa, los campos que tiene y cómo "
 "lo administras."
 
-#: classes/fields/pick.php:2833
-msgid "Croatia"
-msgstr "Croacia"
-
-#: classes/fields/pick.php:2834
-msgid "Cuba"
-msgstr "Cuba"
-
 #: classes/fields/currency.php:42
 msgid "Currency"
 msgstr "Moneda"
@@ -1881,15 +1612,11 @@ msgstr "Ubicación de moneda"
 msgid "Currency Sign"
 msgstr "Símbolo de moneda"
 
-#: ui/fields/color.php:17
-msgid "Current Color"
-msgstr "Color actual"
-
 #: classes/PodsUI.php:4662
 msgid "Current page"
 msgstr "Pagina actual"
 
-#: classes/fields/pick.php:388 classes/fields/datetime.php:130
+#: classes/fields/datetime.php:130 classes/fields/pick.php:388
 msgid "Custom"
 msgstr "Personalizado"
 
@@ -1963,13 +1690,13 @@ msgstr "Taxonomía personalizada"
 msgid "Custom Taxonomy (like Categories or Tags)"
 msgstr "Taxonomía personalizada (como categorías o etiquetas)"
 
-#: components/Builder/modules/single/PodsBuilderModuleSingle.php:112
-#: components/Builder/modules/single/PodsBuilderModuleSingle.php:150
-#: components/Builder/modules/list/PodsBuilderModuleList.php:108
-#: components/Builder/modules/list/PodsBuilderModuleList.php:146
 #: ui/admin/shortcode.php:394 ui/admin/shortcode.php:416
 #: ui/admin/widgets/single.php:70 ui/admin/widgets/single.php:92
 #: ui/admin/widgets/list.php:54 ui/admin/widgets/list.php:82
+#: components/Builder/modules/list/PodsBuilderModuleList.php:108
+#: components/Builder/modules/list/PodsBuilderModuleList.php:146
+#: components/Builder/modules/single/PodsBuilderModuleSingle.php:112
+#: components/Builder/modules/single/PodsBuilderModuleSingle.php:150
 msgid "Custom Template"
 msgstr "Plantilla personalizada"
 
@@ -1977,23 +1704,23 @@ msgstr "Plantilla personalizada"
 msgid "Custom User Capability"
 msgstr "Funcionalidad de usuario personalizada"
 
-#: classes/PodsInit.php:1199 components/Pages.php:207
-#: components/Helpers.php:119 components/Templates/Templates.php:177
+#: classes/PodsInit.php:1199 components/Helpers.php:119
+#: components/Templates/Templates.php:177 components/Pages.php:207
 msgid "Custom field deleted."
 msgstr "Campo personalizado eliminado."
 
-#: classes/PodsInit.php:1198 components/Pages.php:206
-#: components/Helpers.php:118 components/Templates/Templates.php:176
+#: classes/PodsInit.php:1198 components/Helpers.php:118
+#: components/Templates/Templates.php:176 components/Pages.php:206
 msgid "Custom field updated."
 msgstr "Campo personalizado actualizado."
 
-#: classes/fields/time.php:78 classes/fields/datetime.php:76
-#: classes/fields/date.php:71
+#: classes/fields/date.php:71 classes/fields/datetime.php:76
+#: classes/fields/time.php:78
 msgid "Custom format"
 msgstr "Formato personalizado"
 
-#: classes/fields/time.php:73 classes/fields/datetime.php:72
-#: classes/fields/datetime.php:125 classes/fields/date.php:67
+#: classes/fields/date.php:67 classes/fields/datetime.php:72
+#: classes/fields/datetime.php:125 classes/fields/time.php:73
 msgid "Custom will allow you to enter your own using PHP Date/Time Strings."
 msgstr ""
 "Personalizado te permitirá introducir tu propio formato usando cadenas PHP "
@@ -2011,21 +1738,9 @@ msgstr "<em>ORDER BY</em> personalizado"
 msgid "Customized <em>WHERE</em>"
 msgstr "<em>WHERE</em> personalizado"
 
-#: classes/fields/pick.php:2835
-msgid "Cyprus"
-msgstr "Chipre"
-
 #: classes/fields/currency.php:418
 msgid "Czech Koruna"
 msgstr "Corona Checa"
-
-#: classes/fields/pick.php:2836
-msgid "Czech Republic"
-msgstr "República Checa"
-
-#: classes/fields/pick.php:2837
-msgid "Côte d’Ivoire"
-msgstr "Côte d'Ivoire"
 
 #: classes/fields/currency.php:424
 msgid "Danish Krone"
@@ -2043,19 +1758,19 @@ msgstr "Fecha"
 msgid "Date / Time"
 msgstr "Fecha / hora"
 
-#: classes/fields/datetime.php:102 classes/fields/date.php:97
+#: classes/fields/date.php:97 classes/fields/datetime.php:102
 msgid "Date Format"
 msgstr "Formato de fecha"
 
-#: classes/fields/datetime.php:68 classes/fields/date.php:63
+#: classes/fields/date.php:63 classes/fields/datetime.php:68
 msgid "Date Format Type"
 msgstr "Tipo de formato de fecha"
 
-#: classes/fields/datetime.php:81 classes/fields/date.php:76
+#: classes/fields/date.php:76 classes/fields/datetime.php:81
 msgid "Date format for display"
 msgstr "Formato de fecha para mostrar"
 
-#: classes/fields/datetime.php:91 classes/fields/date.php:86
+#: classes/fields/date.php:86 classes/fields/datetime.php:91
 msgid "Date format for input"
 msgstr "Formato de fecha para la entrada"
 
@@ -2079,7 +1794,7 @@ msgstr "Administración de decimales cuando da cero"
 msgid "Decimals"
 msgstr "Decimales"
 
-#: classes/fields/currency.php:125 ui/fields/color.php:15
+#: classes/fields/currency.php:125
 msgid "Default"
 msgstr "Por defecto"
 
@@ -2103,13 +1818,10 @@ msgstr "Valor por defecto"
 msgid "Defaults to singular name"
 msgstr "Por defecto es un nombre singular"
 
-#: classes/fields/pick.php:3071
-msgid "Delaware"
-msgstr "Delaware"
-
-#: classes/Pods.php:4432 classes/PodsAdmin.php:2203 classes/PodsUI.php:4380
-#: ui/admin/setup-edit.php:699 ui/admin/setup-edit-field-fluid.php:22
-#: ui/admin/view.php:81 ui/admin/setup-edit-field.php:70 ui/admin/form.php:287
+#: classes/Pods.php:4432 classes/PodsUI.php:4380 classes/PodsAdmin.php:2203
+#: ui/admin/setup-edit-field-fluid.php:22 ui/admin/view.php:81
+#: ui/admin/form.php:287 ui/admin/setup-edit.php:699
+#: ui/admin/setup-edit-field.php:70
 msgid "Delete"
 msgstr "Eliminar"
 
@@ -2149,10 +1861,6 @@ msgstr "Borrar este campo"
 msgid "Delete this item"
 msgstr "Eliminar este elemento"
 
-#: classes/fields/pick.php:2838
-msgid "Denmark"
-msgstr "Dinamarca"
-
 #: classes/PodsAdmin.php:3593
 msgid "Depth"
 msgstr "Profundidad"
@@ -2177,10 +1885,10 @@ msgstr "Vista previa para desarrolladores"
 msgid "Disable"
 msgstr "Deshabilitar"
 
-#: components/Builder/modules/view/PodsBuilderModuleView.php:89
+#: ui/admin/shortcode.php:498 ui/admin/widgets/view.php:31
+#: ui/admin/widgets/list.php:116
 #: components/Builder/modules/list/PodsBuilderModuleList.php:190
-#: ui/admin/shortcode.php:498 ui/admin/widgets/list.php:116
-#: ui/admin/widgets/view.php:31
+#: components/Builder/modules/view/PodsBuilderModuleView.php:89
 msgid "Disable Caching"
 msgstr "Deshabilitar cacheo"
 
@@ -2200,14 +1908,13 @@ msgstr "Mostrar un campo de un item Pod"
 msgid "Display a field from this item"
 msgstr "Mostrar un campo de este elemento"
 
-#: classes/widgets/PodsWidgetForm.php:15
+#: classes/widgets/PodsWidgetForm.php:15 ui/admin/shortcode.php:353
 #: components/Builder/modules/form/PodsBuilderModuleForm.php:28
-#: ui/admin/shortcode.php:353
 msgid "Display a form for creating and editing Pod items"
 msgstr "Mostrar un formulario para crear y editar elementos pod"
 
-#: components/Builder/modules/single/PodsBuilderModuleSingle.php:28
 #: ui/admin/shortcode.php:349
+#: components/Builder/modules/single/PodsBuilderModuleSingle.php:28
 msgid "Display a single Pod item"
 msgstr "Mostrar un elemento pod individual"
 
@@ -2221,35 +1928,15 @@ msgstr "Mostrar el valor del campo de un elemento pod simple"
 msgid "Display multiple Pod items"
 msgstr "Mostrar elementos pod múltiples"
 
-#: classes/fields/pick.php:3072
-msgid "District Of Columbia"
-msgstr "Distrito de Columbia"
-
-#: classes/fields/pick.php:2839
-msgid "Djibouti"
-msgstr "Djibouti"
-
 #: ui/admin/setup-add.php:131 ui/admin/setup-add.php:346
 msgid "Do not enable extra fields to be added"
 msgstr "No habilitar, agregar campos extras"
-
-#: classes/fields/pick.php:2840
-msgid "Dominica"
-msgstr "Dominica"
-
-#: classes/fields/pick.php:2841
-msgid "Dominican Republic"
-msgstr "República Dominicana"
 
 #: classes/PodsI18n.php:171
 msgid "Download"
 msgstr "Descargar"
 
-#: classes/fields/pick.php:2842
-msgid "Dronning Maud Land"
-msgstr "Dronning Maud Land"
-
-#: classes/fields/pick.php:147 classes/fields/boolean.php:46
+#: classes/fields/boolean.php:46 classes/fields/pick.php:147
 msgid "Drop Down"
 msgstr "Desplegable"
 
@@ -2264,9 +1951,9 @@ msgstr ""
 "datos actuales, con lo que si quieres volver a Pods 1.x puedes hacerlo "
 "fácilmente."
 
-#: classes/PodsAdmin.php:1268 classes/PodsAdmin.php:2202
-#: classes/PodsUI.php:1047 classes/PodsUI.php:4364
-#: ui/admin/setup-edit-field-fluid.php:20 ui/admin/setup-edit-field.php:68
+#: classes/PodsUI.php:1047 classes/PodsUI.php:4364 classes/PodsAdmin.php:1268
+#: classes/PodsAdmin.php:2202 ui/admin/setup-edit-field-fluid.php:20
+#: ui/admin/setup-edit-field.php:68
 msgid "Duplicate"
 msgstr "Duplicar"
 
@@ -2310,18 +1997,10 @@ msgstr "Durante el proceso tus relaciones serán optimizadas."
 msgid "E-mail"
 msgstr "Correo electrónico"
 
-#: classes/fields/pick.php:2843
-msgid "East Germany"
-msgstr "Alemania del Este"
-
-#: classes/fields/pick.php:2844
-msgid "Ecuador"
-msgstr "Ecuador"
-
-#: classes/PodsI18n.php:175 classes/PodsAdmin.php:295 classes/PodsAdmin.php:369
+#: classes/PodsI18n.php:175 classes/PodsInit.php:1260 classes/PodsUI.php:1046
+#: classes/PodsUI.php:4349 classes/PodsAdmin.php:295 classes/PodsAdmin.php:369
 #: classes/PodsAdmin.php:1248 classes/PodsAdmin.php:2201
-#: classes/PodsInit.php:1260 classes/PodsUI.php:1046 classes/PodsUI.php:4349
-#: ui/admin/setup-edit.php:181 ui/admin/setup-edit-field-fluid.php:18
+#: ui/admin/setup-edit-field-fluid.php:18 ui/admin/setup-edit.php:181
 #: ui/admin/setup-edit-field.php:66
 msgid "Edit"
 msgstr "Editar"
@@ -2369,10 +2048,6 @@ msgstr "Editor"
 msgid "Editor Options"
 msgstr "Opciones del editor"
 
-#: classes/fields/pick.php:2845
-msgid "Egypt"
-msgstr "Egipto"
-
 #: classes/PodsAPI.php:6992
 msgid ""
 "Either Field Name / Field ID / Field Type, or Pod Name / Pod ID are required"
@@ -2387,10 +2062,6 @@ msgstr "Se requiere el nombre o ID del campo  / id de pod requerido"
 #: classes/PodsAPI.php:7061
 msgid "Either Object ID or Name are required"
 msgstr "Se requiere de un id de objeto o un nombre"
-
-#: classes/fields/pick.php:2846
-msgid "El Salvador"
-msgstr "El Salvador"
 
 #: classes/fields/oembed.php:91
 msgid "Embed Height"
@@ -2418,7 +2089,7 @@ msgstr "Incrustar contenido desde la página de Pods"
 msgid "Embed videos, images, tweets, and other content."
 msgstr "Incrustar videos, imágenes, tweets y otro contenido."
 
-#: classes/PodsAdmin.php:3505 classes/PodsUI.php:4403
+#: classes/PodsUI.php:4403 classes/PodsAdmin.php:3505
 msgid "Enable"
 msgstr "Habilitar"
 
@@ -2439,10 +2110,10 @@ msgstr "Habilitar campos adicionales"
 msgid "Enable Extra Fields?"
 msgstr "¿Habilitar campos extras?"
 
-#: classes/fields/time.php:138 classes/fields/link.php:93
-#: classes/fields/datetime.php:190 classes/fields/website.php:90
-#: classes/fields/phone.php:83 classes/fields/email.php:58
-#: classes/fields/date.php:120
+#: classes/fields/phone.php:83 classes/fields/date.php:120
+#: classes/fields/datetime.php:190 classes/fields/link.php:93
+#: classes/fields/website.php:90 classes/fields/time.php:138
+#: classes/fields/email.php:58
 msgid "Enable HTML5 Input Field?"
 msgstr "¿Habilitar campo HTML5?"
 
@@ -2532,18 +2203,6 @@ msgstr "Escribe tu nombre aquí"
 msgid "Enter template name here"
 msgstr "Introduce aquí el nombre de la plantilla"
 
-#: ui/fields/link.php:51
-msgid "Enter the destination URL"
-msgstr "Introduce la URL de destino"
-
-#: classes/fields/pick.php:2847
-msgid "Equatorial Guinea"
-msgstr "Guinea Ecuatorial"
-
-#: classes/fields/pick.php:2848
-msgid "Eritrea"
-msgstr "Eritrea"
-
 #: classes/cli/PodsAPI_CLI_Command.php:254
 msgid "Error deleting pod: %s"
 msgstr "Error al eliminar el pod: %s"
@@ -2580,18 +2239,8 @@ msgid "Error saving pod: %s"
 msgstr "Error al guardar el pod: %s"
 
 #: classes/PodsI18n.php:185
-#: ui/js/pods-dfv/_src/file-upload/uploaders/plupload.js:126
-#: ui/js/pods-dfv/pods-dfv.min.js:640
 msgid "Error uploading file: "
 msgstr "Error al cargar el archivo:"
-
-#: classes/fields/pick.php:2849
-msgid "Estonia"
-msgstr "Estonia"
-
-#: classes/fields/pick.php:2850
-msgid "Ethiopia"
-msgstr "Etiopía"
 
 #: classes/fields/currency.php:430
 msgid "Euro"
@@ -2667,21 +2316,13 @@ msgstr ""
 "Los campos extra fueron habilitados con éxito para esta taxonomía "
 "personalizada."
 
-#: classes/fields/pick.php:2851
-msgid "Falkland Islands"
-msgstr "Islas Malvinas"
-
-#: classes/fields/pick.php:2852
-msgid "Faroe Islands"
-msgstr "Islas Faroe"
-
-#: classes/PodsAdmin.php:1439 classes/PodsInit.php:1271
+#: classes/PodsInit.php:1271 classes/PodsAdmin.php:1439
 #: ui/admin/setup-edit.php:396
 msgid "Featured Image"
 msgstr "Imagen destacada"
 
-#: components/Builder/modules/field/PodsBuilderModuleField.php:107
 #: ui/admin/shortcode.php:464 ui/admin/widgets/field.php:51
+#: components/Builder/modules/field/PodsBuilderModuleField.php:107
 msgid "Field"
 msgstr "Campo"
 
@@ -2693,8 +2334,8 @@ msgstr "El campo %1$s ya existe, no puedes renombrar %2$s así"
 msgid "Field %s already exists"
 msgstr "El campo %s ya existe"
 
-#: ui/admin/setup-edit.php:288 ui/admin/setup-edit.php:304
-#: ui/admin/setup-edit-field-fluid.php:93
+#: ui/admin/setup-edit-field-fluid.php:93 ui/admin/setup-edit.php:288
+#: ui/admin/setup-edit.php:304
 msgid "Field Type"
 msgstr "Tipo de campo"
 
@@ -2719,19 +2360,15 @@ msgstr ""
 msgid "Field unable to be deleted"
 msgstr "El campo no se puede eliminar"
 
-#: ui/admin/upgrade/upgrade_2_0_0.php:80 ui/admin/upgrade/upgrade_2_0_0.php:188
 #: ui/admin/view.php:195 ui/admin/form.php:565
+#: ui/admin/upgrade/upgrade_2_0_0.php:80 ui/admin/upgrade/upgrade_2_0_0.php:188
 msgid "Fields"
 msgstr "Campos"
 
-#: components/Builder/modules/form/PodsBuilderModuleForm.php:109
 #: ui/admin/shortcode.php:470 ui/admin/widgets/form.php:49
+#: components/Builder/modules/form/PodsBuilderModuleForm.php:109
 msgid "Fields (comma-separated)"
 msgstr "Campos (separados por comas)"
-
-#: classes/fields/pick.php:2853
-msgid "Fiji"
-msgstr "Fiyi"
 
 #: classes/fields/file.php:33
 msgid "File / Image / Video"
@@ -2745,8 +2382,8 @@ msgstr "Gestor de subida de archivos"
 msgid "File size too large, max size is %s"
 msgstr "Archivo demasiado grande, el tamaño máximo es %s"
 
-#: components/Builder/modules/view/PodsBuilderModuleView.php:76
 #: ui/admin/shortcode.php:488 ui/admin/widgets/view.php:21
+#: components/Builder/modules/view/PodsBuilderModuleView.php:76
 msgid "File to include"
 msgstr "Fichero a incluír"
 
@@ -2767,30 +2404,23 @@ msgstr ""
 "Filtrar listas de <span class=\"pods-slugged\" data-sluggable=\"label"
 "\">elementos</span>"
 
-#: includes/general.php:510 ui/admin/setup-edit.php:677
+#: ui/admin/setup-edit.php:677 includes/general.php:510
 msgid "Find out more"
 msgstr "Averiguar más"
 
-#: components/Migrate-CPTUI/ui/wizard.php:147 components/Roles/ui/add.php:132
-#: components/Migrate-Packages/ui/wizard.php:283 ui/admin/setup-add.php:398
+#: ui/admin/setup-add.php:398 components/Migrate-CPTUI/ui/wizard.php:147
+#: components/Migrate-Packages/ui/wizard.php:283
+#: components/Roles/ui/add.php:132
 msgid "Finished"
 msgstr "Terminado"
-
-#: classes/fields/pick.php:2854
-msgid "Finland"
-msgstr "Finlandia"
-
-#: classes/fields/pick.php:3073
-msgid "Florida"
-msgstr "Florida"
 
 #: classes/Pods.php:4001
 msgid "Form submitted successfully"
 msgstr "Formulario enviado con éxito"
 
-#: classes/fields/pick.php:140 classes/fields/pick.php:156
-#: classes/fields/currency.php:102 classes/fields/link.php:44
-#: classes/fields/website.php:51 classes/fields/phone.php:52
+#: classes/fields/phone.php:52 classes/fields/link.php:44
+#: classes/fields/website.php:51 classes/fields/pick.php:140
+#: classes/fields/pick.php:156 classes/fields/currency.php:102
 #: classes/fields/number.php:62
 msgid "Format"
 msgstr "Formato"
@@ -2799,29 +2429,9 @@ msgstr "Formato"
 msgid "Format: strong em a ul ol li b i"
 msgstr "Formato: strong em a ul ol li b i"
 
-#: classes/fields/pick.php:2855
-msgid "France"
-msgstr "Francia"
-
 #: classes/fields/currency.php:76 classes/fields/number.php:56
 msgid "Freeform Number"
 msgstr "Número libre"
-
-#: classes/fields/pick.php:2856
-msgid "French Guiana"
-msgstr "Guayana francesa"
-
-#: classes/fields/pick.php:2857
-msgid "French Polynesia"
-msgstr "Polinesia Francesa"
-
-#: classes/fields/pick.php:2858
-msgid "French Southern Territories"
-msgstr "Territorios franceses del sur"
-
-#: classes/fields/pick.php:2859
-msgid "French Southern and Antarctic Territories"
-msgstr "Territorios australes y antárticos franceses"
 
 #: classes/PodsAdmin.php:3586
 msgid "Full"
@@ -2830,10 +2440,6 @@ msgstr "Completo"
 #: classes/PodsAdmin.php:2062
 msgid "Function to call when updating counts"
 msgstr "Función a llamar al actualizar cuentas"
-
-#: classes/fields/pick.php:2860
-msgid "Gabon"
-msgstr "Gabón"
 
 #: classes/fields/file.php:201
 msgid "Gallery image columns"
@@ -2851,10 +2457,6 @@ msgstr "Tamaño de la imagen de la galería"
 msgid "Gallery randomized order"
 msgstr "Orden aleatorio de la galería"
 
-#: classes/fields/pick.php:2861
-msgid "Gambia"
-msgstr "Gambia"
-
 #: ui/admin/setup-edit.php:443
 msgid "Genesis: Layouts"
 msgstr "Genesis: Layouts"
@@ -2867,25 +2469,9 @@ msgstr "Genesis: SEO"
 msgid "Genesis: Simple Sidebars"
 msgstr "Genesis: Barras laterales simples"
 
-#: classes/fields/pick.php:2862 classes/fields/pick.php:3074
-msgid "Georgia"
-msgstr "Georgia"
-
-#: classes/fields/pick.php:2863
-msgid "Germany"
-msgstr "Alemania"
-
-#: ui/admin/upgrade/upgrade_2_0_0.php:18 ui/admin/upgrade/upgrade_2_1_0.php:18
+#: ui/admin/upgrade/upgrade_2_1_0.php:18 ui/admin/upgrade/upgrade_2_0_0.php:18
 msgid "Getting Started"
 msgstr "Como empezar"
-
-#: classes/fields/pick.php:2864
-msgid "Ghana"
-msgstr "Ghana"
-
-#: classes/fields/pick.php:2865
-msgid "Gibraltar"
-msgstr "Gibraltar"
 
 #: classes/Pods.php:3477
 msgid "Go to page:"
@@ -2907,73 +2493,21 @@ msgstr "Ir a la página siguiente"
 msgid "Go to the previous page"
 msgstr "Ir a la página anterior"
 
-#: classes/fields/pick.php:2866
-msgid "Greece"
-msgstr "Grecia"
-
-#: classes/fields/pick.php:2867
-msgid "Greenland"
-msgstr "Tierra Verde"
-
-#: classes/fields/pick.php:2868
-msgid "Grenada"
-msgstr "Granada"
-
-#: classes/fields/pick.php:2869
-msgid "Guadeloupe"
-msgstr "Guadalupe"
-
-#: classes/fields/pick.php:2870
-msgid "Guam"
-msgstr "Guam"
-
-#: classes/fields/pick.php:2871
-msgid "Guatemala"
-msgstr "Guatemala"
-
-#: classes/fields/pick.php:2872
-msgid "Guernsey"
-msgstr "Guernesey"
-
-#: classes/fields/pick.php:2873
-msgid "Guinea"
-msgstr "Guinea"
-
-#: classes/fields/pick.php:2874
-msgid "Guinea-Bissau"
-msgstr "Guinea-Bissau"
-
-#: classes/fields/pick.php:2875
-msgid "Guyana"
-msgstr "Guyana"
-
 #: classes/fields/html.php:33
 msgid "HTML"
 msgstr "HTML"
 
-#: classes/fields/text.php:81 classes/fields/slug.php:46
-#: classes/fields/currency.php:155 classes/fields/website.php:96
-#: classes/fields/password.php:49 classes/fields/phone.php:88
-#: classes/fields/email.php:63 classes/fields/paragraph.php:126
-#: classes/fields/number.php:112
+#: classes/fields/phone.php:88 classes/fields/password.php:49
+#: classes/fields/website.php:96 classes/fields/currency.php:155
+#: classes/fields/email.php:63 classes/fields/number.php:112
+#: classes/fields/text.php:81 classes/fields/paragraph.php:126
+#: classes/fields/slug.php:46
 msgid "HTML Placeholder"
 msgstr "Marcador de posición HTML"
-
-#: classes/fields/pick.php:2876
-msgid "Haiti"
-msgstr "Haití"
-
-#: classes/fields/pick.php:3075
-msgid "Hawaii"
-msgstr "Hawaii"
 
 #: classes/PodsAdmin.php:2187
 msgid "Header Icon"
 msgstr "Icono de cabecera"
-
-#: classes/fields/pick.php:2877
-msgid "Heard Island and McDonald Islands"
-msgstr "Islas Heard y McDonald"
 
 #: classes/PodsAdmin.php:591 classes/PodsAdmin.php:614
 msgid "Help"
@@ -3028,17 +2562,9 @@ msgstr ""
 "campo de texto vacío para ingresar los términos de la taxonomía para asociar "
 "con la entrada (como las etiquetas de entradas predeterminadas)."
 
-#: classes/fields/pick.php:2878
-msgid "Honduras"
-msgstr "Honduras"
-
 #: classes/fields/currency.php:436
 msgid "Hong Kong Dollar"
 msgstr "Dolar de Hong Kong"
-
-#: classes/fields/pick.php:2879
-msgid "Hong Kong SAR China"
-msgstr "Hong Kong SAR China"
 
 #: classes/PodsAdmin.php:3594
 msgid "How far to traverse relationships in response"
@@ -3047,10 +2573,6 @@ msgstr "¿Hasta dónde recorrer las relaciones en respuesta?"
 #: classes/fields/currency.php:442
 msgid "Hungarian Forint"
 msgstr "Forint húngaro"
-
-#: classes/fields/pick.php:2880
-msgid "Hungary"
-msgstr "Hungría"
 
 #: classes/Pods.php:4324
 msgid "ID"
@@ -3068,17 +2590,9 @@ msgstr "ID o Slug"
 msgid "ID: %s"
 msgstr "ID: %s"
 
-#: classes/fields/pick.php:2881
-msgid "Iceland"
-msgstr "Islandia"
-
 #: classes/PodsI18n.php:199
 msgid "Icon"
 msgstr "Icono"
-
-#: classes/fields/pick.php:3076
-msgid "Idaho"
-msgstr "Idaho"
 
 #: classes/PodsAdmin.php:1729
 msgid ""
@@ -3112,10 +2626,6 @@ msgstr ""
 "Más comunmente este campo representa el nombre de una persona, lugar, cosa o "
 "un campo resumen."
 
-#: classes/fields/pick.php:3077
-msgid "Illinois"
-msgstr "Illinois"
-
 #: classes/fields/pick.php:517
 msgid "Image Sizes"
 msgstr "Tamaño de imágenes"
@@ -3144,9 +2654,8 @@ msgstr "Importar un paquete de pods, campos y otros ajustes desde otro sitio."
 msgid "Import and Clean Up"
 msgstr "Importar y limpiar"
 
-#: classes/widgets/PodsWidgetView.php:15
+#: classes/widgets/PodsWidgetView.php:15 ui/admin/shortcode.php:354
 #: components/Builder/modules/view/PodsBuilderModuleView.php:28
-#: ui/admin/shortcode.php:354
 msgid "Include a file from a theme, with caching options"
 msgstr "Incluír un archivo de un tema, con cacheo de opciones"
 
@@ -3154,21 +2663,9 @@ msgstr "Incluír un archivo de un tema, con cacheo de opciones"
 msgid "Index (WP Fallback)"
 msgstr "Índice (WP Fallback)"
 
-#: classes/fields/pick.php:2882
-msgid "India"
-msgstr "India"
-
 #: classes/fields/currency.php:448
 msgid "Indian Rupee"
 msgstr "Rupia india"
-
-#: classes/fields/pick.php:3078
-msgid "Indiana"
-msgstr "Indiana"
-
-#: classes/fields/pick.php:2883
-msgid "Indonesia"
-msgstr "Indonesia"
 
 #: classes/fields/currency.php:454
 msgid "Indonesian Rupiah"
@@ -3186,7 +2683,7 @@ msgstr ""
 "Los helpers de entrada de datos podrían no funcionar en los nuevos "
 "formularios, los hemos importado y deshabilitado para su revisión."
 
-#: classes/fields/currency.php:72 classes/fields/boolean.php:40
+#: classes/fields/boolean.php:40 classes/fields/currency.php:72
 #: classes/fields/number.php:52
 msgid "Input Type"
 msgstr "Tipo de input"
@@ -3232,13 +2729,13 @@ msgstr "Solicitud masiva no válida, inténtalo de nuevo."
 msgid "Invalid e-mail provided for %s"
 msgstr "Correo electrónico no válido proporcionado para %s"
 
-#: classes/fields/pick.php:2518 classes/fields/pick.php:2520
-#: classes/fields/pick.php:2522 classes/fields/file.php:978
+#: classes/fields/file.php:978 classes/fields/pick.php:2518
+#: classes/fields/pick.php:2520 classes/fields/pick.php:2522
 msgid "Invalid field"
 msgstr "Campo inválido"
 
-#: classes/fields/pick.php:2514 classes/fields/pick.php:2516
-#: classes/fields/file.php:974
+#: classes/fields/file.php:974 classes/fields/pick.php:2514
+#: classes/fields/pick.php:2516
 msgid "Invalid field request"
 msgstr "Petición de campo no válida"
 
@@ -3275,37 +2772,9 @@ msgstr "Se asigno un valor inválido para este campo."
 msgid "Invalid website provided for the field %s."
 msgstr "La página web proporcionada es inválida %s."
 
-#: classes/fields/pick.php:3079
-msgid "Iowa"
-msgstr "Iowa"
-
-#: classes/fields/pick.php:2884
-msgid "Iran"
-msgstr "Irán"
-
-#: classes/fields/pick.php:2885
-msgid "Iraq"
-msgstr "Irak"
-
-#: classes/fields/pick.php:2886
-msgid "Ireland"
-msgstr "Irlanda"
-
-#: classes/fields/pick.php:2887
-msgid "Isle of Man"
-msgstr "Isla de Man"
-
-#: classes/fields/pick.php:2888
-msgid "Israel"
-msgstr "Israel"
-
 #: classes/fields/currency.php:460
 msgid "Israeli New Sheqel"
 msgstr "Nuevo shekel israelí"
-
-#: classes/fields/pick.php:2889
-msgid "Italy"
-msgstr "Italia"
 
 #: classes/PodsInit.php:1247 classes/PodsUI.php:1020
 msgid "Item"
@@ -3323,21 +2792,9 @@ msgstr "Índices de elementos"
 msgid "Items"
 msgstr "Items"
 
-#: classes/fields/pick.php:2890
-msgid "Jamaica"
-msgstr "Jamaica"
-
-#: classes/fields/pick.php:2891
-msgid "Japan"
-msgstr "Japón"
-
 #: classes/fields/currency.php:466
 msgid "Japanese Yen"
 msgstr "Yen japonés"
-
-#: classes/fields/pick.php:2892
-msgid "Jersey"
-msgstr "Jersey"
 
 #: ui/admin/setup-edit.php:469
 msgid "Jetpack Markdown Support"
@@ -3347,50 +2804,14 @@ msgstr "Soporte markdown de Jetpack"
 msgid "Jetpack Publicize Support"
 msgstr "Soporte de difundir con Jetpack"
 
-#: classes/fields/pick.php:2893
-msgid "Johnston Island"
-msgstr "Isla Johnston"
-
-#: classes/fields/pick.php:2894
-msgid "Jordan"
-msgstr "Jordania"
-
-#: classes/fields/pick.php:3080
-msgid "Kansas"
-msgstr "Kansas"
-
-#: classes/fields/pick.php:2895
-msgid "Kazakhstan"
-msgstr "Kazajstán"
-
-#: classes/fields/pick.php:3081
-msgid "Kentucky"
-msgstr "Kentucky"
-
-#: classes/fields/pick.php:2896
-msgid "Kenya"
-msgstr "Kenia"
-
-#: classes/fields/pick.php:2897
-msgid "Kiribati"
-msgstr "Kiribati"
-
 #: classes/fields/currency.php:472
 msgid "Korean Won"
 msgstr "Won coreano"
 
-#: classes/fields/pick.php:2898
-msgid "Kuwait"
-msgstr "Kuwait"
-
-#: classes/fields/pick.php:2899
-msgid "Kyrgyzstan"
-msgstr "Kirguistán"
-
 #: classes/PodsAdmin.php:946 classes/PodsAdmin.php:1207
-#: components/Roles/Roles.php:103 components/Roles/ui/add.php:43
-#: ui/admin/setup-edit.php:282 ui/admin/setup-edit.php:298
-#: ui/admin/setup-edit-field-fluid.php:71
+#: ui/admin/setup-edit-field-fluid.php:71 ui/admin/setup-edit.php:282
+#: ui/admin/setup-edit.php:298 components/Roles/ui/add.php:43
+#: components/Roles/Roles.php:103
 msgid "Label"
 msgstr "Etiqueta"
 
@@ -3405,10 +2826,6 @@ msgstr "Idioma"
 #: components/I18n/I18n.php:613
 msgid "Languages"
 msgstr "Idiomas"
-
-#: classes/fields/pick.php:2900
-msgid "Laos"
-msgstr "Laos"
 
 #: classes/Pods.php:3482
 msgid "Last &raquo;"
@@ -3434,37 +2851,13 @@ msgstr ""
 "Últimas entradas del foro en <a href=\"https://wordpress.org/support/plugin/"
 "pods\" target=\"_blank\">wordpress.org</a>"
 
-#: classes/fields/pick.php:2901
-msgid "Latvia"
-msgstr "Lituania"
-
-#: classes/fields/time.php:100 classes/fields/datetime.php:98
-#: classes/fields/datetime.php:151 classes/fields/date.php:93
+#: classes/fields/date.php:93 classes/fields/datetime.php:98
+#: classes/fields/datetime.php:151 classes/fields/time.php:100
 msgid "Leave empty to auto-generate from PHP format."
 msgstr "Deja este campo vacío para autogenerar el formato con PHP."
 
-#: classes/fields/pick.php:2902
-msgid "Lebanon"
-msgstr "Líbano"
-
-#: classes/fields/pick.php:2903
-msgid "Lesotho"
-msgstr "Lesoto"
-
-#: classes/fields/pick.php:2904
-msgid "Liberia"
-msgstr "Liberia"
-
-#: classes/fields/pick.php:2905
-msgid "Libya"
-msgstr "Libia"
-
-#: classes/fields/pick.php:2906
-msgid "Liechtenstein"
-msgstr "Liechtenstein"
-
-#: components/Builder/modules/list/PodsBuilderModuleList.php:161
 #: ui/admin/shortcode.php:446 ui/admin/widgets/list.php:94
+#: components/Builder/modules/list/PodsBuilderModuleList.php:161
 msgid "Limit"
 msgstr "Límite"
 
@@ -3475,10 +2868,6 @@ msgstr "Limite de la lista de Rol(es)"
 #: classes/fields/link.php:34
 msgid "Link"
 msgstr "Enlace"
-
-#: ui/fields/link.php:57
-msgid "Link Text"
-msgstr "Texto del enlace"
 
 #: classes/fields/link.php:70
 msgid "Link Text Output Options"
@@ -3496,10 +2885,6 @@ msgstr "Listar múltiples items Pod"
 msgid "List view"
 msgstr "Vista de la lista"
 
-#: classes/fields/pick.php:2907
-msgid "Lithuania"
-msgstr "Lituania"
-
 #: ui/admin/setup-edit.php:825
 msgid "Loading available fields.."
 msgstr "Cargando campos disponibles..."
@@ -3511,39 +2896,6 @@ msgstr "Lugar"
 #: classes/fields/currency.php:106 classes/fields/number.php:66
 msgid "Localized Default"
 msgstr "Localizado por defecto"
-
-#: classes/fields/pick.php:3082
-msgid "Louisiana"
-msgstr "Louisiana"
-
-#: classes/fields/pick.php:2908
-msgid "Luxembourg"
-msgstr "Luxemburgo"
-
-#. translators: Publish box date format, see http://php.net/date
-#: classes/PodsInit.php:1209 classes/PodsInit.php:1221 components/Pages.php:217
-#: components/Pages.php:229 components/Helpers.php:129
-#: components/Helpers.php:141 components/Templates/Templates.php:187
-#: components/Templates/Templates.php:199 ui/admin/view.php:41
-#: ui/admin/form.php:227
-msgid "M j, Y @ G:i"
-msgstr "j M Y @ G:i"
-
-#: classes/fields/pick.php:2909
-msgid "Macau SAR China"
-msgstr "RAEM de Macao China"
-
-#: classes/fields/pick.php:2910
-msgid "Macedonia"
-msgstr "Macedonia"
-
-#: classes/fields/pick.php:2911
-msgid "Madagascar"
-msgstr "Madagascar"
-
-#: classes/fields/pick.php:3083
-msgid "Maine"
-msgstr "Maine"
 
 #: classes/PodsAdmin.php:1860
 msgid "Make a new menu item"
@@ -3558,13 +2910,13 @@ msgstr "Crear un nuevo menú debajo de Ajustes"
 msgid "Make field \"Read Only\" in UI"
 msgstr "Hacer el campo \"solo lectura\" en la UI"
 
-#: classes/fields/text.php:46 classes/fields/oembed.php:79
-#: classes/fields/time.php:63 classes/fields/currency.php:66
+#: classes/fields/phone.php:46 classes/fields/date.php:57
 #: classes/fields/datetime.php:62 classes/fields/color.php:41
-#: classes/fields/website.php:45 classes/fields/code.php:48
-#: classes/fields/wysiwyg.php:46 classes/fields/phone.php:46
-#: classes/fields/email.php:46 classes/fields/date.php:57
-#: classes/fields/paragraph.php:50 classes/fields/number.php:46
+#: classes/fields/website.php:45 classes/fields/wysiwyg.php:46
+#: classes/fields/time.php:63 classes/fields/code.php:48
+#: classes/fields/currency.php:66 classes/fields/email.php:46
+#: classes/fields/number.php:46 classes/fields/text.php:46
+#: classes/fields/oembed.php:79 classes/fields/paragraph.php:50
 msgid ""
 "Making a field repeatable will add controls next to the field which allows "
 "users to Add/Remove/Reorder additional values. These values are saved in the "
@@ -3576,34 +2928,13 @@ msgstr ""
 "guardados en la base de datos como un array, por lo tanto la búsqueda o "
 "filtrado por estos puede requerir ajustes más adelante\"."
 
-#: classes/fields/pick.php:2912
-msgid "Malawi"
-msgstr "Malawi"
-
-#: classes/fields/pick.php:2913
-msgid "Malaysia"
-msgstr "Malasia"
-
 #: classes/fields/currency.php:478
 msgid "Malaysian Ringgit"
 msgstr "Ringgit malayo"
 
-#: classes/fields/pick.php:2914
-msgid "Maldives"
-msgstr "Maldivas"
-
-#: classes/fields/pick.php:2915
-msgid "Mali"
-msgstr "Mali"
-
-#: classes/fields/pick.php:2916
-msgid "Malta"
-msgstr "Malta"
-
-#: classes/PodsAdmin.php:365 classes/PodsAdmin.php:391
-#: classes/PodsAdmin.php:1316 classes/PodsUI.php:1044
-#: components/Roles/ui/edit.php:41 ui/admin/setup-edit.php:693
-#: ui/admin/view.php:17 ui/admin/form.php:202
+#: classes/PodsUI.php:1044 classes/PodsAdmin.php:365 classes/PodsAdmin.php:391
+#: classes/PodsAdmin.php:1316 ui/admin/view.php:17 ui/admin/form.php:202
+#: ui/admin/setup-edit.php:693 components/Roles/ui/edit.php:41
 msgid "Manage"
 msgstr "Administrar"
 
@@ -3622,53 +2953,21 @@ msgstr ""
 msgid "Manage Fields"
 msgstr "Gestionar campos"
 
-#: classes/fields/pick.php:3139
-msgid "Manitoba"
-msgstr "Manitoba"
-
-#: classes/fields/pick.php:2917
-msgid "Marshall Islands"
-msgstr "Islas Marshall"
-
-#: classes/fields/pick.php:2918
-msgid "Martinique"
-msgstr "Martinica"
-
-#: classes/fields/pick.php:3084
-msgid "Maryland"
-msgstr "Maryland"
-
-#: classes/fields/pick.php:3085
-msgid "Massachusetts"
-msgstr "Massachusetts"
-
-#: classes/fields/pick.php:2919
-msgid "Mauritania"
-msgstr "Mauritania"
-
-#: classes/fields/pick.php:2920
-msgid "Mauritius"
-msgstr "Mauricio"
-
 #: classes/fields/file.php:114
 msgid "Max Number of Files"
 msgstr "Número máximo de archivos"
 
-#: classes/fields/text.php:75 classes/fields/currency.php:149
+#: classes/fields/phone.php:77 classes/fields/password.php:43
 #: classes/fields/website.php:84 classes/fields/code.php:65
-#: classes/fields/password.php:43 classes/fields/phone.php:77
-#: classes/fields/email.php:52 classes/fields/paragraph.php:120
-#: classes/fields/number.php:106
+#: classes/fields/currency.php:149 classes/fields/email.php:52
+#: classes/fields/number.php:106 classes/fields/text.php:75
+#: classes/fields/paragraph.php:120
 msgid "Maximum Length"
 msgstr "Longitud máxima"
 
 #: classes/fields/currency.php:143 classes/fields/number.php:100
 msgid "Maximum Number"
 msgstr "Número máximo"
-
-#: classes/fields/pick.php:2921
-msgid "Mayotte"
-msgstr "Mayotte"
 
 #: classes/fields/pick.php:505 ui/admin/setup-add.php:260
 msgid "Media"
@@ -3718,32 +3017,12 @@ msgstr "Posición en el menú"
 msgid "Meta Based (WP Default)"
 msgstr "Basado en metas (opción por defecto en WP)"
 
-#: classes/fields/pick.php:2922
-msgid "Metropolitan France"
-msgstr "Francia metropolitana"
-
 #: classes/fields/currency.php:484
 msgid "Mexican Peso"
 msgstr "Peso Mexicano"
 
-#: classes/fields/pick.php:2923
-msgid "Mexico"
-msgstr "México"
-
-#: classes/fields/pick.php:3086
-msgid "Michigan"
-msgstr "Michigan"
-
-#: classes/fields/pick.php:2924
-msgid "Micronesia"
-msgstr "Micronesia"
-
-#: classes/fields/pick.php:2925
-msgid "Midway Islands"
-msgstr "Midway Islands"
-
-#: components/Migrate-CPTUI/ui/wizard.php:27
 #: ui/admin/upgrade/upgrade_2_0_0.php:24
+#: components/Migrate-CPTUI/ui/wizard.php:27
 msgid "Migrate"
 msgstr "Migrar"
 
@@ -3777,18 +3056,6 @@ msgstr "¡Migración completada!"
 msgid "Minimum Number"
 msgstr "Número mínimo"
 
-#: classes/fields/pick.php:3087
-msgid "Minnesota"
-msgstr "Minnesota"
-
-#: classes/fields/pick.php:3088
-msgid "Mississippi"
-msgstr "Mississippi"
-
-#: classes/fields/pick.php:3089
-msgid "Missouri"
-msgstr "Missouri"
-
 #: classes/fields/file.php:176
 msgid "Modal Add Button Text"
 msgstr "Texto del botón añadir modal"
@@ -3797,45 +3064,13 @@ msgstr "Texto del botón añadir modal"
 msgid "Modal Title"
 msgstr "Título modal"
 
-#: classes/fields/pick.php:2926
-msgid "Moldova"
-msgstr "Moldova"
-
-#: classes/fields/pick.php:2927
-msgid "Monaco"
-msgstr "Mónaco"
-
-#: classes/fields/pick.php:2928
-msgid "Mongolia"
-msgstr "Mongolia"
-
-#: classes/fields/pick.php:3090
-msgid "Montana"
-msgstr "Montana"
-
-#: classes/fields/pick.php:2929
-msgid "Montenegro"
-msgstr "Montenegro"
-
-#: classes/fields/pick.php:2930
-msgid "Montserrat"
-msgstr "Montserrat"
-
 #: classes/PodsMeta.php:1000 ui/admin/view.php:193
 msgid "More Fields"
 msgstr "Más campos"
 
-#: classes/fields/pick.php:2931
-msgid "Morocco"
-msgstr "Marruecos"
-
 #: ui/admin/setup-edit-field-fluid.php:8 ui/admin/setup-edit-field.php:44
 msgid "Move"
 msgstr "Mover"
-
-#: classes/fields/pick.php:2932
-msgid "Mozambique"
-msgstr "Mozambique"
 
 #: classes/fields/pick.php:164
 msgid "Multi Select"
@@ -3857,20 +3092,15 @@ msgstr "Redes multisitio"
 msgid "Multisite Sites"
 msgstr "Sitios multisitio"
 
-#: classes/fields/pick.php:2933
-msgid "Myanmar [Burma]"
-msgstr "Myanmar [Birmania]"
-
 #: includes/general.php:1139 includes/general.php:1159
 #: includes/general.php:1181
 msgid "NOTICE"
 msgstr "ADVERTENCIA"
 
-#: classes/PodsAdmin.php:947 classes/PodsAdmin.php:2852
-#: classes/PodsAdmin.php:3588 classes/PodsUI.php:1082
-#: components/Roles/Roles.php:104 components/Roles/ui/add.php:50
+#: classes/PodsUI.php:1082 classes/PodsAdmin.php:947 classes/PodsAdmin.php:2852
+#: classes/PodsAdmin.php:3588 ui/admin/setup-edit-field-fluid.php:75
 #: ui/admin/setup-edit.php:285 ui/admin/setup-edit.php:301
-#: ui/admin/setup-edit-field-fluid.php:75
+#: components/Roles/ui/add.php:50 components/Roles/Roles.php:104
 msgid "Name"
 msgstr "Nombre"
 
@@ -3898,10 +3128,6 @@ msgstr ""
 msgid "Name your new Role"
 msgstr "Nombre del nuevo rol"
 
-#: classes/fields/pick.php:2934
-msgid "Namibia"
-msgstr "Namibia"
-
 #: components/Roles/ui/add.php:22
 msgid "Naming"
 msgstr "Nomenclatura"
@@ -3910,45 +3136,17 @@ msgstr "Nomenclatura"
 msgid "Native name"
 msgstr "Nombre nativo"
 
-#: classes/fields/pick.php:2935
-msgid "Nauru"
-msgstr "Nauru"
-
 #: ui/admin/view.php:111 ui/admin/form.php:374
 msgid "Navigate"
 msgstr "Navegar"
 
-#: classes/PodsI18n.php:179 ui/js/jquery.pods.js:1972
+#: classes/PodsI18n.php:179
 msgid "Navigating away from this page will discard any changes you have made."
 msgstr "Si abandonas esta página se perderán los cambios efectuados."
 
 #: classes/fields/pick.php:524
 msgid "Navigation Menus"
 msgstr "Menús de navegación"
-
-#: classes/fields/pick.php:3091
-msgid "Nebraska"
-msgstr "Nebraska"
-
-#: classes/fields/pick.php:2936
-msgid "Nepal"
-msgstr "Nepal"
-
-#: classes/fields/pick.php:2937
-msgid "Netherlands"
-msgstr "Países Bajos"
-
-#: classes/fields/pick.php:2938
-msgid "Netherlands Antilles"
-msgstr "Antillas Holandesas"
-
-#: classes/fields/pick.php:2939
-msgid "Neutral Zone"
-msgstr "Zona neutral"
-
-#: classes/fields/pick.php:3092
-msgid "Nevada"
-msgstr "Nevada"
 
 #: classes/PodsInit.php:1259
 msgid "New %s"
@@ -3974,43 +3172,15 @@ msgstr ""
 "Nuevo nombre de <span class=\"pods-slugged\" data-sluggable=\"label_singular"
 "\">elemento</span>"
 
-#: classes/fields/pick.php:3140
-msgid "New Brunswick"
-msgstr "New Brunswick"
-
-#: classes/fields/pick.php:2940
-msgid "New Caledonia"
-msgstr "Nueva Caledonia"
-
 #: ui/admin/setup-edit-field-fluid.php:13
 msgid "New Field"
 msgstr "Nuevo campo"
-
-#: classes/fields/pick.php:3093
-msgid "New Hampshire"
-msgstr "Nueva Hampshire"
 
 #: classes/cli/Pods_CLI_Command.php:49 classes/cli/Pods_CLI_Command.php:163
 #: classes/cli/PodsAPI_CLI_Command.php:50
 #: classes/cli/PodsAPI_CLI_Command.php:161
 msgid "New ID: %s"
 msgstr "Nueva ID: %s"
-
-#: classes/fields/pick.php:3094
-msgid "New Jersey"
-msgstr "New Jersey"
-
-#: classes/fields/pick.php:3095
-msgid "New Mexico"
-msgstr "Nuevo Mexico"
-
-#: classes/fields/pick.php:3096
-msgid "New York"
-msgstr "Nueva York"
-
-#: classes/fields/pick.php:2941
-msgid "New Zealand"
-msgstr "Nueva Zelanda"
 
 #: classes/fields/currency.php:490
 msgid "New Zealand Dollar"
@@ -4020,10 +3190,6 @@ msgstr "Dolar de Nueva Zelanda"
 msgid "New table not found, items cannot be migrated"
 msgstr "Nueva tabla no encontrada, los elementos no se pueden migrar"
 
-#: classes/fields/pick.php:3141
-msgid "Newfoundland and Labrador"
-msgstr "Terranova y Labrador"
-
 #: ui/admin/view.php:129 ui/admin/form.php:392
 msgid "Next %s"
 msgstr "Siguiente %s"
@@ -4032,27 +3198,11 @@ msgstr "Siguiente %s"
 msgid "Next &rsaquo;"
 msgstr "Siguiente &rsaquo;"
 
+#: ui/admin/setup-add.php:398 ui/admin/upgrade/upgrade_2_1_0.php:117
+#: ui/admin/upgrade/upgrade_2_0_0.php:270
 #: components/Migrate-CPTUI/ui/wizard.php:147 components/Roles/ui/add.php:132
-#: ui/admin/setup-add.php:398 ui/admin/upgrade/upgrade_2_0_0.php:270
-#: ui/admin/upgrade/upgrade_2_1_0.php:117
 msgid "Next Step"
 msgstr "Siguiente paso"
-
-#: classes/fields/pick.php:2942
-msgid "Nicaragua"
-msgstr "Nicaragua"
-
-#: classes/fields/pick.php:2943
-msgid "Niger"
-msgstr "Níger"
-
-#: classes/fields/pick.php:2944
-msgid "Nigeria"
-msgstr "Nigeria"
-
-#: classes/fields/pick.php:2945
-msgid "Niue"
-msgstr "Niue"
 
 #: classes/fields/boolean.php:57 classes/fields/boolean.php:178
 #: classes/fields/boolean.php:205 classes/PodsUI.php:3025
@@ -4161,22 +3311,18 @@ msgstr "Ninguna"
 msgid "None (ex. 100)"
 msgstr "Ninguno (ej. 100)"
 
-#: components/Pages.php:498
-#: components/Builder/modules/field/PodsBuilderModuleField.php:92
-#: components/Builder/modules/form/PodsBuilderModuleForm.php:94
-#: components/Builder/modules/single/PodsBuilderModuleSingle.php:93
-#: components/Builder/modules/single/PodsBuilderModuleSingle.php:128
+#: ui/admin/shortcode.php:382 ui/admin/widgets/single.php:40
+#: ui/admin/widgets/form.php:38 ui/admin/widgets/list.php:40
+#: ui/admin/widgets/field.php:38
 #: components/Builder/modules/list/PodsBuilderModuleList.php:97
 #: components/Builder/modules/list/PodsBuilderModuleList.php:124
-#: ui/admin/shortcode.php:382 ui/admin/widgets/field.php:38
-#: ui/admin/widgets/single.php:40 ui/admin/widgets/list.php:40
-#: ui/admin/widgets/form.php:38
+#: components/Builder/modules/single/PodsBuilderModuleSingle.php:93
+#: components/Builder/modules/single/PodsBuilderModuleSingle.php:128
+#: components/Builder/modules/field/PodsBuilderModuleField.php:92
+#: components/Builder/modules/form/PodsBuilderModuleForm.php:94
+#: components/Pages.php:498
 msgid "None Found"
 msgstr "No se ha encontrado nada"
-
-#: classes/fields/pick.php:2946
-msgid "Norfolk Island"
-msgstr "Isla Norfolk"
 
 #: classes/PodsAdmin.php:2150
 msgid "Normal (Looks like the Post Type UI)"
@@ -4185,34 +3331,6 @@ msgstr "Normal (se muestra como el UI tipo de entrada)"
 #: classes/PodsAdmin.php:2076
 msgid "Normal Settings Form"
 msgstr "Formulario de ajustes normales"
-
-#: classes/fields/pick.php:3097
-msgid "North Carolina"
-msgstr "Carolina del Norte"
-
-#: classes/fields/pick.php:3098
-msgid "North Dakota"
-msgstr "Dakota del Norte"
-
-#: classes/fields/pick.php:2947
-msgid "North Korea"
-msgstr "Corea del norte"
-
-#: classes/fields/pick.php:2948
-msgid "North Vietnam"
-msgstr "Vietnam del norte"
-
-#: classes/fields/pick.php:2949
-msgid "Northern Mariana Islands"
-msgstr "Islas Marianas del Norte"
-
-#: classes/fields/pick.php:3142
-msgid "Northwest Territories"
-msgstr "Territorios del Noroeste"
-
-#: classes/fields/pick.php:2950
-msgid "Norway"
-msgstr "Noruega"
 
 #: classes/fields/currency.php:496
 msgid "Norwegian Krone"
@@ -4236,26 +3354,18 @@ msgstr ""
 "href=\"http://pods.io/docs/comparisons/compare-content-types/\" target="
 "\"_blank\">comparación de tipos de contenido</a> para ayudarte a decidir."
 
-#: classes/fields/pick.php:3143
-msgid "Nova Scotia"
-msgstr "Nueva Escocia"
-
 #: classes/PodsAdmin.php:954
 msgid "Number of Fields"
 msgstr "Número de campos"
-
-#: classes/fields/pick.php:3144
-msgid "Nunavut"
-msgstr "Nunavut"
 
 #: ui/admin/setup-edit.php:191
 msgid "OK"
 msgstr "Aceptar"
 
-#: components/Builder/modules/view/PodsBuilderModuleView.php:90
+#: ui/admin/shortcode.php:499 ui/admin/widgets/view.php:32
+#: ui/admin/widgets/list.php:117
 #: components/Builder/modules/list/PodsBuilderModuleList.php:191
-#: ui/admin/shortcode.php:499 ui/admin/widgets/list.php:117
-#: ui/admin/widgets/view.php:32
+#: components/Builder/modules/view/PodsBuilderModuleView.php:90
 msgid "Object Cache"
 msgstr "Caché de objeto"
 
@@ -4271,18 +3381,6 @@ msgstr "Se requiere un objeto para añadir un grupo de metadatos de pods"
 msgid "Object type is required"
 msgstr "Es necesario el tipo del objeto"
 
-#: classes/fields/pick.php:3099
-msgid "Ohio"
-msgstr "Ohio"
-
-#: classes/fields/pick.php:3100
-msgid "Oklahoma"
-msgstr "Oklahoma"
-
-#: classes/fields/pick.php:2951
-msgid "Oman"
-msgstr "Oman"
-
 #: ui/admin/setup-edit-field-fluid.php:117
 msgid ""
 "One option per line, use <em>value|Label</em> for separate values and labels"
@@ -4290,17 +3388,9 @@ msgstr ""
 "Una opción por línea, usa <em>valor | etiqueta</em> para separar valores y "
 "etiquetas"
 
-#: classes/fields/pick.php:3145
-msgid "Ontario"
-msgstr "Ontario"
-
 #: classes/PodsAPI.php:1030 classes/PodsAPI.php:1041
 msgid "Open"
 msgstr "Abiertos"
-
-#: ui/fields/link.php:62
-msgid "Open link in a new tab"
-msgstr "Abrir enlace en una nueva pestaña"
 
 #: classes/fields/link.php:64
 msgid "Open link in new window by default?"
@@ -4330,18 +3420,10 @@ msgstr ""
 msgid "Options"
 msgstr "Opciones"
 
-#: ui/fields/link.php:69
-msgid "Or link to existing content"
-msgstr "o enlaza a un contenido existente"
-
-#: components/Builder/modules/list/PodsBuilderModuleList.php:169
 #: ui/admin/shortcode.php:452 ui/admin/widgets/list.php:100
+#: components/Builder/modules/list/PodsBuilderModuleList.php:169
 msgid "Order By"
 msgstr "Ordenar por"
-
-#: classes/fields/pick.php:3101
-msgid "Oregon"
-msgstr "Oregon"
 
 #: ui/admin/setup-edit.php:52 ui/admin/setup-edit.php:53
 #: ui/admin/setup-edit.php:55
@@ -4360,8 +3442,8 @@ msgstr "Otros (personalizar extensiones permitidas)"
 msgid "Other WP Objects"
 msgstr "Otros objetos WP"
 
-#: classes/fields/text.php:52 classes/fields/html.php:43
-#: classes/fields/code.php:54 classes/fields/wysiwyg.php:75
+#: classes/fields/html.php:43 classes/fields/wysiwyg.php:75
+#: classes/fields/code.php:54 classes/fields/text.php:52
 #: classes/fields/paragraph.php:56
 msgid "Output Options"
 msgstr "Opciones de salida"
@@ -4374,14 +3456,10 @@ msgstr "Salida como una galería WP"
 msgid "Output as a link?"
 msgstr "¿Salida como un enlace?"
 
-#: classes/fields/time.php:89 classes/fields/datetime.php:87
-#: classes/fields/datetime.php:140 classes/fields/date.php:82
+#: classes/fields/date.php:82 classes/fields/datetime.php:87
+#: classes/fields/datetime.php:140 classes/fields/time.php:89
 msgid "PHP date documentation"
 msgstr "Documentación para fecha PHP "
-
-#: classes/fields/pick.php:2952
-msgid "Pacific Islands Trust Territory"
-msgstr "Islas del Pacífico Territorio de confianza"
 
 #: components/Migrate-Packages/ui/wizard.php:45
 #: components/Migrate-Packages/ui/wizard.php:80
@@ -4421,38 +3499,10 @@ msgstr "Plantilla de página"
 msgid "Page Templates"
 msgstr "Plantillas para páginas"
 
-#: classes/PodsAdmin.php:1576 components/Pages.php:455
-#: ui/admin/setup-add.php:161
+#: classes/PodsAdmin.php:1576 ui/admin/setup-add.php:161
+#: components/Pages.php:455
 msgid "Page Title"
 msgstr "Título de página"
-
-#: classes/fields/pick.php:2953
-msgid "Pakistan"
-msgstr "Pakistán"
-
-#: classes/fields/pick.php:2954
-msgid "Palau"
-msgstr "Palau"
-
-#: classes/fields/pick.php:2955
-msgid "Palestinian Territories"
-msgstr "Territorios Palestinos"
-
-#: classes/fields/pick.php:2956
-msgid "Panama"
-msgstr "Panamá"
-
-#: classes/fields/pick.php:2957
-msgid "Panama Canal Zone"
-msgstr "Zona del Canal de Panamá"
-
-#: classes/fields/pick.php:2958
-msgid "Papua New Guinea"
-msgstr "Papúa Nueva Guinea"
-
-#: classes/fields/pick.php:2959
-msgid "Paraguay"
-msgstr "Paraguay"
 
 #: classes/PodsInit.php:1269 classes/PodsInit.php:1292
 msgid "Parent %s"
@@ -4494,29 +3544,13 @@ msgstr "Contraseña"
 msgid "Paste the Package Code"
 msgstr "Pega el código del paquete"
 
-#: classes/fields/pick.php:3102
-msgid "Pennsylvania"
-msgstr "Pensilvania"
-
-#: classes/fields/pick.php:2960
-msgid "People's Democratic Republic of Yemen"
-msgstr "República Democrática Popular del Yemen"
-
 #: classes/fields/slug.php:36
 msgid "Permalink (url-friendly)"
 msgstr "Enlace permanente (url amigable)"
 
-#: classes/fields/pick.php:2961
-msgid "Peru"
-msgstr "Perú"
-
 #: classes/fields/currency.php:502
 msgid "Philippine Peso"
 msgstr "Peso filipino"
-
-#: classes/fields/pick.php:2962
-msgid "Philippines"
-msgstr "Filipinas"
 
 #: classes/fields/phone.php:33
 msgid "Phone"
@@ -4526,15 +3560,11 @@ msgstr "Teléfono"
 msgid "Phone Options"
 msgstr "Opciones de teléfono"
 
-#: classes/fields/pick.php:2963
-msgid "Pitcairn Islands"
-msgstr "Islas de Pitcairn"
-
-#: classes/fields/text.php:85 classes/fields/slug.php:50
-#: classes/fields/currency.php:159 classes/fields/website.php:100
-#: classes/fields/password.php:53 classes/fields/phone.php:92
-#: classes/fields/email.php:67 classes/fields/paragraph.php:130
-#: classes/fields/number.php:116
+#: classes/fields/phone.php:92 classes/fields/password.php:53
+#: classes/fields/website.php:100 classes/fields/currency.php:159
+#: classes/fields/email.php:67 classes/fields/number.php:116
+#: classes/fields/text.php:85 classes/fields/paragraph.php:130
+#: classes/fields/slug.php:50
 msgid ""
 "Placeholders can provide instructions or an example of the required data "
 "format for a field. Please note: It is not a replacement for labels or "
@@ -4556,10 +3586,6 @@ msgstr "Texto de párrafo sin formato"
 #: classes/fields/text.php:33
 msgid "Plain Text"
 msgstr "Texto sin formato"
-
-#: ui/admin/settings-reset.php:41
-msgid "Please Note:"
-msgstr "Tenga en cuenta:"
 
 #: classes/fields/oembed.php:514
 msgid "Please choose a valid oEmbed URL."
@@ -4598,14 +3624,13 @@ msgstr ""
 msgid "Plural Label"
 msgstr "Etiqueta en plural"
 
-#: classes/PodsAPI.php:6033
+#: classes/PodsAPI.php:6033 ui/admin/widgets/single.php:28
+#: ui/admin/widgets/form.php:26 ui/admin/widgets/list.php:28
+#: ui/admin/widgets/field.php:26 ui/admin/setup-edit.php:734
+#: components/Builder/modules/list/PodsBuilderModuleList.php:90
+#: components/Builder/modules/single/PodsBuilderModuleSingle.php:86
 #: components/Builder/modules/field/PodsBuilderModuleField.php:85
 #: components/Builder/modules/form/PodsBuilderModuleForm.php:87
-#: components/Builder/modules/single/PodsBuilderModuleSingle.php:86
-#: components/Builder/modules/list/PodsBuilderModuleList.php:90
-#: ui/admin/setup-edit.php:734 ui/admin/widgets/field.php:26
-#: ui/admin/widgets/single.php:28 ui/admin/widgets/list.php:28
-#: ui/admin/widgets/form.php:26
 msgid "Pod"
 msgstr "Pod"
 
@@ -4836,8 +3861,8 @@ msgid "Pod with the name %s already exists"
 msgstr "Ya existe un pod llamado %s"
 
 #: classes/PodsAPI.php:6029 classes/fields/pick.php:417
-#: ui/admin/setup-edit.php:734 ui/admin/upgrade/upgrade_2_0_0.php:71
-#: ui/admin/upgrade/upgrade_2_0_0.php:179
+#: ui/admin/upgrade/upgrade_2_0_0.php:71 ui/admin/upgrade/upgrade_2_0_0.php:179
+#: ui/admin/setup-edit.php:734
 msgid "Pods"
 msgstr "Pods"
 
@@ -4983,10 +4008,6 @@ msgstr ""
 msgid "PodsInit not available"
 msgstr "PodsInit no disonible"
 
-#: classes/fields/pick.php:2964
-msgid "Poland"
-msgstr "Polonia"
-
 #: classes/fields/currency.php:508
 msgid "Polish Złoty"
 msgstr "Złoty polaco"
@@ -5006,10 +4027,6 @@ msgstr ""
 "<span class=\"pods-slugged\" data-sluggable=\"label\">Elementos</span> "
 "populares"
 
-#: classes/fields/pick.php:2965
-msgid "Portugal"
-msgstr "Portugal"
-
 #: classes/fields/pick.php:529 ui/admin/setup-edit.php:431
 msgid "Post Formats"
 msgstr "Formatos de entrada"
@@ -5018,7 +4035,7 @@ msgstr "Formatos de entrada"
 msgid "Post Status"
 msgstr "Estado de la entrada"
 
-#: ui/admin/setup-edit.php:735 ui/admin/setup-add.php:306
+#: ui/admin/setup-add.php:306 ui/admin/setup-edit.php:735
 msgid "Post Type"
 msgstr "Tipo de publicaciones"
 
@@ -5115,7 +4132,7 @@ msgstr ""
 "el contenido sea un bloque de PHP. Debes abrir el tag de PHP aquí, ya que no "
 "lo hacemos por defecto."
 
-#: classes/fields/datetime.php:72 classes/fields/date.php:67
+#: classes/fields/date.php:67 classes/fields/datetime.php:72
 msgid ""
 "Predefined Format will allow you to select from a list of commonly used date "
 "formats."
@@ -5129,11 +4146,11 @@ msgstr ""
 msgid "Predefined Lists"
 msgstr "Lista de predefinidos"
 
-#: classes/fields/datetime.php:75 classes/fields/date.php:70
+#: classes/fields/date.php:70 classes/fields/datetime.php:75
 msgid "Predefined format"
 msgstr "Formato predefinido"
 
-#: ui/admin/upgrade/upgrade_2_0_0.php:21 ui/admin/upgrade/upgrade_2_1_0.php:21
+#: ui/admin/upgrade/upgrade_2_1_0.php:21 ui/admin/upgrade/upgrade_2_0_0.php:21
 msgid "Prepare"
 msgstr "Preparar"
 
@@ -5153,16 +4170,13 @@ msgstr "Previsualizar"
 msgid "Previous %s"
 msgstr "%s anterior"
 
-#: classes/fields/pick.php:3146
-msgid "Prince Edward Island"
-msgstr "Isla del Príncipe Eduardo"
-
 #: components/Migrate-Packages/ui/wizard.php:283
 msgid "Process Again"
 msgstr "Procesar de nuevo"
 
-#: components/Migrate-CPTUI/ui/wizard.php:147 components/Roles/ui/add.php:132
-#: components/Migrate-Packages/ui/wizard.php:283 ui/admin/setup-add.php:398
+#: ui/admin/setup-add.php:398 components/Migrate-CPTUI/ui/wizard.php:147
+#: components/Migrate-Packages/ui/wizard.php:283
+#: components/Roles/ui/add.php:132
 msgid "Processing"
 msgstr "Procesando"
 
@@ -5182,18 +4196,6 @@ msgstr "Público"
 msgid "Publicly Queryable"
 msgstr "Se puede consultar públicamente"
 
-#: classes/fields/pick.php:2966
-msgid "Puerto Rico"
-msgstr "Puerto Rico"
-
-#: classes/fields/pick.php:2967
-msgid "Qatar"
-msgstr "Catar"
-
-#: classes/fields/pick.php:3147
-msgid "Quebec"
-msgstr "Quebec"
-
 #: classes/PodsAdmin.php:1796 classes/PodsAdmin.php:2033
 #: classes/PodsAdmin.php:2040
 msgid "Query Var"
@@ -5207,7 +4209,7 @@ msgstr "REST API"
 msgid "REST Base (if any)"
 msgstr "Base REST (si existe)"
 
-#: classes/fields/pick.php:148 classes/fields/boolean.php:45
+#: classes/fields/boolean.php:45 classes/fields/pick.php:148
 msgid "Radio Buttons"
 msgstr "Botones de opción"
 
@@ -5255,8 +4257,8 @@ msgstr "Relación"
 msgid "Relationship Field Options"
 msgstr "Opciones de campos relacionales"
 
-#: ui/admin/upgrade/upgrade_2_0_0.php:89 ui/admin/upgrade/upgrade_2_0_0.php:197
 #: ui/admin/upgrade/upgrade_2_1_0.php:67 ui/admin/upgrade/upgrade_2_1_0.php:96
+#: ui/admin/upgrade/upgrade_2_0_0.php:89 ui/admin/upgrade/upgrade_2_0_0.php:197
 msgid "Relationships"
 msgstr "Relaciones"
 
@@ -5288,8 +4290,8 @@ msgstr "Eliminar imagen destacada"
 msgid "Remove trailing decimals (0)"
 msgstr "Eliminar decimales de arrastre (0)"
 
-#: classes/PodsI18n.php:165 classes/PodsAdmin.php:1330
-#: classes/PodsAdmin.php:2204 classes/PodsUI.php:1049
+#: classes/PodsI18n.php:165 classes/PodsUI.php:1049 classes/PodsAdmin.php:1330
+#: classes/PodsAdmin.php:2204
 msgid "Reorder"
 msgstr "Reordenar"
 
@@ -5308,13 +4310,13 @@ msgstr ""
 msgid "Reorder Field"
 msgstr "Reordenar campo"
 
-#: classes/fields/text.php:43 classes/fields/oembed.php:76
-#: classes/fields/time.php:60 classes/fields/currency.php:63
+#: classes/fields/phone.php:43 classes/fields/date.php:54
 #: classes/fields/datetime.php:59 classes/fields/color.php:38
-#: classes/fields/website.php:42 classes/fields/code.php:45
-#: classes/fields/wysiwyg.php:43 classes/fields/phone.php:43
-#: classes/fields/email.php:43 classes/fields/date.php:54
-#: classes/fields/paragraph.php:47 classes/fields/number.php:43
+#: classes/fields/website.php:42 classes/fields/wysiwyg.php:43
+#: classes/fields/time.php:60 classes/fields/code.php:45
+#: classes/fields/currency.php:63 classes/fields/email.php:43
+#: classes/fields/number.php:43 classes/fields/text.php:43
+#: classes/fields/oembed.php:76 classes/fields/paragraph.php:47
 msgid "Repeatable Field"
 msgstr "Campo repetible"
 
@@ -5358,8 +4360,8 @@ msgstr "Reiniciar el fin de semana"
 msgid "Response Type"
 msgstr "Tipo de respuesta"
 
-#: classes/PodsAdmin.php:2440 components/Pages.php:606
-#: components/Templates/Templates.php:399
+#: classes/PodsAdmin.php:2440 components/Templates/Templates.php:399
+#: components/Pages.php:606
 msgid "Restrict Access"
 msgstr "Restringir acceso"
 
@@ -5371,8 +4373,8 @@ msgstr "Restringir tamaño del archivo"
 msgid "Restrict File Types"
 msgstr "Restringir tipos de archivo"
 
-#: classes/PodsAdmin.php:2459 components/Pages.php:555
-#: components/Templates/Templates.php:375
+#: classes/PodsAdmin.php:2459 components/Templates/Templates.php:375
+#: components/Pages.php:555
 msgid "Restrict access by Capability?"
 msgstr "¿Restringir acceso por funcionalidad?"
 
@@ -5417,10 +4419,6 @@ msgstr "Reescribir páginas"
 msgid "Rewrite with Front"
 msgstr "Reescribir con front"
 
-#: classes/fields/pick.php:3103
-msgid "Rhode Island"
-msgstr "Rhode Island"
-
 #: components/Roles/Roles.php:316
 msgid "Role label is required"
 msgstr "La etiqueta del rol es necesaria"
@@ -5457,80 +4455,20 @@ msgstr ""
 "Los roles permiten especificar las funcionalidades que un usuario puede usar "
 "en WordPress."
 
-#: classes/fields/pick.php:2968
-msgid "Romania"
-msgstr "Rumanía"
-
 #: classes/fields/file.php:159
 msgid "Rows"
 msgstr "Filas"
-
-#: classes/fields/pick.php:2969
-msgid "Russia"
-msgstr "Rusia"
 
 #: classes/fields/currency.php:514
 msgid "Russian Ruble"
 msgstr "Rublo ruso"
 
-#: classes/fields/pick.php:2970
-msgid "Rwanda"
-msgstr "Ruanda"
-
-#: classes/fields/pick.php:2971
-msgid "Réunion"
-msgstr "Reunión"
-
-#: classes/fields/pick.php:2972
-msgid "Saint Barthélemy"
-msgstr "San Bartolomé"
-
-#: classes/fields/pick.php:2973
-msgid "Saint Helena"
-msgstr "Santa Elena"
-
-#: classes/fields/pick.php:2974
-msgid "Saint Kitts and Nevis"
-msgstr "San Cristóbal y Nieves"
-
-#: classes/fields/pick.php:2975
-msgid "Saint Lucia"
-msgstr "Santa Lucía"
-
-#: classes/fields/pick.php:2976
-msgid "Saint Martin"
-msgstr "San Martín"
-
-#: classes/fields/pick.php:2977
-msgid "Saint Pierre and Miquelon"
-msgstr "San Pedro y Miquelón"
-
-#: classes/fields/pick.php:2978
-msgid "Saint Vincent and the Grenadines"
-msgstr "San Vicente y las Granadinas"
-
-#: classes/fields/pick.php:2979
-msgid "Samoa"
-msgstr "Samoa"
-
-#: classes/fields/pick.php:2980
-msgid "San Marino"
-msgstr "San Marino"
-
-#: classes/fields/pick.php:3148
-msgid "Saskatchewan"
-msgstr "Saskatchewan"
-
-#: classes/fields/pick.php:2981
-msgid "Saudi Arabia"
-msgstr "Arabia Saudí"
-
-#: components/Roles/ui/edit.php:49 ui/admin/form-settings.php:85
-#: ui/admin/form.php:128
+#: ui/admin/form-settings.php:85 ui/admin/form.php:128
+#: components/Roles/ui/edit.php:49
 msgid "Save"
 msgstr "Guardar"
 
-#: classes/Pods.php:3978 classes/PodsAdmin.php:799 classes/PodsForm.php:400
+#: classes/Pods.php:3978 classes/PodsAdmin.php:799
 #: ui/admin/components-admin.php:107
 msgid "Save Changes"
 msgstr "Guardar cambios"
@@ -5543,10 +4481,8 @@ msgstr "Guardar campo"
 msgid "Save Pod"
 msgstr "Guardar Pod"
 
-#: classes/Pods.php:3620 classes/PodsI18n.php:177 classes/PodsAdmin.php:1350
-#: classes/PodsUI.php:1050 classes/PodsUI.php:3061 classes/PodsUI.php:3321
-#: ui/js/pods-dfv/_src/pick/views/select-view.js:328
-#: ui/js/pods-dfv/pods-dfv.min.js:1434
+#: classes/Pods.php:3620 classes/PodsI18n.php:177 classes/PodsUI.php:1050
+#: classes/PodsUI.php:3061 classes/PodsUI.php:3321 classes/PodsAdmin.php:1350
 msgid "Search"
 msgstr "Buscar"
 
@@ -5578,10 +4514,6 @@ msgstr "Ver %s para más información."
 msgid "Select"
 msgstr "Seleccionar"
 
-#: ui/fields/color.php:16
-msgid "Select Color"
-msgstr "Seleccionar color"
-
 #: components/Templates/includes/element-pod_reference.php:12
 msgid "Select Pod to use as reference"
 msgstr "Selecciona pod para usar como referencia"
@@ -5602,10 +4534,6 @@ msgstr "Límite de selección"
 msgid "Selection Type"
 msgstr "Tipo de selección"
 
-#: classes/fields/pick.php:2982
-msgid "Senegal"
-msgstr "Senegal"
-
 #: classes/PodsInit.php:1299
 msgid "Separate %s with commas"
 msgstr "Separar %s con comas"
@@ -5622,14 +4550,6 @@ msgstr ""
 msgid "Separate file extensions with a comma (ex. jpg,png,mp4,mov)"
 msgstr "Separa extensiones de archivo con una coma  (ej. jpg,png,mp4,mov)"
 
-#: classes/fields/pick.php:2983
-msgid "Serbia"
-msgstr "Serbia"
-
-#: classes/fields/pick.php:2984
-msgid "Serbia and Montenegro"
-msgstr "Serbia y Montenegro"
-
 #: classes/PodsAdmin.php:2431
 msgid "Set Default Value via Parameter"
 msgstr "Establecer valor por defecto mediante parámetro"
@@ -5642,11 +4562,11 @@ msgstr "Escoger la imagen destacada"
 msgid "Set featured image"
 msgstr "Establecer imagen destacada"
 
-#: classes/fields/text.php:78 classes/fields/currency.php:152
+#: classes/fields/phone.php:80 classes/fields/password.php:46
 #: classes/fields/website.php:87 classes/fields/code.php:68
-#: classes/fields/password.php:46 classes/fields/phone.php:80
-#: classes/fields/email.php:55 classes/fields/paragraph.php:123
-#: classes/fields/number.php:109
+#: classes/fields/currency.php:152 classes/fields/email.php:55
+#: classes/fields/number.php:109 classes/fields/text.php:78
+#: classes/fields/paragraph.php:123
 msgid "Set to -1 for no limit"
 msgstr "-1 para no establecer límite"
 
@@ -5669,7 +4589,7 @@ msgstr ""
 "que usar pods_v_sanitized (2, \"url\") en PHP."
 
 #: classes/PodsAdmin.php:586 classes/PodsAdmin.php:609
-#: ui/admin/components-admin.php:10 ui/admin/upgrade/upgrade_2_0_0.php:206
+#: ui/admin/upgrade/upgrade_2_0_0.php:206 ui/admin/components-admin.php:10
 msgid "Settings"
 msgstr "Ajustes"
 
@@ -5684,10 +4604,6 @@ msgstr "Ajustes guardados con éxito."
 #: components/Migrate-CPTUI/ui/wizard.php:23
 msgid "Setup"
 msgstr "Configuración"
-
-#: classes/fields/pick.php:2985
-msgid "Seychelles"
-msgstr "Seychelles"
 
 #: classes/PodsAdmin.php:3567 classes/PodsAdmin.php:3573
 #: classes/PodsAdmin.php:3581
@@ -5775,17 +4691,9 @@ msgstr "Mostrar traducciones"
 msgid "Sidebars"
 msgstr "Barras laterales"
 
-#: classes/fields/pick.php:2986
-msgid "Sierra Leone"
-msgstr "Sierra Leona"
-
 #: classes/fields/pick.php:387
 msgid "Simple (custom defined list)"
 msgstr "Simple (lista personalizada)"
-
-#: classes/fields/pick.php:2987
-msgid "Singapore"
-msgstr "Singapur"
 
 #: classes/fields/currency.php:526
 msgid "Singapore Dollar"
@@ -5823,10 +4731,10 @@ msgstr "Plantilla de elemento único"
 msgid "Singular Label"
 msgstr "Etiqueta en singular"
 
-#: components/Builder/modules/view/PodsBuilderModuleView.php:92
+#: ui/admin/shortcode.php:501 ui/admin/widgets/view.php:34
+#: ui/admin/widgets/list.php:119
 #: components/Builder/modules/list/PodsBuilderModuleList.php:193
-#: ui/admin/shortcode.php:501 ui/admin/widgets/list.php:119
-#: ui/admin/widgets/view.php:34
+#: components/Builder/modules/view/PodsBuilderModuleView.php:92
 msgid "Site Transient"
 msgstr "Dato temporal del sitio"
 
@@ -5838,18 +4746,10 @@ msgstr "Slider"
 msgid "Slider Increment (Step)"
 msgstr "Incremento del slider (Paso)"
 
-#: classes/fields/pick.php:2988
-msgid "Slovakia"
-msgstr "Eslovaquia"
-
-#: classes/fields/pick.php:2989
-msgid "Slovenia"
-msgstr "Eslovenia"
-
+#: ui/admin/widgets/single.php:46 ui/admin/widgets/field.php:44
+#: components/Builder/modules/single/PodsBuilderModuleSingle.php:100
 #: components/Builder/modules/field/PodsBuilderModuleField.php:99
 #: components/Builder/modules/form/PodsBuilderModuleForm.php:101
-#: components/Builder/modules/single/PodsBuilderModuleSingle.php:100
-#: ui/admin/widgets/field.php:44 ui/admin/widgets/single.php:46
 msgid "Slug or ID"
 msgstr "Slug o ID"
 
@@ -5857,15 +4757,7 @@ msgstr "Slug o ID"
 msgid "Soft format?"
 msgstr "¿Formato suave?"
 
-#: classes/fields/pick.php:2990
-msgid "Solomon Islands"
-msgstr "Islas Salomón"
-
-#: classes/fields/pick.php:2991
-msgid "Somalia"
-msgstr "Somalia"
-
-#: classes/PodsI18n.php:181 ui/js/jquery.pods.js:217
+#: classes/PodsI18n.php:181
 msgid ""
 "Some fields have changes that were not saved yet, please save them or cancel "
 "the changes before saving the Pod."
@@ -5873,47 +4765,20 @@ msgstr ""
 "Algunos campos tienen cambios que todavía no se han guardado. Por favor, "
 "guarda o cancela los cambios del campo antes de guardar el Pod."
 
-#: classes/fields/pick.php:2992
-msgid "South Africa"
-msgstr "Sudáfrica"
-
 #: classes/fields/currency.php:532
 msgid "South African Rand"
 msgstr "Rand sudafricano"
 
-#: classes/fields/pick.php:3104
-msgid "South Carolina"
-msgstr "Carolina del Sur"
-
-#: classes/fields/pick.php:3105
-msgid "South Dakota"
-msgstr "Dakota del Sur"
-
-#: classes/fields/pick.php:2993
-msgid "South Georgia and the South Sandwich Islands"
-msgstr "Georgia del Sur y las Islas Sandwich del Sur"
-
-#: classes/fields/pick.php:2994
-msgid "South Korea"
-msgstr "Corea del sur"
-
-#: classes/fields/pick.php:2995
-msgid "Spain"
-msgstr "España"
-
-#: classes/fields/pick.php:2996
-msgid "Sri Lanka"
-msgstr "Sri Lanka"
-
-#: components/Migrate-CPTUI/ui/wizard.php:146 components/Roles/ui/add.php:131
-#: components/Migrate-Packages/ui/wizard.php:282 ui/admin/setup-add.php:398
+#: ui/admin/setup-add.php:398 ui/admin/upgrade/upgrade_2_1_0.php:116
 #: ui/admin/upgrade/upgrade_2_0_0.php:269
-#: ui/admin/upgrade/upgrade_2_1_0.php:116
+#: components/Migrate-CPTUI/ui/wizard.php:146
+#: components/Migrate-Packages/ui/wizard.php:282
+#: components/Roles/ui/add.php:131
 msgid "Start Over"
 msgstr "Volver a empezar"
 
-#: ui/admin/upgrade/upgrade_2_0_0.php:270
 #: ui/admin/upgrade/upgrade_2_1_0.php:117
+#: ui/admin/upgrade/upgrade_2_0_0.php:270
 msgid "Start using Pods"
 msgstr "Empezar a usar pods"
 
@@ -5929,34 +4794,14 @@ msgstr "Tipo de almacenamiento"
 msgid "Submit"
 msgstr "Enviar"
 
-#: components/Builder/modules/form/PodsBuilderModuleForm.php:117
 #: ui/admin/shortcode.php:476 ui/admin/widgets/form.php:55
+#: components/Builder/modules/form/PodsBuilderModuleForm.php:117
 msgid "Submit Label"
 msgstr "Etiqueta de envío"
-
-#: classes/fields/pick.php:2997
-msgid "Sudan"
-msgstr "Sudán"
 
 #: ui/admin/setup-edit.php:374
 msgid "Supports"
 msgstr "Soporta"
-
-#: classes/fields/pick.php:2998
-msgid "Suriname"
-msgstr "Surinam"
-
-#: classes/fields/pick.php:2999
-msgid "Svalbard and Jan Mayen"
-msgstr "Svalbard y Jan Mayen"
-
-#: classes/fields/pick.php:3000
-msgid "Swaziland"
-msgstr "Suazilandia"
-
-#: classes/fields/pick.php:3001
-msgid "Sweden"
-msgstr "Suecia"
 
 #: classes/fields/currency.php:520
 msgid "Swedish Krona"
@@ -5965,18 +4810,6 @@ msgstr "Corona sueca"
 #: classes/fields/currency.php:538
 msgid "Swiss Franc"
 msgstr "Franco suizo"
-
-#: classes/fields/pick.php:3002
-msgid "Switzerland"
-msgstr "Suiza"
-
-#: classes/fields/pick.php:3003
-msgid "Syria"
-msgstr "Siria"
-
-#: classes/fields/pick.php:3004
-msgid "São Tomé and Príncipe"
-msgstr "Santo Tomé y Príncipe"
 
 #: ui/admin/setup-add.php:231 ui/admin/setup-add.php:380
 msgid "Table Based"
@@ -6005,28 +4838,16 @@ msgstr "No se encontró la tabla, los elementos no pueden ser migrados"
 msgid "Taggable"
 msgstr "Etiquetable"
 
-#: classes/fields/pick.php:3005
-msgid "Taiwan"
-msgstr "Taiwan"
-
 #: classes/fields/currency.php:544
 msgid "Taiwan New Dollar"
 msgstr "Nuevo dólar de Taiwán"
-
-#: classes/fields/pick.php:3006
-msgid "Tajikistan"
-msgstr "Tajikistán"
-
-#: classes/fields/pick.php:3007
-msgid "Tanzania"
-msgstr "Tanzania"
 
 #: classes/fields/pick.php:478 ui/admin/setup-edit.php:488
 #: ui/admin/setup-edit.php:736
 msgid "Taxonomies"
 msgstr "Taxonomías"
 
-#: components/Table-Storage.php:54 ui/admin/setup-add.php:266
+#: ui/admin/setup-add.php:266 components/Table-Storage.php:54
 msgid "Taxonomies (Categories, Tags, etc..)"
 msgstr "Taxonomías (categorías, etiquetas, etc...)"
 
@@ -6041,7 +4862,7 @@ msgstr ""
 "basado en tablas operará de forma que cualquiera campo que crees para tu "
 "tipo de contenido se convierta en un campo en una tabla."
 
-#: ui/admin/setup-edit.php:736 ui/admin/setup-add.php:330
+#: ui/admin/setup-add.php:330 ui/admin/setup-edit.php:736
 msgid "Taxonomy"
 msgstr "Taxonomía"
 
@@ -6070,14 +4891,14 @@ msgstr "Objetos de taxonomía"
 msgid "Taxonomy Template"
 msgstr "Plantilla de taxonomías"
 
-#: components/Builder/modules/single/PodsBuilderModuleSingle.php:121
-#: components/Builder/modules/single/PodsBuilderModuleSingle.php:138
+#: ui/admin/shortcode.php:391 ui/admin/shortcode.php:407
+#: ui/admin/widgets/single.php:67 ui/admin/widgets/single.php:83
+#: ui/admin/widgets/list.php:51 ui/admin/widgets/list.php:67
 #: components/Builder/modules/list/PodsBuilderModuleList.php:117
 #: components/Builder/modules/list/PodsBuilderModuleList.php:134
-#: components/Templates/class-pods_templates.php:207 ui/admin/shortcode.php:391
-#: ui/admin/shortcode.php:407 ui/admin/widgets/single.php:67
-#: ui/admin/widgets/single.php:83 ui/admin/widgets/list.php:51
-#: ui/admin/widgets/list.php:67
+#: components/Builder/modules/single/PodsBuilderModuleSingle.php:121
+#: components/Builder/modules/single/PodsBuilderModuleSingle.php:138
+#: components/Templates/class-pods_templates.php:207
 msgid "Template"
 msgstr "Plantilla"
 
@@ -6090,14 +4911,6 @@ msgstr "Ubicación de la plantilla"
 msgid "Templates"
 msgstr "Plantillas"
 
-#: classes/fields/pick.php:3106
-msgid "Tennessee"
-msgstr "Tennessee"
-
-#: classes/fields/pick.php:3107
-msgid "Texas"
-msgstr "Texas"
-
 #: classes/fields/file.php:136
 msgid "Text (txt, csv, tsv, rtx, etc..)"
 msgstr "Texto (txt, csv, tsv, rtx, etc.)"
@@ -6106,12 +4919,8 @@ msgstr "Texto (txt, csv, tsv, rtx, etc.)"
 msgid "Thai Baht"
 msgstr "Baht tailandés"
 
-#: classes/fields/pick.php:3008
-msgid "Thailand"
-msgstr "Tailandia"
-
-#: components/Builder/modules/form/PodsBuilderModuleForm.php:125
 #: ui/admin/shortcode.php:482 ui/admin/widgets/form.php:61
+#: components/Builder/modules/form/PodsBuilderModuleForm.php:125
 msgid "Thank You URL upon submission"
 msgstr "URL de gracias tras del envío"
 
@@ -6151,8 +4960,8 @@ msgstr ""
 "El componente %s no puede ser deshabilitado desde aquí. Tienes que "
 "desactivar el plugin o tema que lo añadió."
 
-#: classes/fields/link.php:223 classes/fields/website.php:189
-#: classes/fields/phone.php:164
+#: classes/fields/phone.php:164 classes/fields/link.php:223
+#: classes/fields/website.php:189
 msgid "The %s field is required."
 msgstr "El campo %s es requerido."
 
@@ -6285,9 +5094,9 @@ msgstr ""
 "a los desarrolladores que sufren de \"lunes\" y les permite reiniciar el fin "
 "de semana."
 
-#: classes/PodsI18n.php:151 classes/fields/text.php:165
-#: classes/fields/oembed.php:210 classes/fields/color.php:109
-#: classes/fields/password.php:117
+#: classes/PodsI18n.php:151 classes/fields/password.php:117
+#: classes/fields/color.php:109 classes/fields/text.php:165
+#: classes/fields/oembed.php:210
 msgid "This field is required."
 msgstr "Este campo es obligatorio."
 
@@ -6433,12 +5242,12 @@ msgstr "Mosaico"
 msgid "Time"
 msgstr "Hora"
 
-#: classes/fields/time.php:104 classes/fields/time.php:123
 #: classes/fields/datetime.php:155 classes/fields/datetime.php:174
+#: classes/fields/time.php:104 classes/fields/time.php:123
 msgid "Time Format"
 msgstr "Formato horario"
 
-#: classes/fields/time.php:69 classes/fields/datetime.php:120
+#: classes/fields/datetime.php:120 classes/fields/time.php:69
 msgid "Time Format Type"
 msgstr "Tipo formato de tiempo"
 
@@ -6458,17 +5267,13 @@ msgstr "Formato de hora para mostrar"
 msgid "Time format for input"
 msgstr "Formato de hora para la entrada"
 
-#: classes/fields/pick.php:3009
-msgid "Timor-Leste"
-msgstr "Timor-Leste"
-
 #: classes/fields/wysiwyg.php:57
 msgid "TinyMCE (WP Default)"
 msgstr "TinyMCE (WP por defecto)"
 
-#: ui/admin/setup-edit.php:381 ui/admin/widgets/field.php:15
-#: ui/admin/widgets/single.php:17 ui/admin/widgets/list.php:17
-#: ui/admin/widgets/view.php:15 ui/admin/widgets/form.php:15
+#: ui/admin/widgets/single.php:17 ui/admin/widgets/view.php:15
+#: ui/admin/widgets/form.php:15 ui/admin/widgets/list.php:17
+#: ui/admin/widgets/field.php:15 ui/admin/setup-edit.php:381
 msgid "Title"
 msgstr "Título"
 
@@ -6528,18 +5333,6 @@ msgstr "Alternar la visibilidad de la traducción"
 msgid "Toggle translations"
 msgstr "Alternar traducciones"
 
-#: classes/fields/pick.php:3010
-msgid "Togo"
-msgstr "Togo"
-
-#: classes/fields/pick.php:3011
-msgid "Tokelau"
-msgstr "Tokelau"
-
-#: classes/fields/pick.php:3012
-msgid "Tonga"
-msgstr "Tonga"
-
 #: classes/PodsAdmin.php:2890 ui/admin/settings.php:11
 msgid "Tools"
 msgstr "Herramientas"
@@ -6554,10 +5347,10 @@ msgid "Transforms less-beautfiul text characters into stylized equivalents."
 msgstr ""
 "Transforma caracteres \"poco bonitos\" en sus equivalentes estilizados."
 
-#: components/Builder/modules/view/PodsBuilderModuleView.php:91
+#: ui/admin/shortcode.php:500 ui/admin/widgets/view.php:33
+#: ui/admin/widgets/list.php:118
 #: components/Builder/modules/list/PodsBuilderModuleList.php:192
-#: ui/admin/shortcode.php:500 ui/admin/widgets/list.php:118
-#: ui/admin/widgets/view.php:33
+#: components/Builder/modules/view/PodsBuilderModuleView.php:91
 msgid "Transient"
 msgstr "Dato temporal"
 
@@ -6569,33 +5362,9 @@ msgstr "Opciones de traducción"
 msgid "Translation options"
 msgstr "Opciones de traducción"
 
-#: classes/fields/pick.php:3013
-msgid "Trinidad and Tobago"
-msgstr "Trinidad y Tobago"
-
-#: classes/fields/pick.php:3014
-msgid "Tunisia"
-msgstr "Túnez"
-
-#: classes/fields/pick.php:3015
-msgid "Turkey"
-msgstr "Turquía"
-
 #: classes/fields/currency.php:556
 msgid "Turkish Lira"
 msgstr "Lira turca"
-
-#: classes/fields/pick.php:3016
-msgid "Turkmenistan"
-msgstr "Turkmenistán"
-
-#: classes/fields/pick.php:3017
-msgid "Turks and Caicos Islands"
-msgstr "Islas Turcas y Caicos"
-
-#: classes/fields/pick.php:3018
-msgid "Tuvalu"
-msgstr "Tuvalu"
 
 #: classes/PodsAdmin.php:948 classes/PodsAdmin.php:1075
 msgid "Type"
@@ -6604,22 +5373,6 @@ msgstr "Tipo"
 #: classes/PodsAPI.php:3040
 msgid "Type must be given to save an Object"
 msgstr "Se debe especificar un tipo para guardar un objeto"
-
-#: classes/fields/pick.php:3019
-msgid "U.S. Minor Outlying Islands"
-msgstr "Islas menores alejadas de los EE.UU."
-
-#: classes/fields/pick.php:3020
-msgid "U.S. Miscellaneous Pacific Islands"
-msgstr "Otras islas del pacífico de Estados Unidos "
-
-#: classes/fields/pick.php:3021
-msgid "U.S. Virgin Islands"
-msgstr "Islas Vírgenes US"
-
-#: ui/fields/link.php:54
-msgid "URL"
-msgstr "URL"
 
 #: classes/PodsAdmin.php:1640
 msgid ""
@@ -6658,49 +5411,19 @@ msgstr "Céntimo de dólar estadounidense"
 msgid "US States"
 msgstr "Estados Unidos de America"
 
-#: classes/fields/pick.php:3022
-msgid "Uganda"
-msgstr "Uganda"
-
-#: classes/fields/pick.php:3023
-msgid "Ukraine"
-msgstr "Ucrania"
-
-#: classes/PodsI18n.php:183 ui/js/jquery.pods.upgrade.js:60
-#: ui/js/jquery.pods.upgrade.js:154 ui/js/jquery.pods.js:433
-#: ui/js/jquery.pods.migrate.js:70 ui/js/jquery.pods.migrate.js:176
+#: classes/PodsI18n.php:183
 msgid "Unable to process request, please try again."
 msgstr "No se ha podido procesar la petición. Por favor, vuelve a intentarlo."
 
-#: classes/fields/pick.php:2485 classes/fields/file.php:954
+#: classes/fields/file.php:954 classes/fields/pick.php:2485
 #: classes/fields/oembed.php:520 classes/PodsAdmin.php:3260
 #: components/Templates/includes/functions-pod_reference.php:13
 msgid "Unauthorized request"
 msgstr "Solicitud no autorizada"
 
-#: classes/fields/pick.php:3024
-msgid "Union of Soviet Socialist Republics"
-msgstr "Unión de Repúblicas Socialistas Soviéticas"
-
 #: ui/admin/setup-edit-field-fluid.php:160
 msgid "Unique"
 msgstr "Único"
-
-#: classes/fields/pick.php:3025
-msgid "United Arab Emirates"
-msgstr "Estados Árabes Unidos"
-
-#: classes/fields/pick.php:3026
-msgid "United Kingdom"
-msgstr "Reino Unido"
-
-#: classes/fields/pick.php:3027
-msgid "United States"
-msgstr "Estados Unidos"
-
-#: classes/fields/pick.php:3028
-msgid "Unknown or Invalid Region"
-msgstr "Región desconocida o no válida"
 
 #: classes/PodsInit.php:1296 classes/PodsUI.php:1071
 msgid "Update %s"
@@ -6734,7 +5457,7 @@ msgstr "Actualizar"
 msgid "Upgrade Complete!"
 msgstr "¡Actualización completa!"
 
-#: ui/admin/upgrade/upgrade_2_0_0.php:10 ui/admin/upgrade/upgrade_2_1_0.php:10
+#: ui/admin/upgrade/upgrade_2_1_0.php:10 ui/admin/upgrade/upgrade_2_0_0.php:10
 msgid "Upgrade Pods"
 msgstr "Actualizar pods"
 
@@ -6769,10 +5492,6 @@ msgid ""
 msgstr ""
 "Subir a este <span class=\"pods-slugged\" data-sluggable=\"label_singular"
 "\">elemento</span>"
-
-#: classes/fields/pick.php:3029
-msgid "Uruguay"
-msgstr "Uruguay"
 
 #: classes/PodsAdmin.php:1931
 msgid "Use a drop-down for the input instead of the WordPress default"
@@ -6813,8 +5532,8 @@ msgid "User data is required but is either invalid or empty"
 msgstr ""
 "Los datos de usuario son necesarios pero no son válidos o están vacíos."
 
-#: classes/fields/pick.php:485 components/Roles/Roles.php:107
-#: ui/admin/setup-add.php:261
+#: classes/fields/pick.php:485 ui/admin/setup-add.php:261
+#: components/Roles/Roles.php:107
 msgid "Users"
 msgstr "Usuarios"
 
@@ -6834,14 +5553,6 @@ msgstr ""
 "Usa estas funcionalidades para acceder a este tipo de post: "
 "edit_{capability}, read_{capability}, and delete_{capability}"
 
-#: classes/fields/pick.php:3108
-msgid "Utah"
-msgstr "Utah"
-
-#: classes/fields/pick.php:3030
-msgid "Uzbekistan"
-msgstr "Uzbekistán"
-
 #: classes/fields/file.php:121
 msgid ""
 "Valid size suffixes are: GB (gigabytes), MB (megabytes), KB (kilobytes), or "
@@ -6857,22 +5568,6 @@ msgstr ""
 msgid "Values"
 msgstr "Valores"
 
-#: classes/fields/pick.php:3031
-msgid "Vanuatu"
-msgstr "Vanuatu"
-
-#: classes/fields/pick.php:3032
-msgid "Vatican City"
-msgstr "Ciudad del Vaticano"
-
-#: classes/fields/pick.php:3033
-msgid "Venezuela"
-msgstr "Venezuela"
-
-#: classes/fields/pick.php:3109
-msgid "Vermont"
-msgstr "Vermont"
-
 #: classes/PodsAdmin.php:2783
 msgid "Version %s"
 msgstr "Versión %s"
@@ -6881,16 +5576,12 @@ msgstr "Versión %s"
 msgid "Video (mpg, mov, flv, mp4, etc..)"
 msgstr "Video (mpg, mov, flv, mp4, etc.)"
 
-#: classes/fields/pick.php:3034
-msgid "Vietnam"
-msgstr "Vietnam"
-
 #: classes/fields/currency.php:574
 msgid "Vietnamese Dong"
 msgstr "Dong vietnamita"
 
-#: classes/PodsI18n.php:173 classes/PodsAdmin.php:1289 classes/PodsUI.php:1048
-#: classes/PodsUI.php:1051 classes/PodsUI.php:4334
+#: classes/PodsI18n.php:173 classes/PodsUI.php:1048 classes/PodsUI.php:1051
+#: classes/PodsUI.php:4334 classes/PodsAdmin.php:1289
 msgid "View"
 msgstr "Ver"
 
@@ -6922,10 +5613,6 @@ msgstr "Ver usuarios"
 msgid "View this item"
 msgstr "Ver este elemento"
 
-#: classes/fields/pick.php:3110
-msgid "Virginia"
-msgstr "Virginia"
-
 #: classes/PodsAdmin.php:2437
 msgid "Visibility"
 msgstr "Visibilidad"
@@ -6945,18 +5632,6 @@ msgstr "WPML"
 #: classes/fields/wysiwyg.php:33
 msgid "WYSIWYG (Visual Editor)"
 msgstr "WYSIWYG (Editor Visual)"
-
-#: classes/fields/pick.php:3035
-msgid "Wake Island"
-msgstr "Isla Wake"
-
-#: classes/fields/pick.php:3036
-msgid "Wallis and Futuna"
-msgstr "Wallis y Futuna"
-
-#: classes/fields/pick.php:3111
-msgid "Washington"
-msgstr "Washington"
 
 #: ui/admin/upgrade/upgrade_2_1_0.php:35
 msgid ""
@@ -7010,14 +5685,6 @@ msgstr ""
 "¡Bievenido a Pods 2.x! Esperamos que disfrutes de este plugin fruto de más "
 "de dos años de planificación y trabajo <em>sin ánimo de lucro</em>."
 
-#: classes/fields/pick.php:3112
-msgid "West Virginia"
-msgstr "West Virginia"
-
-#: classes/fields/pick.php:3037
-msgid "Western Sahara"
-msgstr "Sahara Occidental"
-
 #: ui/admin/shortcode.php:346
 msgid "What would you like to do?"
 msgstr "¿Qué quieres hacer?"
@@ -7047,8 +5714,8 @@ msgstr ""
 "Cuando se habilita, la plantilla se ejecutará siempre que se llame al filtro "
 "especificado."
 
-#: components/Builder/modules/list/PodsBuilderModuleList.php:177
 #: ui/admin/shortcode.php:458 ui/admin/widgets/list.php:106
+#: components/Builder/modules/list/PodsBuilderModuleList.php:177
 msgid "Where"
 msgstr "Donde"
 
@@ -7101,11 +5768,7 @@ msgstr "Qué filtro usar para las entradas individuales."
 msgid "Wildcard Slug"
 msgstr "Slug comodín"
 
-#: classes/fields/pick.php:3113
-msgid "Wisconsin"
-msgstr "Wisconsin"
-
-#: classes/fields/datetime.php:72 classes/fields/date.php:67
+#: classes/fields/date.php:67 classes/fields/datetime.php:72
 msgid ""
 "WordPress Default is the format used in Settings, General under \"Date Format"
 "\"."
@@ -7113,7 +5776,7 @@ msgstr ""
 "Por defecto en WordPress es el formato definido en Ajustes, Generales, "
 "Formato de fecha."
 
-#: classes/fields/time.php:73 classes/fields/datetime.php:125
+#: classes/fields/datetime.php:125 classes/fields/time.php:73
 msgid ""
 "WordPress Default is the format used in Settings, General under \"Time Format"
 "\"."
@@ -7121,8 +5784,8 @@ msgstr ""
 "Por defecto en WordPress es el formato definido en Ajustes, Generales, "
 "Formato de hora."
 
-#: classes/fields/time.php:75 classes/fields/datetime.php:74
-#: classes/fields/datetime.php:127 classes/fields/date.php:69
+#: classes/fields/date.php:69 classes/fields/datetime.php:74
+#: classes/fields/datetime.php:127 classes/fields/time.php:75
 msgid "WordPress default"
 msgstr "Por defecto en WordPress"
 
@@ -7130,17 +5793,9 @@ msgstr "Por defecto en WordPress"
 msgid "Write via REST API?"
 msgstr "¿Escribir vía la API REST?"
 
-#: classes/fields/pick.php:3114
-msgid "Wyoming"
-msgstr "Wyoming"
-
 #: ui/admin/setup-edit.php:456
 msgid "YARPP Support"
 msgstr "Soporte YARPP"
-
-#: classes/fields/pick.php:3038
-msgid "Yemen"
-msgstr "Yemen"
 
 #: classes/fields/boolean.php:52 classes/fields/boolean.php:177
 #: classes/fields/boolean.php:204 classes/PodsUI.php:3024
@@ -7183,9 +5838,7 @@ msgstr ""
 msgid "You can find it at %s"
 msgstr "Puedes encontrarlo en %s"
 
-#: classes/PodsI18n.php:193 ui/js/pods-dfv/_src/pick/views/select-view.js:208
-#: ui/js/pods-dfv/_src/pick/views/select-view.js:326
-#: ui/js/pods-dfv/pods-dfv.min.js:1314 ui/js/pods-dfv/pods-dfv.min.js:1432
+#: classes/PodsI18n.php:193
 msgid "You can only select"
 msgstr "Solo puedes seleccionar"
 
@@ -7250,18 +5903,6 @@ msgid ""
 "WordPress"
 msgstr "Usarás este nombre para referenciar este rol en WordPress"
 
-#: classes/fields/pick.php:3149
-msgid "Yukon"
-msgstr "Yukón"
-
-#: classes/fields/pick.php:3039
-msgid "Zambia"
-msgstr "Zambia"
-
-#: classes/fields/pick.php:3040
-msgid "Zimbabwe"
-msgstr "Zimbabue"
-
 #: includes/data.php:1699
 msgid "and"
 msgstr "y"
@@ -7270,12 +5911,12 @@ msgstr "y"
 msgid "by %s"
 msgstr "por %s"
 
-#: classes/PodsUI.php:2090 components/Roles/ui/edit.php:22
-#: ui/admin/setup-edit.php:243 ui/admin/form.php:78 ui/admin/form.php:107
+#: classes/PodsUI.php:2090 ui/admin/form.php:78 ui/admin/form.php:107
+#: ui/admin/setup-edit.php:243 components/Roles/ui/edit.php:22
 msgid "created"
 msgstr "creado"
 
-#: ui/admin/setup-edit.php:245 ui/admin/form.php:80 ui/admin/form.php:109
+#: ui/admin/form.php:80 ui/admin/form.php:109 ui/admin/setup-edit.php:245
 msgid "duplicated"
 msgstr "duplicado"
 
@@ -7349,17 +5990,18 @@ msgstr[1] "campos"
 #: classes/PodsAdmin.php:2196 classes/PodsAdmin.php:2219
 #: classes/PodsAdmin.php:2227 classes/PodsAdmin.php:2405
 #: classes/PodsAdmin.php:2412 classes/PodsAdmin.php:2422
-#: classes/PodsAdmin.php:2432 classes/PodsAdmin.php:2501 ui/fields/_label.php:9
-#: ui/admin/setup-edit.php:544 ui/admin/setup-edit.php:563
-#: ui/admin/setup-edit.php:580 ui/admin/setup-edit.php:598
-#: ui/admin/setup-edit.php:612 ui/admin/setup-edit.php:626
-#: ui/admin/setup-edit.php:640 ui/admin/setup-edit-field-fluid.php:71
+#: classes/PodsAdmin.php:2432 classes/PodsAdmin.php:2501
+#: ui/admin/setup-edit-field-fluid.php:71
 #: ui/admin/setup-edit-field-fluid.php:89
 #: ui/admin/setup-edit-field-fluid.php:93
 #: ui/admin/setup-edit-field-fluid.php:105
 #: ui/admin/setup-edit-field-fluid.php:121
 #: ui/admin/setup-edit-field-fluid.php:148
-#: ui/admin/setup-edit-field-fluid.php:161
+#: ui/admin/setup-edit-field-fluid.php:161 ui/admin/setup-edit.php:544
+#: ui/admin/setup-edit.php:563 ui/admin/setup-edit.php:580
+#: ui/admin/setup-edit.php:598 ui/admin/setup-edit.php:612
+#: ui/admin/setup-edit.php:626 ui/admin/setup-edit.php:640
+#: ui/fields/_label.php:9
 msgid "help"
 msgstr "ayuda"
 
@@ -7399,11 +6041,11 @@ msgstr ""
 "es un campo en el pod, pero no se encuentra en la tabla - los datos del "
 "campo no se migrarán."
 
-#: classes/fields/datetime.php:97 classes/fields/date.php:92
+#: classes/fields/date.php:92 classes/fields/datetime.php:97
 msgid "jQuery UI datepicker documentation"
 msgstr "Documentación jQuery UI para el selector de fecha"
 
-#: classes/fields/time.php:99 classes/fields/datetime.php:150
+#: classes/fields/datetime.php:150 classes/fields/time.php:99
 msgid "jQuery UI timepicker documentation"
 msgstr "Documentación jQuery UI para timepicker"
 
@@ -7429,9 +6071,9 @@ msgstr "requiere un minimo de"
 msgid "role removed from site."
 msgstr "Rol borrado del sitio."
 
-#: classes/PodsUI.php:2088 components/Roles/ui/edit.php:19
-#: ui/admin/setup-edit.php:238 ui/admin/form-settings.php:54
+#: classes/PodsUI.php:2088 ui/admin/form-settings.php:54
 #: ui/admin/form-settings.php:72 ui/admin/form.php:75 ui/admin/form.php:104
+#: ui/admin/setup-edit.php:238 components/Roles/ui/edit.php:19
 msgid "saved"
 msgstr "guardado"
 
@@ -7443,7 +6085,3 @@ msgstr "para funcionar. Estás utilizando actualmente"
 #: classes/fields/link.php:54 classes/fields/website.php:60
 msgid "www.example.com (force www if no sub-domain provided)"
 msgstr "www.example.com (fuerza www si no se indica un sub-dominio)"
-
-#: classes/fields/pick.php:3041
-msgid "Åland Islands"
-msgstr "Islas Aland"

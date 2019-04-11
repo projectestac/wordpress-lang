@@ -1,22 +1,184 @@
-# Copyright (C) 2019 Booking Classrooms and resources plugin
-# This file is distributed under the same license as the Booking Classrooms and resources plugin package.
+# Copyright (C) 2019 Xavier Nieto
+# This file is distributed under the same license as the Booking Classrooms and resources plugin plugin.
 msgid ""
 msgstr ""
 "Project-Id-Version: Booking Classrooms and resources plugin 1.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/xtec-booking\n"
-"POT-Creation-Date: 2019-04-05 07:48:22+00:00\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2019-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2019-04-11T16:48:57+02:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.1.0\n"
+"X-Domain: xtec-booking\n"
+
+#. Plugin Name of the plugin
+msgid "Booking Classrooms and resources plugin"
+msgstr ""
+
+#. Description of the plugin
+msgid "Allow booking classrooms and diferents resources into bootstrap calendar"
+msgstr ""
+
+#. Author of the plugin
+msgid "Xavier Nieto"
+msgstr ""
+
+#: includes/resources.php:8
+msgid "Resources parameters"
+msgstr ""
+
+#: includes/resources.php:23
+msgid "Select availability resource"
+msgstr ""
+
+#: includes/resources.php:26
+#: xtec-booking.php:359
+#: xtec-booking.php:425
+msgid "Available"
+msgstr ""
+
+#: includes/resources.php:27
+#: xtec-booking.php:362
+#: xtec-booking.php:426
+msgid "Not available"
+msgstr ""
+
+#: includes/resources.php:35
+msgid "Select color resource"
+msgstr ""
+
+#: includes/resources.php:38
+msgid "Red"
+msgstr ""
+
+#: includes/resources.php:39
+msgid "Yellow"
+msgstr ""
+
+#: includes/resources.php:40
+msgid "Blue"
+msgstr ""
+
+#: includes/resources.php:41
+msgid "Black"
+msgstr ""
+
+#: includes/resources.php:42
+msgid "Green"
+msgstr ""
+
+#: includes/resources.php:43
+msgid "Purple"
+msgstr ""
+
+#: includes/resources.php:44
+msgid "Orange"
+msgstr ""
+
+#: includes/resources.php:45
+msgid "Pink"
+msgstr ""
+
+#: includes/resources.php:46
+msgid "Brown"
+msgstr ""
+
+#: includes/resources.php:47
+msgid "Light blue"
+msgstr ""
+
+#: includes/calendar.php:132
+#: xtec-booking.php:343
+msgid "Not available resource"
+msgstr ""
+
+#: includes/calendar.php:292
+#: includes/calendar.php:409
+msgid "Unselect resources"
+msgstr ""
+
+#: includes/calendar.php:293
+msgid "Select resources"
+msgstr ""
+
+#: includes/calendar.php:312
+#: xtec-booking.php:307
+msgid "Resource"
+msgstr ""
+
+#: includes/calendar.php:317
+#: includes/booking.php:126
+msgid "Start time"
+msgstr ""
+
+#: includes/calendar.php:321
+msgid "End Hour"
+msgstr ""
+
+#: includes/calendar.php:326
+msgid "Booking make by"
+msgstr ""
+
+#: includes/calendar.php:331
+#: xtec-booking.php:305
+#: xtec-booking.php:323
+msgid "Description"
+msgstr ""
+
+#: includes/calendar.php:336
+msgid "Close"
+msgstr ""
+
+#: includes/calendar.php:360
+#: includes/calendar.php:489
+msgid "Prev"
+msgstr ""
+
+#: includes/calendar.php:361
+#: includes/calendar.php:490
+msgid "Today"
+msgstr ""
+
+#: includes/calendar.php:362
+#: includes/calendar.php:491
+msgid "Next"
+msgstr ""
+
+#: includes/calendar.php:365
+msgid "Year"
+msgstr ""
+
+#: includes/calendar.php:366
+msgid "Month"
+msgstr ""
+
+#: includes/calendar.php:367
+msgid "Week"
+msgstr ""
+
+#: includes/calendar.php:368
+msgid "Day"
+msgstr ""
+
+#: includes/calendar.php:383
+#: includes/calendar.php:389
+#: xtec-booking.php:89
+msgid "Resources"
+msgstr ""
+
+#: includes/calendar.php:383
+msgid "Not resources available"
+msgstr ""
 
 #: includes/booking.php:14
 msgid "Parametes to booking"
 msgstr ""
 
-#: includes/booking.php:23 xtec-booking.php:604
+#: includes/booking.php:23
+#: xtec-booking.php:604
 msgid "Booking calendar"
 msgstr ""
 
@@ -24,11 +186,14 @@ msgstr ""
 msgid "Resource information"
 msgstr ""
 
-#: includes/booking.php:69 includes/booking.php:94
+#: includes/booking.php:69
+#: includes/booking.php:94
 msgid "Not allow any resources to select."
 msgstr ""
 
-#: includes/booking.php:73 xtec-booking.php:85 xtec-booking.php:86
+#: includes/booking.php:73
+#: xtec-booking.php:85
+#: xtec-booking.php:86
 msgid "Add Resource"
 msgstr ""
 
@@ -40,12 +205,9 @@ msgstr ""
 msgid "Start date"
 msgstr ""
 
-#: includes/booking.php:121 includes/booking.php:142
+#: includes/booking.php:121
+#: includes/booking.php:142
 msgid "Date before at actual date"
-msgstr ""
-
-#: includes/booking.php:126 includes/calendar.php:317
-msgid "Start time"
 msgstr ""
 
 #: includes/booking.php:131
@@ -96,139 +258,14 @@ msgstr ""
 msgid "Select resource to show image"
 msgstr ""
 
-#: includes/calendar.php:132 xtec-booking.php:343
-msgid "Not available resource"
-msgstr ""
-
-#: includes/calendar.php:292 includes/calendar.php:409
-msgid "Unselect resources"
-msgstr ""
-
-#: includes/calendar.php:293
-msgid "Select resources"
-msgstr ""
-
-#: includes/calendar.php:312 xtec-booking.php:307
-msgid "Resource"
-msgstr ""
-
-#: includes/calendar.php:321
-msgid "End Hour"
-msgstr ""
-
-#: includes/calendar.php:326
-msgid "Booking make by"
-msgstr ""
-
-#: includes/calendar.php:331 xtec-booking.php:305 xtec-booking.php:323
-msgid "Description"
-msgstr ""
-
-#: includes/calendar.php:336
-msgid "Close"
-msgstr ""
-
-#: includes/calendar.php:360 includes/calendar.php:489
-msgid "Prev"
-msgstr ""
-
-#: includes/calendar.php:361 includes/calendar.php:490
-msgid "Today"
-msgstr ""
-
-#: includes/calendar.php:362 includes/calendar.php:491
-msgid "Next"
-msgstr ""
-
-#: includes/calendar.php:365
-msgid "Year"
-msgstr ""
-
-#: includes/calendar.php:366
-msgid "Month"
-msgstr ""
-
-#: includes/calendar.php:367
-msgid "Week"
-msgstr ""
-
-#: includes/calendar.php:368
-msgid "Day"
-msgstr ""
-
-#: includes/calendar.php:383 includes/calendar.php:389 xtec-booking.php:89
-msgid "Resources"
-msgstr ""
-
-#: includes/calendar.php:383
-msgid "Not resources available"
-msgstr ""
-
-#: includes/resources.php:8
-msgid "Resources parameters"
-msgstr ""
-
-#: includes/resources.php:23
-msgid "Select availability resource"
-msgstr ""
-
-#: includes/resources.php:26 xtec-booking.php:359 xtec-booking.php:425
-msgid "Available"
-msgstr ""
-
-#: includes/resources.php:27 xtec-booking.php:362 xtec-booking.php:426
-msgid "Not available"
-msgstr ""
-
-#: includes/resources.php:35
-msgid "Select color resource"
-msgstr ""
-
-#: includes/resources.php:38
-msgid "Red"
-msgstr ""
-
-#: includes/resources.php:39
-msgid "Yellow"
-msgstr ""
-
-#: includes/resources.php:40
-msgid "Blue"
-msgstr ""
-
-#: includes/resources.php:41
-msgid "Black"
-msgstr ""
-
-#: includes/resources.php:42
-msgid "Green"
-msgstr ""
-
-#: includes/resources.php:43
-msgid "Purple"
-msgstr ""
-
-#: includes/resources.php:44
-msgid "Orange"
-msgstr ""
-
-#: includes/resources.php:45
-msgid "Pink"
-msgstr ""
-
-#: includes/resources.php:46
-msgid "Brown"
-msgstr ""
-
-#: includes/resources.php:47
-msgid "Light blue"
-msgstr ""
-
-#: xtec-booking.php:31 xtec-booking.php:32 xtec-booking.php:33
+#: xtec-booking.php:31
+#: xtec-booking.php:32
+#: xtec-booking.php:33
 msgid "Bookings"
 msgstr ""
 
-#: xtec-booking.php:34 xtec-booking.php:88
+#: xtec-booking.php:34
+#: xtec-booking.php:88
 msgid "Parent Booking"
 msgstr ""
 
@@ -244,7 +281,8 @@ msgstr ""
 msgid "Add New Booking"
 msgstr ""
 
-#: xtec-booking.php:38 xtec-booking.php:92
+#: xtec-booking.php:38
+#: xtec-booking.php:92
 msgid "Add New"
 msgstr ""
 
@@ -260,11 +298,13 @@ msgstr ""
 msgid "Search Booking"
 msgstr ""
 
-#: xtec-booking.php:42 xtec-booking.php:96
+#: xtec-booking.php:42
+#: xtec-booking.php:96
 msgid "Not Found"
 msgstr ""
 
-#: xtec-booking.php:43 xtec-booking.php:97
+#: xtec-booking.php:43
+#: xtec-booking.php:97
 msgid "Not found in Trash"
 msgstr ""
 
@@ -304,10 +344,9 @@ msgstr ""
 msgid "Calendar"
 msgstr ""
 
-#: xtec-booking.php:141 xtec-booking.php:146
-msgid ""
-"Booking not allowed. The resource is not allowed to data selected. Please, "
-"try other data."
+#: xtec-booking.php:141
+#: xtec-booking.php:146
+msgid "Booking not allowed. The resource is not allowed to data selected. Please, try other data."
 msgstr ""
 
 #: xtec-booking.php:286
@@ -315,9 +354,7 @@ msgid "You must choose which day of booking."
 msgstr ""
 
 #: xtec-booking.php:287
-msgid ""
-"This resource has associated reserves. To remove it, you must first remove "
-"their reservations."
+msgid "This resource has associated reserves. To remove it, you must first remove their reservations."
 msgstr ""
 
 #: xtec-booking.php:288
@@ -388,7 +425,8 @@ msgstr ""
 msgid "booking not updated, somebody is editing them"
 msgstr ""
 
-#: xtec-booking.php:492 xtec-booking.php:493
+#: xtec-booking.php:492
+#: xtec-booking.php:493
 msgid "Deleted permanently booking."
 msgstr ""
 
@@ -408,7 +446,8 @@ msgstr ""
 msgid "Deleted resources"
 msgstr ""
 
-#: xtec-booking.php:527 xtec-booking.php:528
+#: xtec-booking.php:527
+#: xtec-booking.php:528
 msgid "Book updated"
 msgstr ""
 
@@ -428,7 +467,8 @@ msgstr ""
 msgid "Updated draft of the book"
 msgstr ""
 
-#: xtec-booking.php:538 xtec-booking.php:539
+#: xtec-booking.php:538
+#: xtec-booking.php:539
 msgid "Resource updated"
 msgstr ""
 
@@ -446,17 +486,4 @@ msgstr ""
 
 #: xtec-booking.php:543
 msgid "Updated draft of the resource"
-msgstr ""
-
-#. Plugin Name of the plugin/theme
-msgid "Booking Classrooms and resources plugin"
-msgstr ""
-
-#. Description of the plugin/theme
-msgid ""
-"Allow booking classrooms and diferents resources into bootstrap calendar"
-msgstr ""
-
-#. Author of the plugin/theme
-msgid "Xavier Nieto"
 msgstr ""

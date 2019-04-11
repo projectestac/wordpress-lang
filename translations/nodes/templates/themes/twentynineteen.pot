@@ -4,23 +4,58 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Twenty Nineteen 1.3\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/twentynineteen\n"
-"POT-Creation-Date: 2019-04-05 07:48:23+00:00\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2019-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2019-04-11T16:48:58+02:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.1.0\n"
+"X-Domain: twentynineteen\n"
 
-#: 404.php:20
-msgid "Oops! That page can&rsquo;t be found."
+#. Theme Name of the theme
+msgid "Twenty Nineteen"
 msgstr ""
 
-#: 404.php:24
-msgid "It looks like nothing was found at this location. Maybe try a search?"
+#. Theme URI of the theme
+msgid "https://github.com/WordPress/twentynineteen"
 msgstr ""
 
-#. translators: %s: comment author link
+#. Description of the theme
+msgid "Our 2019 default theme is designed to show off the power of the block editor. It features custom styles for all the default blocks, and is built so that what you see in the editor looks like what you'll see on your website. Twenty Nineteen is designed to be adaptable to a wide range of websites, whether you’re running a photo blog, launching a new business, or supporting a non-profit. Featuring ample whitespace and modern sans-serif headlines paired with classic serif body text, it's built to be beautiful on all screen sizes."
+msgstr ""
+
+#. Author of the theme
+msgid "the WordPress team"
+msgstr ""
+
+#. Author URI of the theme
+#: footer.php:25
+msgid "https://wordpress.org/"
+msgstr ""
+
+#. translators: %s: parent post link
+#: single.php:31
+msgid "<span class=\"meta-nav\">Published in</span><span class=\"post-title\">%s</span>"
+msgstr ""
+
+#: single.php:38
+msgid "Next Post"
+msgstr ""
+
+#: single.php:39
+msgid "Next post:"
+msgstr ""
+
+#: single.php:41
+msgid "Previous Post"
+msgstr ""
+
+#: single.php:42
+msgid "Previous post:"
+msgstr ""
+
 #: classes/class-twentynineteen-walker-comment.php:67
 msgid "%s <span class=\"screen-reader-text says\">says:</span>"
 msgstr ""
@@ -38,11 +73,21 @@ msgstr ""
 msgid "Your comment is awaiting moderation."
 msgstr ""
 
+#: header.php:24
+msgid "Skip to content"
+msgstr ""
+
+#: search.php:22
+msgid "Search results for:"
+msgstr ""
+
 #: comments.php:33
 msgid "Join the Conversation"
 msgstr ""
 
-#: comments.php:35 comments.php:105 comments.php:107
+#: comments.php:35
+#: comments.php:105
+#: comments.php:107
 msgid "Leave a comment"
 msgstr ""
 
@@ -58,9 +103,10 @@ msgctxt "comments title"
 msgid "%1$s reply on &ldquo;%2$s&rdquo;"
 msgid_plural "%1$s replies on &ldquo;%2$s&rdquo;"
 msgstr[0] ""
-msgstr[1] ""
 
-#: comments.php:92 comments.php:95 comments.php:96
+#: comments.php:92
+#: comments.php:95
+#: comments.php:96
 msgid "Comments"
 msgstr ""
 
@@ -76,26 +122,18 @@ msgstr ""
 msgid "Comments are closed."
 msgstr ""
 
-#. #-#-#-#-#  twentynineteen.pot (Twenty Nineteen 1.3)  #-#-#-#-#
-#. Author URI of the plugin/theme
-#: footer.php:25
-msgid "https://wordpress.org/"
-msgstr ""
-
-#. translators: %s: WordPress.
-#: footer.php:28
-msgid "Proudly powered by %s."
-msgstr ""
-
-#: footer.php:37 functions.php:60
-msgid "Footer Menu"
-msgstr ""
-
-#: functions.php:59 functions.php:146
+#: functions.php:59
+#: functions.php:146
 msgid "Primary"
 msgstr ""
 
-#: functions.php:61 template-parts/header/site-branding.php:46
+#: functions.php:60
+#: footer.php:37
+msgid "Footer Menu"
+msgstr ""
+
+#: functions.php:61
+#: template-parts/header/site-branding.php:46
 msgid "Social Links Menu"
 msgstr ""
 
@@ -147,7 +185,8 @@ msgstr ""
 msgid "White"
 msgstr ""
 
-#: functions.php:188 template-parts/footer/footer-widgets.php:12
+#: functions.php:188
+#: template-parts/footer/footer-widgets.php:12
 msgid "Footer"
 msgstr ""
 
@@ -155,12 +194,9 @@ msgstr ""
 msgid "Add widgets here to appear in your footer."
 msgstr ""
 
-#: header.php:24
-msgid "Skip to content"
-msgstr ""
-
-#: image.php:52 template-parts/content/content-page.php:27
+#: image.php:52
 #: template-parts/content/content-single.php:40
+#: template-parts/content/content-page.php:27
 #: template-parts/content/content.php:49
 msgid "Pages:"
 msgstr ""
@@ -176,37 +212,15 @@ msgstr ""
 
 #: image.php:87
 msgctxt "Parent post link"
-msgid ""
-"<span class=\"meta-nav\">Published in</span><br><span class=\"post-title\">"
-"%title</span>"
+msgid "<span class=\"meta-nav\">Published in</span><br><span class=\"post-title\">%title</span>"
 msgstr ""
 
-#: inc/back-compat.php:39 inc/back-compat.php:53 inc/back-compat.php:73
-msgid ""
-"Twenty Nineteen requires at least WordPress version 4.7. You are running "
-"version %s. Please upgrade and try again."
+#: 404.php:20
+msgid "Oops! That page can&rsquo;t be found."
 msgstr ""
 
-#: inc/customizer.php:53
-msgid "Primary Color"
-msgstr ""
-
-#: inc/customizer.php:55
-msgctxt "primary color"
-msgid "Default"
-msgstr ""
-
-#: inc/customizer.php:56
-msgctxt "primary color"
-msgid "Custom"
-msgstr ""
-
-#: inc/customizer.php:78
-msgid "Apply a custom color for buttons, links, featured images, etc."
-msgstr ""
-
-#: inc/customizer.php:98
-msgid "Apply a filter to featured images using the primary color"
+#: 404.php:24
+msgid "It looks like nothing was found at this location. Maybe try a search?"
 msgstr ""
 
 #: inc/template-functions.php:74
@@ -264,8 +278,6 @@ msgstr ""
 msgid "Back"
 msgstr ""
 
-#. translators: 1: SVG icon. 2: post author, only visible to screen readers. 3:
-#. author link.
 #: inc/template-tags.php:46
 msgid "Posted by"
 msgstr ""
@@ -276,27 +288,24 @@ msgid "Leave a comment<span class=\"screen-reader-text\"> on %s</span>"
 msgstr ""
 
 #. translators: used between list items, there is a space after the comma.
-#: inc/template-tags.php:86 inc/template-tags.php:98
+#: inc/template-tags.php:86
+#: inc/template-tags.php:98
 msgid ", "
 msgstr ""
 
-#. translators: 1: SVG icon. 2: posted in label, only visible to screen
-#. readers. 3: list of categories.
 #: inc/template-tags.php:92
 msgid "Posted in"
 msgstr ""
 
-#. translators: 1: SVG icon. 2: posted in label, only visible to screen
-#. readers. 3: list of tags.
 #: inc/template-tags.php:104
 msgid "Tags:"
 msgstr ""
 
 #. translators: %s: Name of current post. Only visible to screen readers.
 #. translators: %s: Name of current post. Only visible to screen readers
-#. translators: %s: Name of current post. Only visible to screen readers.
-#: inc/template-tags.php:120 template-parts/content/content-page.php:41
+#: inc/template-tags.php:120
 #: template-parts/header/entry-header.php:32
+#: template-parts/content/content-page.php:41
 msgid "Edit <span class=\"screen-reader-text\">%s</span>"
 msgstr ""
 
@@ -308,37 +317,41 @@ msgstr ""
 msgid "Older posts"
 msgstr ""
 
-#: search.php:22
-msgid "Search results for:"
+#: inc/customizer.php:53
+msgid "Primary Color"
 msgstr ""
 
-#. translators: %s: parent post link
-#: single.php:31
-msgid ""
-"<span class=\"meta-nav\">Published in</span><span class=\"post-title\">%s</"
-"span>"
+#: inc/customizer.php:55
+msgctxt "primary color"
+msgid "Default"
 msgstr ""
 
-#: single.php:38
-msgid "Next Post"
+#: inc/customizer.php:56
+msgctxt "primary color"
+msgid "Custom"
 msgstr ""
 
-#: single.php:39
-msgid "Next post:"
+#: inc/customizer.php:78
+msgid "Apply a custom color for buttons, links, featured images, etc."
 msgstr ""
 
-#: single.php:41
-msgid "Previous Post"
+#: inc/customizer.php:98
+msgid "Apply a filter to featured images using the primary color"
 msgstr ""
 
-#: single.php:42
-msgid "Previous post:"
+#: inc/back-compat.php:39
+#: inc/back-compat.php:53
+#: inc/back-compat.php:73
+msgid "Twenty Nineteen requires at least WordPress version 4.7. You are running version %s. Please upgrade and try again."
 msgstr ""
 
-#: template-parts/content/content-excerpt.php:18
-#: template-parts/content/content.php:18
-msgctxt "post"
-msgid "Featured"
+#. translators: %s: WordPress.
+#: footer.php:28
+msgid "Proudly powered by %s."
+msgstr ""
+
+#: template-parts/header/site-branding.php:33
+msgid "Top Menu"
 msgstr ""
 
 #: template-parts/content/content-none.php:16
@@ -347,20 +360,15 @@ msgstr ""
 
 #. translators: 1: link to WP admin new post page.
 #: template-parts/content/content-none.php:26
-msgid ""
-"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
 msgstr ""
 
 #: template-parts/content/content-none.php:39
-msgid ""
-"Sorry, but nothing matched your search terms. Please try again with some "
-"different keywords."
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
 msgstr ""
 
 #: template-parts/content/content-none.php:46
-msgid ""
-"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
-"searching can help."
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
 msgstr ""
 
 #. translators: %s: Name of current post. Only visible to screen readers
@@ -369,8 +377,10 @@ msgstr ""
 msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
 msgstr ""
 
-#: template-parts/header/site-branding.php:33
-msgid "Top Menu"
+#: template-parts/content/content-excerpt.php:18
+#: template-parts/content/content.php:18
+msgctxt "post"
+msgid "Featured"
 msgstr ""
 
 #. translators: %s: post author
@@ -387,32 +397,7 @@ msgstr ""
 msgid "%d Comment"
 msgid_plural "%d Comments"
 msgstr[0] ""
-msgstr[1] ""
 
 #: template-parts/post/discussion-meta.php:18
 msgid "No comments"
-msgstr ""
-
-#. Theme Name of the plugin/theme
-msgid "Twenty Nineteen"
-msgstr ""
-
-#. Theme URI of the plugin/theme
-msgid "https://github.com/WordPress/twentynineteen"
-msgstr ""
-
-#. Description of the plugin/theme
-msgid ""
-"Our 2019 default theme is designed to show off the power of the block "
-"editor. It features custom styles for all the default blocks, and is built "
-"so that what you see in the editor looks like what you'll see on your "
-"website. Twenty Nineteen is designed to be adaptable to a wide range of "
-"websites, whether you’re running a photo blog, launching a new business, or "
-"supporting a non-profit. Featuring ample whitespace and modern sans-serif "
-"headlines paired with classic serif body text, it's built to be beautiful on "
-"all screen sizes."
-msgstr ""
-
-#. Author of the plugin/theme
-msgid "the WordPress team"
 msgstr ""

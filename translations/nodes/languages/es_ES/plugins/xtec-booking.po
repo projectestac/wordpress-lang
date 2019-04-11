@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Booking Classrooms and resources plugin 1.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/xtec-booking\n"
-"POT-Creation-Date: 2019-04-05 07:48:22+00:00\n"
-"PO-Revision-Date: 2019-04-08 11:45+0200\n"
+"POT-Creation-Date: 2019-04-11T16:48:57+02:00\n"
+"PO-Revision-Date: 2019-04-11 17:01+0200\n"
 "Last-Translator: Joan Sala Soler <jsala236@xtec.cat>\n"
 "Language-Team: \n"
 "Language: es_ES\n"
@@ -15,320 +15,97 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 2.0.6\n"
 
-#: includes/booking.php:14
-msgid "Parametes to booking"
-msgstr "Parámetros de la reserva"
+#: xtec-booking.php:38 xtec-booking.php:92
+msgid "Add New"
+msgstr "Añadir nueva"
 
-#: includes/booking.php:23 xtec-booking.php:604
-msgid "Booking calendar"
-msgstr "Calendario de reservas"
-
-#: includes/booking.php:32
-msgid "Resource information"
-msgstr "Información del recurso"
-
-#: includes/booking.php:69 includes/booking.php:94
+#: xtec-booking.php:37
 #, fuzzy
-msgid "Not allow any resources to select."
-msgstr "No hay ningún espacio o equipo disponible"
+msgid "Add New Booking"
+msgstr "Añadir campo"
+
+#: xtec-booking.php:91
+#, fuzzy
+msgid "Add New Resource"
+msgstr "Añadir nueva"
 
 #: includes/booking.php:73 xtec-booking.php:85 xtec-booking.php:86
 #, fuzzy
 msgid "Add Resource"
-msgstr "Añade un espacio o un equipo"
-
-#: includes/booking.php:92
-#, fuzzy
-msgid "Select resource or classroom"
-msgstr "Seleccionáis un espacio o un equipo"
-
-#: includes/booking.php:119
-msgid "Start date"
-msgstr "Fecha de inicio"
-
-#: includes/booking.php:121 includes/booking.php:142
-#, fuzzy
-msgid "Date before at actual date"
-msgstr "La fecha seleccionada es anterior al actual"
-
-#: includes/booking.php:126 includes/calendar.php:317
-msgid "Start time"
-msgstr "Hora de inicio"
-
-#: includes/booking.php:131
-msgid "Finish time"
-msgstr "Hora de fin"
-
-#: includes/booking.php:140
-msgid "Finish date"
-msgstr "Fecha de fin"
-
-#: includes/booking.php:152
-#, fuzzy
-msgid "Select day or days to repeat booking"
-msgstr "Seleccionáis los días en los que se repetirá la reserva"
-
-#: includes/booking.php:158
-msgid "Monday"
-msgstr "Lunes"
-
-#: includes/booking.php:162
-msgid "Tuesday"
-msgstr "Martes"
-
-#: includes/booking.php:166
-msgid "Wednesday"
-msgstr "Miércoles"
-
-#: includes/booking.php:170
-msgid "Thursday"
-msgstr "Jueves"
-
-#: includes/booking.php:174
-msgid "Friday"
-msgstr "Viernes"
-
-#: includes/booking.php:179
-msgid "Saturday"
-msgstr "Sábado"
-
-#: includes/booking.php:183
-msgid "Sunday"
-msgstr "Domingo"
-
-#: includes/booking.php:188
-msgid "Is necessary that check at least one day"
-msgstr "Es necesario seleccionar como mínimo un día"
-
-#: includes/booking.php:247
-#, fuzzy
-msgid "Select resource to show image"
-msgstr "Seleccionáis un recurso para obtener más información"
-
-#: includes/calendar.php:132 xtec-booking.php:343
-msgid "Not available resource"
-msgstr "Recurso no disponible"
-
-#: includes/calendar.php:292 includes/calendar.php:409
-#, fuzzy
-msgid "Unselect resources"
-msgstr "No  selecciones jefa"
-
-#: includes/calendar.php:293
-#, fuzzy
-msgid "Select resources"
-msgstr "Selecciónalos todos"
-
-#: includes/calendar.php:312 xtec-booking.php:307
-msgid "Resource"
 msgstr "Espacio o equipo"
 
-#: includes/calendar.php:321
-msgid "End Hour"
-msgstr "Hora de fin"
-
-#: includes/calendar.php:326
-msgid "Booking make by"
-msgstr "Reserva hecha por"
-
-#: includes/calendar.php:331 xtec-booking.php:305 xtec-booking.php:323
-msgid "Description"
-msgstr "Descripción"
-
-#: includes/calendar.php:336
-msgid "Close"
-msgstr "Cerrar"
-
-#: includes/calendar.php:360 includes/calendar.php:489
-msgid "Prev"
-msgstr "Anterior"
-
-#: includes/calendar.php:361 includes/calendar.php:490
-msgid "Today"
-msgstr "Hoy"
-
-#: includes/calendar.php:362 includes/calendar.php:491
-msgid "Next"
-msgstr "Siguiente"
-
-#: includes/calendar.php:365
-msgid "Year"
-msgstr "Año"
-
-#: includes/calendar.php:366
-msgid "Month"
-msgstr "Mes"
-
-#: includes/calendar.php:367
-msgid "Week"
-msgstr "Semana"
-
-#: includes/calendar.php:368
-msgid "Day"
-msgstr "Día"
-
-#: includes/calendar.php:383 includes/calendar.php:389 xtec-booking.php:89
-msgid "Resources"
+#: xtec-booking.php:87
+#, fuzzy
+msgid "Add Resources"
 msgstr "Espacios y equipos"
-
-#: includes/calendar.php:383
-msgid "Not resources available"
-msgstr "No hay recursos disponibles"
-
-#: includes/resources.php:8
-msgid "Resources parameters"
-msgstr "Parámetros del equipo o el espacio"
-
-#: includes/resources.php:23
-#, fuzzy
-msgid "Select availability resource"
-msgstr "Seleccionáis la disponibilidad del espacio o el equipo"
-
-#: includes/resources.php:26 xtec-booking.php:359 xtec-booking.php:425
-msgid "Available"
-msgstr "Disponible"
-
-#: includes/resources.php:27 xtec-booking.php:362 xtec-booking.php:426
-msgid "Not available"
-msgstr "No disponible"
-
-#: includes/resources.php:35
-#, fuzzy
-msgid "Select color resource"
-msgstr "Seleccionáis un color para el espacio o el equipo"
-
-#: includes/resources.php:38
-msgid "Red"
-msgstr "Rojo"
-
-#: includes/resources.php:39
-msgid "Yellow"
-msgstr "Amarillo"
-
-#: includes/resources.php:40
-msgid "Blue"
-msgstr "Azul"
-
-#: includes/resources.php:41
-msgid "Black"
-msgstr "Negro"
-
-#: includes/resources.php:42
-msgid "Green"
-msgstr "Verde"
-
-#: includes/resources.php:43
-msgid "Purple"
-msgstr "Púrpura"
-
-#: includes/resources.php:44
-msgid "Orange"
-msgstr "Naranja"
-
-#: includes/resources.php:45
-msgid "Pink"
-msgstr "Rosa"
-
-#: includes/resources.php:46
-msgid "Brown"
-msgstr "Marrón"
-
-#: includes/resources.php:47
-#, fuzzy
-msgid "Light blue"
-msgstr "Azul cielo"
-
-#: xtec-booking.php:31 xtec-booking.php:32 xtec-booking.php:33
-msgid "Bookings"
-msgstr "Reservas"
-
-#: xtec-booking.php:34 xtec-booking.php:88
-msgid "Parent Booking"
-msgstr "Reserva madre"
 
 #: xtec-booking.php:35
 msgid "All Bookings"
 msgstr "Todas las reservas"
 
-#: xtec-booking.php:36
+#: xtec-booking.php:441
+msgid "All resources"
+msgstr "Todos los espacios y equipos"
+
+#. Description of the plugin
 #, fuzzy
-msgid "View Booking"
-msgstr "Visualiza la reserva"
+msgid ""
+"Allow booking classrooms and diferents resources into bootstrap calendar"
+msgstr ""
+"Permite reservar aulas y recursos diferentes en el calendario de arranque"
 
-#: xtec-booking.php:37
+#: xtec-booking.php:306
+msgid "Author"
+msgstr "Autor"
+
+#: includes/resources.php:26 xtec-booking.php:359 xtec-booking.php:425
+msgid "Available"
+msgstr "Disponible"
+
+#: includes/resources.php:41
+msgid "Black"
+msgstr "Negro"
+
+#: includes/resources.php:40
+msgid "Blue"
+msgstr "Azul"
+
+#: xtec-booking.php:529
 #, fuzzy
-msgid "Add New Booking"
-msgstr "Añade una reserva nueva"
+msgid "Book published"
+msgstr "Se ha actualizado la reserva"
 
-#: xtec-booking.php:38 xtec-booking.php:92
-msgid "Add New"
-msgstr "Añadir nueva"
-
-#: xtec-booking.php:39
+#: xtec-booking.php:530
 #, fuzzy
-msgid "Edit Booking"
-msgstr "Edita la reserva"
+msgid "Book saved"
+msgstr "guardado"
 
-#: xtec-booking.php:40
+#: xtec-booking.php:531
 #, fuzzy
-msgid "Update Booking"
-msgstr "Actualiza la reserva"
+msgid "Book sended"
+msgstr "Se ha enviado el espacio o el equipo"
 
-#: xtec-booking.php:41
-#, fuzzy
-msgid "Search Booking"
-msgstr "Busca la reserva"
-
-#: xtec-booking.php:42 xtec-booking.php:96
-msgid "Not Found"
-msgstr "No encontrado"
-
-#: xtec-booking.php:43 xtec-booking.php:97
-msgid "Not found in Trash"
-msgstr "No se ha encontrado en la papelera"
+#: xtec-booking.php:527 xtec-booking.php:528
+msgid "Book updated"
+msgstr "Se ha actualizado la reserva"
 
 #: xtec-booking.php:73
 #, fuzzy
 msgid "Booking"
-msgstr "Reservas"
+msgstr "La reserva se ha eliminado de forma permanente."
 
-#: xtec-booking.php:74
-msgid "Resources to booking"
+#. Plugin Name of the plugin
+#, fuzzy
+msgid "Booking Classrooms and resources plugin"
 msgstr "Espacios o equipos disponibles"
 
-#: xtec-booking.php:87
-#, fuzzy
-msgid "Add Resources"
-msgstr "Añade espacios o equipos"
+#: includes/booking.php:23 xtec-booking.php:604
+msgid "Booking calendar"
+msgstr "Calendario de reservas"
 
-#: xtec-booking.php:90
-#, fuzzy
-msgid "View Resource"
-msgstr "Visualiza espacios y equipos"
-
-#: xtec-booking.php:91
-#, fuzzy
-msgid "Add New Resource"
-msgstr "Añade un espacio o un equipo"
-
-#: xtec-booking.php:93
-#, fuzzy
-msgid "Edit Resource"
-msgstr "Edita un espacio o un equipo"
-
-#: xtec-booking.php:94
-#, fuzzy
-msgid "Update Resource"
-msgstr "Actualiza un espacio o un equipo"
-
-#: xtec-booking.php:95
-#, fuzzy
-msgid "Search Resource"
-msgstr "Busca espacios o equipos"
-
-#: xtec-booking.php:122
-msgid "Calendar"
-msgstr "Calendario"
+#: includes/calendar.php:326
+msgid "Booking make by"
+msgstr "Reserva hecha por"
 
 #: xtec-booking.php:141 xtec-booking.php:146
 #, fuzzy
@@ -339,10 +116,272 @@ msgstr ""
 "Reserva no disponible. el espacio o el equipo no está disponible para las "
 "fechas seleccionadas. por favor, probáis con otros datos."
 
-#: xtec-booking.php:286
+#: xtec-booking.php:31 xtec-booking.php:32 xtec-booking.php:33
+msgid "Bookings"
+msgstr "Reservas"
+
+#: includes/resources.php:46
+msgid "Brown"
+msgstr "Marrón"
+
+#: xtec-booking.php:122
+msgid "Calendar"
+msgstr "Calendario"
+
+#: includes/calendar.php:336
+msgid "Close"
+msgstr "Cerrar"
+
+#: includes/booking.php:121 includes/booking.php:142
 #, fuzzy
-msgid "You must choose which day of booking."
-msgstr "Tenéis que escoger los días en los que se realizará la reserva."
+msgid "Date before at actual date"
+msgstr "Mes(es) antes de la fecha de inicio"
+
+#: includes/calendar.php:368
+msgid "Day"
+msgstr "Día"
+
+#: xtec-booking.php:492 xtec-booking.php:493
+msgid "Deleted permanently booking."
+msgstr "La reserva se ha eliminado de forma permanente."
+
+#: xtec-booking.php:511
+#, fuzzy
+msgid "Deleted permanently resources"
+msgstr "Archivo multimedia borrado permanentemente."
+
+#: xtec-booking.php:512
+#, fuzzy
+msgid "Deleted resources"
+msgstr "Espacios y equipos"
+
+#: includes/calendar.php:331 xtec-booking.php:305 xtec-booking.php:323
+msgid "Description"
+msgstr "Descripción"
+
+#: xtec-booking.php:288
+#, fuzzy
+msgid "Do you want to permanently delete bookings selected?"
+msgstr "¿Quieres borrar el/los registro(s) seleccionado(s)?"
+
+#: xtec-booking.php:290
+#, fuzzy
+msgid "Do you want to permanently delete current booking?"
+msgstr "Volad eliminar definitivamente la reserva actual?"
+
+#: xtec-booking.php:39
+#, fuzzy
+msgid "Edit Booking"
+msgstr "Reserva madre"
+
+#: xtec-booking.php:93
+#, fuzzy
+msgid "Edit Resource"
+msgstr "Espacio o equipo"
+
+#: includes/calendar.php:321
+msgid "End Hour"
+msgstr "Hora de fin"
+
+#: xtec-booking.php:424
+#, fuzzy
+msgid "Filter by status"
+msgstr "Estado"
+
+#: includes/booking.php:140
+msgid "Finish date"
+msgstr "Fecha de fin"
+
+#: includes/booking.php:131
+msgid "Finish time"
+msgstr "Hora de fin"
+
+#: includes/booking.php:174
+msgid "Friday"
+msgstr "Viernes"
+
+#: includes/resources.php:42
+msgid "Green"
+msgstr "Verde"
+
+#: includes/booking.php:188
+msgid "Is necessary that check at least one day"
+msgstr "Es necesario seleccionar como mínimo un día"
+
+#: includes/resources.php:47
+#, fuzzy
+msgid "Light blue"
+msgstr "Azul claro"
+
+#: includes/booking.php:158
+msgid "Monday"
+msgstr "Lunes"
+
+#: includes/calendar.php:366
+msgid "Month"
+msgstr "Mes"
+
+#: includes/calendar.php:362 includes/calendar.php:491
+msgid "Next"
+msgstr "Siguiente"
+
+#: xtec-booking.php:42 xtec-booking.php:96
+msgid "Not Found"
+msgstr "No encontrado"
+
+#: includes/booking.php:69 includes/booking.php:94
+#, fuzzy
+msgid "Not allow any resources to select."
+msgstr "No hay ningún espacio o equipo disponible"
+
+#: includes/resources.php:27 xtec-booking.php:362 xtec-booking.php:426
+msgid "Not available"
+msgstr "No disponible"
+
+#: includes/calendar.php:132 xtec-booking.php:343
+msgid "Not available resource"
+msgstr "Recurso no disponible"
+
+#: xtec-booking.php:43 xtec-booking.php:97
+msgid "Not found in Trash"
+msgstr "No se ha encontrado en la papelera"
+
+#: includes/calendar.php:383
+msgid "Not resources available"
+msgstr "No hay recursos disponibles"
+
+#: xtec-booking.php:347
+msgid "Only admin users"
+msgstr "Disponible solo para los administradores"
+
+#: includes/resources.php:44
+msgid "Orange"
+msgstr "Naranja"
+
+#: includes/booking.php:14
+msgid "Parametes to booking"
+msgstr "Parámetros de la reserva"
+
+#: xtec-booking.php:34 xtec-booking.php:88
+msgid "Parent Booking"
+msgstr "Reserva madre"
+
+#: includes/resources.php:45
+msgid "Pink"
+msgstr "Rosa"
+
+#: includes/calendar.php:360 includes/calendar.php:489
+msgid "Prev"
+msgstr "Anterior"
+
+#: includes/resources.php:43
+msgid "Purple"
+msgstr "Púrpura"
+
+#: includes/resources.php:38
+msgid "Red"
+msgstr "Rojo"
+
+#: xtec-booking.php:289
+msgid "Remove"
+msgstr "Eliminar"
+
+#: includes/calendar.php:312 xtec-booking.php:307
+msgid "Resource"
+msgstr "Espacio o equipo"
+
+#: includes/booking.php:32
+msgid "Resource information"
+msgstr "Información del recurso"
+
+#: xtec-booking.php:540
+msgid "Resource published"
+msgstr "Se ha publicado el espacio o el equipo"
+
+#: xtec-booking.php:541
+#, fuzzy
+msgid "Resource saved"
+msgstr "Espacio o equipo"
+
+#: xtec-booking.php:542
+msgid "Resource sended"
+msgstr "Se ha enviado el espacio o el equipo"
+
+#: xtec-booking.php:538 xtec-booking.php:539
+msgid "Resource updated"
+msgstr "Se ha actualizado el espacio o el equipo."
+
+#: includes/calendar.php:383 includes/calendar.php:389 xtec-booking.php:89
+msgid "Resources"
+msgstr "Espacios y equipos"
+
+#: includes/resources.php:8
+msgid "Resources parameters"
+msgstr "Parámetros del equipo o el espacio"
+
+#: xtec-booking.php:74
+msgid "Resources to booking"
+msgstr "Espacios o equipos disponibles"
+
+#: includes/booking.php:179
+msgid "Saturday"
+msgstr "Sábado"
+
+#: xtec-booking.php:41
+#, fuzzy
+msgid "Search Booking"
+msgstr "Reserva madre"
+
+#: xtec-booking.php:95
+#, fuzzy
+msgid "Search Resource"
+msgstr "Espacio o equipo"
+
+#: includes/resources.php:23
+#, fuzzy
+msgid "Select availability resource"
+msgstr "Espacio o equipo"
+
+#: includes/resources.php:35
+#, fuzzy
+msgid "Select color resource"
+msgstr "Elige un color"
+
+#: includes/booking.php:152
+#, fuzzy
+msgid "Select day or days to repeat booking"
+msgstr "Seleccionáis los días en los que se repetirá la reserva"
+
+#: includes/booking.php:92
+#, fuzzy
+msgid "Select resource or classroom"
+msgstr "Espacio o equipo"
+
+#: includes/booking.php:247
+#, fuzzy
+msgid "Select resource to show image"
+msgstr "Elegir imagen"
+
+#: includes/calendar.php:293
+#, fuzzy
+msgid "Select resources"
+msgstr "Espacios y equipos"
+
+#: includes/booking.php:119
+msgid "Start date"
+msgstr "Fecha de inicio"
+
+#: includes/calendar.php:317 includes/booking.php:126
+msgid "Start time"
+msgstr "Hora de inicio"
+
+#: xtec-booking.php:324
+msgid "Status"
+msgstr "Estado"
+
+#: includes/booking.php:183
+msgid "Sunday"
+msgstr "Domingo"
 
 #: xtec-booking.php:287
 #, fuzzy
@@ -353,43 +392,103 @@ msgstr ""
 "Este espacio o equipo tiene reservas asociadas. para poderlo borrar, tenéis "
 "que borrar primero sus reservas."
 
-#: xtec-booking.php:288
+#: includes/booking.php:170
+msgid "Thursday"
+msgstr "Jueves"
+
+#: includes/calendar.php:361 includes/calendar.php:490
+msgid "Today"
+msgstr "Hoy"
+
+#: includes/booking.php:162
+msgid "Tuesday"
+msgstr "Martes"
+
+#: includes/calendar.php:292 includes/calendar.php:409
 #, fuzzy
-msgid "Do you want to permanently delete bookings selected?"
-msgstr "Volad eliminar definitivamente las reservas seleccionadas?"
+msgid "Unselect resources"
+msgstr "Espacios y equipos"
 
-#: xtec-booking.php:289
-msgid "Remove"
-msgstr "Eliminar"
-
-#: xtec-booking.php:290
+#: xtec-booking.php:40
 #, fuzzy
-msgid "Do you want to permanently delete current booking?"
-msgstr "Volad eliminar definitivamente la reserva actual?"
+msgid "Update Booking"
+msgstr "Reserva madre"
 
-#: xtec-booking.php:291
-msgid "mo."
-msgstr "lun."
-
-#: xtec-booking.php:291
+#: xtec-booking.php:94
 #, fuzzy
-msgid "tu."
-msgstr "mart."
+msgid "Update Resource"
+msgstr "Espacio o equipo"
 
-#: xtec-booking.php:291
-#, fuzzy
-msgid "we."
-msgstr "dm."
+#: xtec-booking.php:532
+msgid "Updated draft of the book"
+msgstr "Se ha actualizado el borrador de la reserva"
 
-#: xtec-booking.php:291
+#: xtec-booking.php:543
 #, fuzzy
-msgid "th."
-msgstr "j."
+msgid "Updated draft of the resource"
+msgstr "Se ha actualizado el espacio o el equipo."
+
+#: xtec-booking.php:36
+#, fuzzy
+msgid "View Booking"
+msgstr "Reserva madre"
+
+#: xtec-booking.php:90
+#, fuzzy
+msgid "View Resource"
+msgstr "Espacio o equipo"
+
+#: includes/booking.php:166
+msgid "Wednesday"
+msgstr "Miércoles"
+
+#: includes/calendar.php:367
+msgid "Week"
+msgstr "Semana"
+
+#. Author of the plugin
+msgid "Xavier Nieto"
+msgstr "Xavier Nieto"
+
+#: includes/calendar.php:365
+msgid "Year"
+msgstr "Año"
+
+#: includes/resources.php:39
+msgid "Yellow"
+msgstr "Amarillo"
+
+#: xtec-booking.php:286
+#, fuzzy
+msgid "You must choose which day of booking."
+msgstr "Tenéis que escoger los días en los que se realizará la reserva."
+
+#: xtec-booking.php:491
+#, fuzzy
+msgid "booking not updated, somebody is editing them"
+msgstr "el espacio o el equipo no se ha actualizado, alguien lo está editando"
+
+#: xtec-booking.php:490
+msgid "booking updated"
+msgstr "reserva actualizada"
 
 #: xtec-booking.php:291
 #, fuzzy
 msgid "fr."
 msgstr "vnes."
+
+#: xtec-booking.php:291
+msgid "mo."
+msgstr "lun."
+
+#: xtec-booking.php:510
+msgid "resources not updated, somebody is editing them"
+msgstr "el espacio o el equipo no se ha actualizado, alguien lo está editando"
+
+#: xtec-booking.php:509
+#, fuzzy
+msgid "resources updated"
+msgstr "el espacio o el equipo no se ha actualizado, alguien lo está editando"
 
 #: xtec-booking.php:291
 msgid "sa."
@@ -399,116 +498,17 @@ msgstr "sáb."
 msgid "su."
 msgstr "dom."
 
-#: xtec-booking.php:306
-msgid "Author"
-msgstr "Autor"
-
-#: xtec-booking.php:324
-msgid "Status"
-msgstr "Estado"
-
-#: xtec-booking.php:347
-msgid "Only admin users"
-msgstr "Disponible solo para los administradores"
-
-#: xtec-booking.php:424
+#: xtec-booking.php:291
 #, fuzzy
-msgid "Filter by status"
-msgstr "Filtra por el estado"
+msgid "th."
+msgstr "j."
 
-#: xtec-booking.php:441
-msgid "All resources"
-msgstr "Todos los espacios y equipos"
-
-#: xtec-booking.php:490
-msgid "booking updated"
-msgstr "reserva actualizada"
-
-#: xtec-booking.php:491
+#: xtec-booking.php:291
 #, fuzzy
-msgid "booking not updated, somebody is editing them"
-msgstr "la reserva no se ha actualizado, alguien lo está editando"
+msgid "tu."
+msgstr "mart."
 
-#: xtec-booking.php:492 xtec-booking.php:493
-msgid "Deleted permanently booking."
-msgstr "La reserva se ha eliminado de forma permanente."
-
-#: xtec-booking.php:509
+#: xtec-booking.php:291
 #, fuzzy
-msgid "resources updated"
-msgstr "espacios y equipos actualizados"
-
-#: xtec-booking.php:510
-msgid "resources not updated, somebody is editing them"
-msgstr "el espacio o el equipo no se ha actualizado, alguien lo está editando"
-
-#: xtec-booking.php:511
-#, fuzzy
-msgid "Deleted permanently resources"
-msgstr "El espacio o el equipo se ha eliminado de forma permanente"
-
-#: xtec-booking.php:512
-#, fuzzy
-msgid "Deleted resources"
-msgstr "Espacio o equipo eliminado"
-
-#: xtec-booking.php:527 xtec-booking.php:528
-msgid "Book updated"
-msgstr "Se ha actualizado la reserva"
-
-#: xtec-booking.php:529
-#, fuzzy
-msgid "Book published"
-msgstr "Reserva publicada"
-
-#: xtec-booking.php:530
-#, fuzzy
-msgid "Book saved"
-msgstr "Reserva desada"
-
-#: xtec-booking.php:531
-#, fuzzy
-msgid "Book sended"
-msgstr "Reserva enviada"
-
-#: xtec-booking.php:532
-msgid "Updated draft of the book"
-msgstr "Se ha actualizado el borrador de la reserva"
-
-#: xtec-booking.php:538 xtec-booking.php:539
-msgid "Resource updated"
-msgstr "Se ha actualizado el espacio o el equipo."
-
-#: xtec-booking.php:540
-msgid "Resource published"
-msgstr "Se ha publicado el espacio o el equipo"
-
-#: xtec-booking.php:541
-#, fuzzy
-msgid "Resource saved"
-msgstr "Se ha desat el espacio o el equipo"
-
-#: xtec-booking.php:542
-msgid "Resource sended"
-msgstr "Se ha enviado el espacio o el equipo"
-
-#: xtec-booking.php:543
-#, fuzzy
-msgid "Updated draft of the resource"
-msgstr "Se ha actualizado el borrador del espacio o el equipo"
-
-#. Plugin Name of the plugin/theme
-#, fuzzy
-msgid "Booking Classrooms and resources plugin"
-msgstr "Conector de reserva de aulas y recursos"
-
-#. Description of the plugin/theme
-#, fuzzy
-msgid ""
-"Allow booking classrooms and diferents resources into bootstrap calendar"
-msgstr ""
-"Permite reservar aulas y recursos diferentes en el calendario de arranque"
-
-#. Author of the plugin/theme
-msgid "Xavier Nieto"
-msgstr "Xavier Nieto"
+msgid "we."
+msgstr "Quiénes somos"

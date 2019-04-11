@@ -3,8 +3,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Nodes 4.9.5\n"
-"Report-Msgid-Bugs-To: https://make.wordpress.org/polyglots/\n"
-"POT-Creation-Date: 2019-04-05 07:48:19+00:00\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11T16:47:54+02:00\n"
 "PO-Revision-Date: 2016-03-11 16:05:07+0000\n"
 "Language: eu\n"
 "MIME-Version: 1.0\n"
@@ -76,6 +76,15 @@ msgstr ""
 "<a href=\"https://codex.wordpress.org/Network_Admin_Settings_Screen\">Sare-"
 "ezarpenei buruzko dokumentazioa</a>"
 
+#: wp-admin/network/sites.php:45 wp-admin/network/site-new.php:32
+#, fuzzy
+msgid ""
+"<a href=\"https://codex.wordpress.org/Network_Admin_Sites_Screen"
+"\">Documentation on Site Management</a>"
+msgstr ""
+"<a href=\"https://codex.wordpress.org/Network_Admin_Themes_Screen\">Sareko "
+"itxurei buruzko dokumentazioa</a>"
+
 #: wp-admin/network/themes.php:246
 msgid ""
 "<a href=\"https://codex.wordpress.org/Network_Admin_Themes_Screen"
@@ -108,15 +117,39 @@ msgstr ""
 "<a href=\"https://codex.wordpress.org/Tools_Network_Screen\">Sare-"
 "pantailaren dokumentazioa</a>"
 
+#: wp-admin/network/upgrade.php:32 wp-admin/network/settings.php:64
+#: wp-admin/network/themes.php:247 wp-admin/network.php:81
+#, fuzzy
+msgid "<a href=\"https://wordpress.org/support/\">Support Forums</a>"
+msgstr ""
+"<a href=\"https://codex.wordpress.org/Network_Admin\">Sare-administrazioari "
+"buruzko dokumentazioa</a>"
+
+#: wp-admin/network/user-new.php:30 wp-admin/network/index.php:56
+#: wp-admin/network/sites.php:46 wp-admin/network/users.php:212
+#: wp-admin/network/site-new.php:33
+msgid ""
+"<a href=\"https://wordpress.org/support/forum/multisite/\">Support Forums</a>"
+msgstr ""
+
 #: wp-admin/network/site-new.php:284
 msgid ""
 "A new user will be created if the above email address is not in the database."
 msgstr "Erabiltzaile berria sortuko da goiko e-posta datu-basean ez badago."
 
-#: wp-admin/network/site-users.php:357 wp-admin/network/user-new.php:133
+#: wp-admin/network/user-new.php:133 wp-admin/network/site-users.php:357
 msgid "A password reset link will be sent to the user via email."
 msgstr ""
 "Pasahitza berrezartzeko esteka bidaliko zaio erabiltzaileari e-posta bidez."
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:244
+msgid "Actions"
+msgstr ""
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:540
+#, fuzzy
+msgid "Activate"
+msgstr "Gunea gaitu da."
 
 #: wp-admin/includes/class-wp-ms-themes-list-table.php:671
 msgid "Active Child Theme"
@@ -126,14 +159,43 @@ msgstr "Haur-itxura aktiboa"
 msgid "Active Theme"
 msgstr "Itxura aktiboa"
 
+#: wp-admin/network/site-users.php:300
+#, fuzzy
+msgid "Add Existing User"
+msgstr "Gehitu erabiltzailea"
+
+#: wp-admin/network/menu.php:62
+#, fuzzy
+msgctxt "plugin"
+msgid "Add New"
+msgstr "Berria gehitu"
+
+#: wp-admin/network/menu.php:41 wp-admin/network/sites.php:346
+#, fuzzy
+msgctxt "site"
+msgid "Add New"
+msgstr "Berria gehitu"
+
 #: wp-admin/network/menu.php:53 wp-admin/network/themes.php:272
 msgctxt "theme"
+msgid "Add New"
+msgstr "Berria gehitu"
+
+#: wp-admin/network/menu.php:45 wp-admin/network/users.php:257
+#, fuzzy
+msgctxt "user"
 msgid "Add New"
 msgstr "Berria gehitu"
 
 #: wp-admin/network/site-new.php:198 wp-admin/network/site-new.php:208
 msgid "Add New Site"
 msgstr "Gehitu gune berria"
+
+#: wp-admin/network/user-new.php:98 wp-admin/network/user-new.php:104
+#: wp-admin/network/site-users.php:334 wp-admin/network/site-users.php:361
+#, fuzzy
+msgid "Add New User"
+msgstr "Gehitu erabiltzaile berriak"
 
 #: wp-admin/network/settings.php:236
 msgid "Add New Users"
@@ -153,7 +215,7 @@ msgstr ""
 msgid "Add Site"
 msgstr "Gehitu gunea"
 
-#: wp-admin/network/site-users.php:320 wp-admin/network/user-new.php:145
+#: wp-admin/network/user-new.php:145 wp-admin/network/site-users.php:320
 msgid "Add User"
 msgstr "Gehitu erabiltzailea"
 
@@ -179,8 +241,7 @@ msgstr ""
 "editing...*/</code> abisua baino goratxoago) eta <code>.htaccess</code>-eri "
 "(existitzen diren WordPress arauak ordezkatuz)."
 
-#. translators: 1: wp-config.php, 2: location of wp-config file, 3: translated
-#. version of "That's all, stop editing! Happy publishing."
+#. translators: 1: wp-config.php, 2: location of wp-config file, 3: translated version of "That's all, stop editing! Happy publishing."
 #: wp-admin/includes/network.php:470
 msgid ""
 "Add the following to your %1$s file in %2$s <strong>above</strong> the line "
@@ -213,9 +274,22 @@ msgid_plural "All <span class=\"count\">(%s)</span>"
 msgstr[0] "Guztiak <span class=\"count\">(%s)</span>"
 msgstr[1] "Guztiak <span class=\"count\">(%s)</span>"
 
+#: wp-admin/includes/class-wp-ms-users-list-table.php:142
+#, fuzzy
+msgctxt "users"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] "Guztiak <span class=\"count\">(%s)</span>"
+msgstr[1] "Guztiak <span class=\"count\">(%s)</span>"
+
 #: wp-admin/network/menu.php:40
 msgid "All Sites"
 msgstr "Gune guztiak"
+
+#: wp-admin/network/menu.php:44
+#, fuzzy
+msgid "All Users"
+msgstr "Gehitu erabiltzailea"
 
 #: wp-admin/network/upgrade.php:72
 msgid "All done!"
@@ -314,9 +388,17 @@ msgstr[1] "Apurtuak <span class=\"count\">(%s)</span>"
 msgid "Broken Theme:"
 msgstr "Apurtutako itxura:"
 
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:576
+msgid "By %s"
+msgstr ""
+
 #: wp-admin/network/site-new.php:40
 msgid "Can&#8217;t create an empty site."
 msgstr "Ezin da gune hutsa sortu."
+
+#: wp-admin/network/settings.php:181
+msgid "Cancel"
+msgstr ""
 
 #: wp-admin/network/user-new.php:54
 msgid "Cannot add user."
@@ -325,6 +407,16 @@ msgstr "Ezin da gehitu erabiltzailea."
 #: wp-admin/network/user-new.php:41
 msgid "Cannot create an empty user."
 msgstr "Ezin da erabiltzaile hutsa sortu."
+
+#: wp-admin/includes/network.php:437 wp-admin/includes/network.php:445
+#: wp-admin/includes/network.php:453 wp-admin/network/themes.php:129
+#: wp-admin/network/themes.php:133
+msgid "Caution:"
+msgstr ""
+
+#: wp-admin/network/site-users.php:251
+msgid "Changed roles."
+msgstr ""
 
 #: wp-admin/network.php:60
 msgid ""
@@ -362,9 +454,27 @@ msgstr "Egiaztatu zure ekintza"
 msgid "Create a Network of WordPress Sites"
 msgstr "Sortu WordPress guneen sarea"
 
+#. translators: Network menu item
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:537
+#: wp-admin/network/site-settings.php:94 wp-admin/network/index.php:20
+#: wp-admin/network/menu.php:11 wp-admin/network/site-users.php:226
+#: wp-admin/network/site-themes.php:179 wp-admin/network/site-info.php:136
+#, fuzzy
+msgid "Dashboard"
+msgstr "Lan-lekura itzuli"
+
 #: wp-admin/network/sites.php:34
 msgid "Dashboard leads to the Dashboard for that site."
 msgstr "Arbelak, gune horretako Arbelera darama."
+
+#: wp-admin/network/upgrade.php:143
+msgid "Database Update Required"
+msgstr ""
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:542
+#, fuzzy
+msgid "Deactivate"
+msgstr "Gunea gaitu da."
 
 #: wp-admin/network/sites.php:35
 msgid ""
@@ -377,6 +487,16 @@ msgstr ""
 #: wp-admin/network/settings.php:407
 msgid "Default Language"
 msgstr "Hizkuntza lehenetsia"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:208
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:558
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:357
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:493
+#: wp-admin/includes/class-wp-ms-users-list-table.php:115
+#: wp-admin/includes/class-wp-ms-users-list-table.php:459
+#, fuzzy
+msgid "Delete"
+msgstr "Ezabatuta"
 
 #. translators: %s: theme name
 #: wp-admin/includes/class-wp-ms-themes-list-table.php:487
@@ -401,6 +521,10 @@ msgstr "Ezabatu baieztapen pantailen ondoren beti egiten den ekintza da."
 msgid "Deleted"
 msgstr "Ezabatuta"
 
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:262
+msgid "Description"
+msgstr ""
+
 #: wp-admin/includes/class-wp-ms-themes-list-table.php:350
 #: wp-admin/includes/class-wp-ms-themes-list-table.php:470
 msgid "Disable"
@@ -421,15 +545,31 @@ msgstr[1] "Ezgaituta <span class=\"count\">(%s)</span>"
 msgid "Duplicated username or email address."
 msgstr "Erabiltzaile-izena edo e-posta bikoiztuak."
 
+#: wp-admin/includes/network.php:111 wp-admin/includes/network.php:137
+msgid "ERROR:"
+msgstr ""
+
 #: wp-admin/includes/network.php:155
 msgid "ERROR: The network could not be created."
 msgstr "ERROREA: ezin izan da sarea sortu."
 
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:536
+#: wp-admin/includes/class-wp-ms-users-list-table.php:347
+#: wp-admin/includes/class-wp-ms-users-list-table.php:455
+msgid "Edit"
+msgstr ""
+
 #. translators: %s: site name
-#: wp-admin/network/site-info.php:125 wp-admin/network/site-settings.php:83
-#: wp-admin/network/site-themes.php:170 wp-admin/network/site-users.php:201
+#: wp-admin/network/site-settings.php:83 wp-admin/network/site-users.php:201
+#: wp-admin/network/site-themes.php:170 wp-admin/network/site-info.php:125
 msgid "Edit Site: %s"
 msgstr "Editatu gunea: %s"
+
+#: wp-admin/includes/class-wp-ms-users-list-table.php:172
+#: wp-admin/network/user-new.php:129 wp-admin/network/site-users.php:343
+#, fuzzy
+msgid "Email"
+msgstr "Administratzailearen e-posta"
 
 #: wp-admin/includes/class-wp-ms-themes-list-table.php:347
 #: wp-admin/includes/class-wp-ms-themes-list-table.php:444
@@ -484,6 +624,16 @@ msgstr "Iragazi guneko itxuren zerrenda"
 msgid "Filter site users list"
 msgstr "Iragazi guneko erabiltzaileen zerrenda"
 
+#: wp-admin/network/themes.php:252
+#, fuzzy
+msgid "Filter themes list"
+msgstr "Guneko itxuren zerrenda"
+
+#: wp-admin/network/users.php:217
+#, fuzzy
+msgid "Filter users list"
+msgstr "Guneko erabiltzaileen zerrenda"
+
 #: wp-admin/network/settings.php:323
 msgid "First Comment"
 msgstr "Lehen iruzkina"
@@ -504,9 +654,26 @@ msgstr "Lehen iruzkinaren URLa"
 msgid "First Page"
 msgstr "Lehen orrialdea"
 
+#: wp-admin/network/settings.php:303
+#, fuzzy
+msgid "First Post"
+msgstr "Lehen orrialdea"
+
+#: wp-admin/network/user-new.php:28 wp-admin/network/index.php:54
+#: wp-admin/network/upgrade.php:30 wp-admin/network/settings.php:62
+#: wp-admin/network/themes.php:245 wp-admin/network/sites.php:44
+#: wp-admin/network/users.php:210 wp-admin/network/site-new.php:31
+#: wp-admin/network.php:65 wp-admin/network.php:78
+msgid "For more information:"
+msgstr ""
+
 #: wp-admin/network/index.php:24
 msgid "From here you can:"
 msgstr "Hemendik egin dezakezuna:"
+
+#: wp-admin/network/menu.php:13
+msgid "Home"
+msgstr ""
 
 #: wp-admin/network/users.php:201
 msgid ""
@@ -526,8 +693,6 @@ msgstr ""
 "Gune bakoitzean nabarmentzeak zazpi aukera ematen ditu (hiru gune "
 "nagusirako):"
 
-#. translators: 1: mod_rewrite, 2: mod_rewrite documentation URL, 3: Google
-#. search for mod_rewrite
 #: wp-admin/includes/network.php:210
 msgid ""
 "If %1$s is disabled, ask your administrator to enable that module, or look "
@@ -546,7 +711,6 @@ msgstr ""
 "Nukleorako bertsioaren eguneraketarik izan ez bada, botoi honetan klik "
 "eginez ez dio ezeri eragingo."
 
-#. translators: 1: NOBLOGREDIRECT, 2: wp-config.php
 #: wp-admin/network/settings.php:212
 msgid ""
 "If registration is disabled, please set %1$s in %2$s to a URL you will "
@@ -604,20 +768,34 @@ msgstr ""
 "Zure nabigatzaileak ez badu hurrengo orria automatikoki kargatzen, egin klik "
 "ondorengo estekan:"
 
+#: wp-admin/includes/network.php:368
+#, fuzzy
+msgid "Install"
+msgstr "Instalatu itxurak"
+
 #: wp-admin/network/index.php:26
 msgid "Install and activate themes or plugins"
 msgstr "Instalatu eta aktibatu itxurak edo plugin-ak"
+
+#: wp-admin/network/menu.php:61
+#, fuzzy
+msgid "Installed Plugins"
+msgstr "Instalatu itxurak"
 
 #: wp-admin/network/menu.php:52
 msgid "Installed Themes"
 msgstr "Instalatu itxurak"
 
-#: wp-admin/network/site-info.php:23 wp-admin/network/site-settings.php:23
-#: wp-admin/network/site-themes.php:46 wp-admin/network/site-users.php:41
+#: wp-admin/network/site-new.php:94
+#, fuzzy
+msgid "Invalid email address."
+msgstr "Zure e-posta helbidea"
+
+#: wp-admin/network/site-settings.php:23 wp-admin/network/site-users.php:41
+#: wp-admin/network/site-themes.php:46 wp-admin/network/site-info.php:23
 msgid "Invalid site ID."
 msgstr "Gune ID baliogabea."
 
-#. translators: %s: mod_rewrite
 #: wp-admin/includes/network.php:200
 msgid "It looks like the Apache %s module is not installed."
 msgstr "Badirudi Apacheren %s modulua ez dagoela instalatuta."
@@ -638,6 +816,10 @@ msgstr "Limitatu igotako fitxategien tamaina maximoa %s MBra"
 #: wp-admin/network/settings.php:253
 msgid "Limited Email Registrations"
 msgstr "E-posta erregistroak mugatuak"
+
+#: wp-admin/includes/network.php:662
+msgid "Log In"
+msgstr ""
 
 #: wp-admin/network/settings.php:205
 msgid "Logged in users may register new sites"
@@ -662,6 +844,11 @@ msgstr "Heldua"
 msgid "Max upload file size"
 msgstr "Igotzeko fitxategiaren tamaina maximoa"
 
+#: wp-admin/network/settings.php:433
+#, fuzzy
+msgid "Menu Settings"
+msgstr "Hizkuntza ezarpenak"
+
 #: wp-admin/network/settings.php:56
 msgid ""
 "Menu setting enables/disables the plugin menus from appearing for non super "
@@ -683,6 +870,14 @@ msgstr "Gunearen helbidea falta da edo baliogabea da."
 #: wp-admin/network/index.php:28
 msgid "Modify global network settings"
 msgstr "Aldatu sareako ezarpen orokorrak"
+
+#: wp-admin/network/admin.php:17
+msgid "Multisite support is not enabled."
+msgstr ""
+
+#: wp-admin/includes/class-wp-ms-users-list-table.php:171
+msgid "Name"
+msgstr ""
 
 #: wp-admin/network.php:72
 msgid "Network"
@@ -706,6 +901,12 @@ msgstr "Sarea ezgaitu"
 msgid "Network Disable %s"
 msgstr "Sarea desgaitu %s"
 
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:347
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:444
+#, fuzzy
+msgid "Network Enable"
+msgstr "Sarea gaitu %s"
+
 #. translators: %s: theme name
 #: wp-admin/includes/class-wp-ms-themes-list-table.php:437
 msgid "Network Enable %s"
@@ -713,6 +914,11 @@ msgstr "Sarea gaitu %s"
 
 #: wp-admin/network/menu.php:67 wp-admin/network/settings.php:20
 msgid "Network Settings"
+msgstr "Sarearen ezarpenak"
+
+#: wp-admin/network/menu.php:68 wp-admin/network.php:52
+#, fuzzy
+msgid "Network Setup"
 msgstr "Sarearen ezarpenak"
 
 #: wp-admin/includes/network.php:350 wp-admin/network/settings.php:153
@@ -776,6 +982,11 @@ msgstr "Ez dago itxurarik aukeratuta."
 msgid "No themes found."
 msgstr "Ez da itxurarik aurkitu."
 
+#: wp-admin/includes/class-wp-ms-users-list-table.php:126
+#, fuzzy
+msgid "No users found."
+msgstr "Ez da gunerik aurkitu."
+
 #: wp-admin/network/themes.php:174
 msgid "No, return me to the theme list"
 msgstr "Ez, itzul nazazu itxuren zerrendara"
@@ -790,6 +1001,10 @@ msgstr "Ez da zaborra"
 msgctxt "user"
 msgid "Not Spam"
 msgstr "Ez da zaborra"
+
+#: wp-admin/includes/network.php:189
+msgid "Note:"
+msgstr "Oharra:"
 
 #: wp-admin/includes/network.php:128
 msgid "Once the network is created, you may reactivate your plugins."
@@ -818,6 +1033,11 @@ msgid ""
 msgstr ""
 "Pauso hauek egin ostean, zure sarea aktibo eta konfiguratuta egongo da. "
 "Berriz sartu beharko duzu."
+
+#: wp-admin/network/site-users.php:163
+#, fuzzy
+msgid "One of the selected users is not a member of this site."
+msgstr "Erabiltzailea dagoeneko gune honetako kide da."
 
 #: wp-admin/network/site-new.php:240
 msgid "Only lowercase letters (a-z), numbers, and hyphens are allowed."
@@ -849,6 +1069,13 @@ msgstr ""
 "Ezarpenek badituzte sareko izenarentzako eta administratzailearen e-"
 "postarentzako eremuak."
 
+#: wp-admin/network/user-new.php:20 wp-admin/network/index.php:33
+#: wp-admin/network/upgrade.php:21 wp-admin/network/settings.php:48
+#: wp-admin/network/themes.php:236 wp-admin/network/sites.php:28
+#: wp-admin/network/users.php:198 wp-admin/network/site-new.php:23
+msgid "Overview"
+msgstr ""
+
 #. translators: %s: Plugins screen URL
 #: wp-admin/includes/network.php:125
 msgid ""
@@ -871,7 +1098,6 @@ msgstr ""
 "Osatu konfigurazio pausoak. Sare berri bat sortzeko, sarearen datu-basearen "
 "taulak hustu edo ezabatu beharko dituzu."
 
-#. translators: %s: mod_rewrite
 #: wp-admin/includes/network.php:192
 msgid ""
 "Please make sure the Apache %s module is installed as it will be used at the "
@@ -879,6 +1105,22 @@ msgid ""
 msgstr ""
 "Ziurtatu Apacheren %s modulua instalatuta dagoela, instalazioaren bukaeran "
 "erabiliko baita."
+
+#: wp-admin/network/menu.php:63
+msgid "Plugin Editor"
+msgstr ""
+
+#: wp-admin/network/menu.php:59 wp-admin/network/settings.php:455
+msgid "Plugins"
+msgstr ""
+
+#: wp-admin/network/menu.php:57
+msgid "Plugins %s"
+msgstr ""
+
+#: wp-admin/network/site-info.php:183
+msgid "Public"
+msgstr ""
 
 #: wp-admin/network/index.php:48
 msgid "Quick Tasks"
@@ -918,9 +1160,47 @@ msgstr ""
 "konexioak. Tarteek —ez komek— sare honetarako gune gisa debekatutako izenak "
 "bereizi beharko lituzkete."
 
+#. translators: %s: asterisk to mark required form fields.
+#: wp-admin/network/site-new.php:220
+msgid "Required fields are marked %s"
+msgstr ""
+
 #: wp-admin/includes/network.php:143
 msgid "Return to Dashboard"
 msgstr "Lan-lekura itzuli"
+
+#: wp-admin/network/site-users.php:309 wp-admin/network/site-users.php:347
+msgid "Role"
+msgstr ""
+
+#: wp-admin/network/site-themes.php:213 wp-admin/network/themes.php:318
+#, fuzzy
+msgid "Search Installed Themes"
+msgstr "Instalatu itxurak"
+
+#: wp-admin/network/sites.php:361
+#, fuzzy
+msgid "Search Sites"
+msgstr "Hurrengo guneak"
+
+#: wp-admin/network/site-users.php:276 wp-admin/network/users.php:272
+msgid "Search Users"
+msgstr ""
+
+#. translators: %s: search keywords
+#: wp-admin/network/themes.php:278 wp-admin/network/sites.php:352
+#: wp-admin/network/users.php:263
+msgid "Search results for &#8220;%s&#8221;"
+msgstr ""
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:382
+msgid "Select"
+msgstr ""
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:282
+#: wp-admin/includes/class-wp-ms-users-list-table.php:211
+msgid "Select %s"
+msgstr ""
 
 #: wp-admin/network/site-users.php:254
 msgid "Select a user to change role."
@@ -947,10 +1227,35 @@ msgstr "Zerbitzariaren helbidea"
 msgid "Set site attributes"
 msgstr "Gunearen atributuak ezarri"
 
+#: wp-admin/network/menu.php:65
+#, fuzzy
+msgid "Settings"
+msgstr "Igotzeko ezarpenak"
+
+#: wp-admin/network/settings.php:141 wp-admin/network/sites.php:328
+msgid "Settings saved."
+msgstr ""
+
+#: wp-admin/network/site-info.php:161 wp-admin/network/site-info.php:169
+#: wp-admin/network/site-new.php:229
+#, fuzzy
+msgid "Site Address (URL)"
+msgstr "Zerbitzariaren helbidea"
+
 #: wp-admin/network/site-new.php:166
 msgctxt "email \"From\" field"
 msgid "Site Admin"
 msgstr "Gunearen administrazioa"
+
+#: wp-admin/network/site-new.php:254
+#, fuzzy
+msgid "Site Language"
+msgstr "Hizkuntza lehenetsia"
+
+#: wp-admin/network/site-new.php:245
+#, fuzzy
+msgid "Site Title"
+msgstr "Guneen zerrenda"
 
 #: wp-admin/network/sites.php:306
 msgid "Site activated."
@@ -1017,6 +1322,14 @@ msgstr "Guneko erabiltzaileen zerrenda"
 msgid "Site users list navigation"
 msgstr "Guneko erabiltzaile zerrendaren nabigazioa"
 
+#. translators: Sites menu item
+#: wp-admin/includes/class-wp-ms-users-list-table.php:174
+#: wp-admin/network/menu.php:39 wp-admin/network/sites.php:20
+#: wp-admin/network/sites.php:343
+#, fuzzy
+msgid "Sites"
+msgstr "%s guneak"
+
 #: wp-admin/network/sites.php:291
 msgid "Sites deleted."
 msgstr "Guneak ezabatu dira."
@@ -1041,8 +1354,34 @@ msgstr "Zaborretik kendutako guneak."
 msgid "Size in kilobytes"
 msgstr "Tamaina kilobyte-tan"
 
+#: wp-admin/network/settings.php:367
+#, fuzzy
+msgid "Size in megabytes"
+msgstr "Tamaina kilobyte-tan"
+
+#: wp-admin/network/site-users.php:162
+msgid "Something went wrong."
+msgstr ""
+
+#: wp-admin/network/user-new.php:37 wp-admin/network/site-settings.php:32
+#: wp-admin/network/index.php:17 wp-admin/network/site-users.php:50
+#: wp-admin/network/upgrade.php:38 wp-admin/network/settings.php:17
+#: wp-admin/network/site-themes.php:57 wp-admin/network/site-info.php:32
+#: wp-admin/network/sites.php:14 wp-admin/network/sites.php:131
+#: wp-admin/network/users.php:14 wp-admin/network/users.php:24
+#: wp-admin/network/users.php:46 wp-admin/network/users.php:60
+#: wp-admin/network/users.php:133
+#, fuzzy
+msgid "Sorry, you are not allowed to access this page."
+msgstr "Barkatu, ezin duzu gune hau editatu."
+
 #: wp-admin/network/site-new.php:17
 msgid "Sorry, you are not allowed to add sites to this network."
+msgstr "Barkatu, ezin duzu sare honetan gunerik gehitu."
+
+#: wp-admin/network/user-new.php:14
+#, fuzzy
+msgid "Sorry, you are not allowed to add users to this network."
 msgstr "Barkatu, ezin duzu sare honetan gunerik gehitu."
 
 #: wp-admin/network/sites.php:96 wp-admin/network/sites.php:207
@@ -1061,18 +1400,33 @@ msgstr "Barkatu, ezin duzu %s gunea ezabatu."
 msgid "Sorry, you are not allowed to delete themes for this site."
 msgstr "Barkatu, ezin duzu gune honetan itxurarik ezabatu."
 
-#: wp-admin/network/site-info.php:14 wp-admin/network/site-settings.php:14
-#: wp-admin/network/site-users.php:14
+#: wp-admin/network/site-settings.php:14 wp-admin/network/site-users.php:14
+#: wp-admin/network/site-info.php:14
 msgid "Sorry, you are not allowed to edit this site."
 msgstr "Barkatu, ezin duzu gune hau editatu."
+
+#: wp-admin/network/site-users.php:150
+#, fuzzy
+msgid "Sorry, you are not allowed to give users that role."
+msgstr "Barkatu, ezin duzu gune hori ezabatu."
 
 #: wp-admin/network/themes.php:14
 msgid "Sorry, you are not allowed to manage network themes."
 msgstr "Barkatu, ezin dituzu sareko itxurak kudeatu."
 
+#: wp-admin/network.php:19
+#, fuzzy
+msgid "Sorry, you are not allowed to manage options for this site."
+msgstr "Barkatu, ezin dugu gune honetan itxurarik kudeatu."
+
 #: wp-admin/network/site-themes.php:14
 msgid "Sorry, you are not allowed to manage themes for this site."
 msgstr "Barkatu, ezin dugu gune honetan itxurarik kudeatu."
+
+#: wp-admin/network/site-users.php:119
+#, fuzzy
+msgid "Sorry, you are not allowed to remove users."
+msgstr "Barkatu, ezin duzu %s gunea ezabatu."
 
 #: wp-admin/includes/class-wp-ms-sites-list-table.php:40
 #: wp-admin/includes/class-wp-ms-sites-list-table.php:554
@@ -1106,6 +1460,11 @@ msgstr ""
 "Azpi-karpeta erako sareak agian ez dira guztiz bateragarriak wp-content "
 "barruko karpeta egitura pertsonalizatuekin."
 
+#: wp-admin/includes/class-wp-ms-users-list-table.php:253
+#, fuzzy
+msgid "Super Admin"
+msgstr "Gunearen administrazioa"
+
 #: wp-admin/includes/class-wp-ms-users-list-table.php:144
 msgid "Super Admin <span class=\"count\">(%s)</span>"
 msgid_plural "Super Admins <span class=\"count\">(%s)</span>"
@@ -1126,10 +1485,6 @@ msgstr ""
 "eta han kontrol-lauki bat piztu ahal izango duzu erabiltzaileari super "
 "administratzaile pribilegioak emateko."
 
-#. translators: This string should only be translated if wp-config-sample.php
-#. is localized. You can check the localized release package or
-#. https://i18n.svn.wordpress.org/<locale code>/branches/<wp
-#. version>/dist/wp-config-sample.php
 #: wp-admin/includes/network.php:478
 #, fuzzy
 msgid "That&#8217;s all, stop editing! Happy publishing."
@@ -1182,6 +1537,11 @@ msgstr ""
 msgid "The constant %s cannot be defined when creating a network."
 msgstr "%s konstantea ezin da zehaztu sare bat sortzen denean."
 
+#: wp-admin/network/upgrade.php:147
+msgid ""
+"The database update process may take a little while, so please be patient."
+msgstr ""
+
 #: wp-admin/network/site-new.php:119
 msgid "The domain or path entered conflicts with an existing username."
 msgstr ""
@@ -1204,7 +1564,10 @@ msgstr "Gune berri bateko lehen orrialdea."
 msgid "The first post on a new site."
 msgstr "Gune berri bateko lehen bidalketa."
 
-#. translators: %s: reserved names list
+#: wp-admin/network/themes.php:325
+msgid "The following themes are installed but incomplete."
+msgstr ""
+
 #: wp-admin/network/site-new.php:57
 msgid ""
 "The following words are reserved for use by WordPress functions and cannot "
@@ -1250,8 +1613,8 @@ msgstr "Jatorrizko konfigurazio-pausoak erreferentzia gisa daude hemen."
 msgid "The requested action is not valid."
 msgstr "Eskatutako ekintza ez da baliozkoa."
 
-#: wp-admin/network/site-info.php:28 wp-admin/network/site-settings.php:28
-#: wp-admin/network/site-themes.php:53 wp-admin/network/site-users.php:46
+#: wp-admin/network/site-settings.php:28 wp-admin/network/site-users.php:46
+#: wp-admin/network/site-themes.php:53 wp-admin/network/site-info.php:28
 msgid "The requested site does not exist."
 msgstr "Eskatutako gunea ez da existitzen."
 
@@ -1283,6 +1646,15 @@ msgstr "Erabiltzaile berriei bidaltzen zaien ongietorri e-posta."
 msgid "Theme"
 msgstr "Itxura"
 
+#: wp-admin/network/menu.php:54
+msgid "Theme Editor"
+msgstr ""
+
+#: wp-admin/network/themes.php:304
+#, fuzzy
+msgid "Theme deleted."
+msgstr "Itxura %s ezabatu da"
+
 #: wp-admin/network/site-themes.php:200 wp-admin/network/themes.php:296
 msgid "Theme disabled."
 msgstr "Itxura ezgaitu da."
@@ -1290,6 +1662,11 @@ msgstr "Itxura ezgaitu da."
 #: wp-admin/network/site-themes.php:192 wp-admin/network/themes.php:288
 msgid "Theme enabled."
 msgstr "Itxura gaitu da."
+
+#: wp-admin/network/menu.php:50 wp-admin/network/themes.php:258
+#, fuzzy
+msgid "Themes"
+msgstr "Itxura"
 
 #: wp-admin/network/menu.php:48
 msgid "Themes %s"
@@ -1306,6 +1683,11 @@ msgstr ""
 "Editatu pantailan (Itxurak fitxa duena); zoaz bertara Gune Guztiak "
 "pantailako Editatu estekaren bitartez. Itxurak, sareko administratzaileek "
 "bakarrik instalatu eta editatu ditzakete."
+
+#: wp-admin/network/themes.php:254
+#, fuzzy
+msgid "Themes list"
+msgstr "Itxurak %s"
 
 #: wp-admin/network/themes.php:253
 msgid "Themes list navigation"
@@ -1329,6 +1711,13 @@ msgstr "Itxura hauek sareko beste gune batzuetan aktibo egon daitezke."
 #: wp-admin/includes/network.php:533
 msgid "These unique authentication keys are also missing from your %s file."
 msgstr "Autentikazio gako hauek ere falta dira %s fitxategian"
+
+#: wp-admin/network/settings.php:164
+msgid ""
+"This address is used for admin purposes. If you change this we will send you "
+"an email at your new address to confirm it. <strong>The new address will not "
+"become active until confirmed.</strong>"
+msgstr ""
 
 #: wp-admin/network/sites.php:31
 msgid ""
@@ -1426,9 +1815,35 @@ msgstr ""
 "Erabiltzaile bat bilatzeko <strong>idatzi eposta helbidea edo erabiltzaile "
 "izena</strong>.Erabili '*' karakterea bilaketa partzialak egiteko."
 
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:237
+msgid "URL"
+msgstr ""
+
 #: wp-admin/includes/class-wp-ms-sites-list-table.php:546
 msgid "Unarchive"
 msgstr "Kendu artxibotik"
+
+#: wp-admin/includes/class-wp-ms-users-list-table.php:275
+msgctxt "name"
+msgid "Unknown"
+msgstr ""
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:354
+#, fuzzy
+msgid "Update"
+msgstr "Eguneratu"
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:311
+#, fuzzy
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] "Guztiak <span class=\"count\">(%s)</span>"
+msgstr[1] "Guztiak <span class=\"count\">(%s)</span>"
+
+#: wp-admin/network/themes.php:76
+#, fuzzy
+msgid "Update Themes"
+msgstr "Eguneratu"
 
 #: wp-admin/network/index.php:27
 msgid "Update your network"
@@ -1436,6 +1851,11 @@ msgstr "Eguneratu zure sarea"
 
 #: wp-admin/network/menu.php:29
 msgid "Updates"
+msgstr "Eguneratu"
+
+#: wp-admin/network/menu.php:27
+#, fuzzy
+msgid "Updates %s"
 msgstr "Eguneratu"
 
 #: wp-admin/network/menu.php:34 wp-admin/network/upgrade.php:15
@@ -1468,6 +1888,12 @@ msgstr ""
 msgid "User accounts may be registered"
 msgstr "Erabiltzaile-kontuak erregistra daitezke"
 
+#: wp-admin/network/user-new.php:90 wp-admin/network/site-users.php:239
+#: wp-admin/network/users.php:243
+#, fuzzy
+msgid "User added."
+msgstr "Erabiltzailea sortu da."
+
 #. translators: %s: edit page url
 #: wp-admin/network/user-new.php:93
 msgid "User added. <a href=\"%s\">Edit user</a>"
@@ -1481,9 +1907,33 @@ msgstr "Ezin zara gehitua izan gune honetara."
 msgid "User created."
 msgstr "Erabiltzailea sortu da."
 
+#: wp-admin/network/users.php:231
+#, fuzzy
+msgid "User deleted."
+msgstr "Erabiltzaileak ezabatu dira."
+
 #: wp-admin/network/site-users.php:242
 msgid "User is already a member of this site."
 msgstr "Erabiltzailea dagoeneko gune honetako kide da."
+
+#: wp-admin/network/site-users.php:257
+#, fuzzy
+msgid "User removed from this site."
+msgstr "Zabor izatetik kendutako erabiltzaileak."
+
+#: wp-admin/includes/class-wp-ms-users-list-table.php:170
+#: wp-admin/network/user-new.php:125 wp-admin/network/site-users.php:305
+#: wp-admin/network/site-users.php:339
+msgid "Username"
+msgstr ""
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:240
+#: wp-admin/network/menu.php:43 wp-admin/network/users.php:32
+#: wp-admin/network/users.php:62 wp-admin/network/users.php:190
+#: wp-admin/network/users.php:252
+#, fuzzy
+msgid "Users"
+msgstr "Gehitu erabiltzailea"
 
 #: wp-admin/network/settings.php:247
 msgid ""
@@ -1495,6 +1945,16 @@ msgstr ""
 #: wp-admin/network/users.php:240
 msgid "Users deleted."
 msgstr "Erabiltzaileak ezabatu dira."
+
+#: wp-admin/network/users.php:219
+#, fuzzy
+msgid "Users list"
+msgstr "Guneko erabiltzaileen zerrenda"
+
+#: wp-admin/network/users.php:218
+#, fuzzy
+msgid "Users list navigation"
+msgstr "Gune zerrenda nabigazioa"
 
 #: wp-admin/network/users.php:234
 msgid "Users marked as spam."
@@ -1516,6 +1976,20 @@ msgstr ""
 "euren kontuak kudea ditzaten. Erabiltzaile horiek 'Aginte-panela' eta 'Nire "
 "guneak' bakarrik ikusiko dute nabigazio nagusian, eurentzat gune bat sortzen "
 "den arte. "
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:574
+msgid "Version %s"
+msgstr ""
+
+#: wp-admin/includes/class-wp-ms-users-list-table.php:363
+msgid "View"
+msgstr ""
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:562
+#: wp-admin/network/site-settings.php:94 wp-admin/network/site-users.php:226
+#: wp-admin/network/site-themes.php:179 wp-admin/network/site-info.php:136
+msgid "Visit"
+msgstr ""
 
 #. translators: %s: theme name
 #: wp-admin/includes/class-wp-ms-themes-list-table.php:580
@@ -1544,6 +2018,13 @@ msgid ""
 "Warning! User cannot be modified. The user %s is a network administrator."
 msgstr ""
 "Kontuz! User cannot be modified. The user %s is a network administrator."
+
+#: wp-admin/includes/network.php:123 wp-admin/includes/network.php:197
+#: wp-admin/includes/network.php:257 wp-admin/includes/network.php:306
+#: wp-admin/includes/network.php:319 wp-admin/includes/network.php:420
+#: wp-admin/includes/network.php:608 wp-admin/includes/network.php:650
+msgid "Warning:"
+msgstr ""
 
 #. translators: 1: wp-config.php, 2: .htaccess
 #. translators: 1: wp-config.php, 2: web.config
@@ -1603,6 +2084,18 @@ msgid ""
 msgstr ""
 "WordPress eguneratu egin da! Zure kasa jarraitu aurretik, zure sareko guneak "
 "banan-banan eguneratu behar ditugu. "
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:367
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:388
+#: wp-admin/includes/class-wp-ms-users-list-table.php:302
+msgid "Y/m/d"
+msgstr ""
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:369
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:390
+#: wp-admin/includes/class-wp-ms-users-list-table.php:304
+msgid "Y/m/d g:i:s a"
+msgstr ""
 
 #: wp-admin/network/themes.php:166
 msgid "Yes, delete these themes"
@@ -1676,6 +2169,12 @@ msgstr ""
 "Dagoeneko erabiltzaile den bati super administratzaile gehigarri bat egin "
 "diezaiokezu, 'Editatu erabiltzailea' profil-orrira joanez eta kontrol-laukia "
 "piztuz, abantaila hori emateko."
+
+#: wp-admin/network/settings.php:55
+msgid ""
+"You can set the language, and the translation files will be automatically "
+"downloaded and installed (available if your filesystem is writable)."
+msgstr ""
 
 #: wp-admin/network/users.php:203
 msgid ""

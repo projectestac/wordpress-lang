@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Themes - Twenty Sixteen\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/twentysixteen\n"
-"POT-Creation-Date: 2019-04-05 07:48:23+00:00\n"
+"POT-Creation-Date: 2019-04-11T16:48:59+02:00\n"
 "PO-Revision-Date: 2015-12-06 15:15:19+0000\n"
 "Language: eu_ES\n"
 "MIME-Version: 1.0\n"
@@ -26,7 +26,7 @@ msgctxt "Used between list items, there is a space after the comma."
 msgid ", "
 msgstr ", "
 
-#: image.php:107 single.php:31
+#: single.php:31 image.php:107
 msgctxt "Parent post link"
 msgid ""
 "<span class=\"meta-nav\">Published in</span><span class=\"post-title\">"
@@ -111,9 +111,9 @@ msgid "Default"
 msgstr "Defektuzkoa"
 
 #. translators: %s: Name of current post
-#: image.php:88 template-parts/content-page.php:39
-#: template-parts/content-search.php:28 template-parts/content-search.php:43
-#: template-parts/content-single.php:47 template-parts/content.php:53
+#: image.php:88 template-parts/content-search.php:28
+#: template-parts/content-search.php:43 template-parts/content-single.php:47
+#: template-parts/content-page.php:39 template-parts/content.php:53
 msgid "Edit<span class=\"screen-reader-text\"> \"%s\"</span>"
 msgstr "<span class=\"screen-reader-text\"> \"%s\"</span> editatu"
 
@@ -217,8 +217,8 @@ msgstr "Erantzun bat &ldquo;%s&rdquo; sarreran"
 msgid "Oops! That page can&rsquo;t be found."
 msgstr "Oops! Orri hori ezin dugu aurkitu"
 
-#: archive.php:53 image.php:62 index.php:50 search.php:41
-#: template-parts/content-page.php:28 template-parts/content-single.php:30
+#: archive.php:53 index.php:50 search.php:41 image.php:62
+#: template-parts/content-single.php:30 template-parts/content-page.php:28
 #: template-parts/content.php:40
 msgid "Page"
 msgstr "Orrialdea"
@@ -227,8 +227,8 @@ msgstr "Orrialdea"
 msgid "Page Background Color"
 msgstr "Atzeko planoko kolorea"
 
-#: image.php:58 template-parts/content-page.php:24
-#: template-parts/content-single.php:26 template-parts/content.php:36
+#: image.php:58 template-parts/content-single.php:26
+#: template-parts/content-page.php:24 template-parts/content.php:36
 msgid "Pages:"
 msgstr "Orrialdeak:"
 
@@ -253,7 +253,7 @@ msgstr "Aurreko orrialdea"
 msgid "Previous post:"
 msgstr "Aurreko sarrera:"
 
-#: functions.php:92 header.php:53
+#: header.php:53 functions.php:92
 msgid "Primary Menu"
 msgstr "Lehen mailako menua"
 
@@ -302,7 +302,7 @@ msgstr "Albo-barra"
 msgid "Skip to content"
 msgstr "Edukira joan"
 
-#: functions.php:93 header.php:66
+#: header.php:66 functions.php:93
 msgid "Social Links Menu"
 msgstr "Lotura sozialen menua"
 
@@ -317,11 +317,11 @@ msgctxt "Used before tag names."
 msgid "Tags"
 msgstr "Etiketak"
 
-#. Theme Name of the plugin/theme
+#. Theme Name of the theme
 msgid "Twenty Sixteen"
 msgstr "Twenty Sixteen"
 
-#. Description of the plugin/theme
+#. Description of the theme
 msgid ""
 "Twenty Sixteen is a modernized take on an ever-popular WordPress layout — "
 "the horizontal masthead with an optional right sidebar that works perfectly "
@@ -365,40 +365,33 @@ msgstr "Haurren menua itxi"
 msgid "expand child menu"
 msgstr "Haurren menua zabaldu"
 
-#. #-#-#-#-#  twentysixteen.pot (Twenty Sixteen 1.9)  #-#-#-#-#
-#. Author URI of the plugin/theme
+#. Author URI of the theme
 #: footer.php:60
 msgid "https://wordpress.org/"
 msgstr "https://wordpress.org/"
 
-#. Theme URI of the plugin/theme
+#. Theme URI of the theme
 msgid "https://wordpress.org/themes/twentysixteen/"
 msgstr "https://wordpress.org/themes/twentysixteen/"
 
-#. translators: If there are characters in your language that are not supported
-#. by Inconsolata, translate this to 'off'. Do not translate into your own
-#. language.
+#. translators: If there are characters in your language that are not supported by Inconsolata, translate this to 'off'. Do not translate into your own language.
 #: functions.php:327
 msgctxt "Inconsolata font: on or off"
 msgid "on"
 msgstr "on"
 
-#. translators: If there are characters in your language that are not supported
-#. by Merriweather, translate this to 'off'. Do not translate into your own
-#. language.
+#. translators: If there are characters in your language that are not supported by Merriweather, translate this to 'off'. Do not translate into your own language.
 #: functions.php:317
 msgctxt "Merriweather font: on or off"
 msgid "on"
 msgstr "on"
 
-#. translators: If there are characters in your language that are not supported
-#. by Montserrat, translate this to 'off'. Do not translate into your own
-#. language.
+#. translators: If there are characters in your language that are not supported by Montserrat, translate this to 'off'. Do not translate into your own language.
 #: functions.php:322
 msgctxt "Montserrat font: on or off"
 msgid "on"
 msgstr "on"
 
-#. Author of the plugin/theme
+#. Author of the theme
 msgid "the WordPress team"
 msgstr "WordPress taldea"

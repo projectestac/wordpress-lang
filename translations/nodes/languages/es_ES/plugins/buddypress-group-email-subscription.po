@@ -6,9 +6,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: BuddyPress Group Email Subscription 2.7.1\n"
-"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/buddypress-group-email-subscription\n"
-"POT-Creation-Date: 2019-04-05 07:48:20+00:00\n"
-"PO-Revision-Date: 2019-04-09 09:58+0200\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/buddypress-group-"
+"email-subscription\n"
+"POT-Creation-Date: 2019-04-11T16:48:12+02:00\n"
+"PO-Revision-Date: 2019-04-11 16:59+0200\n"
 "Last-Translator: Joan Sala Soler <jsala236@xtec.cat>\n"
 "Language-Team: BNG NET <webmaster@bng.net>\n"
 "Language: es_VE\n"
@@ -70,12 +71,12 @@ msgstr ""
 #: legacy-forums.php:91
 #, fuzzy
 msgid "%s replied to the forum topic \"%s\" in the group \"%s\""
-msgstr "% S ha respondido al tema del foro \"% s\" al nodo \"% s\""
+msgstr "%1$s ha respondido al debate %2$s en el foro %3$s"
 
 #: legacy-forums.php:80
 #, fuzzy
 msgid "%s started the forum topic \"%s\" in the group \"%s\""
-msgstr "% S ha iniciado el tema del foro \"% s\" al nodo \"% s\""
+msgstr "%1$s empezó el debate %2$s en el foro %3$s"
 
 #: bp-activity-subscription-digest.php:189
 msgid "(%s items)"
@@ -84,8 +85,7 @@ msgstr "(%s unidades)"
 #: legacy-forums.php:205
 msgid ""
 ", therefore you won't receive replies to this topic. To get them, click the "
-"link to view this topic on the web then click the 'Follow this topic' "
-"button."
+"link to view this topic on the web then click the 'Follow this topic' button."
 msgstr ""
 ", por lo tanto no vas a recibir respuestas de este tema. Para obtenerlas, "
 "haz click en el enlace para ver el tema en la web y luego haz click en el "
@@ -146,8 +146,8 @@ msgid ""
 "All Email (send emails about everything - recommended only for working "
 "groups)"
 msgstr ""
-"Todo por email (enviar emails de cada actividad del grupo - recomendado para"
-" grupos de trabajo)"
+"Todo por email (enviar emails de cada actividad del grupo - recomendado para "
+"grupos de trabajo)"
 
 #: screen-admin.php:100
 msgid "All user email status's changed successfully"
@@ -168,7 +168,7 @@ msgstr ""
 "Permitir a los administradores del grupo cambiar las configuraciones de "
 "suscripción y enviar emails a cualquier miembro del grupo: "
 
-#. Description of the plugin/theme
+#. Description of the plugin
 #, fuzzy
 msgid ""
 "Allows group members to receive email notifications for group activity and "
@@ -202,7 +202,7 @@ msgstr ""
 msgid "BP Group Email Options"
 msgstr "Opciones de Email de Grupos"
 
-#. Plugin Name of the plugin/theme
+#. Plugin Name of the plugin
 msgid "BuddyPress Group Email Subscription"
 msgstr "Suscripción por correo a los nodos"
 
@@ -231,7 +231,7 @@ msgstr ""
 #: bp-activity-subscription-functions.php:1190
 #, fuzzy
 msgid "Change email settings"
-msgstr "Configuración de correo electrónico"
+msgstr "Configuración de suscripción por email del grupo"
 
 #: bp-activity-subscription-functions.php:1165
 msgid "Change group email Settings"
@@ -253,12 +253,12 @@ msgstr "Completada!"
 #: bp-activity-subscription-functions.php:2027
 #, fuzzy
 msgid "Continue to %s"
-msgstr "Continúa hacia% s"
+msgstr "Continuar"
 
 #: admin.php:171
 #, fuzzy
 msgid "Create database tables"
-msgstr "Crea las tablas de la base de datos"
+msgstr "Tablas de base de datos"
 
 #: bp-activity-subscription-digest.php:396
 msgid "DAILY DIGEST:"
@@ -284,7 +284,7 @@ msgstr ""
 "Resumen diario (toda la actividad del día en un único email - recomendado "
 "para grupos medianos)"
 
-#. Author of the plugin/theme
+#. Author of the plugin
 msgid "Deryk Wenaus, boonebgorges, r-a-y"
 msgstr "Deryk Wenaus, boonebgorges, r-a-y"
 
@@ -313,8 +313,8 @@ msgstr ""
 msgid "Email"
 msgstr "Email"
 
-#: templates/groups/single/admin/ges-email-notice.php:20
 #: templates/groups/single/admin/ges-welcome-email.php:20
+#: templates/groups/single/admin/ges-email-notice.php:20
 msgid "Email Content:"
 msgstr "Contenido del email:"
 
@@ -322,8 +322,8 @@ msgstr "Contenido del email:"
 msgid "Email Options"
 msgstr "Opciones email"
 
-#: templates/groups/single/admin/ges-email-notice.php:15
 #: templates/groups/single/admin/ges-welcome-email.php:15
+#: templates/groups/single/admin/ges-email-notice.php:15
 msgid "Email Subject:"
 msgstr "Asunto del email:"
 
@@ -351,11 +351,6 @@ msgstr "Activa el mensaje de bienvenida"
 msgid "Error"
 msgstr "Título de error"
 
-#: lib/wp-background-processing/classes/wp-background-process.php:425
-#, fuzzy
-msgid "Every %d Minutes"
-msgstr "Cada% d minutos"
-
 #: templates/groups/single/admin/ges-email-notice.php:12
 msgid ""
 "Everyone in the group will receive the email -- regardless of their email "
@@ -367,10 +362,6 @@ msgstr ""
 #: bp-activity-subscription-main.php:124 legacy-forums.php:380
 msgid "Follow"
 msgstr "Seguir"
-
-#: admin.php:246 admin.php:253 bp-activity-subscription-functions.php:2330
-msgid "Friday"
-msgstr "Viernes"
 
 #: screen-notifications.php:37
 msgid "Get a summary of new topics each week"
@@ -443,8 +434,8 @@ msgstr "¿Cómo deseas leer este grupo?"
 #: bp-activity-subscription-digest.php:214
 msgid ""
 "How to follow a topic: to get email updates for a specific topic, click the "
-"topic title - then on the webpage click the <i>Follow this topic</i> button."
-" (If you don't see the button you need to login first.)"
+"topic title - then on the webpage click the <i>Follow this topic</i> button. "
+"(If you don't see the button you need to login first.)"
 msgstr ""
 "Cómo seguir un tema: Para obtener actualizaciones por email de un tema "
 "específico, haz click en el título del tema. Luego en la página web haz "
@@ -487,26 +478,22 @@ msgstr "Miembro debe estar registrado mínimo"
 #: admin.php:173
 #, fuzzy
 msgid "Migrate queued items"
-msgstr "Migra los elementos encuats"
+msgstr "Migrar"
 
 #: admin.php:172
 #, fuzzy
 msgid "Migrate subscriptions"
-msgstr "Migra las suscripciones"
+msgstr "Suscripciones"
 
 #: admin.php:167
 msgid "Migration Status"
 msgstr "Estado de la migración"
 
-#: admin.php:242 admin.php:253 bp-activity-subscription-functions.php:2322
-msgid "Monday"
-msgstr "Lunes"
-
 #: bp-activity-subscription-main.php:123 legacy-forums.php:384
 msgid "Mute"
 msgstr "Silenciar"
 
-#: bp-activity-subscription-digest.php:219 screen-user-settings.php:117
+#: screen-user-settings.php:117 bp-activity-subscription-digest.php:219
 msgid "My Groups"
 msgstr "Mis Grupos"
 
@@ -521,8 +508,8 @@ msgstr "Nuevos temas"
 
 #: screen-admin.php:23
 msgid ""
-"New Topics Email (new topics are sent as they arrive, but not replies - good"
-" for small groups)"
+"New Topics Email (new topics are sent as they arrive, but not replies - good "
+"for small groups)"
 msgstr ""
 "Nuevos temas (los nuevos temas serán enviados, pero no sus respuestas - "
 "recomendado para  grupos pequeños)"
@@ -531,7 +518,6 @@ msgstr ""
 msgid "No"
 msgstr "No"
 
-#. translators: 1. Group admin link, 2. Group link, 3. Notice subject
 #: bp-activity-subscription-functions.php:1587
 #: bp-activity-subscription-functions.php:1937 screen-notifications.php:31
 #: screen.php:53
@@ -546,10 +532,9 @@ msgstr ""
 "web - recomendado para cualquier nodo)"
 
 #: bp-activity-subscription-functions.php:2106
-#: bp-activity-subscription-functions.php:2117
 #, fuzzy
 msgid "No, close"
-msgstr "No, cierra"
+msgstr "Cerrar"
 
 #: screen-user-settings.php:71 screen-user-settings.php:83
 #: screen-user-settings.php:88
@@ -581,17 +566,17 @@ msgid ""
 "Once you are logged in, click on the \"Mute this topic\" button to "
 "unsubscribe from the forum thread."
 msgstr ""
-"Una vez que haya entrado, haga clic en el botón \"silenciar este tema\" para"
-" cancelar su suscripción a este hilo de debate."
+"Una vez que haya entrado, haga clic en el botón \"silenciar este tema\" para "
+"cancelar su suscripción a este hilo de debate."
 
 #: legacy-forums.php:276
 #, fuzzy
 msgid ""
-"Once you are logged in, uncheck \"A member replies after you in a forum "
-"topic\"."
+"Once you are logged in, uncheck \"A member replies after you in a forum topic"
+"\"."
 msgstr ""
-"Una vez que haya entrado, desmarque \"un miembro responde después de ti a un"
-" tema del foro\"."
+"Una vez que haya entrado, desmarque \"un miembro responde después de ti a un "
+"tema del foro\"."
 
 #: legacy-forums.php:262
 #, fuzzy
@@ -607,25 +592,22 @@ msgstr ""
 #: bp-activity-subscription-functions.php:1153 legacy-forums.php:194
 #, fuzzy
 msgid ""
-"Once you are logged in, uncheck \"Receive notifications of your own "
-"posts?\"."
+"Once you are logged in, uncheck \"Receive notifications of your own posts?\"."
 msgstr ""
-"Después de haber entrado, desmarque \"recibir notificaciones de los mensajes"
-" propios?\"."
+"Después de haber entrado, desmarque \"recibir notificaciones de los mensajes "
+"propios?\"."
 
 #: screen-user-settings.php:120
 #, fuzzy
 msgid "Or set all your group's email options to No Email"
-msgstr ""
-"O establezca todas las opciones de correo electrónico de su nodo en cap "
-"mensaje de correo electrónico"
+msgstr "Cambiar tus opciones de suscripción por email para este grupo"
 
 #: bp-activity-subscription-functions.php:24
 #, fuzzy
 msgid "Or to disable notifications for *all* your groups, click: %s"
 msgstr ""
-"O para deshabilitar las notificaciones de * todos * sus nodos, haga clic "
-"en:% s"
+"O para deshabilitar las notificaciones de * todos * sus nodos, haga clic en:"
+"% s"
 
 #: admin.php:302
 #, fuzzy
@@ -635,25 +617,20 @@ msgstr "Por favor haga una donación al equipo que la desarrolla."
 #: bp-activity-subscription-functions.php:705 screen-admin.php:180
 #, fuzzy
 msgid ""
-"Please note: admin notices are sent to everyone in the group and cannot be disabled.\n"
-"If you feel this service is being misused please speak to the website administrator."
+"Please note: admin notices are sent to everyone in the group and cannot be "
+"disabled.\n"
+"If you feel this service is being misused please speak to the website "
+"administrator."
 msgstr ""
-"Aviso: las notificaciones del administrador / a se envían a todos los miembros del nodo y no se pueden desactivar.\n"
-"si cree que está haciendo un mal uso del servicio, contacta con el administradores del sitio web."
-
-#: bp-activity-subscription-functions.php:1285
-#, fuzzy
-msgid "Posted a Group Notice"
-msgstr "Ha publicado un aviso al nodo"
+"Aviso: las notificaciones del administrador / a se envían a todos los "
+"miembros del nodo y no se pueden desactivar.\n"
+"si cree que está haciendo un mal uso del servicio, contacta con el "
+"administradores del sitio web."
 
 #: screen-user-settings.php:79
 #, fuzzy
 msgid "Receive notifications of your own posts?"
 msgstr "Desea recibir notificaciones de sus artículos?"
-
-#: admin.php:247 admin.php:253 bp-activity-subscription-functions.php:2332
-msgid "Saturday"
-msgstr "Sábado"
 
 #: templates/groups/single/admin/ges-welcome-email.php:25
 msgid "Save"
@@ -692,8 +669,8 @@ msgid ""
 "Site Admin Only: update email subscription settings for ALL members to the "
 "default:"
 msgstr ""
-"Sólo administradores: Actualizar configuración predeterminada de suscripción"
-" por emails para TODOS los miembros:"
+"Sólo administradores: Actualizar configuración predeterminada de suscripción "
+"por emails para TODOS los miembros:"
 
 #: admin.php:528
 #, fuzzy
@@ -716,10 +693,6 @@ msgstr ""
 #: admin.php:279
 msgid "Spam Prevention"
 msgstr "Prevención SPAM"
-
-#: admin.php:248 admin.php:253 bp-activity-subscription-functions.php:2334
-msgid "Sunday"
-msgstr "Domingo"
 
 #: screen-admin.php:148
 #, fuzzy
@@ -779,9 +752,11 @@ msgid ""
 "\n"
 "----\n"
 "\n"
-"Please note: admin notices are sent to everyone in the group and cannot be disabled.\n"
+"Please note: admin notices are sent to everyone in the group and cannot be "
+"disabled.\n"
 "\n"
-"If you feel this service is being misused please speak to the website administrator.\n"
+"If you feel this service is being misused please speak to the website "
+"administrator.\n"
 "\n"
 "To visit the group homepage, click on the link below:\n"
 "{{{group.url}}}"
@@ -792,9 +767,11 @@ msgstr ""
 "\n"
 "----\n"
 "\n"
-"tenga en cuenta: las notificaciones de administración se envían a todo el mundo del nodo y no se pueden desactivar.\n"
+"tenga en cuenta: las notificaciones de administración se envían a todo el "
+"mundo del nodo y no se pueden desactivar.\n"
 "\n"
-"si cree que el servicio se está utilizando mal contacto con el administrador del sitio web.\n"
+"si cree que el servicio se está utilizando mal contacto con el administrador "
+"del sitio web.\n"
 "\n"
 "visita la página de inicio del nodo en este enlace:\n"
 "{{{group.url}}}"
@@ -830,16 +807,20 @@ msgid ""
 "{{{usermessage}}}\n"
 "\n"
 "&ndash;\n"
-"<strong>Please note:</strong> admin notices are sent to everyone in the group and cannot be disabled.\n"
-"If you feel this service is being misused please speak to the website administrator."
+"<strong>Please note:</strong> admin notices are sent to everyone in the "
+"group and cannot be disabled.\n"
+"If you feel this service is being misused please speak to the website "
+"administrator."
 msgstr ""
 "Esta es una notificación del grupo {{{group.link}}}:\n"
 "\n"
 "{{{usermessage}}}\n"
 "\n"
 "& ndash;\n"
-"<strong> tenga en cuenta: </ strong> las notificaciones de administración se envían a todo el mundo del nodo y no se pueden desactivar.\n"
-"si cree que el servicio se está utilizando mal contacto con el administrador del sitio web."
+"<strong> tenga en cuenta: </ strong> las notificaciones de administración se "
+"envían a todo el mundo del nodo y no se pueden desactivar.\n"
+"si cree que el servicio se está utilizando mal contacto con el administrador "
+"del sitio web."
 
 #: bp-activity-subscription-functions.php:2284
 msgid "This post has attachments:"
@@ -849,10 +830,6 @@ msgstr "La entrada contiene archivos adjuntos:"
 #, fuzzy
 msgid "This user's has been unsubscribed from all groups notifications."
 msgstr "Se ha cancelado la suscripción de este usuario a todos los nodos."
-
-#: admin.php:245 admin.php:253 bp-activity-subscription-functions.php:2328
-msgid "Thursday"
-msgstr "Jueves"
 
 #: screen-user-settings.php:117
 #, fuzzy
@@ -870,8 +847,8 @@ msgstr ""
 msgid ""
 "To change your email setting for this group, please log in and go to: %s"
 msgstr ""
-"Para cambiar la configuración de correo electrónico para este nodo, entrad y"
-" vaya a:% s"
+"Para cambiar la configuración de correo electrónico para este nodo, entrad y "
+"vaya a:% s"
 
 #: bp-activity-subscription-functions.php:1164
 #, fuzzy
@@ -905,7 +882,8 @@ msgstr ""
 #: bp-activity-subscription-digest.php:467
 #, fuzzy
 msgid "To disable these notifications for this group click "
-msgstr "Para deshabilitar las notificaciones de este nodo haga clic"
+msgstr ""
+"Para desabilitar estas notificaciones por favor indentifícate y visita a: %s"
 
 #: bp-activity-subscription-digest.php:219
 #, fuzzy
@@ -913,8 +891,8 @@ msgid ""
 "To disable these notifications per group please login and go to: %s where "
 "you can change your email settings for each group."
 msgstr ""
-"Para deshabilitar las notificaciones para un nodo, entrad y vaya a:% s donde"
-" podrá cambiar sus preferencias para cada uno de los nodos."
+"Para deshabilitar las notificaciones para un nodo, entrad y vaya a:% s donde "
+"podrá cambiar sus preferencias para cada uno de los nodos."
 
 #: bp-activity-subscription-functions.php:463
 #: bp-activity-subscription-functions.php:662 legacy-forums.php:193
@@ -926,27 +904,23 @@ msgstr ""
 #: admin.php:280
 msgid ""
 "To help protect against spam, you may wish to require a user to have been a "
-"member of the site for a certain amount of days before any group updates are"
-" emailed to the other group members. This is disabled by default."
+"member of the site for a certain amount of days before any group updates are "
+"emailed to the other group members. This is disabled by default."
 msgstr ""
 "Para ayudar a proteger contra el SPAM, puedes requerir que un miembro haya "
 "sido miembro una cantidad determinada de días antes de que sus "
-"actualizaciones sean enviadas vía email a los demás miembros del grupo. Esta"
-" opción está deshabilitada de manera predeterminada."
+"actualizaciones sean enviadas vía email a los demás miembros del grupo. Esta "
+"opción está deshabilitada de manera predeterminada."
 
 #: legacy-forums.php:116
 #, fuzzy
 msgid "To view or reply to this topic, go to:"
-msgstr "Para ver o responder este tema, vaya a:"
+msgstr "Respuesta creada. <a href=\"%s\">Ver debate</a>"
 
 #: legacy-forums.php:120
 #, fuzzy
 msgid "To view or reply to this topic, log in and go to:"
 msgstr "Para ver o responder este tema, entrad y vaya a:"
-
-#: admin.php:243 admin.php:253 bp-activity-subscription-functions.php:2324
-msgid "Tuesday"
-msgstr "Martes"
 
 #: bp-activity-subscription-functions.php:2093
 msgid "Unsubscribe"
@@ -975,12 +949,12 @@ msgstr "Ver"
 #: admin.php:217
 msgid ""
 "View queued digest items</a></b> (in new window)<br>As admin, you can see "
-"what is currently in the email queue by adding ?sum=1 to your url. This will"
-" not fire the digest, it will just show you what is waiting to be sent."
+"what is currently in the email queue by adding ?sum=1 to your url. This will "
+"not fire the digest, it will just show you what is waiting to be sent."
 msgstr ""
 "Ver resúmenes en la cola</a></b> (en nueva ventana)<br>Como administrador, "
-"puedes ver lo que está actualmente en la cola de envío con sólo agregar "
-"?sum=1 a su url. Esto no enviará el resumen, sólo mostrará lo que está "
+"puedes ver lo que está actualmente en la cola de envío con sólo agregar ?"
+"sum=1 a su url. Esto no enviará el resumen, sólo mostrará lo que está "
 "próximo a ser enviado."
 
 #: admin.php:532
@@ -1001,10 +975,6 @@ msgstr "Advertencia: Acción no reversible así que úsala con cuidado."
 #, fuzzy
 msgid "We can try to finish the migration at this time."
 msgstr "Podemos intentar terminar la migración en este momento."
-
-#: admin.php:244 admin.php:253 bp-activity-subscription-functions.php:2326
-msgid "Wednesday"
-msgstr "Miércoles"
 
 #: bp-activity-subscription-functions.php:1938
 msgid "Weekly"
@@ -1061,8 +1031,7 @@ msgstr "¿está recibiendo notificaciones de sus envíos."
 #: legacy-forums.php:274
 #, fuzzy
 msgid ""
-"You are currently receiving notifications to topics that you have replied "
-"in."
+"You are currently receiving notifications to topics that you have replied in."
 msgstr "¿está recibiendo notificaciones a los temas que ha respondido."
 
 #: legacy-forums.php:260
@@ -1116,8 +1085,7 @@ msgstr "Tu resumen diario de la actividad del grupo"
 #: screen-notifications.php:88
 msgid "Your email notifications are set to %s for this group."
 msgstr ""
-"Tu configuración de notificaciones se ha establecido como %s para este "
-"grupo."
+"Tu configuración de notificaciones se ha establecido como %s para este grupo."
 
 #: legacy-forums.php:201 legacy-forums.php:232
 msgid "Your email setting for this group is: "
@@ -1164,7 +1132,8 @@ msgstr "[{{{site.name}}}] {{{ges.subject}}}"
 #. translators: do not remove {} brackets or translate its contents.
 #: bp-activity-subscription-functions.php:945
 #, fuzzy
-msgid "[{{{site.name}}}] {{{ges.subject}}} - from the group \"{{{group.name}}}\""
+msgid ""
+"[{{{site.name}}}] {{{ges.subject}}} - from the group \"{{{group.name}}}\""
 msgstr "[{{{Site.name}}}] {{{ges.subject}}} - del nodo \"{{{group.name}}}\""
 
 #: bp-activity-subscription-digest.php:148
@@ -1199,7 +1168,7 @@ msgstr "notificaciones por email"
 msgid "email options"
 msgstr "opciones de email"
 
-#. Plugin URI of the plugin/theme
+#. Plugin URI of the plugin
 #, fuzzy
 msgid ""
 "http://wordpress.org/extend/plugins/buddypress-group-email-subscription/"
@@ -1221,7 +1190,7 @@ msgstr "este tema"
 #: bp-activity-subscription-digest.php:467
 #, fuzzy
 msgid "unsubscribe"
-msgstr "daos de baja"
+msgstr "Anular suscripción"
 
 #: admin.php:260 admin.php:269 admin.php:274
 msgid "yes"
@@ -1265,14 +1234,16 @@ msgid ""
 "\n"
 "<blockquote>{{{usermessage}}}</blockquote>\n"
 "&ndash;\n"
-"<a href=\"{{{thread.url}}}\">Go to the discussion</a> to reply or catch up on the conversation.\n"
+"<a href=\"{{{thread.url}}}\">Go to the discussion</a> to reply or catch up "
+"on the conversation.\n"
 "{{{ges.email-setting-description}}}"
 msgstr ""
 "{{{Ges.action}}}:\n"
 "\n"
 "<Blockquote> {{{usermessage}}} </ blockquote>\n"
 "& Ndash;\n"
-"<a href=\"{{{thread.url}}}\"> Ir a la discusión </a> para responder o ponerse al día de la conversación.\n"
+"<a href=\"{{{thread.url}}}\"> Ir a la discusión </a> para responder o "
+"ponerse al día de la conversación.\n"
 "{{{Ges.email-setting-description}}}"
 
 #. translators: do not remove {} brackets or translate its contents.
@@ -1285,9 +1256,12 @@ msgid ""
 "\n"
 "----\n"
 "\n"
-"You have received this message because you are subscribed to receive a digest of activity in some of your groups on {{{site.name}}}.\n"
+"You have received this message because you are subscribed to receive a "
+"digest of activity in some of your groups on {{{site.name}}}.\n"
 "\n"
-"To disable these notifications per group, please login and [visit your groups page]({{{ges.settings-link}}}) where you can manage your email settings for each group."
+"To disable these notifications per group, please login and [visit your "
+"groups page]({{{ges.settings-link}}}) where you can manage your email "
+"settings for each group."
 msgstr ""
 "{{{Ges.digest-summary}}}\n"
 "\n"
@@ -1295,17 +1269,22 @@ msgstr ""
 "\n"
 "----\n"
 "\n"
-"Ha recibido este mensaje porque está suscrito para recibir el resumen de la actividad en alguno de sus grupos en {{{site.name}}}.\n"
+"Ha recibido este mensaje porque está suscrito para recibir el resumen de la "
+"actividad en alguno de sus grupos en {{{site.name}}}.\n"
 "\n"
-"Para desactivar estas notificaciones por grupo, inicie sesión y [visite la página de sus grupos] ({{{ges.settings-link}}}) donde podrá gestionar la configuración de correo para cada grupo."
+"Para desactivar estas notificaciones por grupo, inicie sesión y [visite la "
+"página de sus grupos] ({{{ges.settings-link}}}) donde podrá gestionar la "
+"configuración de correo para cada grupo."
 
 #. translators: do not remove {} brackets or translate its contents.
 #: bp-activity-subscription-functions.php:933
 msgid ""
 "{{{ges.digest-summary}}}{{{usermessage}}}\n"
 "&ndash;\n"
-"You have received this message because you are subscribed to receive a digest of activity in some of your groups on {{site.name}}."
+"You have received this message because you are subscribed to receive a "
+"digest of activity in some of your groups on {{site.name}}."
 msgstr ""
 "{{{ges.digest-summary}}}{{{usermessage}}}\n"
 "&ndash;\n"
-"Has recibido este mensaje porque estás suscrito a recibir un resumen de la actividad de algunos de tus grupos en {{site.name}}."
+"Has recibido este mensaje porque estás suscrito a recibir un resumen de la "
+"actividad de algunos de tus grupos en {{site.name}}."

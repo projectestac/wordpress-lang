@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: BuddyPress Group Email Subscription\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/buddypress-group-"
 "email-subscription\n"
-"POT-Creation-Date: 2019-04-05 07:48:20+00:00\n"
+"POT-Creation-Date: 2019-04-11T16:48:12+02:00\n"
 "PO-Revision-Date: 2018-07-13 16:39+0200\n"
 "Last-Translator: Joan Sala Soler <jsala236@xtec.cat>\n"
 "Language-Team: \n"
@@ -179,7 +179,7 @@ msgstr ""
 "Autoriser les administrateurs du groupe de passer outre les paramètres "
 "d'abonnement et envoyer un courriel à tout le monde dans leur groupe:"
 
-#. Description of the plugin/theme
+#. Description of the plugin
 msgid ""
 "Allows group members to receive email notifications for group activity and "
 "forum posts instantly or as daily digest or weekly summary."
@@ -206,7 +206,7 @@ msgstr ""
 msgid "BP Group Email Options"
 msgstr "Options des courriels du groupe"
 
-#. Plugin Name of the plugin/theme
+#. Plugin Name of the plugin
 msgid "BuddyPress Group Email Subscription"
 msgstr ""
 
@@ -288,7 +288,7 @@ msgstr ""
 "Résumé quotidien par courriel (tous les activités quotidiennes dans un "
 "courriel - bon pour des groupes de taille moyenne)"
 
-#. Author of the plugin/theme
+#. Author of the plugin
 msgid "Deryk Wenaus, boonebgorges, r-a-y"
 msgstr ""
 
@@ -317,8 +317,8 @@ msgid "Email"
 msgstr "Courriel"
 
 # @ bp-ass
-#: templates/groups/single/admin/ges-email-notice.php:20
 #: templates/groups/single/admin/ges-welcome-email.php:20
+#: templates/groups/single/admin/ges-email-notice.php:20
 msgid "Email Content:"
 msgstr "Contenu du courriel:"
 
@@ -328,8 +328,8 @@ msgid "Email Options"
 msgstr "Options des courriels"
 
 # @ bp-ass
-#: templates/groups/single/admin/ges-email-notice.php:15
 #: templates/groups/single/admin/ges-welcome-email.php:15
+#: templates/groups/single/admin/ges-email-notice.php:15
 msgid "Email Subject:"
 msgstr "Objet du courriel:"
 
@@ -361,10 +361,6 @@ msgstr "Activer le mail de bienvenue"
 msgid "Error"
 msgstr "Erreur"
 
-#: lib/wp-background-processing/classes/wp-background-process.php:425
-msgid "Every %d Minutes"
-msgstr ""
-
 # @ bp-ass
 #: templates/groups/single/admin/ges-email-notice.php:12
 msgid ""
@@ -378,11 +374,6 @@ msgstr ""
 #: bp-activity-subscription-main.php:124 legacy-forums.php:380
 msgid "Follow"
 msgstr "Suivre"
-
-# @ default
-#: admin.php:246 admin.php:253 bp-activity-subscription-functions.php:2330
-msgid "Friday"
-msgstr "Vendredi"
 
 # @ bp-ass
 #: screen-notifications.php:37
@@ -523,18 +514,13 @@ msgstr ""
 msgid "Migration Status"
 msgstr ""
 
-# @ default
-#: admin.php:242 admin.php:253 bp-activity-subscription-functions.php:2322
-msgid "Monday"
-msgstr "Lundi"
-
 # @ bp-ass
 #: bp-activity-subscription-main.php:123 legacy-forums.php:384
 msgid "Mute"
 msgstr "Couper"
 
 # @ bp-ass
-#: bp-activity-subscription-digest.php:219 screen-user-settings.php:117
+#: screen-user-settings.php:117 bp-activity-subscription-digest.php:219
 msgid "My Groups"
 msgstr "Mes groupes"
 
@@ -564,7 +550,6 @@ msgid "No"
 msgstr "Non"
 
 # @ bp-ass
-#. translators: 1. Group admin link, 2. Group link, 3. Notice subject
 #: bp-activity-subscription-functions.php:1587
 #: bp-activity-subscription-functions.php:1937 screen-notifications.php:31
 #: screen.php:53
@@ -578,7 +563,6 @@ msgstr ""
 "groupe )"
 
 #: bp-activity-subscription-functions.php:2106
-#: bp-activity-subscription-functions.php:2117
 msgid "No, close"
 msgstr "Non, fermé"
 
@@ -671,18 +655,9 @@ msgstr ""
 "Si vous pensez que ce service est utilisé à mauvais escient s'il vous plaît "
 "parler à l'administrateur du site ."
 
-#: bp-activity-subscription-functions.php:1285
-msgid "Posted a Group Notice"
-msgstr ""
-
 #: screen-user-settings.php:79
 msgid "Receive notifications of your own posts?"
 msgstr "Recevoir des notifications de vos propres messages ?"
-
-# @ default
-#: admin.php:247 admin.php:253 bp-activity-subscription-functions.php:2332
-msgid "Saturday"
-msgstr "Samedi"
 
 #: templates/groups/single/admin/ges-welcome-email.php:25
 msgid "Save"
@@ -749,11 +724,6 @@ msgstr ""
 #: admin.php:279
 msgid "Spam Prevention"
 msgstr "Prévention des pourriels"
-
-# @ default
-#: admin.php:248 admin.php:253 bp-activity-subscription-functions.php:2334
-msgid "Sunday"
-msgstr "Dimanche"
 
 #: screen-admin.php:148
 #, fuzzy
@@ -875,11 +845,6 @@ msgid "This user's has been unsubscribed from all groups notifications."
 msgstr ""
 "Cet utilisateur a été de désabonné de toutes les notifications de groupes "
 
-# @ default
-#: admin.php:245 admin.php:253 bp-activity-subscription-functions.php:2328
-msgid "Thursday"
-msgstr "Jeudi"
-
 #: screen-user-settings.php:117
 msgid ""
 "To change the email notification settings for your groups, go to %s and "
@@ -966,11 +931,6 @@ msgstr "Pour voir ou répondre à l'annonce, aller sur:"
 msgid "To view or reply to this topic, log in and go to:"
 msgstr "Pour voir ou répondre à l'annonce, connectez vous et aller sur:"
 
-# @ default
-#: admin.php:243 admin.php:253 bp-activity-subscription-functions.php:2324
-msgid "Tuesday"
-msgstr "Mardi"
-
 #: bp-activity-subscription-functions.php:2093
 msgid "Unsubscribe"
 msgstr "Se désabonner"
@@ -1029,11 +989,6 @@ msgstr "Attention: ce n'est pas réversible,  à utiliser avec prudence."
 #: admin.php:183
 msgid "We can try to finish the migration at this time."
 msgstr ""
-
-# @ default
-#: admin.php:244 admin.php:253 bp-activity-subscription-functions.php:2326
-msgid "Wednesday"
-msgstr "Mercredi"
 
 # @ bp-ass
 #: bp-activity-subscription-functions.php:1938
@@ -1251,7 +1206,7 @@ msgstr "des notifications par courriel"
 msgid "email options"
 msgstr "les options de messagerie"
 
-#. Plugin URI of the plugin/theme
+#. Plugin URI of the plugin
 msgid ""
 "http://wordpress.org/extend/plugins/buddypress-group-email-subscription/"
 msgstr ""

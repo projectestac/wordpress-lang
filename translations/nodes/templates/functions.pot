@@ -1,16 +1,33 @@
-# Copyright (C) 2019 {package-name}
-# This file is distributed under the same license as the {package-name} package.
+# Copyright (C) 2019 Àrea TAC - Departament d'Ensenyament de Catalunya
+# This file is distributed under the same license as the CommonFunctions plugin.
 msgid ""
 msgstr ""
-"Project-Id-Version:  \n"
-"Report-Msgid-Bugs-To: https://make.wordpress.org/polyglots/\n"
-"POT-Creation-Date: 2019-04-05 07:48:19+00:00\n"
+"Project-Id-Version: CommonFunctions 1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/mu-plugins\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2019-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2019-04-11T16:48:07+02:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.1.0\n"
+
+#. Plugin Name of the plugin
+msgid "CommonFunctions"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://github.com/projectestac/agora_nodes"
+msgstr ""
+
+#. Description of the plugin
+msgid "A pluggin to include common functions which affects to all themes"
+msgstr ""
+
+#. Author of the plugin
+msgid "Àrea TAC - Departament d'Ensenyament de Catalunya"
+msgstr ""
 
 #: agora-functions.php:27
 msgid "My Articles"
@@ -56,7 +73,9 @@ msgstr ""
 msgid "Page name is required."
 msgstr ""
 
-#: agora-functions.php:383 common/lib.php:338 common/lib.php:356
+#: agora-functions.php:383
+#: common/lib.php:338
+#: common/lib.php:356
 msgid "You do not have permission to do that."
 msgstr ""
 
@@ -148,7 +167,9 @@ msgstr ""
 msgid "Teacher"
 msgstr ""
 
-#: agora-functions.php:904 agora-functions.php:939 agora-functions.php:969
+#: agora-functions.php:904
+#: agora-functions.php:939
+#: agora-functions.php:969
 #: agora-functions.php:1001
 msgid "Select name to teacher's node"
 msgstr ""
@@ -165,7 +186,8 @@ msgstr ""
 msgid "Teacher's group"
 msgstr ""
 
-#: agora-functions.php:1050 agora-functions.php:1052
+#: agora-functions.php:1050
+#: agora-functions.php:1052
 msgid "Exporter schedule"
 msgstr ""
 
@@ -181,7 +203,8 @@ msgstr ""
 msgid "Developed by: Felix Tejero"
 msgstr ""
 
-#: agora-functions.php:1066 agora-functions.php:1068
+#: agora-functions.php:1066
+#: agora-functions.php:1068
 msgid "Calendar manager"
 msgstr ""
 
@@ -197,7 +220,8 @@ msgstr ""
 msgid "Developed by: Pepi Garrote"
 msgstr ""
 
-#: agora-functions.php:1467 agora-functions.php:1487
+#: agora-functions.php:1467
+#: agora-functions.php:1487
 msgid "Report to administrators"
 msgstr ""
 
@@ -217,7 +241,8 @@ msgstr ""
 msgid "posted on"
 msgstr ""
 
-#: agora-functions.php:1581 agora-functions.php:1613
+#: agora-functions.php:1581
+#: agora-functions.php:1613
 msgid "See it in its context"
 msgstr ""
 
@@ -249,11 +274,13 @@ msgstr ""
 msgid "Clica a 'Llegeix més' per carregar el contingut de l'article."
 msgstr ""
 
-#: common/lib.php:171 common/lib.php:186
+#: common/lib.php:171
+#: common/lib.php:186
 msgid "Image files must be smaller than "
 msgstr ""
 
-#: common/lib.php:171 common/lib.php:186
+#: common/lib.php:171
+#: common/lib.php:186
 msgid "Recommended width image:"
 msgstr ""
 
@@ -286,11 +313,13 @@ msgstr ""
 msgid "Posts order"
 msgstr ""
 
-#: common/lib.php:878 common/lib.php:980
+#: common/lib.php:878
+#: common/lib.php:980
 msgid "Newest first"
 msgstr ""
 
-#: common/lib.php:879 common/lib.php:981
+#: common/lib.php:879
+#: common/lib.php:981
 msgid "Oldest first"
 msgstr ""
 

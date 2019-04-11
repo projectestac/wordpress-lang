@@ -2,374 +2,257 @@
 # This file is distributed under the same license as the Themes - Twenty Fifteen package.
 msgid ""
 msgstr ""
+"Project-Id-Version: Themes - Twenty Fifteen\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11T16:48:58+02:00\n"
 "PO-Revision-Date: 2015-08-18 16:52:11+0000\n"
+"Language: oc_FR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: GlotPress/2.4.0-alpha\n"
-"Language: oc_FR\n"
-"Project-Id-Version: Themes - Twenty Fifteen\n"
-
-#. translators: 1: number of comments, 2: post title
-#: comments.php:35
-msgctxt "comments title"
-msgid "%1$s thought on &ldquo;%2$s&rdquo;"
-msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
-msgstr[0] ""
-msgstr[1] ""
-
-#: inc/template-tags.php:95 inc/template-tags.php:104
-msgctxt "Used between list items, there is a space after the comma."
-msgid ", "
-msgstr ", "
-
-#: image.php:88
-msgctxt "Parent post link"
-msgid ""
-"<span class=\"meta-nav\">Published in</span><span class=\"post-title\">"
-"%title</span>"
-msgstr ""
-"<span class=\"meta-nav\">Publicat dins</span><span class=\"post-title\">"
-"%title</span>"
-
-#: functions.php:268
-msgid "Add widgets here to appear in your sidebar."
-msgstr ""
-"Apondètz de widgets aicí per los far aparéisser dins vòstra barra laterala."
-
-#: inc/customizer.php:79 inc/customizer.php:104 inc/customizer.php:111
-msgid "Applied to the header on small screens and the sidebar on wide screens."
-msgstr ""
-"Aplicat a l'entèsta suls ecrans pichons, e a la barra laterala suls grands "
-"ecrans."
-
-#: inc/template-tags.php:89
-msgctxt "Used before post author name."
-msgid "Author"
-msgstr "Autor"
-
-#: inc/customizer.php:55
-msgid "Base Color Scheme"
-msgstr "Jòc de colors de basa"
-
-#: inc/customizer.php:237
-msgid "Blue"
-msgstr "Blau"
-
-#: functions.php:233
-msgid "Blue Gray"
-msgstr ""
-
-#: functions.php:238
-msgid "Bright Blue"
-msgstr ""
-
-#: inc/template-tags.php:99
-msgctxt "Used before category names."
-msgid "Categories"
-msgstr "Categorias"
-
-#: inc/template-tags.php:23
-msgid "Comment navigation"
-msgstr "Navigacion dels comentaris"
-
-#: comments.php:71
-msgid "Comments are closed."
-msgstr "Los comentaris son tampats."
-
-#. translators: %s: Name of current post
-#: content.php:34 inc/template-tags.php:249 content-link.php:32
-msgid "Continue reading %s"
-msgstr "Contunhar la lectura de %s "
-
-#: inc/customizer.php:193
-msgid "Dark"
-msgstr "Sombre"
-
-#: functions.php:208
-msgid "Dark Brown"
-msgstr ""
-
-#: functions.php:188
-msgid "Dark Gray"
-msgstr ""
-
-#: functions.php:223
-msgid "Dark Purple"
-msgstr ""
-
-#: inc/customizer.php:182
-msgid "Default"
-msgstr "Valor per defaut"
-
-#: content-page.php:37 content.php:61 content-search.php:28
-#: content-search.php:33 image.php:74 content-link.php:60
-msgid "Edit"
-msgstr "Editar"
-
-#: inc/template-tags.php:49
-msgid "Featured"
-msgstr "Mesa en avant"
-
-#: inc/template-tags.php:56
-msgctxt "Used before post format."
-msgid "Format"
-msgstr "Format"
-
-#: inc/template-tags.php:120
-msgctxt "Used before full size attachment link."
-msgid "Full size"
-msgstr "Talha completa"
-
-#: inc/customizer.php:103
-msgid "Header and Sidebar Background Color"
-msgstr "Color de fons de l'entèsta e de la barra laterala"
-
-#: inc/customizer.php:78
-msgid "Header and Sidebar Text Color"
-msgstr "Color del tèxte de l'entèsta e de la barra laterala"
-
-#: 404.php:21
-msgid "It looks like nothing was found at this location. Maybe try a search?"
-msgstr ""
-"Aparentament, res es pas estat trobat a aquesta adreça. Ensajatz amb una "
-"recèrca&nbsp;? "
-
-#: content-none.php:31
-msgid ""
-"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
-"searching can help."
-msgstr ""
-"Sembla que siam pas en mesura de trobar vòstre contengut. Ensajatz en aviant "
-"una recèrca."
-
-#. translators: %s: post title
-#: inc/template-tags.php:130
-msgid "Leave a comment<span class=\"screen-reader-text\"> on %s</span>"
-msgstr "Daissatz un comentari<span class=\"screen-reader-text\"> sus %s</span>"
-
-#: functions.php:243
-msgid "Light Blue"
-msgstr ""
-
-#: functions.php:193
-msgid "Light Gray"
-msgstr ""
-
-#: functions.php:218
-msgid "Light Pink"
-msgstr ""
-
-#: functions.php:213
-msgid "Medium Pink"
-msgstr ""
-
-#: header.php:49
-msgid "Menu and widgets"
-msgstr "Menú e widgets"
-
-#: inc/template-tags.php:30
-msgid "Newer Comments"
-msgstr "Comentaris mai recents"
-
-#: single.php:35
-msgid "Next"
-msgstr "Seguent"
-
-#: image.php:25
-msgid "Next Image"
-msgstr "Imatge seguent"
-
-#: search.php:42 archive.php:52 index.php:49
-msgid "Next page"
-msgstr "Pagina seguenta"
-
-#: single.php:36
-msgid "Next post:"
-msgstr "Article seguent&nbsp;: "
-
-#: content-none.php:15
-msgid "Nothing Found"
-msgstr "Res es pas estat trobat"
-
-#: inc/template-tags.php:26
-msgid "Older Comments"
-msgstr "Comentaris mai ancians"
-
-#. translators: %s: post title
-#: comments.php:31
-msgctxt "comments title"
-msgid "One thought on &ldquo;%s&rdquo;"
-msgstr ""
-
-#: 404.php:17
-msgid "Oops! That page can&rsquo;t be found."
-msgstr "Ops&nbsp;! Aquesta pagina es introbabla."
-
-#. Description of the theme
-msgid ""
-"Our 2015 default theme is clean, blog-focused, and designed for clarity. "
-"Twenty Fifteen's simple, straightforward typography is readable on a wide "
-"variety of screen sizes, and suitable for multiple languages. We designed it "
-"using a mobile-first approach, meaning your content takes center-stage, "
-"regardless of whether your visitors arrive by smartphone, tablet, laptop, or "
-"desktop computer."
-msgstr ""
-"Nòstre tèma per defaut per 2015 es pur, centrat sul blog e concebut per "
-"èsser clar. La tipografia simpla e dirècta de Twenty Fifteen es legibla sus "
-"una granda varietat de talhas d'ecrans, e adaptada a fòrça lengas. L'avèm "
-"concebut amb lo metòde \"lo mobil abans tot\", aquò significa que vòstre "
-"contengut a una plaça centrala, pauc impòrta se lo visitor utiliza un "
-"telefòn, una tauleta, un ordenador portable o un ordenador de burèu."
-
-#: content-page.php:30 content.php:45 image.php:65 search.php:43 archive.php:53
-#: index.php:50 content-link.php:43
-msgid "Page"
-msgstr "Pagina"
-
-#: content-page.php:26 content.php:41 image.php:61 content-link.php:39
-msgid "Pages:"
-msgstr "Paginas&nbsp;:"
-
-#: inc/customizer.php:215
-msgid "Pink"
-msgstr "Ròse"
-
-#: inc/template-tags.php:79
-msgctxt "Used before publish date."
-msgid "Posted on"
-msgstr "Publicat lo"
-
-#: single.php:38
-msgid "Previous"
-msgstr "Precedent"
-
-#: image.php:25
-msgid "Previous Image"
-msgstr "Imatge precedent"
-
-#: search.php:41 archive.php:51 index.php:48
-msgid "Previous page"
-msgstr "Pagina precedenta"
-
-#: single.php:39
-msgid "Previous post:"
-msgstr "Article precedent&nbsp;: "
-
-#: functions.php:86
-msgid "Primary Menu"
-msgstr "Menú principal"
-
-#: footer.php:31
-msgid "Proudly powered by %s"
-msgstr "Fièrament propulsat per %s"
-
-#: author-bio.php:12
-msgid "Published by"
-msgstr "Publicat per"
-
-#: functions.php:228 inc/customizer.php:226
-msgid "Purple"
-msgstr "Violet"
-
-#: content-none.php:22
-msgid ""
-"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
-msgstr ""
-"Prèst per publicar vòstre primièr article&nbsp;? <a href=\"%1$s\">Lançatz-"
-"vos</a>&nbsp;!"
-
-#: search.php:18
-msgid "Search Results for: %s"
-msgstr "Resultats de recèrca per %s"
-
-#: header.php:26
-msgid "Skip to content"
-msgstr "Anar al contengut principal"
-
-#: functions.php:87
-msgid "Social Links Menu"
-msgstr "Menú dels ligams de rets socialas "
-
-#: content-none.php:26
-msgid ""
-"Sorry, but nothing matched your search terms. Please try again with some "
-"different keywords."
-msgstr ""
-"Oplanhèm, mas res correspond a vòstra recèrca. Reensajatz amb de mots "
-"diferents."
-
-#: inc/template-tags.php:108
-msgctxt "Used before tag names."
-msgid "Tags"
-msgstr "Mots claus"
-
-#. Theme Name of the theme
-msgid "Twenty Fifteen"
-msgstr "Twenty Fifteen"
-
-#: inc/back-compat.php:37 inc/back-compat.php:48 inc/back-compat.php:64
-msgid ""
-"Twenty Fifteen requires at least WordPress version 4.1. You are running "
-"version %s. Please upgrade and try again."
-msgstr ""
-"Twenty Fifteen foncionapas qu'a partir de WordPress 4.1. Utilizatz la "
-"version %s. Metètz a jorn e ensajatz tornarmai."
-
-#: author-bio.php:34
-msgid "View all posts by %s"
-msgstr "Afichar totes los articles per %s"
-
-#: functions.php:198
-msgid "White"
-msgstr ""
-
-#: functions.php:266
-msgid "Widget Area"
-msgstr "Zòna de widgets"
-
-#: functions.php:203 inc/customizer.php:204
-msgid "Yellow"
-msgstr "Jaune"
-
-#: functions.php:399
-msgid "collapse child menu"
-msgstr "tampar lo sosmenú "
-
-#: functions.php:398
-msgid "expand child menu"
-msgstr "dobrir lo sosmenú"
-
-#. Author URI of the theme
-#: footer.php:30
-msgid "https://wordpress.org/"
-msgstr "https://oci.wordpress.org/"
-
-#. Theme URI of the theme
-msgid "https://wordpress.org/themes/twentyfifteen/"
-msgstr "https://wordpress.org/themes/twentyfifteen/"
-
-#: functions.php:319
-msgctxt "Add new subset (greek, cyrillic, devanagari, vietnamese)"
-msgid "no-subset"
-msgstr "no-subset"
-
-#: functions.php:311
-msgctxt "Inconsolata font: on or off"
-msgid "on"
-msgstr "on"
-
-#: functions.php:295
-msgctxt "Noto Sans font: on or off"
-msgid "on"
-msgstr "on"
-
-#: functions.php:303
-msgctxt "Noto Serif font: on or off"
-msgid "on"
-msgstr "on"
-
-#. Author of the theme
-msgid "the WordPress team"
-msgstr "L&rsquo;equipa WordPress"
+
+#~ msgctxt "Used between list items, there is a space after the comma."
+#~ msgid ", "
+#~ msgstr ", "
+
+#~ msgctxt "Parent post link"
+#~ msgid ""
+#~ "<span class=\"meta-nav\">Published in</span><span class=\"post-title\">"
+#~ "%title</span>"
+#~ msgstr ""
+#~ "<span class=\"meta-nav\">Publicat dins</span><span class=\"post-title\">"
+#~ "%title</span>"
+
+#~ msgid "Add widgets here to appear in your sidebar."
+#~ msgstr ""
+#~ "Apondètz de widgets aicí per los far aparéisser dins vòstra barra "
+#~ "laterala."
+
+#~ msgid ""
+#~ "Applied to the header on small screens and the sidebar on wide screens."
+#~ msgstr ""
+#~ "Aplicat a l'entèsta suls ecrans pichons, e a la barra laterala suls "
+#~ "grands ecrans."
+
+#~ msgctxt "Used before post author name."
+#~ msgid "Author"
+#~ msgstr "Autor"
+
+#~ msgid "Base Color Scheme"
+#~ msgstr "Jòc de colors de basa"
+
+#~ msgid "Blue"
+#~ msgstr "Blau"
+
+#~ msgctxt "Used before category names."
+#~ msgid "Categories"
+#~ msgstr "Categorias"
+
+#~ msgid "Comment navigation"
+#~ msgstr "Navigacion dels comentaris"
+
+#~ msgid "Comments are closed."
+#~ msgstr "Los comentaris son tampats."
+
+#~ msgid "Continue reading %s"
+#~ msgstr "Contunhar la lectura de %s "
+
+#~ msgid "Dark"
+#~ msgstr "Sombre"
+
+#~ msgid "Default"
+#~ msgstr "Valor per defaut"
+
+#~ msgid "Edit"
+#~ msgstr "Editar"
+
+#~ msgid "Featured"
+#~ msgstr "Mesa en avant"
+
+#~ msgctxt "Used before post format."
+#~ msgid "Format"
+#~ msgstr "Format"
+
+#~ msgctxt "Used before full size attachment link."
+#~ msgid "Full size"
+#~ msgstr "Talha completa"
+
+#~ msgid "Header and Sidebar Background Color"
+#~ msgstr "Color de fons de l'entèsta e de la barra laterala"
+
+#~ msgid "Header and Sidebar Text Color"
+#~ msgstr "Color del tèxte de l'entèsta e de la barra laterala"
+
+#~ msgid ""
+#~ "It looks like nothing was found at this location. Maybe try a search?"
+#~ msgstr ""
+#~ "Aparentament, res es pas estat trobat a aquesta adreça. Ensajatz amb una "
+#~ "recèrca&nbsp;? "
+
+#~ msgid ""
+#~ "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+#~ "searching can help."
+#~ msgstr ""
+#~ "Sembla que siam pas en mesura de trobar vòstre contengut. Ensajatz en "
+#~ "aviant una recèrca."
+
+#~ msgid "Leave a comment<span class=\"screen-reader-text\"> on %s</span>"
+#~ msgstr ""
+#~ "Daissatz un comentari<span class=\"screen-reader-text\"> sus %s</span>"
+
+#~ msgid "Menu and widgets"
+#~ msgstr "Menú e widgets"
+
+#~ msgid "Newer Comments"
+#~ msgstr "Comentaris mai recents"
+
+#~ msgid "Next"
+#~ msgstr "Seguent"
+
+#~ msgid "Next Image"
+#~ msgstr "Imatge seguent"
+
+#~ msgid "Next page"
+#~ msgstr "Pagina seguenta"
+
+#~ msgid "Next post:"
+#~ msgstr "Article seguent&nbsp;: "
+
+#~ msgid "Nothing Found"
+#~ msgstr "Res es pas estat trobat"
+
+#~ msgid "Older Comments"
+#~ msgstr "Comentaris mai ancians"
+
+#~ msgid "Oops! That page can&rsquo;t be found."
+#~ msgstr "Ops&nbsp;! Aquesta pagina es introbabla."
+
+#~ msgid ""
+#~ "Our 2015 default theme is clean, blog-focused, and designed for clarity. "
+#~ "Twenty Fifteen's simple, straightforward typography is readable on a wide "
+#~ "variety of screen sizes, and suitable for multiple languages. We designed "
+#~ "it using a mobile-first approach, meaning your content takes center-"
+#~ "stage, regardless of whether your visitors arrive by smartphone, tablet, "
+#~ "laptop, or desktop computer."
+#~ msgstr ""
+#~ "Nòstre tèma per defaut per 2015 es pur, centrat sul blog e concebut per "
+#~ "èsser clar. La tipografia simpla e dirècta de Twenty Fifteen es legibla "
+#~ "sus una granda varietat de talhas d'ecrans, e adaptada a fòrça lengas. "
+#~ "L'avèm concebut amb lo metòde \"lo mobil abans tot\", aquò significa que "
+#~ "vòstre contengut a una plaça centrala, pauc impòrta se lo visitor utiliza "
+#~ "un telefòn, una tauleta, un ordenador portable o un ordenador de burèu."
+
+#~ msgid "Page"
+#~ msgstr "Pagina"
+
+#~ msgid "Pages:"
+#~ msgstr "Paginas&nbsp;:"
+
+#~ msgid "Pink"
+#~ msgstr "Ròse"
+
+#~ msgctxt "Used before publish date."
+#~ msgid "Posted on"
+#~ msgstr "Publicat lo"
+
+#~ msgid "Previous"
+#~ msgstr "Precedent"
+
+#~ msgid "Previous Image"
+#~ msgstr "Imatge precedent"
+
+#~ msgid "Previous page"
+#~ msgstr "Pagina precedenta"
+
+#~ msgid "Previous post:"
+#~ msgstr "Article precedent&nbsp;: "
+
+#~ msgid "Primary Menu"
+#~ msgstr "Menú principal"
+
+#~ msgid "Proudly powered by %s"
+#~ msgstr "Fièrament propulsat per %s"
+
+#~ msgid "Published by"
+#~ msgstr "Publicat per"
+
+#~ msgid "Purple"
+#~ msgstr "Violet"
+
+#~ msgid ""
+#~ "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+#~ msgstr ""
+#~ "Prèst per publicar vòstre primièr article&nbsp;? <a href=\"%1$s\">Lançatz-"
+#~ "vos</a>&nbsp;!"
+
+#~ msgid "Search Results for: %s"
+#~ msgstr "Resultats de recèrca per %s"
+
+#~ msgid "Skip to content"
+#~ msgstr "Anar al contengut principal"
+
+#~ msgid "Social Links Menu"
+#~ msgstr "Menú dels ligams de rets socialas "
+
+#~ msgid ""
+#~ "Sorry, but nothing matched your search terms. Please try again with some "
+#~ "different keywords."
+#~ msgstr ""
+#~ "Oplanhèm, mas res correspond a vòstra recèrca. Reensajatz amb de mots "
+#~ "diferents."
+
+#~ msgctxt "Used before tag names."
+#~ msgid "Tags"
+#~ msgstr "Mots claus"
+
+#~ msgid "Twenty Fifteen"
+#~ msgstr "Twenty Fifteen"
+
+#~ msgid ""
+#~ "Twenty Fifteen requires at least WordPress version 4.1. You are running "
+#~ "version %s. Please upgrade and try again."
+#~ msgstr ""
+#~ "Twenty Fifteen foncionapas qu'a partir de WordPress 4.1. Utilizatz la "
+#~ "version %s. Metètz a jorn e ensajatz tornarmai."
+
+#~ msgid "View all posts by %s"
+#~ msgstr "Afichar totes los articles per %s"
+
+#~ msgid "Widget Area"
+#~ msgstr "Zòna de widgets"
+
+#~ msgid "Yellow"
+#~ msgstr "Jaune"
+
+#~ msgid "collapse child menu"
+#~ msgstr "tampar lo sosmenú "
+
+#~ msgid "expand child menu"
+#~ msgstr "dobrir lo sosmenú"
+
+#~ msgid "https://wordpress.org/"
+#~ msgstr "https://oci.wordpress.org/"
+
+#~ msgid "https://wordpress.org/themes/twentyfifteen/"
+#~ msgstr "https://wordpress.org/themes/twentyfifteen/"
+
+#~ msgctxt "Add new subset (greek, cyrillic, devanagari, vietnamese)"
+#~ msgid "no-subset"
+#~ msgstr "no-subset"
+
+#~ msgctxt "Inconsolata font: on or off"
+#~ msgid "on"
+#~ msgstr "on"
+
+#~ msgctxt "Noto Sans font: on or off"
+#~ msgid "on"
+#~ msgstr "on"
+
+#~ msgctxt "Noto Serif font: on or off"
+#~ msgid "on"
+#~ msgstr "on"
+
+#~ msgid "the WordPress team"
+#~ msgstr "L&rsquo;equipa WordPress"

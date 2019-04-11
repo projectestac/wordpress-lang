@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: Stable (latest release)\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/google-calendar-"
 "events\n"
-"POT-Creation-Date: 2019-04-05 07:48:21+00:00\n"
+"POT-Creation-Date: 2019-04-11T16:48:19+02:00\n"
 "PO-Revision-Date: 2019-04-04 17:49+0200\n"
 "Last-Translator: Joan Sala Soler <jsala236@xtec.cat>\n"
 "Language-Team: \n"
@@ -95,7 +95,7 @@ msgstr "Tema actiu"
 msgid "Add Calendar"
 msgstr "Afegeix calendari"
 
-#. Description of the plugin/theme
+#. Description of the plugin
 msgid ""
 "Add Google Calendar events to your WordPress site in minutes. Beautiful "
 "calendar displays. Fully responsive."
@@ -155,9 +155,9 @@ msgstr "Llicències de complements"
 msgid "Add-on unspecified or invalid action."
 msgstr "Complement no especificat o acció invàlida."
 
-#: includes/admin/menus.php:85 includes/admin/menus.php:86
-#: includes/admin/menus.php:162 includes/admin/pages/add-ons.php:31
-#: includes/admin/welcome.php:110
+#: includes/admin/welcome.php:110 includes/admin/menus.php:85
+#: includes/admin/menus.php:86 includes/admin/menus.php:162
+#: includes/admin/pages/add-ons.php:31
 msgid "Add-ons"
 msgstr "Complements"
 
@@ -244,8 +244,8 @@ msgstr "Memòria cau"
 msgid "Cache cleared."
 msgstr "Memòria cau eliminada."
 
-#: includes/post-types.php:173 includes/post-types.php:201
-#: includes/widgets/calendar.php:148
+#: includes/widgets/calendar.php:148 includes/post-types.php:173
+#: includes/post-types.php:201
 msgid "Calendar"
 msgstr "Calendari"
 
@@ -287,8 +287,8 @@ msgstr "Calendari a fer servir"
 msgid "Calendar:"
 msgstr "Calendari:"
 
-#: includes/admin/menus.php:138 includes/admin/pages/calendars.php:42
-#: includes/admin/welcome.php:104 includes/post-types.php:172
+#: includes/admin/welcome.php:104 includes/admin/menus.php:138
+#: includes/admin/pages/calendars.php:42 includes/post-types.php:172
 msgid "Calendars"
 msgstr "Calendaris"
 
@@ -653,6 +653,17 @@ msgstr "Esdeveniments filtrats per les paraules següents..."
 msgid "First Name"
 msgstr "Nom"
 
+#: includes/calendars/admin/default-calendar-admin.php:300
+msgid ""
+"For events spanning multiple days, you can display them on each day of the "
+"event, only on the first day of the event, or on all days of the event, but "
+"only up to the current day. Third option applies to list views only."
+msgstr ""
+"Per a esdeveniments que abasten diversos dies, els podeu mostrar cada dia de "
+"l’esdeveniment, només el primer dia de l’esdeveniment o tots els dies de "
+"l’esdeveniment, però només fins al dia actual. La tercera opció només "
+"s'aplica a les vistes de llista."
+
 #: includes/admin/welcome.php:204
 msgid "FullCalendar and Google Calendar Pro"
 msgstr "FullCalendar i Google Calendar Pro"
@@ -907,7 +918,7 @@ msgstr "Mes(os) abans de la data d'inici"
 msgid "Months"
 msgstr "mesos"
 
-#. Author of the plugin/theme
+#. Author of the plugin
 msgid "Moonstone Media"
 msgstr "multimèdia"
 
@@ -1294,8 +1305,8 @@ msgstr ""
 "En establir això a <code> Font predeterminada d'origen de l'esdeveniment </"
 "code> pot provocar resultats inesperats. "
 
-#: includes/admin/menus.php:69 includes/admin/menus.php:70
-#: includes/admin/menus.php:137 includes/admin/welcome.php:107
+#: includes/admin/welcome.php:107 includes/admin/menus.php:69
+#: includes/admin/menus.php:70 includes/admin/menus.php:137
 msgid "Settings"
 msgstr "Configuració"
 
@@ -1325,8 +1336,7 @@ msgid "Show week & day views"
 msgstr "Mostra les vistes de la setmana i del dia"
 
 # MODIFICAT XTEC
-#. #-#-#-#-#  google-calendar-events.pot (Simple Calendar 3.1.9)  #-#-#-#-#
-#. Plugin Name of the plugin/theme
+#. Plugin Name of the plugin
 #: includes/widgets/calendar.php:49
 msgid "Simple Calendar"
 msgstr "Calendaris"
@@ -1894,10 +1904,8 @@ msgctxt "human date event builder code modifier"
 msgid "from now"
 msgstr "des d'ara"
 
-#. #-#-#-#-#  google-calendar-events.pot (Simple Calendar 3.1.9)  #-#-#-#-#
-#. Plugin URI of the plugin/theme
-#. #-#-#-#-#  google-calendar-events.pot (Simple Calendar 3.1.9)  #-#-#-#-#
-#. Author URI of the plugin/theme
+#. Plugin URI of the plugin
+#. Author URI of the plugin
 msgid "https://simplecalendar.io"
 msgstr "https://simplecalendar.io"
 

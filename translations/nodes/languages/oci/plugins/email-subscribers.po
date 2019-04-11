@@ -2,15 +2,18 @@
 # This file is distributed under the same license as the Plugins - Email Subscribers &amp; Newsletters - Stable (latest release) package.
 msgid ""
 msgstr ""
+"Project-Id-Version: Plugins - Email Subscribers &amp; Newsletters - Stable "
+"(latest release)\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/email-"
+"subscribers\n"
+"POT-Creation-Date: 2019-04-11T16:48:13+02:00\n"
 "PO-Revision-Date: 2017-08-18 09:00:21+0000\n"
+"Language: oc_FR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: GlotPress/2.4.0-alpha\n"
-"Language: oc_FR\n"
-"Project-Id-Version: Plugins - Email Subscribers &amp; Newsletters - Stable "
-"(latest release)\n"
 
 #: admin/partials/help.php:43
 msgid ""
@@ -67,11 +70,6 @@ msgstr ""
 msgid "4. Find <a href=\"%s\" target=\"_blank\">Forms</a> here"
 msgstr ""
 
-#: includes/admin/class-es-lists-table.php:369
-#: includes/admin/class-es-lists-table.php:378
-msgid "<a href=\"%s\" target=\"_blank\">%d</a>"
-msgstr ""
-
 #: includes/admin/class-es-reports-table.php:48
 msgid ""
 "<a href='%s' target='_blank' class='page-title-action es-imp-button'>Send "
@@ -92,12 +90,6 @@ msgid ""
 "<span style=\"color:#ff6f7b\">Join our</span> Email Subscribers Secret Club!"
 msgstr ""
 
-#: includes/class-email-subscribers.php:109
-msgid ""
-"<strong>Email Subscribers Pro</strong> plugin is activated but it won't work "
-"because it needs plugin to be updated. Please update %s plugin first."
-msgstr ""
-
 #: includes/notices/class-es-admin-notices.php:97
 msgid "Action failed. Please refresh the page and retry."
 msgstr ""
@@ -107,7 +99,7 @@ msgstr ""
 msgid "Active"
 msgstr ""
 
-#: includes/admin/class-es-lists-table.php:437
+#: includes/admin/class-es-lists-table.php:426
 msgid "Active Contacts"
 msgstr ""
 
@@ -115,25 +107,16 @@ msgstr ""
 msgid "Add New"
 msgstr "Apondre"
 
+#: includes/admin/class-es-export-subscribers.php:103
+#: includes/admin/class-es-import-subscribers.php:207
+#: includes/admin/class-es-handle-sync-wp-user.php:70
 #: includes/admin/class-es-subscribers-table.php:54
 #: includes/admin/class-es-subscribers-table.php:120
-#: includes/admin/class-es-export-subscribers.php:103
-#: includes/admin/class-es-handle-sync-wp-user.php:70
-#: includes/admin/class-es-import-subscribers.php:207
 msgid "Add New Contact"
 msgstr ""
 
 #: admin/partials/dashboard.php:89
 msgid "Add Subscribe form"
-msgstr ""
-
-#: includes/admin/class-es-subscribers-table.php:584
-msgid "Add To List"
-msgstr ""
-
-#: includes/class-email-subscribers-activator.php:46
-#: includes/class-email-subscribers-activator.php:47
-msgid "Add new Template"
 msgstr ""
 
 #. Description of the plugin
@@ -160,8 +143,12 @@ msgstr ""
 msgid "Admin Notification On New Subscription"
 msgstr ""
 
-#: includes/admin/class-es-lists-table.php:438
+#: cron/cron-add.php:107
+msgid "Admin Report"
+msgstr ""
+
 #: includes/admin/class-es-export-subscribers.php:70
+#: includes/admin/class-es-lists-table.php:427
 msgid "All Contacts"
 msgstr ""
 
@@ -181,7 +168,7 @@ msgstr ""
 msgid "Are you sure you wish to run the updater now?"
 msgstr ""
 
-#: admin/class-email-subscribers-admin.php:143 admin/partials/dashboard.php:81
+#: admin/partials/dashboard.php:81 admin/class-email-subscribers-admin.php:143
 msgid "Audience"
 msgstr ""
 
@@ -225,10 +212,8 @@ msgid "Blocked Domain(s)"
 msgstr ""
 
 #: admin/class-email-subscribers-admin.php:141
-#: includes/admin/class-es-reports-table.php:191
 #: includes/admin/class-es-campaigns-table.php:186
-#: includes/admin/class-es-templates-table.php:39
-#: includes/admin/class-es-templates-table.php:211
+#: includes/admin/class-es-reports-table.php:187
 msgid "Broadcast"
 msgstr ""
 
@@ -246,8 +231,8 @@ msgstr ""
 msgid "Campaign"
 msgstr ""
 
-#: includes/admin/class-es-admin-settings.php:404
 #: includes/admin/class-es-cron.php:132
+#: includes/admin/class-es-admin-settings.php:404
 msgid "Campaign Sent!"
 msgstr ""
 
@@ -259,11 +244,11 @@ msgstr ""
 msgid "Campaign(s) have been deleted successfully!"
 msgstr ""
 
-#: admin/class-email-subscribers-admin.php:144 admin/partials/dashboard.php:83
-#: includes/admin/class-es-newsletters.php:76
-#: includes/admin/class-es-post-notifications.php:234
+#: admin/partials/dashboard.php:83 admin/class-email-subscribers-admin.php:144
 #: includes/admin/class-es-campaigns-table.php:36
 #: includes/admin/class-es-campaigns-table.php:49
+#: includes/admin/class-es-post-notifications.php:234
+#: includes/admin/class-es-newsletters.php:76
 msgid "Campaigns"
 msgstr ""
 
@@ -279,7 +264,7 @@ msgstr ""
 msgid "Campigns > Edit Post Notification"
 msgstr ""
 
-#: includes/admin/class-es-subscribers-table.php:585
+#: includes/admin/class-es-subscribers-table.php:584
 msgid "Change Status"
 msgstr ""
 
@@ -308,7 +293,7 @@ msgid ""
 "<strong>confirmation and unsubscribe pages</strong> on your website."
 msgstr ""
 
-#: includes/admin/class-es-reports-table.php:209
+#: includes/admin/class-es-reports-table.php:203
 msgid "Completed"
 msgstr ""
 
@@ -316,7 +301,7 @@ msgstr ""
 msgid "Configure double Opt-In and Single Opt-In facility for subscribers."
 msgstr ""
 
-#: includes/es-backward.php:101
+#: includes/es-backward.php:99
 msgid "Confirm Your Subscription!"
 msgstr ""
 
@@ -324,9 +309,11 @@ msgstr ""
 msgid "Confirmation Email"
 msgstr ""
 
-#: includes/admin/class-es-subscribers-table.php:716
-msgid "Confirmation email has been sent successfully!"
-msgstr ""
+#: subscribers/view-subscriber-edit.php:162
+#: subscribers/view-subscriber-add.php:173
+#, fuzzy
+msgid "Confirmed"
+msgstr "Pas confirmat"
 
 #: admin/partials/dashboard.php:58
 msgid "Congratulations! You've successfully upgraded to "
@@ -348,7 +335,7 @@ msgstr ""
 msgid "Contact has been added successfully!"
 msgstr ""
 
-#: includes/admin/class-es-subscribers-table.php:669
+#: includes/admin/class-es-subscribers-table.php:667
 msgid "Contact have been updated successfully!"
 msgstr ""
 
@@ -356,22 +343,18 @@ msgstr ""
 msgid "Contact updated successfully!"
 msgstr ""
 
-#: includes/admin/class-es-subscribers-table.php:807
-msgid "Contact(s) have been added to list successfully!"
-msgstr ""
-
-#: includes/admin/class-es-subscribers-table.php:686
-#: includes/admin/class-es-subscribers-table.php:746
+#: includes/admin/class-es-subscribers-table.php:684
+#: includes/admin/class-es-subscribers-table.php:742
 msgid "Contact(s) have been deleted successfully!"
 msgstr ""
 
-#: includes/admin/class-es-subscribers-table.php:787
+#: includes/admin/class-es-subscribers-table.php:783
 msgid "Contact(s) have been moved to list successfully!"
 msgstr ""
 
+#: includes/admin/class-es-export-subscribers.php:59
 #: includes/admin/class-es-subscribers-table.php:21
 #: includes/admin/class-es-subscribers-table.php:107
-#: includes/admin/class-es-export-subscribers.php:59
 msgid "Contacts"
 msgstr ""
 
@@ -425,9 +408,9 @@ msgstr ""
 msgid "Create and Send Post Notification Emails when new posts are published"
 msgstr ""
 
-#: includes/admin/class-es-subscribers-table.php:552
-#: includes/admin/class-es-lists-table.php:439
 #: includes/admin/class-es-forms-table.php:636
+#: includes/admin/class-es-lists-table.php:428
+#: includes/admin/class-es-subscribers-table.php:552
 msgid "Created"
 msgstr ""
 
@@ -451,9 +434,9 @@ msgstr ""
 msgid "Dashboard"
 msgstr ""
 
-#: includes/admin/class-es-subscribers-table.php:582
-#: includes/admin/class-es-lists-table.php:466
 #: includes/admin/class-es-forms-table.php:663
+#: includes/admin/class-es-lists-table.php:455
+#: includes/admin/class-es-subscribers-table.php:582
 msgid "Delete"
 msgstr "Suprimir"
 
@@ -461,8 +444,8 @@ msgstr "Suprimir"
 msgid "Description"
 msgstr ""
 
-#: includes/admin/class-es-lists-table.php:573
-#: includes/admin/class-es-forms-table.php:755 includes/class-es-common.php:253
+#: includes/admin/class-es-forms-table.php:755
+#: includes/admin/class-es-lists-table.php:562 includes/class-es-common.php:253
 msgid "Disable"
 msgstr ""
 
@@ -474,7 +457,6 @@ msgstr ""
 msgid "Dismiss"
 msgstr ""
 
-#: includes/admin/class-es-widget.php:62
 #: includes/admin/class-es-old-widget.php:80
 msgid "Display Name Field"
 msgstr ""
@@ -526,26 +508,27 @@ msgstr ""
 msgid "Edit List"
 msgstr ""
 
-#: includes/class-email-subscribers-activator.php:48
-msgid "Edit Templates"
-msgstr ""
-
-#: public/partials/class-es-shortcode.php:169
+#: includes/admin/class-es-export-subscribers.php:223
+#: includes/admin/class-es-reports-table.php:97
+#: includes/admin/class-es-admin-settings.php:140
+#: includes/admin/class-es-forms-table.php:271
 #: includes/admin/class-es-subscribers-table.php:369
 #: includes/admin/class-es-subscribers-table.php:550
-#: includes/admin/class-es-admin-settings.php:140
-#: includes/admin/class-es-reports-table.php:97
-#: includes/admin/class-es-export-subscribers.php:223
-#: includes/admin/class-es-forms-table.php:271
+#: public/partials/class-es-shortcode.php:169
 msgid "Email"
+msgstr "Opcions de messatjariá"
+
+#: classes/es-register.php:1123 classes/es-register.php:1129
+#, fuzzy
+msgid "Email *"
 msgstr "Opcions de messatjariá"
 
 #: includes/admin/class-es-admin-settings.php:143
 msgid "Email Address"
 msgstr "Adreça email"
 
-#: public/class-email-subscribers-public.php:113
 #: includes/admin/class-es-handle-subscription.php:381
+#: public/class-email-subscribers-public.php:113
 msgid "Email Address already exists!"
 msgstr ""
 
@@ -553,16 +536,11 @@ msgstr ""
 msgid "Email Addresses"
 msgstr ""
 
-#: includes/admin/class-es-admin-settings.php:79
-msgid "Email Sending"
-msgstr ""
-
-#: admin/class-email-subscribers-admin.php:135
-#: includes/admin/class-es-widget.php:11
+#: admin/class-email-subscribers-admin.php:135 classes/es-register.php:162
+#: classes/es-register.php:163 includes/admin/class-es-form-widget.php:11
 #: includes/admin/class-es-old-widget.php:11
 #: includes/admin/class-es-old-widget.php:12
-#: includes/admin/class-es-form-widget.php:11
-#: includes/class-email-subscribers-activator.php:56
+#: includes/admin/class-es-widget.php:11
 msgid "Email Subscribers"
 msgstr ""
 
@@ -574,16 +552,12 @@ msgstr ""
 msgid "Email Subscribers Form"
 msgstr ""
 
-#: includes/class-email-subscribers.php:110
-msgid "Email Subscribers Pro"
-msgstr ""
-
 #: includes/admin/class-es-widget.php:11
 msgid "Email Subscribers Widget"
 msgstr ""
 
-#: includes/notices/views/html-notice-updating.php:19
 #: includes/notices/views/html-notice-update.php:19
+#: includes/notices/views/html-notice-updating.php:19
 msgid "Email Subscribers data update"
 msgstr ""
 
@@ -604,10 +578,6 @@ msgstr ""
 msgid "Email Type"
 msgstr ""
 
-#: includes/admin/class-es-tools.php:60
-msgid "Email has been sent. Please check your inbox"
-msgstr ""
-
 #: admin/partials/help.php:110
 msgid ""
 "Email subscribers easily integrates with another <b>free</b> plugin <a class="
@@ -615,16 +585,8 @@ msgid ""
 "rainmaker/\">Rainmaker</a>"
 msgstr ""
 
-#: includes/admin/class-es-cron.php:241
-msgid "Emails not found."
-msgstr ""
-
-#: includes/admin/class-es-cron.php:240
-msgid "Emails sent succssfully!"
-msgstr ""
-
-#: includes/admin/class-es-lists-table.php:572
-#: includes/admin/class-es-forms-table.php:754 includes/class-es-common.php:252
+#: includes/admin/class-es-forms-table.php:754
+#: includes/admin/class-es-lists-table.php:561 includes/class-es-common.php:252
 msgid "Enable"
 msgstr ""
 
@@ -632,7 +594,7 @@ msgstr ""
 msgid "Enable?"
 msgstr ""
 
-#: includes/admin/class-es-reports-table.php:269
+#: includes/admin/class-es-reports-table.php:263
 msgid "End Date"
 msgstr "Data de fin"
 
@@ -676,17 +638,9 @@ msgstr ""
 msgid "Error: Please select status"
 msgstr ""
 
-#: includes/libraries/wp-background-process.php:423
-msgid "Every %d Minutes"
-msgstr ""
-
 #. translators: %d: interval
 #: includes/upgrade/class-es-background-process.php:171
 msgid "Every %d minutes"
-msgstr ""
-
-#: includes/class-email-subscribers.php:436
-msgid "Every Fifteen Minutes"
 msgstr ""
 
 #: admin/partials/dashboard.php:65
@@ -697,10 +651,10 @@ msgstr ""
 msgid "Export"
 msgstr ""
 
-#: includes/admin/class-es-subscribers-table.php:55
 #: includes/admin/class-es-export-subscribers.php:50
-#: includes/admin/class-es-handle-sync-wp-user.php:71
 #: includes/admin/class-es-import-subscribers.php:208
+#: includes/admin/class-es-handle-sync-wp-user.php:71
+#: includes/admin/class-es-subscribers-table.php:55
 msgid "Export Contacts"
 msgstr ""
 
@@ -744,11 +698,10 @@ msgstr ""
 msgid "Form(s) have been deleted successfully!"
 msgstr ""
 
-#: admin/class-email-subscribers-admin.php:146 admin/partials/dashboard.php:82
+#: admin/partials/dashboard.php:82 admin/class-email-subscribers-admin.php:146
 #: includes/admin/class-es-forms-table.php:19
 #: includes/admin/class-es-forms-table.php:20
 #: includes/admin/class-es-forms-table.php:66
-#: includes/admin/class-es-form-widget.php:63
 msgid "Forms"
 msgstr ""
 
@@ -758,14 +711,6 @@ msgstr ""
 
 #: admin/partials/pricing.php:240
 msgid "Fullproof email deliverability"
-msgstr ""
-
-#: includes/admin/class-es-cron.php:247
-msgid "GUID is empty."
-msgstr ""
-
-#: includes/admin/class-es-admin-settings.php:77
-msgid "General"
 msgstr ""
 
 #: admin/partials/help.php:40
@@ -800,10 +745,6 @@ msgstr ""
 msgid ""
 "Go to Appearance -> Widgets. Click on widget Email subscribers and drag it "
 "to the widget area"
-msgstr ""
-
-#: includes/class-es-common.php:417
-msgid "HTML Mail"
 msgstr ""
 
 #: admin/partials/help.php:10
@@ -898,8 +839,8 @@ msgstr ""
 msgid "Image Size"
 msgstr ""
 
-#: includes/admin/class-es-subscribers-table.php:56
 #: includes/admin/class-es-export-subscribers.php:104
+#: includes/admin/class-es-subscribers-table.php:56
 msgid "Import Contacts"
 msgstr ""
 
@@ -920,18 +861,17 @@ msgstr ""
 msgid "Invalid Captcha"
 msgstr ""
 
-#: includes/admin/class-es-cron.php:243 includes/admin/class-es-cron.php:244
-#: includes/admin/class-es-cron.php:245
-msgid "Invalid GUID."
-msgstr ""
-
-#: public/class-email-subscribers-public.php:115
 #: includes/admin/class-es-handle-subscription.php:383
+#: public/class-email-subscribers-public.php:115
 msgid "Invalid email address"
 msgstr ""
 
 #: includes/admin/class-es-handle-subscription.php:384
 msgid "Invalid name"
+msgstr ""
+
+#: subscribers/view-subscriber-add.php:164
+msgid "It is necessary to add an email to create a new group."
 msgstr ""
 
 #: admin/partials/help.php:60
@@ -942,21 +882,16 @@ msgstr ""
 msgid "Keywords in the Post Notifications"
 msgstr ""
 
-#: includes/admin/class-es-lists-table.php:19
-#: includes/admin/class-es-campaigns-table.php:256
-msgid "List"
-msgstr ""
-
 #: includes/admin/class-es-lists-table.php:128
 msgid "List has been added successfully!"
 msgstr ""
 
-#: includes/admin/class-es-lists-table.php:534
+#: includes/admin/class-es-lists-table.php:523
 msgid "List has been deleted successfully!"
 msgstr ""
 
 #: includes/admin/class-es-lists-table.php:169
-#: includes/admin/class-es-lists-table.php:517
+#: includes/admin/class-es-lists-table.php:506
 msgid "List has been updated successfully!"
 msgstr ""
 
@@ -965,29 +900,33 @@ msgstr ""
 msgid "List(s)"
 msgstr ""
 
-#: includes/admin/class-es-lists-table.php:549
+#: includes/admin/class-es-lists-table.php:538
 msgid "List(s) have been deleted successfully"
 msgstr ""
 
-#: admin/class-email-subscribers-admin.php:139 admin/partials/dashboard.php:84
-#: includes/admin/class-es-lists-table.php:20
-#: includes/admin/class-es-lists-table.php:66
+#: admin/partials/dashboard.php:84 admin/class-email-subscribers-admin.php:139
 #: includes/admin/class-es-forms-table.php:290
+#: includes/admin/class-es-lists-table.php:66
 msgid "Lists"
 msgstr ""
 
+#: sendmail/sendmail.php:138
+#, fuzzy
+msgid "Mail Type"
+msgstr "Tipe"
+
+#: includes/admin/class-es-export-subscribers.php:105
+#: includes/admin/class-es-import-subscribers.php:209
+#: includes/admin/class-es-handle-sync-wp-user.php:72
+#: includes/admin/class-es-lists-table.php:212
 #: includes/admin/class-es-subscribers-table.php:58
 #: includes/admin/class-es-subscribers-table.php:121
-#: includes/admin/class-es-lists-table.php:212
-#: includes/admin/class-es-export-subscribers.php:105
-#: includes/admin/class-es-handle-sync-wp-user.php:72
-#: includes/admin/class-es-import-subscribers.php:209
 msgid "Manage Lists"
 msgstr ""
 
-#: includes/admin/class-es-newsletters.php:77
-#: includes/admin/class-es-post-notifications.php:238
 #: includes/admin/class-es-campaigns-table.php:52
+#: includes/admin/class-es-post-notifications.php:238
+#: includes/admin/class-es-newsletters.php:77
 msgid "Manage Templates"
 msgstr ""
 
@@ -1011,26 +950,22 @@ msgstr ""
 msgid "NO"
 msgstr ""
 
-#: public/partials/class-es-shortcode.php:138
-#: includes/admin/class-es-subscribers-table.php:365
-#: includes/admin/class-es-subscribers-table.php:549
+#: classes/es-register.php:1116
+#: includes/admin/class-es-export-subscribers.php:222
 #: includes/admin/class-es-admin-settings.php:131
 #: includes/admin/class-es-admin-settings.php:134
-#: includes/admin/class-es-lists-table.php:223
-#: includes/admin/class-es-lists-table.php:436
-#: includes/admin/class-es-export-subscribers.php:222
 #: includes/admin/class-es-forms-table.php:276
 #: includes/admin/class-es-forms-table.php:634
-#: includes/admin/class-es-campaigns-table.php:254
+#: includes/admin/class-es-lists-table.php:223
+#: includes/admin/class-es-lists-table.php:425
+#: includes/admin/class-es-subscribers-table.php:365
+#: includes/admin/class-es-subscribers-table.php:549
+#: public/partials/class-es-shortcode.php:138
 msgid "Name"
 msgstr "Nom"
 
 #: includes/admin/class-es-forms-table.php:226
 msgid "New Form"
-msgstr ""
-
-#: includes/class-email-subscribers-activator.php:49
-msgid "New Templates"
 msgstr ""
 
 #: includes/admin/class-es-admin-settings.php:370
@@ -1041,13 +976,13 @@ msgstr ""
 msgid "Newsletters"
 msgstr ""
 
+#: includes/admin/class-es-export-subscribers.php:58
+#: includes/admin/class-es-reports-table.php:96
 #: includes/admin/class-es-admin-settings.php:358
 #: includes/admin/class-es-admin-settings.php:394
-#: includes/admin/class-es-reports-table.php:96
-#: includes/admin/class-es-export-subscribers.php:58
-#: includes/admin/class-es-widget.php:49
-#: includes/admin/class-es-handle-sync-wp-user.php:109
 #: includes/admin/class-es-forms-table.php:319
+#: includes/admin/class-es-handle-sync-wp-user.php:109
+#: includes/admin/class-es-widget.php:49
 msgid "No"
 msgstr ""
 
@@ -1071,15 +1006,7 @@ msgstr ""
 msgid "No Reports avaliable."
 msgstr ""
 
-#: includes/class-email-subscribers-activator.php:53
-msgid "No Templates found"
-msgstr ""
-
-#: includes/class-email-subscribers-activator.php:54
-msgid "No Templates found in Trash"
-msgstr ""
-
-#: includes/admin/class-es-subscribers-table.php:817
+#: includes/admin/class-es-subscribers-table.php:793
 msgid "No contacts avaliable."
 msgstr ""
 
@@ -1091,26 +1018,10 @@ msgstr ""
 msgid "No list found"
 msgstr ""
 
-#: includes/admin/class-es-lists-table.php:585
-msgid "No lists avaliable."
-msgstr ""
-
-#: includes/admin/class-es-cron.php:242
-msgid "No notifications found to send."
-msgstr ""
-
-#: includes/admin/class-es-cron.php:246
-msgid "Not allowed to process request."
-msgstr ""
-
 #: includes/admin/class-es-post-notifications.php:286
 msgid ""
 "Notification will be sent out when any post from selected categories will be "
 "published."
-msgstr ""
-
-#: includes/admin/class-es-admin-settings.php:78
-msgid "Notifications"
 msgstr ""
 
 #: includes/admin/class-es-admin-settings.php:354
@@ -1118,7 +1029,7 @@ msgstr ""
 msgid "Notify?"
 msgstr ""
 
-#: includes/class-email-subscribers.php:125
+#: includes/class-email-subscribers.php:124
 msgid "OK, I Got it!"
 msgstr ""
 
@@ -1128,8 +1039,8 @@ msgid ""
 "where this message will be shown."
 msgstr ""
 
-#: public/class-email-subscribers-public.php:114
 #: includes/admin/class-es-handle-subscription.php:382
+#: public/class-email-subscribers-public.php:114
 msgid "Oops.. Unexpected error occurred."
 msgstr ""
 
@@ -1147,37 +1058,25 @@ msgstr ""
 msgid "Opt-in Type"
 msgstr ""
 
-#: includes/class-email-subscribers.php:123
+#: includes/class-email-subscribers.php:122
 msgid "Or schedule Cron in <a href=\"%s\" target=\"_blank\">cPanel</a>"
 msgstr ""
 
-#: includes/class-email-subscribers.php:124
+#: includes/class-email-subscribers.php:123
 msgid ""
 "Or use <strong><a href=\"%s\" target=\"_blank\">Email Subscribners Pro</a></"
 "strong> for automatic Cron support"
-msgstr ""
-
-#: includes/class-es-common.php:419
-msgid "PHP HTML MAIL"
-msgstr ""
-
-#: includes/class-es-common.php:420
-msgid "PHP PLAINTEXT MAIL"
 msgstr ""
 
 #: admin/partials/dashboard.php:94
 msgid "Paste below PHP code to your desired location :"
 msgstr ""
 
-#: includes/class-es-common.php:418
-msgid "Plain Text Mail"
-msgstr ""
-
 #: includes/admin/class-es-subscribers-table.php:145
 msgid "Please Select List"
 msgstr ""
 
-#: includes/admin/class-es-tools.php:52
+#: includes/admin/class-es-tools.php:53
 msgid "Please add email"
 msgstr ""
 
@@ -1193,9 +1092,17 @@ msgstr ""
 msgid "Please check campaign(s) to delete."
 msgstr ""
 
-#: public/class-email-subscribers-public.php:109
 #: includes/admin/class-es-handle-subscription.php:377
+#: public/class-email-subscribers-public.php:109
 msgid "Please enter email address"
+msgstr ""
+
+#: compose/compose-edit.php:47
+msgid "Please enter template heading."
+msgstr ""
+
+#: settings/settings-edit.php:554 cron/cron-add.php:23
+msgid "Please enter valid mail count."
 msgstr ""
 
 #: includes/admin/class-es-handle-sync-wp-user.php:84
@@ -1210,7 +1117,7 @@ msgstr ""
 msgid "Please select form(s) to delete."
 msgstr ""
 
-#: includes/admin/class-es-lists-table.php:552
+#: includes/admin/class-es-lists-table.php:541
 msgid "Please select list"
 msgstr ""
 
@@ -1218,23 +1125,22 @@ msgstr ""
 msgid "Please select list(s) in which contact will be subscribed."
 msgstr ""
 
-#: includes/admin/class-es-newsletters.php:49
-#: includes/admin/class-es-subscribers-table.php:778
-#: includes/admin/class-es-subscribers-table.php:798
 #: includes/admin/class-es-post-notifications.php:43
+#: includes/admin/class-es-newsletters.php:49
+#: includes/admin/class-es-subscribers-table.php:774
 msgid "Please select list."
 msgstr ""
 
-#: includes/admin/class-es-subscribers-table.php:757
+#: includes/admin/class-es-subscribers-table.php:753
 msgid "Please select status."
 msgstr ""
 
-#: includes/admin/class-es-subscribers-table.php:734
+#: includes/admin/class-es-subscribers-table.php:730
 msgid "Please select subscribers to update."
 msgstr ""
 
-#: includes/admin/class-es-newsletters.php:46
 #: includes/admin/class-es-post-notifications.php:51
+#: includes/admin/class-es-newsletters.php:46
 msgid "Please select template."
 msgstr ""
 
@@ -1242,21 +1148,12 @@ msgstr ""
 msgid "Please select the list"
 msgstr ""
 
-#: public/class-email-subscribers-public.php:116
 #: includes/admin/class-es-handle-subscription.php:385
+#: public/class-email-subscribers-public.php:116
 msgid "Please try after some time"
 msgstr ""
 
-#: includes/admin/class-es-cron.php:248
-msgid "Please try after sometime."
-msgstr ""
-
-#: includes/admin/class-es-reports-table.php:187
-#: includes/admin/class-es-templates-table.php:40
-msgid "Post Notification"
-msgstr ""
-
-#: admin/class-email-subscribers-admin.php:140 admin/partials/help.php:80
+#: admin/partials/help.php:80 admin/class-email-subscribers-admin.php:140
 msgid "Post Notifications"
 msgstr ""
 
@@ -1268,7 +1165,7 @@ msgstr ""
 msgid "Post notification has been updated successfully!"
 msgstr ""
 
-#: includes/admin/class-es-reports-table.php:433
+#: includes/admin/class-es-reports-table.php:427
 msgid "Preview Email"
 msgstr ""
 
@@ -1282,6 +1179,10 @@ msgstr ""
 
 #: admin/partials/pricing.php:227
 msgid "Protect your list from bot attacks"
+msgstr ""
+
+#: compose/compose-edit.php:130 compose/compose-add.php:121
+msgid "Published"
 msgstr ""
 
 #: admin/partials/dashboard.php:145
@@ -1304,18 +1205,18 @@ msgstr ""
 msgid "Report"
 msgstr ""
 
-#: includes/admin/class-es-reports-table.php:385
+#: includes/admin/class-es-reports-table.php:379
 msgid "Report has been deleted successfully!"
 msgstr ""
 
-#: admin/class-email-subscribers-admin.php:142 admin/partials/dashboard.php:85
+#: admin/partials/dashboard.php:85 admin/class-email-subscribers-admin.php:142
 #: includes/admin/class-es-reports-table.php:20
 #: includes/admin/class-es-reports-table.php:43
 #: includes/admin/class-es-reports-table.php:82
 msgid "Reports"
 msgstr ""
 
-#: includes/admin/class-es-reports-table.php:412
+#: includes/admin/class-es-reports-table.php:406
 msgid "Reports have been deleted successfully!"
 msgstr ""
 
@@ -1339,24 +1240,12 @@ msgstr ""
 msgid "Schedule Cron Emails in cPanel"
 msgstr ""
 
-#: includes/admin/class-es-campaigns-table.php:296
-msgid "Search Campaigns"
-msgstr ""
-
-#: includes/class-email-subscribers-activator.php:52
-msgid "Search Templates"
-msgstr ""
-
-#: includes/admin/class-es-admin-settings.php:80
-msgid "Security"
-msgstr ""
-
 #: includes/admin/class-es-import-subscribers.php:157
 msgid "Select CSV file"
 msgstr ""
 
-#: includes/admin/class-es-newsletters.php:133
 #: includes/admin/class-es-post-notifications.php:247
+#: includes/admin/class-es-newsletters.php:133
 msgid "Select List"
 msgstr ""
 
@@ -1397,8 +1286,8 @@ msgstr ""
 msgid "Select whether to send HTML or Plain Text email."
 msgstr ""
 
-#: includes/admin/class-es-templates-table.php:37
-msgid "Select your Email Template Type"
+#: sendmail/sendmail.php:139
+msgid "Select your mail type."
 msgstr ""
 
 #: includes/admin/class-es-campaigns-table.php:51
@@ -1461,21 +1350,9 @@ msgstr ""
 msgid "Set this option to \"Yes\" to notify admin(s) on every campaign sent."
 msgstr ""
 
-#: includes/class-email-subscribers-activator.php:58
-msgid "Set thumbnail"
-msgstr ""
-
 #: admin/class-email-subscribers-admin.php:145
 msgid "Settings"
 msgstr "Paramètres"
-
-#: includes/admin/class-es-admin-settings.php:60
-msgid "Settings have been saved successfully!"
-msgstr ""
-
-#: includes/admin/class-es-widget.php:58
-msgid "Short description"
-msgstr ""
 
 #: includes/admin/class-es-old-widget.php:76
 msgid "Short description about subscription form"
@@ -1520,6 +1397,11 @@ msgstr ""
 msgid "Show?"
 msgstr ""
 
+#: subscribers/view-subscriber-edit.php:165
+#: subscribers/view-subscriber-add.php:176
+msgid "Single Opt In"
+msgstr ""
+
 #: includes/class-es-common.php:429
 msgid "Single Opt-In"
 msgstr ""
@@ -1528,30 +1410,25 @@ msgstr ""
 msgid "Sorry, form not found"
 msgstr ""
 
-#: public/class-email-subscribers-public.php:180
-msgid "Sorry, we couldn't find you. Please contact admin."
-msgstr ""
-
-#: includes/admin/class-es-reports-table.php:268
+#: includes/admin/class-es-reports-table.php:262
 msgid "Start Date"
 msgstr "Data de començament"
 
-#: includes/admin/class-es-reports-table.php:98
-#: includes/admin/class-es-reports-table.php:267
 #: includes/admin/class-es-export-subscribers.php:224
-#: includes/admin/class-es-campaigns-table.php:257
+#: includes/admin/class-es-reports-table.php:98
+#: includes/admin/class-es-reports-table.php:261
 msgid "Status"
 msgstr "Estatut"
 
-#: includes/admin/class-es-subscribers-table.php:767
+#: includes/admin/class-es-subscribers-table.php:763
 msgid "Status has been changed successfully!"
 msgstr ""
 
+#: includes/admin/class-es-reports-table.php:259
 #: includes/admin/class-es-admin-settings.php:301
 #: includes/admin/class-es-admin-settings.php:329
 #: includes/admin/class-es-admin-settings.php:367
 #: includes/admin/class-es-admin-settings.php:406
-#: includes/admin/class-es-reports-table.php:265
 msgid "Subject"
 msgstr ""
 
@@ -1560,12 +1437,13 @@ msgid ""
 "Subject for the admin email whenever a new contact signs up and is confirmed"
 msgstr ""
 
-#: admin/partials/dashboard.php:124 public/partials/class-es-shortcode.php:191
+#: admin/partials/dashboard.php:124 classes/es-register.php:1126
+#: public/partials/class-es-shortcode.php:191
 msgid "Subscribe"
 msgstr "Abonatz-vos"
 
-#: includes/admin/class-es-subscribers-table.php:484
 #: includes/admin/class-es-export-subscribers.php:234
+#: includes/admin/class-es-subscribers-table.php:484
 #: includes/class-es-common.php:89
 msgid "Subscribed"
 msgstr ""
@@ -1576,10 +1454,6 @@ msgstr ""
 
 #: includes/admin/class-es-old-widget.php:87
 msgid "Subscriber Group"
-msgstr ""
-
-#: includes/admin/class-es-widget.php:70
-msgid "Subscriber List"
 msgstr ""
 
 #: admin/partials/help.php:90
@@ -1595,8 +1469,8 @@ msgstr ""
 msgid "Success Message"
 msgstr ""
 
-#: public/class-email-subscribers-public.php:111
 #: includes/admin/class-es-handle-subscription.php:379
+#: public/class-email-subscribers-public.php:111
 msgid "Successfully Subscribed."
 msgstr ""
 
@@ -1604,8 +1478,8 @@ msgstr ""
 msgid "Supports localization and internationalization."
 msgstr ""
 
-#: includes/admin/class-es-subscribers-table.php:57
 #: includes/admin/class-es-handle-sync-wp-user.php:12
+#: includes/admin/class-es-subscribers-table.php:57
 msgid "Sync"
 msgstr ""
 
@@ -1635,13 +1509,7 @@ msgstr ""
 msgid "Template Type"
 msgstr ""
 
-#: includes/class-email-subscribers-activator.php:44
-#: includes/class-email-subscribers-activator.php:45
-#: includes/class-email-subscribers-activator.php:50
-msgid "Templates"
-msgstr ""
-
-#: includes/admin/class-es-tools.php:161
+#: includes/admin/class-es-tools.php:160
 msgid "Test email to %s"
 msgstr ""
 
@@ -1657,7 +1525,11 @@ msgid ""
 "more appealing."
 msgstr ""
 
-#: includes/admin/class-es-reports-table.php:436
+#: classes/es-register.php:81
+msgid "These tables could not be created on installation "
+msgstr ""
+
+#: includes/admin/class-es-reports-table.php:430
 msgid ""
 "This is how the email you sent may look. <br>Note: Different email services "
 "(like gmail, yahoo etc) display email content differently. So there could be "
@@ -1667,10 +1539,6 @@ msgstr ""
 #: includes/admin/class-es-templates-table.php:192
 #: includes/class-es-common.php:440
 msgid "Thumbnail"
-msgstr ""
-
-#: includes/class-email-subscribers-activator.php:57
-msgid "Thumbnail (For Visual Representation only)"
 msgstr ""
 
 #: admin/partials/dashboard.php:70
@@ -1688,8 +1556,8 @@ msgstr ""
 msgid "Total %d contacts have been imported successfully!"
 msgstr ""
 
-#: includes/admin/class-es-reports-table.php:270
 #: includes/admin/class-es-export-subscribers.php:60
+#: includes/admin/class-es-reports-table.php:264
 msgid "Total Contacts"
 msgstr ""
 
@@ -1713,8 +1581,7 @@ msgstr ""
 msgid "Troubleshooting Steps"
 msgstr ""
 
-#: includes/admin/class-es-reports-table.php:266
-#: includes/admin/class-es-campaigns-table.php:255
+#: includes/admin/class-es-reports-table.php:260
 msgid "Type"
 msgstr "Tipe"
 
@@ -1722,6 +1589,8 @@ msgstr "Tipe"
 msgid "UTM tracking"
 msgstr ""
 
+#: subscribers/view-subscriber-edit.php:163
+#: subscribers/view-subscriber-add.php:174
 #: includes/admin/class-es-subscribers-table.php:485
 #: includes/class-es-common.php:90
 msgid "Unconfirmed"
@@ -1731,8 +1600,10 @@ msgstr "Pas confirmat"
 msgid "Unsubscribe Success/ Error Messages"
 msgstr ""
 
-#: includes/admin/class-es-subscribers-table.php:486
+#: subscribers/view-subscriber-edit.php:164
+#: subscribers/view-subscriber-add.php:175
 #: includes/admin/class-es-export-subscribers.php:234
+#: includes/admin/class-es-subscribers-table.php:486
 #: includes/class-es-common.php:91
 msgid "Unsubscribed"
 msgstr "Desabonat"
@@ -1763,10 +1634,6 @@ msgstr ""
 
 #: admin/partials/dashboard.php:147
 msgid "Version: %s"
-msgstr ""
-
-#: includes/class-email-subscribers-activator.php:51
-msgid "View Templates"
 msgstr ""
 
 #: includes/admin/class-es-reports-table.php:154
@@ -1820,21 +1687,11 @@ msgstr ""
 msgid "Widget Title"
 msgstr ""
 
-#: includes/admin/class-es-widget.php:54
-#: includes/admin/class-es-form-widget.php:59
-msgid "Widget Title:"
-msgstr ""
-
-#: includes/class-email-subscribers.php:122
+#: includes/class-email-subscribers.php:121
 msgid ""
 "WordPress Cron is disable on your site. Email notifications from Email "
 "Subscribers plugin will not be sent automatically. <a href=\"%s\" target="
 "\"_blank\" >Here's how you can enable it.</a>"
-msgstr ""
-
-#: email-subscribers.php:101
-msgctxt "timezone date format"
-msgid "Y-m-d H:i:s"
 msgstr ""
 
 #: includes/admin/class-es-old-widget.php:82
@@ -1843,9 +1700,9 @@ msgstr ""
 
 #: includes/admin/class-es-admin-settings.php:357
 #: includes/admin/class-es-admin-settings.php:393
-#: includes/admin/class-es-widget.php:49
-#: includes/admin/class-es-handle-sync-wp-user.php:110
 #: includes/admin/class-es-forms-table.php:315
+#: includes/admin/class-es-handle-sync-wp-user.php:110
+#: includes/admin/class-es-widget.php:49
 msgid "Yes"
 msgstr ""
 
@@ -1857,11 +1714,11 @@ msgstr ""
 msgid "You do not have permission to add subscriber"
 msgstr ""
 
-#: includes/admin/class-es-lists-table.php:529
+#: includes/admin/class-es-lists-table.php:518
 msgid "You do not have permission to delete list"
 msgstr ""
 
-#: includes/admin/class-es-reports-table.php:380
+#: includes/admin/class-es-reports-table.php:374
 msgid "You do not have permission to delete notification"
 msgstr ""
 
@@ -1870,7 +1727,7 @@ msgid "You do not have permission to delete this form."
 msgstr ""
 
 #: includes/admin/class-es-lists-table.php:83
-#: includes/admin/class-es-lists-table.php:513
+#: includes/admin/class-es-lists-table.php:502
 msgid "You do not have permission to edit list"
 msgstr ""
 
@@ -1878,11 +1735,11 @@ msgstr ""
 msgid "You do not have permission to edit this form."
 msgstr ""
 
-#: includes/admin/class-es-reports-table.php:394
+#: includes/admin/class-es-reports-table.php:388
 msgid "You do not have permission to preview notification"
 msgstr ""
 
-#: includes/admin/class-es-reports-table.php:368
+#: includes/admin/class-es-reports-table.php:362
 msgid "You do not have permission to view notification"
 msgstr ""
 
@@ -1890,8 +1747,8 @@ msgstr ""
 msgid "You have been subscribed successfully!"
 msgstr ""
 
-#: public/class-email-subscribers-public.php:110
 #: includes/admin/class-es-handle-subscription.php:378
+#: public/class-email-subscribers-public.php:110
 msgid "You need to wait for sometime before subscribing again"
 msgstr ""
 
@@ -1899,8 +1756,8 @@ msgstr ""
 msgid "Your database is being updated in the background."
 msgstr ""
 
-#: public/class-email-subscribers-public.php:112
 #: includes/admin/class-es-handle-subscription.php:380
+#: public/class-email-subscribers-public.php:112
 msgid ""
 "Your subscription was successful! Kindly check your mailbox and confirm your "
 "subscription. If you don't see the email within a few minutes, check the "
@@ -1929,14 +1786,6 @@ msgstr ""
 
 #: includes/admin/class-es-templates-table.php:49
 msgid "for Newsletter:"
-msgstr ""
-
-#: includes/admin/class-es-templates-table.php:45
-msgid "for Post Notification: "
-msgstr ""
-
-#: includes/admin/class-es-import-subscribers.php:160
-msgid "from here"
 msgstr ""
 
 #. Plugin URI of the plugin

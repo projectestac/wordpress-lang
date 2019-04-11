@@ -57,9 +57,6 @@ done
 
 # -- Clone the localization tools an the repositories --------------------------
 
-echo -e "\n= Cloning i18n tools"
-svn co $TOOLS_URL
-
 echo -e "\n= Cloning branch: $BRANCH"
 
 pushd branch > /dev/null
@@ -82,11 +79,6 @@ if [ -z $VERSION ]; then
 else
     echo -e "\n= Version set to: ${VERSION}"
 fi
-
-
-# -- WA: Exclude plugins from wp-frontend --------------------------------------
-
-cp ../../config/makepot.php tools/i18n/
 
 
 # -- Obtain the list of installed plugins and themes ---------------------------
@@ -176,22 +168,40 @@ done
 
 echo -e "\n= Creating templates"
 
-MAKEPOT=tools/i18n/makepot.php
+wp i18n make-pot branch/$SRC/ \
+        pot/wordpress.pot \
+        --include="*, wp-includes/*, wp-includes/customize/*, wp-includes/rest-api/*, wp-includes/widgets/*, wp-includes/IXR/*" \
+        --exclude="wp-admin/*, wp-content/*" \
+        --ignore-domain
 
-php $MAKEPOT wp-frontend branch/$SRC pot/wordpress.pot
-php $MAKEPOT wp-admin branch/$SRC pot/admin.pot
-php $MAKEPOT wp-network-admin branch/$SRC pot/admin-network.pot
-php $MAKEPOT wp-tz branch/$SRC pot/continents-cities.pot
+wp i18n make-pot branch/$SRC/ \
+        pot/admin-network.pot \
+        --include="wp-admin/includes/class-wp-ms-*.php, wp-admin/includes/network.php, wp-admin/network.php, wp-admin/network/*" \
+        --ignore-domain
 
-php $MAKEPOT generic branch/$WP_CONTENT/mu-plugins/ pot/functions.pot
+wp i18n make-pot branch/$SRC/ \
+        pot/admin.pot \
+        --include="wp-admin/*, wp-admin/includes/*" \
+        --exclude="wp-admin/includes/class-wp-ms-*.php, wp-admin/includes/network.php, wp-admin/network.php, wp-admin/network/*" \
+        --ignore-domain
+
+wp i18n make-pot branch/$SRC/ \
+        pot/continents-cities.pot \
+        --include="wp-admin/includes/continents-cities.php" \
+        --ignore-domain
+
+wp i18n make-pot branch/$WP_CONTENT/mu-plugins/. \
+        pot/functions.pot \
+        --include="*, common/*" \
+        --ignore-domain
 
 for name in ${PLUGINS[@]}; do
-    php $MAKEPOT wp-plugin branch/$WP_CONTENT/plugins/$name/ \
-        pot/plugins/$name.pot
+    wp i18n make-pot branch/$WP_CONTENT/plugins/$name/ \
+         pot/plugins/$name.pot
 done
 
 for name in ${THEMES[@]}; do
-    php $MAKEPOT wp-theme branch/$WP_CONTENT/themes/$name/ \
+    wp i18n make-pot branch/$WP_CONTENT/themes/$name/ \
         pot/themes/$name.pot
 done
 

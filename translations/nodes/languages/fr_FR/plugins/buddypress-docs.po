@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Buddypres Doc\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/buddypress-docs\n"
-"POT-Creation-Date: 2019-04-05 07:48:20+00:00\n"
+"POT-Creation-Date: 2019-04-11T16:48:11+02:00\n"
 "PO-Revision-Date: 2013-10-30 15:53+0100\n"
 "Last-Translator: xavier jimenez <xavier.jimenez@sneg.fr>\n"
 "Language-Team: \n"
@@ -61,11 +61,14 @@ msgid "%s <span>%d</span>"
 msgstr ""
 
 #: includes/templatetags.php:1081 includes/templatetags.php:1083
+#, fuzzy
 msgid "%s member"
-msgstr "%s membre"
+msgid_plural "%s members"
+msgstr[0] "%s membre"
+msgstr[1] "%s membre"
 
 #. translators: group name
-#: includes/component.php:314 includes/integration-groups.php:1739
+#: includes/integration-groups.php:1739 includes/component.php:314
 msgid "%s&#8217;s Docs"
 msgstr ""
 
@@ -81,8 +84,8 @@ msgctxt "user Docs directory breadcrumb"
 msgid "%s&#8217;s Docs"
 msgstr "Documents de %s"
 
-#: includes/templates/docs/tabs-legacy.php:6
 #: includes/templates/docs/tabs-nouveau.php:8
+#: includes/templates/docs/tabs-legacy.php:6
 msgid "%s's Docs"
 msgstr "Documents de %s"
 
@@ -93,10 +96,6 @@ msgstr "&laquo;"
 #: includes/templatetags.php:1385
 msgid "&raquo;"
 msgstr "&raquo;"
-
-#: includes/addon-taxonomy.php:396
-msgid "(%d)"
-msgstr "(%d)"
 
 #: includes/class-wp-widget-recent-docs.php:45
 #, fuzzy
@@ -139,31 +138,6 @@ msgctxt "up one folder"
 msgid ".."
 msgstr ""
 
-#: includes/templatetags.php:279
-msgid ""
-"<strong><a href=\"%s\" title=\"View All Docs\">View All Docs</a></strong>"
-msgstr ""
-"<strong><a href=\"%s\" title=\"View All Docs\">Voir tous les documents</a></"
-"strong>"
-
-#: includes/templatetags.php:276
-#, fuzzy
-msgid ""
-"<strong><a href=\"%s\" title=\"View Docs with all selected tags\">Viewing "
-"docs with each of these tags</a></strong>"
-msgstr ""
-"<strong><a href=\"%s\" title=\"View All Docs\">Voir tous les documents</a></"
-"strong>"
-
-#: includes/templatetags.php:273
-#, fuzzy
-msgid ""
-"<strong><a href=\"%s\" title=\"View Docs with some of the selected tags"
-"\">Viewing docs with some of these tags</a></strong>"
-msgstr ""
-"<strong><a href=\"%s\" title=\"View All Docs\">Voir tous les documents</a></"
-"strong>"
-
 #: includes/templates/docs/manage-folders.php:19
 msgid ""
 "<strong>WARNING:</strong> Deleting a folder will also delete all Docs and "
@@ -204,7 +178,7 @@ msgstr "Ajouter nouveau"
 msgid "Add New Doc"
 msgstr "Ajouter nouveau document"
 
-#. Description of the plugin/theme
+#. Description of the plugin
 msgid "Adds collaborative Docs to BuddyPress"
 msgstr ""
 
@@ -216,8 +190,8 @@ msgstr "Administrateurs et modérateurs de %s"
 msgid "Admins and mods of the group %s"
 msgstr "Administrateurs et Modérateurs du groupe %s"
 
-#: includes/templates/docs/tabs-legacy.php:2
 #: includes/templates/docs/tabs-nouveau.php:4
+#: includes/templates/docs/tabs-legacy.php:2
 msgid "All Docs"
 msgstr "Tous les Documents"
 
@@ -266,14 +240,15 @@ msgstr "Objets associés"
 msgid "Attachment deleted"
 msgstr "Pièce jointe supprimée"
 
-#: includes/admin.php:134 includes/attachments.php:576
-#: includes/templates/docs/single/edit.php:75
-#: includes/templates/docs/single/index.php:39 includes/templatetags.php:2272
+#: includes/admin.php:134 includes/templates/docs/single/edit.php:75
+#: includes/templates/docs/single/index.php:39 includes/attachments.php:576
+#: includes/templatetags.php:2272
 msgid "Attachments"
 msgstr "Pièces jointes"
 
-#: includes/addon-history.php:420 includes/templates/docs/docs-loop-list.php:17
-#: includes/templates/docs/docs-loop.php:55
+#. translators: column name in revisons
+#: includes/addon-history.php:420 includes/templates/docs/docs-loop.php:55
+#: includes/templates/docs/docs-loop-list.php:17
 msgid "Author"
 msgstr "Auteur"
 
@@ -292,12 +267,11 @@ msgid_plural "Awaiting Moderation (%s)"
 msgstr[0] ""
 msgstr[1] ""
 
-#. Author of the plugin/theme
+#. Author of the plugin
 msgid "Boone B Gorges, David Cavins"
 msgstr ""
 
-#. #-#-#-#-#  buddypress-docs.pot (BuddyPress Docs 2.1.2)  #-#-#-#-#
-#. Plugin Name of the plugin/theme
+#. Plugin Name of the plugin
 #: includes/component.php:42
 msgid "BuddyPress Docs"
 msgstr "BuddyPress Docs"
@@ -320,8 +294,8 @@ msgstr "Paramètres de \"BuddyPress Docs\""
 msgid "BuddyPress Docs Upgrade"
 msgstr "Mise à jour de \"BuddyPress Docs\""
 
-#: includes/templates/docs/manage-folders.php:28
 #: includes/templates/docs/single/edit.php:193
+#: includes/templates/docs/manage-folders.php:28
 msgid "Cancel"
 msgstr "Annuler"
 
@@ -467,8 +441,8 @@ msgstr "Créer un document"
 msgid "Create a new folder"
 msgstr "Nouveau document"
 
-#: includes/templates/docs/docs-loop-list.php:21
 #: includes/templates/docs/docs-loop.php:60
+#: includes/templates/docs/docs-loop-list.php:21
 msgid "Created"
 msgstr "Créateur"
 
@@ -521,10 +495,6 @@ msgstr ""
 msgid "Display post date?"
 msgstr ""
 
-#: includes/class-wp-widget-recent-docs.php:44
-msgid "Displays the most recent BuddyPress Docs that the visitor can read."
-msgstr ""
-
 #: bp-docs.php:292
 msgctxt "post type singular name"
 msgid "Doc"
@@ -562,9 +532,9 @@ msgstr "Blocage levé"
 msgid "Doc successfully removed from the group"
 msgstr "Blocage levé"
 
-#: bp-docs.php:307 includes/integration-groups.php:960
-#: includes/integration-groups.php:1059 includes/integration-groups.php:1243
-#: includes/integration-groups.php:1668 includes/integration-users.php:277
+#: bp-docs.php:307 includes/integration-users.php:277
+#: includes/integration-groups.php:960 includes/integration-groups.php:1059
+#: includes/integration-groups.php:1243 includes/integration-groups.php:1668
 msgid "Docs"
 msgstr "Documents"
 
@@ -619,7 +589,7 @@ msgstr ""
 "groupe, documents que vous pouvez ensuite trier et tagger de manière à aider "
 "votre groupe a avancé"
 
-#: includes/addon-taxonomy.php:505 includes/addon-taxonomy.php:578
+#: includes/addon-taxonomy.php:505
 msgid "Docs tagged %s"
 msgstr "Documents taggés %s"
 
@@ -627,8 +597,8 @@ msgstr "Documents taggés %s"
 msgid "Doesn&#8217;t matter"
 msgstr "Sans importance"
 
-#: includes/addon-folders.php:2397 includes/integration-groups.php:973
-#: includes/templates/docs/docs-header.php:30 includes/templatetags.php:1216
+#: includes/addon-folders.php:2397 includes/templates/docs/docs-header.php:30
+#: includes/integration-groups.php:973 includes/templatetags.php:1216
 #: includes/templatetags.php:1775
 msgid "Edit"
 msgstr "Editer"
@@ -641,9 +611,10 @@ msgstr "Editer"
 msgid "Edited By %s"
 msgstr "Modifiés par %s"
 
-#: includes/component.php:206 includes/component.php:326
-#: includes/integration-users.php:314 includes/templates/docs/tabs-legacy.php:9
+#: includes/integration-users.php:314
 #: includes/templates/docs/tabs-nouveau.php:11
+#: includes/templates/docs/tabs-legacy.php:9 includes/component.php:206
+#: includes/component.php:326
 msgid "Edited By Me"
 msgstr "Modifiés par moi"
 
@@ -773,8 +744,8 @@ msgstr "Groupe:"
 msgid "Groups"
 msgstr "Groupes"
 
-#: includes/templates/docs/docs-loop-list.php:9
 #: includes/templates/docs/docs-loop.php:46
+#: includes/templates/docs/docs-loop-list.php:9
 msgid "Has attachment"
 msgstr ""
 
@@ -850,8 +821,8 @@ msgstr ""
 msgid "Just Me"
 msgstr "Moi uniquement"
 
-#: includes/templates/docs/docs-loop-list.php:25
 #: includes/templates/docs/docs-loop.php:64
+#: includes/templates/docs/docs-loop-list.php:25
 msgid "Last Edited"
 msgstr "Dernière édition"
 
@@ -875,8 +846,8 @@ msgstr "Utilisateurs connectés"
 msgid "Manage Existing Folders"
 msgstr ""
 
-#: includes/templates/docs/docs-loop-tree.php:7
 #: includes/templates/docs/docs-loop.php:30
+#: includes/templates/docs/docs-loop-tree.php:7
 msgid "Manage Folders"
 msgstr ""
 
@@ -925,8 +896,8 @@ msgstr "Mes Relations"
 msgid "My Friends"
 msgstr "Mes Relations"
 
-#: includes/templates/docs/tabs-legacy.php:12
 #: includes/templates/docs/tabs-nouveau.php:14
+#: includes/templates/docs/tabs-legacy.php:12
 msgid "My Groups"
 msgstr "Mes Groupes"
 
@@ -939,9 +910,8 @@ msgstr ""
 msgid "New"
 msgstr "Nouveau document"
 
-#: bp-docs.php:296 includes/integration-groups.php:966
-#: includes/integration-groups.php:1441
-#: includes/templates/docs/docs-header.php:40
+#: bp-docs.php:296 includes/templates/docs/docs-header.php:40
+#: includes/integration-groups.php:966 includes/integration-groups.php:1441
 msgid "New Doc"
 msgstr "Nouveau document"
 
@@ -982,7 +952,7 @@ msgstr "Aucun"
 msgid "Number of docs to show:"
 msgstr ""
 
-#: includes/attachments.php:396 includes/component.php:1006
+#: includes/component.php:1006 includes/attachments.php:396
 msgid "OK"
 msgstr ""
 
@@ -1162,9 +1132,10 @@ msgstr ""
 msgid "Started By %s"
 msgstr "Créés par %s"
 
-#: includes/component.php:199 includes/component.php:317
-#: includes/integration-users.php:305 includes/templates/docs/tabs-legacy.php:8
+#: includes/integration-users.php:305
 #: includes/templates/docs/tabs-nouveau.php:10
+#: includes/templates/docs/tabs-legacy.php:8 includes/component.php:199
+#: includes/component.php:317
 msgid "Started By Me"
 msgstr "Créés par moi"
 
@@ -1176,8 +1147,8 @@ msgstr "Travail toujours en cours ?"
 msgid "Tag"
 msgstr "Tag"
 
-#: includes/addon-taxonomy.php:292 includes/templates/docs/single/edit.php:130
-#: includes/templates/docs/single/edit.php:131
+#: includes/templates/docs/single/edit.php:130
+#: includes/templates/docs/single/edit.php:131 includes/addon-taxonomy.php:292
 msgid "Tags"
 msgstr "Tags"
 
@@ -1214,14 +1185,14 @@ msgid "There are no comments for this doc yet."
 msgstr "Il n'y a pas encore de commentaire."
 
 #: includes/templates/docs/docs-folder-loop.php:100
-#: includes/templates/docs/docs-loop-list.php:91
 #: includes/templates/docs/docs-loop.php:172
+#: includes/templates/docs/docs-loop-list.php:91
 msgid "There are no docs for this view."
 msgstr "Aucun document à afficher."
 
 #: includes/templates/docs/docs-folder-loop.php:98
-#: includes/templates/docs/docs-loop-list.php:89
 #: includes/templates/docs/docs-loop.php:170
+#: includes/templates/docs/docs-loop-list.php:89
 msgid "There are no docs for this view. Why not <a href=\"%s\">create one</a>?"
 msgstr ""
 "Il n'y a pas de document pour cette vue. Pourquoi ne pas en <a href=\"%s"
@@ -1296,9 +1267,9 @@ msgstr ""
 msgid "This folder contains no Docs."
 msgstr ""
 
-#: includes/templates/docs/docs-loop-list.php:13
-#: includes/templates/docs/docs-loop.php:50
 #: includes/templates/docs/single/edit.php:41
+#: includes/templates/docs/docs-loop.php:50
+#: includes/templates/docs/docs-loop-list.php:13
 msgid "Title"
 msgstr "Titre"
 
@@ -1335,7 +1306,7 @@ msgstr ""
 msgid "Upgrade complete!"
 msgstr "Mise à jour terminée!"
 
-#: includes/attachments.php:395 includes/component.php:1005
+#: includes/component.php:1005 includes/attachments.php:395
 msgid "Upload File"
 msgstr "Envoyer le fichier"
 
@@ -1364,8 +1335,8 @@ msgstr "Voir les documents"
 msgid "View all docs in <strong>%s</strong>."
 msgstr "Accès: <strong>%s</strong>"
 
-#: includes/templates/docs/docs-loop-list.php:78
 #: includes/templates/docs/docs-loop.php:189
+#: includes/templates/docs/docs-loop-list.php:78
 msgid "Viewing %1$s-%2$s of %3$s docs"
 msgstr "%1$s-%2$s de %3$s documents"
 
@@ -1417,10 +1388,6 @@ msgid ""
 "You are currently viewing a revision titled \"%1$s\", saved on %2$s by %3$s"
 msgstr ""
 "Vous visualisez une version nommée  \"%1$s\", enregistrée le  %2$s par %3$s"
-
-#: includes/integration-groups.php:334
-msgid "You are not allowed to associate a Doc with that group."
-msgstr "Vous n'êtes pas autorisé à associer un document à ce groupe"
 
 #: includes/templatetags.php:437
 msgid "You are searching for docs containing the term <em>%s</em>"
@@ -1510,10 +1477,10 @@ msgstr ""
 msgid "and %d more"
 msgstr ""
 
-#. Author URI of the plugin/theme
+#. Author URI of the plugin
 msgid "http://boone.gorg.es"
 msgstr ""
 
-#. Plugin URI of the plugin/theme
+#. Plugin URI of the plugin
 msgid "http://github.com/boonebgorges/buddypress-docs"
 msgstr ""

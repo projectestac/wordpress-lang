@@ -2,16 +2,18 @@
 # This file is distributed under the same license as the Plugins - BuddyPress Docs - Stable (latest release) package.
 msgid ""
 msgstr ""
+"Project-Id-Version: Plugins - BuddyPress Docs - Stable (latest release)\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/buddypress-docs\n"
+"POT-Creation-Date: 2019-04-11T16:48:11+02:00\n"
 "PO-Revision-Date: +0000\n"
+"Language: gl_ES\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: GlotPress/2.4.0-alpha\n"
-"Language: gl_ES\n"
-"Project-Id-Version: Plugins - BuddyPress Docs - Stable (latest release)\n"
 
-#: includes/templatetags.php:1654
+#: includes/templatetags.php:1659
 msgid " %s"
 msgstr ""
 
@@ -57,14 +59,14 @@ msgstr ""
 msgid "%s <span>%d</span>"
 msgstr ""
 
-#: includes/templatetags.php:1076 includes/templatetags.php:1078
+#: includes/templatetags.php:1081 includes/templatetags.php:1083
 msgid "%s member"
 msgid_plural "%s members"
 msgstr[0] ""
 msgstr[1] ""
 
 #. translators: group name
-#: includes/component.php:314 includes/integration-groups.php:1739
+#: includes/integration-groups.php:1739 includes/component.php:314
 msgid "%s&#8217;s Docs"
 msgstr ""
 
@@ -83,16 +85,12 @@ msgstr ""
 msgid "%s's Docs"
 msgstr ""
 
-#: includes/templatetags.php:1379
+#: includes/templatetags.php:1384
 msgid "&laquo;"
 msgstr ""
 
-#: includes/templatetags.php:1380
+#: includes/templatetags.php:1385
 msgid "&raquo;"
-msgstr ""
-
-#: includes/addon-taxonomy.php:376
-msgid "(%d)"
 msgstr ""
 
 #: includes/class-wp-widget-recent-docs.php:45
@@ -107,7 +105,7 @@ msgid ""
 "bottom of the parent."
 msgstr ""
 
-#: includes/templatetags.php:1020
+#: includes/templatetags.php:1025
 msgid ""
 "(Optional) Note that the Access settings available for this Doc may be "
 "limited by the privacy settings of the group you choose."
@@ -122,18 +120,13 @@ msgid "(no parent)"
 msgstr ""
 
 #. translators: %s: add new taxonomy label
-#: includes/addon-taxonomy.php:582
+#: includes/addon-taxonomy.php:676
 msgid "+ %s"
 msgstr ""
 
 #: includes/templates/docs/docs-loop.php:85
 msgctxt "up one folder"
 msgid ".."
-msgstr ""
-
-#: includes/templatetags.php:274
-msgid ""
-"<strong><a href=\"%s\" title=\"View All Docs\">View All Docs</a></strong>"
 msgstr ""
 
 #: includes/templates/docs/manage-folders.php:19
@@ -155,7 +148,7 @@ msgstr ""
 msgid "Access"
 msgstr ""
 
-#: includes/templatetags.php:1755
+#: includes/templatetags.php:1760
 msgid "Access: <strong>%s</strong>"
 msgstr ""
 
@@ -163,7 +156,7 @@ msgstr ""
 msgid "Actions"
 msgstr ""
 
-#: includes/templatetags.php:2080
+#: includes/templatetags.php:2085
 msgid "Add Files"
 msgstr ""
 
@@ -184,7 +177,7 @@ msgstr ""
 msgid "Admins and mods of %s"
 msgstr ""
 
-#: includes/templatetags.php:1675
+#: includes/templatetags.php:1680
 msgid "Admins and mods of the group %s"
 msgstr ""
 
@@ -207,7 +200,7 @@ msgid ""
 "and 'New' columns, and clicking 'Compare Revisions'."
 msgstr ""
 
-#: includes/functions.php:572 includes/templatetags.php:1666
+#: includes/functions.php:572 includes/templatetags.php:1671
 msgid "Anyone"
 msgstr ""
 
@@ -220,11 +213,11 @@ msgstr ""
 msgid "Associated Group"
 msgstr ""
 
-#: bp-docs.php:327
+#: bp-docs.php:337
 msgid "Associated Item"
 msgstr ""
 
-#: bp-docs.php:326
+#: bp-docs.php:336
 msgid "Associated Items"
 msgstr ""
 
@@ -232,19 +225,19 @@ msgstr ""
 msgid "Attachment deleted"
 msgstr ""
 
-#: includes/templates/docs/single/index.php:39
-#: includes/templates/docs/single/edit.php:75 includes/attachments.php:576
-#: includes/templatetags.php:2267 includes/admin.php:134
+#: includes/admin.php:134 includes/templates/docs/single/edit.php:75
+#: includes/templates/docs/single/index.php:39 includes/attachments.php:576
+#: includes/templatetags.php:2272
 msgid "Attachments"
 msgstr ""
 
 #. translators: column name in revisons
-#: includes/templates/docs/docs-loop.php:55
-#: includes/templates/docs/docs-loop-list.php:17 includes/addon-history.php:420
+#: includes/addon-history.php:420 includes/templates/docs/docs-loop.php:55
+#: includes/templates/docs/docs-loop-list.php:17
 msgid "Author"
 msgstr ""
 
-#: includes/templatetags.php:2355 includes/addon-moderation.php:59
+#: includes/addon-moderation.php:59 includes/templatetags.php:2360
 msgid "Awaiting Moderation"
 msgstr ""
 
@@ -361,11 +354,11 @@ msgstr ""
 msgid "Commented on a Doc"
 msgstr ""
 
-#: includes/templatetags.php:1694
+#: includes/templatetags.php:1699
 msgid "Comments are visible to: <strong>%s</strong>"
 msgstr ""
 
-#: includes/templatetags.php:1698
+#: includes/templatetags.php:1703
 msgid "Comments can be posted by: <strong>%s</strong>"
 msgstr ""
 
@@ -405,7 +398,7 @@ msgstr ""
 msgid "Create"
 msgstr ""
 
-#: includes/component.php:213 includes/templatetags.php:1591
+#: includes/component.php:213 includes/templatetags.php:1596
 msgid "Create New Doc"
 msgstr ""
 
@@ -435,8 +428,8 @@ msgstr ""
 msgid "Date Created"
 msgstr ""
 
-#: includes/templates/docs/manage-folders.php:27
-#: includes/addon-folders.php:2373 includes/templatetags.php:2194
+#: includes/addon-folders.php:2373
+#: includes/templates/docs/manage-folders.php:27 includes/templatetags.php:2199
 msgid "Delete"
 msgstr ""
 
@@ -472,10 +465,6 @@ msgstr ""
 msgid "Display post date?"
 msgstr ""
 
-#: includes/class-wp-widget-recent-docs.php:44
-msgid "Displays the most recent BuddyPress Docs that the visitor can read."
-msgstr ""
-
 #: bp-docs.php:292
 msgctxt "post type singular name"
 msgid "Doc"
@@ -509,9 +498,9 @@ msgstr ""
 msgid "Doc successfully removed from the group"
 msgstr ""
 
-#: bp-docs.php:307 includes/integration-groups.php:960
-#: includes/integration-groups.php:1059 includes/integration-groups.php:1243
-#: includes/integration-groups.php:1668 includes/integration-users.php:277
+#: bp-docs.php:307 includes/integration-users.php:277
+#: includes/integration-groups.php:960 includes/integration-groups.php:1059
+#: includes/integration-groups.php:1243 includes/integration-groups.php:1668
 msgid "Docs"
 msgstr ""
 
@@ -559,7 +548,7 @@ msgid ""
 "tag in a way that helps your group to get work done."
 msgstr ""
 
-#: includes/addon-taxonomy.php:485
+#: includes/addon-taxonomy.php:505
 msgid "Docs tagged %s"
 msgstr ""
 
@@ -567,9 +556,9 @@ msgstr ""
 msgid "Doesn&#8217;t matter"
 msgstr ""
 
-#: includes/templates/docs/docs-header.php:30 includes/addon-folders.php:2397
-#: includes/integration-groups.php:973 includes/templatetags.php:1211
-#: includes/templatetags.php:1770
+#: includes/addon-folders.php:2397 includes/templates/docs/docs-header.php:30
+#: includes/integration-groups.php:973 includes/templatetags.php:1216
+#: includes/templatetags.php:1775
 msgid "Edit"
 msgstr ""
 
@@ -581,9 +570,10 @@ msgstr ""
 msgid "Edited By %s"
 msgstr ""
 
-#: includes/component.php:206 includes/component.php:326
+#: includes/integration-users.php:314
 #: includes/templates/docs/tabs-nouveau.php:11
-#: includes/templates/docs/tabs-legacy.php:9 includes/integration-users.php:314
+#: includes/templates/docs/tabs-legacy.php:9 includes/component.php:206
+#: includes/component.php:326
 msgid "Edited By Me"
 msgstr ""
 
@@ -618,7 +608,7 @@ msgstr ""
 msgid "Filter"
 msgstr ""
 
-#: includes/templatetags.php:284
+#: includes/templatetags.php:289
 msgid "Filter by: %s"
 msgstr ""
 
@@ -692,7 +682,7 @@ msgstr ""
 msgid "Group-specific"
 msgstr ""
 
-#: includes/templatetags.php:1652
+#: includes/templatetags.php:1657
 msgid "Group: "
 msgstr ""
 
@@ -709,11 +699,11 @@ msgstr ""
 msgid "Has attachment?"
 msgstr ""
 
-#: includes/templatetags.php:1091
+#: includes/templatetags.php:1096
 msgid "Hidden Group"
 msgstr ""
 
-#: includes/templatetags.php:1772
+#: includes/templatetags.php:1777
 msgid "Hide Details"
 msgstr ""
 
@@ -722,11 +712,11 @@ msgid "Hide Folders"
 msgstr ""
 
 #: includes/addon-history.php:448 includes/integration-groups.php:975
-#: includes/templatetags.php:1215
+#: includes/templatetags.php:1220
 msgid "History"
 msgstr ""
 
-#: includes/templatetags.php:1702
+#: includes/templatetags.php:1707
 msgid "History can be viewed by: <strong>%s</strong>"
 msgstr ""
 
@@ -768,7 +758,7 @@ msgid ""
 "following setting in your site configuration file:"
 msgstr ""
 
-#: includes/templatetags.php:1670
+#: includes/templatetags.php:1675
 msgid "Just Me"
 msgstr ""
 
@@ -777,7 +767,7 @@ msgstr ""
 msgid "Last Edited"
 msgstr ""
 
-#: includes/templatetags.php:1750
+#: includes/templatetags.php:1755
 msgid "Limited"
 msgstr ""
 
@@ -789,7 +779,7 @@ msgstr ""
 msgid "Locked"
 msgstr ""
 
-#: includes/functions.php:548 includes/templatetags.php:1667
+#: includes/functions.php:548 includes/templatetags.php:1672
 msgid "Logged-in Users"
 msgstr ""
 
@@ -806,7 +796,7 @@ msgstr ""
 msgid "Members of %s"
 msgstr ""
 
-#: includes/templatetags.php:1674
+#: includes/templatetags.php:1679
 msgid "Members of: %s"
 msgstr ""
 
@@ -826,11 +816,11 @@ msgstr ""
 msgid "Minimum role to associate Docs with this group:"
 msgstr ""
 
-#: includes/addon-taxonomy.php:558
+#: includes/addon-taxonomy.php:652
 msgid "Most Used"
 msgstr ""
 
-#: includes/templatetags.php:1324
+#: includes/templatetags.php:1329
 msgid "Move to Trash"
 msgstr ""
 
@@ -842,7 +832,7 @@ msgstr ""
 msgid "My Folders"
 msgstr ""
 
-#: includes/templatetags.php:1668
+#: includes/templatetags.php:1673
 msgid "My Friends"
 msgstr ""
 
@@ -889,11 +879,11 @@ msgstr ""
 msgid "No comments yet."
 msgstr ""
 
-#: includes/addon-taxonomy.php:381
+#: includes/addon-taxonomy.php:401
 msgid "No tags to show."
 msgstr ""
 
-#: includes/templatetags.php:953
+#: includes/templatetags.php:958
 msgid "None"
 msgstr ""
 
@@ -918,8 +908,8 @@ msgstr ""
 msgid "Options"
 msgstr ""
 
-#: includes/templates/docs/single/edit.php:159
-#: includes/templates/docs/single/edit.php:160 includes/addon-folders.php:2405
+#: includes/addon-folders.php:2405 includes/templates/docs/single/edit.php:159
+#: includes/templates/docs/single/edit.php:160
 msgid "Parent"
 msgstr ""
 
@@ -935,7 +925,7 @@ msgstr ""
 msgid "Permalink"
 msgstr ""
 
-#: includes/templatetags.php:1321 includes/templatetags.php:1326
+#: includes/templatetags.php:1326 includes/templatetags.php:1331
 msgid "Permanently Delete"
 msgstr ""
 
@@ -953,23 +943,23 @@ msgid ""
 "\">force cancel</a> the edit lock."
 msgstr ""
 
-#: includes/templatetags.php:1744
+#: includes/templatetags.php:1749
 msgid "Private"
 msgstr ""
 
-#: includes/templatetags.php:1087
+#: includes/templatetags.php:1092
 msgid "Private Group"
 msgstr ""
 
-#: includes/templatetags.php:1747
+#: includes/templatetags.php:1752
 msgid "Public"
 msgstr ""
 
-#: includes/templatetags.php:1083
+#: includes/templatetags.php:1088
 msgid "Public Group"
 msgstr ""
 
-#: includes/templates/docs/docs-header.php:25 includes/templatetags.php:1208
+#: includes/templates/docs/docs-header.php:25 includes/templatetags.php:1213
 msgid "Read"
 msgstr ""
 
@@ -981,7 +971,7 @@ msgstr ""
 msgid "Recent Comments"
 msgstr ""
 
-#: includes/templatetags.php:1319
+#: includes/templatetags.php:1324
 msgid "Remove from Trash"
 msgstr ""
 
@@ -1052,7 +1042,7 @@ msgstr ""
 msgid "Settings updated."
 msgstr ""
 
-#: includes/templatetags.php:1756
+#: includes/templatetags.php:1761
 msgid "Show Details"
 msgstr ""
 
@@ -1072,9 +1062,10 @@ msgstr ""
 msgid "Started By %s"
 msgstr ""
 
-#: includes/component.php:199 includes/component.php:317
+#: includes/integration-users.php:305
 #: includes/templates/docs/tabs-nouveau.php:10
-#: includes/templates/docs/tabs-legacy.php:8 includes/integration-users.php:305
+#: includes/templates/docs/tabs-legacy.php:8 includes/component.php:199
+#: includes/component.php:317
 msgid "Started By Me"
 msgstr ""
 
@@ -1082,12 +1073,12 @@ msgstr ""
 msgid "Still working?"
 msgstr ""
 
-#: includes/addon-taxonomy.php:335
+#: includes/addon-taxonomy.php:351
 msgid "Tag"
 msgstr ""
 
 #: includes/templates/docs/single/edit.php:130
-#: includes/templates/docs/single/edit.php:131 includes/addon-taxonomy.php:276
+#: includes/templates/docs/single/edit.php:131 includes/addon-taxonomy.php:292
 msgid "Tags"
 msgstr ""
 
@@ -1105,11 +1096,11 @@ msgid ""
 "before your new Docs is ready to use."
 msgstr ""
 
-#: includes/functions.php:553 includes/templatetags.php:1669
+#: includes/functions.php:553 includes/templatetags.php:1674
 msgid "The Doc author only"
 msgstr ""
 
-#: includes/templatetags.php:1679
+#: includes/templatetags.php:1684
 msgid "The Doc author only (that's you!)"
 msgstr ""
 
@@ -1121,15 +1112,15 @@ msgstr ""
 msgid "There are no comments for this doc yet."
 msgstr ""
 
+#: includes/templates/docs/docs-folder-loop.php:100
 #: includes/templates/docs/docs-loop.php:172
 #: includes/templates/docs/docs-loop-list.php:91
-#: includes/templates/docs/docs-folder-loop.php:100
 msgid "There are no docs for this view."
 msgstr ""
 
+#: includes/templates/docs/docs-folder-loop.php:98
 #: includes/templates/docs/docs-loop.php:170
 #: includes/templates/docs/docs-loop-list.php:89
-#: includes/templates/docs/docs-folder-loop.php:98
 msgid "There are no docs for this view. Why not <a href=\"%s\">create one</a>?"
 msgstr ""
 
@@ -1158,19 +1149,19 @@ msgstr ""
 msgid "These revisions are identical."
 msgstr ""
 
-#: includes/templatetags.php:1690
+#: includes/templatetags.php:1695
 msgid "This Doc can be edited by: <strong>%s</strong>"
 msgstr ""
 
-#: includes/templatetags.php:1686
+#: includes/templatetags.php:1691
 msgid "This Doc can be read by: <strong>%s</strong>"
 msgstr ""
 
-#: includes/templatetags.php:2355
+#: includes/templatetags.php:2360
 msgid "This Doc is awaiting moderation"
 msgstr ""
 
-#: includes/templates/docs/docs-header.php:16 includes/templatetags.php:2353
+#: includes/templates/docs/docs-header.php:16 includes/templatetags.php:2358
 msgid "This Doc is in the Trash"
 msgstr ""
 
@@ -1194,9 +1185,9 @@ msgstr ""
 msgid "This folder contains no Docs."
 msgstr ""
 
+#: includes/templates/docs/single/edit.php:41
 #: includes/templates/docs/docs-loop.php:50
 #: includes/templates/docs/docs-loop-list.php:13
-#: includes/templates/docs/single/edit.php:41
 msgid "Title"
 msgstr ""
 
@@ -1204,7 +1195,7 @@ msgstr ""
 msgid "Title:"
 msgstr ""
 
-#: includes/templates/docs/docs-header.php:16 includes/templatetags.php:2353
+#: includes/templates/docs/docs-header.php:16 includes/templatetags.php:2358
 msgid "Trash"
 msgstr ""
 
@@ -1220,7 +1211,7 @@ msgstr ""
 msgid "Unlink from Group"
 msgstr ""
 
-#: includes/templatetags.php:1219
+#: includes/templatetags.php:1224
 msgid "Untrash"
 msgstr ""
 
@@ -1275,27 +1266,27 @@ msgid ""
 "current group or displayed user&rsquo;s docs."
 msgstr ""
 
-#: includes/templatetags.php:1019
+#: includes/templatetags.php:1024
 msgid "Which group should this Doc be associated with?"
 msgstr ""
 
-#: includes/templatetags.php:1136
+#: includes/templatetags.php:1141
 msgid "Who can edit this doc?"
 msgstr ""
 
-#: includes/templatetags.php:1144
+#: includes/templatetags.php:1149
 msgid "Who can post comments on this doc?"
 msgstr ""
 
-#: includes/templatetags.php:1140
+#: includes/templatetags.php:1145
 msgid "Who can read comments on this doc?"
 msgstr ""
 
-#: includes/templatetags.php:1132
+#: includes/templatetags.php:1137
 msgid "Who can read this doc?"
 msgstr ""
 
-#: includes/templatetags.php:1148
+#: includes/templatetags.php:1153
 msgid "Who can view the history of this doc?"
 msgstr ""
 
@@ -1312,11 +1303,7 @@ msgid ""
 "You are currently viewing a revision titled \"%1$s\", saved on %2$s by %3$s"
 msgstr ""
 
-#: includes/integration-groups.php:334
-msgid "You are not allowed to associate a Doc with that group."
-msgstr ""
-
-#: includes/templatetags.php:432
+#: includes/templatetags.php:437
 msgid "You are searching for docs containing the term <em>%s</em>"
 msgstr ""
 
@@ -1330,7 +1317,7 @@ msgid_plural "You are viewing docs in the following folders: %s"
 msgstr[0] ""
 msgstr[1] ""
 
-#: includes/addon-taxonomy.php:326
+#: includes/addon-taxonomy.php:342
 msgid "You are viewing docs with the following tags: %s"
 msgstr ""
 
@@ -1342,7 +1329,7 @@ msgstr ""
 msgid "You do not have permission to delete that doc."
 msgstr ""
 
-#: bp-docs.php:628
+#: bp-docs.php:638
 msgid "You do not have permission to do that."
 msgstr ""
 

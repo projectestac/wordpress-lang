@@ -4,22 +4,22 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Plugins - BuddyPress Like - Development (trunk)\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/buddypress-like\n"
-"POT-Creation-Date: 2019-04-05 07:48:20+00:00\n"
-"PO-Revision-Date: 2018-07-17 23:13+0200\n"
-"Last-Translator: Mònica Grau <mgrau226@xtec.cat>\n"
+"POT-Creation-Date: 2019-04-11T16:48:12+02:00\n"
+"PO-Revision-Date: 2019-04-11 17:11+0200\n"
+"Last-Translator: Joan Sala Soler <jsala236@xtec.cat>\n"
 "Language-Team: \n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Poedit 2.0.7\n"
+"X-Generator: Poedit 2.0.6\n"
 
 #: admin/admin.php:134 includes/admin.php:149
 msgid " Currently only uses jQuery to remove the buttons."
 msgstr "Actualment només s'utilitza jQuery per esborrar els botons."
 
-#: admin/admin.php:111 includes/admin.php:116 includes/admin.php:118
+#: includes/admin.php:116
 msgid " liked Darren's activity. "
 msgstr "li ha agradat l'activitat del Darren."
 
@@ -59,46 +59,6 @@ msgstr ""
 "\n"
 "---------------------\n"
 
-#: includes/notifications.php:450
-msgid "%1$s mentioned you"
-msgstr "%1$s us ha mencionat"
-
-#: includes/notifications.php:336
-msgid ""
-"%1$s replied to one of your comments:\n"
-"\n"
-"\"%2$s\"\n"
-"\n"
-"To view the original activity, your comment and all replies, log in and visit: %3$s\n"
-"\n"
-"---------------------\n"
-msgstr ""
-"%1$s ha respost a un dels vostres comentaris:\n"
-"\n"
-"\"%2$s\"\n"
-"\n"
-"per veure l'activitat original, el vostre comentari i totes les respostes, inicieu sessió i visiteu: %3$s\n"
-"\n"
-"---------------------\n"
-
-#: includes/notifications.php:248
-msgid ""
-"%1$s replied to one of your updates:\n"
-"\n"
-"\"%2$s\"\n"
-"\n"
-"To view your original update and all comments, log in and visit: %3$s\n"
-"\n"
-"---------------------\n"
-msgstr ""
-"%1$s ha respost a una de les vostres actualitzacions:\n"
-"\n"
-"\"%2$s\"\n"
-"\n"
-"Per veure l'actualització original i tots els comentaris, inicieu sessió i visiteu: %3$s\n"
-"\n"
-"---------------------\n"
-
 #: includes/install-functions.php:94 includes/install-functions.php:95
 #: includes/install.php:92 includes/install.php:93
 msgid "%count% people like this."
@@ -109,8 +69,8 @@ msgstr "%count% persones els ha agradat això."
 msgid "%count% person likes this."
 msgstr "%count% persona li ha agradat això."
 
-#: includes/install-functions.php:106 includes/install-functions.php:107
-#: includes/notifications.php:102
+#: includes/notifications.php:102 includes/install-functions.php:106
+#: includes/install-functions.php:107
 msgid "%s and %s like this."
 msgstr "%s i %s els agrada això."
 
@@ -126,31 +86,27 @@ msgstr "%s els ha agradat la vostra actualització"
 msgid "%s likes this."
 msgstr "%s els agrada això."
 
-#: includes/notifications.php:331
-msgid "%s replied to one of your comments"
-msgstr "%s han respost a un dels vostres comentaris"
-
-#: includes/notifications.php:247
-msgid "%s replied to one of your updates"
-msgstr "%s ha respost a una de les vostres actualitzacions"
+#: includes/notifications.php:98
+msgid "%s, %s and %d "
+msgstr "%s, %s i %d "
 
 #: includes/install-functions.php:58 includes/install-functions.php:59
 msgid "%user% liked %author%'s <a href=\"%permalink%\">update</a>"
 msgstr ""
-"A %user% li ha agradat l'article de %author%' al blog <a "
-"href=\"%permalink%\">actualitza</a>"
+"A %user% li ha agradat l'article de %author%' al blog <a href=\"%permalink%"
+"\">actualitza</a>"
 
 #: includes/install-functions.php:70 includes/install-functions.php:71
 msgid "%user% liked %author%'s blog post, <a href=\"%permalink%\">%title%</a>"
 msgstr ""
-"A %user% li ha agradat l'enviament de %author% al blog, <a "
-"href=\"%permalink%\">%title%</a>"
+"A %user% li ha agradat l'enviament de %author% al blog, <a href=\"%permalink%"
+"\">%title%</a>"
 
 #: includes/install-functions.php:66
 msgid "%user% liked a blog post, <a href=\"%permalink%\">%title%</a>"
 msgstr ""
-"A %user% li ha agradat un enviament al blog, <a "
-"href=\"%permalink%\">%title%</a>"
+"A %user% li ha agradat un enviament al blog, <a href=\"%permalink%\">%title"
+"%</a>"
 
 #: includes/install-functions.php:54 includes/install-functions.php:55
 msgid "%user% liked an <a href=\"%permalink%\">update</a>"
@@ -159,20 +115,20 @@ msgstr "A %user% li ha agradat una <a href=\"%permalink%\">actualització</a>"
 #: includes/install-functions.php:67
 msgid "%user% liked an blog post, <a href=\"%permalink%\">%title%</a>"
 msgstr ""
-"A %user% li ha agradat un enviament al blog, <a "
-"href=\"%permalink%\">%title%</a>"
+"A %user% li ha agradat un enviament al blog, <a href=\"%permalink%\">%title"
+"%</a>"
 
 #: includes/install-functions.php:50 includes/install-functions.php:51
 msgid "%user% liked their own <a href=\"%permalink%\">update</a>"
 msgstr ""
-"A %user% li ha agradat la seva pròpia <a "
-"href=\"%permalink%\">actualització</a>"
+"A %user% li ha agradat la seva pròpia <a href=\"%permalink%\">actualització</"
+"a>"
 
 #: includes/install-functions.php:62 includes/install-functions.php:63
 msgid "%user% liked their own blog post, <a href=\"%permalink%\">%title%</a>"
 msgstr ""
-"A %user% li ha agradat el seu propi enviament al blog, <a "
-"href=\"%permalink%\">%title%</a>"
+"A %user% li ha agradat el seu propi enviament al blog, <a href=\"%permalink%"
+"\">%title%</a>"
 
 #: includes/install.php:56 includes/install.php:57
 msgid "%user% likes %author%'s <a href=\"%permalink%\">activity</a>"
@@ -181,8 +137,8 @@ msgstr "A %user% li agrada l'<a href=\"%permalink%\">activitat</a> de %author%"
 #: includes/install.php:68 includes/install.php:69
 msgid "%user% likes %author%'s blog post, <a href=\"%permalink%\">%title%</a>"
 msgstr ""
-"A %user% li agrada un enviament al blog de %author%, <a "
-"href=\"%permalink%\">%title%</a>"
+"A %user% li agrada un enviament al blog de %author%, <a href=\"%permalink%\">"
+"%title%</a>"
 
 #: includes/install.php:64
 msgid "%user% likes a blog post, <a href=\"%permalink%\">%title%</a>"
@@ -200,35 +156,31 @@ msgstr ""
 
 #: includes/install.php:48 includes/install.php:49
 msgid "%user% likes their own <a href=\"%permalink%\">activity</a>"
-msgstr "A %user% li agrada la seva pròpia <a href=\"%permalink%\">activitat</a>"
+msgstr ""
+"A %user% li agrada la seva pròpia <a href=\"%permalink%\">activitat</a>"
 
 #: includes/install.php:60 includes/install.php:61
 msgid "%user% likes their own blog post, <a href=\"%permalink%\">%title%</a>"
 msgstr ""
-"A %user% li agrada el seu propi enviament al blog, <a "
-"href=\"%permalink%\">%title%</a>"
+"A %user% li agrada el seu propi enviament al blog, <a href=\"%permalink%\">"
+"%title%</a>"
 
 #: includes/install-functions.php:241
 msgid ""
-"<strong>BuddyPress Like</strong> has been successfully updated to version "
-"%s."
+"<strong>BuddyPress Like</strong> has been successfully updated to version %s."
 msgstr "S'ha actualitzat el <strong>BuddyPress Like</strong> a la versió %s."
 
 #: includes/install-functions.php:253
 msgid ""
-"<strong>BuddyPress Like</strong></a> requires the BuddyPress plugin to work."
-" Please <a href=\"http://buddypress.org\">install BuddyPress</a> first, or "
-"<a href=\"plugins.php\">deactivate BuddyPress Like</a>."
+"<strong>BuddyPress Like</strong></a> requires the BuddyPress plugin to work. "
+"Please <a href=\"http://buddypress.org\">install BuddyPress</a> first, or <a "
+"href=\"plugins.php\">deactivate BuddyPress Like</a>."
 msgstr ""
 "El <strong>BuddyPress Like</strong> requereix l'extensió BuddyPress per "
 "funcionar. Instal·leu el <a href=\"http://buddypress.org\">BuddyPress</a> "
 "primer o  <a href=\"plugins.php\">desinstal·leu el BuddyPress Like</a>."
 
-#: includes/notifications.php:442
-msgid "@%s Mentions"
-msgstr "@%s mencions"
-
-#. Description of the plugin/theme
+#. Description of the plugin
 msgid ""
 "Adds the ability for users to like content throughout your BuddyPress site."
 msgstr ""
@@ -239,19 +191,17 @@ msgstr ""
 msgid "Blog Post Likes"
 msgstr "\"M'agrada\" d'enviaments de blog"
 
-#. #-#-#-#-#  buddypress-like.pot (BuddyPress Like 0.3.0)  #-#-#-#-#
-#. Plugin Name of the plugin/theme
-#: admin/admin.php:79 includes/admin.php:81
+#. Plugin Name of the plugin
 msgid "BuddyPress Like"
 msgstr "BuddyPress Like"
 
-#: admin/admin.php:173 includes/admin.php:196 includes/admin.php:198
+#: admin/admin.php:173 includes/admin.php:196
 msgid ""
 "Change what messages are shown to users. For example, they can 'love' or "
 "'dig' items instead of liking them."
 msgstr ""
-"Canvia els textos que veuen els usuaris. Per exemple, \"M'encanta\" o "
-"\"Mola\" en lloc de \"M'agrada\"."
+"Canvia els textos que veuen els usuaris. Per exemple, \"M'encanta\" o \"Mola"
+"\" en lloc de \"M'agrada\"."
 
 #: admin/admin.php:183 includes/admin.php:212
 msgid "Custom"
@@ -262,7 +212,7 @@ msgstr "Personalitza"
 msgid "Custom Messages"
 msgstr "Missatges personalitzats"
 
-#. Author of the plugin/theme
+#. Author of the plugin
 msgid "Darren Meehan"
 msgstr "Darren Meehan"
 
@@ -314,8 +264,8 @@ msgstr ""
 msgid ""
 "None of your friends like this yet, but you and %count% other person does."
 msgstr ""
-"Cap dels teus amics ha clicat a m'agrada, però tu i %count% altra persona ho"
-" heu fet."
+"Cap dels teus amics ha clicat a m'agrada, però tu i %count% altra persona ho "
+"heu fet."
 
 #: admin/admin.php:109 includes/admin.php:111
 msgid "Post an activity update when something is liked"
@@ -335,13 +285,9 @@ msgstr "Esborra el botó de favorit"
 msgid "Remove the BuddyPress favorite button from activity."
 msgstr "Esborra el botó de favorit del BuddyPress de l'activitat."
 
-#: admin/admin.php:202 includes/admin.php:234 includes/admin.php:236
+#: includes/admin.php:234
 msgid "Save Changes"
 msgstr "Desa els canvis"
-
-#: admin/admin.php:74 includes/admin.php:76
-msgid "Settings saved."
-msgstr "S'han desat els paràmetres."
 
 #: includes/install.php:37 includes/install.php:38
 msgid "Show Activity Likes"
@@ -355,16 +301,11 @@ msgstr "Mostra els m'agrada dels enviaments del blog"
 msgid "Show a short excerpt of the activity that has been liked."
 msgstr "Mostra un petit extracte de l'activitat on s'ha clicat m'agrada"
 
-#: includes/install-functions.php:46 includes/install-functions.php:47
-#: includes/install.php:45 includes/install.php:46
-#: includes/like-functions.php:182
+#: includes/like-functions.php:182 includes/install-functions.php:46
+#: includes/install-functions.php:47 includes/install.php:45
+#: includes/install.php:46
 msgid "Sorry, you must be logged in to like that."
 msgstr "Heu d'estar autenticats per poder fer clic a m'agrada"
-
-#: includes/notifications.php:143 includes/notifications.php:260
-#: includes/notifications.php:348
-msgid "To disable these notifications please log in and go to: %s"
-msgstr "Per a desactivar aquestes notificacions, connecteu-vos i aneu a: %s"
 
 #: includes/install-functions.php:18 includes/install-functions.php:19
 #: includes/install.php:17 includes/install.php:18
@@ -403,14 +344,6 @@ msgstr "A tu i a %s us agrada."
 msgid "You are the only person who likes this so far."
 msgstr "Ets l'única persona que ha clicat a m'agrada."
 
-#: admin/admin.php:30 includes/admin.php:31
-msgid "You do not have permission to do that."
-msgstr "No teniu permís per fer això."
-
-#: includes/notifications.php:446
-msgid "You have %1$d new mentions"
-msgstr "Teniu %1$d mencions noves"
-
 #: includes/install-functions.php:74 includes/install-functions.php:75
 msgid "You like this."
 msgstr "T'ha agradat."
@@ -425,15 +358,15 @@ msgstr "i %count% persones els ha agradat això."
 msgid "and %count% other person like this."
 msgstr "i %count% persona li ha agradat això."
 
-#: admin/admin.php:111 includes/admin.php:116 includes/admin.php:118
+#: includes/admin.php:116
 msgid "e.g. "
 msgstr "p. ex.: "
 
-#. Author URI of the plugin/theme
+#. Author URI of the plugin
 msgid "http://darrenmeehan.me"
 msgstr "http://darrenmeehan.me"
 
-#. Plugin URI of the plugin/theme
+#. Plugin URI of the plugin
 msgid "http://darrenmeehan.me/"
 msgstr "http://darrenmeehan.me/"
 
@@ -444,9 +377,3 @@ msgstr "li agrada."
 #: includes/install.php:104 includes/install.php:105
 msgid "likes this."
 msgstr "li agrada això."
-
-#: includes/like-functions.php:424 includes/like-functions.php:484
-msgid "other"
-msgid_plural "others"
-msgstr[0] "altre"
-msgstr[1] "altres"

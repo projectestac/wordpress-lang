@@ -1,17 +1,38 @@
-# Copyright (C) 2019 Table of Contents Plus
-# This file is distributed under the same license as the Table of Contents Plus package.
+# Copyright (C) 2019 Michael Tran
+# This file is distributed under the same license as the Table of Contents Plus plugin.
 msgid ""
 msgstr ""
 "Project-Id-Version: Table of Contents Plus 1601\n"
-"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/table-of-contents-"
-"plus\n"
-"POT-Creation-Date: 2019-04-05 07:48:22+00:00\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/table-of-contents-plus\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2019-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2019-04-11T16:48:51+02:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.1.0\n"
+"X-Domain: table-of-contents-plus\n"
+
+#. Plugin Name of the plugin
+msgid "Table of Contents Plus"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "http://dublue.com/plugins/toc/"
+msgstr ""
+
+#. Description of the plugin
+msgid "A powerful yet user friendly plugin that automatically creates a table of contents. Can also output a sitemap listing all pages and categories."
+msgstr ""
+
+#. Author of the plugin
+msgid "Michael Tran"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://dublue.com/"
+msgstr ""
 
 #: toc.php:113
 msgid "Contents"
@@ -21,15 +42,20 @@ msgstr ""
 msgid "Settings"
 msgstr ""
 
-#: toc.php:524 toc.php:564 toc.php:1079 toc.php:1290
+#: toc.php:524
+#: toc.php:564
+#: toc.php:1079
+#: toc.php:1290
 msgid "show"
 msgstr ""
 
-#: toc.php:525 toc.php:563
+#: toc.php:525
+#: toc.php:563
 msgid "hide"
 msgstr ""
 
-#: toc.php:576 toc.php:577
+#: toc.php:576
+#: toc.php:577
 msgid "TOC"
 msgstr ""
 
@@ -107,8 +133,7 @@ msgstr ""
 msgid "Show text"
 msgstr ""
 
-#. translators: example text to display when you want to expand the table of
-#. contents
+#. translators: example text to display when you want to expand the table of contents
 #: toc.php:884
 msgid "Eg: show"
 msgstr ""
@@ -117,8 +142,7 @@ msgstr ""
 msgid "Hide text"
 msgstr ""
 
-#. translators: example text to display when you want to collapse the table of
-#. contents
+#. translators: example text to display when you want to collapse the table of contents
 #: toc.php:891
 msgid "Eg: hide"
 msgstr ""
@@ -234,7 +258,8 @@ msgstr ""
 msgid "Border"
 msgstr ""
 
-#: toc.php:1042 toc.php:1905
+#: toc.php:1042
+#: toc.php:1905
 msgid "Title"
 msgstr ""
 
@@ -291,9 +316,7 @@ msgid "Exclude CSS file"
 msgstr ""
 
 #: toc.php:1109
-msgid ""
-"Prevent the loading of this plugin's CSS styles. When selected, the "
-"appearance options from above will also be ignored."
+msgid "Prevent the loading of this plugin's CSS styles. When selected, the appearance options from above will also be ignored."
 msgstr ""
 
 #: toc.php:1112
@@ -301,9 +324,7 @@ msgid "Preserve theme bullets"
 msgstr ""
 
 #: toc.php:1113
-msgid ""
-"If your theme includes background images for unordered list elements, enable "
-"this to support them"
+msgid "If your theme includes background images for unordered list elements, enable this to support them"
 msgstr ""
 
 #: toc.php:1127
@@ -311,8 +332,7 @@ msgid "Heading levels"
 msgstr ""
 
 #: toc.php:1129
-msgid ""
-"Include the following heading levels. Deselecting a heading will exclude it."
+msgid "Include the following heading levels. Deselecting a heading will exclude it."
 msgstr ""
 
 #: toc.php:1138
@@ -324,11 +344,7 @@ msgid "Exclude headings"
 msgstr ""
 
 #: toc.php:1152
-msgid ""
-"Specify headings to be excluded from appearing in the table of contents.  "
-"Separate multiple headings with a pipe <code>|</code>.  Use an asterisk "
-"<code>*</code> as a wildcard to match other text.  Note that this is not "
-"case sensitive. Some examples:"
+msgid "Specify headings to be excluded from appearing in the table of contents.  Separate multiple headings with a pipe <code>|</code>.  Use an asterisk <code>*</code> as a wildcard to match other text.  Note that this is not case sensitive. Some examples:"
 msgstr ""
 
 #: toc.php:1154
@@ -336,15 +352,11 @@ msgid "<code>Fruit*</code> ignore headings starting with \"Fruit\""
 msgstr ""
 
 #: toc.php:1155
-msgid ""
-"<code>*Fruit Diet*</code> ignore headings with \"Fruit Diet\" somewhere in "
-"the heading"
+msgid "<code>*Fruit Diet*</code> ignore headings with \"Fruit Diet\" somewhere in the heading"
 msgstr ""
 
 #: toc.php:1156
-msgid ""
-"<code>Apple Tree|Oranges|Yellow Bananas</code> ignore headings that are "
-"exactly \"Apple Tree\", \"Oranges\" or \"Yellow Bananas\""
+msgid "<code>Apple Tree|Oranges|Yellow Bananas</code> ignore headings that are exactly \"Apple Tree\", \"Oranges\" or \"Yellow Bananas\""
 msgstr ""
 
 #: toc.php:1172
@@ -352,11 +364,7 @@ msgid "Smooth scroll top offset"
 msgstr ""
 
 #: toc.php:1175
-msgid ""
-"If you have a consistent menu across the top of your site, you can adjust "
-"the top offset to stop the headings from appearing underneath the top menu. "
-"A setting of 30 accommodates the WordPress admin bar. This setting appears "
-"after you have enabled smooth scrolling from above."
+msgid "If you have a consistent menu across the top of your site, you can adjust the top offset to stop the headings from appearing underneath the top menu. A setting of 30 accommodates the WordPress admin bar. This setting appears after you have enabled smooth scrolling from above."
 msgstr ""
 
 #: toc.php:1190
@@ -364,10 +372,7 @@ msgid "Restrict path"
 msgstr ""
 
 #: toc.php:1193
-msgid ""
-"Restrict generation of the table of contents to pages that match the "
-"required path. This path is from the root of your site and always begins "
-"with a forward slash."
+msgid "Restrict generation of the table of contents to pages that match the required path. This path is from the root of your site and always begins with a forward slash."
 msgstr ""
 
 #. translators: example URL path restriction
@@ -380,17 +385,11 @@ msgid "Default anchor prefix"
 msgstr ""
 
 #: toc.php:1214
-msgid ""
-"Anchor targets are restricted to alphanumeric characters as per HTML "
-"specification (see readme for more detail). The default anchor prefix will "
-"be used when no characters qualify. When left blank, a number will be used "
-"instead."
+msgid "Anchor targets are restricted to alphanumeric characters as per HTML specification (see readme for more detail). The default anchor prefix will be used when no characters qualify. When left blank, a number will be used instead."
 msgstr ""
 
 #: toc.php:1215
-msgid ""
-"This option normally applies to content written in character sets other than "
-"ASCII."
+msgid "This option normally applies to content written in character sets other than ASCII."
 msgstr ""
 
 #. translators: example anchor prefixes when no ascii characters match
@@ -404,18 +403,11 @@ msgid "Usage"
 msgstr ""
 
 #: toc.php:1238
-msgid ""
-"If you would like to fully customise the position of the table of contents, "
-"you can use the %s shortcode by placing it at the desired position of your "
-"post, page or custom post type. This method allows you to generate the table "
-"of contents despite having auto insertion disabled for its content type. "
-"Please visit the help tab for further information about this shortcode."
+msgid "If you would like to fully customise the position of the table of contents, you can use the %s shortcode by placing it at the desired position of your post, page or custom post type. This method allows you to generate the table of contents despite having auto insertion disabled for its content type. Please visit the help tab for further information about this shortcode."
 msgstr ""
 
 #: toc.php:1246
-msgid ""
-"At its simplest, placing %s into a page will automatically create a sitemap "
-"of all pages and categories. This also works in a text widget."
+msgid "At its simplest, placing %s into a page will automatically create a sitemap of all pages and categories. This also works in a text widget."
 msgstr ""
 
 #: toc.php:1250
@@ -430,14 +422,12 @@ msgstr ""
 msgid "Heading type"
 msgstr ""
 
-#. translators: the full line is supposed to read - Use [1-6 drop down list] to
-#. print out the titles
+#. translators: the full line is supposed to read - Use [1-6 drop down list] to print out the titles
 #: toc.php:1261
 msgid "Use"
 msgstr ""
 
-#. translators: the full line is supposed to read - Use [h1-h6 drop down list]
-#. to print out the titles
+#. translators: the full line is supposed to read - Use [h1-h6 drop down list] to print out the titles
 #: toc.php:1272
 msgid "to print out the titles"
 msgstr ""
@@ -463,10 +453,7 @@ msgid "Advanced usage"
 msgstr ""
 
 #: toc.php:1292
-msgid ""
-"lets you print out a listing of only pages. Similarly %s can be used to "
-"print out a category listing. They both can accept a number of attributes so "
-"visit the help tab for more information."
+msgid "lets you print out a listing of only pages. Similarly %s can be used to print out a category listing. They both can accept a number of attributes so visit the help tab for more information."
 msgstr ""
 
 #: toc.php:1293
@@ -478,8 +465,7 @@ msgid "hides the heading from a category listing"
 msgstr ""
 
 #: toc.php:1296
-msgid ""
-"Uses h6 to display %s on a page listing excluding pages with IDs 1 and 15"
+msgid "Uses h6 to display %s on a page listing excluding pages with IDs 1 and 15"
 msgstr ""
 
 #: toc.php:1305
@@ -496,26 +482,4 @@ msgstr ""
 
 #: toc.php:1915
 msgid "For the following content types:"
-msgstr ""
-
-#. Plugin Name of the plugin/theme
-msgid "Table of Contents Plus"
-msgstr ""
-
-#. Plugin URI of the plugin/theme
-msgid "http://dublue.com/plugins/toc/"
-msgstr ""
-
-#. Description of the plugin/theme
-msgid ""
-"A powerful yet user friendly plugin that automatically creates a table of "
-"contents. Can also output a sitemap listing all pages and categories."
-msgstr ""
-
-#. Author of the plugin/theme
-msgid "Michael Tran"
-msgstr ""
-
-#. Author URI of the plugin/theme
-msgid "http://dublue.com/"
 msgstr ""

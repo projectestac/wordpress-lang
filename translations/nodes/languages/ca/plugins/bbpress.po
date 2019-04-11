@@ -4,18 +4,18 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Stable (latest release)\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/bbpress\n"
-"POT-Creation-Date: 2019-04-05 07:48:20+00:00\n"
-"PO-Revision-Date: 2018-07-17 23:11+0200\n"
-"Last-Translator: Mònica Grau <mgrau226@xtec.cat>\n"
+"POT-Creation-Date: 2019-04-11T16:48:07+02:00\n"
+"PO-Revision-Date: 2019-04-11 17:10+0200\n"
+"Last-Translator: Joan Sala Soler <jsala236@xtec.cat>\n"
 "Language-Team: \n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Poedit 2.0.7\n"
+"X-Generator: Poedit 2.0.6\n"
 
-#: includes/forums/template.php:1254 includes/topics/template.php:2120
+#: includes/topics/template.php:2120 includes/forums/template.php:1254
 msgid " (+ %d hidden)"
 msgstr " (+ %d ocults)"
 
@@ -75,7 +75,7 @@ msgstr "%1$s %2$s"
 msgid "%1$s - %2$s"
 msgstr "%1$s - %2$s"
 
-#: includes/replies/template.php:706 includes/topics/template.php:809
+#: includes/topics/template.php:809 includes/replies/template.php:706
 msgctxt "date at time"
 msgid "%1$s at %2$s"
 msgstr "%1$s a les %2$s"
@@ -195,7 +195,7 @@ msgstr "fa %s"
 msgid "%s page"
 msgstr "pàgina %s"
 
-#: includes/forums/template.php:1965 includes/topics/template.php:2104
+#: includes/topics/template.php:2104 includes/forums/template.php:1965
 msgid "%s reply"
 msgid_plural "%s replies"
 msgstr[0] "%s resposta"
@@ -279,8 +279,8 @@ msgstr ""
 msgid "(Mismatch)"
 msgstr "(No coincideixen)"
 
-#: includes/admin/topics.php:694 includes/extend/buddypress/groups.php:295
-#: templates/default/bbpress/form-topic.php:117
+#: templates/default/bbpress/form-topic.php:117 includes/admin/topics.php:694
+#: includes/extend/buddypress/groups.php:295
 msgid "(No Forum)"
 msgstr "(cap fòrum)"
 
@@ -325,10 +325,10 @@ msgctxt "Separator in time since"
 msgid ","
 msgstr ","
 
-#: includes/admin/forums.php:165 includes/admin/forums.php:224
-#: includes/admin/replies.php:179 includes/admin/replies.php:236
-#: includes/admin/settings.php:1597 includes/admin/topics.php:180
-#: includes/admin/topics.php:236
+#: includes/admin/topics.php:180 includes/admin/topics.php:236
+#: includes/admin/settings.php:1597 includes/admin/forums.php:165
+#: includes/admin/forums.php:224 includes/admin/replies.php:179
+#: includes/admin/replies.php:236
 msgid ""
 "<a href=\"http://bbpress.org/forums/\" target=\"_blank\">bbPress Support "
 "Forums</a>"
@@ -336,10 +336,10 @@ msgstr ""
 "<a href=\"http://bbpress.org/forums/\" target=\"_blank\">Fòrums de suport "
 "del bbPress</a>"
 
-#: includes/admin/forums.php:164 includes/admin/forums.php:223
-#: includes/admin/replies.php:178 includes/admin/replies.php:235
-#: includes/admin/settings.php:1596 includes/admin/topics.php:179
-#: includes/admin/topics.php:235
+#: includes/admin/topics.php:179 includes/admin/topics.php:235
+#: includes/admin/settings.php:1596 includes/admin/forums.php:164
+#: includes/admin/forums.php:223 includes/admin/replies.php:178
+#: includes/admin/replies.php:235
 msgid ""
 "<a href=\"http://codex.bbpress.org\" target=\"_blank\">bbPress "
 "Documentation</a>"
@@ -375,22 +375,22 @@ msgstr "<strong>ERROR:</strong> no teniu permisos per fer això!"
 msgid "<strong>ERROR:</strong> You do not have the permission to do that."
 msgstr "<strong>ERROR:</strong> no teniu permisos per fer això."
 
-#: includes/extend/buddypress/groups.php:339
-#: includes/extend/buddypress/groups.php:498
-#: includes/extend/buddypress/notifications.php:161
-#: includes/forums/functions.php:118 includes/forums/functions.php:395
-#: includes/replies/functions.php:116 includes/replies/functions.php:516
-#: includes/replies/functions.php:1246 includes/topics/functions.php:122
+#: includes/users/functions.php:459 includes/users/functions.php:1174
+#: includes/users/functions.php:1280 includes/users/functions.php:1407
+#: includes/users/functions.php:1413 includes/topics/functions.php:122
 #: includes/topics/functions.php:520 includes/topics/functions.php:1153
 #: includes/topics/functions.php:1456 includes/topics/functions.php:1820
 #: includes/topics/functions.php:1859 includes/topics/functions.php:1916
-#: includes/users/functions.php:459 includes/users/functions.php:1174
-#: includes/users/functions.php:1280 includes/users/functions.php:1407
-#: includes/users/functions.php:1413
+#: includes/replies/functions.php:116 includes/replies/functions.php:516
+#: includes/replies/functions.php:1246
+#: includes/extend/buddypress/notifications.php:161
+#: includes/extend/buddypress/groups.php:339
+#: includes/extend/buddypress/groups.php:498 includes/forums/functions.php:118
+#: includes/forums/functions.php:395
 msgid "<strong>ERROR</strong>: Are you sure you wanted to do that?"
 msgstr "<strong>ERROR</strong>: Segur que voleu fer això?"
 
-#: includes/replies/functions.php:1275 includes/topics/functions.php:1483
+#: includes/topics/functions.php:1483 includes/replies/functions.php:1275
 msgid "<strong>ERROR</strong>: Destination topic ID not found!"
 msgstr ""
 "<strong>ERROR</strong>: no s'ha trobat l'identificador del tema de "
@@ -418,19 +418,19 @@ msgstr ""
 "<strong>ERROR</strong>: s'ha detectat un tema duplicat; sembla que ja heu "
 "dit això!"
 
-#: includes/replies/functions.php:209 includes/topics/functions.php:214
+#: includes/topics/functions.php:214 includes/replies/functions.php:209
 msgid "<strong>ERROR</strong>: Forum ID cannot be a negative number."
 msgstr ""
 "<strong>ERROR</strong>: L'identificador del fòrum no pot ser un número "
 "negatiu."
 
-#: includes/replies/functions.php:191 includes/replies/functions.php:205
 #: includes/topics/functions.php:196 includes/topics/functions.php:210
-#: includes/topics/functions.php:535
+#: includes/topics/functions.php:535 includes/replies/functions.php:191
+#: includes/replies/functions.php:205
 msgid "<strong>ERROR</strong>: Forum ID is missing."
 msgstr "<strong>ERROR</strong>: falta l'identificador del fòrum."
 
-#: includes/replies/functions.php:195 includes/topics/functions.php:200
+#: includes/topics/functions.php:200 includes/replies/functions.php:195
 msgid "<strong>ERROR</strong>: Forum ID must be a number."
 msgstr "<strong>ERROR</strong>: L'identificador del fòrum ha de ser un número."
 
@@ -438,7 +438,7 @@ msgstr "<strong>ERROR</strong>: L'identificador del fòrum ha de ser un número.
 msgid "<strong>ERROR</strong>: Forum ID not found."
 msgstr "<strong>ERROR</strong>: no s'ha trobat l'identificador del fòrum."
 
-#: includes/replies/functions.php:213 includes/topics/functions.php:218
+#: includes/topics/functions.php:218 includes/replies/functions.php:213
 msgid "<strong>ERROR</strong>: Forum does not exist."
 msgstr "<strong>ERROR</strong>: El fòrum no existeix."
 
@@ -490,8 +490,8 @@ msgstr ""
 "<strong>ERROR</strong>: no s'ha trobat l'identificador de la resposta des "
 "del qual dividir el tema."
 
-#: includes/forums/functions.php:210 includes/replies/functions.php:284
-#: includes/topics/functions.php:260
+#: includes/topics/functions.php:260 includes/replies/functions.php:284
+#: includes/forums/functions.php:210
 msgid "<strong>ERROR</strong>: Slow down; you move too fast."
 msgstr "<strong>ERROR</strong>: calma, aneu massa ràpid."
 
@@ -526,6 +526,27 @@ msgid ""
 msgstr ""
 "<strong>ERROR</strong>: s'han trobat els següents problemes mentre "
 "s'actualitzava l'etiqueta: %s"
+
+#: includes/forums/functions.php:332 includes/forums/functions.php:579
+msgid ""
+"<strong>ERROR</strong>: The following problem(s) have been found with your "
+"forum:"
+msgstr ""
+"<strong>ERROR</strong>: S'han trobat els següents problemes amb el fòrum:"
+
+#: includes/replies/functions.php:453 includes/replies/functions.php:758
+msgid ""
+"<strong>ERROR</strong>: The following problem(s) have been found with your "
+"reply:"
+msgstr ""
+"<strong>ERROR</strong>: S'han trobat els següents problemes amb la resposta:"
+
+#: includes/topics/functions.php:428 includes/topics/functions.php:784
+msgid ""
+"<strong>ERROR</strong>: The following problem(s) have been found with your "
+"topic:"
+msgstr ""
+"<strong>ERROR</strong>: S'han trobat els següents problemes amb el tema:"
 
 #: includes/forums/functions.php:400
 msgid "<strong>ERROR</strong>: The forum you want to edit was not found."
@@ -592,7 +613,7 @@ msgstr ""
 msgid "<strong>ERROR</strong>: There was a problem closing the topic."
 msgstr "<strong>ERROR</strong>: s'ha produït un problema en tancar el tema."
 
-#: includes/replies/functions.php:1344 includes/topics/functions.php:1533
+#: includes/topics/functions.php:1533 includes/replies/functions.php:1344
 msgid ""
 "<strong>ERROR</strong>: There was a problem converting the reply into the "
 "topic. Please try again."
@@ -868,7 +889,7 @@ msgstr ""
 msgid "<strong>ERROR</strong>: You do not have permission to reply."
 msgstr "<strong>ERROR</strong>: no teniu permís per respondre."
 
-#: includes/replies/functions.php:1349 includes/topics/functions.php:1538
+#: includes/topics/functions.php:1538 includes/replies/functions.php:1349
 msgid ""
 "<strong>ERROR</strong>: You do not have the permissions to create new "
 "topics. The reply could not be converted into a topic."
@@ -884,7 +905,7 @@ msgstr ""
 "<strong>ERROR</strong>: no teniu permisos per suprimir les etiquetes del "
 "tema."
 
-#: includes/replies/functions.php:1290 includes/topics/functions.php:1496
+#: includes/topics/functions.php:1496 includes/replies/functions.php:1290
 msgid ""
 "<strong>ERROR</strong>: You do not have the permissions to edit the "
 "destination topic!"
@@ -898,8 +919,8 @@ msgid ""
 msgstr ""
 "<strong>ERROR</strong>: no teniu permisos per editar el tema de destinació."
 
-#: includes/replies/functions.php:1252 includes/topics/functions.php:1164
-#: includes/topics/functions.php:1462
+#: includes/topics/functions.php:1164 includes/topics/functions.php:1462
+#: includes/replies/functions.php:1252
 msgid ""
 "<strong>ERROR</strong>: You do not have the permissions to edit the source "
 "topic."
@@ -1470,8 +1491,8 @@ msgstr "Tots els fòrums"
 msgid "All Posts"
 msgstr "Tots els articles"
 
-#: includes/admin/tools.php:1220 includes/replies/functions.php:1994
-#: includes/replies/template.php:50
+#: includes/admin/tools.php:1220 includes/replies/template.php:50
+#: includes/replies/functions.php:1994
 msgid "All Replies"
 msgstr "Totes les respostes"
 
@@ -1483,8 +1504,8 @@ msgstr "Totes les etiquetes"
 msgid "All Topic Tags"
 msgstr "Totes les etiquetes del tema"
 
-#: includes/admin/tools.php:1219 includes/topics/functions.php:3439
-#: includes/topics/template.php:50
+#: includes/admin/tools.php:1219 includes/topics/template.php:50
+#: includes/topics/functions.php:3439
 msgid "All Topics"
 msgstr "Tots els temes"
 
@@ -1537,8 +1558,8 @@ msgstr "Permet als usuaris marcar els temes com a preferits"
 msgid "Allow users to subscribe to forums and topics"
 msgstr "Permet als usuaris subscriure's als fòrums i temes"
 
-#: includes/replies/template.php:1098 includes/topics/template.php:1368
-#: includes/users/template.php:184
+#: includes/users/template.php:184 includes/topics/template.php:1368
+#: includes/replies/template.php:1098
 msgid "Anonymous"
 msgstr "Anònim"
 
@@ -1556,7 +1577,7 @@ msgstr "Cap dels enllaços a aquesta etiqueta funcionarà."
 msgid "Are you sure you meant to do that?"
 msgstr "Estàs segur que voleu fer això?"
 
-#: includes/replies/template.php:2055 includes/topics/template.php:2636
+#: includes/topics/template.php:2636 includes/replies/template.php:2055
 msgid "Are you sure you want to delete that permanently?"
 msgstr "Segur que voleu suprimir permanentment això?"
 
@@ -1587,16 +1608,16 @@ msgstr "Adjunts"
 msgid "Attempt to import user accounts from previous forums"
 msgstr "Intenta importar els comptes dels usuaris des de fòrums anteriors"
 
-#: includes/admin/replies.php:572 includes/admin/topics.php:636
 #: templates/default/bbpress/loop-replies.php:18
 #: templates/default/bbpress/loop-replies.php:60
 #: templates/default/bbpress/loop-search.php:18
-#: templates/default/bbpress/loop-search.php:40
+#: templates/default/bbpress/loop-search.php:40 includes/admin/topics.php:636
+#: includes/admin/replies.php:572
 msgid "Author"
 msgstr "Autor"
 
-#: includes/admin/replies.php:347 includes/admin/topics.php:363
 #: templates/default/bbpress/form-anonymous.php:17
+#: includes/admin/topics.php:363 includes/admin/replies.php:347
 msgid "Author Information"
 msgstr "Informació de l'autor"
 
@@ -1622,8 +1643,8 @@ msgstr ""
 msgid "Automatically give registered visitors the %s forum role"
 msgstr "Atorga als visitants registrats el rol %s del fòrum automàticament"
 
-#: includes/admin/forums.php:142 includes/admin/replies.php:154
-#: includes/admin/topics.php:153
+#: includes/admin/topics.php:153 includes/admin/forums.php:142
+#: includes/admin/replies.php:154
 msgid "Available Actions"
 msgstr "Accions disponibles"
 
@@ -1657,8 +1678,8 @@ msgstr "Integració amb el BuddyPress"
 msgid "Bug Testing"
 msgstr "Provador d'errors"
 
-#: includes/admin/forums.php:155 includes/admin/replies.php:169
-#: includes/admin/topics.php:170
+#: includes/admin/topics.php:170 includes/admin/forums.php:155
+#: includes/admin/replies.php:169
 msgid "Bulk Actions"
 msgstr "Accions massives"
 
@@ -1909,7 +1930,7 @@ msgstr ""
 msgid "Counting the number of voices in each topic&hellip; %s"
 msgstr "S'està comptant el nombre d'opinions de cada tema&hellip; %s"
 
-#: includes/forums/template.php:52 templates/default/bbpress/form-forum.php:37
+#: templates/default/bbpress/form-forum.php:37 includes/forums/template.php:52
 msgid "Create New Forum"
 msgstr "Crea un nou fòrum"
 
@@ -1921,7 +1942,7 @@ msgstr "Crea un fòrum nou a &ldquo;%s&rdquo;"
 msgid "Create New Reply"
 msgstr "Crea una resposta nova"
 
-#: includes/topics/template.php:52 templates/default/bbpress/form-topic.php:43
+#: templates/default/bbpress/form-topic.php:43 includes/topics/template.php:52
 msgid "Create New Topic"
 msgstr "Crea un tema nou"
 
@@ -1943,14 +1964,14 @@ msgstr ""
 msgid "Create an Account"
 msgstr "Creeu un compte"
 
-#: includes/admin/forums.php:413 includes/admin/replies.php:573
-#: includes/admin/topics.php:637
+#: includes/admin/topics.php:637 includes/admin/forums.php:413
+#: includes/admin/replies.php:573
 msgid "Created"
 msgstr "Creat"
 
-#: includes/admin/forums.php:412
 #: templates/default/bbpress/content-single-topic-lead.php:18
 #: templates/default/bbpress/content-single-topic-lead.php:90
+#: includes/admin/forums.php:412
 msgid "Creator"
 msgstr "Creador"
 
@@ -1962,13 +1983,13 @@ msgstr "Crèdits"
 msgid "Current Package"
 msgstr "Paquet actual"
 
-#: includes/admin/forums.php:535 includes/admin/replies.php:855
-#: includes/admin/topics.php:925
+#: includes/admin/topics.php:925 includes/admin/forums.php:535
+#: includes/admin/replies.php:855
 msgid "Custom field deleted."
 msgstr "S'ha suprimit el camp personalitzat."
 
-#: includes/admin/forums.php:532 includes/admin/replies.php:852
-#: includes/admin/topics.php:922
+#: includes/admin/topics.php:922 includes/admin/forums.php:532
+#: includes/admin/replies.php:852
 msgid "Custom field updated."
 msgstr "S'ha actualitzat el camp personalitzat."
 
@@ -1991,8 +2012,8 @@ msgstr ""
 msgid "Customize your user profile slugs."
 msgstr "Personalitza els URLs del perfil d'usuari."
 
-#: includes/admin/forums.php:183 includes/admin/replies.php:197
-#: includes/admin/topics.php:198
+#: includes/admin/topics.php:198 includes/admin/forums.php:183
+#: includes/admin/replies.php:197
 msgid "Customizing This Display"
 msgstr "S'està personalitzant aquesta pantalla"
 
@@ -2024,13 +2045,13 @@ msgstr "Usuari de la base de dades"
 msgid "Delay Time"
 msgstr "Retard"
 
-#: includes/replies/template.php:2038 includes/topics/template.php:2619
 #: templates/default/bbpress/form-topic-tag.php:88
 #: templates/default/bbpress/form-topic-tag.php:101
+#: includes/topics/template.php:2619 includes/replies/template.php:2038
 msgid "Delete"
 msgstr "Suprimeix"
 
-#: includes/admin/replies.php:753 includes/admin/topics.php:823
+#: includes/admin/topics.php:823 includes/admin/replies.php:753
 msgid "Delete Permanently"
 msgstr "Suprimeix definitivament"
 
@@ -2038,8 +2059,8 @@ msgstr "Suprimeix definitivament"
 msgid "Delete imported users?"
 msgstr "Suprimim els usuaris importats?"
 
-#: includes/admin/replies.php:753 includes/admin/topics.php:823
-#: includes/replies/template.php:2055 includes/topics/template.php:2636
+#: includes/admin/topics.php:823 includes/admin/replies.php:753
+#: includes/topics/template.php:2636 includes/replies/template.php:2055
 msgid "Delete this item permanently"
 msgstr "Elimina aquest element permanentment"
 
@@ -2110,15 +2131,15 @@ msgstr "Fòrum de discussió"
 msgid "Display Name"
 msgstr "Mostra el nom"
 
-#: includes/common/template.php:2218 includes/forums/template.php:53
-#: includes/replies/template.php:53 includes/replies/template.php:1912
-#: includes/topics/template.php:53 includes/topics/template.php:2493
 #: templates/default/bbpress/user-details.php:65
+#: includes/topics/template.php:53 includes/topics/template.php:2493
+#: includes/replies/template.php:53 includes/replies/template.php:1912
+#: includes/common/template.php:2218 includes/forums/template.php:53
 msgid "Edit"
 msgstr "Edita"
 
-#: includes/common/template.php:2644
 #: templates/default/bbpress/user-details.php:65
+#: includes/common/template.php:2644
 msgid "Edit %s's Profile"
 msgstr "Edita el perfil de %s"
 
@@ -2146,9 +2167,9 @@ msgstr "Edita el perfil"
 msgid "Editable forum roles no longer exist."
 msgstr "Els rols de fòrum editables ja no existeixen."
 
-#: includes/admin/metaboxes.php:503
 #: templates/default/bbpress/form-user-edit.php:103
 #: templates/default/bbpress/form-user-register.php:28
+#: includes/admin/metaboxes.php:503
 msgid "Email"
 msgstr "Correu electrònic"
 
@@ -2165,7 +2186,7 @@ msgstr ""
 "Incrusta fitxers multimèdia (YouTube, Twitter, Flickr, etc...) directament "
 "en els temes i respostes"
 
-#: includes/admin/replies.php:779 includes/admin/topics.php:849
+#: includes/admin/topics.php:849 includes/admin/replies.php:779
 msgid "Empty Spam"
 msgstr "Buida la brossa"
 
@@ -2214,7 +2235,7 @@ msgstr "Ha fallat"
 msgid "Failed!"
 msgstr "Ha fallat!"
 
-#: includes/topics/template.php:1893 includes/users/template.php:894
+#: includes/users/template.php:894 includes/topics/template.php:1893
 msgid "Favorite"
 msgstr "Marca com a preferit"
 
@@ -2230,8 +2251,8 @@ msgstr "Temes preferits"
 msgid "Favorited"
 msgstr "Preferit"
 
-#: includes/admin/settings.php:142 includes/extend/buddypress/loader.php:218
 #: templates/default/bbpress/user-details.php:48
+#: includes/admin/settings.php:142 includes/extend/buddypress/loader.php:218
 msgid "Favorites"
 msgstr "Preferits"
 
@@ -2255,21 +2276,23 @@ msgstr "Desenvolupador de funcionalitats"
 msgid "First Name"
 msgstr "Nom"
 
-#: includes/admin/forums.php:163 includes/admin/forums.php:222
-#: includes/admin/replies.php:177 includes/admin/replies.php:234
-#: includes/admin/settings.php:1595 includes/admin/topics.php:178
-#: includes/admin/topics.php:234
+#: includes/admin/topics.php:178 includes/admin/topics.php:234
+#: includes/admin/settings.php:1595 includes/admin/forums.php:163
+#: includes/admin/forums.php:222 includes/admin/replies.php:177
+#: includes/admin/replies.php:234
 msgid "For more information:"
 msgstr "Per a més informació:"
 
-#: includes/admin/forums.php:409 includes/admin/metaboxes.php:50
+#: templates/default/bbpress/loop-forums.php:19 includes/admin/metaboxes.php:50
 #: includes/admin/metaboxes.php:380 includes/admin/metaboxes.php:434
-#: includes/admin/replies.php:570 includes/admin/settings.php:293
-#: includes/admin/topics.php:633 includes/extend/buddypress/groups.php:52
+#: includes/admin/topics.php:633 includes/admin/settings.php:293
+#: includes/admin/forums.php:409 includes/admin/replies.php:570
+#: includes/extend/buddypress/groups.php:52
 #: includes/extend/buddypress/groups.php:53 includes/forums/template.php:49
-#: templates/default/bbpress/loop-forums.php:19
 msgid "Forum"
-msgstr "Fòrum"
+msgid_plural "Forums"
+msgstr[0] "Fòrum"
+msgstr[1] "Fòrums"
 
 #: includes/forums/functions.php:1616
 msgctxt "Forum accepts new topics"
@@ -2328,8 +2351,8 @@ msgstr "S'ha creat les respostes del fòrum"
 msgid "Forum Reset"
 msgstr "Reinicialitza el fòrum"
 
-#: includes/admin/users.php:87 includes/admin/users.php:218
-#: templates/default/bbpress/form-user-roles.php:20
+#: templates/default/bbpress/form-user-roles.php:20 includes/admin/users.php:87
+#: includes/admin/users.php:218
 msgid "Forum Role"
 msgstr "Rols del fòrum"
 
@@ -2442,9 +2465,9 @@ msgstr "S'ha actualitzat el fòrum."
 msgid "Forum updated. <a href=\"%s\">View forum</a>"
 msgstr "S'ha actualitzat el fòrum. <a href=\"%s\">Mostra el fòrum</a>"
 
-#: includes/admin/metaboxes.php:379 includes/admin/metaboxes.php:433
-#: includes/extend/buddypress/groups.php:1042 includes/topics/template.php:61
 #: templates/default/bbpress/form-topic.php:114
+#: includes/admin/metaboxes.php:379 includes/admin/metaboxes.php:433
+#: includes/topics/template.php:61 includes/extend/buddypress/groups.php:1042
 msgid "Forum:"
 msgstr "Fòrum:"
 
@@ -2456,6 +2479,7 @@ msgstr "Fòrum:"
 msgid "Forum: %s"
 msgstr "Fòrum: %s"
 
+#: templates/default/bbpress/content-statistics.php:22
 #: includes/admin/admin.php:233 includes/admin/admin.php:234
 #: includes/admin/admin.php:244 includes/admin/admin.php:245
 #: includes/admin/users.php:82 includes/common/widgets.php:662
@@ -2464,7 +2488,6 @@ msgstr "Fòrum: %s"
 #: includes/extend/buddypress/loader.php:261
 #: includes/extend/buddypress/loader.php:312 includes/forums/template.php:47
 #: includes/forums/template.php:48
-#: templates/default/bbpress/content-statistics.php:22
 msgid "Forums"
 msgstr "Fòrums"
 
@@ -2480,9 +2503,9 @@ msgstr "Base dels fòrums"
 msgid "Founding Developer"
 msgstr "Desenvolupador fundador"
 
-#: includes/admin/forums.php:414 includes/admin/topics.php:638
-#: templates/default/bbpress/loop-forums.php:22
 #: templates/default/bbpress/loop-topics.php:22
+#: templates/default/bbpress/loop-forums.php:22 includes/admin/topics.php:638
+#: includes/admin/forums.php:414
 msgid "Freshness"
 msgstr "Més recents"
 
@@ -2683,8 +2706,8 @@ msgstr ""
 "Si el navegador no comença a carregar la propera pàgina automàticament, feu "
 "clic en aquest enllaç:"
 
-#: includes/admin/admin.php:208 includes/admin/functions.php:277
-#: includes/admin/settings.php:1509
+#: includes/admin/admin.php:208 includes/admin/settings.php:1509
+#: includes/admin/functions.php:277
 msgid "Import Forums"
 msgstr "Importa els fòrums"
 
@@ -2692,7 +2715,7 @@ msgstr "Importa els fòrums"
 msgid "Importer Helper Data"
 msgstr "Dades d'ajuda de l'importador"
 
-#: includes/admin/replies.php:789 includes/admin/topics.php:859
+#: includes/admin/topics.php:859 includes/admin/replies.php:789
 msgid "In all forums"
 msgstr "A tots els fòrums"
 
@@ -2766,9 +2789,9 @@ msgstr "Desenvolupador líder"
 msgid "Leave the slug empty to have one automatically generated."
 msgstr "Deixeu l'URL buit per tenir-ne un generat automàticament."
 
-#: includes/common/widgets.php:89 includes/common/widgets.php:110
 #: templates/default/bbpress/form-user-login.php:14
 #: templates/default/bbpress/form-user-login.php:35
+#: includes/common/widgets.php:89 includes/common/widgets.php:110
 msgid "Log In"
 msgstr "Entra"
 
@@ -2776,8 +2799,8 @@ msgstr "Entra"
 msgid "Log Out"
 msgstr "Surt"
 
-#: includes/common/widgets.php:128
 #: templates/default/bbpress/form-user-lost-pass.php:14
+#: includes/common/widgets.php:128
 msgid "Lost Password"
 msgstr "Contrasenya perduda"
 
@@ -2786,8 +2809,8 @@ msgid "Lost Password URI:"
 msgstr "URL de la pèrdua de la contrasenya:"
 
 #. translators: Publish box date format, see http://php.net/date
-#: includes/admin/forums.php:558 includes/admin/replies.php:878
-#: includes/admin/topics.php:948
+#: includes/admin/topics.php:948 includes/admin/forums.php:558
+#: includes/admin/replies.php:878
 msgid "M j, Y @ G:i"
 msgstr "d-m-Y \\a \\l\\e\\s G:i"
 
@@ -2839,9 +2862,9 @@ msgstr "Membre"
 msgid "Menus"
 msgstr "Menús"
 
-#: includes/topics/template.php:2818
 #: templates/default/bbpress/form-topic-tag.php:59
 #: templates/default/bbpress/form-topic-tag.php:73
+#: includes/topics/template.php:2818
 msgid "Merge"
 msgstr "Combina"
 
@@ -2896,8 +2919,8 @@ msgstr "Mètode de moure"
 msgid "Move reply \"%s\""
 msgstr "Mou la resposta \"%s\""
 
-#: includes/admin/replies.php:749 includes/admin/topics.php:819
-#: includes/replies/template.php:2051 includes/topics/template.php:2632
+#: includes/admin/topics.php:819 includes/admin/replies.php:749
+#: includes/topics/template.php:2632 includes/replies/template.php:2051
 msgid "Move this item to the Trash"
 msgstr "Mou aquest element a la paperera "
 
@@ -2909,9 +2932,9 @@ msgstr "Moure aquesta resposta"
 msgid "Moved: %s"
 msgstr "S'han mogut: %s"
 
-#: includes/admin/metaboxes.php:497
 #: templates/default/bbpress/form-user-edit.php:14
 #: templates/default/bbpress/form-user-edit.php:19
+#: includes/admin/metaboxes.php:497
 msgid "Name"
 msgstr "Nom"
 
@@ -2923,8 +2946,8 @@ msgstr "Nom (necessari):"
 msgid "Name of the database with your old forum data"
 msgstr "Nom de la base de dades amb les dades del fòrum antic"
 
-#: includes/admin/metaboxes.php:496
 #: templates/default/bbpress/form-topic-tag.php:35
+#: includes/admin/metaboxes.php:496
 msgid "Name:"
 msgstr "Nom:"
 
@@ -2989,8 +3012,8 @@ msgstr "Següents fòrums"
 msgid "Nickname"
 msgstr "Sobrenom"
 
-#: includes/admin/replies.php:651 includes/admin/replies.php:666
-#: includes/admin/topics.php:687
+#: includes/admin/topics.php:687 includes/admin/replies.php:651
+#: includes/admin/replies.php:666
 msgid "No Forum"
 msgstr "No hi ha cap fòrum"
 
@@ -3115,7 +3138,7 @@ msgctxt "Unstick a topic"
 msgid "Normal"
 msgstr "Normal"
 
-#: includes/admin/replies.php:736 includes/admin/topics.php:807
+#: includes/admin/topics.php:807 includes/admin/replies.php:736
 msgid "Not spam"
 msgstr "No Brossa"
 
@@ -3224,8 +3247,8 @@ msgid_plural "Orphans <span class=\"count\">(%s)</span>"
 msgstr[0] "Orfe <span class=\"count\">(%s)</span>"
 msgstr[1] "Orfes <span class=\"count\">(%s)</span>"
 
+#: includes/admin/topics.php:132 includes/admin/settings.php:1549
 #: includes/admin/forums.php:121 includes/admin/replies.php:132
-#: includes/admin/settings.php:1549 includes/admin/topics.php:132
 msgid "Overview"
 msgstr "Resum"
 
@@ -3237,7 +3260,7 @@ msgstr "Pàgines"
 msgid "Parent Forum ID:"
 msgstr "Identificador del fòrum pare:"
 
-#: includes/forums/template.php:61 templates/default/bbpress/form-forum.php:118
+#: templates/default/bbpress/form-forum.php:118 includes/forums/template.php:61
 msgid "Parent Forum:"
 msgstr "Fòrum pare:"
 
@@ -3251,8 +3274,8 @@ msgctxt "User role"
 msgid "Participant"
 msgstr "Participant"
 
-#: includes/common/widgets.php:97
 #: templates/default/bbpress/form-user-login.php:22
+#: includes/common/widgets.php:97
 msgid "Password"
 msgstr "Contrasenya"
 
@@ -3305,8 +3328,8 @@ msgstr "Suport al Polyglot"
 msgid "Popular Tags"
 msgstr "Etiquetes més comuns"
 
-#: includes/common/widgets.php:904
 #: templates/default/extras/page-forum-statistics.php:34
+#: includes/common/widgets.php:904
 msgid "Popular Topics"
 msgstr "Temes més comuns"
 
@@ -3322,11 +3345,11 @@ msgstr "Formatació de l'article"
 msgid "Post status was changed to %s"
 msgstr "S'ha canviat l'estat de larticle a %s"
 
-#: includes/admin/settings.php:1688
-#: templates/default/bbpress/loop-forums.php:21
 #: templates/default/bbpress/loop-replies.php:24
 #: templates/default/bbpress/loop-replies.php:66
 #: templates/default/bbpress/loop-topics.php:21
+#: templates/default/bbpress/loop-forums.php:21
+#: includes/admin/settings.php:1688
 msgid "Posts"
 msgstr "Articles"
 
@@ -3349,8 +3372,8 @@ msgstr "Privat"
 msgid "Private: %s"
 msgstr "Privat: %s"
 
-#: templates/default/bbpress/user-details.php:29
 #: templates/default/bbpress/user-profile.php:15
+#: templates/default/bbpress/user-details.php:29
 msgid "Profile"
 msgstr "Perfil"
 
@@ -3367,8 +3390,8 @@ msgctxt "Make forum public"
 msgid "Public"
 msgstr "Públic"
 
-#: includes/admin/forums.php:217 includes/admin/replies.php:229
-#: includes/admin/topics.php:229
+#: includes/admin/topics.php:229 includes/admin/forums.php:217
+#: includes/admin/replies.php:229
 msgid "Publish Box"
 msgstr "Publica"
 
@@ -3380,23 +3403,22 @@ msgstr "Purga importacions prèvies"
 msgid "Purge all information from a previously attempted import"
 msgstr "Purga tota la informació que prové d'un intent d'importació previ"
 
-#: includes/admin/converters/AEF.php:688
-#: includes/admin/converters/FluxBB.php:643
-#: includes/admin/converters/Invision.php:525
-#: includes/admin/converters/Kunena1.php:543
-#: includes/admin/converters/Kunena2.php:585
 #: includes/admin/converters/Kunena3.php:812
-#: includes/admin/converters/PHPFox3.php:649
+#: includes/admin/converters/XenForo.php:722
+#: includes/admin/converters/Kunena2.php:585
+#: includes/admin/converters/vBulletin3.php:652
+#: includes/admin/converters/Invision.php:525
+#: includes/admin/converters/phpBB.php:816
+#: includes/admin/converters/Vanilla.php:535
 #: includes/admin/converters/PunBB.php:677
 #: includes/admin/converters/SMF.php:656
-#: includes/admin/converters/SimplePress5.php:537
-#: includes/admin/converters/Vanilla.php:535
-#: includes/admin/converters/XMB.php:705
-#: includes/admin/converters/XenForo.php:722
-#: includes/admin/converters/bbPress1.php:636
-#: includes/admin/converters/phpBB.php:816
 #: includes/admin/converters/vBulletin.php:652
-#: includes/admin/converters/vBulletin3.php:652
+#: includes/admin/converters/FluxBB.php:643
+#: includes/admin/converters/AEF.php:688 includes/admin/converters/XMB.php:705
+#: includes/admin/converters/SimplePress5.php:537
+#: includes/admin/converters/PHPFox3.php:649
+#: includes/admin/converters/bbPress1.php:636
+#: includes/admin/converters/Kunena1.php:543
 msgid "Re: "
 msgstr "Re: "
 
@@ -3456,8 +3478,8 @@ msgstr "Temes recents"
 msgid "Recomputing latest post in every topic and forum&hellip; %s"
 msgstr "S'està recalculant la darrera entrada de cada tema i fòrum&hellip; %s"
 
-#: includes/common/widgets.php:122
 #: templates/default/bbpress/form-user-register.php:36
+#: includes/common/widgets.php:122
 msgid "Register"
 msgstr "Registre"
 
@@ -3539,8 +3561,8 @@ msgstr "Repara"
 msgid "Repair BuddyPress Group Forum relationships"
 msgstr "Repara les relacions del fòrum del node del BuddyPress"
 
-#: includes/admin/admin.php:198 includes/admin/functions.php:273
-#: includes/admin/tools.php:34
+#: includes/admin/admin.php:198 includes/admin/tools.php:34
+#: includes/admin/functions.php:273
 msgid "Repair Forums"
 msgstr "Repara els fòrums"
 
@@ -3559,23 +3581,22 @@ msgid "Repairing the sticky topic to the parent forum relationships&hellip; %s"
 msgstr ""
 "S'està reparant el tema destacat amb les relacions del fòrum pare&hellip; %s"
 
-#: includes/admin/forums.php:411 includes/admin/settings.php:230
-#: includes/admin/settings.php:251 includes/admin/topics.php:634
-#: includes/core/theme-compat.php:646
-#: includes/extend/buddypress/activity.php:356
-#: includes/forums/template.php:2665 includes/replies/template.php:47
-#: includes/replies/template.php:48
-#: templates/default/bbpress/content-statistics.php:32
-#: templates/default/bbpress/loop-forums.php:21
 #: templates/default/bbpress/loop-replies.php:32
 #: templates/default/bbpress/loop-replies.php:70
 #: templates/default/bbpress/loop-topics.php:21
+#: templates/default/bbpress/content-statistics.php:32
+#: templates/default/bbpress/loop-forums.php:21
+#: includes/core/theme-compat.php:646 includes/admin/topics.php:634
+#: includes/admin/settings.php:230 includes/admin/settings.php:251
+#: includes/admin/forums.php:411 includes/replies/template.php:47
+#: includes/replies/template.php:48 includes/extend/buddypress/activity.php:356
+#: includes/forums/template.php:2665
 msgid "Replies"
 msgstr "Respostes"
 
+#: templates/default/bbpress/user-details.php:41
 #: includes/admin/settings.php:362 includes/extend/buddypress/loader.php:207
 #: includes/extend/buddypress/loader.php:277
-#: templates/default/bbpress/user-details.php:41
 msgid "Replies Created"
 msgstr "S'han creat les respostes"
 
@@ -3583,13 +3604,13 @@ msgstr "S'han creat les respostes"
 msgid "Replies Created: %s"
 msgstr "S'ha creat les respostes: %s"
 
-#: includes/replies/functions.php:2034 includes/topics/functions.php:3464
+#: includes/topics/functions.php:3464 includes/replies/functions.php:2034
 msgid "Replies: %s"
 msgstr "Respostes: %s"
 
 #: includes/admin/metaboxes.php:84 includes/admin/settings.php:325
-#: includes/replies/template.php:49 includes/replies/template.php:1623
-#: includes/topics/template.php:2923
+#: includes/topics/template.php:2923 includes/replies/template.php:49
+#: includes/replies/template.php:1623
 msgid "Reply"
 msgid_plural "Replies"
 msgstr[0] "Resposta"
@@ -3623,9 +3644,9 @@ msgstr "Respon a"
 msgid "Reply To:"
 msgstr "Respon a:"
 
-#: includes/replies/functions.php:1299 includes/replies/template.php:571
-#: includes/topics/functions.php:1294 includes/topics/functions.php:1652
 #: templates/default/bbpress/form-reply.php:29
+#: includes/topics/functions.php:1294 includes/topics/functions.php:1652
+#: includes/replies/template.php:571 includes/replies/functions.php:1299
 msgid "Reply To: %s"
 msgstr "Resposta a: %s"
 
@@ -3677,8 +3698,8 @@ msgstr ""
 "S'ha actualitzat la resposta. <a target=\"_blank\" href=\"%s\">Mostra el "
 "tema</a>"
 
-#: includes/admin/admin.php:218 includes/admin/functions.php:281
-#: includes/admin/tools.php:1208
+#: includes/admin/admin.php:218 includes/admin/tools.php:1208
+#: includes/admin/functions.php:281
 msgid "Reset Forums"
 msgstr "Reinicialitza els fòrums"
 
@@ -3690,13 +3711,13 @@ msgstr "Reinicia la contrasenya"
 msgid "Reset bbPress"
 msgstr "Reinicialitza el bbPress"
 
-#: includes/admin/replies.php:747 includes/admin/topics.php:817
-#: includes/replies/template.php:2037 includes/topics/template.php:2618
+#: includes/admin/topics.php:817 includes/admin/replies.php:747
+#: includes/topics/template.php:2618 includes/replies/template.php:2037
 msgid "Restore"
 msgstr "Restaura"
 
-#: includes/admin/replies.php:747 includes/admin/topics.php:817
-#: includes/replies/template.php:2049 includes/topics/template.php:2630
+#: includes/admin/topics.php:817 includes/admin/replies.php:747
+#: includes/topics/template.php:2630 includes/replies/template.php:2049
 msgid "Restore this item from the Trash"
 msgstr "Restaura aquest element de la paperera"
 
@@ -3725,8 +3746,8 @@ msgstr "Els rols i capacitats s'han estès, netejat i simplificat."
 msgid "Rows Limit"
 msgstr "Límit de files"
 
-#: includes/admin/settings.php:1267
 #: templates/default/bbpress/form-user-edit.php:173
+#: includes/admin/settings.php:1267
 msgid "Save Changes"
 msgstr "Desa els canvis"
 
@@ -3742,14 +3763,14 @@ msgstr "Digues que no és així!"
 msgid "Saying no will not delete existing forum content."
 msgstr "Si digueu no, això no suprimirà el contingut del fòrum existent."
 
-#: includes/admin/forums.php:129 includes/admin/replies.php:140
-#: includes/admin/topics.php:140
+#: includes/admin/topics.php:140 includes/admin/forums.php:129
+#: includes/admin/replies.php:140
 msgid "Screen Content"
 msgstr "Contingut de la pantalla"
 
-#: includes/admin/settings.php:166 includes/admin/settings.php:333
-#: includes/common/template.php:2336 includes/search/template.php:225
 #: templates/default/bbpress/form-search.php:17
+#: includes/search/template.php:225 includes/admin/settings.php:166
+#: includes/admin/settings.php:333 includes/common/template.php:2336
 msgid "Search"
 msgstr "Cerca"
 
@@ -3874,8 +3895,8 @@ msgstr "Algunes estadístiques del fòrum."
 msgid "Something went wrong. Refresh your browser and try again."
 msgstr "Alguna cosa ha anat malament. Refresqueu el navegador i proveu de nou."
 
-#: includes/admin/replies.php:738 includes/admin/topics.php:809
-#: includes/replies/template.php:2107 includes/topics/template.php:2874
+#: includes/admin/topics.php:809 includes/admin/replies.php:738
+#: includes/topics/template.php:2874 includes/replies/template.php:2107
 msgid "Spam"
 msgstr "Brossa"
 
@@ -3946,9 +3967,9 @@ msgstr "Iniciat per: %1$s"
 msgid "Starting Conversion"
 msgstr "S'ha iniciat la conversió"
 
+#: templates/default/bbpress/form-forum.php:100
 #: includes/admin/metaboxes.php:273 includes/admin/metaboxes.php:274
 #: includes/admin/metaboxes.php:367
-#: templates/default/bbpress/form-forum.php:100
 msgid "Status:"
 msgstr "Estat:"
 
@@ -3973,17 +3994,17 @@ msgstr "Destacat"
 msgid "Stop"
 msgstr "Atura"
 
-#: templates/default/bbpress/form-forum.php:138
 #: templates/default/bbpress/form-reply-move.php:72
-#: templates/default/bbpress/form-reply.php:135
+#: templates/default/bbpress/form-forum.php:138
 #: templates/default/bbpress/form-topic-merge.php:93
+#: templates/default/bbpress/form-reply.php:135
 #: templates/default/bbpress/form-topic-split.php:97
 #: templates/default/bbpress/form-topic.php:203
 msgid "Submit"
 msgstr "Envia"
 
-#: includes/forums/template.php:840 includes/topics/template.php:1848
-#: includes/users/template.php:1058
+#: includes/users/template.php:1058 includes/topics/template.php:1848
+#: includes/forums/template.php:840
 msgid "Subscribe"
 msgstr "Subscriu-me"
 
@@ -3995,13 +4016,13 @@ msgstr "Subscripció als Fòrums"
 msgid "Subscribed Forums"
 msgstr "Fòrums subscrits"
 
-#: includes/extend/buddypress/loader.php:293
 #: templates/default/bbpress/user-subscriptions.php:34
+#: includes/extend/buddypress/loader.php:293
 msgid "Subscribed Topics"
 msgstr "Temes subscrits"
 
-#: includes/admin/settings.php:150 includes/extend/buddypress/loader.php:230
 #: templates/default/bbpress/user-details.php:58
+#: includes/admin/settings.php:150 includes/extend/buddypress/loader.php:230
 msgid "Subscriptions"
 msgstr "Subscripcions"
 
@@ -4075,7 +4096,7 @@ msgstr ""
 "La secció d'URLs us permet controlar l'estructura dels enllaços permanents "
 "als fòrums."
 
-#. Author of the plugin/theme
+#. Author of the plugin
 msgid "The bbPress Community"
 msgstr "La comunitat del bbPress"
 
@@ -4458,12 +4479,12 @@ msgstr ""
 "Per mantenir aquest tema com a davanter, aneu a l'altre tema i utilitzeu "
 "l'eina de combinació des d'allà per contra."
 
-#: includes/admin/metaboxes.php:67 includes/admin/metaboxes.php:458
-#: includes/admin/replies.php:571 includes/admin/settings.php:301
-#: includes/topics/template.php:49
+#: templates/default/bbpress/loop-topics.php:19
 #: templates/default/bbpress/content-single-topic-lead.php:22
 #: templates/default/bbpress/content-single-topic-lead.php:94
-#: templates/default/bbpress/loop-topics.php:19
+#: includes/admin/metaboxes.php:67 includes/admin/metaboxes.php:458
+#: includes/admin/settings.php:301 includes/admin/replies.php:571
+#: includes/topics/template.php:49
 msgid "Topic"
 msgid_plural "Topics"
 msgstr[0] "Tema"
@@ -4533,15 +4554,15 @@ msgstr[1] "Etiquetes del tema"
 msgid "Topic Tag Edit: %s"
 msgstr "Edició de l'etiqueta del tema: %s"
 
-#: includes/common/template.php:2214 includes/common/template.php:2332
-#: includes/common/template.php:2597 includes/core/theme-compat.php:739
-#: templates/default/extras/taxonomy-topic-tag-edit.php:17
 #: templates/default/extras/taxonomy-topic-tag.php:17
+#: templates/default/extras/taxonomy-topic-tag-edit.php:17
+#: includes/core/theme-compat.php:739 includes/common/template.php:2214
+#: includes/common/template.php:2332 includes/common/template.php:2597
 msgid "Topic Tag: %s"
 msgstr "Etiqueta del tema: %s"
 
-#: includes/topics/template.php:3368
 #: templates/default/bbpress/content-statistics.php:37
+#: includes/topics/template.php:3368
 msgid "Topic Tags"
 msgstr "Etiquetes del tema"
 
@@ -4638,19 +4659,18 @@ msgstr "Tema:"
 msgid "Topic: %s"
 msgstr "Tema: %s"
 
-#: includes/admin/forums.php:410 includes/admin/settings.php:222
-#: includes/admin/settings.php:243 includes/admin/topics.php:632
-#: includes/extend/buddypress/activity.php:355
-#: includes/forums/template.php:2601 includes/topics/template.php:47
-#: includes/topics/template.php:48
 #: templates/default/bbpress/content-statistics.php:27
-#: templates/default/bbpress/loop-forums.php:20
+#: templates/default/bbpress/loop-forums.php:20 includes/admin/topics.php:632
+#: includes/admin/settings.php:222 includes/admin/settings.php:243
+#: includes/admin/forums.php:410 includes/topics/template.php:47
+#: includes/topics/template.php:48 includes/extend/buddypress/activity.php:355
+#: includes/forums/template.php:2601
 msgid "Topics"
 msgstr "Temes"
 
+#: templates/default/bbpress/user-details.php:35
 #: includes/admin/settings.php:354 includes/extend/buddypress/loader.php:196
 #: includes/extend/buddypress/loader.php:269
-#: templates/default/bbpress/user-details.php:35
 msgid "Topics Started"
 msgstr "Temes creats"
 
@@ -4682,8 +4702,8 @@ msgstr "Els temes pels més nous"
 msgid "Topics with no replies"
 msgstr "Temes sense resposta"
 
-#: includes/admin/replies.php:749 includes/admin/topics.php:819
-#: includes/replies/template.php:2036 includes/topics/template.php:2617
+#: includes/admin/topics.php:819 includes/admin/replies.php:749
+#: includes/topics/template.php:2617 includes/replies/template.php:2036
 msgid "Trash"
 msgstr "Paperera"
 
@@ -4709,7 +4729,7 @@ msgstr "Tipus:"
 msgid "Unfavorite"
 msgstr "No preferit"
 
-#: includes/replies/template.php:2108 includes/topics/template.php:2875
+#: includes/topics/template.php:2875 includes/replies/template.php:2108
 msgid "Unspam"
 msgstr "Marca com a no brossa"
 
@@ -4721,8 +4741,8 @@ msgstr "Desenganxa"
 msgid "Unstick this topic"
 msgstr "Desenganxa aquest tema."
 
-#: includes/forums/template.php:841 includes/topics/template.php:1849
-#: includes/users/template.php:1059
+#: includes/users/template.php:1059 includes/topics/template.php:1849
+#: includes/forums/template.php:841
 msgid "Unsubscribe"
 msgstr "Cancel·la la subscripció"
 
@@ -4803,10 +4823,10 @@ msgstr "L'usuari per a la connexió a la base de dades"
 msgid "User updated."
 msgstr "S'ha actualitzat l'usuari."
 
-#: includes/common/widgets.php:92
-#: templates/default/bbpress/form-user-edit.php:98
 #: templates/default/bbpress/form-user-login.php:17
+#: templates/default/bbpress/form-user-edit.php:98
 #: templates/default/bbpress/form-user-register.php:23
+#: includes/common/widgets.php:92
 msgid "Username"
 msgstr "Nom d'usuari"
 
@@ -4830,16 +4850,16 @@ msgstr ""
 msgid "Version %s"
 msgstr "Versió %s"
 
-#: includes/admin/replies.php:725 includes/admin/topics.php:776
+#: includes/admin/topics.php:776 includes/admin/replies.php:725
 msgid "View"
 msgstr "Visualitza"
 
-#: includes/replies/template.php:1210 includes/topics/template.php:1481
-#: includes/users/template.php:1651
+#: includes/users/template.php:1651 includes/topics/template.php:1481
+#: includes/replies/template.php:1210
 msgid "View %s's profile"
 msgstr "Visualitza el perfil de %s"
 
-#: includes/admin/replies.php:725 includes/admin/topics.php:776
+#: includes/admin/topics.php:776 includes/admin/replies.php:725
 msgid "View &#8220;%s&#8221;"
 msgstr "Mostra &#8220;%s&#8221;"
 
@@ -4880,12 +4900,6 @@ msgid_plural "Viewing %1$s replies"
 msgstr[0] "S'està mostrant %1$s resposta"
 msgstr[1] "S'estan mostrant %1$s respostes"
 
-#: includes/replies/template.php:2345
-msgid "Viewing %1$s reply thread"
-msgid_plural "Viewing %1$s reply threads"
-msgstr[0] "S'està mostrant %1$s fil de resposta"
-msgstr[1] "S'estan mostrant %1$s fils de resposta"
-
 #: includes/search/template.php:401
 msgid "Viewing %1$s result"
 msgid_plural "Viewing %1$s results"
@@ -4925,17 +4939,17 @@ msgid_plural "Viewing %1$s topics - %2$s through %3$s (of %4$s total)"
 msgstr[0] "S'està mostrant %2$s tema (d'un total de %4$s)"
 msgstr[1] "S'està mostrant %1$s temes - del %2$s al %3$s (d'un total de %4$s)"
 
-#: includes/admin/metaboxes.php:285 includes/admin/metaboxes.php:286
 #: templates/default/bbpress/form-forum.php:109
+#: includes/admin/metaboxes.php:285 includes/admin/metaboxes.php:286
 msgid "Visibility:"
 msgstr "Visibilitat:"
 
-#: includes/replies/template.php:1210 includes/topics/template.php:1481
-#: includes/users/template.php:1651
+#: includes/users/template.php:1651 includes/topics/template.php:1481
+#: includes/replies/template.php:1210
 msgid "Visit %s's website"
 msgstr "Visita el web de %s"
 
-#: includes/admin/topics.php:635 templates/default/bbpress/loop-topics.php:20
+#: templates/default/bbpress/loop-topics.php:20 includes/admin/topics.php:635
 msgid "Voices"
 msgstr "Opinions"
 
@@ -4971,13 +4985,13 @@ msgstr ""
 "etiquetes dels temes, de les categories del fòrum i l'agulló se n'ha anat si "
 "necessiteu  suprimir els usuaris importats."
 
-#: includes/admin/metaboxes.php:509
 #: templates/default/bbpress/form-user-edit.php:57
+#: includes/admin/metaboxes.php:509
 msgid "Website"
 msgstr "Pàgina web"
 
-#: includes/admin/metaboxes.php:508
 #: templates/default/bbpress/form-anonymous.php:32
+#: includes/admin/metaboxes.php:508
 msgid "Website:"
 msgstr "Pàgina web:"
 
@@ -5109,8 +5123,8 @@ msgstr ""
 "de l'edició d'articles\" evitarà que l'autor editi durant una quantitat de "
 "temps després de desar l'article."
 
-#: includes/admin/forums.php:131 includes/admin/replies.php:142
-#: includes/admin/topics.php:142
+#: includes/admin/topics.php:142 includes/admin/forums.php:131
+#: includes/admin/replies.php:142
 msgid ""
 "You can customize the display of this screen&#8217;s contents in a number of "
 "ways:"
@@ -5283,7 +5297,7 @@ msgstr "No teniu permisos per fer això."
 msgid "You do not have permission to view this forum."
 msgstr "No teniu permís per veure aquest fòrum."
 
-#: includes/admin/replies.php:464 includes/admin/topics.php:488
+#: includes/admin/topics.php:488 includes/admin/replies.php:464
 msgid "You do not have the permission to do that!"
 msgstr "No teniu permisos per fer això!"
 
@@ -5390,7 +5404,7 @@ msgid ""
 msgstr ""
 "Els usuaris poden gestionar totes les seves subscripcions a un lloc únic."
 
-#. Plugin Name of the plugin/theme
+#. Plugin Name of the plugin
 msgid "bbPress"
 msgstr "bbPress"
 
@@ -5421,7 +5435,7 @@ msgstr ""
 "El bbPress està creat per un eixam d'abelles moolt moolt treballadores "
 "d'arreu del món."
 
-#. Description of the plugin/theme
+#. Description of the plugin
 msgid "bbPress is forum software with a twist from the creators of WordPress."
 msgstr ""
 "El bbPress és un programari de fòrum amb un toc dels creadors del WordPress."
@@ -5463,10 +5477,8 @@ msgstr "hora"
 msgid "hours"
 msgstr "hores"
 
-#. #-#-#-#-#  bbpress.pot (bbPress 2.5.14)  #-#-#-#-#
-#. Plugin URI of the plugin/theme
-#. #-#-#-#-#  bbpress.pot (bbPress 2.5.14)  #-#-#-#-#
-#. Author URI of the plugin/theme
+#. Plugin URI of the plugin
+#. Author URI of the plugin
 msgid "https://bbpress.org"
 msgstr "http://bbpress.org"
 

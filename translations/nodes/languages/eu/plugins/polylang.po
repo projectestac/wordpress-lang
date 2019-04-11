@@ -2,43 +2,31 @@
 # This file is distributed under the same license as the Plugins - Polylang - Stable (latest release) package.
 msgid ""
 msgstr ""
+"Project-Id-Version: Plugins - Polylang - Stable (latest release)\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/polylang\n"
+"POT-Creation-Date: 2019-04-11T16:48:50+02:00\n"
 "PO-Revision-Date: 2017-06-10 17:39:20+0000\n"
+"Language: eu_ES\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: GlotPress/2.4.0-alpha\n"
-"Language: eu_ES\n"
-"Project-Id-Version: Plugins - Polylang - Stable (latest release)\n"
 
-#. translators: Calendar caption: 1: month name, 2: 4-digit year
-#: include/widget-calendar.php:141
-msgctxt "calendar caption"
-msgid "%1$s %2$s"
-msgstr ""
-
-#: admin/admin-filters-columns.php:176
-msgid "&mdash; No Change &mdash;"
-msgstr ""
-
-#: admin/admin-classic-editor.php:175
-msgid "(no parent)"
-msgstr ""
-
-#: settings/settings.php:109
+#: settings/settings.php:111
 msgid "About Polylang"
 msgstr ""
 
-#: lingotek/lingotek.php:121
+#: lingotek/lingotek.php:115
 msgid "Access an online translator workbench."
 msgstr ""
 
-#: lingotek/lingotek.php:109 lingotek/lingotek.php:120
+#: lingotek/lingotek.php:103 lingotek/lingotek.php:114
 msgid ""
 "Access free machine translation for your site for up to 100,000 characters."
 msgstr ""
 
-#: lingotek/lingotek.php:85 settings/settings-module.php:58
+#: settings/settings-module.php:57 lingotek/lingotek.php:79
 msgid "Activate"
 msgstr "Gaitu"
 
@@ -46,35 +34,35 @@ msgstr "Gaitu"
 msgid "Activate Lingotek"
 msgstr "Gaitu Lingotek"
 
-#: lingotek/lingotek.php:134
+#: lingotek/lingotek.php:128
 msgid ""
 "Activate account so Lingotek can get an accurate count of how many words you "
 "have on your site and which languages you wish to translate into."
 msgstr ""
 
-#: settings/settings-cpt.php:82
+#: settings/settings-cpt.php:79
 msgid "Activate languages and translations for custom post types."
 msgstr ""
 
-#: settings/settings-cpt.php:106
+#: settings/settings-cpt.php:103
 msgid "Activate languages and translations for custom taxonomies."
 msgstr ""
 
-#: settings/settings-media.php:23
+#: settings/settings-media.php:21
 msgid "Activate languages and translations for media"
 msgstr ""
 
-#: settings/settings-cpt.php:24
+#: settings/settings-cpt.php:22
 msgid ""
 "Activate the languages and translations management for the custom post types "
 "and taxonomies."
 msgstr ""
 
-#: settings/settings-module.php:56
+#: settings/settings-module.php:55
 msgid "Activate this module"
 msgstr ""
 
-#: lingotek/lingotek.php:85 settings/settings-module.php:60
+#: settings/settings-module.php:60 lingotek/lingotek.php:79
 msgid "Activated"
 msgstr "Aktibatuta"
 
@@ -83,17 +71,18 @@ msgstr "Aktibatuta"
 msgid "Add a translation in %s"
 msgstr ""
 
-#: settings/view-tab-lang.php:31 settings/view-tab-lang.php:175
+#: settings/view-tab-lang.php:31 settings/view-tab-lang.php:169
 msgid "Add new language"
 msgstr ""
-
-#: admin/admin-nav-menu.php:81
-msgid "Add to Menu"
-msgstr "Menura gehitu"
 
 #. Description of the plugin
 msgid "Adds multilingual capability to WordPress"
 msgstr ""
+
+#: admin/admin-filters.php:145
+#, fuzzy
+msgid "Admin language"
+msgstr "Hizkuntzak"
 
 #: settings/flags.php:17
 msgid "Afghanistan"
@@ -107,15 +96,15 @@ msgstr "Albania"
 msgid "Algeria"
 msgstr "Aljeria"
 
-#: include/translated-post.php:108 admin/admin-filters.php:69
+#: admin/admin-filters.php:68 include/translated-post.php:105
 msgid "All languages"
 msgstr ""
 
-#: modules/share-slug/settings-share-slug.php:23
+#: modules/share-slug/settings-share-slug.php:21
 msgid "Allows to share the same url slug across languages for posts and terms."
 msgstr ""
 
-#: modules/translate-slugs/settings-translate-slugs.php:22
+#: modules/translate-slugs/settings-translate-slugs.php:20
 msgid "Allows to translate custom post types and taxonomies slugs in urls."
 msgstr ""
 
@@ -163,7 +152,7 @@ msgstr "Australia"
 msgid "Austria"
 msgstr "Austria"
 
-#: lingotek/lingotek.php:106
+#: lingotek/lingotek.php:100
 msgid "Automatically Translate My Site"
 msgstr ""
 
@@ -271,10 +260,6 @@ msgstr "Kamerun"
 msgid "Canada"
 msgstr "Kanada"
 
-#: settings/settings-module.php:65
-msgid "Cancel"
-msgstr "Ezeztatu"
-
 #: settings/flags.php:66
 msgid "Cape Verde"
 msgstr "Cabo Verde"
@@ -304,15 +289,15 @@ msgid "China"
 msgstr "Txina"
 
 #. translators: accessibility text, %s is a native language name
-#: settings/table-languages.php:113
+#: settings/table-languages.php:111
 msgid "Choose %s as default language"
 msgstr ""
 
-#: settings/view-tab-lang.php:143
+#: settings/view-tab-lang.php:137
 msgid "Choose a flag for the language."
 msgstr ""
 
-#: include/widget-languages.php:48 settings/view-tab-lang.php:52
+#: settings/view-tab-lang.php:52 include/widget-languages.php:48
 msgid "Choose a language"
 msgstr ""
 
@@ -332,15 +317,11 @@ msgstr ""
 msgid "Click on Activate Lingotek to start translating."
 msgstr ""
 
-#: settings/settings-licenses.php:28
-msgid "Close"
-msgstr "Itxi"
-
 #: settings/flags.php:53
 msgid "Cocos"
 msgstr "Cocos"
 
-#: settings/table-languages.php:148
+#: settings/table-languages.php:146
 msgid "Code"
 msgstr "Txartel Kodea"
 
@@ -348,7 +329,7 @@ msgstr "Txartel Kodea"
 msgid "Colombia"
 msgstr "Kolonbia"
 
-#: modules/sync/settings-sync.php:94
+#: modules/sync/settings-sync.php:91
 msgid "Comment status"
 msgstr "Iruzkinaren egoera"
 
@@ -356,7 +337,7 @@ msgstr "Iruzkinaren egoera"
 msgid "Comoros"
 msgstr "Komoreak"
 
-#: settings/settings-module.php:44
+#: settings/settings-module.php:41
 msgid "Configure this module"
 msgstr ""
 
@@ -380,19 +361,19 @@ msgstr "Kroazia"
 msgid "Cuba"
 msgstr "Kuba"
 
-#: modules/sync/settings-sync.php:93
+#: modules/sync/settings-sync.php:90
 msgid "Custom fields"
 msgstr ""
 
-#: settings/settings-cpt.php:64
+#: settings/settings-cpt.php:61
 msgid "Custom post types"
 msgstr ""
 
-#: settings/settings-cpt.php:23
+#: settings/settings-cpt.php:21
 msgid "Custom post types and Taxonomies"
 msgstr ""
 
-#: settings/settings-cpt.php:88
+#: settings/settings-cpt.php:85
 msgid "Custom taxonomies"
 msgstr ""
 
@@ -404,40 +385,36 @@ msgstr "Zipre"
 msgid "Czech Republic"
 msgstr "Txekiar errepublika"
 
-#: admin/admin-strings.php:56
-msgid "Date Format"
-msgstr ""
-
-#: settings/settings-licenses.php:148 settings/settings-module.php:52
+#: settings/settings-module.php:50 settings/settings-licenses.php:143
 msgid "Deactivate"
 msgstr "Ezgaitu"
 
-#: settings/settings-module.php:50
+#: settings/settings-module.php:48
 msgid "Deactivate this module"
 msgstr ""
 
-#: settings/settings-module.php:61
+#: settings/settings-module.php:62
 msgid "Deactivated"
 msgstr "Ezgaitua"
 
-#: settings/settings-url.php:23
+#: settings/settings-url.php:21
 msgid "Decide how your URLs will look like."
 msgstr ""
 
-#: settings/settings-tools.php:23
+#: settings/settings-tools.php:21
 msgid "Decide whether to remove all data when deleting Polylang."
 msgstr ""
 
 #. translators: accessibility text
-#: settings/table-languages.php:129 settings/table-languages.php:149
+#: settings/table-languages.php:127 settings/table-languages.php:147
 msgid "Default language"
 msgstr ""
 
-#: settings/table-string.php:225 settings/table-languages.php:211
+#: settings/table-string.php:219 settings/table-languages.php:209
 msgid "Delete"
 msgstr "Ezabatu"
 
-#: settings/table-languages.php:208
+#: settings/table-languages.php:206
 msgid "Delete this language and all its associated data"
 msgstr ""
 
@@ -449,16 +426,12 @@ msgstr "Kongoko Errepublika Demokratikoa"
 msgid "Denmark"
 msgstr "Danimarka"
 
-#: settings/table-settings.php:147
+#: settings/table-settings.php:165
 msgid "Description"
 msgstr "Deskribapena"
 
-#: settings/settings-browser.php:22
+#: settings/settings-browser.php:20
 msgid "Detect browser language"
-msgstr ""
-
-#: admin/admin-notices.php:158
-msgid "Dismiss this notice."
 msgstr ""
 
 #: include/widget-languages.php:20
@@ -481,31 +454,31 @@ msgstr ""
 msgid "Djibouti"
 msgstr "Djibuti"
 
-#: lingotek/lingotek.php:148
+#: lingotek/lingotek.php:142
 msgid "Do you have existing Translation Memories you would like to use?"
 msgstr ""
 
-#: lingotek/lingotek.php:147
+#: lingotek/lingotek.php:141
 msgid "Do you need customized workflows?"
 msgstr ""
 
-#: lingotek/lingotek.php:149
+#: lingotek/lingotek.php:143
 msgid "Do you need help creating glossaries and terminologies?"
 msgstr ""
 
-#: lingotek/lingotek.php:143
+#: lingotek/lingotek.php:137
 msgid "Do you need help translating your site?"
 msgstr ""
 
-#: lingotek/lingotek.php:146
+#: lingotek/lingotek.php:140
 msgid "Do you need someone to run your localization project?"
 msgstr ""
 
-#: lingotek/lingotek.php:118
+#: lingotek/lingotek.php:112
 msgid "Do you need to connect to a professional translation management system?"
 msgstr ""
 
-#: lingotek/lingotek.php:131
+#: lingotek/lingotek.php:125
 msgid "Do you need to professionally translate your site?"
 msgstr ""
 
@@ -521,7 +494,7 @@ msgstr "Dominikar Errepublika"
 msgid "Ecuador"
 msgstr "Ekuador"
 
-#: settings/table-languages.php:204
+#: settings/table-languages.php:202
 msgid "Edit"
 msgstr "Editatu"
 
@@ -530,17 +503,17 @@ msgid "Edit language"
 msgstr ""
 
 #. translators: accessibility text, %s is a native language name
-#: admin/admin-filters-columns.php:139 admin/admin-filters-columns.php:253
 #: admin/admin-links.php:99 admin/admin-links.php:181
+#: admin/admin-filters-columns.php:139 admin/admin-filters-columns.php:250
 msgid "Edit the translation in %s"
 msgstr ""
 
 #. translators: accessibility text, %s is a native language name
-#: admin/admin-filters-columns.php:135 admin/admin-filters-columns.php:249
+#: admin/admin-filters-columns.php:135 admin/admin-filters-columns.php:246
 msgid "Edit this item in %s"
 msgstr ""
 
-#: settings/table-languages.php:87 settings/table-languages.php:202
+#: settings/table-languages.php:85 settings/table-languages.php:200
 msgid "Edit this language"
 msgstr ""
 
@@ -584,21 +557,15 @@ msgstr "Estonia"
 msgid "Ethiopia"
 msgstr "Etiopia"
 
-#: settings/settings-url.php:58 settings/settings-url.php:69
-#: settings/settings-url.php:132 settings/settings-url.php:143
+#: settings/settings-url.php:55 settings/settings-url.php:66
+#: settings/settings-url.php:129 settings/settings-url.php:140
 msgid "Example:"
 msgstr "Adibidea:"
 
-#. translators: %1$s example url when the option is active. %2$s example url
-#. when the option is not active
-#: settings/settings-url.php:170
+#. translators: %1$s example url when the option is active. %2$s example url when the option is not active
+#: settings/settings-url.php:167
 msgid "Example: %1$s instead of %2$s"
 msgstr ""
-
-#: include/widget-calendar.php:234
-msgctxt "daily archives date format"
-msgid "F j, Y"
-msgstr "Y-m-d"
 
 #: settings/flags.php:87
 msgid "Falkland Islands"
@@ -608,7 +575,7 @@ msgstr "Falklandak"
 msgid "Faroe Islands"
 msgstr "Faroeak"
 
-#: modules/sync/settings-sync.php:102
+#: modules/sync/settings-sync.php:99
 msgid "Featured image"
 msgstr ""
 
@@ -616,16 +583,12 @@ msgstr ""
 msgid "Fiji"
 msgstr "Fiji Uharteak"
 
-#: settings/table-string.php:275
-msgid "Filter"
-msgstr ""
-
 #. translators: accessibility text
-#: settings/table-string.php:256
+#: settings/table-string.php:250
 msgid "Filter by group"
 msgstr ""
 
-#: admin/admin-base.php:355 admin/admin-base.php:364
+#: admin/admin-base.php:338 admin/admin-base.php:346
 msgid "Filters content by language"
 msgstr ""
 
@@ -633,7 +596,7 @@ msgstr ""
 msgid "Finland"
 msgstr "Finlandia"
 
-#: settings/table-languages.php:151 settings/view-tab-lang.php:122
+#: settings/table-languages.php:149 settings/view-tab-lang.php:122
 msgid "Flag"
 msgstr "Bandera"
 
@@ -653,15 +616,11 @@ msgstr "Polinesia Frantsesa"
 msgid "French Southern Territories"
 msgstr "Frantziaren lurralde austral eta antartikoak"
 
-#: admin/admin-static-pages.php:90
-msgid "Front Page"
-msgstr "Azala"
-
 #. Author of the plugin
 msgid "Frédéric Demarle"
 msgstr ""
 
-#: settings/table-languages.php:146 settings/view-tab-lang.php:72
+#: settings/table-languages.php:144 settings/view-tab-lang.php:72
 msgid "Full name"
 msgstr ""
 
@@ -705,7 +664,7 @@ msgstr "Groenlandia"
 msgid "Grenada"
 msgstr "Grenada"
 
-#: settings/table-string.php:122
+#: settings/table-string.php:118
 msgid "Group"
 msgstr ""
 
@@ -737,7 +696,7 @@ msgstr "Guyana"
 msgid "Haiti"
 msgstr "Haiti"
 
-#: lingotek/lingotek.php:122
+#: lingotek/lingotek.php:116
 msgid ""
 "Have linguists compare side-by-side versions of original and translated text."
 msgstr ""
@@ -746,7 +705,7 @@ msgstr ""
 msgid "Heard Island and McDonald Islands"
 msgstr "Heard eta McDonald uharteak"
 
-#: settings/settings-url.php:108
+#: settings/settings-url.php:105
 msgid "Hide URL language information for default language"
 msgstr ""
 
@@ -774,12 +733,6 @@ msgstr "Hungaria"
 msgid "Iceland"
 msgstr "Islandia"
 
-#: modules/plugins/plugins-compat.php:156
-msgid ""
-"Import <strong>posts, pages, comments, custom fields, categories, and tags</"
-"strong> from a WordPress export file."
-msgstr ""
-
 #: admin/admin-model.php:40
 msgid "Impossible to add the language."
 msgstr ""
@@ -793,7 +746,7 @@ msgid "Indonesia"
 msgstr "Indonesia"
 
 #. translators: %1$s is link start tag, %2$s is link end tag.
-#: settings/settings-licenses.php:114
+#: settings/settings-licenses.php:109
 msgid "Invalid license. Please %1$svisit your account page%2$s and verify it."
 msgstr ""
 
@@ -833,7 +786,7 @@ msgstr "Jordania"
 msgid "Kazakhstan"
 msgstr "Kazakhstan"
 
-#: settings/settings-url.php:139
+#: settings/settings-url.php:136
 msgid "Keep /language/ in pretty permalinks"
 msgstr ""
 
@@ -857,9 +810,9 @@ msgstr "Kuwait"
 msgid "Kyrgyzstan"
 msgstr "Kirgizistan"
 
-#: include/translated-post.php:107 admin/admin-filters-columns.php:190
-#: admin/admin-filters-media.php:56 admin/admin-filters-term.php:76
-#: admin/admin-filters-term.php:138 admin/admin-classic-editor.php:72
+#: admin/admin-filters-post.php:156 admin/admin-filters-media.php:54
+#: admin/admin-filters-columns.php:187 admin/admin-filters-term.php:90
+#: admin/admin-filters-term.php:149 include/translated-post.php:104
 msgid "Language"
 msgstr ""
 
@@ -885,7 +838,7 @@ msgstr ""
 
 #: admin/admin-nav-menu.php:50 admin/admin-nav-menu.php:71
 #: admin/admin-nav-menu.php:74 admin/admin-nav-menu.php:104
-#: admin/admin-nav-menu.php:171 install/upgrade.php:331
+#: admin/admin-nav-menu.php:169 install/upgrade.php:322
 msgid "Language switcher"
 msgstr ""
 
@@ -893,9 +846,9 @@ msgstr ""
 msgid "Language updated."
 msgstr ""
 
-#: include/translated-post.php:106 admin/admin-classic-editor.php:45
-#: admin/admin-base.php:72 admin/admin-base.php:94 admin/admin-notices.php:73
-#: settings/settings.php:119
+#: admin/admin-filters-post.php:129 admin/admin-notices.php:73
+#: admin/admin-base.php:69 admin/admin-base.php:91 settings/settings.php:124
+#: include/translated-post.php:103
 msgid "Languages"
 msgstr "Hizkuntzak"
 
@@ -911,7 +864,7 @@ msgstr "Letonia"
 msgid "Learn more"
 msgstr ""
 
-#: lingotek/lingotek.php:269
+#: lingotek/lingotek.php:263
 msgid "Learn more..."
 msgstr "Ikasi gehiago..."
 
@@ -931,7 +884,7 @@ msgstr "Liberia"
 msgid "Libya"
 msgstr "Libia"
 
-#: settings/settings-licenses.php:23
+#: settings/settings-licenses.php:21
 msgid "License keys"
 msgstr ""
 
@@ -943,7 +896,7 @@ msgstr "Liechtenstein"
 msgid "Lithuania"
 msgstr "Lituania"
 
-#: settings/table-languages.php:147 settings/view-tab-lang.php:83
+#: settings/table-languages.php:145 settings/view-tab-lang.php:83
 msgid "Locale"
 msgstr ""
 
@@ -959,7 +912,7 @@ msgstr "Makao"
 msgid "Macedonia"
 msgstr "Mazedonia"
 
-#: lingotek/lingotek.php:110
+#: lingotek/lingotek.php:104
 msgid ""
 "Machine translation is an excellent option if you're on a tight budget, "
 "looking for near-instant results, and are okay with less-than-perfect "
@@ -990,7 +943,7 @@ msgstr "Mali"
 msgid "Malta"
 msgstr "Malta"
 
-#: settings/settings-licenses.php:24
+#: settings/settings-licenses.php:22
 msgid "Manage licenses for Polylang Pro or addons."
 msgstr ""
 
@@ -1014,10 +967,6 @@ msgstr "Maurizio"
 msgid "Mayotte"
 msgstr "Mayotte"
 
-#: settings/settings-media.php:22
-msgid "Media"
-msgstr ""
-
 #: settings/flags.php:169
 msgid "Mexico"
 msgstr "Mexiko"
@@ -1026,7 +975,7 @@ msgstr "Mexiko"
 msgid "Micronesia"
 msgstr "Mikronesia"
 
-#: settings/table-settings.php:146
+#: settings/table-settings.php:164
 msgid "Module"
 msgstr ""
 
@@ -1062,7 +1011,7 @@ msgstr "Mozambike"
 msgid "Myanmar"
 msgstr "Myanmar"
 
-#: settings/table-string.php:121
+#: settings/table-string.php:117
 msgid "Name"
 msgstr "Izena"
 
@@ -1074,7 +1023,7 @@ msgstr "Namibia"
 msgid "Nauru"
 msgstr "Nauru"
 
-#: lingotek/lingotek.php:142
+#: lingotek/lingotek.php:136
 msgid "Need Extra Services?"
 msgstr ""
 
@@ -1114,10 +1063,6 @@ msgstr "Nigeria"
 msgid "Niue"
 msgstr "Niue"
 
-#: admin/admin-filters-term.php:426
-msgid "None"
-msgstr "Bat ere ez"
-
 #: settings/flags.php:175
 msgid "Norfolk Island"
 msgstr "Norfolk irla"
@@ -1142,26 +1087,26 @@ msgstr "Okzitania"
 msgid "Oman"
 msgstr "Oman"
 
-#: lingotek/lingotek.php:135
+#: lingotek/lingotek.php:129
 msgid ""
 "Once activated click on the request translation bid and a certified "
 "translation project manager will contact you to give a no obligations "
 "translation bid."
 msgstr ""
 
-#: settings/table-languages.php:150 settings/view-tab-lang.php:147
+#: settings/table-languages.php:148 settings/view-tab-lang.php:141
 msgid "Order"
 msgstr "Eskaria"
 
-#: modules/sync/settings-sync.php:101
+#: modules/sync/settings-sync.php:98
 msgid "Page order"
 msgstr ""
 
-#: modules/sync/settings-sync.php:99
+#: modules/sync/settings-sync.php:96
 msgid "Page parent"
 msgstr ""
 
-#: modules/sync/settings-sync.php:100
+#: modules/sync/settings-sync.php:97
 msgid "Page template"
 msgstr ""
 
@@ -1193,7 +1138,7 @@ msgstr "Peru"
 msgid "Philippines"
 msgstr "Filipinak"
 
-#: modules/sync/settings-sync.php:95
+#: modules/sync/settings-sync.php:92
 msgid "Ping status"
 msgstr ""
 
@@ -1202,7 +1147,7 @@ msgid "Pitcairn"
 msgstr "Pitcairn"
 
 #. translators: %s is a native language name
-#: settings/settings-url.php:239
+#: settings/settings-url.php:232
 msgid "Please enter a valid URL for %s."
 msgstr ""
 
@@ -1224,11 +1169,11 @@ msgid ""
 "Polylang has been deactivated because you upgraded from a too old version."
 msgstr ""
 
-#: lingotek/lingotek.php:107
+#: lingotek/lingotek.php:101
 msgid "Polylang is now fully integrated with Lingotek!"
 msgstr ""
 
-#: lingotek/lingotek.php:103
+#: lingotek/lingotek.php:97
 msgid ""
 "Polylang is now fully integrated with Lingotek, a professional translation "
 "management system!"
@@ -1250,7 +1195,7 @@ msgid ""
 msgstr ""
 
 #. translators: %s is an url
-#: settings/settings-url.php:294
+#: settings/settings-url.php:280
 msgid ""
 "Polylang was unable to access the URL %s. Please check that the URL is valid."
 msgstr ""
@@ -1259,36 +1204,27 @@ msgstr ""
 msgid "Portugal"
 msgstr "Portugal"
 
-#: settings/view-tab-lang.php:154
+#: settings/view-tab-lang.php:148
 msgid "Position of the language in the language switcher"
 msgstr ""
 
-#: modules/sync/settings-sync.php:98
+#: modules/sync/settings-sync.php:95
 msgid "Post format"
 msgstr ""
 
-#: settings/table-languages.php:152
+#: settings/table-languages.php:150
 msgid "Posts"
 msgstr "Bidalketak"
 
-#: admin/admin-static-pages.php:94
-msgid "Posts Page"
-msgstr "Sarreren orrialdea"
-
-#. translators: Post calendar label. 1: Date
-#: include/widget-calendar.php:236
-msgid "Posts published on %s"
-msgstr ""
-
-#: settings/settings-url.php:48
+#: settings/settings-url.php:45
 msgid "Posts, pages, categories and tags urls are not modified."
 msgstr ""
 
-#: lingotek/lingotek.php:130
+#: lingotek/lingotek.php:124
 msgid "Professionally Translate My Site"
 msgstr ""
 
-#: modules/sync/settings-sync.php:97
+#: modules/sync/settings-sync.php:94
 msgid "Published date"
 msgstr ""
 
@@ -1304,11 +1240,11 @@ msgstr "Katar"
 msgid "Quebec"
 msgstr "Quebec"
 
-#: settings/settings-url.php:128
+#: settings/settings-url.php:125
 msgid "Remove /language/ in pretty permalinks"
 msgstr ""
 
-#: settings/settings-tools.php:37
+#: settings/settings-tools.php:34
 msgid ""
 "Remove all Polylang data when using the \"Delete\" link on the plugins "
 "screen."
@@ -1318,11 +1254,11 @@ msgstr ""
 msgid "Republic of Ireland"
 msgstr "Irlandako Errepublika"
 
-#: lingotek/lingotek.php:96
+#: lingotek/lingotek.php:90
 msgid "Request Services"
 msgstr ""
 
-#: lingotek/lingotek.php:90
+#: lingotek/lingotek.php:84
 msgid "Request Translation"
 msgstr ""
 
@@ -1366,11 +1302,7 @@ msgstr "San Marino"
 msgid "Saudi Arabia"
 msgstr "Saudi Arabia"
 
-#: settings/settings-module.php:66
-msgid "Save Changes"
-msgstr "Gorde aldaketak"
-
-#: lingotek/lingotek.php:123
+#: lingotek/lingotek.php:117
 msgid ""
 "Save and re-use previously translated material (leverage translation memory "
 "(TM))."
@@ -1380,21 +1312,11 @@ msgstr ""
 msgid "Scotland"
 msgstr "Eskozia"
 
-#: frontend/frontend-filters-search.php:83
-#: frontend/frontend-filters-search.php:84
-msgid "Search"
-msgstr ""
-
 #: settings/view-tab-strings.php:15
 msgid "Search translations"
 msgstr ""
 
-#. translators:  accessibility text, %s is a string potentially in any language
-#: settings/table-string.php:65
-msgid "Select %s"
-msgstr "%s aukeratu"
-
-#: settings/table-languages.php:110
+#: settings/table-languages.php:108
 msgid "Select as default language"
 msgstr ""
 
@@ -1406,27 +1328,23 @@ msgstr "Senegal"
 msgid "Serbia"
 msgstr "Serbia"
 
-#: admin/admin-filters-term.php:86 admin/admin-filters-term.php:149
+#: admin/admin-filters-term.php:97 admin/admin-filters-term.php:157
 msgid "Sets the language"
 msgstr ""
 
-#: admin/admin.php:75 admin/admin-base.php:79 settings/settings-module.php:46
+#: admin/admin.php:70 admin/admin-base.php:76 settings/settings-module.php:43
 msgid "Settings"
 msgstr "Ezarpenak"
-
-#: settings/settings-licenses.php:198 settings/settings-module.php:176
-msgid "Settings saved."
-msgstr ""
 
 #: settings/flags.php:208
 msgid "Seychelles"
 msgstr "Seychelleak"
 
-#: modules/share-slug/settings-share-slug.php:22
+#: modules/share-slug/settings-share-slug.php:20
 msgid "Share slugs"
 msgstr ""
 
-#: admin/admin-base.php:346
+#: admin/admin-base.php:329
 msgid "Show all languages"
 msgstr ""
 
@@ -1437,10 +1355,6 @@ msgstr "Sierra Leona"
 #: settings/flags.php:212
 msgid "Singapore"
 msgstr "Singapur"
-
-#: admin/admin-strings.php:54
-msgid "Site Title"
-msgstr ""
 
 #: settings/flags.php:215
 msgid "Slovakia"
@@ -1482,23 +1396,23 @@ msgstr "Espainia"
 msgid "Sri Lanka"
 msgstr "Sri Lanka"
 
-#: lingotek/lingotek.php:133
+#: lingotek/lingotek.php:127
 msgid "Start the process of getting a professional translation bid."
 msgstr ""
 
-#: lingotek/lingotek.php:145
+#: lingotek/lingotek.php:139
 msgid "Start the process of getting extra services."
 msgstr ""
 
-#: modules/sync/settings-sync.php:96
+#: modules/sync/settings-sync.php:93
 msgid "Sticky posts"
 msgstr ""
 
-#: settings/table-string.php:120
+#: settings/table-string.php:116
 msgid "String"
 msgstr ""
 
-#: include/mo.php:18 admin/admin-base.php:76 settings/settings.php:137
+#: admin/admin-base.php:73 settings/settings.php:139 include/mo.php:18
 msgid "Strings translations"
 msgstr ""
 
@@ -1527,7 +1441,7 @@ msgstr "Suedia"
 msgid "Switzerland"
 msgstr "Suitza"
 
-#: modules/sync/settings-sync.php:22
+#: modules/sync/settings-sync.php:20
 msgid "Synchronization"
 msgstr ""
 
@@ -1537,10 +1451,6 @@ msgstr "Siria"
 
 #: settings/flags.php:222
 msgid "São Tomé and Príncipe"
-msgstr ""
-
-#: admin/admin-strings.php:55
-msgid "Tagline"
 msgstr ""
 
 #: settings/flags.php:241
@@ -1555,7 +1465,7 @@ msgstr "Tadjikistan"
 msgid "Tanzania"
 msgstr "Tanzania"
 
-#: modules/sync/settings-sync.php:92
+#: modules/sync/settings-sync.php:89
 msgid "Taxonomies"
 msgstr "Taxonomiak"
 
@@ -1567,7 +1477,7 @@ msgstr ""
 msgid "Thailand"
 msgstr "Tailandia"
 
-#: admin/admin-static-pages.php:149 admin/admin-static-pages.php:166
+#: admin/admin-static-pages.php:127 admin/admin-static-pages.php:144
 msgid "The chosen static front page must be translated in all languages."
 msgstr ""
 
@@ -1575,7 +1485,7 @@ msgstr ""
 msgid "The flag does not exist"
 msgstr ""
 
-#: settings/settings-url.php:159
+#: settings/settings-url.php:156
 msgid ""
 "The front page url contains the language code instead of the page name or "
 "page id"
@@ -1589,23 +1499,23 @@ msgstr ""
 msgid "The language code must be unique"
 msgstr ""
 
-#: settings/settings-url.php:44
+#: settings/settings-url.php:41
 msgid "The language is set from content"
 msgstr ""
 
-#: settings/settings-url.php:76
+#: settings/settings-url.php:73
 msgid "The language is set from different domains"
 msgstr ""
 
-#: settings/settings-url.php:54
+#: settings/settings-url.php:51
 msgid "The language is set from the code in the URL"
 msgstr ""
 
-#: settings/settings-url.php:54
+#: settings/settings-url.php:51
 msgid "The language is set from the directory name in pretty permalinks"
 msgstr ""
 
-#: settings/settings-url.php:65
+#: settings/settings-url.php:62
 msgid "The language is set from the subdomain name in pretty permalinks"
 msgstr ""
 
@@ -1613,13 +1523,13 @@ msgstr ""
 msgid "The language must have a name"
 msgstr ""
 
-#: settings/settings.php:175
+#: settings/settings.php:176
 msgid ""
 "The language was created, but the WordPress language file was not "
 "downloaded. Please install it manually."
 msgstr ""
 
-#: settings/settings-licenses.php:151
+#: settings/settings-licenses.php:146
 msgid "The license key never expires."
 msgstr ""
 
@@ -1627,53 +1537,47 @@ msgstr ""
 msgid "The name is how it is displayed on your site (for example: English)."
 msgstr ""
 
-#: modules/sync/settings-sync.php:23
+#: modules/sync/settings-sync.php:21
 msgid ""
 "The synchronization options allow to maintain exact same values (or "
 "translations in the case of taxonomies and page parent) of meta content "
 "between the translations of a post or page."
 msgstr ""
 
-#: admin/admin-filters.php:66
+#: admin/admin-filters.php:65
 msgid "The widget is displayed for:"
 msgstr ""
 
-#: settings/settings.php:304
+#: settings/settings.php:305
 msgid "There are posts, pages, categories or tags without language."
 msgstr ""
 
-#. translators: %1$s plugin name, %3$s plugin version, %2$s and %5$s are link
-#. start tags, %4$s and %6$s are link end tags.
+#. translators: %1$s plugin name, %3$s plugin version, %2$s and %5$s are link start tags, %4$s and %6$s are link end tags.
 #: install/plugin-updater.php:223
 msgid ""
 "There is a new version of %1$s available. %2$sView version %3$s details%4$s "
 "or %5$supdate now%6$s."
 msgstr ""
 
-#. translators: %1$s plugin name, %3$s plugin version, %2$s is link start tag,
-#. %4$s is link end tag.
+#. translators: %1$s plugin name, %3$s plugin version, %2$s is link start tag, %4$s is link end tag.
 #: install/plugin-updater.php:214
 msgid ""
 "There is a new version of %1$s available. %2$sView version %3$s details%4$s."
 msgstr ""
 
 #. translators: %s is a product name
-#: settings/settings-licenses.php:133
+#: settings/settings-licenses.php:128
 msgid "This is not a %s license key."
 msgstr ""
 
 #. translators: accessibility text, %s is a native language name
-#: admin/admin-filters-columns.php:152 admin/admin-filters-columns.php:266
+#: admin/admin-filters-columns.php:149 admin/admin-filters-columns.php:260
 msgid "This item is in %s"
 msgstr ""
 
 #: settings/flags.php:231
 msgid "Tibet"
 msgstr "Tibet"
-
-#: admin/admin-strings.php:57
-msgid "Time Format"
-msgstr ""
 
 #: settings/flags.php:234
 msgid "Timor-Leste"
@@ -1695,11 +1599,11 @@ msgstr "Tokelau"
 msgid "Tonga"
 msgstr "Tonga"
 
-#: settings/settings-tools.php:22
+#: settings/settings-tools.php:20
 msgid "Tools"
 msgstr "Tresnak"
 
-#: modules/translate-slugs/settings-translate-slugs.php:21
+#: modules/translate-slugs/settings-translate-slugs.php:19
 msgid "Translate slugs"
 msgstr ""
 
@@ -1712,17 +1616,17 @@ msgstr ""
 msgid "Translation"
 msgstr ""
 
-#: lingotek/lingotek.php:117
+#: lingotek/lingotek.php:111
 msgid "Translation Management System"
 msgstr ""
 
-#: admin/view-translations-post.php:11 admin/view-translations-media.php:12
-#: admin/view-translations-term.php:13 admin/view-translations-term.php:20
-#: settings/table-string.php:123
+#: admin/view-translations-post.php:11 admin/view-translations-term.php:13
+#: admin/view-translations-term.php:20 admin/view-translations-media.php:12
+#: settings/table-string.php:119
 msgid "Translations"
 msgstr "Itzulpenak"
 
-#: settings/table-string.php:324
+#: settings/table-string.php:318
 msgid "Translations updated."
 msgstr ""
 
@@ -1750,7 +1654,7 @@ msgstr "Turks eta Caicos Irlak"
 msgid "Tuvalu"
 msgstr "Tuvalu"
 
-#: settings/settings-url.php:22
+#: settings/settings-url.php:20
 msgid "URL modifications"
 msgstr ""
 
@@ -1761,10 +1665,6 @@ msgstr "Uganda"
 #: settings/flags.php:243
 msgid "Ukraine"
 msgstr "Ukraina"
-
-#: include/model.php:388
-msgid "Uncategorized"
-msgstr ""
 
 #: settings/flags.php:16
 msgid "United Arab Emirates"
@@ -1782,15 +1682,11 @@ msgstr "Ameriketako Estatu Batuak"
 msgid "United States Virgin Islands"
 msgstr ""
 
-#: settings/view-tab-lang.php:175
-msgid "Update"
-msgstr "Eguneratu"
-
-#: settings/settings-module.php:235
+#: settings/settings-module.php:236
 msgid "Upgrade now."
 msgstr "Bertsio-berritu orain."
 
-#: admin/admin-filters.php:159
+#: admin/admin-filters.php:188
 msgid "Upgrading language files&#8230;"
 msgstr ""
 
@@ -1802,10 +1698,6 @@ msgstr "Uruguai"
 msgid ""
 "Use this to remove unused strings from database, for example after a plugin "
 "has been uninstalled."
-msgstr ""
-
-#: include/filters.php:356
-msgid "User"
 msgstr ""
 
 #. translators: %s is a language native name
@@ -1837,15 +1729,15 @@ msgstr "Venezuela"
 msgid "Vietnam"
 msgstr "Vietnam"
 
-#: settings/table-string.php:262
+#: settings/table-string.php:256
 msgid "View all groups"
 msgstr ""
 
-#: modules/wpml/settings-wpml.php:22
+#: modules/wpml/settings-wpml.php:20
 msgid "WPML Compatibility"
 msgstr ""
 
-#: modules/wpml/settings-wpml.php:23
+#: modules/wpml/settings-wpml.php:21
 msgid "WPML compatibility mode of Polylang"
 msgstr ""
 
@@ -1858,14 +1750,14 @@ msgid "Wallis and Futuna"
 msgstr "Wallis eta Futuna"
 
 #. translators: %1$s is link start tag, %2$s is link end tag.
-#: admin/admin-notices.php:201
+#: admin/admin-notices.php:182
 msgid ""
 "We have noticed that you are using Polylang for some time. We hope that you "
 "love it! We would be thrilled if you could %1$sgive us a 5 stars rating%2$s."
 msgstr ""
 
 #. translators: %1$s is link start tag, %2$s is link end tag.
-#: admin/admin-notices.php:176
+#: admin/admin-notices.php:157
 msgid ""
 "We have noticed that you are using Polylang with WooCommerce. We recommend "
 "you to use %1$sPolylang for WooCommerce%2$s to ensure the compatibility."
@@ -1879,7 +1771,7 @@ msgstr "Mendebaldeko Sahara"
 msgid "Western Samoa"
 msgstr "Samoa Mendebaldea"
 
-#: settings/settings-browser.php:23
+#: settings/settings-browser.php:21
 msgid ""
 "When the front page is visited, set the language according to the browser "
 "preference"
@@ -1899,16 +1791,20 @@ msgid ""
 "install the .mo file for this language."
 msgstr ""
 
+#: admin/admin-filters.php:148
+msgid "WordPress default"
+msgstr ""
+
 #: settings/flags.php:259
 msgid "Yemen"
 msgstr "Yemen"
 
-#: settings/table-languages.php:210
+#: settings/table-languages.php:208
 msgid "You are about to permanently delete this language. Are you sure?"
 msgstr ""
 
 #. translators: %1$s and %2$s are WordPress version numbers
-#: install/install.php:30
+#: install/install.php:27
 msgid ""
 "You are using WordPress %1$s. Polylang requires at least WordPress %2$s."
 msgstr ""
@@ -1917,7 +1813,7 @@ msgstr ""
 msgid "You can choose a language in the list or directly edit it below."
 msgstr ""
 
-#: settings/settings.php:306
+#: settings/settings.php:307
 msgid "You can set them all to the default language."
 msgstr ""
 
@@ -1925,38 +1821,37 @@ msgstr ""
 msgid "You do not have permission to install plugin updates"
 msgstr ""
 
-#: settings/settings-module.php:233
+#: settings/settings-module.php:234
 msgid "You need Polylang Pro to enable this feature."
 msgstr ""
 
-#. translators: %1$s is a product name, %2$s is link start tag, %3$s is link
-#. end tag.
-#: settings/settings-licenses.php:124
+#. translators: %1$s is a product name, %2$s is link start tag, %3$s is link end tag.
+#: settings/settings-licenses.php:119
 msgid ""
 "Your %1$s license key is not active for this URL. Please %2$svisit your "
 "account page%3$s to manage your license key URLs."
 msgstr ""
 
 #. translators: %1$s is a date, %2$s is link start tag, %3$s is link end tag.
-#: settings/settings-licenses.php:104
+#: settings/settings-licenses.php:99
 msgid ""
 "Your license key expired on %1$s. Please %2$srenew your license key%3$s."
 msgstr ""
 
 #. translators: %s is a date
-#: settings/settings-licenses.php:164
+#: settings/settings-licenses.php:159
 msgid "Your license key expires on %s."
 msgstr ""
 
 #. translators: %1$s is a date, %2$s is link start tag, %3$s is link end tag.
-#: settings/settings-licenses.php:156
+#: settings/settings-licenses.php:151
 msgid ""
 "Your license key expires soon! It expires on %1$s. %2$sRenew your license key"
 "%3$s."
 msgstr ""
 
 #. translators: %1$s is link start tag, %2$s is link end tag
-#: settings/settings-licenses.php:139
+#: settings/settings-licenses.php:134
 msgid ""
 "Your license key has reached its activation limit. %1$sView possible upgrades"
 "%2$s now."

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Reactor\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/reactor\n"
-"POT-Creation-Date: 2019-04-05 07:48:23+00:00\n"
+"POT-Creation-Date: 2019-04-11T16:48:58+02:00\n"
 "PO-Revision-Date: 2019-04-09 08:40+0200\n"
 "Last-Translator: Joan Sala Soler <jsala236@xtec.cat>\n"
 "Language-Team: awtheme\n"
@@ -14,7 +14,9 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 2.0.6\n"
 "X-Poedit-Basepath: ../../..\n"
-"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html_x:1,2c;esc_html__;esc_attr_e;esc_attr_x:1,2c;esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_x:1,2c;_n:1,2;_n_noop:1,2;__ngettext:1,2;__ngettext_noop:1,2;_c,_nc:4c,1,2\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html_x:1,2c;esc_html__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;"
+"_x:1,2c;_n:1,2;_n_noop:1,2;__ngettext:1,2;__ngettext_noop:1,2;_c,_nc:4c,1,2\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
@@ -31,8 +33,8 @@ msgstr "% comentaris"
 msgid "%1$s at %2$s"
 msgstr "%1$s a les %2$s"
 
-#: library/inc/content/content-posts.php:30
 #: post-formats/format-portfolio.php:28
+#: library/inc/content/content-posts.php:30
 msgid "%s"
 msgstr "%s"
 
@@ -93,23 +95,22 @@ msgstr "No s'ha trobat"
 
 #: image.php:32
 msgid ""
-"<span class=\"meta-prep meta-prep-entry-date\">Published </span> <span class"
-"=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\" "
-"pubdate>%2$s</time></span> at <a href=\"%3$s\" title=\"Link to full-size "
-"image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" "
-"rel=\"gallery\">%8$s</a>."
+"<span class=\"meta-prep meta-prep-entry-date\">Published </span> <span class="
+"\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\" pubdate>%2$s</"
+"time></span> at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s "
+"&times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery"
+"\">%8$s</a>."
 msgstr ""
-"<span class=\"meta-prep meta-prep-entry-date\">Publicat </span> <span class"
-"=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\" "
-"pubdate>%2$s</time></span> a <a href=\"%3$s\" title=\"Link to full-size "
-"image\">%4$s &vegades; %5$s</a> en <a href=\"%6$s\" title=\"Return to %7$s\""
-" rel=\"gallery\">%8$s</a>."
+"<span class=\"meta-prep meta-prep-entry-date\">Publicat </span> <span class="
+"\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\" pubdate>%2$s</"
+"time></span> a <a href=\"%3$s\" title=\"Link to full-size image\">%4$s "
+"&vegades; %5$s</a> en <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery"
+"\">%8$s</a>."
 
 #: library/inc/metaboxes/meta-fields.php:171
 msgid "A URL for the slide title to direct to (ex. http://awtheme.com)"
 msgstr ""
-"Un URL pel títol de la diapositiva a què es dirigeix (ex. "
-"http://awtheme.com)"
+"Un URL pel títol de la diapositiva a què es dirigeix (ex. http://awtheme.com)"
 
 #: library/inc/customizer/customize.php:331
 msgid "Accordion"
@@ -118,27 +119,6 @@ msgstr "Acordió"
 #: custom-tac/welcome-panel.php:26
 msgid "Actions"
 msgstr "Accions"
-
-#: functions.php:253 functions.php:302
-msgid "Activity"
-msgstr "Activitat"
-
-#: functions.php:254
-msgid "Activity Plus"
-msgstr "Activitat Plus"
-
-#: functions.php:283
-msgid "Activity report in social network"
-msgstr "Informe d'activitats a la xarxa social"
-
-#: functions.php:266
-msgctxt "add new"
-msgid "Add New"
-msgstr "Afegeix"
-
-#: functions.php:276
-msgid "Add New Invitation"
-msgstr "Afegeix una invitació nova"
 
 #: custom-tac/welcome-panel.php:35
 msgid "Add a blog post"
@@ -152,7 +132,7 @@ msgstr "Afegeix pàgines addicionals"
 msgid "Add an About page"
 msgstr "Afegeix una pàgina Quant a"
 
-#. Author of the plugin/theme
+#. Author of the theme
 msgid "Albert Bachiller"
 msgstr "Albert Bachiller"
 
@@ -164,18 +144,6 @@ msgstr "Alerta"
 msgid "All"
 msgstr "Tot"
 
-#: functions.php:354
-msgid "All Forums"
-msgstr "Tots els fòrums"
-
-#: functions.php:367
-msgid "All Replies"
-msgstr "Totes les respostes"
-
-#: functions.php:360
-msgid "All Topics"
-msgstr "Tots els temes"
-
 #: post-formats/format-none.php:17
 msgid ""
 "Apologies, but no results were found. Perhaps searching will help find a "
@@ -186,10 +154,6 @@ msgstr "Podeu provar a fer una cerca nova."
 msgid "Archives"
 msgstr "Arxius"
 
-#: functions.php:267
-msgid "Associated Items"
-msgstr "Elements associats"
-
 #: library/inc/metaboxes/custom-meta.php:169
 msgid "Available "
 msgstr "Disponible "
@@ -198,7 +162,7 @@ msgstr "Disponible "
 msgid "Barra esquerra (Ginys)"
 msgstr "Barra esquerra (Ginys)"
 
-#. Template Name of the plugin/theme
+#. Template Name of the theme
 msgid "Barra esquerra (Subpàgines)"
 msgstr "Barra esquerra (Subpàgines)"
 
@@ -206,21 +170,9 @@ msgstr "Barra esquerra (Subpàgines)"
 msgid "Bookings"
 msgstr "Sistema de reserves"
 
-#: custom-tac/welcome-panel.php:48 functions.php:252 functions.php:300
+#: custom-tac/welcome-panel.php:48
 msgid "BuddyPress"
 msgstr "Xarxa Nodes (BuddyPress)"
-
-#: functions.php:264 functions.php:265
-msgid "BuddyPress Docs"
-msgstr "Documents de BuddyPress"
-
-#: functions.php:273
-msgid "BuddyPress Invitations"
-msgstr "Invitacions de BuddyPress"
-
-#: functions.php:257 functions.php:328
-msgid "BuddyPress Like"
-msgstr "BuddyPress Like"
 
 #: functions.php:157
 msgid "Categories (Barra esquerra)"
@@ -246,11 +198,7 @@ msgstr "Categoria: %s"
 msgid "Choose File"
 msgstr "Tria un fitxer"
 
-#: comments.php:49
-msgid "Comments are closed."
-msgstr "Els comentaris estan tancats."
-
-#: functions.php:255 functions.php:325
+#: functions.php:255
 msgid "Components"
 msgstr "Components"
 
@@ -258,7 +206,7 @@ msgstr "Components"
 msgid "Configuració"
 msgstr "Configuració"
 
-#. Template Name of the plugin/theme
+#. Template Name of the theme
 #: library/inc/customizer/customize.php:747
 msgid "Contact Page"
 msgstr "Contacte"
@@ -266,10 +214,6 @@ msgstr "Contacte"
 #: library/inc/customizer/customize.php:312
 msgid "Contain Top Bar Width"
 msgstr "Conté l'amplada de la barra superior"
-
-#: content.php:16
-msgid "Continue reading..."
-msgstr "Continua llegint..."
 
 #: custom-tac/capcalera/icones-capcalera-settings.php:61
 msgid "Copia el nom de la icona i enganxa'l a la posició desitjada."
@@ -291,23 +235,13 @@ msgstr "Format per defecte"
 msgid "Do you need help?"
 msgstr "Necessiteu ajuda?"
 
-#: functions.php:268
-msgid "Docs Tags"
-msgstr "Etiquetes dels documents"
-
 #: custom-tac/metabox-post-parametres.php:56
 msgid "Document"
 msgstr "Document"
 
-#: image.php:43 library/inc/content/content-pages.php:48
-#: library/inc/content/content-posts.php:23
-#: library/inc/content/content-posts.php:33
 #: library/inc/extensions/comments.php:23
 #: library/inc/extensions/comments.php:55
-#: library/inc/functions/breadcrumbs.php:1149
-#: library/inc/functions/breadcrumbs.php:1185
-#: library/inc/functions/breadcrumbs.php:1202
-#: library/inc/functions/breadcrumbs.php:1233
+#: library/inc/content/content-pages.php:48 image.php:43
 msgid "Edit"
 msgstr "Edita"
 
@@ -360,18 +294,10 @@ msgstr "Excloure"
 msgid "F"
 msgstr "F"
 
-#: library/inc/functions/breadcrumbs.php:1054
-msgid "F Y"
-msgstr "F \\d\\e Y"
-
 #: archive-portfolio.php:28
 msgctxt "monthly archives date format"
 msgid "F Y"
 msgstr "F \\d\\e Y"
-
-#: library/inc/functions/breadcrumbs.php:1058
-msgid "F j, Y"
-msgstr "F j, Y"
 
 #: custom-tac/welcome-panel.php:55
 msgid "FAQ"
@@ -402,10 +328,6 @@ msgstr "Enllaços del peu de pàgina"
 msgid "Footer Site Info"
 msgstr "Informació del lloc al peu de pàgina"
 
-#: functions.php:353 functions.php:381
-msgid "Forums"
-msgstr "Fòrums"
-
 #: library/inc/customizer/customize.php:520
 msgid "Front Page"
 msgstr "Portada"
@@ -418,18 +340,10 @@ msgstr "Portada (Barra esquerra)"
 msgid "Front Page Secondary"
 msgstr "Portada (Barra dreta)"
 
-#: custom-tac/capcalera/icones-capcalera-settings.php:255
 #: library/inc/customizer/customize.php:171
+#: custom-tac/capcalera/icones-capcalera-settings.php:255
 msgid "General"
 msgstr "General"
-
-#: functions.php:259 functions.php:329
-msgid "Group Email Options"
-msgstr "Opcions de correu del node"
-
-#: functions.php:256 functions.php:327
-msgid "Groups"
-msgstr "Nodes"
 
 #: custom-tac/welcome-panel.php:31
 msgid "Header icons"
@@ -479,18 +393,6 @@ msgstr "Icones disponibles"
 msgid "Invalid sidebar ID"
 msgstr "Identificador de la barra lateral no vàlid"
 
-#: functions.php:274 functions.php:335
-msgid "Invite Anyone"
-msgstr "Convida Membres"
-
-#: functions.php:278
-msgid "Invited Groups"
-msgstr "Nodes convidats"
-
-#: functions.php:277
-msgid "Invitees"
-msgstr "Convidats"
-
 #: 404.php:29
 msgid ""
 "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
@@ -505,14 +407,6 @@ msgstr "Enllaça els títols dels articles"
 #: library/inc/customizer/customize.php:869
 msgid "Link Titles"
 msgstr "Enllaça els títols"
-
-#: comments.php:67
-msgid ""
-"Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of "
-"this account\">Log out &raquo;</a>"
-msgstr ""
-"S'ha iniciat la sessió com a <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" "
-"title=\"Log out of this account\">Surt &raquo;</a>"
 
 #: library/inc/customizer/customize.php:469
 msgid "Login"
@@ -530,10 +424,6 @@ msgstr "URL d'enllaç del logotip"
 msgid "Logo Title Attribute"
 msgstr "Atribut del títol del logotip"
 
-#: functions.php:258
-msgid "Logs"
-msgstr "Registres"
-
 #: library/inc/extensions/menus.php:39
 msgid "Main Menu"
 msgstr "Menú principal"
@@ -545,15 +435,8 @@ msgstr "Gestiona "
 
 #: custom-tac/welcome-panel.php:46
 msgid "Manage <a href=\"%1$s\">widgets</a> or <a href=\"%2$s\">menus</a>"
-msgstr "Gestiona els <a href=\"%1$s\">ginys</a> o els <a href=\"%2$s\">menús</a>"
-
-#: functions.php:275
-msgid "Manage Invitations"
-msgstr "Gestiona les invitacions"
-
-#: library/inc/functions/breadcrumbs.php:1181
-msgid "Merge"
-msgstr "Combina"
+msgstr ""
+"Gestiona els <a href=\"%1$s\">ginys</a> o els <a href=\"%2$s\">menús</a>"
 
 #: library/inc/functions/breadcrumbs.php:179
 msgid "Minute %d"
@@ -579,7 +462,7 @@ msgstr "Música"
 msgid "NO Comments"
 msgstr "No hi ha comentaris"
 
-#. Theme Name of the plugin/theme
+#. Theme Name of the theme
 msgid "NODES GENERAL"
 msgstr "NODES GENERAL"
 
@@ -591,18 +474,6 @@ msgstr "Nom "
 msgid "Navigation"
 msgstr "Menú"
 
-#: functions.php:355
-msgid "New Forum"
-msgstr "Fòrum nou"
-
-#: functions.php:368
-msgid "New Reply"
-msgstr "Resposta nova"
-
-#: functions.php:361
-msgid "New Topic"
-msgstr "Tema nou"
-
 #: comments.php:44
 msgid "Newer Comments &rarr;"
 msgstr "Comentaris recents"
@@ -611,7 +482,7 @@ msgstr "Comentaris recents"
 msgid "Newer posts"
 msgstr "Recents"
 
-#. Template Name of the plugin/theme
+#. Template Name of the theme
 #: library/inc/customizer/customize.php:667
 msgid "News Page"
 msgstr "Pàgina de notícies"
@@ -623,10 +494,6 @@ msgstr "Següent &raquo;"
 #: image.php:48
 msgid "Next &rarr;"
 msgstr "Següent &rarr;"
-
-#: custom-tac/rss-metabox.php:47
-msgid "No item"
-msgstr "Cap element"
 
 #: library/inc/metaboxes/meta-fields.php:181
 msgid "Només aplica si la Plantilla és del tipus \"Plantilla predeterminada\""
@@ -674,8 +541,8 @@ msgstr "Pàgina %s"
 msgid "Page Link Type"
 msgstr "Tipus d'enllaç de pàgina"
 
-#: image.php:98 library/inc/content/content-pages.php:36
-#: post-formats/format-standard.php:25
+#: post-formats/format-standard.php:25 library/inc/content/content-pages.php:36
+#: image.php:98
 msgid "Pages:"
 msgstr "Pàgines:"
 
@@ -699,11 +566,11 @@ msgstr "Retroenllaç:"
 msgid "Podcast"
 msgstr "Podcast"
 
-#. Template Name of the plugin/theme
+#. Template Name of the theme
 msgid "Portada"
 msgstr "Portada"
 
-#. Template Name of the plugin/theme
+#. Template Name of the theme
 msgid "Portfolio"
 msgstr "Portafolis"
 
@@ -762,20 +629,12 @@ msgstr "Articles recents"
 msgid "Remove File"
 msgstr "Suprimeix l'arxiu"
 
-#: functions.php:366
-msgid "Replies"
-msgstr "Respostes"
-
 #: library/inc/extensions/comments.php:58
 msgid "Reply"
 msgstr "Contesta"
 
-#: functions.php:282
-msgid "Reports"
-msgstr "Informes"
-
-#: library/inc/functions/top-bar.php:81 library/inc/functions/top-bar.php:84
-#: searchform.php:15 searchform.php:18
+#: searchform.php:15 searchform.php:18 library/inc/functions/top-bar.php:81
+#: library/inc/functions/top-bar.php:84
 msgid "Search"
 msgstr "Cerca"
 
@@ -806,10 +665,6 @@ msgstr "Envia el missatge"
 #: library/inc/metaboxes/meta-fields.php:21
 msgid "Sense barres laterals"
 msgstr "Sense barres laterals"
-
-#: functions.php:269
-msgid "Settings"
-msgstr "Configuració"
 
 #: library/inc/customizer/customize.php:461
 msgid "Show Breadcrumbs"
@@ -876,14 +731,6 @@ msgstr "Enllaç de la diapositiva"
 msgid "Slider Category"
 msgstr "Categoria lliscant"
 
-#: library/inc/functions/breadcrumbs.php:1177
-msgid "Split"
-msgstr "Divideix"
-
-#: comments.php:80
-msgid "Submit"
-msgstr "Envia"
-
 #: custom-tac/metabox-post-parametres.php:41
 msgid "Summary image in original size"
 msgstr "Imatge resum amb mida original"
@@ -904,7 +751,7 @@ msgstr "Descripció curta"
 msgid "Tags:"
 msgstr "Etiquetes:"
 
-#. Description of the plugin/theme
+#. Description of the theme
 msgid "Tema desenvolupat pel Departament d'Ensenyament de Catalunya"
 msgstr "Tema desenvolupat pel Departament d'Ensenyament de Catalunya"
 
@@ -958,14 +805,6 @@ msgstr "Mostra el títol a dalt de tot"
 msgid "Top Bar Title Link"
 msgstr "Títol de l'enllaç a dalt de tot"
 
-#: functions.php:362
-msgid "Topic Tags"
-msgstr "Etiquetes del tema"
-
-#: functions.php:359
-msgid "Topics"
-msgstr "Temes"
-
 #: library/inc/customizer/customize.php:362
 msgid "Two Columns, Left"
 msgstr "Barra esquerra amb subpàgines"
@@ -994,7 +833,6 @@ msgstr "Visualitza tots els articles de %s"
 msgid "View all posts from %s %s"
 msgstr "Visualitza tots els articles de %s%s"
 
-#: library/inc/content/content-posts.php:102
 #: library/inc/functions/post-meta.php:44
 #: library/inc/functions/post-meta.php:50
 msgid "View all posts in %s"
@@ -1021,7 +859,6 @@ msgid "Write your first blog post"
 msgstr "Escriu el primer article al bloc"
 
 #: library/inc/functions/breadcrumbs.php:184
-#: library/inc/functions/breadcrumbs.php:1050
 msgid "Y"
 msgstr "A"
 
@@ -1054,14 +891,6 @@ msgstr "El vostre nom*"
 msgid "Your comment is awaiting moderation."
 msgstr "El vostre comentari està a l'espera de validació."
 
-#: custom-tac/rss-metabox.php:55
-msgid "ago"
-msgstr "fa"
-
-#: comments.php:69 comments.php:71
-msgid "aria-required='true'"
-msgstr "aria-required='true'"
-
 #: library/inc/functions/post-meta.php:84
 msgid "by"
 msgstr "per"
@@ -1078,7 +907,7 @@ msgstr "G:i:s"
 msgid "g:i a"
 msgstr "G:i"
 
-#. Author URI of the plugin/theme
+#. Author URI of the theme
 msgid "http://jurjur.org"
 msgstr "http://jurjur.org"
 

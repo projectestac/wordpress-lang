@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Invite Anyone 0.6 bleeding\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/invite-anyone\n"
-"POT-Creation-Date: 2019-04-05 07:48:22+00:00\n"
+"POT-Creation-Date: 2019-04-11T16:48:41+02:00\n"
 "PO-Revision-Date: 2018-07-13 16:39+0200\n"
 "Last-Translator: Joan Sala Soler <jsala236@xtec.cat>\n"
 "Language-Team: FR <LL@li.org>\n"
@@ -30,14 +30,6 @@ msgid ""
 "\n"
 "---------------------\n"
 msgstr "\n"
-
-#: lib/bbg-cpt-pag.php:211
-msgid "&laquo;"
-msgstr "&laquo;"
-
-#: lib/bbg-cpt-pag.php:212
-msgid "&raquo;"
-msgstr "&raquo;"
 
 #: admin/admin-stats.php:378 admin/admin-stats.php:403
 msgid "(%d sent)"
@@ -181,10 +173,6 @@ msgstr "Ajouter un groupe invité"
 msgid "Add New Invitee"
 msgstr "Ajouter invité"
 
-#: admin/admin-panel.php:443
-msgid "Administrator"
-msgstr "Administrateur"
-
 #: by-email/by-email-db.php:140
 msgid "All Invited Groups"
 msgstr "Tous les groupes invités"
@@ -227,7 +215,7 @@ msgstr ""
 "Autoriser l'utilisateur à envoyer des invitations de groupes avec "
 "l'invitation par email"
 
-#. Description of the plugin/theme
+#. Description of the plugin
 msgid ""
 "Allows group admins to invite any member of their BuddyPress community to a "
 "group or to the site"
@@ -242,11 +230,7 @@ msgstr "Invitation à rejoindre la communauté %s."
 msgid "Anyone"
 msgstr "Tout le monde"
 
-#: admin/admin-panel.php:441
-msgid "Author"
-msgstr "Auteur"
-
-#. Author of the plugin/theme
+#. Author of the plugin
 msgid "Boone Gorges"
 msgstr ""
 
@@ -315,13 +299,19 @@ msgstr ""
 msgid "CloudSponge integration will not work without a valid CloudSponge Key."
 msgstr ""
 
+#: admin/admin-panel.php:547
+msgid ""
+"CloudSponge is a cool service that gives your users easy and secure access "
+"to their address books (LinkedIn, Gmail, Yahoo, and a number of other online "
+"and desktop email clients), so that they can more easily invite friends to "
+"your site. It's a great way to increase engagement on your site, by making "
+"it easier for them to invite new members. In order to enable CloudSponge "
+"support in Invite Anyone and BuddyPress, you'll need to <a href=\""
+msgstr ""
+
 #: widgets/widgets.php:71
 msgid "Continue"
 msgstr "Continuer"
-
-#: admin/admin-panel.php:440
-msgid "Contributor"
-msgstr "Contributeur"
 
 #: admin/admin-panel.php:334
 msgid "Control the default behavior of Invite Anyone."
@@ -344,10 +334,6 @@ msgstr "Modiifier le groupe invité"
 #: by-email/by-email-db.php:119
 msgid "Edit Invitee"
 msgstr "Modifier l'invité"
-
-#: admin/admin-panel.php:442
-msgid "Editor"
-msgstr "Editeur"
 
 #: by-email/by-email.php:128
 msgid "Email:"
@@ -452,8 +438,7 @@ msgstr ""
 "Les invitations ont été envoyées avec succès aux adresses email suivantes : "
 "%s"
 
-#. #-#-#-#-#  invite-anyone.pot (Invite Anyone 1.4.0)  #-#-#-#-#
-#. Plugin Name of the plugin/theme
+#. Plugin Name of the plugin
 #: admin/admin-panel.php:87 admin/admin-panel.php:193 widgets/widgets.php:41
 #: widgets/widgets.php:92
 msgid "Invite Anyone"
@@ -505,7 +490,7 @@ msgstr ""
 msgid "Invited Email"
 msgstr "Adresses email"
 
-#: by-email/by-email-db.php:138 by-email/by-email-db.php:145
+#: by-email/by-email-db.php:138
 msgid "Invited Group"
 msgstr "Groupe invité"
 
@@ -517,7 +502,7 @@ msgstr "Groupés invité"
 msgid "Invited email address"
 msgstr "Adresses email des invités"
 
-#: by-email/by-email-db.php:116 by-email/by-email-db.php:123
+#: by-email/by-email-db.php:116
 msgid "Invitee"
 msgstr "Invité"
 
@@ -659,19 +644,15 @@ msgstr ""
 "Utilisateurs qui ne pourront <strong>pas</strong> envoyer d'invitation (id "
 "numérique à séparer avec des virgules)"
 
-#: group-invites/group-invites.php:410
 #: group-invites/templates/invite-anyone.php:70
 #: group-invites/templates/invite-anyone.php:159
+#: group-invites/group-invites.php:410
 msgid "Remove Invite"
 msgstr "Supprimer l'invitation pour ce contact"
 
 #: admin/admin-panel.php:306
 msgid "Replacement patterns for email text fields"
 msgstr "Variables existantes pour personnaliser les emails"
-
-#: admin/admin-panel.php:243
-msgid "Save Changes"
-msgstr "Sauvegarder les modifications"
 
 #: by-email/by-email-db.php:89
 msgid "Search Invitation"
@@ -704,10 +685,10 @@ msgstr ""
 msgid "Select people to invite."
 msgstr "Veuillez  sélectionnez les membres à inviter."
 
-#: by-email/by-email.php:286 by-email/by-email.php:726
-#: group-invites/group-invites.php:73
 #: group-invites/templates/invite-anyone.php:87
 #: group-invites/templates/invite-anyone.php:178
+#: group-invites/group-invites.php:73 by-email/by-email.php:286
+#: by-email/by-email.php:726
 msgid "Send Invites"
 msgstr "Inviter"
 
@@ -759,10 +740,6 @@ msgstr "Sujet"
 msgid "Subject:"
 msgstr "Sujet"
 
-#: admin/admin-panel.php:439
-msgid "Subscriber"
-msgstr "Abonné"
-
 #: admin/admin-panel.php:563
 msgid "Test"
 msgstr "Tester"
@@ -805,10 +782,6 @@ msgid ""
 "\t\t\tYou may clear any individual invites, all accepted invites or all of "
 "the invites from the list."
 msgstr ""
-
-#: widgets/widgets.php:104
-msgid "Title:"
-msgstr "Titre :"
 
 #: by-email/by-email.php:985
 msgid "To accept this invitation, please visit %%ACCEPTURL%%"
@@ -960,10 +933,6 @@ msgstr ""
 msgid "You didn't include any email addresses!"
 msgstr "Vous n'avez entré aucune adresse email !"
 
-#: admin/admin-panel.php:275 admin/admin-panel.php:293
-msgid "You do not have permission to do that."
-msgstr ""
-
 #: by-email/by-email.php:962
 msgid ""
 "You have been invited by %%INVITERNAME%% to join the %s community.\n"
@@ -1001,12 +970,12 @@ msgstr ""
 msgid "display name of the inviter"
 msgstr "Afficher le nom de l'utilisateur qui invite"
 
-#. Author URI of the plugin/theme
+#. Author URI of the plugin
 #, fuzzy
 msgid "http://boone.gorg.es"
 msgstr "http://www.storeapps.org"
 
-#. Plugin URI of the plugin/theme
+#. Plugin URI of the plugin
 msgid "http://teleogistic.net/code/buddypress/invite-anyone/"
 msgstr ""
 

@@ -2,10 +2,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: import-users-from-csv-with-meta\n"
-"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/import-users-"
-"from-csv-with-meta\n"
-"POT-Creation-Date: 2019-04-05 07:48:22+00:00\n"
-"PO-Revision-Date: 2019-04-09 15:59+0200\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/import-users-from-"
+"csv-with-meta\n"
+"POT-Creation-Date: 2019-04-11T16:48:41+02:00\n"
+"PO-Revision-Date: 2019-04-11 16:55+0200\n"
 "Last-Translator: Joan Sala Soler <jsala236@xtec.cat>\n"
 "Language-Team: Departament Ensenyament Catalunya - Àrea TAC\n"
 "Language: ca\n"
@@ -23,9 +23,8 @@ msgid ""
 "(Documents should look like the one presented into screenshot. Remember you "
 "should fill the first two columns with the next values)"
 msgstr ""
-"(Els documents haurien de semblar-se a la presentada en captura de "
-"pantalla. Recordeu que heu d'omplir les dues primeres columnes amb els "
-"valors següents)"
+"(Els documents haurien de semblar-se a la presentada en captura de pantalla. "
+"Recordeu que heu d'omplir les dues primeres columnes amb els valors següents)"
 
 # modificat xtec
 #: classes/doc.php:20
@@ -72,17 +71,6 @@ msgstr "--Finalitzat a"
 msgid "<em>or you can choose directly a file from your host,"
 msgstr "<em>El podeu triar directament del vostre servidor,"
 
-# modificat xtec
-#: smtp.php:145
-msgid ""
-"<strong>Please Note:</strong> You appear to be using a version of WordPress "
-"prior to 2.3. Please ignore the From Name field and instead enter Name&lt;"
-"email@domain.com&gt; in this field."
-msgstr ""
-"<strong> Nota: </ strong> Sembla que està utilitzant una versió de "
-"WordPress anterior a 2.3. Ignoreu el camp From Name i introduïu Name&lt;"
-"email@domain.com&gt; en aquest camp."
-
 #: classes/doc.php:72 classes/homepage.php:459
 msgid "A string containing content about the user."
 msgstr "Un text amb contingut sobre l'usuari."
@@ -96,8 +84,8 @@ msgid ""
 "A string that contains a URL-friendly name for the user. The default is the "
 "user's username."
 msgstr ""
-"Un text que conté un URL amigable per a l'usuari. El valor per defecte és "
-"el nom de l'usuari."
+"Un text que conté un URL amigable per a l'usuari. El valor per defecte és el "
+"nom de l'usuari."
 
 # modificat xtec
 #: classes/doc.php:34
@@ -150,7 +138,7 @@ msgid "Add new email template"
 msgstr "Afegeix una plantilla de correu electrònic nova"
 
 # modificat xtec
-#: classes/cron.php:200 classes/frontend.php:103 classes/homepage.php:210
+#: classes/homepage.php:210 classes/frontend.php:103 classes/cron.php:200
 msgid ""
 "After delete users, we can choose if we want to assign their posts to "
 "another user. Please do not delete them or posts will be deleted."
@@ -159,14 +147,14 @@ msgstr ""
 "publicacions a un altre usuari. us recomanem no suprimir ni esborrar les "
 "publicacions."
 
-#: classes/cron.php:220 classes/frontend.php:123 classes/homepage.php:231
+#: classes/homepage.php:231 classes/frontend.php:123 classes/cron.php:220
 #, fuzzy
 msgid ""
 "After import users which is not present in the CSV and can be changed to a "
 "different role."
 msgstr ""
-"Després usuaris d'importació quin no és present en el csv i pot ser canviat "
-"a una funció diferent."
+"Després de la importació, els usuaris que no estan presents al CSV i es "
+"poden canviar a un rol diferent."
 
 #: classes/email-templates.php:27
 msgid "All email template"
@@ -200,8 +188,8 @@ msgstr "Permès"
 # modificat xtec
 #: classes/doc.php:120
 msgid ""
-"And the role assigned in this group: <em>Administrator, Moderator or "
-"Member</em>"
+"And the role assigned in this group: <em>Administrator, Moderator or Member</"
+"em>"
 msgstr ""
 "El rol assignat en aquest grup: <em> Administrador, moderador o membre </em>"
 
@@ -243,14 +231,10 @@ msgstr ""
 msgid "Are you sure to delete this file?"
 msgstr "Esteu segur que voleu suprimir aquest fitxer?"
 
-#: classes/email-options.php:74 classes/email-templates.php:113
-#: classes/email-templates.php:125
+#: classes/email-templates.php:113 classes/email-templates.php:125
+#: classes/email-options.php:74
 msgid "Attachment"
 msgstr "Adjunció"
-
-#: smtp.php:208
-msgid "Authentication"
-msgstr "Autenticació"
 
 # modificat xtec
 #: classes/cron.php:156
@@ -282,8 +266,8 @@ msgid ""
 "But you will have to assign a role for each group: <em>Moderator,Moderator,"
 "Member,Member</em>"
 msgstr ""
-"Haureu d'assignar un rol per a cada grup: <em> Moderador, Moderador, "
-"Membre, Membre </em>"
+"Haureu d'assignar un rol per a cada grup: <em> Moderador, Moderador, Membre, "
+"Membre </em>"
 
 # modificat xtec
 #: include/shortcode-frontend.php:32
@@ -297,16 +281,16 @@ msgstr "Fitxer CSV <span class=\"description\">(requerit)</span></label>"
 #: importer.php:129
 #, fuzzy
 msgid ""
-"CSV file seems to be bad formed. Please use LibreOffice to create and "
-"manage CSV to be sure the format is correct"
+"CSV file seems to be bad formed. Please use LibreOffice to create and manage "
+"CSV to be sure the format is correct"
 msgstr ""
-"Arxiu de csv sembla per ser dolent va formar. si us plau utilitza "
-"libreoffice per crear i dirigeix csv per ser segur el format és correcte"
+"Sembla que el fitxer csv està mal format. utilitzeu libreoffice per crear i "
+"gestionar csv per assegurar-vos que el format és correcte"
 
-#: classes/cron.php:206 classes/frontend.php:109 classes/homepage.php:216
+#: classes/homepage.php:216 classes/frontend.php:109 classes/cron.php:206
 #, fuzzy
 msgid "Change role of users that are not present in the CSV?"
-msgstr "Funció de canvi d'usuaris que no són present en el csv?"
+msgstr "Voleu eliminar els usuaris que no estan al CSV?"
 
 #: classes/email-options.php:101
 msgid "Choose or upload file"
@@ -356,8 +340,8 @@ msgid "Delete all CSV files uploaded"
 msgstr "Esborra tots els fitxers CSV pujats"
 
 # modificat xtec
-#: classes/cron.php:186 classes/cron.php:188 classes/frontend.php:89
-#: classes/frontend.php:91 classes/homepage.php:201
+#: classes/homepage.php:201 classes/frontend.php:89 classes/frontend.php:91
+#: classes/cron.php:186 classes/cron.php:188
 msgid "Delete posts of deled users without assing to any user"
 msgstr ""
 "Elimineu publicacions d'usuaris suprimits sense assignar-los cap usuari"
@@ -368,7 +352,7 @@ msgid "Delete the metadata"
 msgstr "Elimineu les metadades"
 
 # modificat xtec
-#: classes/cron.php:177 classes/frontend.php:80 classes/homepage.php:194
+#: classes/homepage.php:194 classes/frontend.php:80 classes/cron.php:177
 msgid "Delete users that are not present in the CSV?"
 msgstr "Voleu eliminar els usuaris que no estan al CSV?"
 
@@ -398,15 +382,6 @@ msgstr "T'ha agradat?"
 #: classes/email-options.php:48
 msgid "Do you want to enable mail templates?"
 msgstr "Voleu habilitar les plantilles de correu?"
-
-# modificat xtec
-#: smtp.php:124
-msgid ""
-"Do you want to use your own SMTP settings for this plugin or the WordPress "
-"settings."
-msgstr ""
-"Voleu utilitzar la vostra pròpia configuració SMTP per a aquest connector o "
-"la configuració de WordPress?"
 
 # modificat xtec
 #: classes/homepage.php:146
@@ -451,38 +426,32 @@ msgstr "email:"
 #, fuzzy
 msgctxt "Post Type Singular Name"
 msgid "Email template (Import Users From CSV With Meta)"
-msgstr "Plantilla de correu electrònic (usuaris d'importació de csv amb meta)"
+msgstr "Importa usuaris des d'un fitxer CSV amb metadades"
 
 #: classes/email-templates.php:45
 #, fuzzy
 msgid "Email template list navigation"
-msgstr "Navegació de llista de plantilla de correu electrònic"
+msgstr "Filtra la llista de plantilles de correu"
 
 #: classes/email-templates.php:23
 #, fuzzy
 msgid "Email templates (Import Users From CSV With Meta)"
-msgstr ""
-"Plantilles de correu electrònic (usuaris d'importació de csv amb meta)"
+msgstr "Importa usuaris des d'un fitxer CSV amb metadades"
 
 #: classes/email-templates.php:20
 #, fuzzy
 msgctxt "Post Type General Name"
 msgid "Email templates (Import Users From CSV With Meta)"
-msgstr ""
-"Plantilles de correu electrònic (usuaris d'importació de csv amb meta)"
+msgstr "Importa usuaris des d'un fitxer CSV amb metadades"
 
 #: classes/email-templates.php:22
 #, fuzzy
 msgid "Email templates (Import Users)"
-msgstr "Plantilles de correu electrònic (usuaris d'importació)"
+msgstr "Importa usuaris a la interfície"
 
 #: classes/email-options.php:44
 msgid "Enable mail templates:"
 msgstr "Habilita les plantilles de correu:"
-
-#: smtp.php:195 smtp.php:198
-msgid "Encryption"
-msgstr "Encriptació:"
 
 # modificat xtec
 #: import-users-from-csv-with-meta.php:329
@@ -563,8 +532,8 @@ msgstr "Filtra la llista de plantilles de correu"
 #: classes/homepage.php:28
 msgid ""
 "For security reasons you should delete this files, probably they would be "
-"visible in the Internet if a bot or someone discover the URL. You can "
-"delete each file or maybe you want delete all CSV files you have uploaded:"
+"visible in the Internet if a bot or someone discover the URL. You can delete "
+"each file or maybe you want delete all CSV files you have uploaded:"
 msgstr ""
 "Per raons de seguretat heu d'esborrar aquests fitxers, és possible que "
 "siguin visibles a internet si un robot o algú descobreix l'URL. Podeu "
@@ -576,23 +545,9 @@ msgstr ""
 msgid "Free support (in WordPress forums):"
 msgstr "Fòrums de suport"
 
-#: smtp.php:143
-msgid "From Email"
-msgstr "Adreça d'origen"
-
-# modificat xtec
-#: smtp.php:148
-msgid "From Name"
-msgstr "Nom del remitent"
-
 #: classes/homepage.php:63
 msgid "General"
 msgstr "General"
-
-# modificat xtec
-#: smtp.php:123
-msgid "Global options"
-msgstr "Paràmetres globals"
 
 #: classes/homepage.php:389
 msgid "Help"
@@ -622,28 +577,23 @@ msgstr ""
 # modificat xtec
 #: classes/doc.php:28
 msgid ""
-"If id <strong>exists</strong>: plugin check if username is the same, if "
-"yes, it will update the data, if not, it ignores the cell to avoid problems"
+"If id <strong>exists</strong>: plugin check if username is the same, if yes, "
+"it will update the data, if not, it ignores the cell to avoid problems"
 msgstr ""
 "Si l'identificador <strong> existeix </strong>: el connector comprova si el "
-"nom d'usuari és el mateix, si és així, actualitzarà les dades, si no, "
-"ignora la cel·la per evitar problemes"
-
-# modificat xtec
-#: smtp.php:214
-msgid "If this is set to no, the values below are ignored."
-msgstr "Si això s'estableix a no, s'ignoren els valors següents."
+"nom d'usuari és el mateix, si és així, actualitzarà les dades, si no, ignora "
+"la cel·la per evitar problemes"
 
 # modificat xtec
 #: classes/doc.php:46
 msgid ""
 "If you <strong>create a column called 'role'</strong>: if cell is empty, "
 "roles would be chosen from 'Default role' field in import screen; if cell "
-"has a value, it will be used as role, if this role doesn't exist the "
-"default one would be used"
+"has a value, it will be used as role, if this role doesn't exist the default "
+"one would be used"
 msgstr ""
-"Si <strong> creeu una columna anomenada \"rol\" </strong>: si la cel·la "
-"està buida, els rols es triarien del camp \"Rol per defecte\" a la pantalla "
+"Si <strong> creeu una columna anomenada \"rol\" </strong>: si la cel·la està "
+"buida, els rols es triarien del camp \"Rol per defecte\" a la pantalla "
 "d'importació; si la cel·la té un valor, s'utilitzarà com a rol, si aquest "
 "rol no existeix, s'utilitzarà el predeterminat"
 
@@ -695,23 +645,18 @@ msgid ""
 "If you want to import multiple values, you can use a list using / to "
 "separate items"
 msgstr ""
-"Si vols importar múltiple valora, pots utilitzar una llista que utilitza / "
-"a elements separats"
+"Si voleu importar múltiples valors, podeu utilitzar una llista amb comes per "
+"separar elements"
 
 # modificat xtec
-#: addons/acui-users-group.php:24 addons/acui-wp-users-group.php:24
-#: addons/users-group.php:24 addons/wp-users-group.php:24
+#: addons/acui-wp-users-group.php:24 addons/acui-users-group.php:24
+#: addons/wp-users-group.php:24 addons/users-group.php:24
 msgid ""
 "If you want to import multiple values, you can use a list using commas to "
 "separate items"
 msgstr ""
-"Si voleu importar múltiples valors, podeu utilitzar una llista amb comes "
-"per separar elements"
-
-# modificat xtec
-#: smtp.php:118
-msgid "Import User From CSV With Meta - SMTP server options"
-msgstr "Importar usuari des de CSV amb opcions de servidor Meta - SMTP"
+"Si voleu importar múltiples valors, podeu utilitzar una llista amb comes per "
+"separar elements"
 
 # modificat xtec
 #: import-users-from-csv-with-meta.php:504
@@ -723,7 +668,7 @@ msgid "Import users from CSV"
 msgstr "Importa usuaris des d'un fitxer CSV"
 
 # modificat xtec
-#. Plugin Name of the plugin/theme
+#. Plugin Name of the plugin
 msgid "Import users from CSV with meta"
 msgstr "Importa usuaris des d'un fitxer CSV amb metadades"
 
@@ -806,15 +751,15 @@ msgstr "Llistes"
 #, fuzzy
 msgid "Load custom email from email templates"
 msgstr ""
-"Càrrega correu electrònic fet per encàrrec de plantilles de correu "
+"Carregueu un correu electrònic personalitzat de les plantilles de correu "
 "electrònic"
 
 #: classes/email-options.php:63
 #, fuzzy
 msgid "Load subject, content and attachment from this email template"
 msgstr ""
-"La càrrega subjecta, contingut i attachment d'aquesta plantilla de correu "
-"electrònic"
+"Carregueu el tema, el contingut i el fitxer adjunt d'aquesta plantilla de "
+"correu electrònic"
 
 #: classes/cron.php:229
 msgid "Log"
@@ -832,7 +777,7 @@ msgstr "Assumpte del missatge:"
 #: classes/email-templates.php:49
 #, fuzzy
 msgid "Mail template (Import Users From CSV With Meta)"
-msgstr "Plantilla de correu (usuaris d'importació de csv amb meta)"
+msgstr "Importa usuaris des d'un fitxer CSV amb metadades"
 
 # modificat xtec
 #: import-users-from-csv-with-meta.php:428
@@ -842,16 +787,7 @@ msgstr "La plantilla s'ha actualitzat correctament"
 #: classes/email-templates.php:50
 #, fuzzy
 msgid "Mail templates for Import Users From CSV With Meta"
-msgstr "Plantilles de correu per usuaris d'importació de csv amb meta"
-
-# modificat xtec
-#: smtp.php:156 smtp.php:159
-msgid "Mailer"
-msgstr "Remitent"
-
-#: smtp.php:78
-msgid "Message sent successfully"
-msgstr "El missatge s'ha enviat correctament"
+msgstr "Importa usuaris des d'un fitxer CSV amb metadades"
 
 # modificat xtec
 #: classes/cron.php:142
@@ -864,8 +800,8 @@ msgid ""
 "Multiple roles can be imported creating <strong>a list of roles</strong> "
 "using commas to separate values."
 msgstr ""
-"Es poden importar diversos rols creant <strong> una llista de rols </"
-"strong> utilitzant comes per separar els valors."
+"Es poden importar diversos rols creant <strong> una llista de rols </strong> "
+"utilitzant comes per separar els valors."
 
 # modificat xtec
 #: classes/help.php:9
@@ -880,7 +816,7 @@ msgstr "Nou usuari aprovat"
 #: addons/new-user-approve.php:11
 #, fuzzy
 msgid "New User Approve compatibility"
-msgstr "L'usuari nou aprova compatibilitat"
+msgstr "Nou usuari aprovat"
 
 #: classes/email-templates.php:30
 msgid "New email template"
@@ -890,15 +826,6 @@ msgstr "Plantilla de correu electrònic nova"
 #: classes/homepage.php:170 classes/homepage.php:179
 msgid "No"
 msgstr "No"
-
-#: smtp.php:200
-msgid "No encryption."
-msgstr "Sense encriptar"
-
-# modificat xtec
-#: smtp.php:211
-msgid "No: Do not use SMTP authentication."
-msgstr "No: no utilitzeu l'autenticació SMTP"
 
 #: import-users-from-csv-with-meta.php:281
 #: import-users-from-csv-with-meta.php:402 include/shortcode-frontend.php:12
@@ -920,22 +847,22 @@ msgstr "No s'ha trobat a la paperera"
 #: classes/doc.php:49
 #, fuzzy
 msgid ""
-"Notice: If the default new role is administrator in WordPress settings, "
-"role will not be set during a CSV file import with this plugin. Check it if "
-"all users are being imported as administrators and you have set another "
-"role in this plugin."
+"Notice: If the default new role is administrator in WordPress settings, role "
+"will not be set during a CSV file import with this plugin. Check it if all "
+"users are being imported as administrators and you have set another role in "
+"this plugin."
 msgstr ""
-"Avís: si el default la funció nova és administrador en wordpress "
-"enquadraments, la funció no serà conjunt durant una importació d'arxiu del "
-"csv amb aquest plugin. el comprova si tots els  usuaris són ser va importar "
-"tan els administradors i tu tenen conjunt una altra funció en aquest plugin."
+"Avís: si el nou rol predeterminat és administrador a la configuració de "
+"wordpress, el rol no es definirà durant la importació de fitxers csv amb "
+"aquest connector. comproveu-ho si s’importen tots els usuaris com a "
+"administradors i heu establert un altre paper en aquest connector."
 
 #: classes/homepage.php:23
 msgid "Old CSV files uploaded"
 msgstr "Fitxers CSV antics"
 
+#: addons/new-user-approve.php:23 addons/buddypress.php:41
 #: addons/allow-multiple-accounts.php:23 addons/allow-multiple-accounts.php:42
-#: addons/buddypress.php:41 addons/new-user-approve.php:23
 #: addons/wp-members.php:24 addons/wp-members.php:47
 msgid "Only for"
 msgstr "Només per"
@@ -949,18 +876,18 @@ msgstr ""
 #: classes/donate.php:25
 #, fuzzy
 msgid "Or if you prefer, you can also help us becoming a Patreon:"
-msgstr "O si prefereixes, també ens pots ajudar esdevenint un patreon:"
+msgstr ""
+"O, si ho preferiu, també podeu ajudar-nos a convertir-nos en un patreon:"
 
 #: addons/acui-pmpro.php:43 addons/pmpro.php:43
 msgid "Paid Mebership Pro is activated"
-msgstr ""
+msgstr "S'ha activat Pro Membership Pro"
 
 #: classes/email-templates.php:26
 msgid "Parent Item:"
 msgstr "Elemento padre"
 
 #: classes/homepage.php:410 import-users-from-csv-with-meta.php:269
-#: smtp.php:222
 msgid "Password"
 msgstr "password:"
 
@@ -1016,9 +943,9 @@ msgstr ""
 # modificat xtec
 #: classes/doc.php:54
 msgid ""
-"Plugin can now import serialized data. You have to use the serialized "
-"string directly in the CSV cell in order the plugin will be able to "
-"understand it as an serialized data instead as any other string."
+"Plugin can now import serialized data. You have to use the serialized string "
+"directly in the CSV cell in order the plugin will be able to understand it "
+"as an serialized data instead as any other string."
 msgstr ""
 "El complement pot importar dades serialitzades. Heu d'utilitzar la cadena "
 "serialitzada directament a la cel·la CSV perquè el connector pugui entendre-"
@@ -1071,7 +998,7 @@ msgstr ""
 msgid "Remove featured image"
 msgstr "Elimina la imatge destacada"
 
-#: classes/email-options.php:78 classes/email-templates.php:129
+#: classes/email-templates.php:129 classes/email-options.php:78
 msgid "Remove file"
 msgstr "Suprimeix el fitxer"
 
@@ -1080,12 +1007,7 @@ msgstr "Suprimeix el fitxer"
 msgid "Repeated email in different users?"
 msgstr "Correus repetits en diferents usuaris?"
 
-# modificat xtec
-#: smtp.php:171 smtp.php:174
-msgid "Return Path"
-msgstr "Camí de retorn"
-
-#: classes/cron.php:112 classes/frontend.php:37
+#: classes/frontend.php:37 classes/cron.php:112
 msgid "Role"
 msgstr "Rol"
 
@@ -1100,24 +1022,6 @@ msgstr "Fila"
 #: importer.php:188
 msgid "Row number"
 msgstr "La fila número"
-
-#: smtp.php:187
-msgid "SMTP Host"
-msgstr "Host SMTP"
-
-# modificat xtec
-#: smtp.php:182
-msgid "SMTP Options"
-msgstr "Opcions SMTP"
-
-# modificat xtec
-#: smtp.php:191
-msgid "SMTP Port"
-msgstr "Port SMTP"
-
-#: smtp.php:227
-msgid "Save Changes"
-msgstr "Desa els canvis"
 
 #: classes/email-options.php:83
 msgid "Save email template and options"
@@ -1143,30 +1047,16 @@ msgid "Search email template"
 msgstr "Cerca la plantilla de correu electrònic"
 
 # modificat xtec
-#: smtp.php:26 smtp.php:241
-msgid "Send Test"
-msgstr "Envieu correu de prova"
-
-#: smtp.php:230
-msgid "Send a Test Email"
-msgstr "En via correu electrònic de prova"
-
-# modificat xtec
 #: classes/email-options.php:31
 msgid "Send automattic WordPress emails?"
 msgstr "Voleu enviar correus automàtics de WordPress?"
-
-# modificat xtec
-#: smtp.php:161
-msgid "Send emails of this plugin via SMTP."
-msgstr "Envia correus electrònics d'aquest complement via SMTP."
 
 #: classes/homepage.php:143
 msgid "Send mail"
 msgstr "Envia missatge de correu electrònic"
 
 # modificat xtec
-#: classes/cron.php:105 classes/frontend.php:67
+#: classes/frontend.php:67 classes/cron.php:105
 msgid "Send mail also to users that are being updated?"
 msgstr "Envia correu també als usuaris que s'estan actualitzant?"
 
@@ -1192,13 +1082,6 @@ msgstr "Dades serialitzades"
 msgid "Set featured image"
 msgstr "Defineix la imatge destacada"
 
-# modificat xtec
-#: smtp.php:176
-msgid "Set the return-path to match the From Email"
-msgstr ""
-"Estableix la ruta de retorn per a que coincideixi amb el remitent del "
-"correu electrònic"
-
 #: classes/homepage.php:400
 msgid "Sets the username."
 msgstr "Estableix el nom d'usuari."
@@ -1210,10 +1093,6 @@ msgstr "Estableix l'adreça electrònica de l'usuari."
 #: classes/homepage.php:412
 msgid "Sets user password."
 msgstr "Estableix la contrasenya de l'usuari."
-
-#: smtp.php:128
-msgid "Settings"
-msgstr "Paràmetres"
 
 # modificat xtec
 #: import-users-from-csv-with-meta.php:385
@@ -1230,39 +1109,14 @@ msgstr "Voleu mostrar els camps del perfil?"
 msgid "Start importing"
 msgstr "Inicia la importació"
 
-# modificat xtec
-#: smtp.php:82
-msgid "Test Message Sent"
-msgstr "S'ha enviat el missatge de prova correctament."
-
-# modificat xtec
-#: smtp.php:39
-msgid "Test mail to "
-msgstr "Correu per provar"
-
-# modificat xtec
-#: smtp.php:87
-msgid "The SMTP debugging output is shown below:"
-msgstr "A continuació es mostra la depuració de SMTP:"
-
-# modificat xtec
-#: smtp.php:85
-msgid "The full debugging output is shown below:"
-msgstr "La depuració completa es mostra a continuació:"
-
 #: classes/homepage.php:416
 msgid ""
-"The next columns are totally customizable and you can use whatever you "
-"want. All rows must contains same columns"
+"The next columns are totally customizable and you can use whatever you want. "
+"All rows must contains same columns"
 msgstr ""
 "Les columnes següents són totalment personalitzables i es poden fer servir "
 "de la forma que vulgueu. Totes les files han de contenir les mateixes "
 "columnes:"
-
-# modificat xtec
-#: smtp.php:83
-msgid "The result was:"
-msgstr "Resultats:"
 
 #: classes/doc.php:70 classes/homepage.php:447
 msgid "The user's first name."
@@ -1282,12 +1136,12 @@ msgid ""
 "The value of each cell will be the NUMBER of the course to enroll (do not "
 "use slugs)"
 msgstr ""
-"El valor de cada cèl·lula serà el número del curs a enroll (no utilitza "
-"llimacs)"
+"El valor de cada cel·la serà el nombre del curs per matricular-se (no "
+"utilitzeu barres)"
 
 # modificat xtec
-#: addons/acui-users-group.php:23 addons/acui-wp-users-group.php:23
-#: addons/users-group.php:23 addons/wp-users-group.php:23
+#: addons/acui-wp-users-group.php:23 addons/acui-users-group.php:23
+#: addons/wp-users-group.php:23 addons/users-group.php:23
 msgid ""
 "The value of each cell will be the name of the user group (do not use slugs)"
 msgstr ""
@@ -1314,45 +1168,16 @@ msgstr "No s'ha pogut esborrar el fitxer, comproveu els permisos dels fitxers"
 # modificat xtec
 #: classes/homepage.php:334
 msgid "There were problems deleting the files, please check files permissions"
-msgstr ""
-"No s'ha pogut esborrar el fitxers, comproveu els permisos dels fitxers"
+msgstr "No s'ha pogut esborrar el fitxers, comproveu els permisos dels fitxers"
 
 # modificat xtec
-#: smtp.php:183
-msgid ""
-"These options only apply if you have chosen to send mail by SMTP above."
-msgstr ""
-"Aquestes opcions només s'apliquen si heu triat enviar un correu per SMTP."
-
-# modificat xtec
-#: smtp.php:40
-msgid ""
-"This is a test email generated by the Import User From CSV With Meta "
-"WordPress plugin."
-msgstr ""
-"Aquest és un correu electrònic de prova generat per l'importació d'usuari "
-"des de CSV amb el connector de Meta WordPress."
-
-# modificat xtec
-#. Description of the plugin/theme
+#. Description of the plugin
 msgid ""
 "This plugins allows to import users using CSV files to WP database "
 "automatically"
 msgstr ""
 "Aquests connectors permeten importar usuaris que utilitzin fitxers CSV a la "
 "base de dades WP automàticament"
-
-#: smtp.php:236
-msgid "To:"
-msgstr "Per a:"
-
-#: smtp.php:238
-msgid ""
-"Type an email address here and then click Send Test to generate a test "
-"email."
-msgstr ""
-"Escriu una adreça electrònica i feu clic a Envia test per generar un correu "
-"de prova."
 
 # modificat xtec
 #: import-users-from-csv-with-meta.php:99
@@ -1362,8 +1187,7 @@ msgstr "Adreça d'inici de sessió (URL)"
 
 # modificat xtec
 #: import-users-from-csv-with-meta.php:324
-msgid ""
-"Unable to write to directory. Is this directory writable by the server?"
+msgid "Unable to write to directory. Is this directory writable by the server?"
 msgstr ""
 "No es pot escriure al directori. Comproveu que el servidor pot pot escriure "
 "en aquest directori."
@@ -1376,7 +1200,7 @@ msgstr "Actualitza la plantilla de correu electrònic"
 msgid "Update existing users?"
 msgstr "Voleu actualitzar els usuaris existents?"
 
-#: classes/cron.php:135 classes/homepage.php:176
+#: classes/homepage.php:176 classes/cron.php:135
 msgid "Update roles for existing users?"
 msgstr "Voleu actualitzar el rol dels usuaris existents?"
 
@@ -1389,7 +1213,7 @@ msgstr "Actualitza els usuaris"
 msgid "Upload and process"
 msgstr "Carregueu i processeu "
 
-#: classes/email-options.php:77 classes/email-templates.php:128
+#: classes/email-templates.php:128 classes/email-options.php:77
 msgid "Upload file"
 msgstr "Penja un document"
 
@@ -1397,48 +1221,13 @@ msgstr "Penja un document"
 msgid "Uploaded to this email template"
 msgstr "S'ha carregat en aquesta plantilla de correu electrònic"
 
-# modificat xtec
-#: smtp.php:202
-msgid "Use SSL encryption."
-msgstr "Utilitzeu encriptacions SSL."
-
-# modificat xtec
-#: smtp.php:204
-msgid ""
-"Use TLS encryption. This is not the same as STARTTLS. For most servers SSL "
-"is the recommended option."
-msgstr ""
-"Utilitzeu el xifrat TLS (no és le mateix que STARTTLS). Per a la majoria "
-"dels servidors SSL és l'opció recomanada."
-
-# modificat xtec
-#: smtp.php:135
-msgid "Use WordPress general settings to send mail."
-msgstr "Utilitzeu la configuració general de WordPress per enviar missatges."
-
 #: classes/email-templates.php:41
 msgid "Use as featured image"
 msgstr "Useu com a imatge resum"
 
-# modificat xtec
-#: smtp.php:131
-msgid "Use plugin SMTP settings"
-msgstr "Utilitzeu la configuració SMTP del complement"
-
-# modificat xtec
-#: smtp.php:163
-msgid "Use the PHP mail() function to send emails."
-msgstr ""
-"Utilitzeu la funció de correu de PHP () per enviar correus electrònics."
-
 #: classes/email-options.php:102
 msgid "Use this file"
 msgstr "Usa aquest fitxer"
-
-# modificat xtec
-#: smtp.php:133
-msgid "Use this settings to send mail."
-msgstr "Utilitzeu aquests paràmetres per enviar el correu."
 
 # modificat xtec
 #: classes/frontend.php:29
@@ -1466,18 +1255,13 @@ msgstr " Compte Yahoo IM de l'usuari."
 
 #: classes/doc.php:15 classes/homepage.php:398
 #: import-users-from-csv-with-meta.php:99
-#: import-users-from-csv-with-meta.php:269 smtp.php:218
+#: import-users-from-csv-with-meta.php:269
 msgid "Username"
 msgstr "username:"
 
-#: classes/cron.php:171 classes/frontend.php:75 classes/homepage.php:188
+#: classes/homepage.php:188 classes/frontend.php:75 classes/cron.php:171
 msgid "Users not present in CSV file"
 msgstr "Els usuaris no són al fitxer CSV"
-
-# modificat xtec
-#: classes/doc.php:76
-msgid "Using the WordPress format for this kind of data Y-m-d H:i:s."
-msgstr "Ús del format de WordPress per a aquest tipus de dades A-m-d H: i: s."
 
 #: classes/email-templates.php:33
 msgid "View email template"
@@ -1497,8 +1281,8 @@ msgid "WP Members compatibility"
 msgstr "Compatibilitat amb WP Members"
 
 # modificat xtec
-#: addons/acui-users-group.php:18 addons/acui-wp-users-group.php:18
-#: addons/users-group.php:18 addons/wp-users-group.php:18
+#: addons/acui-wp-users-group.php:18 addons/acui-users-group.php:18
+#: addons/wp-users-group.php:18 addons/users-group.php:18
 msgid "WP Users Group is activated"
 msgstr "Grup d'usuaris WP activat"
 
@@ -1506,13 +1290,12 @@ msgstr "Grup d'usuaris WP activat"
 #, fuzzy
 msgid ""
 "We have been spending many hours to develop this plugin and answering "
-"questions in the forum to give you the best support. <br>If you like and "
-"use this plugin, you can <strong>buy us a cup of coffee</strong>."
+"questions in the forum to give you the best support. <br>If you like and use "
+"this plugin, you can <strong>buy us a cup of coffee</strong>."
 msgstr ""
-"Tenim estat gastant moltes hores per desenvolupar aquest plugin i "
-"contestant qüestiona en el fòrum per donar-te el suport millor. <br>si "
-"t'agrada i utilitzar aquest plugin, pots <fort>ens compra una copa del "
-"cafè</fort>."
+"Hem passat moltes hores per desenvolupar aquest connector i respondre "
+"preguntes al fòrum per donar-vos el millor suport. <br> si voleu utilitzar "
+"aquest connector, podeu <strong> comprar-nos una tassa de cafè </strong>."
 
 #: classes/help.php:13
 #, fuzzy
@@ -1520,8 +1303,8 @@ msgid ""
 "We work everyday with WordPress and WooCommerce, if you need help hire us, "
 "send us a message to"
 msgstr ""
-"Treballem diaris amb wordpress i woocommerce, si necessites l'ajuda ens "
-"contracta, ens envia un missatge a"
+"Treballem cada dia amb WordPress i WooCommerce, si necessiteu ajudar-nos a "
+"contractar-nos, envieu-nos un missatge a"
 
 #: import-users-from-csv-with-meta.php:98
 #: import-users-from-csv-with-meta.php:272
@@ -1543,7 +1326,7 @@ msgid "Where do I get this info?"
 msgstr "On trobo aquesta informació?"
 
 # modificat xtec
-#: classes/cron.php:130 classes/frontend.php:55
+#: classes/frontend.php:55 classes/cron.php:130
 msgid "Which role would be used to import users?"
 msgstr "Quin rol s'hauria d'utilitzar per importar usuaris?"
 
@@ -1582,11 +1365,6 @@ msgstr "Afegiu nous rols i no anul·leu els existents"
 msgid "Yes, update and override existing roles"
 msgstr "Actualitzeu el rol dels usuaris existents"
 
-# modificat xtec
-#: smtp.php:213
-msgid "Yes: Use SMTP authentication."
-msgstr "Utilitzeu l'autenticació SMTP"
-
 #: importer.php:739
 msgid "You are not allowed to see this content."
 msgstr "No esteu autoritzat a veure aquest contingut"
@@ -1600,16 +1378,16 @@ msgstr "No sou administrador"
 #, fuzzy
 msgid ""
 "You can also import roles from a CSV column. Please read documentation tab "
-"to see how it can be done. If you choose more than one role, the roles "
-"would be assigned correctly but you should use some plugin like <a href="
-"\"https://wordpress.org/plugins/user-role-editor/\">User Role Editor</a> to "
-"manage them."
+"to see how it can be done. If you choose more than one role, the roles would "
+"be assigned correctly but you should use some plugin like <a href=\"https://"
+"wordpress.org/plugins/user-role-editor/\">User Role Editor</a> to manage "
+"them."
 msgstr ""
-"Pots també funcions d'importació d'una columna de csv. documentació llegida "
-"si us plau tabulador per veure com pugui ser fet. si esculls més d'una "
-"funció, les funcions serien assignades correctament però hauries "
-"d'utilitzar algun plugin com <un href=\"https://wordpress.org/plugins/"
-"usuari-funció-editor/\">de funció d'usuari d'editor</un> per dirigir-los."
+"També podeu importar rols des d'una columna csv. si us plau, llegiu la "
+"pestanya de documentació per veure com es pot fer. si trieu més d’una "
+"funció, els rols s’assignaran correctament, però haureu d’utilitzar algun "
+"complement com <a href=\"https://wordpress.org/plugins/user-role-editor/\"> "
+"editor de funcions de l’usuari </ a > per gestionar-los."
 
 # modificta xtec
 #: classes/email-templates.php:84
@@ -1619,27 +1397,26 @@ msgid ""
 "you could use **first_name** or any other meta_data like **my_custom_meta**"
 msgstr ""
 "Podeu utilitzar qualsevol camp estàndard de l'usuari de WordPress o una "
-"metadada pròpia, si l'heu utilitzat al vostre CSV. Per exemple, si teniu "
-"una columna de cognoms, podríeu utilitzar ** first_name** o qualsevol altra "
+"metadada pròpia, si l'heu utilitzat al vostre CSV. Per exemple, si teniu una "
+"columna de cognoms, podríeu utilitzar ** first_name** o qualsevol altra "
 "meta_data com ** my_custom_meta **"
 
 # modificat xtec
 #: classes/doc.php:121
 msgid ""
-"You can do it with multiple groups at the same time using commas to "
-"separate different groups, in bp_group column, i.e.: <em>group_1, group_2, "
-"group_3</em>"
+"You can do it with multiple groups at the same time using commas to separate "
+"different groups, in bp_group column, i.e.: <em>group_1, group_2, group_3</"
+"em>"
 msgstr ""
 "Podeu fer-ho amb diversos grups al mateix temps, utilitzant comes per "
 "separar diferents grups, a la columna bp_group, és a dir: <em> group_1, "
 "group_2, group_3 </em>"
 
 # modificat xtec
-#: addons/acui-users-group.php:20 addons/acui-wp-users-group.php:20
-#: addons/users-group.php:20 addons/wp-users-group.php:20
+#: addons/acui-wp-users-group.php:20 addons/acui-users-group.php:20
+#: addons/wp-users-group.php:20 addons/users-group.php:20
 msgid ""
-"You can import user groups and assign them to the users using the next "
-"format"
+"You can import user groups and assign them to the users using the next format"
 msgstr ""
 "Podeu importar grups d'usuaris i assignar-los als usuaris utilitzant el "
 "següent format"
@@ -1648,8 +1425,8 @@ msgstr ""
 #, fuzzy
 msgid "You can import users and assign them to LMS Course using next format"
 msgstr ""
-"Pots importar usuaris i assignar-los a curs de lms que utilitza format "
-"pròxim"
+"Podeu importar grups d'usuaris i assignar-los als usuaris utilitzant el "
+"següent format"
 
 # modificat xtec
 #: addons/buddypress.php:35
@@ -1663,25 +1440,6 @@ msgstr ""
 "BuddyPress i l'assignarà a l'actualització. Podeu utilitzar aquests camps:"
 
 # modificat xtec
-#: smtp.php:145
-msgid ""
-"You can specify the email address that emails should be sent from. If you "
-"leave this blank, the default email will be used."
-msgstr ""
-"Podeu especificar l'adreça de correu electrònic des de la qual s'enviaran "
-"els correus electrònics. Si ho deixeu en blanc, s'utilitzarà el correu "
-"electrònic predeterminat."
-
-# modificat xtec
-#: smtp.php:150
-msgid ""
-"You can specify the name that emails should be sent from. If you leave this "
-"blank, the emails will be sent from WordPress."
-msgstr ""
-"Podeu especificar el nom amb el qual s'enviaran els correus electrònics. Si "
-"ho deixeu en blanc, els correus electrònics s'enviaran des de WordPress."
-
-# modificat xtec
 #: classes/doc.php:134
 msgid ""
 "You can upload as many files as you want, but all must have the same "
@@ -1689,8 +1447,8 @@ msgid ""
 "last file uploaded."
 msgstr ""
 "Podeu carregar tants fitxers com vulgueu, però tots han de tenir les "
-"mateixes columnes. Si carregueu un fitxer diferent, les columnes canviaran "
-"a la forma de l'últim fitxer carregat."
+"mateixes columnes. Si carregueu un fitxer diferent, les columnes canviaran a "
+"la forma de l'últim fitxer carregat."
 
 #: classes/email-templates.php:76
 msgid "You can use"
@@ -1723,8 +1481,8 @@ msgid ""
 "You can use the <strong>profile fields</strong> you have created and also "
 "you can set one or more groups for each user. For example:"
 msgstr ""
-"Podeu utilitzar els <strong> camps de perfil </strong> que heu creat i "
-"també podeu establir un o més grups per a cada usuari. Per exemple:"
+"Podeu utilitzar els <strong> camps de perfil </strong> que heu creat i també "
+"podeu establir un o més grups per a cada usuari. Per exemple:"
 
 # modificat xtec
 #: addons/acui-indeed-ultimate-membership-pro.php:28
@@ -1764,7 +1522,7 @@ msgstr ""
 "columnes d'usuaris predeterminades de WordPress (els que utilitzen la funció"
 
 # modificat xtec
-#: classes/cron.php:81 classes/cron.php:150 classes/homepage.php:91
+#: classes/homepage.php:91 classes/cron.php:81 classes/cron.php:150
 msgid "You have to introduce the path to file, i.e.:"
 msgstr "Introduïu la ruta d'accés al fitxer, és a dir:"
 
@@ -1807,7 +1565,7 @@ msgid "click here"
 msgstr "feu clic aquí"
 
 # modificat xtec
-#. Author of the plugin/theme
+#. Author of the plugin
 msgid "codection"
 msgstr "codificació"
 
@@ -1853,12 +1611,12 @@ msgid "here to see results"
 msgstr "aquí per veure'n els resultats"
 
 # modificat xtec
-#. Author URI of the plugin/theme
+#. Author URI of the plugin
 msgid "https://codection.com"
 msgstr "https://codection.com"
 
 # modificat xtec
-#. Plugin URI of the plugin/theme
+#. Plugin URI of the plugin
 msgid "https://www.codection.com"
 msgstr "https://www.codection.com"
 
@@ -1910,8 +1668,7 @@ msgstr "per provar"
 msgid ""
 "two colons, inside the cell in order to split the string in a list of items."
 msgstr ""
-"dos colons, dins de la cel·la per dividir la cadena en una llista "
-"d'elements."
+"dos colons, dins de la cel·la per dividir la cadena en una llista d'elements."
 
 #: classes/homepage.php:39
 msgid "uploaded on"
@@ -1926,8 +1683,8 @@ msgid "user password"
 msgstr "contrasenya de l'usuari"
 
 # modificat xtec
-#: addons/acui-users-group.php:22 addons/acui-wp-users-group.php:22
-#: addons/users-group.php:22 addons/wp-users-group.php:22
+#: addons/acui-wp-users-group.php:22 addons/acui-users-group.php:22
+#: addons/wp-users-group.php:22 addons/users-group.php:22
 msgid "user_group as the column title"
 msgstr "user_group com a títol de la columna"
 
@@ -1950,8 +1707,8 @@ msgstr ""
 msgid "username to login"
 msgstr "nom d'usuari per iniciar sessió"
 
+#: addons/new-user-approve.php:23 addons/buddypress.php:41
 #: addons/allow-multiple-accounts.php:23 addons/allow-multiple-accounts.php:42
-#: addons/buddypress.php:41 addons/new-user-approve.php:23
 #: addons/wp-members.php:24 addons/wp-members.php:47
 msgid "users"
 msgstr "usuaris"

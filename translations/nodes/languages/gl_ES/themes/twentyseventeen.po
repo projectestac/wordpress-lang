@@ -2,372 +2,284 @@
 # This file is distributed under the same license as the Themes - Twenty Seventeen package.
 msgid ""
 msgstr ""
+"Project-Id-Version: Themes - Twenty Seventeen\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11T16:48:58+02:00\n"
 "PO-Revision-Date: 2018-12-08 13:31:33+0000\n"
+"Language: gl_ES\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: GlotPress/2.4.0-alpha\n"
-"Language: gl_ES\n"
-"Project-Id-Version: Themes - Twenty Seventeen\n"
-
-#. translators: 1: number of comments, 2: post title
-#: comments.php:41
-msgctxt "comments title"
-msgid "%1$s Reply to &ldquo;%2$s&rdquo;"
-msgid_plural "%1$s Replies to &ldquo;%2$s&rdquo;"
-msgstr[0] "%1$s Resposta a&ldquo;%2$s&rdquo;"
-msgstr[1] "%1$s Respostas a &ldquo;%2$s&rdquo;"
-
-#. translators: used between list items, there is a space after the comma
-#: inc/template-tags.php:66
-msgid ", "
-msgstr ", "
-
-#. translators: %s: post date
-#: inc/template-tags.php:52
-msgid "<span class=\"screen-reader-text\">Posted on</span> %s"
-msgstr "<span class=\"screen-reader-text\">Publicado en</span> %s\t"
-
-#: functions.php:350 functions.php:362
-msgid "Add widgets here to appear in your footer."
-msgstr "Engade aquí os widgets que queres que aparezan no pé."
-
-#: functions.php:338
-msgid ""
-"Add widgets here to appear in your sidebar on blog posts and archive pages."
-msgstr ""
-"Engade widgets aqui para amosar na barra lateral das entradas do blog e das "
-"paxinas."
-
-#: sidebar.php:18 functions.php:336
-msgid "Blog Sidebar"
-msgstr "Barra lateral"
-
-#: inc/template-tags.php:85
-msgid "Categories"
-msgstr "Categorías"
-
-#: functions.php:179
-msgctxt "Theme starter content"
-msgid "Coffee"
-msgstr "Café\t"
-
-#: functions.php:482
-msgid "Collapse child menu"
-msgstr "Colapsar menú fillo"
-
-#: inc/customizer.php:60
-msgid "Color Scheme"
-msgstr "Paleta de cores"
-
-#: comments.php:82
-msgid "Comments are closed."
-msgstr "Comentarios pechados."
-
-#. translators: %s: Name of current post
-#: template-parts/page/content-front-page-panels.php:45
-#: template-parts/page/content-front-page.php:42
-#: template-parts/post/content-audio.php:84 template-parts/post/content.php:57
-#: template-parts/post/content-gallery.php:71
-#: template-parts/post/content-video.php:83
-#: template-parts/post/content-image.php:61 functions.php:390
-msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
-msgstr "Continuar lendo<span class=\"screen-reader-text\"> \"%s\"</span>"
-
-#: inc/customizer.php:64
-msgid "Custom"
-msgstr "Personalizado\t"
-
-#: inc/customizer.php:63
-msgid "Dark"
-msgstr "Escuro"
-
-#: inc/custom-header.php:56
-msgid "Default Header Image"
-msgstr "Imaxe de cabeceira por defecto"
-
-#. translators: %s: Name of current post
-#: inc/template-tags.php:117
-msgid "Edit<span class=\"screen-reader-text\"> \"%s\"</span>"
-msgstr "Editar<span class=\"screen-reader-text\"> \"%s\"</span>"
-
-#: functions.php:171
-msgctxt "Theme starter content"
-msgid "Espresso"
-msgstr "Espresso"
-
-#: functions.php:481
-msgid "Expand child menu"
-msgstr "Expandir menú fillo"
-
-#: template-parts/footer/footer-widgets.php:18
-msgid "Footer"
-msgstr "Pé de páxina"
-
-#: functions.php:348
-msgid "Footer 1"
-msgstr "Pé 1"
-
-#: functions.php:360
-msgid "Footer 2"
-msgstr "Pé 2"
-
-#: footer.php:26
-msgid "Footer Social Links Menu"
-msgstr "Menú de ligazóns sociais de pé de páxina"
-
-#: inc/template-tags.php:151
-msgid "Front Page Section %1$s Placeholder"
-msgstr "Placeholder da sección %1$s da páxina principal\t"
-
-#. translators: %d is the front page section number
-#: inc/customizer.php:142
-msgid "Front Page Section %d Content"
-msgstr "Contido de Sección da páxina principal %d"
-
-#: 404.php:24
-msgid "It looks like nothing was found at this location. Maybe try a search?"
-msgstr "Parece que non hai nada nesa ubicacion ¿queres probar a buscar?"
-
-#: template-parts/post/content-none.php:28
-msgid ""
-"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
-"searching can help."
-msgstr ""
-"Asemella que non podemos atopar o que estás buscando. Tal vez unha busca "
-"poda axudar."
-
-#: inc/customizer.php:62
-msgid "Light"
-msgstr "Claro"
-
-#: template-parts/navigation/navigation-top.php:17
-msgid "Menu"
-msgstr "Menu"
-
-#: single.php:34 comments.php:72
-msgid "Next"
-msgstr "Seguinte"
-
-#: single.php:34
-msgid "Next Post"
-msgstr "Seguinte entrada"
-
-#: archive.php:49 search.php:46 index.php:53
-msgid "Next page"
-msgstr "Páxina seguinte"
-
-#: template-parts/post/content-none.php:17 search.php:21
-msgid "Nothing Found"
-msgstr "Non se atopou nada"
-
-#: inc/customizer.php:111 inc/customizer.php:170
-msgid "One Column"
-msgstr "Unha Columna "
-
-#. translators: %s: post title
-#: comments.php:37
-msgctxt "comments title"
-msgid "One Reply to &ldquo;%s&rdquo;"
-msgstr "Unha resposta a &ldquo;%s&rdquo;"
-
-#: 404.php:21
-msgid "Oops! That page can&rsquo;t be found."
-msgstr "Oops! Esta páxina non se pode atopar."
-
-#: archive.php:50 search.php:47 index.php:54
-msgid "Page"
-msgstr "Páxina"
-
-#: inc/customizer.php:106
-msgid "Page Layout"
-msgstr "Deseño de páxina"
-
-#: template-parts/page/content-page.php:26
-#: template-parts/post/content-audio.php:91 template-parts/post/content.php:64
-#: template-parts/post/content-gallery.php:78
-#: template-parts/post/content-video.php:90
-#: template-parts/post/content-image.php:68
-msgid "Pages:"
-msgstr "Paxinas:"
-
-#: inc/custom-header.php:128
-msgid "Pause background video"
-msgstr "Pausar vídeo de fondo"
-
-#: inc/custom-header.php:127
-msgid "Play background video"
-msgstr "Reproducir vídeo de fondo"
-
-#: inc/icon-functions.php:44
-msgid "Please define an SVG icon filename."
-msgstr "Por favor, define un nome de arquivo de iconas SVG."
-
-#: inc/icon-functions.php:39
-msgid "Please define default parameters in the form of an array."
-msgstr "Por favor, define os parámetros por defecto en forma de array."
-
-#: index.php:27
-msgid "Posts"
-msgstr "Entradas"
-
-#: single.php:33 comments.php:71
-msgid "Previous"
-msgstr "Anterior"
-
-#: single.php:33
-msgid "Previous Post"
-msgstr "Artigo anterior"
-
-#: archive.php:48 search.php:45 index.php:52
-msgid "Previous page"
-msgstr "Páxina anterior"
-
-#: template-parts/footer/site-info.php:19
-msgid "Proudly powered by %s"
-msgstr "Basado en %s"
-
-#: template-parts/post/content-none.php:24
-msgid ""
-"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
-msgstr ""
-"¿Preparado para publica-lo teu primeiro artigo? <a href=\"%1$s\">Empeza "
-"aquí</a>."
-
-#: comments.php:62
-msgid "Reply"
-msgstr "Responder"
-
-#: functions.php:175
-msgctxt "Theme starter content"
-msgid "Sandwich"
-msgstr "Sandwich"
-
-#: template-parts/navigation/navigation-top.php:31
-#: template-parts/header/site-branding.php:34
-msgid "Scroll down to content"
-msgstr "Desprazarse ata o contido"
-
-#: searchform.php:20
-msgctxt "submit button"
-msgid "Search"
-msgstr "Buscar"
-
-#: searchform.php:19
-msgctxt "placeholder"
-msgid "Search &hellip;"
-msgstr "Buscar &hellip;"
-
-#: search.php:19
-msgid "Search Results for: %s"
-msgstr "Resultados da procura de: %s"
-
-#: searchform.php:17
-msgctxt "label"
-msgid "Search for:"
-msgstr "Buscar:"
-
-#: inc/customizer.php:143
-msgid ""
-"Select pages to feature in each area from the dropdowns. Add an image to a "
-"section by setting a featured image in the page editor. Empty sections will "
-"not be displayed."
-msgstr ""
-"Seleccione as páxinas que desexes incluír en cada área nos despregables. "
-"Agrega unha imaxe a unha sección establecendo unha imaxe destacada no editor "
-"de páxinas. As seccións baleiras non se mostrarán."
-
-#: header.php:27
-msgid "Skip to content"
-msgstr "Ir o contido"
-
-#: functions.php:65 functions.php:214
-msgid "Social Links Menu"
-msgstr "Menú de Conexións sociais "
-
-#: search.php:54
-msgid ""
-"Sorry, but nothing matched your search terms. Please try again with some "
-"different keywords."
-msgstr ""
-"Sentímolo, pero non hai nada que corresponda aos seus criterios de busca. "
-"Por favor, ténteo de novo con palabras distintas."
-
-#: inc/template-tags.php:89
-msgid "Tags"
-msgstr "Etiquetas"
-
-#: inc/customizer.php:89
-msgid "Theme Options"
-msgstr "Opcións do tema"
-
-#: template-parts/navigation/navigation-top.php:12 functions.php:64
-#: functions.php:203
-msgid "Top Menu"
-msgstr "Menú superior"
-
-#. Theme Name of the theme
-msgid "Twenty Seventeen"
-msgstr "Twenty Seventeen"
-
-#. Description of the theme
-msgid ""
-"Twenty Seventeen brings your site to life with header video and immersive "
-"featured images. With a focus on business sites, it features multiple "
-"sections on the front page as well as widgets, navigation and social menus, "
-"a logo, and more. Personalize its asymmetrical grid with a custom color "
-"scheme and showcase your multimedia content with post formats. Our default "
-"theme for 2017 works great in many languages, for any abilities, and on any "
-"device."
-msgstr ""
-"Twenty Seventeen dá vida ao teu sitio con imaxes destacadas envolventes e "
-"animacións delicadas. Enfocado a sitios de negocios, destaca moitas seccións "
-"na páxina de inicio ademais de widgets, menús sociais e de navegación, un "
-"logo, ... e moitas cousas máis. Personaliza a súa cuadrícula asimétrica con "
-"paletas de cor personalizadas e mostra o teu contido multimedia con formatos "
-"de entrada. O noso tema por defecto para 2017 vai moi ben para moitos "
-"idiomas, funcións e en calquera dispositivo."
-
-#: inc/back-compat.php:39 inc/back-compat.php:52 inc/back-compat.php:70
-msgid ""
-"Twenty Seventeen requires at least WordPress version 4.7. You are running "
-"version %s. Please upgrade and try again."
-msgstr ""
-"Twenty Seventeen require polo menos a versión 4.7 de WordPress. Estás a usar "
-"a versión %s. Por favor, actualiza e téntao de novo."
-
-#: inc/customizer.php:112 inc/customizer.php:171
-msgid "Two Column"
-msgstr "Dúas Columnas"
-
-#: inc/customizer.php:109
-msgid ""
-"When the two-column layout is assigned, the page title is in one column and "
-"content is in the other."
-msgstr ""
-"Cando se elixe o deseño de dúas columnas, o título da páxina está nunha "
-"columna e o contido está na outra."
-
-#. translators: %s: post author
-#: inc/template-tags.php:21
-msgid "by %s"
-msgstr "por %s"
-
-#. Author URI of the theme
-#: template-parts/footer/site-info.php:18
-msgid "https://wordpress.org/"
-msgstr "https://wordpress.org/"
-
-#. Theme URI of the theme
-msgid "https://wordpress.org/themes/twentyseventeen/"
-msgstr "https://gl.wordpress.org/themes/twentyseventeen/"
-
-#: functions.php:289
-msgctxt "Libre Franklin font: on or off"
-msgid "on"
-msgstr "on"
-
-#. Author of the theme
-msgid "the WordPress team"
-msgstr "o equipo WordPress"
+
+#~ msgctxt "comments title"
+#~ msgid "%1$s Reply to &ldquo;%2$s&rdquo;"
+#~ msgid_plural "%1$s Replies to &ldquo;%2$s&rdquo;"
+#~ msgstr[0] "%1$s Resposta a&ldquo;%2$s&rdquo;"
+#~ msgstr[1] "%1$s Respostas a &ldquo;%2$s&rdquo;"
+
+#~ msgid ", "
+#~ msgstr ", "
+
+#~ msgid "<span class=\"screen-reader-text\">Posted on</span> %s"
+#~ msgstr "<span class=\"screen-reader-text\">Publicado en</span> %s\t"
+
+#~ msgid "Add widgets here to appear in your footer."
+#~ msgstr "Engade aquí os widgets que queres que aparezan no pé."
+
+#~ msgid ""
+#~ "Add widgets here to appear in your sidebar on blog posts and archive "
+#~ "pages."
+#~ msgstr ""
+#~ "Engade widgets aqui para amosar na barra lateral das entradas do blog e "
+#~ "das paxinas."
+
+#~ msgid "Blog Sidebar"
+#~ msgstr "Barra lateral"
+
+#~ msgid "Categories"
+#~ msgstr "Categorías"
+
+#~ msgctxt "Theme starter content"
+#~ msgid "Coffee"
+#~ msgstr "Café\t"
+
+#~ msgid "Collapse child menu"
+#~ msgstr "Colapsar menú fillo"
+
+#~ msgid "Color Scheme"
+#~ msgstr "Paleta de cores"
+
+#~ msgid "Comments are closed."
+#~ msgstr "Comentarios pechados."
+
+#~ msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+#~ msgstr "Continuar lendo<span class=\"screen-reader-text\"> \"%s\"</span>"
+
+#~ msgid "Custom"
+#~ msgstr "Personalizado\t"
+
+#~ msgid "Dark"
+#~ msgstr "Escuro"
+
+#~ msgid "Default Header Image"
+#~ msgstr "Imaxe de cabeceira por defecto"
+
+#~ msgid "Edit<span class=\"screen-reader-text\"> \"%s\"</span>"
+#~ msgstr "Editar<span class=\"screen-reader-text\"> \"%s\"</span>"
+
+#~ msgctxt "Theme starter content"
+#~ msgid "Espresso"
+#~ msgstr "Espresso"
+
+#~ msgid "Expand child menu"
+#~ msgstr "Expandir menú fillo"
+
+#~ msgid "Footer"
+#~ msgstr "Pé de páxina"
+
+#~ msgid "Footer 1"
+#~ msgstr "Pé 1"
+
+#~ msgid "Footer 2"
+#~ msgstr "Pé 2"
+
+#~ msgid "Footer Social Links Menu"
+#~ msgstr "Menú de ligazóns sociais de pé de páxina"
+
+#~ msgid "Front Page Section %1$s Placeholder"
+#~ msgstr "Placeholder da sección %1$s da páxina principal\t"
+
+#~ msgid "Front Page Section %d Content"
+#~ msgstr "Contido de Sección da páxina principal %d"
+
+#~ msgid ""
+#~ "It looks like nothing was found at this location. Maybe try a search?"
+#~ msgstr "Parece que non hai nada nesa ubicacion ¿queres probar a buscar?"
+
+#~ msgid ""
+#~ "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+#~ "searching can help."
+#~ msgstr ""
+#~ "Asemella que non podemos atopar o que estás buscando. Tal vez unha busca "
+#~ "poda axudar."
+
+#~ msgid "Light"
+#~ msgstr "Claro"
+
+#~ msgid "Menu"
+#~ msgstr "Menu"
+
+#~ msgid "Next"
+#~ msgstr "Seguinte"
+
+#~ msgid "Next Post"
+#~ msgstr "Seguinte entrada"
+
+#~ msgid "Next page"
+#~ msgstr "Páxina seguinte"
+
+#~ msgid "Nothing Found"
+#~ msgstr "Non se atopou nada"
+
+#~ msgid "One Column"
+#~ msgstr "Unha Columna "
+
+#~ msgctxt "comments title"
+#~ msgid "One Reply to &ldquo;%s&rdquo;"
+#~ msgstr "Unha resposta a &ldquo;%s&rdquo;"
+
+#~ msgid "Oops! That page can&rsquo;t be found."
+#~ msgstr "Oops! Esta páxina non se pode atopar."
+
+#~ msgid "Page"
+#~ msgstr "Páxina"
+
+#~ msgid "Page Layout"
+#~ msgstr "Deseño de páxina"
+
+#~ msgid "Pages:"
+#~ msgstr "Paxinas:"
+
+#~ msgid "Pause background video"
+#~ msgstr "Pausar vídeo de fondo"
+
+#~ msgid "Play background video"
+#~ msgstr "Reproducir vídeo de fondo"
+
+#~ msgid "Please define an SVG icon filename."
+#~ msgstr "Por favor, define un nome de arquivo de iconas SVG."
+
+#~ msgid "Please define default parameters in the form of an array."
+#~ msgstr "Por favor, define os parámetros por defecto en forma de array."
+
+#~ msgid "Posts"
+#~ msgstr "Entradas"
+
+#~ msgid "Previous"
+#~ msgstr "Anterior"
+
+#~ msgid "Previous Post"
+#~ msgstr "Artigo anterior"
+
+#~ msgid "Previous page"
+#~ msgstr "Páxina anterior"
+
+#~ msgid "Proudly powered by %s"
+#~ msgstr "Basado en %s"
+
+#~ msgid ""
+#~ "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+#~ msgstr ""
+#~ "¿Preparado para publica-lo teu primeiro artigo? <a href=\"%1$s\">Empeza "
+#~ "aquí</a>."
+
+#~ msgid "Reply"
+#~ msgstr "Responder"
+
+#~ msgctxt "Theme starter content"
+#~ msgid "Sandwich"
+#~ msgstr "Sandwich"
+
+#~ msgid "Scroll down to content"
+#~ msgstr "Desprazarse ata o contido"
+
+#~ msgctxt "submit button"
+#~ msgid "Search"
+#~ msgstr "Buscar"
+
+#~ msgctxt "placeholder"
+#~ msgid "Search &hellip;"
+#~ msgstr "Buscar &hellip;"
+
+#~ msgid "Search Results for: %s"
+#~ msgstr "Resultados da procura de: %s"
+
+#~ msgctxt "label"
+#~ msgid "Search for:"
+#~ msgstr "Buscar:"
+
+#~ msgid ""
+#~ "Select pages to feature in each area from the dropdowns. Add an image to "
+#~ "a section by setting a featured image in the page editor. Empty sections "
+#~ "will not be displayed."
+#~ msgstr ""
+#~ "Seleccione as páxinas que desexes incluír en cada área nos despregables. "
+#~ "Agrega unha imaxe a unha sección establecendo unha imaxe destacada no "
+#~ "editor de páxinas. As seccións baleiras non se mostrarán."
+
+#~ msgid "Skip to content"
+#~ msgstr "Ir o contido"
+
+#~ msgid "Social Links Menu"
+#~ msgstr "Menú de Conexións sociais "
+
+#~ msgid ""
+#~ "Sorry, but nothing matched your search terms. Please try again with some "
+#~ "different keywords."
+#~ msgstr ""
+#~ "Sentímolo, pero non hai nada que corresponda aos seus criterios de busca. "
+#~ "Por favor, ténteo de novo con palabras distintas."
+
+#~ msgid "Tags"
+#~ msgstr "Etiquetas"
+
+#~ msgid "Theme Options"
+#~ msgstr "Opcións do tema"
+
+#~ msgid "Top Menu"
+#~ msgstr "Menú superior"
+
+#~ msgid "Twenty Seventeen"
+#~ msgstr "Twenty Seventeen"
+
+#~ msgid ""
+#~ "Twenty Seventeen brings your site to life with header video and immersive "
+#~ "featured images. With a focus on business sites, it features multiple "
+#~ "sections on the front page as well as widgets, navigation and social "
+#~ "menus, a logo, and more. Personalize its asymmetrical grid with a custom "
+#~ "color scheme and showcase your multimedia content with post formats. Our "
+#~ "default theme for 2017 works great in many languages, for any abilities, "
+#~ "and on any device."
+#~ msgstr ""
+#~ "Twenty Seventeen dá vida ao teu sitio con imaxes destacadas envolventes e "
+#~ "animacións delicadas. Enfocado a sitios de negocios, destaca moitas "
+#~ "seccións na páxina de inicio ademais de widgets, menús sociais e de "
+#~ "navegación, un logo, ... e moitas cousas máis. Personaliza a súa "
+#~ "cuadrícula asimétrica con paletas de cor personalizadas e mostra o teu "
+#~ "contido multimedia con formatos de entrada. O noso tema por defecto para "
+#~ "2017 vai moi ben para moitos idiomas, funcións e en calquera dispositivo."
+
+#~ msgid ""
+#~ "Twenty Seventeen requires at least WordPress version 4.7. You are running "
+#~ "version %s. Please upgrade and try again."
+#~ msgstr ""
+#~ "Twenty Seventeen require polo menos a versión 4.7 de WordPress. Estás a "
+#~ "usar a versión %s. Por favor, actualiza e téntao de novo."
+
+#~ msgid "Two Column"
+#~ msgstr "Dúas Columnas"
+
+#~ msgid ""
+#~ "When the two-column layout is assigned, the page title is in one column "
+#~ "and content is in the other."
+#~ msgstr ""
+#~ "Cando se elixe o deseño de dúas columnas, o título da páxina está nunha "
+#~ "columna e o contido está na outra."
+
+#~ msgid "by %s"
+#~ msgstr "por %s"
+
+#~ msgid "https://wordpress.org/"
+#~ msgstr "https://wordpress.org/"
+
+#~ msgid "https://wordpress.org/themes/twentyseventeen/"
+#~ msgstr "https://gl.wordpress.org/themes/twentyseventeen/"
+
+#~ msgctxt "Libre Franklin font: on or off"
+#~ msgid "on"
+#~ msgstr "on"
+
+#~ msgid "the WordPress team"
+#~ msgstr "o equipo WordPress"

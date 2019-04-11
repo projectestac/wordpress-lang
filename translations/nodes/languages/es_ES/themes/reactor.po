@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: NODES GENERAL 1.0.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/reactor\n"
-"POT-Creation-Date: 2019-04-05 07:48:23+00:00\n"
-"PO-Revision-Date: 2019-04-09 08:40+0200\n"
+"POT-Creation-Date: 2019-04-11T16:48:58+02:00\n"
+"PO-Revision-Date: 2019-04-11 17:02+0200\n"
 "Last-Translator: Joan Sala Soler <jsala236@xtec.cat>\n"
 "Language-Team: \n"
 "Language: es_ES\n"
@@ -15,683 +15,57 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 2.0.6\n"
 
-#: 404.php:25
-msgid "This is somewhat embarrassing, isn&rsquo;t it?"
-msgstr "Esto es algo embarazoso, ¿verdad?"
-
-#: 404.php:29
-msgid ""
-"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
-"searching will help."
-msgstr ""
-"No se encontró el contenido que buscaba. Puede intentar haciendo una "
-"búsqueda."
-
-#: archive-portfolio.php:26
-msgid "Daily Archives: %s"
-msgstr "Archivo por días: %s"
-
-#: archive-portfolio.php:28
-msgid "Monthly Archives: %s"
-msgstr "Archivo por meses: %s"
-
-#: archive-portfolio.php:28
-msgctxt "monthly archives date format"
-msgid "F Y"
-msgstr "F Y"
-
-#: archive-portfolio.php:30
-msgid "Yearly Archives: %s"
-msgstr "Archivo por años: %s"
-
-#: archive-portfolio.php:30
-msgctxt "yearly archives date format"
-msgid "Y"
-msgstr "Y"
-
-#: comments.php:19
-msgid "This post is password protected. Enter the password to view comments."
-msgstr "Esta entrada está protegida. Para verla, escribe la contraseña."
-
-#: comments.php:32
-msgid "NO Comments"
-msgstr "Sin comentarios"
-
-#: comments.php:32
-msgid "1 Comment"
-msgstr "1 comentario"
+#: library/inc/customizer/customize.php:766 page-templates/contact.php:14
+msgid " - Contact Form Message"
+msgstr "Formulario de contacto"
 
 #: comments.php:32
 msgid "% Comments"
 msgstr "% comentarios"
 
+#. translators: 1: date, 2: time
+#: library/inc/extensions/comments.php:44
+msgid "%1$s at %2$s"
+msgstr "%1$s a las %2$s"
+
+#: post-formats/format-portfolio.php:28
+#: library/inc/content/content-posts.php:30
+msgid "%s"
+msgstr "%s"
+
+#: library/inc/functions/page-links.php:121
+msgid "&hellip;"
+msgstr "&hellip;"
+
+#: library/inc/functions/page-links.php:72
+msgid "&laquo; Previous"
+msgstr "&laquo; Anterior"
+
+#: library/inc/extensions/menus.php:160
+msgid "&larr; Home"
+msgstr "&larr; Inicio"
+
 #: comments.php:43
 msgid "&larr; Older Comments"
 msgstr "&larr; Comentarios más antiguos"
-
-#: comments.php:44
-msgid "Newer Comments &rarr;"
-msgstr "Comentarios más recientes &rarr;"
-
-#: comments.php:49
-msgid "Comments are closed."
-msgstr "Los comentarios están cerrados."
-
-#: comments.php:67
-msgid ""
-"Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of "
-"this account\">Log out &raquo;</a>"
-msgstr ""
-"Se ha iniciado la sesión como <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" "
-"title=\"Salir de esta cuenta\">Salir &raquo;</a>"
-
-#: comments.php:69
-msgid "Name "
-msgstr "Nombre"
-
-#: comments.php:69 comments.php:71
-msgid "( required )"
-msgstr "(obligatorio)"
-
-#: comments.php:69
-#, fuzzy
-msgid "Your Name*"
-msgstr "Vuestro nombre"
-
-#: comments.php:69 comments.php:71
-msgid "aria-required='true'"
-msgstr "aria-required='true'"
-
-#: comments.php:71
-msgid "Email "
-msgstr "Correo electrónico"
-
-#: comments.php:71
-#, fuzzy
-msgid "Your E-Mail*"
-msgstr "Vuestro correo electrónico"
-
-#: comments.php:73
-msgid "Website "
-msgstr "Sitio web "
-
-#: comments.php:73
-msgid "URL "
-msgstr "URL "
-
-#: comments.php:76
-msgid "Your Comment here..."
-msgstr "Vuestro comentario aquí..."
-
-#: comments.php:78
-msgid "You can use these tags"
-msgstr "Puedes usar estas etiquetas"
-
-#: comments.php:80
-msgid "Submit"
-msgstr "Enviar"
-
-#: content.php:16
-msgid "Continue reading..."
-msgstr "Sigue leyendo..."
-
-#: custom-tac/capcalera/icones-capcalera-settings.php:29
-#: custom-tac/capcalera/icones-capcalera-settings.php:47
-msgid "Icones de capçalera"
-msgstr "Iconos de cabecera"
-
-#: custom-tac/capcalera/icones-capcalera-settings.php:60
-msgid "Icones disponibles"
-msgstr "Iconos disponibles"
-
-#: custom-tac/capcalera/icones-capcalera-settings.php:61
-msgid "Copia el nom de la icona i enganxa'l a la posició desitjada."
-msgstr "Copia el nombre del icono y pégalo en la posición deseada."
-
-#: custom-tac/capcalera/icones-capcalera-settings.php:108
-msgid "Icones a la fila 1"
-msgstr "Iconos en la fila 1"
-
-#: custom-tac/capcalera/icones-capcalera-settings.php:116
-#: custom-tac/capcalera/icones-capcalera-settings.php:190
-msgid "Element 1:"
-msgstr "Elemento 1:"
-
-#: custom-tac/capcalera/icones-capcalera-settings.php:124
-#: custom-tac/capcalera/icones-capcalera-settings.php:157
-#: custom-tac/capcalera/icones-capcalera-settings.php:198
-#: custom-tac/capcalera/icones-capcalera-settings.php:231
-msgid "Icona:"
-msgstr "Icono:"
-
-#: custom-tac/capcalera/icones-capcalera-settings.php:132
-#: custom-tac/capcalera/icones-capcalera-settings.php:165
-#: custom-tac/capcalera/icones-capcalera-settings.php:206
-#: custom-tac/capcalera/icones-capcalera-settings.php:239
-msgid "Enllaç:"
-msgstr "Enlace:"
-
-#: custom-tac/capcalera/icones-capcalera-settings.php:149
-#: custom-tac/capcalera/icones-capcalera-settings.php:223
-msgid "Element 2:"
-msgstr "Elemento 2:"
-
-#: custom-tac/capcalera/icones-capcalera-settings.php:182
-msgid "Icones a la fila 2"
-msgstr "Iconos en la fila 2"
-
-#: custom-tac/capcalera/icones-capcalera-settings.php:255
-#: library/inc/customizer/customize.php:171
-msgid "General"
-msgstr "Generales"
-
-#: custom-tac/capcalera/icones-capcalera-settings.php:263
-msgid "Mostra text sota la icona:"
-msgstr "Ver texto bajo el icono:"
-
-#: custom-tac/metabox-post-parametres.php:15
-msgid "Parameters"
-msgstr "Parámetros"
-
-#: custom-tac/metabox-post-parametres.php:41
-#, fuzzy
-msgid "Summary image in original size"
-msgstr "Imagen resumen con medida original"
-
-#: custom-tac/metabox-post-parametres.php:42
-#, fuzzy
-msgid "View full content"
-msgstr "Muestra el contenido entero"
-
-#: custom-tac/metabox-post-parametres.php:43
-msgid "Hide title"
-msgstr "Esconder el título"
-
-#: custom-tac/metabox-post-parametres.php:44
-msgid "Hide metadata"
-msgstr "Ocultar los metadatos"
-
-#: custom-tac/metabox-post-parametres.php:50
-msgid "Icon"
-msgstr "Icono"
-
-#: custom-tac/metabox-post-parametres.php:53
-msgid "Video"
-msgstr "Vídeo"
-
-#: custom-tac/metabox-post-parametres.php:54
-msgid "Photo/Slideshow"
-msgstr "Foto/Carrusel"
-
-#: custom-tac/metabox-post-parametres.php:55
-msgid "Podcast"
-msgstr "Podcast"
-
-#: custom-tac/metabox-post-parametres.php:56
-msgid "Document"
-msgstr "Documento"
-
-#: custom-tac/metabox-post-parametres.php:57
-msgid "Music"
-msgstr "Música"
-
-#: custom-tac/metabox-post-parametres.php:58
-msgid "Alert"
-msgstr "Alerta"
-
-#: custom-tac/rss-metabox.php:47
-msgid "No item"
-msgstr "Sin objeto"
-
-#: custom-tac/rss-metabox.php:55
-msgid "ago"
-msgstr "atrás"
-
-#: custom-tac/welcome-panel.php:21
-msgid "Welcome to NODES"
-msgstr "Bienvenido a Nodes"
-
-#: custom-tac/welcome-panel.php:22
-msgid "Project for the new website from Departament d'Ensenyament"
-msgstr "Proyecto para el nuevo sitio web del Departamento de Educación."
-
-#: custom-tac/welcome-panel.php:26
-msgid "Actions"
-msgstr "Acciones"
-
-#: custom-tac/welcome-panel.php:28
-msgid "Customize"
-msgstr "Personalizar"
-
-#: custom-tac/welcome-panel.php:30 custom-tac/welcome-panel.php:33
-msgid "Edit Home Page"
-msgstr "Editar la página principal"
-
-#: custom-tac/welcome-panel.php:31
-msgid "Header icons"
-msgstr "Iconos de la cabecera"
-
-#: custom-tac/welcome-panel.php:34
-msgid "Add additional pages"
-msgstr "Añade páginas adicionales"
-
-#: custom-tac/welcome-panel.php:35
-msgid "Add a blog post"
-msgstr "Añade una entrada"
-
-#: custom-tac/welcome-panel.php:37
-msgid "Write your first blog post"
-msgstr "Escribe tu primera entrada en el blog"
-
-#: custom-tac/welcome-panel.php:38
-msgid "Add an About page"
-msgstr "Añade una página Sobre mí"
-
-#: custom-tac/welcome-panel.php:44
-msgid "More Actions"
-msgstr "Más acciones"
-
-#: custom-tac/welcome-panel.php:46
-msgid "Manage <a href=\"%1$s\">widgets</a> or <a href=\"%2$s\">menus</a>"
-msgstr "Gestiona <a href=\"%1$s\">widgets</a> o <a href=\"%2$s\">menús</a>"
-
-#: custom-tac/welcome-panel.php:47
-msgid "Bookings"
-msgstr "Sistema de reservas"
-
-#: custom-tac/welcome-panel.php:48 functions.php:252 functions.php:300
-msgid "BuddyPress"
-msgstr "Buddypress"
-
-#: custom-tac/welcome-panel.php:53
-msgid "Do you need help?"
-msgstr "¿Necesita ayuda?"
-
-#: custom-tac/welcome-panel.php:55
-msgid "FAQ"
-msgstr "FAQ"
-
-#: custom-tac/welcome-panel.php:56
-msgid "Support"
-msgstr "Soporte"
-
-#: functions.php:157
-msgid "Categories (Barra esquerra)"
-msgstr "Categorías (Barra izquierda)"
-
-#: functions.php:253 functions.php:302
-msgid "Activity"
-msgstr "Actividad"
-
-#: functions.php:254
-msgid "Activity Plus"
-msgstr "Activity Plus"
-
-#: functions.php:255 functions.php:325
-msgid "Components"
-msgstr "Componentes"
-
-#: functions.php:256 functions.php:327
-msgid "Groups"
-msgstr "Grupos"
-
-#: functions.php:257 functions.php:328
-msgid "BuddyPress Like"
-msgstr "BuddyPress Like"
-
-#: functions.php:258
-msgid "Logs"
-msgstr "Registros"
-
-#: functions.php:259 functions.php:329
-msgid "Group Email Options"
-msgstr "Opciones de Email de Grupos"
-
-#: functions.php:260 functions.php:339
-msgid "Configuració"
-msgstr "Configuración"
-
-#: functions.php:264 functions.php:265
-msgid "BuddyPress Docs"
-msgstr "Documentos BuddyPress"
-
-#: functions.php:266
-msgctxt "add new"
-msgid "Add New"
-msgstr "Añadir nueva"
-
-#: functions.php:267
-msgid "Associated Items"
-msgstr "Objetos Asociados"
-
-#: functions.php:268
-msgid "Docs Tags"
-msgstr "Etiquetas de Documentos"
-
-#: functions.php:269
-msgid "Settings"
-msgstr "Opciones de configuración"
-
-#: functions.php:273
-msgid "BuddyPress Invitations"
-msgstr "Invitaciones BuddyPress"
-
-#: functions.php:274 functions.php:335
-msgid "Invite Anyone"
-msgstr "Invite Anyone"
-
-#: functions.php:275
-msgid "Manage Invitations"
-msgstr "Gestionar invitaciones"
-
-#: functions.php:276
-msgid "Add New Invitation"
-msgstr "Añadir nueva invitación"
-
-#: functions.php:277
-msgid "Invitees"
-msgstr "Invitados"
-
-#: functions.php:278
-msgid "Invited Groups"
-msgstr "Grupos invitados"
-
-#: functions.php:282
-msgid "Reports"
-msgstr "Informes"
-
-#: functions.php:283
-msgid "Activity report in social network"
-msgstr "Informe de actividad en la red social"
-
-#: functions.php:353 functions.php:381
-msgid "Forums"
-msgstr "Foros"
-
-#: functions.php:354
-msgid "All Forums"
-msgstr "Todos los Foros"
-
-#: functions.php:355
-msgid "New Forum"
-msgstr "Nuevo Foro"
-
-#: functions.php:359
-msgid "Topics"
-msgstr "Debates"
-
-#: functions.php:360
-msgid "All Topics"
-msgstr "Todos los debates"
-
-#: functions.php:361
-msgid "New Topic"
-msgstr "Nuevo debate"
-
-#: functions.php:362
-msgid "Topic Tags"
-msgstr "Etiquetas de debate"
-
-#: functions.php:366
-msgid "Replies"
-msgstr "Respuestas"
-
-#: functions.php:367
-msgid "All Replies"
-msgstr "Todas las respuestas"
-
-#: functions.php:368
-msgid "New Reply"
-msgstr "Nueva Respuesta"
-
-#: image.php:32
-msgid ""
-"<span class=\"meta-prep meta-prep-entry-date\">Published </span> <span class"
-"=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\" "
-"pubdate>%2$s</time></span> at <a href=\"%3$s\" title=\"Link to full-size "
-"image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" "
-"rel=\"gallery\">%8$s</a>."
-msgstr ""
-"<span class=\"meta-prep meta-prep-entry-date\">Publicado </span> <span class"
-"=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\" "
-"pubdate>%2$s</time></span> a las <a href=\"%3$s\" title=\"Enlace a la imagen"
-" completa\">%4$s &times; %5$s</a> en <a href=\"%6$s\" title=\"Volver a "
-"%7$s\" rel=\"gallery\">%8$s</a>."
-
-#: image.php:43 library/inc/content/content-pages.php:48
-#: library/inc/content/content-posts.php:23
-#: library/inc/content/content-posts.php:33
-#: library/inc/extensions/comments.php:23
-#: library/inc/extensions/comments.php:55
-#: library/inc/functions/breadcrumbs.php:1149
-#: library/inc/functions/breadcrumbs.php:1185
-#: library/inc/functions/breadcrumbs.php:1202
-#: library/inc/functions/breadcrumbs.php:1233
-msgid "Edit"
-msgstr "Editar"
 
 #: image.php:47
 msgid "&larr; Previous"
 msgstr "&larr; Anterior"
 
-#: image.php:48
-msgid "Next &rarr;"
-msgstr "Siguiente &rarr;"
-
-#: image.php:98 library/inc/content/content-pages.php:36
-#: post-formats/format-standard.php:25
-msgid "Pages:"
-msgstr "Páginas:"
-
-#: library/inc/content/content-posts.php:30
-#: post-formats/format-portfolio.php:28
-msgid "%s"
-msgstr "%s"
-
-#: library/inc/content/content-posts.php:102
-#: library/inc/functions/post-meta.php:44
-#: library/inc/functions/post-meta.php:50
-msgid "View all posts in %s"
-msgstr "Ver todas las entradas de %s"
-
-#: library/inc/customizer/customize.php:102
-#: library/inc/customizer/customize.php:133
-#: library/inc/metaboxes/custom-meta.php:90
-#: library/inc/metaboxes/custom-meta.php:123
-#: library/inc/metaboxes/custom-meta.php:179
-msgid "Select"
-msgstr "Elegir"
-
-#: library/inc/customizer/customize.php:182
-msgid "Site Title"
-msgstr "Título del sitio"
-
-#: library/inc/customizer/customize.php:194
-msgid "Tagline"
-msgstr "Descripción corta"
-
-#: library/inc/customizer/customize.php:206
-#, fuzzy
-msgid "Show Title & Tagline"
-msgstr "Muestra el título del lugar y su lema"
-
-#: library/inc/customizer/customize.php:218
-#, fuzzy
-msgid "Site Logo"
-msgstr "Logotipo del lugar"
-
-#: library/inc/customizer/customize.php:230
-msgid "Favicon"
-msgstr "Favicono"
-
-#: library/inc/customizer/customize.php:243
-msgid "Footer Site Info"
-msgstr "Información del sitio en el pie de página"
-
-#: library/inc/customizer/customize.php:256
-msgid "Navigation"
-msgstr "Navegación"
-
-#: library/inc/customizer/customize.php:271
-#, fuzzy
-msgid "Top Bar Title"
-msgstr "Muestra el título arriba de todo"
-
-#: library/inc/customizer/customize.php:284
-#, fuzzy
-msgid "Top Bar Title Link"
-msgstr "Título del enlace arriba de todo"
-
-#: library/inc/customizer/customize.php:298
-msgid "Fixed Top Bar"
-msgstr "Fijado en la barra superior"
-
-#: library/inc/customizer/customize.php:312
-msgid "Contain Top Bar Width"
-msgstr "Contener la anchura de la barra superior"
-
-#: library/inc/customizer/customize.php:327
-msgid "Side Menu Type"
-msgstr "Tipo de menú lateral"
-
-#: library/inc/customizer/customize.php:331
-msgid "Accordion"
-msgstr "Acordión"
-
-#: library/inc/customizer/customize.php:332
-#, fuzzy
-msgid "Side Nav"
-msgstr "Menú lateral"
-
-#: library/inc/customizer/customize.php:346
-msgid "Off Canvas Main Menu"
-msgstr "Contraer menú principal"
-
-#: library/inc/customizer/customize.php:361
-msgid "One Column"
-msgstr "Una columna"
-
-#: library/inc/customizer/customize.php:362
-#, fuzzy
-msgid "Two Columns, Left"
-msgstr "Barra izquierda con subpàgines"
-
-#: library/inc/customizer/customize.php:363
-#, fuzzy
-msgid "Two Columns, Right"
-msgstr "Barra derecha con subpàgines"
-
-#: library/inc/customizer/customize.php:364
-msgid "Three Columns, Left"
-msgstr "Tres columnas, izquierda"
-
-#: library/inc/customizer/customize.php:365
-msgid "Three Columns, Right"
-msgstr "Tres columnas, derecha"
-
-#: library/inc/customizer/customize.php:366
-msgid "Three Columns, Center"
-msgstr "Tres columnas, centro"
-
-#: library/inc/customizer/customize.php:369
-msgid "Posts & Pages"
-msgstr "Artículos y páginas"
-
-#: library/inc/customizer/customize.php:379
-msgid "Default Layout"
-msgstr "Diseño por defecto"
-
-#: library/inc/customizer/customize.php:393
-msgid "Page Link Type"
-msgstr "Tipo de enlace de página"
-
-#: library/inc/customizer/customize.php:397
-msgid "Numbered"
-msgstr "Numerado"
-
-#: library/inc/customizer/customize.php:398
-#, fuzzy
-msgid "Prev / Next"
-msgstr "Anterior / posterior"
-
-#: library/inc/customizer/customize.php:404
-msgid "Read More"
-msgstr "Leer más"
-
-#: library/inc/customizer/customize.php:410
-#, fuzzy
-msgid "Read More Text"
-msgstr "Lee más"
-
-#: library/inc/customizer/customize.php:423
-#: library/inc/customizer/customize.php:644
-#: library/inc/customizer/customize.php:724
-#, fuzzy
-msgid "Show Post Meta"
-msgstr "Muestra las opciones del artículo"
-
-#: library/inc/customizer/customize.php:435
-#: library/inc/customizer/customize.php:631
-#: library/inc/customizer/customize.php:737
-#, fuzzy
-msgid "Show Comment Link"
-msgstr "Muestra el enlace de los comentarios"
-
-#: library/inc/customizer/customize.php:448
-#, fuzzy
-msgid "Show Tumblog Icons"
-msgstr "Muestra los iconos de la cabecera"
-
-#: library/inc/customizer/customize.php:461
-#, fuzzy
-msgid "Show Breadcrumbs"
-msgstr "Muestra la guía de navegación"
-
-#: library/inc/customizer/customize.php:469
-msgid "Login"
-msgstr "Inicio de sesión"
-
-#: library/inc/customizer/customize.php:481
-msgid "Login Logo"
-msgstr "Logotipo de inicio de sesión"
-
-#: library/inc/customizer/customize.php:493
-msgid "Logo Link URL"
-msgstr "URL de enlace del logotipo"
-
-#: library/inc/customizer/customize.php:505
-msgid "Logo Title Attribute"
-msgstr "Atributo del título del logotipo"
-
-#: library/inc/customizer/customize.php:520
-msgid "Front Page"
-msgstr "Página de inicio"
-
-#: library/inc/customizer/customize.php:532
-msgid "Post Category"
-msgstr "Categoría del artículo"
-
-#: library/inc/customizer/customize.php:546
-msgid "Exclude From Blog"
-msgstr "Excluir del blog"
-
-#: library/inc/customizer/customize.php:559
-#: library/inc/customizer/customize.php:679
-#, fuzzy
-msgid "Slider Category"
-msgstr "Categoría deslizante"
-
-#: library/inc/customizer/customize.php:573
-#: library/inc/customizer/customize.php:693
-#: library/inc/customizer/customize.php:807
-msgid "Post Columns"
-msgstr "Columnas del artículo"
+#: comments.php:69 comments.php:71
+msgid "( required )"
+msgstr "(obligatorio)"
 
 #: library/inc/customizer/customize.php:577
 #: library/inc/customizer/customize.php:697
 #: library/inc/customizer/customize.php:811
 msgid "1 Column"
 msgstr "1 columna"
+
+#: comments.php:32
+msgid "1 Comment"
+msgstr "1 comentario"
 
 #: library/inc/customizer/customize.php:578
 #: library/inc/customizer/customize.php:698
@@ -710,363 +84,61 @@ msgstr "3 columnas"
 msgid "4 Columns"
 msgstr "4 columnas"
 
-#: library/inc/customizer/customize.php:592
-#: library/inc/customizer/customize.php:711
-#: library/inc/customizer/customize.php:826
-msgid "Number of Posts"
-msgstr "Número de entradas"
-
-#: library/inc/customizer/customize.php:605
-#, fuzzy
-msgid "Show Post Titles"
-msgstr "Muestra los títulos de los artículos"
-
-#: library/inc/customizer/customize.php:618
-msgid "Link Post Titles"
-msgstr "Enlaza los títulos de los artículos"
-
-#: library/inc/customizer/customize.php:657
-#, fuzzy
-msgid "Show Page Links"
-msgstr "Muestra el enlace de la página"
-
-#. Template Name of the plugin/theme
-#: library/inc/customizer/customize.php:667
-msgid "News Page"
-msgstr "Página de noticias"
-
-#. Template Name of the plugin/theme
-#: library/inc/customizer/customize.php:747
-msgid "Contact Page"
-msgstr "Página de contacto"
-
-#: library/inc/customizer/customize.php:759
-msgid "Email Address"
-msgstr "Dirección de correo electrónico"
-
-#: library/inc/customizer/customize.php:766 page-templates/contact.php:14
-msgid " - Contact Form Message"
-msgstr "Formulario de contacto"
-
-#: library/inc/customizer/customize.php:772
-msgid "Email Subject"
-msgstr "Asunto del correo:"
-
-#: library/inc/customizer/customize.php:779 page-templates/contact.php:15
-msgid "Thank you! Your email was sent successfully."
-msgstr "El correo se ha enviado correctamente."
-
-#: library/inc/customizer/customize.php:785
-#, fuzzy
-msgid "Send Successful Message"
-msgstr "Envía el mensaje"
-
-#: library/inc/customizer/customize.php:795
-msgid "Portfolio Page"
-msgstr "Portafolio"
-
-#: library/inc/customizer/customize.php:839
-msgid "Filter Type"
-msgstr "Filtrar por tipo"
-
-#: library/inc/customizer/customize.php:843
-msgid "jQuery Filtering"
-msgstr "Filtro de jQuery"
-
-#: library/inc/customizer/customize.php:844
-msgid "Category Pages"
-msgstr "Todas las páginas de categorías"
-
-#: library/inc/customizer/customize.php:856
-#, fuzzy
-msgid "Show Titles"
-msgstr "Muestra los títulos"
-
-#: library/inc/customizer/customize.php:869
-msgid "Link Titles"
-msgstr "Enlaza los títulos"
-
-#: library/inc/customizer/customize.php:882
-#, fuzzy
-msgid "Show Meta"
-msgstr "Mosta las opciones"
-
-#: library/inc/extensions/comments.php:23
-msgid "Pingback:"
-msgstr "Pingback: "
-
-#: library/inc/extensions/comments.php:38
-msgid "Post author"
-msgstr "Autor"
-
-#. translators: 1: date, 2: time
-#: library/inc/extensions/comments.php:44
-msgid "%1$s at %2$s"
-msgstr "%1$s a las %2$s"
-
-#: library/inc/extensions/comments.php:50
-msgid "Your comment is awaiting moderation."
-msgstr "Tu comentario está pendiente de moderación."
-
-#: library/inc/extensions/comments.php:58
-msgid "Reply"
-msgstr "Responder"
-
-#: library/inc/extensions/menus.php:31
-#, fuzzy
-msgid "Top Bar Left"
-msgstr "Arriba a la izquierda"
-
-#: library/inc/extensions/menus.php:35
-#, fuzzy
-msgid "Top Bar Right"
-msgstr "A dat a la derecha"
-
-#: library/inc/extensions/menus.php:39
-msgid "Main Menu"
-msgstr "Menú principal"
-
-#: library/inc/extensions/menus.php:43
-msgid "Footer Links"
-msgstr "Enlaces de pie de página"
-
-#: library/inc/extensions/menus.php:160
-msgid "&larr; Home"
-msgstr "&larr; Inicio"
-
-#: library/inc/extensions/sidebars.php:24
-msgid "Primary Sidebar"
-msgstr "Barra lateral principal"
-
-#: library/inc/extensions/sidebars.php:37
-msgid "Secondary Sidebar"
-msgstr "Barra derecha"
-
-#: library/inc/extensions/sidebars.php:50
-msgid "Front Page Primary"
-msgstr "Portada (Barra izquierda)"
-
-#: library/inc/extensions/sidebars.php:63
-msgid "Front Page Secondary"
-msgstr "Portada (Barra derecha)"
-
-#: library/inc/extensions/sidebars.php:79
-msgid "Peu"
-msgstr "Pie"
-
-#: library/inc/extensions/sidebars.php:108
-msgid "Invalid sidebar ID"
-msgstr "ID de la barra lateral no válido"
-
-#: library/inc/functions/breadcrumbs.php:173
-msgid "Home"
-msgstr "Inicio"
-
-#: library/inc/functions/breadcrumbs.php:174
-#, fuzzy
-msgid "Search results for &quot;%1$s&quot;"
-msgstr "Resultados de la busca de &quot;%1$s&quot;"
-
 #: library/inc/functions/breadcrumbs.php:175
 msgid "404 Not Found"
 msgstr "No se encontró"
 
-#: library/inc/functions/breadcrumbs.php:176
-msgid "Page %d"
-msgstr "Página%d"
-
-#: library/inc/functions/breadcrumbs.php:177
-msgid "Archives"
-msgstr "Archivo"
-
-#: library/inc/functions/breadcrumbs.php:178
-msgid "g:i a"
-msgstr "g:i a"
-
-#: library/inc/functions/breadcrumbs.php:179
-msgid "Minute %d"
-msgstr "Minuto %d"
-
-#: library/inc/functions/breadcrumbs.php:180
-msgid "g a"
-msgstr "G:i:s"
-
-#: library/inc/functions/breadcrumbs.php:181
-msgid "d"
-msgstr "d"
-
-#: library/inc/functions/breadcrumbs.php:182
-#, fuzzy
-msgid "Week %d"
-msgstr "Semana %"
-
-#: library/inc/functions/breadcrumbs.php:183
-msgid "F"
-msgstr "V"
-
-#: library/inc/functions/breadcrumbs.php:184
-#: library/inc/functions/breadcrumbs.php:1050
-msgid "Y"
-msgstr "Y"
-
-#: library/inc/functions/breadcrumbs.php:1054
-msgid "F Y"
-msgstr "F Y"
-
-#: library/inc/functions/breadcrumbs.php:1058
-msgid "F j, Y"
-msgstr "j F, Y"
-
-#: library/inc/functions/breadcrumbs.php:1177
-msgid "Split"
-msgstr "Dividir"
-
-#: library/inc/functions/breadcrumbs.php:1181
-msgid "Merge"
-msgstr "Fusionar"
-
-#: library/inc/functions/helpers.php:291
-msgid "Page %s"
-msgstr "Página %s"
-
-#: library/inc/functions/page-links.php:42
-msgid "Older posts"
-msgstr "Entradas más antiguas"
-
-#: library/inc/functions/page-links.php:45
-msgid "Newer posts"
-msgstr "Entradas más recientes"
-
-#: library/inc/functions/page-links.php:72
-msgid "&laquo; Previous"
-msgstr "&laquo; Anterior"
-
-#: library/inc/functions/page-links.php:73
-msgid "Next &raquo;"
-msgstr "Siguiente &raquo;"
-
-#: library/inc/functions/page-links.php:121
-msgid "&hellip;"
-msgstr "&hellip;"
-
-#: library/inc/functions/post-meta.php:68
-msgid "View all posts from %s %s"
-msgstr "Ver todas las entradas de %s %s"
-
-#: library/inc/functions/post-meta.php:75
-msgid "View all posts by %s"
-msgstr "Ver todas las entradas de %s"
-
-#: library/inc/functions/post-meta.php:84
-msgid "by"
-msgstr "por"
-
-#: library/inc/functions/post-meta.php:85
-msgid "in"
-msgstr "en"
-
-#: library/inc/functions/post-meta.php:86
-msgid "Tags:"
-msgstr "Etiquetas:"
-
-#: library/inc/functions/post-meta.php:89
-msgid "Posted: "
-msgstr "Publicado:"
-
-#: library/inc/functions/taxonomy-subnav.php:18
-msgid "All"
-msgstr "Todo"
-
-#: library/inc/functions/taxonomy-subnav.php:30
-msgid "Categories: "
-msgstr "Categorías:"
-
-#: library/inc/functions/top-bar.php:81 library/inc/functions/top-bar.php:84
-#: searchform.php:15 searchform.php:18
-msgid "Search"
-msgstr "Búsqueda"
-
-#: library/inc/metaboxes/custom-meta.php:128
-#: library/inc/metaboxes/custom-meta.php:196
-msgid "Manage "
-msgstr "Administrar"
-
-#: library/inc/metaboxes/custom-meta.php:169
-msgid "Available "
-msgstr "Disponible"
-
-#: library/inc/metaboxes/custom-meta.php:231
-msgid "Choose File"
-msgstr "Selecciona archivo"
-
-#: library/inc/metaboxes/custom-meta.php:232
-#, fuzzy
-msgid "Remove File"
-msgstr "Suprime el archivo"
-
-#: library/inc/metaboxes/custom-meta.php:241
-#: library/inc/metaboxes/custom-meta.php:271
-msgid "Fields"
-msgstr "Campos"
-
-#: library/inc/metaboxes/meta-fields.php:21
-msgid "Sense barres laterals"
-msgstr "Sin barras laterales"
-
-#: library/inc/metaboxes/meta-fields.php:23
-msgid "Barra esquerra (Ginys)"
-msgstr "Barra izquierda (Widgets)"
-
-#: library/inc/metaboxes/meta-fields.php:170
-msgid "URL"
-msgstr "URL"
+#: image.php:32
+msgid ""
+"<span class=\"meta-prep meta-prep-entry-date\">Published </span> <span class="
+"\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\" pubdate>%2$s</"
+"time></span> at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s "
+"&times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery"
+"\">%8$s</a>."
+msgstr ""
+"<span class=\"meta-prep meta-prep-entry-date\">Publicado </span> <span class="
+"\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\" pubdate>%2$s</"
+"time></span> a las <a href=\"%3$s\" title=\"Enlace a la imagen completa\">"
+"%4$s &times; %5$s</a> en <a href=\"%6$s\" title=\"Volver a %7$s\" rel="
+"\"gallery\">%8$s</a>."
 
 #: library/inc/metaboxes/meta-fields.php:171
 msgid "A URL for the slide title to direct to (ex. http://awtheme.com)"
 msgstr ""
-"Un URL para el título de la diapositiva a la que se dirige (ej. "
-"Http://awtheme.com)"
+"Un URL para el título de la diapositiva a la que se dirige (ej. Http://"
+"awtheme.com)"
 
-#: library/inc/metaboxes/meta-fields.php:181
-msgid "Només aplica si la Plantilla és del tipus \"Plantilla predeterminada\""
-msgstr "Sólo aplica si la Plantilla es del tipo \"Plantilla predeterminada\""
+#: library/inc/customizer/customize.php:331
+msgid "Accordion"
+msgstr "Acordión"
 
-#: library/inc/metaboxes/meta-fields.php:204
-msgid "Slide Link"
-msgstr "Enlace de la diapositiva"
+#: custom-tac/welcome-panel.php:26
+msgid "Actions"
+msgstr "Acciones"
 
-#: library/inc/metaboxes/meta-fields.php:208
-msgid "Esquema"
-msgstr "Esquema"
+#: custom-tac/welcome-panel.php:35
+msgid "Add a blog post"
+msgstr "Añade una entrada"
 
-#: library/inc/widgets/recent-posts.php:11
-msgid "The most recent posts on your site"
-msgstr "Las entradas más recientes de tu sitio."
+#: custom-tac/welcome-panel.php:34
+msgid "Add additional pages"
+msgstr "Añade páginas adicionales"
 
-#: library/inc/widgets/recent-posts.php:12
-#: library/inc/widgets/recent-posts.php:37
-msgid "Recent Posts"
-msgstr "Entradas recientes"
+#: custom-tac/welcome-panel.php:38
+msgid "Add an About page"
+msgstr "Añade una página Sobre mí"
 
-#: library/inc/widgets/recent-posts.php:86
-msgid "Title:"
-msgstr "Título:"
+#. Author of the theme
+msgid "Albert Bachiller"
+msgstr "Albert Bachiller"
 
-#: library/inc/widgets/recent-posts.php:89
-msgid "Number of posts to show:"
-msgstr "Número de entradas a mostrar:"
+#: custom-tac/metabox-post-parametres.php:58
+msgid "Alert"
+msgstr "Alerta"
 
-#: library/inc/widgets/recent-posts.php:93
-msgid "Exclude Category(s):"
-msgstr "Excluir la categoría/as:"
-
-#: library/inc/widgets/recent-posts.php:95
-msgid "Category IDs, separated by commas."
-msgstr "Identificadores de las categorías, separados por comas."
-
-#: post-formats/format-none.php:13
-msgid "Nothing Found"
-msgstr "No se ha encontrado nada"
+#: library/inc/functions/taxonomy-subnav.php:18
+msgid "All"
+msgstr "Todo"
 
 #: post-formats/format-none.php:17
 msgid ""
@@ -1076,42 +148,800 @@ msgstr ""
 "Disculpas, pero no se han encontrado resultados. Quizás pueda buscar una "
 "entrada relacionada."
 
-#: searchform.php:13
-msgid "Search for:"
-msgstr "Buscar por:"
+#: library/inc/functions/breadcrumbs.php:177
+msgid "Archives"
+msgstr "Archivo"
+
+#: library/inc/metaboxes/custom-meta.php:169
+msgid "Available "
+msgstr "Disponible"
+
+#: library/inc/metaboxes/meta-fields.php:23
+msgid "Barra esquerra (Ginys)"
+msgstr "Barra izquierda (Widgets)"
+
+#. Template Name of the theme
+msgid "Barra esquerra (Subpàgines)"
+msgstr "Barra izquierda (Subpáginas)"
+
+#: custom-tac/welcome-panel.php:47
+msgid "Bookings"
+msgstr "Sistema de reservas"
+
+#: custom-tac/welcome-panel.php:48
+msgid "BuddyPress"
+msgstr "Buddypress"
+
+#: functions.php:157
+msgid "Categories (Barra esquerra)"
+msgstr "Categorías (Barra izquierda)"
+
+#: library/inc/functions/taxonomy-subnav.php:30
+msgid "Categories: "
+msgstr "Categorías:"
+
+#: library/inc/widgets/recent-posts.php:95
+msgid "Category IDs, separated by commas."
+msgstr "Identificadores de las categorías, separados por comas."
+
+#: library/inc/customizer/customize.php:844
+msgid "Category Pages"
+msgstr "Todas las páginas de categorías"
 
 #: taxonomy-portfolio-category.php:24
 msgid "Category: %s"
 msgstr "Categoría: %s"
 
+#: library/inc/metaboxes/custom-meta.php:231
+msgid "Choose File"
+msgstr "Selecciona archivo"
+
+#: functions.php:255
+msgid "Components"
+msgstr "Componentes"
+
+#: functions.php:260 functions.php:339
+msgid "Configuració"
+msgstr "Configuración"
+
+#. Template Name of the theme
+#: library/inc/customizer/customize.php:747
+msgid "Contact Page"
+msgstr "Página de contacto"
+
+#: library/inc/customizer/customize.php:312
+msgid "Contain Top Bar Width"
+msgstr "Contener la anchura de la barra superior"
+
+#: custom-tac/capcalera/icones-capcalera-settings.php:61
+msgid "Copia el nom de la icona i enganxa'l a la posició desitjada."
+msgstr "Copia el nombre del icono y pégalo en la posición deseada."
+
+#: custom-tac/welcome-panel.php:28
+msgid "Customize"
+msgstr "Personalizar"
+
+#: archive-portfolio.php:26
+msgid "Daily Archives: %s"
+msgstr "Archivo por días: %s"
+
+#: library/inc/customizer/customize.php:379
+msgid "Default Layout"
+msgstr "Diseño por defecto"
+
+#: custom-tac/welcome-panel.php:53
+msgid "Do you need help?"
+msgstr "¿Necesita ayuda?"
+
+#: custom-tac/metabox-post-parametres.php:56
+msgid "Document"
+msgstr "Documento"
+
+#: library/inc/extensions/comments.php:23
+#: library/inc/extensions/comments.php:55
+#: library/inc/content/content-pages.php:48 image.php:43
+msgid "Edit"
+msgstr "Editar"
+
+#: custom-tac/welcome-panel.php:30 custom-tac/welcome-panel.php:33
+msgid "Edit Home Page"
+msgstr "Editar la página principal"
+
+#: custom-tac/capcalera/icones-capcalera-settings.php:116
+#: custom-tac/capcalera/icones-capcalera-settings.php:190
+msgid "Element 1:"
+msgstr "Elemento 1:"
+
+#: custom-tac/capcalera/icones-capcalera-settings.php:149
+#: custom-tac/capcalera/icones-capcalera-settings.php:223
+msgid "Element 2:"
+msgstr "Elemento 2:"
+
+#: comments.php:71
+msgid "Email "
+msgstr "Correo electrónico"
+
+#: library/inc/customizer/customize.php:759
+msgid "Email Address"
+msgstr "Dirección de correo electrónico"
+
+#: library/inc/customizer/customize.php:772
+msgid "Email Subject"
+msgstr "Asunto del correo:"
+
+#: custom-tac/capcalera/icones-capcalera-settings.php:132
+#: custom-tac/capcalera/icones-capcalera-settings.php:165
+#: custom-tac/capcalera/icones-capcalera-settings.php:206
+#: custom-tac/capcalera/icones-capcalera-settings.php:239
+msgid "Enllaç:"
+msgstr "Enlace:"
+
+#: library/inc/metaboxes/meta-fields.php:208
+msgid "Esquema"
+msgstr "Esquema"
+
+#: library/inc/widgets/recent-posts.php:93
+msgid "Exclude Category(s):"
+msgstr "Excluir la categoría/as:"
+
+#: library/inc/customizer/customize.php:546
+msgid "Exclude From Blog"
+msgstr "Excluir del blog"
+
+#: library/inc/functions/breadcrumbs.php:183
+msgid "F"
+msgstr "V"
+
+#: archive-portfolio.php:28
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+#: custom-tac/welcome-panel.php:55
+msgid "FAQ"
+msgstr "FAQ"
+
+#: library/inc/customizer/customize.php:230
+msgid "Favicon"
+msgstr "Favicono"
+
+#: library/inc/metaboxes/custom-meta.php:241
+#: library/inc/metaboxes/custom-meta.php:271
+msgid "Fields"
+msgstr "Campos"
+
+#: library/inc/customizer/customize.php:839
+msgid "Filter Type"
+msgstr "Filtrar por tipo"
+
+#: library/inc/customizer/customize.php:298
+msgid "Fixed Top Bar"
+msgstr "Fijado en la barra superior"
+
+#: library/inc/extensions/menus.php:43
+msgid "Footer Links"
+msgstr "Enlaces de pie de página"
+
+#: library/inc/customizer/customize.php:243
+msgid "Footer Site Info"
+msgstr "Información del sitio en el pie de página"
+
+#: library/inc/customizer/customize.php:520
+msgid "Front Page"
+msgstr "Página de inicio"
+
+#: library/inc/extensions/sidebars.php:50
+msgid "Front Page Primary"
+msgstr "Portada (Barra izquierda)"
+
+#: library/inc/extensions/sidebars.php:63
+msgid "Front Page Secondary"
+msgstr "Portada (Barra derecha)"
+
+#: library/inc/customizer/customize.php:171
+#: custom-tac/capcalera/icones-capcalera-settings.php:255
+msgid "General"
+msgstr "Generales"
+
+#: custom-tac/welcome-panel.php:31
+msgid "Header icons"
+msgstr "Iconos de la cabecera"
+
+#: custom-tac/metabox-post-parametres.php:44
+msgid "Hide metadata"
+msgstr "Ocultar los metadatos"
+
+#: custom-tac/metabox-post-parametres.php:43
+msgid "Hide title"
+msgstr "Esconder el título"
+
+#: library/inc/functions/breadcrumbs.php:173
+msgid "Home"
+msgstr "Inicio"
+
+#: custom-tac/metabox-post-parametres.php:50
+msgid "Icon"
+msgstr "Icono"
+
+#: custom-tac/capcalera/icones-capcalera-settings.php:124
+#: custom-tac/capcalera/icones-capcalera-settings.php:157
+#: custom-tac/capcalera/icones-capcalera-settings.php:198
+#: custom-tac/capcalera/icones-capcalera-settings.php:231
+msgid "Icona:"
+msgstr "Icono:"
+
+#: custom-tac/capcalera/icones-capcalera-settings.php:108
+msgid "Icones a la fila 1"
+msgstr "Iconos en la fila 1"
+
+#: custom-tac/capcalera/icones-capcalera-settings.php:182
+msgid "Icones a la fila 2"
+msgstr "Iconos en la fila 2"
+
+#: custom-tac/capcalera/icones-capcalera-settings.php:29
+#: custom-tac/capcalera/icones-capcalera-settings.php:47
+msgid "Icones de capçalera"
+msgstr "Iconos de cabecera"
+
+#: custom-tac/capcalera/icones-capcalera-settings.php:60
+msgid "Icones disponibles"
+msgstr "Iconos disponibles"
+
+#: library/inc/extensions/sidebars.php:108
+msgid "Invalid sidebar ID"
+msgstr "ID de la barra lateral no válido"
+
+#: 404.php:29
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching will help."
+msgstr ""
+"No se encontró el contenido que buscaba. Puede intentar haciendo una "
+"búsqueda."
+
+#: library/inc/customizer/customize.php:618
+msgid "Link Post Titles"
+msgstr "Enlaza los títulos de los artículos"
+
+#: library/inc/customizer/customize.php:869
+msgid "Link Titles"
+msgstr "Enlaza los títulos"
+
+#: library/inc/customizer/customize.php:469
+msgid "Login"
+msgstr "Inicio de sesión"
+
+#: library/inc/customizer/customize.php:481
+msgid "Login Logo"
+msgstr "Logotipo de inicio de sesión"
+
+#: library/inc/customizer/customize.php:493
+msgid "Logo Link URL"
+msgstr "URL de enlace del logotipo"
+
+#: library/inc/customizer/customize.php:505
+msgid "Logo Title Attribute"
+msgstr "Atributo del título del logotipo"
+
+#: library/inc/extensions/menus.php:39
+msgid "Main Menu"
+msgstr "Menú principal"
+
+#: library/inc/metaboxes/custom-meta.php:128
+#: library/inc/metaboxes/custom-meta.php:196
+msgid "Manage "
+msgstr "Administrar"
+
+#: custom-tac/welcome-panel.php:46
+msgid "Manage <a href=\"%1$s\">widgets</a> or <a href=\"%2$s\">menus</a>"
+msgstr "Gestiona <a href=\"%1$s\">widgets</a> o <a href=\"%2$s\">menús</a>"
+
+#: library/inc/functions/breadcrumbs.php:179
+msgid "Minute %d"
+msgstr "Minuto %d"
+
+#: archive-portfolio.php:28
+msgid "Monthly Archives: %s"
+msgstr "Archivo por meses: %s"
+
+#: custom-tac/welcome-panel.php:44
+msgid "More Actions"
+msgstr "Más acciones"
+
+#: custom-tac/capcalera/icones-capcalera-settings.php:263
+msgid "Mostra text sota la icona:"
+msgstr "Ver texto bajo el icono:"
+
+#: custom-tac/metabox-post-parametres.php:57
+msgid "Music"
+msgstr "Música"
+
+#: comments.php:32
+msgid "NO Comments"
+msgstr "Sin comentarios"
+
+#. Theme Name of the theme
+msgid "NODES GENERAL"
+msgstr "NODES GENERAL"
+
+#: comments.php:69
+msgid "Name "
+msgstr "Nombre"
+
+#: library/inc/customizer/customize.php:256
+msgid "Navigation"
+msgstr "Navegación"
+
+#: comments.php:44
+msgid "Newer Comments &rarr;"
+msgstr "Comentarios más recientes &rarr;"
+
+#: library/inc/functions/page-links.php:45
+msgid "Newer posts"
+msgstr "Entradas más recientes"
+
+#. Template Name of the theme
+#: library/inc/customizer/customize.php:667
+msgid "News Page"
+msgstr "Página de noticias"
+
+#: library/inc/functions/page-links.php:73
+msgid "Next &raquo;"
+msgstr "Siguiente &raquo;"
+
+#: image.php:48
+msgid "Next &rarr;"
+msgstr "Siguiente &rarr;"
+
+#: library/inc/metaboxes/meta-fields.php:181
+msgid "Només aplica si la Plantilla és del tipus \"Plantilla predeterminada\""
+msgstr "Sólo aplica si la Plantilla es del tipo \"Plantilla predeterminada\""
+
+#: post-formats/format-none.php:13
+msgid "Nothing Found"
+msgstr "No se ha encontrado nada"
+
+#: library/inc/customizer/customize.php:592
+#: library/inc/customizer/customize.php:711
+#: library/inc/customizer/customize.php:826
+msgid "Number of Posts"
+msgstr "Número de entradas"
+
+#: library/inc/widgets/recent-posts.php:89
+msgid "Number of posts to show:"
+msgstr "Número de entradas a mostrar:"
+
+#: library/inc/customizer/customize.php:397
+msgid "Numbered"
+msgstr "Numerado"
+
+#: library/inc/customizer/customize.php:346
+msgid "Off Canvas Main Menu"
+msgstr "Contraer menú principal"
+
+#: library/inc/functions/page-links.php:42
+msgid "Older posts"
+msgstr "Entradas más antiguas"
+
+#: library/inc/customizer/customize.php:361
+msgid "One Column"
+msgstr "Una columna"
+
+#: library/inc/functions/breadcrumbs.php:176
+msgid "Page %d"
+msgstr "Página%d"
+
+#: library/inc/functions/helpers.php:291
+msgid "Page %s"
+msgstr "Página %s"
+
+#: library/inc/customizer/customize.php:393
+msgid "Page Link Type"
+msgstr "Tipo de enlace de página"
+
+#: post-formats/format-standard.php:25 library/inc/content/content-pages.php:36
+#: image.php:98
+msgid "Pages:"
+msgstr "Páginas:"
+
+#: custom-tac/metabox-post-parametres.php:15
+msgid "Parameters"
+msgstr "Parámetros"
+
+#: library/inc/extensions/sidebars.php:79
+msgid "Peu"
+msgstr "Pie"
+
+#: custom-tac/metabox-post-parametres.php:54
+msgid "Photo/Slideshow"
+msgstr "Foto/Carrusel"
+
+#: library/inc/extensions/comments.php:23
+msgid "Pingback:"
+msgstr "Pingback: "
+
+#: custom-tac/metabox-post-parametres.php:55
+msgid "Podcast"
+msgstr "Podcast"
+
+#. Template Name of the theme
+msgid "Portada"
+msgstr "Portada"
+
+#. Template Name of the theme
+msgid "Portfolio"
+msgstr "Portafolio"
+
+#: library/inc/customizer/customize.php:795
+msgid "Portfolio Page"
+msgstr "Portafolio"
+
+#: library/inc/customizer/customize.php:532
+msgid "Post Category"
+msgstr "Categoría del artículo"
+
+#: library/inc/customizer/customize.php:573
+#: library/inc/customizer/customize.php:693
+#: library/inc/customizer/customize.php:807
+msgid "Post Columns"
+msgstr "Columnas del artículo"
+
+#: library/inc/extensions/comments.php:38
+msgid "Post author"
+msgstr "Autor"
+
+#: library/inc/functions/post-meta.php:89
+msgid "Posted: "
+msgstr "Publicado:"
+
+#: library/inc/customizer/customize.php:369
+msgid "Posts & Pages"
+msgstr "Artículos y páginas"
+
+#: library/inc/customizer/customize.php:398
+#, fuzzy
+msgid "Prev / Next"
+msgstr "Anterior"
+
+#: library/inc/extensions/sidebars.php:24
+msgid "Primary Sidebar"
+msgstr "Barra lateral principal"
+
+#: custom-tac/welcome-panel.php:22
+msgid "Project for the new website from Departament d'Ensenyament"
+msgstr "Proyecto para el nuevo sitio web del Departamento de Educación."
+
+#: library/inc/customizer/customize.php:404
+msgid "Read More"
+msgstr "Leer más"
+
+#: library/inc/customizer/customize.php:410
+#, fuzzy
+msgid "Read More Text"
+msgstr "Leer más"
+
+#: library/inc/widgets/recent-posts.php:12
+#: library/inc/widgets/recent-posts.php:37
+msgid "Recent Posts"
+msgstr "Entradas recientes"
+
+#: library/inc/metaboxes/custom-meta.php:232
+#, fuzzy
+msgid "Remove File"
+msgstr "Quitar"
+
+#: library/inc/extensions/comments.php:58
+msgid "Reply"
+msgstr "Responder"
+
+#: searchform.php:15 searchform.php:18 library/inc/functions/top-bar.php:81
+#: library/inc/functions/top-bar.php:84
+msgid "Search"
+msgstr "Búsqueda"
+
+#: searchform.php:13
+msgid "Search for:"
+msgstr "Buscar por:"
+
+#: library/inc/functions/breadcrumbs.php:174
+#, fuzzy
+msgid "Search results for &quot;%1$s&quot;"
+msgstr "Resultados de la búsqueda %1$s %2$s"
+
+#: library/inc/extensions/sidebars.php:37
+msgid "Secondary Sidebar"
+msgstr "Barra derecha"
+
+#: library/inc/customizer/customize.php:102
+#: library/inc/customizer/customize.php:133
+#: library/inc/metaboxes/custom-meta.php:90
+#: library/inc/metaboxes/custom-meta.php:123
+#: library/inc/metaboxes/custom-meta.php:179
+msgid "Select"
+msgstr "Elegir"
+
+#: library/inc/customizer/customize.php:785
+#, fuzzy
+msgid "Send Successful Message"
+msgstr "Enviar mensaje"
+
+#: library/inc/metaboxes/meta-fields.php:21
+msgid "Sense barres laterals"
+msgstr "Sin barras laterales"
+
+#: library/inc/customizer/customize.php:461
+#, fuzzy
+msgid "Show Breadcrumbs"
+msgstr "¿Mostrar?"
+
+#: library/inc/customizer/customize.php:435
+#: library/inc/customizer/customize.php:631
+#: library/inc/customizer/customize.php:737
+#, fuzzy
+msgid "Show Comment Link"
+msgstr "Mostrar enlace Descargar"
+
+#: library/inc/customizer/customize.php:882
+#, fuzzy
+msgid "Show Meta"
+msgstr "Mostrar:"
+
+#: library/inc/customizer/customize.php:657
+#, fuzzy
+msgid "Show Page Links"
+msgstr "Mostrar enlaces de Editar"
+
+#: library/inc/customizer/customize.php:423
+#: library/inc/customizer/customize.php:644
+#: library/inc/customizer/customize.php:724
+#, fuzzy
+msgid "Show Post Meta"
+msgstr "Mostrar fecha de publicación:"
+
+#: library/inc/customizer/customize.php:605
+#, fuzzy
+msgid "Show Post Titles"
+msgstr "Enlaza los títulos de los artículos"
+
+#: library/inc/customizer/customize.php:206
+#, fuzzy
+msgid "Show Title & Tagline"
+msgstr "Muestra el título y descripción del sitio"
+
+#: library/inc/customizer/customize.php:856
+#, fuzzy
+msgid "Show Titles"
+msgstr "Cortar títulos de eventos"
+
+#: library/inc/customizer/customize.php:448
+#, fuzzy
+msgid "Show Tumblog Icons"
+msgstr "Mostrar iconos"
+
+#: library/inc/customizer/customize.php:327
+msgid "Side Menu Type"
+msgstr "Tipo de menú lateral"
+
+#: library/inc/customizer/customize.php:332
+#, fuzzy
+msgid "Side Nav"
+msgstr "Tipo de menú lateral"
+
+#: library/inc/customizer/customize.php:218
+#, fuzzy
+msgid "Site Logo"
+msgstr "Logo del grupo"
+
+#: library/inc/customizer/customize.php:182
+msgid "Site Title"
+msgstr "Título del sitio"
+
+#: library/inc/metaboxes/meta-fields.php:204
+msgid "Slide Link"
+msgstr "Enlace de la diapositiva"
+
+#: library/inc/customizer/customize.php:559
+#: library/inc/customizer/customize.php:679
+#, fuzzy
+msgid "Slider Category"
+msgstr "Carrusel"
+
+#: custom-tac/metabox-post-parametres.php:41
+#, fuzzy
+msgid "Summary image in original size"
+msgstr "Enlace a imagen original"
+
+#: custom-tac/welcome-panel.php:56
+msgid "Support"
+msgstr "Soporte"
+
 #: taxonomy-portfolio-tag.php:24
 msgid "Tag: %s"
 msgstr "Etiqueta: %s"
 
-#. Theme Name of the plugin/theme
-msgid "NODES GENERAL"
-msgstr "NODES GENERAL"
+#: library/inc/customizer/customize.php:194
+msgid "Tagline"
+msgstr "Descripción corta"
 
-#. Description of the plugin/theme
+#: library/inc/functions/post-meta.php:86
+msgid "Tags:"
+msgstr "Etiquetas:"
+
+#. Description of the theme
 msgid "Tema desenvolupat pel Departament d'Ensenyament de Catalunya"
 msgstr "Tema desarrollado por el Departamento de Educación de Cataluña"
 
-#. Author of the plugin/theme
-msgid "Albert Bachiller"
-msgstr "Albert Bachiller"
+#: library/inc/customizer/customize.php:779 page-templates/contact.php:15
+msgid "Thank you! Your email was sent successfully."
+msgstr "El correo se ha enviado correctamente."
 
-#. Author URI of the plugin/theme
+#: library/inc/widgets/recent-posts.php:11
+msgid "The most recent posts on your site"
+msgstr "Las entradas más recientes de tu sitio."
+
+#: 404.php:25
+msgid "This is somewhat embarrassing, isn&rsquo;t it?"
+msgstr "Esto es algo embarazoso, ¿verdad?"
+
+#: comments.php:19
+msgid "This post is password protected. Enter the password to view comments."
+msgstr "Esta entrada está protegida. Para verla, escribe la contraseña."
+
+#: library/inc/customizer/customize.php:366
+msgid "Three Columns, Center"
+msgstr "Tres columnas, centro"
+
+#: library/inc/customizer/customize.php:364
+msgid "Three Columns, Left"
+msgstr "Tres columnas, izquierda"
+
+#: library/inc/customizer/customize.php:365
+msgid "Three Columns, Right"
+msgstr "Tres columnas, derecha"
+
+#: library/inc/widgets/recent-posts.php:86
+msgid "Title:"
+msgstr "Título:"
+
+#: library/inc/extensions/menus.php:31
+#, fuzzy
+msgid "Top Bar Left"
+msgstr "Contener la anchura de la barra superior"
+
+#: library/inc/extensions/menus.php:35
+#, fuzzy
+msgid "Top Bar Right"
+msgstr "Contener la anchura de la barra superior"
+
+#: library/inc/customizer/customize.php:271
+#, fuzzy
+msgid "Top Bar Title"
+msgstr "Fijado en la barra superior"
+
+#: library/inc/customizer/customize.php:284
+#, fuzzy
+msgid "Top Bar Title Link"
+msgstr "Contener la anchura de la barra superior"
+
+#: library/inc/customizer/customize.php:362
+#, fuzzy
+msgid "Two Columns, Left"
+msgstr "Dos columnas"
+
+#: library/inc/customizer/customize.php:363
+#, fuzzy
+msgid "Two Columns, Right"
+msgstr "Dos columnas"
+
+#: library/inc/metaboxes/meta-fields.php:170
+msgid "URL"
+msgstr "URL"
+
+#: comments.php:73
+msgid "URL "
+msgstr "URL "
+
+#: custom-tac/metabox-post-parametres.php:53
+msgid "Video"
+msgstr "Vídeo"
+
+#: library/inc/functions/post-meta.php:75
+msgid "View all posts by %s"
+msgstr "Ver todas las entradas de %s"
+
+#: library/inc/functions/post-meta.php:68
+msgid "View all posts from %s %s"
+msgstr "Ver todas las entradas de %s %s"
+
+#: library/inc/functions/post-meta.php:44
+#: library/inc/functions/post-meta.php:50
+msgid "View all posts in %s"
+msgstr "Ver todas las entradas de %s"
+
+#: custom-tac/metabox-post-parametres.php:42
+#, fuzzy
+msgid "View full content"
+msgstr "Ver reporte de estadísticas completo"
+
+#: comments.php:73
+msgid "Website "
+msgstr "Sitio web "
+
+#: library/inc/functions/breadcrumbs.php:182
+#, fuzzy
+msgid "Week %d"
+msgstr "Semana"
+
+#: custom-tac/welcome-panel.php:21
+msgid "Welcome to NODES"
+msgstr "Bienvenido a Nodes"
+
+#: custom-tac/welcome-panel.php:37
+msgid "Write your first blog post"
+msgstr "Escribe tu primera entrada en el blog"
+
+#: library/inc/functions/breadcrumbs.php:184
+msgid "Y"
+msgstr "Y"
+
+#: archive-portfolio.php:30
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: archive-portfolio.php:30
+msgid "Yearly Archives: %s"
+msgstr "Archivo por años: %s"
+
+#: comments.php:78
+msgid "You can use these tags"
+msgstr "Puedes usar estas etiquetas"
+
+#: comments.php:76
+msgid "Your Comment here..."
+msgstr "Vuestro comentario aquí..."
+
+#: comments.php:71
+#, fuzzy
+msgid "Your E-Mail*"
+msgstr "<strong>ERROR</strong>: Pon tu e-mail"
+
+#: comments.php:69
+#, fuzzy
+msgid "Your Name*"
+msgstr ""
+"Introduce tu nombre y correo electrónico y te enviaremos un código de cupón "
+"para un <strong>20% de descuento </strong> en todas las compras de "
+"complementos Pro."
+
+#: library/inc/extensions/comments.php:50
+msgid "Your comment is awaiting moderation."
+msgstr "Tu comentario está pendiente de moderación."
+
+#: library/inc/functions/post-meta.php:84
+msgid "by"
+msgstr "por"
+
+#: library/inc/functions/breadcrumbs.php:181
+msgid "d"
+msgstr "d"
+
+#: library/inc/functions/breadcrumbs.php:180
+msgid "g a"
+msgstr "G:i:s"
+
+#: library/inc/functions/breadcrumbs.php:178
+msgid "g:i a"
+msgstr "g:i a"
+
+#. Author URI of the theme
 msgid "http://jurjur.org"
 msgstr "http://jurjur.org"
 
-#. Template Name of the plugin/theme
-msgid "Portada"
-msgstr "Portada"
+#: library/inc/functions/post-meta.php:85
+msgid "in"
+msgstr "en"
 
-#. Template Name of the plugin/theme
-msgid "Portfolio"
-msgstr "Portafolio"
-
-#. Template Name of the plugin/theme
-msgid "Barra esquerra (Subpàgines)"
-msgstr "Barra izquierda (Subpáginas)"
+#: library/inc/customizer/customize.php:843
+msgid "jQuery Filtering"
+msgstr "Filtro de jQuery"

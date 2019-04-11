@@ -1,18 +1,41 @@
-# Copyright (C) 2019 SlideShare
-# This file is distributed under the same license as the SlideShare package.
+# Copyright (C) 2019 Team Yoast
+# This file is distributed under the same license as the SlideShare plugin.
 msgid ""
 msgstr ""
 "Project-Id-Version: SlideShare 1.9.2\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/slideshare\n"
-"POT-Creation-Date: 2019-04-05 07:48:22+00:00\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2019-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2019-04-11T16:48:51+02:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.1.0\n"
+"X-Domain: slideshare\n"
 
-#: slideshare.php:35 slideshare.php:64
+#. Plugin Name of the plugin
+msgid "SlideShare"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "http://yoast.com/wordpress/slideshare/"
+msgstr ""
+
+#. Description of the plugin
+msgid "A plugin for WordPress to easily display slideshare.net presentations."
+msgstr ""
+
+#. Author of the plugin
+msgid "Team Yoast"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://yoast.com/"
+msgstr ""
+
+#: slideshare.php:35
+#: slideshare.php:64
 msgid "SlideShare Configuration"
 msgstr ""
 
@@ -24,7 +47,8 @@ msgstr ""
 msgid "Update SlideShare Settings"
 msgstr ""
 
-#: slideshare.php:79 yst_plugin_tools.php:55
+#: slideshare.php:79
+#: yst_plugin_tools.php:55
 msgid "Settings"
 msgstr ""
 
@@ -33,9 +57,7 @@ msgid "Explanation of usage"
 msgstr ""
 
 #: slideshare.php:80
-msgid ""
-"Just copy and paste the WordPress Embed code from %s and you're done. Or you "
-"can just put the presentation URL on a line of its own."
+msgid "Just copy and paste the WordPress Embed code from %s and you're done. Or you can just put the presentation URL on a line of its own."
 msgstr ""
 
 #: slideshare.php:81
@@ -43,53 +65,9 @@ msgid "Explanation of default width"
 msgstr ""
 
 #: slideshare.php:81
-msgid ""
-"If you enter nothing in the setting above, you can change the width by hand "
-"by changing (or inserting) the w= value, that is bolded and red here:"
+msgid "If you enter nothing in the setting above, you can change the width by hand by changing (or inserting) the w= value, that is bolded and red here:"
 msgstr ""
 
 #: slideshare.php:81
-msgid ""
-"If you <em>do</em> enter a value, it will always replace the width with that "
-"value."
-msgstr ""
-
-#: yst_plugin_tools.php:149
-msgid "Why not do any or all of the following:"
-msgstr ""
-
-#: yst_plugin_tools.php:151
-msgid "Link to it so other folks can find out about it."
-msgstr ""
-
-#: yst_plugin_tools.php:152
-msgid "Give it a good rating on WordPress.org."
-msgstr ""
-
-#: yst_plugin_tools.php:153
-msgid "Let other people know that it works with your WordPress setup."
-msgstr ""
-
-#: yst_plugin_tools.php:155
-msgid "Like this plugin?"
-msgstr ""
-
-#. Plugin Name of the plugin/theme
-msgid "SlideShare"
-msgstr ""
-
-#. Plugin URI of the plugin/theme
-msgid "http://yoast.com/wordpress/slideshare/"
-msgstr ""
-
-#. Description of the plugin/theme
-msgid "A plugin for WordPress to easily display slideshare.net presentations."
-msgstr ""
-
-#. Author of the plugin/theme
-msgid "Team Yoast"
-msgstr ""
-
-#. Author URI of the plugin/theme
-msgid "https://yoast.com/"
+msgid "If you <em>do</em> enter a value, it will always replace the width with that value."
 msgstr ""
