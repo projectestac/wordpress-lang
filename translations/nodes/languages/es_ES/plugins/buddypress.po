@@ -4,21 +4,21 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Plugins - BuddyPress - Stable (latest release)\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/buddypress\n"
-"POT-Creation-Date: 2019-04-11T16:48:07+02:00\n"
-"PO-Revision-Date: 2019-04-11 17:00+0200\n"
+"POT-Creation-Date: 2019-04-15T16:18:22+02:00\n"
+"PO-Revision-Date: 2019-04-12 14:54+0200\n"
+"Last-Translator: Joan Sala Soler <jsala236@xtec.cat>\n"
+"Language-Team: \n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Poedit 2.0.6\n"
-"Last-Translator: Joan Sala Soler <jsala236@xtec.cat>\n"
-"Language-Team: \n"
 
 #: bp-themes/bp-default/_inc/ajax.php:686
 #: bp-templates/bp-legacy/buddypress-functions.php:1443
 msgid " Friendship could not be requested."
-msgstr "No se ha podido solicitar la amistad"
+msgstr "No se ha podido solicitar la amistad."
 
 #: bp-core/classes/class-bp-admin.php:685
 msgid ""
@@ -37,9 +37,8 @@ msgid " [&hellip;]"
 msgstr " [&hellip;]"
 
 #: bp-forums/bp-forums-template.php:2048
-#, fuzzy
 msgid " matching tag \"%s\""
-msgstr "Etiqueta de debate editada: %s"
+msgstr "etiqueta que concuerda \"%s\""
 
 #: bp-members/classes/class-bp-members-admin.php:1535
 msgid ""
@@ -143,9 +142,8 @@ msgid "%1$s created the group %2$s"
 msgstr "%1$s ha creado el grupo %2$s"
 
 #: bp-groups/bp-groups-forums.php:373
-#, fuzzy
 msgid "%1$s edited the forum topic %2$s in the group %3$s"
-msgstr "%1$s ha respondido al debate %2$s en el foro %3$s"
+msgstr "%1$s ha editado el tema %2$s del foro al nodo %3$s"
 
 #: bp-groups/bp-groups-activity.php:109 bp-groups/bp-groups-activity.php:457
 #: cli/components/activity.php:926
@@ -195,9 +193,8 @@ msgid "%1$s replied to one of your activity comments"
 msgstr "%1$s respondió a uno de tus comentarios de actividad"
 
 #: bp-groups/bp-groups-forums.php:148 bp-groups/bp-groups-forums.php:444
-#, fuzzy
 msgid "%1$s replied to the forum topic %2$s in the group %3$s"
-msgstr "%1$s ha respondido al debate %2$s en el foro %3$s"
+msgstr "%1$s ha respondido al tema de foro %2$s en el nodo %3$s"
 
 #: bp-themes/bp-default/groups/single/forum/topic.php:81
 #: bp-templates/bp-legacy/buddypress/groups/single/forum/topic.php:108
@@ -205,9 +202,8 @@ msgid "%1$s said %2$s:"
 msgstr "%1$s dijo %2$s:"
 
 #: bp-groups/bp-groups-forums.php:275
-#, fuzzy
 msgid "%1$s started the forum topic %2$s in the group %3$s"
-msgstr "%1$s empezó el debate %2$s en el foro %3$s"
+msgstr "%1$s ha comenzado el tema de foro %2$s en el nodo %3$s"
 
 #: bp-groups/bp-groups-activity.php:156
 msgid "%1$s updated details for the group %2$s"
@@ -291,8 +287,8 @@ msgstr[1] "%d miembros"
 #: bp-forums/bp-forums-template.php:1454
 msgid "%d post"
 msgid_plural "%d posts"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d entrada"
+msgstr[1] "%d entradas"
 
 #: bp-groups/bp-groups-notifications.php:565
 msgid "%d rejected group membership requests"
@@ -414,9 +410,8 @@ msgstr "%s excede el tamaño máximo de subida para este sitio."
 
 #. translators: %s: bb-config.php
 #: bp-forums/deprecated/1.6.php:155
-#, fuzzy
 msgid "%s file location:"
-msgstr "Localización del menú"
+msgstr "ubicación del archivo %s:"
 
 #: bp-friends/bp-friends-template.php:719
 msgid "%s friend"
@@ -819,9 +814,8 @@ msgid "(BuddyPress) Widgets"
 msgstr "(BuddyPress) Widgets"
 
 #: bp-forums/deprecated/1.6.php:65
-#, fuzzy
 msgid "(Installed)"
-msgstr "Instalada"
+msgstr "(Instalado)"
 
 #: bp-xprofile/classes/class-bp-xprofile-field.php:787
 msgid "(Member types: %s)"
@@ -1273,9 +1267,8 @@ msgstr[1] ""
 "arregló%2$s errores."
 
 #: bp-forums/deprecated/1.6.php:76 bp-forums/deprecated/1.6.php:226
-#, fuzzy
 msgid "@ Mention Integration"
-msgstr "Integración"
+msgstr "@ Integración de las menciones"
 
 #: bp-activity/bp-activity-notifications.php:37
 msgid "@%s Mentions"
@@ -1294,6 +1287,10 @@ msgid ""
 "save the text shown below into a file named %s in the root directory of your "
 "WordPress installation before you can start using the forum functionality."
 msgstr ""
+"No se puedo crear un archivo de configuración. Ningún problema, pero debería "
+"guardar el texto siguiente en un fichero con el nombre %s en el directorio "
+"raíz de la instalación de WordPress antes de empezar a usar la funcionalidad "
+"del foro."
 
 #: bp-friends/classes/class-bp-core-friends-widget.php:27
 msgid ""
@@ -1660,9 +1657,8 @@ msgid "Activity Settings"
 msgstr "Configuración de actividad"
 
 #: bp-forums/deprecated/1.6.php:75 bp-forums/deprecated/1.6.php:225
-#, fuzzy
 msgid "Activity Stream Integration"
-msgstr "Integración con Akismet"
+msgstr "Integración del flujo de actividad"
 
 #: bp-core/bp-core-functions.php:2484
 #: bp-activity/classes/class-bp-activity-component.php:30
@@ -2002,9 +1998,8 @@ msgid "All Sites <span>%s</span>"
 msgstr "Todos los sitios <span>%s</span>"
 
 #: bp-templates/bp-legacy/buddypress/forums/index.php:60
-#, fuzzy
 msgid "All Topics %s"
-msgstr "Todos los temas <span>%s</span>"
+msgstr "Todos los temas %s"
 
 #: bp-themes/bp-default/forums/index.php:40
 msgid "All Topics <span>%s</span>"
@@ -2016,6 +2011,8 @@ msgid ""
 "All done! Configuration settings have been saved to the %s file in the root "
 "of your WordPress install."
 msgstr ""
+"Todo hecho! Los parámetros de configuración se han guardado en el archivo %s "
+"en la raíz de la instalación de WordPress."
 
 #: bp-groups/bp-groups-admin.php:847
 #: bp-themes/bp-default/groups/single/admin.php:99
@@ -2143,9 +2140,8 @@ msgid "An error occurred. Please try again later."
 msgstr "Ha ocurrido un error. Por favor, inténtalo más tarde."
 
 #: bp-forums/deprecated/1.6.php:97 bp-forums/deprecated/1.6.php:248
-#, fuzzy
 msgid "And more!"
-msgstr "Para más información:"
+msgstr "Y más!"
 
 #: bp-themes/bp-default/groups/single/admin.php:63
 #: bp-themes/bp-default/groups/create.php:64
@@ -2545,6 +2541,9 @@ msgid ""
 "BuddyPress can make use of your existing bbPress install. Just provide the "
 "location of your %s file, and BuddyPress will do the rest."
 msgstr ""
+"BuddyPress puede hacer uso de la instalación existente del bbPress. "
+"Simplemente proporcione la ubicación del archivo %s, y BuddyPress hará el "
+"resto."
 
 #: bp-core/bp-core-taxonomy.php:33
 msgctxt "email type taxonomy description"
@@ -2584,6 +2583,9 @@ msgid ""
 "your site. If you wish, you can remove your old bbPress installation files, "
 "as long as you keep the %s file in the same location."
 msgstr ""
+"BuddyPress usará una copia interna del bbPress para hacer funcionar los "
+"foros en el sitio web. Si lo desea, puede eliminar los archivos de la vieja "
+"instalación del bbPress, pero deje el archivo %s en el mismo lugar."
 
 #: bp-core/classes/class-bp-admin.php:669
 msgid "BuddyPress: leaner, faster, stronger"
@@ -2893,9 +2895,8 @@ msgid "Close"
 msgstr "Cerrar"
 
 #: bp-forums/bp-forums-template.php:1736
-#, fuzzy
 msgid "Close Topic"
-msgstr "Cerrar este debate"
+msgstr "Cerrar el tema"
 
 #: bp-core/classes/class-bp-admin.php:639
 #: bp-core/classes/class-bp-admin.php:640
@@ -2974,9 +2975,8 @@ msgid "Community Support"
 msgstr "Apoyo de la comunidad"
 
 #: bp-forums/deprecated/1.6.php:156 bp-forums/deprecated/1.6.php:193
-#, fuzzy
 msgid "Complete Installation"
-msgstr "Instalación"
+msgstr "Instalación completada"
 
 #: bp-themes/bp-default/registration/register.php:255
 #: bp-templates/bp-nouveau/includes/functions.php:1260
@@ -3028,9 +3028,8 @@ msgid "Compose Message"
 msgstr "Escribir mensaje"
 
 #: bp-forums/deprecated/1.6.php:30 bp-forums/deprecated/1.6.php:130
-#, fuzzy
 msgid "Configure bbPress"
-msgstr "bbPress"
+msgstr "Configurar bbPress"
 
 #: bp-templates/bp-nouveau/includes/customizer.php:43
 msgid "Configure general BuddyPress appearance options."
@@ -3604,11 +3603,8 @@ msgid "Delete Selected"
 msgstr "Borrar seleccionado"
 
 #: bp-forums/bp-forums-template.php:1738
-#, fuzzy
 msgid "Delete Topic"
-msgstr ""
-"<strong>ERROR</strong>: No tienes permisos para eliminar las etiquetas del "
-"debate."
+msgstr "Eliminar el tema"
 
 #: bp-templates/bp-nouveau/buddypress/common/js-templates/messages/index.php:188
 #: bp-templates/bp-nouveau/buddypress/common/js-templates/messages/index.php:189
@@ -3724,9 +3720,8 @@ msgid "Disabled"
 msgstr "Desactivado."
 
 #: bp-forums/bp-forums-loader.php:33
-#, fuzzy
 msgid "Discussion Forums"
-msgstr "Discusión"
+msgstr "Foros de discusión"
 
 #: bp-core/bp-core-attachments.php:668
 msgid "Dismiss"
@@ -3988,9 +3983,8 @@ msgstr "Editar configuración"
 
 #. translators: accessibility text
 #: bp-templates/bp-legacy/buddypress/groups/single/forum/edit.php:113
-#, fuzzy
 msgid "Edit text"
-msgstr "Texto del enlace"
+msgstr "Editar texto"
 
 #: bp-themes/bp-default/single.php:24 bp-themes/bp-default/attachment.php:26
 msgid "Edit this entry"
@@ -4240,9 +4234,8 @@ msgid "Example:"
 msgstr "Ejemplo:"
 
 #: bp-forums/deprecated/1.6.php:151
-#, fuzzy
 msgid "Existing bbPress Installation"
-msgstr "Instalación"
+msgstr "Instalación de bbPress existente"
 
 #: bp-settings/classes/class-bp-settings-component.php:198
 #: bp-settings/classes/class-bp-settings-component.php:275
@@ -4485,9 +4478,10 @@ msgid "Forum Topics"
 msgstr "Temas en los foros"
 
 #: bp-forums/bp-forums-screens.php:58 bp-groups/bp-groups-screens.php:548
-#, fuzzy
 msgid "Forum posts cannot be empty. Please enter some text."
-msgstr "Tu mensaje no se ha enviado. Por favor, escribe algo."
+msgstr ""
+"Las entradas del foro no pueden estar vacías. Por favor, introduzca algún "
+"texto."
 
 #: bp-forums/deprecated/1.7.php:24 bp-forums/deprecated/1.7.php:101
 #: bp-forums/deprecated/1.6.php:39 bp-forums/bp-forums-screens.php:301
@@ -4502,25 +4496,24 @@ msgid "Forums Directory"
 msgstr "Directorio de foros"
 
 #: bp-templates/bp-legacy/buddypress/forums/index.php:58
-#, fuzzy
 msgid "Forums directory main navigation"
-msgstr "Navegación principal de miembros del directorio"
+msgstr "Navegación principal del directorio de foros"
 
 #: bp-forums/deprecated/1.6.php:65 bp-forums/deprecated/1.6.php:215
-#, fuzzy
 msgid "Forums for Groups"
-msgstr "Foros"
+msgstr "Foros para nodos"
 
 #: bp-templates/bp-legacy/buddypress/groups/single/forum/topic.php:17
 #: bp-templates/bp-legacy/buddypress/groups/single/forum/edit.php:20
 #: bp-templates/bp-legacy/buddypress/forums/index.php:80
-#, fuzzy
 msgid "Forums secondary navigation"
-msgstr "Navegación secundaria de miembros"
+msgstr "Navegación secundaria los foros"
 
 #: bp-forums/deprecated/1.6.php:144
 msgid "Forums were set up correctly using your existing bbPress install!"
 msgstr ""
+"Los foros se han configurado correctamente en usar la instalación del "
+"bbPress existente!"
 
 #: bp-templates/bp-nouveau/includes/functions.php:704
 msgid "Four columns"
@@ -4739,6 +4732,8 @@ msgid ""
 "Give each individual group its own discussion forum. Choose this if you'd "
 "like to keep your members' conversations separated into distinct areas."
 msgstr ""
+"Dar a cada nodo su propio foro de discusión. Seleccione esto si le gustaría "
+"mantener las conversaciones de los miembros separadas en áreas diferentes."
 
 #: bp-core/bp-core-functions.php:2485
 msgid ""
@@ -4841,9 +4836,8 @@ msgid "Group Forums"
 msgstr "Foros del grupo"
 
 #: bp-forums/deprecated/1.6.php:73 bp-forums/deprecated/1.6.php:223
-#, fuzzy
 msgid "Group Integration"
-msgstr "Integración"
+msgstr "Integración del nodo"
 
 #: bp-themes/bp-default/groups/single/admin.php:92
 #: bp-themes/bp-default/groups/create.php:89
@@ -5139,9 +5133,8 @@ msgid "Group logo"
 msgstr "Logo del grupo"
 
 #: bp-forums/bp-forums-template.php:1169
-#, fuzzy
 msgid "Group logo for %s"
-msgstr "Logo del grupo %s"
+msgstr "Logo del nodo para %s"
 
 #: bp-groups/classes/class-bp-groups-list-table.php:554
 #: bp-groups/bp-groups-template.php:790
@@ -5485,6 +5478,8 @@ msgid ""
 "If you decide to use bbPress, you will need to deactivate the legacy group "
 "forum component.  For more info, <a href=\"%s\">read this codex article</a>."
 msgstr ""
+"Si decide utilizar bbPress, necesitará desactivar el antiguo componente de "
+"nodos. Para más información <a href=\"%s\">lea este artículo del codex</a>."
 
 #: bp-members/bp-members-functions.php:2240
 msgid ""
@@ -5722,14 +5717,12 @@ msgid "Initiated By Me"
 msgstr "Iniciados por mi"
 
 #: bp-forums/deprecated/1.6.php:230
-#, fuzzy
 msgid "Install Group Forums"
-msgstr "Permitir foros de grupo"
+msgstr "Instalar los foros de los nodos"
 
 #: bp-forums/deprecated/1.6.php:33 bp-forums/deprecated/1.6.php:133
-#, fuzzy
 msgid "Install bbPress"
-msgstr "bbPress"
+msgstr "Instalar bbPress"
 
 #: bp-members/bp-members-functions.php:1828
 #: bp-members/bp-members-functions.php:1855
@@ -5804,6 +5797,8 @@ msgid ""
 "It boasts a bunch of cool features that the BP Legacy Discussion Forums does "
 "not have including:"
 msgstr ""
+"Cuenta con un montón de características interesantes que los foros de "
+"discusión de BP antiguos no incluían:"
 
 #: bp-core/bp-core-attachments.php:789
 msgid ""
@@ -5823,7 +5818,7 @@ msgstr ""
 
 #: bp-groups/bp-groups-screens.php:241
 msgid "It looks like you've already said that!"
-msgstr ""
+msgstr "Parece que ya ha dicho eso!"
 
 #: bp-core/bp-core-functions.php:2455
 msgid "It&#8216;s what makes <del>time travel</del> BuddyPress possible!"
@@ -6311,9 +6306,8 @@ msgid "Member Activities"
 msgstr "Actividades de los miembros"
 
 #: bp-forums/deprecated/1.6.php:74 bp-forums/deprecated/1.6.php:224
-#, fuzzy
 msgid "Member Profile Integration"
-msgstr "El usuario cambió su imagen de perfil"
+msgstr "Integración del perfil de miembro"
 
 #: bp-members/classes/class-bp-members-admin.php:2347
 msgctxt "Label for the WP users table member type column"
@@ -6627,7 +6621,7 @@ msgstr "Moderando la actividad"
 
 #: bp-forums/deprecated/1.6.php:92 bp-forums/deprecated/1.6.php:243
 msgid "Moderation via the WP admin dashboard"
-msgstr ""
+msgstr "Moderación desde el panel de administración del WP"
 
 #: bp-groups/bp-groups-admin.php:989 bp-groups/bp-groups-functions.php:2702
 msgid "Moderator"
@@ -6807,9 +6801,8 @@ msgid "My Sites <span>%s</span>"
 msgstr "Mis sitios <span>%s</span>"
 
 #: bp-templates/bp-legacy/buddypress/forums/index.php:64
-#, fuzzy
 msgid "My Topics %s"
-msgstr "Mis temas <span>%s</span>"
+msgstr "Mis temas %s"
 
 #: bp-themes/bp-default/forums/index.php:44
 msgid "My Topics <span>%s</span>"
@@ -6916,9 +6909,8 @@ msgid "New Topic"
 msgstr "Nuevo hilo"
 
 #: bp-forums/deprecated/1.6.php:190
-#, fuzzy
 msgid "New bbPress Installation"
-msgstr "Instalación"
+msgstr "Instalación del bbPress nueva"
 
 #: bp-core/bp-core-functions.php:2998
 msgctxt "email type taxonomy label"
@@ -6989,9 +6981,8 @@ msgid "New update replies"
 msgstr "Nuevas respuestas de actualización"
 
 #: bp-forums/deprecated/1.6.php:85 bp-forums/deprecated/1.6.php:236
-#, fuzzy
 msgid "New! bbPress"
-msgstr "bbPress"
+msgstr "Nuevo! bbPress"
 
 #: bp-groups/classes/class-bp-groups-widget.php:121
 #: bp-groups/classes/class-bp-groups-widget.php:226
@@ -7255,7 +7246,7 @@ msgstr "No, no enviar email"
 
 #: bp-forums/deprecated/1.6.php:91 bp-forums/deprecated/1.6.php:242
 msgid "Non-group specific forum creation"
-msgstr ""
+msgstr "Creación de un foro sin nodo"
 
 #: bp-themes/bp-default/archive.php:50 bp-themes/bp-default/index.php:54
 msgid "Not Found"
@@ -7291,6 +7282,8 @@ msgid ""
 "Note: This component is retired and will not be receiving any updates in the "
 "future.  Only use this component if your current site relies on it."
 msgstr ""
+"Nota: este componente está obsoleto y no recibirá más actualizaciones en el "
+"futuro. Use este componente sólo si el sitio web actual se basa en él."
 
 #: bp-messages/bp-messages-actions.php:178 bp-messages/actions/notices.php:63
 msgid "Notice activated successfully."
@@ -7541,9 +7534,8 @@ msgstr ""
 "pertenecer al grupo."
 
 #: bp-forums/bp-forums-template.php:1734
-#, fuzzy
 msgid "Open Topic"
-msgstr "Abre este debate"
+msgstr "Abrir el tema"
 
 #: bp-templates/bp-nouveau/buddypress/common/js-templates/invites/index.php:116
 msgid "Optional: add a message to your invite."
@@ -7846,6 +7838,8 @@ msgid ""
 "Please make sure you fill in all required fields in this profile field group "
 "before saving."
 msgstr ""
+"Asegúrese de rellenar todos los campos necesarios de este perfil de nodo "
+"antes de guardar."
 
 #: bp-xprofile/classes/class-bp-xprofile-group.php:591
 msgid "Please make sure you give the group a name."
@@ -7853,11 +7847,11 @@ msgstr "Por favor, asegurate de dar un nombre al grupo"
 
 #: bp-forums/bp-forums-screens.php:76 bp-forums/bp-forums-screens.php:81
 msgid "Please pick the group forum where you would like to post this topic."
-msgstr ""
+msgstr "Seleccione el foro del nodo donde le gustaría publicar este tema."
 
 #: bp-forums/bp-forums-screens.php:56 bp-groups/bp-groups-screens.php:546
 msgid "Please provide a title for your forum topic."
-msgstr ""
+msgstr "Proporcione un título para el tema del foro."
 
 #: bp-themes/bp-default/registration/activate.php:30
 #: bp-templates/bp-nouveau/buddypress/members/activate.php:36
@@ -8768,9 +8762,8 @@ msgid "Repeat Your New Password"
 msgstr "Repite tu nueva contraseña"
 
 #: bp-forums/bp-forums-loader.php:180
-#, fuzzy
 msgid "Replied To"
-msgstr "Respondió a una actualización de estado"
+msgstr "Respondido a"
 
 #: bp-activity/bp-activity-functions.php:1456
 msgid "Replied to a status update"
@@ -9395,9 +9388,8 @@ msgid "Settings"
 msgstr "Ajustes"
 
 #: bp-forums/deprecated/1.6.php:44
-#, fuzzy
 msgid "Settings Saved."
-msgstr "Configuración guardada."
+msgstr "Opciones guardadas."
 
 #: bp-templates/bp-nouveau/buddypress/members/single/settings.php:12
 msgid "Settings menu"
@@ -9764,9 +9756,8 @@ msgid "Spam <span class=\"count\">(%s)</span>"
 msgstr "Spam <span class=\"count\">(%s)</span>"
 
 #: bp-forums/deprecated/1.6.php:95 bp-forums/deprecated/1.6.php:246
-#, fuzzy
 msgid "Spam management"
-msgstr "Obtenga consejos para la gestión de los widgets"
+msgstr "Gestión de la basura"
 
 #: bp-members/classes/class-bp-members-admin.php:1081
 msgid "Spammer"
@@ -9860,10 +9851,8 @@ msgid "Status"
 msgstr "Estado"
 
 #: bp-forums/bp-forums-template.php:1729
-#, fuzzy
 msgid "Sticky Topic"
-msgstr ""
-"Reparando las relaciones del debate destacado con el foro superior&hellip; %s"
+msgstr "Destacar el tema"
 
 #: bp-messages/classes/class-bp-messages-notices-admin.php:206
 #: bp-themes/bp-default/members/single/messages/compose.php:17
@@ -10066,10 +10055,10 @@ msgstr "Este nombre de usuario no está permitido"
 
 #. translators: %s: bb-config.php
 #: bp-forums/deprecated/1.6.php:141
-#, fuzzy
 msgid "The %s file was not found at that location. Please try again."
 msgstr ""
-"Hubo un problema al realizar esta acción. Por favor, inténtalo de nuevo."
+"No se pudo encontrar el archivo %s en esa ubicación. Por favor, inténtalo de "
+"nuevo."
 
 #: bp-xprofile/bp-xprofile-admin.php:576
 msgid "The %s was deleted successfully!"
@@ -10205,9 +10194,8 @@ msgid "The following users were successfully added to the group: %s"
 msgstr "Los siguientes usuarios han sido añadidos correctamente al grupo: %s"
 
 #: bp-forums/bp-forums-screens.php:28 bp-forums/bp-forums-screens.php:275
-#, fuzzy
 msgid "The forums component has not been set up yet."
-msgstr "La invitación no ha sido enviada todavía."
+msgstr "El componente de los foros no se ha establecido todavía."
 
 #: bp-themes/bp-default/functions.php:450
 msgid "The fourth footer widget area"
@@ -10304,14 +10292,12 @@ msgid "The passwords you entered do not match."
 msgstr "Las contraseñas introducidas no coinciden"
 
 #: bp-groups/bp-groups-screens.php:455
-#, fuzzy
 msgid "The post was deleted successfully"
-msgstr "Fichero borrado correctamente"
+msgstr "El artículo se ha eliminado correctamente."
 
 #: bp-groups/bp-groups-screens.php:488
-#, fuzzy
 msgid "The post was edited successfully"
-msgstr "¡Documento editado satisfactoriamente!"
+msgstr "El artículo se ha editado correctamente."
 
 #: bp-xprofile/classes/class-bp-xprofile-field.php:1102
 msgid "The profile field type %s is not registered."
@@ -10344,39 +10330,32 @@ msgid "The third footer widget area"
 msgstr "La tercera área de widget del pie de página"
 
 #: bp-groups/bp-groups-screens.php:313
-#, fuzzy
 msgid "The topic was closed successfully"
-msgstr "Debate \"%1$s\" cerrado con éxito."
+msgstr "El tema se ha cerrado correctamente"
 
 #: bp-forums/bp-forums-screens.php:68 bp-groups/bp-groups-screens.php:563
-#, fuzzy
 msgid "The topic was created successfully"
-msgstr "Debate \"%1$s\" cerrado con éxito."
+msgstr "Se ha creado el tema correctamente"
 
 #: bp-groups/bp-groups-screens.php:374
-#, fuzzy
 msgid "The topic was deleted successfully"
-msgstr "Debate \"%1$s\" cerrado con éxito."
+msgstr "El tema se ha suprimido correctamente."
 
 #: bp-groups/bp-groups-screens.php:407
-#, fuzzy
 msgid "The topic was edited successfully"
-msgstr "Debate \"%1$s\" cerrado con éxito."
+msgstr "El tema se ha editado correctamente"
 
 #: bp-groups/bp-groups-screens.php:269
-#, fuzzy
 msgid "The topic was made sticky successfully"
-msgstr "Recalcula la relación de destacado de cada debate"
+msgstr "El tema se ha destacado correctamente"
 
 #: bp-groups/bp-groups-screens.php:335
-#, fuzzy
 msgid "The topic was opened successfully"
-msgstr "El debate \"%1$s\" se ha abierto con éxito."
+msgstr "El tema se ha abierto correctamente"
 
 #: bp-groups/bp-groups-screens.php:291
-#, fuzzy
 msgid "The topic was unstuck successfully"
-msgstr "Debate \"%1$s\" destacado con éxito."
+msgstr "El tema se ha despegado correctamente"
 
 #: bp-activity/bp-activity-admin.php:226
 msgid ""
@@ -10749,9 +10728,8 @@ msgid "There was an error deleting that message."
 msgstr "Hubo un error borrando el mensaje."
 
 #: bp-groups/bp-groups-screens.php:453
-#, fuzzy
 msgid "There was an error deleting that post"
-msgstr "Borrando metas de publicaciones&hellip; %s"
+msgstr "Se ha producido un error al suprimir este artículo"
 
 #: bp-xprofile/bp-xprofile-admin.php:573
 msgid "There was an error deleting the %s. Please try again."
@@ -10769,9 +10747,8 @@ msgid "There was an error deleting the group. Please try again."
 msgstr "Hubo un error al borrar el grupo. Por favor, inténtalo de nuevo."
 
 #: bp-groups/bp-groups-screens.php:372
-#, fuzzy
 msgid "There was an error deleting the topic"
-msgstr "Borrando etiquetas del debate&hellip; %s"
+msgstr "Se ha producido un error al eliminar el tema"
 
 #: bp-groups/bp-groups-actions.php:405 bp-groups/bp-groups-actions.php:412
 #: bp-groups/actions/join.php:34 bp-groups/actions/join.php:41
@@ -10889,14 +10866,12 @@ msgstr ""
 "Ha habido un error al bloquear ese usuario. Por favor, vuelve a intentarlo."
 
 #: bp-groups/bp-groups-screens.php:311
-#, fuzzy
 msgid "There was an error when closing that topic"
-msgstr "<strong>ERROR</strong>: Ha ocurrido un problema al cerrar el debate."
+msgstr "Se ha producido un error al cerrar este tema"
 
 #: bp-forums/bp-forums-screens.php:65 bp-groups/bp-groups-screens.php:560
-#, fuzzy
 msgid "There was an error when creating the topic"
-msgstr "Hubo un error creando el documento."
+msgstr "Se ha producido un error al crear el tema"
 
 #: bp-activity/bp-activity-actions.php:152 bp-activity/actions/delete.php:54
 msgid "There was an error when deleting that activity"
@@ -10909,24 +10884,20 @@ msgstr ""
 "Ha habido un error al degradar ese usuario. Por favor, vuelve a intentarlo."
 
 #: bp-groups/bp-groups-screens.php:486
-#, fuzzy
 msgid "There was an error when editing that post"
-msgstr "%s ya está editando esta entrada."
+msgstr "Se ha producido un error mientras se editaba el artículo"
 
 #: bp-groups/bp-groups-screens.php:405
-#, fuzzy
 msgid "There was an error when editing that topic"
-msgstr "<strong>ERROR</strong>: Este debate está cerrado"
+msgstr "Se ha producido un error al editar este tema"
 
 #: bp-groups/bp-groups-screens.php:267
-#, fuzzy
 msgid "There was an error when making that topic a sticky"
-msgstr "Hubo un error borrando la actividad."
+msgstr "Se ha producido un error al destacar este tema"
 
 #: bp-groups/bp-groups-screens.php:333
-#, fuzzy
 msgid "There was an error when opening that topic"
-msgstr "<strong>ERROR</strong>: Ha ocurrido un error al abrir el debate."
+msgstr "Se ha producido un error al abrir este tema"
 
 #: bp-activity/bp-activity-actions.php:324 bp-activity/actions/post.php:92
 msgid "There was an error when posting your update. Please try again."
@@ -10942,9 +10913,8 @@ msgstr ""
 "intentarlo."
 
 #: bp-groups/bp-groups-screens.php:244
-#, fuzzy
 msgid "There was an error when replying to that topic"
-msgstr "<strong>ERROR</strong>: Este debate está cerrado"
+msgstr "Se ha producido un error al responder a este tema"
 
 #: bp-groups/bp-groups-screens.php:1238
 #: bp-groups/screens/single/admin/manage-members.php:121
@@ -10954,11 +10924,8 @@ msgstr ""
 "intentarlo."
 
 #: bp-groups/bp-groups-screens.php:289
-#, fuzzy
 msgid "There was an error when unsticking that topic"
-msgstr ""
-"<strong>ERROR</strong>: Ha ocurrido un problema al quitar como destacado el "
-"debate."
+msgstr "Se ha producido un error al despegar este tema"
 
 #: bp-groups/bp-groups-admin.php:1376
 msgid "There was an error while changing group type. Please try again."
@@ -11072,9 +11039,8 @@ msgid "This file type is not allowed. Please try another."
 msgstr "Este tipo de archivo no está permitido. Por favor, prueba con otro."
 
 #: bp-groups/bp-groups-screens.php:552
-#, fuzzy
 msgid "This group does not have a forum setup yet."
-msgstr "Este grupo no posee ningún foro propio."
+msgstr "Este nodo no tiene un foro configurado todavía."
 
 #: bp-groups/bp-groups-template.php:2316
 msgid "This group has no administrators"
@@ -11359,9 +11325,8 @@ msgid "Topic"
 msgstr "Hilo"
 
 #: bp-forums/deprecated/1.6.php:93 bp-forums/deprecated/1.6.php:244
-#, fuzzy
 msgid "Topic splitting"
-msgstr "Cerrar este debate"
+msgstr "División de temas"
 
 #: bp-themes/bp-default/groups/single/forum/topic.php:32
 #: bp-templates/bp-legacy/buddypress/groups/single/forum/topic.php:45
@@ -11404,9 +11369,8 @@ msgid "Un-spammed by %s"
 msgstr "Desmarcado como spam por %s"
 
 #: bp-forums/bp-forums-template.php:1731
-#, fuzzy
 msgid "Un-stick Topic"
-msgstr "Destacar este debate al inicio"
+msgstr "Despegar el tema"
 
 #: bp-templates/bp-nouveau/includes/messages/ajax.php:229
 #: bp-templates/bp-nouveau/includes/messages/ajax.php:404
@@ -11422,9 +11386,8 @@ msgid "Unban this member"
 msgstr "Quitar baneo al usuario"
 
 #: bp-forums/deprecated/1.6.php:80
-#, fuzzy
 msgid "Uninstall Group Forums"
-msgstr "Desinstalar"
+msgstr "Desinstalar los foros de nodo"
 
 #: bp-notifications/bp-notifications-template.php:650
 #: bp-notifications/bp-notifications-functions.php:876
@@ -11602,9 +11565,8 @@ msgid "Uploaded to this email"
 msgstr "Subido a este e-mail"
 
 #: bp-forums/deprecated/1.6.php:231
-#, fuzzy
 msgid "Use Existing Installation"
-msgstr "Usa un debate existente en este foro:"
+msgstr "Usar una instalación existente"
 
 #: bp-templates/bp-nouveau/includes/activity/functions.php:525
 msgid "Use column navigation for the Activity directory."
@@ -11984,11 +11946,10 @@ msgstr[0] "Viendo %1$s - %2$s de %3$s miembro conectado"
 msgstr[1] "Viendo %1$s - %2$s de %3$s miembros conectados"
 
 #: bp-forums/bp-forums-template.php:2869
-#, fuzzy
 msgid "Viewing %1$s - %2$s of %3$s post"
 msgid_plural "Viewing %1$s - %2$s of %3$s posts"
-msgstr[0] "Viendo %1$s - %2$s de %3$s sitio"
-msgstr[1] "Viendo %1$s - %2$s de %3$s sitios"
+msgstr[0] "Viendo %1$s - %2$s de %3$s entrada"
+msgstr[1] "Viendo %1$s - %2$s de %3$s entradas"
 
 #: bp-groups/bp-groups-template.php:5578
 msgid "Viewing %1$s - %2$s of %3$s request"
@@ -12003,11 +11964,10 @@ msgstr[0] "Viendo %1$s - %2$s de %3$s sitio"
 msgstr[1] "Viendo %1$s - %2$s de %3$s sitios"
 
 #: bp-forums/bp-forums-template.php:2053
-#, fuzzy
 msgid "Viewing %1$s - %2$s of %3$s topic"
 msgid_plural "Viewing %1$s - %2$s of %3$s topics"
-msgstr[0] "Viendo %1$s - %2$s de %3$s grupo"
-msgstr[1] "Viendo %1$s - %2$s de %3$s grupos"
+msgstr[0] "Viendo %1$s - %2$s de %3$s tema"
+msgstr[1] "Viendo %1$s - %2$s de %3$s temas"
 
 #: bp-members/bp-members-template.php:482
 msgid "Viewing 1 active member"
@@ -12047,9 +12007,8 @@ msgid "Viewing 1 online member"
 msgstr "Viendo un miembro conectado en linea"
 
 #: bp-forums/bp-forums-template.php:2867
-#, fuzzy
 msgid "Viewing 1 post"
-msgstr "Viendo 1 elemento"
+msgstr "Mostrando 1 artículo"
 
 #: bp-groups/bp-groups-template.php:5576
 msgid "Viewing 1 request"
@@ -12060,9 +12019,8 @@ msgid "Viewing 1 site"
 msgstr "Viendo 1 sitio"
 
 #: bp-forums/bp-forums-template.php:2051
-#, fuzzy
 msgid "Viewing 1 topic"
-msgstr "Viendo 1 grupo"
+msgstr "Mostrando 1 tema"
 
 #: bp-groups/bp-groups-template.php:5160
 msgid "Viewing groups of the type: %s"
@@ -12582,9 +12540,8 @@ msgid "You have attempted to queue too many files."
 msgstr "Has tratado de agrupar demasiados archivos."
 
 #: bp-groups/bp-groups-screens.php:512 bp-groups/bp-groups-screens.php:538
-#, fuzzy
 msgid "You have been banned from this group."
-msgstr "Se ha cancelado su suscripción a todos los nodos."
+msgstr "Se os ha expulsado de este nodo."
 
 #. translators: do not remove {} brackets or translate its contents.
 #: bp-core/bp-core-functions.php:3494
@@ -12904,6 +12861,10 @@ msgid ""
 "in BuddyPress. This is very simple and is usually just a one click\n"
 "\t\t\t\tprocess. When you're ready, hit the link below."
 msgstr ""
+"Ha decidido realizar una instalación nueva de bbPress para la gestión de los "
+"foros de buddypress. Es muy sencillo y el proceso se realiza normalmente con "
+"un solo clic\n"
+"Cuando esté listo, siga el siguiente enlace."
 
 #: bp-templates/bp-nouveau/buddypress/members/single/profile/change-cover-image.php:17
 #: bp-templates/bp-legacy/buddypress/members/single/profile/change-cover-image.php:23
@@ -13192,9 +13153,8 @@ msgid "Your reply was not sent. Please enter some content."
 msgstr "Tu respuesta no fue enviada. Por favor ingresa un poco de contenido."
 
 #: bp-groups/bp-groups-screens.php:246
-#, fuzzy
 msgid "Your reply was posted successfully"
-msgstr "Respuesta publicada"
+msgstr "La respuesta se ha publicado correctamente"
 
 #: bp-messages/bp-messages-actions.php:242 bp-messages/actions/view.php:41
 #: bp-templates/bp-nouveau/includes/messages/ajax.php:216
@@ -13388,12 +13348,17 @@ msgid ""
 "bbPress files were not found. To install the forums component you must "
 "download a copy of bbPress and make sure it is in the folder: \"%s\""
 msgstr ""
+"No se han encontrado los archivos del bbPress. Para instalar los componentes "
+"de los foros debe descargar una copia del bbPress y asegurarse que está en "
+"la carpeta: \"%s\""
 
 #: bp-forums/deprecated/1.6.php:86 bp-forums/deprecated/1.6.php:237
 msgid ""
 "bbPress is a brand-new forum plugin from one of the lead developers of "
 "BuddyPress."
 msgstr ""
+"bbPress es una extensión nueva de foros creada pro uno de los programadores "
+"líderes del BuddyPress."
 
 #: bp-blogs/bp-blogs-template.php:1088
 msgid "blogname"

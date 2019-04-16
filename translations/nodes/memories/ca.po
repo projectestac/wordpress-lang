@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Nodes 4.9.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-11T16:48:05+02:00\n"
+"POT-Creation-Date: 2019-04-15T16:18:20+02:00\n"
 "PO-Revision-Date: 2019-04-04 17:45+0200\n"
 "Last-Translator: Joan Sala Soler <jsala236@xtec.cat>\n"
 "Language-Team: \n"
@@ -3053,6 +3053,18 @@ msgstr "Autor:"
 msgid "Base Color Scheme"
 msgstr "Esquema de color base"
 
+#: functions.php:172
+msgid "Blue Gray"
+msgstr "Gris blavós"
+
+#: functions.php:177
+msgid "Bright Blue"
+msgstr "Blau brillant"
+
+#: functions.php:202
+msgid "Bright Red"
+msgstr "Vermell brillant"
+
 #: inc/template-tags.php:103
 msgctxt "Used before category names."
 msgid "Categories"
@@ -3070,6 +3082,14 @@ msgstr "Contingut inferior 2"
 #: inc/template-tags.php:194 template-parts/content.php:29
 msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
 msgstr "Continua llegint <span class=\"screen-reader-text\">«%s»</span>"
+
+#: functions.php:187
+msgid "Dark Brown"
+msgstr "Marró fosc"
+
+#: functions.php:197
+msgid "Dark Red"
+msgstr "Vermell fosc"
 
 #: inc/customizer.php:315
 msgid "Default"
@@ -3108,9 +3128,17 @@ msgstr "Gris"
 msgid "Leave a comment<span class=\"screen-reader-text\"> on %s</span>"
 msgstr "Deixa un comentari<span class=\"screen-reader-text\"> a %s</span>"
 
+#: functions.php:182
+msgid "Light Blue"
+msgstr "Blau cel"
+
 #: inc/customizer.php:221
 msgid "Main Text Color"
 msgstr "Color del text primary"
+
+#: functions.php:192
+msgid "Medium Brown"
+msgstr "Marró mitjà"
 
 #: archive.php:52 index.php:49 search.php:40
 msgid "Next page"
@@ -3497,6 +3525,11 @@ msgstr "https://github.com/WordPress/twentynineteen"
 msgid ">"
 msgstr "Fa"
 
+#. Description of the plugin
+msgid "A pluggin to include common functions which affects to all themes"
+msgstr ""
+"Un connector per incloure funcions comunes que afecten a tots els temes"
+
 #: agora-functions.php:1601
 msgid "Activity report in social network"
 msgstr "Activitat notificada a la xarxa social"
@@ -3530,6 +3563,10 @@ msgstr "Gestor de Calendaris"
 #: agora-functions.php:1781
 msgid "Clica a 'Llegeix més' per carregar el contingut de l'article."
 msgstr "Clica a 'Llegeix més' per carregar el contingut de l'article."
+
+#. Plugin Name of the plugin
+msgid "CommonFunctions"
+msgstr "Funcions comunes"
 
 #: agora-functions.php:527
 msgid "Compose"
@@ -4642,6 +4679,10 @@ msgstr " "
 msgid "(%s: %s)"
 msgstr "(%s: %s)"
 
+#: wp-includes/js/dist/editor.js:23613
+msgid "(Click to focus this heading)"
+msgstr "(Feu clic per enfocar aquest encapçalament)"
+
 #. translators: %s: menu name
 #: wp-includes/customize/class-wp-customize-nav-menu-locations-control.php:81
 msgctxt "menu location"
@@ -4768,6 +4809,12 @@ msgstr "+ Crea un menú nou"
 msgctxt "tag delimiter"
 msgid ","
 msgstr ","
+
+#: wp-includes/js/tinymce/wp-tinymce.js:3
+msgid "0"
+msgid_plural "0"
+msgstr[0] "0"
+msgstr[1] "0"
 
 #. translators: %s: post title
 #: wp-includes/comment-template.php:1541
@@ -6259,6 +6306,10 @@ msgctxt "genitive"
 msgid "August"
 msgstr "agost"
 
+#: wp-includes/class-pop3.php:153
+msgid "Authentication failed"
+msgstr "L'autenticació ha fallat"
+
 #: wp-includes/class-wp-editor.php:1105 wp-includes/theme-compat/sidebar.php:29
 #: wp-includes/js/dist/editor.js:24726
 msgid "Author"
@@ -6315,6 +6366,11 @@ msgstr "Desat automàtic"
 msgctxt "translations"
 msgid "Available"
 msgstr "Disponibles"
+
+#: wp-includes/js/dist/editor.js:28076
+msgctxt "term"
+msgid "Available %s"
+msgstr "Disponible %s"
 
 #: wp-includes/js/dist/editor.js:17706
 msgid "Available block types"
@@ -6855,6 +6911,10 @@ msgstr "Canvia l'alineació de text"
 msgid "Change audio"
 msgstr "Canvia l'àudio"
 
+#: wp-includes/js/dist/editor.js:30283
+msgid "Change block type"
+msgstr "Canvia el tipus de bloc"
+
 #: wp-includes/js/dist/components.js:28504
 msgid "Change color format"
 msgstr "Canvia el format del color"
@@ -7349,6 +7409,10 @@ msgstr "Columnes"
 #: wp-includes/js/dist/keycodes.js:366
 msgid "Comma"
 msgstr "Coma"
+
+#: wp-includes/class-pop3.php:599
+msgid "Command failed "
+msgstr "L’ordre ha fallat "
 
 #: wp-includes/comment-template.php:1094 wp-includes/comment-template.php:2310
 msgctxt "noun"
@@ -8761,6 +8825,10 @@ msgstr "Edita la selecció"
 msgid "Edit Site"
 msgstr "Edita el lloc"
 
+#: wp-includes/js/dist/block-library.js:12515
+msgid "Edit Table"
+msgstr "Edita la taula"
+
 #: wp-includes/taxonomy.php:554
 msgid "Edit Tag"
 msgstr "Edita l'etiqueta"
@@ -8955,6 +9023,10 @@ msgstr "Incrusta contingut de Crowdsignal (anteriorment Polldaddy)."
 msgid "Embed Flickr content."
 msgstr "Incrusta contingut de Flickr."
 
+#: wp-includes/js/dist/block-library.js:2269
+msgid "Embed Funny or Die content."
+msgstr "Incrusta un contingut de Funny or Die."
+
 #: wp-includes/js/dist/block-library.js:2277
 msgid "Embed Hulu content."
 msgstr "Incrusta contingut de Hulu."
@@ -9027,6 +9099,10 @@ msgstr "Incrusta un vídeo de Dalymotion."
 #: wp-includes/js/dist/block-library.js:2156
 msgid "Embed a Facebook post."
 msgstr "Incrusta una entrada de Facebook."
+
+#: wp-includes/js/dist/block-library.js:2326
+msgid "Embed a Photobucket image."
+msgstr "Incrusta una imatge de Photobucket."
 
 #: wp-includes/js/dist/block-library.js:2346
 msgid "Embed a Reddit thread."
@@ -9117,6 +9193,10 @@ msgid "Empty block; start writing or type forward slash to choose a block"
 msgstr ""
 "Bloc buit; comenceu a escriure o introduïu la barra inclinada per triar un "
 "bloc "
+
+#: wp-includes/class-pop3.php:466
+msgid "Empty command string"
+msgstr "Cadena d’ordres buida"
 
 #: wp-includes/functions.php:2340
 msgid "Empty filename"
@@ -9243,6 +9323,15 @@ msgstr "Entrades de qualsevol fil de subscripció RSS o Àtom."
 #: wp-includes/user.php:3373
 msgid "Erase Personal Data"
 msgstr "Suprimeix les dades personals"
+
+#: wp-includes/class-pop3.php:100 wp-includes/class-pop3.php:112
+#: wp-includes/class-pop3.php:133 wp-includes/class-pop3.php:256
+#: wp-includes/class-pop3.php:310 wp-includes/class-pop3.php:321
+#: wp-includes/class-pop3.php:369 wp-includes/class-pop3.php:403
+#: wp-includes/class-pop3.php:436 wp-includes/class-pop3.php:535
+#: wp-includes/class-pop3.php:558
+msgid "Error "
+msgstr "Error"
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:513
 msgid "Error creating new user."
@@ -10154,6 +10243,10 @@ msgstr "Amaga les opcions"
 msgid "Hide password"
 msgstr "Amaga la contrasenya"
 
+#: wp-includes/js/dist/block-library.js:10547
+msgid "Hide the teaser before the \"More\" tag"
+msgstr "Amaga el resum abans de l’etiqueta \"més\""
+
 #: wp-includes/script-loader.php:1198
 msgid "Hindi"
 msgstr "Hindi"
@@ -10852,6 +10945,10 @@ msgstr "Termes inexistents."
 msgctxt "HTML elements"
 msgid "Inline"
 msgstr "Alineat"
+
+#: wp-includes/js/dist/editor.js:17378
+msgid "Inline Elements"
+msgstr "Elements en línia"
 
 #: wp-includes/js/dist/format-library.js:558
 msgid "Inline Image"
@@ -12279,6 +12376,14 @@ msgctxt "genitive"
 msgid "March"
 msgstr "març"
 
+#: wp-includes/js/dist/block-library.js:10590
+msgid ""
+"Mark the excerpt of this content. Content before this block will be shown in "
+"the excerpt on your archives page."
+msgstr ""
+"Marca l'extracte d'aquest contingut. El contingut d'abans d’aquest bloc es "
+"mostrarà a l’extracte de la pàgina d’arxius."
+
 #: wp-includes/customize/class-wp-customize-custom-css-setting.php:161
 msgid "Markup is not allowed in CSS."
 msgstr "El llenguatge de marques no està permès en el CSS."
@@ -13102,6 +13207,14 @@ msgstr "Sense color"
 msgid "No comments to show."
 msgstr "No s'han trobat comentaris."
 
+#: wp-includes/class-pop3.php:172 wp-includes/class-pop3.php:215
+#: wp-includes/class-pop3.php:240 wp-includes/class-pop3.php:282
+#: wp-includes/class-pop3.php:356 wp-includes/class-pop3.php:396
+#: wp-includes/class-pop3.php:426 wp-includes/class-pop3.php:460
+#: wp-includes/class-pop3.php:523 wp-includes/class-pop3.php:588
+msgid "No connection to server"
+msgstr "No hi ha connexió amb el servidor"
+
 #: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:530
 #: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:731
 msgid "No data supplied."
@@ -13136,6 +13249,10 @@ msgstr "No hi ha elements"
 msgid "No items found."
 msgstr "No s'han trobat elements."
 
+#: wp-includes/class-pop3.php:178
+msgid "No login ID submitted"
+msgstr "No s’ha enviat cap ID d'entrada"
+
 #: wp-includes/class-wp-customize-manager.php:5110
 msgid "No logo selected"
 msgstr "No s'ha seleccionat cap logotip"
@@ -13156,6 +13273,10 @@ msgstr "No s'ha creat cap menú encara. <a href=\"%s\">Creeu algun</a>."
 msgid "No more comments found."
 msgstr "No s'han trobat més comentaris."
 
+#: wp-includes/class-pop3.php:593
+msgid "No msg number submitted"
+msgstr "No s’ha enviat cap número de missatge"
+
 #: wp-includes/post.php:1631
 msgid "No pages found in Trash."
 msgstr "No s'ha trobat cap pàgina a la paperera."
@@ -13163,6 +13284,10 @@ msgstr "No s'ha trobat cap pàgina a la paperera."
 #: wp-includes/post.php:1630
 msgid "No pages found."
 msgstr "No s'ha trobat cap pàgina."
+
+#: wp-includes/class-pop3.php:145 wp-includes/class-pop3.php:181
+msgid "No password submitted"
+msgstr "No s'ha enviat cap contrasenya"
 
 #: wp-includes/script-loader.php:1501
 msgid "No personal data export file was generated."
@@ -13207,6 +13332,14 @@ msgstr ""
 msgid "No search term specified. Showing recent items."
 msgstr ""
 "No s'ha especificat cap terme de cerca. Es mostren els articles més recents."
+
+#: wp-includes/class-pop3.php:186
+msgid "No server banner"
+msgstr "No hi ha cap banner del servidor"
+
+#: wp-includes/class-pop3.php:92
+msgid "No server specified"
+msgstr "No s’ha especificat cap servidor"
 
 #: wp-includes/taxonomy.php:563
 msgid "No tags"
@@ -14143,6 +14276,10 @@ msgstr "Etiqueta pre"
 msgid "Preload"
 msgstr "Precàrrega "
 
+#: wp-includes/class-pop3.php:333
+msgid "Premature end of list"
+msgstr "La llista s'ha acabat prematurament"
+
 #: wp-includes/class-wp-customize-manager.php:5377
 msgctxt "Background Preset"
 msgid "Preset"
@@ -14234,6 +14371,10 @@ msgstr "Privat: %s"
 #: wp-includes/script-loader.php:1553
 msgid "Privately Published"
 msgstr "Publicat com a privada"
+
+#: wp-includes/js/dist/block-library.js:6314
+msgid "Prompt visitors to take action with a custom button."
+msgstr "Demana als visitants que actuïn amb un botó personalitzat."
 
 #: wp-includes/feed-rss2-comments.php:103
 msgid "Protected Comments: Please enter your password to view comments."
@@ -14463,6 +14604,13 @@ msgstr "Data de registre de l'usuari."
 #: wp-signup.php:937
 msgid "Registration has been disabled."
 msgstr "El registre s'ha desactivat."
+
+#: wp-includes/js/dist/block-library.js:4361
+#: wp-includes/js/dist/block-library.js:11048
+#: wp-includes/js/dist/block-library.js:12645
+msgctxt "block style"
+msgid "Regular"
+msgstr "Regular"
 
 #: wp-login.php:1077 wp-includes/general-template.php:405
 msgid "Remember Me"
@@ -14811,6 +14959,11 @@ msgstr "Rols assignats a l'usuari"
 msgid "Romanian"
 msgstr "Romanès"
 
+#: wp-includes/js/dist/block-library.js:6332
+msgctxt "block style"
+msgid "Rounded"
+msgstr "Arrodonit"
+
 #: wp-includes/rest-api.php:43
 msgid "Route must be specified."
 msgstr "Cal especificar una ruta."
@@ -15051,6 +15204,11 @@ msgstr "Cerca"
 msgctxt "Theme starter content"
 msgid "Search"
 msgstr "Cerca"
+
+#: wp-includes/js/dist/editor.js:28075
+msgctxt "term"
+msgid "Search %s"
+msgstr "Cerca %s"
 
 #: wp-includes/post.php:269
 msgid "Search Blocks"
@@ -15382,6 +15540,10 @@ msgstr "Feu clic a la tecla de majúscules per editar aquest element."
 msgid "Shift-click to edit this widget."
 msgstr ""
 "Prem la tecla majúscula i fes clic amb el ratolí per editar aquest giny"
+
+#: wp-includes/js/dist/block-library.js:11578
+msgid "Short Line"
+msgstr "Línia curta"
 
 #: wp-includes/js/dist/block-library.js:11630
 #: wp-includes/js/dist/block-library.js:11684
@@ -15871,6 +16033,15 @@ msgstr ""
 "Ho sentim, no es pot carregar el vídeo de l'URL subministrada. Comproveu que "
 "es tracta d'un fitxer de vídeo compatible (%s) o un streaming (per exemple, "
 "YouTube i Vimeo)."
+
+#: wp-includes/js/dist/block-library.js:7833
+msgid "Sorry, we cannot preview this embedded content in the editor."
+msgstr "No podem previsualitzar aquest contingut incrustat a l’editor."
+
+# MODIFICAT XTEC
+#: wp-includes/js/dist/block-library.js:7670
+msgid "Sorry, we could not embed that content."
+msgstr "No s'ha pogut incrustar aquest contingut."
 
 #: wp-includes/class-wp-xmlrpc-server.php:3925
 #: wp-includes/class-wp-xmlrpc-server.php:4007
@@ -16467,6 +16638,10 @@ msgstr "L'estat està prohibit."
 msgctxt "post format archive title"
 msgid "Statuses"
 msgstr "Estats"
+
+#: wp-includes/js/dist/editor.js:27604
+msgid "Stick to the Front Page"
+msgstr "Enganxa a la pàgina principal"
 
 #: wp-signup.php:841
 msgid "Still waiting for your email?"
@@ -17142,6 +17317,14 @@ msgid ""
 "The description will be displayed in the menu if the current theme supports "
 "it."
 msgstr "La descripció es mostrarà en el menú si el tema actual ho suporta."
+
+#: wp-includes/js/dist/block-library.js:8319
+msgid "The download button is hidden."
+msgstr "El botó de descàrrega està amagat."
+
+#: wp-includes/js/dist/block-library.js:8319
+msgid "The download button is visible."
+msgstr "El botó de descàrrega és visible."
 
 #. translators: 1: link to user profile, 2: additional link attributes, 3: accessibility text
 #: wp-includes/class-wp-customize-manager.php:5587
@@ -18885,7 +19068,17 @@ msgstr ""
 msgid "Use the classic WordPress editor."
 msgstr "Utilitza l'editor clàssic del WordPress."
 
-#: includes/admin/metaboxes.php:135
+#: wp-includes/js/dist/components.js:28757
+msgid ""
+"Use your arrow keys to change the base color. Move up to lighten the color, "
+"down to darken, left to increase saturation, and right to decrease "
+"saturation."
+msgstr ""
+"Utilitzeu les tecles de cursor per canviar el color de base. Amunt per "
+"aclarir el color, cap avall per enfosquir-lo, a l'esquerra per augmentar la "
+"saturació i a la dreta per disminuir-la."
+
+#: wp-includes/user.php:2945
 msgid "User"
 msgstr "Usuari"
 
@@ -20375,6 +20568,14 @@ msgstr ""
 msgid "Your work will be published at the specified date and time."
 msgstr "El treball es publicarà a la data i hora especificada."
 
+#: wp-includes/js/dist/edit-post.js:2962
+msgid ""
+"You’ll find more settings for your page and blocks in the sidebar. Click "
+"“Settings” to open it."
+msgstr ""
+"Trobareu més paràmetres per a la vostra pàgina i blocs a la barra lateral. "
+"Feu clic a \"Configuració\" per obrir-los."
+
 #. translators: label for ordering posts by title in descending order
 #: wp-includes/js/dist/components.js:33472
 msgid "Z → A"
@@ -20480,6 +20681,10 @@ msgstr "[%s] Informació del vostre nom d'usuari i contrasenya"
 msgid "[deleted]"
 msgstr "[esborrat]"
 
+#: wp-includes/class-pop3.php:186 wp-includes/class-pop3.php:196
+msgid "abort"
+msgstr "cancel·la"
+
 #: wp-includes/class-wp-query.php:1434
 msgctxt "Comma-separated list of search stopwords in your language"
 msgid ""
@@ -20560,6 +20765,10 @@ msgstr ""
 msgid "am"
 msgstr "am"
 
+#: wp-includes/class-pop3.php:196
+msgid "apop authentication failed"
+msgstr "ha fallat l’autenticació APOP"
+
 #: wp-includes/js/dist/block-library.js:2182
 #: wp-includes/js/dist/block-library.js:2191
 #: wp-includes/js/dist/block-library.js:2317
@@ -20581,6 +20790,14 @@ msgstr "llista de pics"
 #: wp-includes/script-loader.php:841
 msgid "close tags"
 msgstr "Tanca les etiquetes"
+
+#: wp-includes/class-pop3.php:486
+msgid "connection does not exist"
+msgstr "la connexió no existeix"
+
+#: wp-includes/class-pop3.php:128 wp-includes/class-pop3.php:148
+msgid "connection not established"
+msgstr "connexió no establerta"
 
 #: wp-includes/js/dist/block-library.js:11575
 msgid "divider"
@@ -20721,6 +20938,10 @@ msgstr "Nou bucle del WordPress"
 #: wp-includes/js/dist/block-library.js:10692
 msgid "next page"
 msgstr "pàgina següent"
+
+#: wp-includes/class-pop3.php:125
+msgid "no login ID submitted"
+msgstr "no s’ha enviat cap ID d'entrada"
 
 #: wp-includes/js/dist/editor.js:24525
 msgid "no parent"
@@ -36442,14 +36663,28 @@ msgstr "nom d'usuari"
 msgid "%1$s should not be %2$s"
 msgstr "%1$s no hauria de ser %2$s"
 
-#: classes/PodsAPI.php:7610
+#: admin/class-wptelegram-admin.php:412
 msgid "%s is empty"
 msgstr "%s està buit"
+
+#: modules/p2tg/class-wptelegram-p2tg-admin.php:513
+msgid "%s should not be checked"
+msgstr "%s no s'hauria de marcar"
+
+#: admin/class-wptelegram-admin.php:93
+msgid ""
+"A message will be sent to the Channel/Chat. You can modify the text below"
+msgstr ""
+"S'enviarà un missatge al canal/xat. Podeu modificar el text a continuació"
 
 #: admin/partials/wptelegram-admin-display.php:140
 msgid "A message will be sent to the chat_ids. You can modify the text below"
 msgstr ""
 "S'enviarà un missatge a totes les chat_ids. Pots modificar el text a sota"
+
+#: modules/p2tg/class-wptelegram-p2tg-admin.php:152
+msgid "A new post is published"
+msgstr "S'ha publicat una entrada nova"
 
 #: modules/p2tg/class-wptelegram-p2tg-rules.php:75
 #: modules/p2tg/class-wptelegram-p2tg-admin.php:532
@@ -36464,9 +36699,25 @@ msgstr "ATENCIÓ!"
 msgid "Activate the modules you want to use."
 msgstr "Activeu els mòduls que voleu utilitzar."
 
+#: modules/notify/class-wptelegram-notify-admin.php:208
+msgid "Add %s to the group to get its Chat ID."
+msgstr "Afegix %s al node per obtenir el seu ID de xat."
+
+#: modules/p2tg/class-wptelegram-p2tg-admin.php:289
+msgid "Add Inline URL Button"
+msgstr "Afegeix un botó d'URL en línia"
+
+#: modules/notify/class-wptelegram-notify-admin.php:210
+msgid "Add YOUR OWN BOT to the group."
+msgstr "Afegiu un BOT vostre al grup."
+
 #: admin/class-wptelegram-admin-settings.php:378
 msgid "Add a hashtag at the end of the message."
 msgstr "Afegeix una etiqueta al final del missatge."
+
+#: modules/p2tg/class-wptelegram-p2tg-admin.php:290
+msgid "Add an inline clickable button for the post URL just below the message."
+msgstr "Afegeix un botó en línia per a l’URLde l'entrada a sota del missatge."
 
 #: admin/class-wptelegram-admin-settings.php:472
 #: modules/p2tg/class-wptelegram-p2tg-admin.php:902
@@ -36518,6 +36769,10 @@ msgstr "Autors"
 msgid "Before the Text"
 msgstr "Abans del Text"
 
+#: admin/class-wptelegram-admin.php:289
+msgid "Bot API"
+msgstr "API del Bot"
+
 #: admin/class-wptelegram-admin.php:192
 #: admin/class-wptelegram-admin-settings.php:97
 msgid "Bot Token"
@@ -36535,6 +36790,10 @@ msgstr "El Bot Token és invàlid"
 #: admin/partials/wptelegram-admin-display.php:165
 msgid "Bot Token or chat_ids is empty"
 msgstr "Està buit el Bot Token o la chat_id"
+
+#: admin/class-wptelegram-admin.php:208
+msgid "Bot Username"
+msgstr "Nom d'usuari del Bot"
 
 #: admin/class-wptelegram-admin-settings.php:318
 msgid "Caption Source"
@@ -36624,6 +36883,10 @@ msgstr "Crea un Canal/grup/supergrup"
 msgid "Custom Taxonomy"
 msgstr "Taxonomia personalitzada"
 
+#: modules/proxy/class-wptelegram-proxy-admin.php:201
+msgid "DISCLAIMER!"
+msgstr "Renúncia de responsabilitat."
+
 #: admin/class-wptelegram-admin.php:294
 msgid "Debug Info"
 msgstr "Informació de depuració"
@@ -36671,6 +36934,10 @@ msgstr "No enviïs el segon missatge com a rèplica del primer"
 msgid "Email(s) to watch"
 msgstr "E-mail(s) que cal comprovar"
 
+#: admin/class-wptelegram-admin.php:282
+msgid "Enable logs for"
+msgstr "Activa els registres per"
+
 #: modules/p2tg/class-wptelegram-p2tg-admin.php:903
 msgid "Enter the Channel Username in the field below"
 msgstr "Introduïu el nom d'usuari del canal al camp següent"
@@ -36681,7 +36948,11 @@ msgid ""
 "below"
 msgstr ""
 "Escriu el(s) nom(s) d'usuari del(s) Canal(s) o la(les) Chat ID(s) separats "
-"amb comes en el camp a sota :"
+"amb comes en el camp a sota"
+
+#: modules/notify/class-wptelegram-notify-admin.php:209
+msgid "Enter the Chat ID in %s field below."
+msgstr "Introduïu l’ID del xat al camp %s següent."
 
 #: public/partials/wptelegram-profile-fields.php:40
 msgid "Enter the received chat_id in the field above"
@@ -36752,6 +37023,14 @@ msgstr "Per comoditat, usa"
 msgid "For ease, use %s"
 msgstr "Per facilitar-ho, fes servir %s"
 
+#: modules/p2tg/class-wptelegram-p2tg-admin.php:425
+msgid "For example %1$s and %2$s in WooCommerce"
+msgstr "Per exemple %1$s i %2$s a WooCommerce"
+
+#: modules/p2tg/class-wptelegram-p2tg-admin.php:427
+msgid "For example %1$s or %2$s  in WooCommerce"
+msgstr "Per exemple, %1$s o %2$s a WooCommerce"
+
 #: admin/class-wptelegram-admin-settings.php:653
 #: admin/class-wptelegram-admin-settings.php:654
 msgid "For example %s"
@@ -36765,10 +37044,32 @@ msgstr "Mantén-te connectat"
 msgid "Get it from %s"
 msgstr "Obteniu-ho des de %s"
 
+#: modules/notify/class-wptelegram-notify-admin.php:361
+msgid "Get your Chat ID from %s and enter it above."
+msgstr "Obtingueu el vostre ID de xat de %s i introduïu-lo a sobre."
+
+#: modules/notify/class-wptelegram-notify-admin.php:202
+msgid "Get your Chat ID from %s and enter it below."
+msgstr "Obtingueu el vostre ID de xat de %s i introduïu-lo a continuació."
+
+#: modules/proxy/class-wptelegram-proxy-admin.php:96
+#: modules/proxy/class-wptelegram-proxy-admin.php:102
+msgid "Google Script"
+msgstr "Google Script"
+
 #: admin/class-wptelegram-admin-settings.php:399
 #: modules/proxy/class-wptelegram-proxy-admin.php:109
 msgid "Google Script URL"
 msgstr "URL de Google Script"
+
+#: modules/proxy/class-wptelegram-proxy-admin.php:94
+msgid "Google Script is preferred"
+msgstr "Google Script és preferible"
+
+#: admin/class-wptelegram-admin.php:275
+msgid "Google Script proxy does not support file upload."
+msgstr ""
+"El servidor intermediari de Google Script no admet la càrrega de fitxers."
 
 #: admin/class-wptelegram-admin-settings.php:275
 #: modules/p2tg/class-wptelegram-p2tg-admin.php:239
@@ -36837,7 +37138,8 @@ msgstr "Si n'hi ha més d'un, separa'ls amb comes"
 #: admin/class-wptelegram-admin-settings.php:346
 msgid "If more than one, separate them by comma. Read the instructions above"
 msgstr ""
-"Si n'hi ha més d'un, separa'ls amb comes. Llegeix les instruccions anteriors."
+"Si n'hi ha més d'un, separeu-los amb comes. Llegiu les instruccions "
+"anteriors."
 
 #: admin/class-wptelegram-admin-settings.php:321
 msgid ""
@@ -36852,6 +37154,11 @@ msgstr ""
 #: admin/class-wptelegram-admin-settings.php:467
 msgid "If you haven't"
 msgstr "Si no has"
+
+#: modules/notify/class-wptelegram-notify-admin.php:92
+msgid "If you want to receive notification for every email, then write %s"
+msgstr ""
+"Si voleu rebre una notificació per a cada correu electrònic, escriviu %s"
 
 #: admin/class-wptelegram-admin-settings.php:370
 msgid "If you want to receive notification for every sent email, write"
@@ -36906,11 +37213,30 @@ msgstr "Teclat en línia"
 msgid "Inline button text"
 msgstr "Text del botó en línia"
 
+#. Description of the plugin
+msgid ""
+"Integrate your WordPress site perfectly with Telegram. Send posts "
+"automatically to Telegram when published or updated, whether to a Telegram "
+"Channel, Group, Supergroup or private chat, with full control. Get your "
+"email notifications on Telegram."
+msgstr ""
+"Integreu Telegram al vostre lloc de WordPress . Envieu entrades "
+"automàticament cap a Telegram quan es publiquin o s'actualitzin. Obteniu les "
+"vostres notificacions de correu electrònic a Telegram."
+
+#: admin/class-wptelegram-admin.php:414
+msgid "Invalid %s"
+msgstr "%s no és vàlid"
+
 #: admin/class-wptelegram-admin.php:92 admin/class-wptelegram-admin.php:486
 #: admin/class-wptelegram-admin-settings.php:494
 #: includes/wptelegram-functions.php:180
 msgid "Invalid Bot Token"
 msgstr "Bot Token invàlid"
+
+#: admin/class-wptelegram-admin.php:491
+msgid "Invalid Bot Username"
+msgstr "El nom d’usuari del Bot no és vàlid"
 
 #: admin/class-wptelegram-admin-settings.php:534
 msgid "It is different from a username and is visible only to bots."
@@ -37103,10 +37429,18 @@ msgstr "Contingut de la Publicació"
 msgid "Post Content before Read More tag"
 msgstr "Contingut de la Publicació abans de l'etiqueta Llegeix Més"
 
+#: modules/p2tg/class-wptelegram-p2tg-admin.php:396
+msgid "Post Data"
+msgstr "Dades de l'entrada"
+
 #: admin/class-wptelegram-admin-settings.php:250
 #: modules/p2tg/class-wptelegram-p2tg-admin.php:211
 msgid "Post Excerpt"
 msgstr "Extracte de la Publicació"
+
+#: modules/p2tg/class-wptelegram-p2tg-rules.php:182
+msgid "Post Tag"
+msgstr "Etiqueta de l'entrada"
 
 #: admin/class-wptelegram-admin-settings.php:199
 msgid "Post from all Authors"
@@ -37144,6 +37478,10 @@ msgstr "Proxy"
 msgid "Proxy Host"
 msgstr "Amfitrió del servidor intermediari"
 
+#: modules/proxy/class-wptelegram-proxy-admin.php:84
+msgid "Proxy Method"
+msgstr "Mètode Proxy"
+
 #: admin/class-wptelegram-admin-settings.php:418
 #: modules/proxy/class-wptelegram-proxy-admin.php:132
 msgid "Proxy Port"
@@ -37161,6 +37499,18 @@ msgstr "Tipus de servidor intermediari"
 #: admin/class-wptelegram-admin.php:302
 msgid "Remove settings on uninstall"
 msgstr "Elimina els ajustaments en desinstal·lar"
+
+#: modules/p2tg/class-wptelegram-p2tg-admin.php:427
+msgid "Replace %1$s in %2$s by the name of the Custom Field."
+msgstr "Substituïu %1$s a %2$s pel nom del camp personalitzat."
+
+#: modules/p2tg/class-wptelegram-p2tg-admin.php:425
+msgid ""
+"Replace %1$s in %2$s by the name of the taxonomy to insert its terms "
+"attached to the post."
+msgstr ""
+"Substituïu %1$s a %2$s pel nom de la taxonomia per adjuntar els seus termes "
+"a la publicació."
 
 #: admin/class-wptelegram-admin-settings.php:654
 msgid ""
@@ -37204,10 +37554,18 @@ msgstr "Envia la Imatge Destacada (si n'hi ha)"
 msgid "Send Test"
 msgstr "Envia la Prova"
 
+#: modules/notify/class-wptelegram-notify-admin.php:203
+msgid "Send YOUR OWN BOT a message to start the conversation."
+msgstr "Envieu un missatge al vostre BOT per començar la conversa."
+
 #: admin/class-wptelegram-admin-settings.php:539
 #: public/partials/wptelegram-profile-fields.php:38
 msgid "Send a message to %s"
 msgstr "Envia un missatge a %s"
+
+#: modules/p2tg/class-wptelegram-p2tg-admin.php:266
+msgid "Send both text and image in single message"
+msgstr "Envieu text i imatge en un sol missatge"
 
 #: admin/class-wptelegram-admin-settings.php:796
 msgid "Send file(s)"
@@ -37236,6 +37594,18 @@ msgstr "Envia a Telegram"
 msgid "Send when"
 msgstr "Envia quan"
 
+#: admin/class-wptelegram-admin.php:270
+msgid ""
+"Settings in this section should not be changed unless recommended by WP "
+"Telegram Support."
+msgstr ""
+"Els paràmetres d’aquesta secció no s’han de canviar a no ser que ho hagi "
+"recomanat el suport de WP Telegram."
+
+#: admin/class-wptelegram-admin.php:396
+msgid "Settings updated"
+msgstr "S'ha actualitzat la configuració"
+
 #: admin/partials/wptelegram-admin-header.php:23
 msgid "Shout in"
 msgstr "Difon"
@@ -37248,6 +37618,10 @@ msgstr "Mostra un botó ON/OFF a la pantalla d'edició de la publicació"
 #: modules/p2tg/class-wptelegram-p2tg-admin.php:265
 msgid "Single message"
 msgstr "Missatge únic"
+
+#: modules/notify/class-wptelegram-notify-admin.php:362
+msgid "Start a conversation with %s to receive notifications."
+msgstr "Inicieu una conversa amb %s per rebre notificacions."
 
 #: admin/class-wptelegram-admin-settings.php:546
 msgid ""
@@ -37276,6 +37650,16 @@ msgstr "Port de destinació semblant a %s"
 msgid "Taxonomy Terms"
 msgstr "Termes de taxonomia"
 
+#: admin/class-wptelegram-admin.php:209
+msgid "Telegram Bot username (without %s)."
+msgstr "Nom d'usuari del Bot de Telegram (sense %s)."
+
+#: modules/p2tg/class-wptelegram-p2tg-admin.php:115
+msgid "Telegram Channel Username or Chat ID. Username must start with %s."
+msgstr ""
+"Nom d'usuari o ID de xat del canal de Telegram. El nom d’usuari ha de "
+"començar amb %s."
+
 #: public/partials/wptelegram-profile-fields.php:26
 #: modules/notify/class-wptelegram-notify-admin.php:337
 msgid "Telegram Chat ID"
@@ -37297,6 +37681,10 @@ msgstr "Opcions de Telegram"
 #: admin/class-wptelegram-admin-settings.php:52
 msgid "Telegram Settings"
 msgstr "Ajustaments de Telegram"
+
+#: modules/notify/class-wptelegram-notify-admin.php:101
+msgid "Telegram User or Group Chat ID."
+msgstr "Usuari de Telegram o ID d'un grup de xat"
 
 #: admin/class-wptelegram-admin-settings.php:321
 msgid "Telegram limits photo caption to 200 characters."
@@ -37323,9 +37711,21 @@ msgstr "Prova el Token"
 msgid "Test result:"
 msgstr "Resultat de la Prova:"
 
+#: admin/class-wptelegram-admin.php:460
+msgid "Test your bot token below."
+msgstr "Proveu el vostre token de Bot a continuació."
+
+#: admin/class-wptelegram-admin.php:466
+msgid "That's it! :)"
+msgstr "Això és tot! :)"
+
 #: admin/class-wptelegram-admin-settings.php:480
 msgid "That's it. Happy WPTelegram :)"
 msgstr "Ja està. Gaudeix de WP Telegram :)"
+
+#: modules/p2tg/class-wptelegram-p2tg-admin.php:909
+msgid "That's it. You are ready to rock :)"
+msgstr "Això és tot. Esteu a punt :)"
 
 #: admin/class-wptelegram-admin-settings.php:209
 msgid ""
@@ -37335,11 +37735,45 @@ msgstr ""
 "Els autors als quals no se'ls permet publicar, no veuran el botó ON/OFF a la "
 "pantalla d'edició de publicacions"
 
+#: modules/p2tg/class-wptelegram-p2tg-admin.php:371
+msgid "The delay starts after the post gets published."
+msgstr "El retard comença després d'haver-se publicat l'entrada."
+
+#: modules/proxy/class-wptelegram-proxy-admin.php:190
+msgid ""
+"The module will help you bypass the ban on Telegram by making use of proxy."
+msgstr ""
+"El mòdul us ajudarà a passar per alt la prohibició del Telegram fent ús d'un "
+"servidor intermediari."
+
+#: modules/notify/class-wptelegram-notify-admin.php:173
+msgid ""
+"The module will watch the Email Notifications sent from this site and "
+"deliver them on your Telegram"
+msgstr ""
+"El mòdul observarà les notificacions per correu electrònic enviades des "
+"d’aquest lloc i les enviarà al vostre Telegram"
+
+#: modules/proxy/class-wptelegram-proxy-admin.php:111
+msgid "The requests to Telegram will be sent via your Google Script."
+msgstr ""
+"Les sol·licituds a Telegram s'enviaran a través del vostre Google Script."
+
 #: admin/class-wptelegram-admin-settings.php:184
 msgid "The rule will apply to the selected categories/terms and their children"
 msgstr ""
 "La regla s'aplicarà a les categories seleccionades i a les seves sub-"
 "categories"
+
+#: modules/p2tg/class-wptelegram-p2tg-admin.php:939
+msgid "There was some error!"
+msgstr "S'ha produït un error!"
+
+#: modules/notify/class-wptelegram-notify-admin.php:116
+msgid "They can also enter their Telegram Chat ID manually on %s page"
+msgstr ""
+"També poden introduir la seva ID de xat de Telegram manualment des de la "
+"pàgina %s"
 
 #: admin/class-wptelegram-admin-settings.php:535
 msgid "This chat_id is used by the bots to send messages to a user or group."
@@ -37367,9 +37801,22 @@ msgstr ""
 "Per enviar missatges a un Canal, grup, supergrup o conversa privada de "
 "Telegram, segueix els passos descrits a sota."
 
+#: admin/class-wptelegram-admin.php:274
+msgid "Turn off to upload the files/images instead of passing the url."
+msgstr ""
+"Apagueu-ho per carregar els fitxers/imatges en comptes de passar la URL."
+
 #: admin/class-wptelegram-admin-settings.php:154
 msgid "Updating an existing post"
 msgstr "Actualitzant un missatge existent"
+
+#: modules/notify/class-wptelegram-notify-admin.php:116
+msgid "Use %s to let them connect their Telegram account."
+msgstr "Feu servir %s per permetre'ls connectar el seu compte de Telegram."
+
+#: admin/class-wptelegram-admin.php:211
+msgid "Use %s to set automatically."
+msgstr "Feu servir %s per establir-ho automàticament."
 
 #: modules/proxy/class-wptelegram-proxy-admin.php:202
 msgid "Use the proxy at your own risk!"
@@ -37429,6 +37876,10 @@ msgstr "Quan s'editi un missatge"
 msgid "When publishing a new post"
 msgstr "Quan es faci una nova publicació"
 
+#: modules/p2tg/class-wptelegram-p2tg-admin.php:144
+msgid "When the post should be sent to Telegram"
+msgstr "Quan s’ha d’enviar l’entrada a Telegram"
+
 #: admin/class-wptelegram-admin-settings.php:147
 msgid "When to send?"
 msgstr "Quan enviar?"
@@ -37445,6 +37896,19 @@ msgstr "Quins tipus de publicacions s'han d'enviar."
 msgid "With Caption"
 msgstr "Amb Llegenda"
 
+#: modules/p2tg/class-wptelegram-p2tg-admin.php:888
+msgid "With this module, you can configure how the posts are sent to Telegram"
+msgstr ""
+"Amb aquest mòdul, podeu configurar com s'envien les entrades a Telegram"
+
+#: admin/class-wptelegram-admin.php:442
+msgid ""
+"With this plugin, you can send posts to Telegram and receive notifications "
+"and do lot more :)"
+msgstr ""
+"Aquesta extensió us permet enviar publicacions a Telegram, rebre "
+"notificacions i molt més :)"
+
 #: admin/class-wptelegram-admin-settings.php:313
 msgid "Without Caption"
 msgstr "Sense Llegenda"
@@ -37456,6 +37920,10 @@ msgstr "Ajustaments de WordPress"
 #: modules/p2tg/class-wptelegram-p2tg-admin.php:368
 msgid "WordPress cron should not be disabled!"
 msgstr "El cron de WordPress no s'hauria de desactivar."
+
+#: modules/p2tg/class-wptelegram-p2tg-admin.php:906
+msgid "You can also use the Chat ID of a group or private chat."
+msgstr "També podeu utilitzar l’ID de xat d’un grup o un xat privat."
 
 #: admin/class-wptelegram-admin-settings.php:476
 msgid ""
@@ -37494,6 +37962,10 @@ msgstr ""
 "Pots usar aquest botó per sobreeescriure els ajustaments anteriors per una "
 "publicació concreta"
 
+#: includes/class-wptelegram-helpers.php:105
+msgid "You must set the Bot Token first."
+msgstr "Primer heu d'establir el token del Bot."
+
 #: includes/wptelegram-functions.php:178
 msgid "Your host seems to block requests to %s"
 msgstr "El teu servidor sembla que està bloquejant peticions a %s"
@@ -37513,6 +37985,14 @@ msgstr "https://t.me/WPTelegram"
 msgid "https://t.me/manzoorwanijk"
 msgstr "https://t.me/manzoorwanijk"
 
+#: modules/p2tg/class-wptelegram-p2tg-rules.php:201
+msgid "is in"
+msgstr "està a"
+
+#: modules/p2tg/class-wptelegram-p2tg-rules.php:202
+msgid "is not in"
+msgstr "no està a"
+
 #: admin/class-wptelegram-admin-settings.php:335
 msgid "of the link in text"
 msgstr "de l'enllaç en el text"
@@ -37527,7 +38007,7 @@ msgstr "no s'hauria de comprovar"
 
 #: modules/notify/class-wptelegram-notify-admin.php:388
 msgid "via %s"
-msgstr "Via %s"
+msgstr "via %s"
 
 #. Plugin Name of the plugin
 msgid "Author Category"
@@ -43058,6 +43538,10 @@ msgstr ""
 msgid "Standalone Buttons"
 msgstr "Botons independents"
 
+#: addtoany.admin.php:462
+msgid "Standard:"
+msgstr "Estàndard"
+
 #: add-to-any.php:569
 msgid "Subscribe"
 msgstr "Subscriure's"
@@ -43586,6 +44070,23 @@ msgstr ""
 #: admin/admin-panel.php:567
 msgid "CloudSponge integration will not work without a valid CloudSponge Key."
 msgstr "La integració amb CloudSponge no funcionarà sense un clau vàlida."
+
+#: admin/admin-panel.php:547
+msgid ""
+"CloudSponge is a cool service that gives your users easy and secure access "
+"to their address books (LinkedIn, Gmail, Yahoo, and a number of other online "
+"and desktop email clients), so that they can more easily invite friends to "
+"your site. It's a great way to increase engagement on your site, by making "
+"it easier for them to invite new members. In order to enable CloudSponge "
+"support in Invite Anyone and BuddyPress, you'll need to <a href=\""
+msgstr ""
+"CloudSponge és un servei genial que proporciona un accés fàcil i segur a les "
+"llibretes d'adreces dels seus usuaris (LinkedIn, Gmail, Yahoo i altres "
+"clients de correu electrònic en línia i d'escriptori), de manera que puguin "
+"convidar més fàcilment amics al vostre lloc. És una bona manera d’augmentar "
+"la participació al vostre lloc, fent-los més fàcil convidar membres nous. "
+"Per activar CloudSponge a Invite Anyone i BuddyPress, necessitareu <a href = "
+"\""
 
 #: admin/admin-panel.php:334
 msgid "Control the default behavior of Invite Anyone."
@@ -44442,6 +44943,10 @@ msgstr "%s els ha agradat la vostra actualització"
 #: includes/install-functions.php:110 includes/install-functions.php:111
 msgid "%s likes this."
 msgstr "%s els agrada això."
+
+#: includes/notifications.php:98
+msgid "%s, %s and %d "
+msgstr "%s, %s i %d "
 
 #: includes/install-functions.php:58 includes/install-functions.php:59
 msgid "%user% liked %author%'s <a href=\"%permalink%\">update</a>"
@@ -46996,6 +47501,27 @@ msgstr ""
 "<strong>ERROR</strong>: s'han trobat els següents problemes mentre "
 "s'actualitzava l'etiqueta: %s"
 
+#: includes/forums/functions.php:332 includes/forums/functions.php:579
+msgid ""
+"<strong>ERROR</strong>: The following problem(s) have been found with your "
+"forum:"
+msgstr ""
+"<strong>ERROR</strong>: S'han trobat els següents problemes amb el fòrum:"
+
+#: includes/replies/functions.php:453 includes/replies/functions.php:758
+msgid ""
+"<strong>ERROR</strong>: The following problem(s) have been found with your "
+"reply:"
+msgstr ""
+"<strong>ERROR</strong>: S'han trobat els següents problemes amb la resposta:"
+
+#: includes/topics/functions.php:428 includes/topics/functions.php:784
+msgid ""
+"<strong>ERROR</strong>: The following problem(s) have been found with your "
+"topic:"
+msgstr ""
+"<strong>ERROR</strong>: S'han trobat els següents problemes amb el tema:"
+
 #: includes/forums/functions.php:400
 msgid "<strong>ERROR</strong>: The forum you want to edit was not found."
 msgstr "<strong>ERROR</strong>: no s'ha trobat el fòrum que voleu editar."
@@ -48570,6 +49096,7 @@ msgstr "Desenvolupador de funcionalitats"
 msgid "Forum"
 msgid_plural "Forums"
 msgstr[0] "Fòrum"
+msgstr[1] "Fòrums"
 
 #: includes/forums/functions.php:1616
 msgctxt "Forum accepts new topics"
@@ -62625,7 +63152,7 @@ msgid ""
 "You have been promoted to <b>{{promoted_to}}</b> in the group &quot;<a href="
 "\"{{{group.url}}}\">{{group.name}}</a>&quot;."
 msgstr ""
-"Heu estat promoguts a <b>{{promoted_to}}</b> en el node\b &quot;<a href="
+"Heu estat promoguts a <b>{{promoted_to}}</b> en el node &quot;<a href="
 "\"{{{group.url}}}\">{{group.name}}</a>&quot;."
 
 #. translators: do not remove {} brackets or translate its contents.
@@ -62635,7 +63162,7 @@ msgid ""
 "\n"
 "To visit the group, go to: {{{group.url}}}"
 msgstr ""
-"Heu estat promoguts a  {{promoted_to}} en el node\b: \"{{group.name}}\".\n"
+"Heu estat promoguts a  {{promoted_to}} en el node: \"{{group.name}}\".\n"
 "\n"
 "Per visitar el node, aneu a: {{{group.url}}}"
 
@@ -64976,18 +65503,226 @@ msgstr "i %d més"
 msgid "http://github.com/boonebgorges/buddypress-docs"
 msgstr "http://github.com/boonebgorges/buddypress-docs"
 
+#: admin/partials/help.php:43
+msgid ""
+" (like Confirmation, Welcome, Admin emails), Cron Settings and Assign User "
+"Roles"
+msgstr ""
+" (com ara confirmació, benvinguda, correus electrònics d'administració), "
+"configuració de Cron i assignació de rols d'usuari"
+
+#: admin/partials/dashboard.php:73
+msgid "\" to it."
+msgstr "\" a això."
+
+#: includes/admin/class-es-post-notifications.php:300
+msgid ""
+"(Optional) Select custom post type for which you want to send notification."
+msgstr ""
+"(Opcional) Seleccioneu el tipus de publicació personalitzat pel qual voleu "
+"enviar la notificació."
+
+#: admin/partials/dashboard.php:72
+msgid ""
+"1. Created a lead collecting form and added it the default widget area in "
+"your WP admin"
+msgstr ""
+"1. S'ha creat un formulari de recopilació de resultats i s'ha afegit l'àrea "
+"de ginys per defecte del vostre administrador de WP"
+
+#: admin/partials/dashboard.php:60
+msgid ""
+"1. Newsletters are now <b>Broadcasts</b>. Broadcasts and Post notifications "
+"are now merged in <a href=\"%s\" target=\"_blank\">Campaigns</a>"
+msgstr ""
+"1. Els butlletins ara són <b>Difusions</b>. Les difusions i les "
+"notificacions de publicació ara s'han unit a <a href=\"%s\" target=\"_blank"
+"\">Campanyes</a>"
+
+#: admin/partials/dashboard.php:73
+msgid "2. Created a \"Test\" subscriber list and added \""
+msgstr ""
+"2. S'ha creat una \"llista de subscriptors\" de prova i s'hi ha afegit \""
+
+#: admin/partials/dashboard.php:61
+msgid ""
+"2. Subscribers are now called <b>Contacts</b> and part of an <a href=\"%s\" "
+"target=\"_blank\">Audience</a>"
+msgstr ""
+"2. Els subscriptors ara es diuen <b>Contactes</b> i formen part d’una <a "
+"href=\"%s\" target=\"_blank\">Audiència</a>"
+
+#: admin/partials/dashboard.php:62
+msgid "3. Groups are now called <a href=\"%s\" target=\"_blank\">Lists</a>"
+msgstr "3. Els grups are es diuen <a href=\"%s\" target=\"_blank\">Llistes</a>"
+
+#: admin/partials/dashboard.php:74
+msgid ""
+"3. Sent a test post notification, test broadcasts to the test subscriber "
+"list."
+msgstr ""
+"3. S'ha enviat una notificació de publicació de prova i proves de difusió a "
+"la llista de subscriptors de prova."
+
+#: admin/partials/dashboard.php:75
+msgid "4. Created a first form."
+msgstr "4. S'ha creat un primer formulari."
+
+#: admin/partials/dashboard.php:63
+msgid "4. Find <a href=\"%s\" target=\"_blank\">Forms</a> here"
+msgstr ""
+"4. Cerqueu els <a href=\"%s\" target=\"_blank\">formularis</a> des d'aquí"
+
+#: includes/admin/class-es-reports-table.php:48
+msgid ""
+"<a href='%s' target='_blank' class='page-title-action es-imp-button'>Send "
+"Queued Emails Now</a>"
+msgstr ""
+"<a href='%s' target='_blank' class='page-title-action es-imp-button'>Envia "
+"ara els correus de la cua</a>"
+
+#: includes/admin/class-es-reports-table.php:51
+msgid "<br /><span class='es-helper'>No emails found in queue</span>"
+msgstr ""
+"<br /><span class='es-helper'>No s’ha trobat cap correu electrònic a la cua</"
+"span>"
+
+#: includes/admin/class-es-reports-table.php:50
+msgid ""
+"<span class='page-title-action button-disabled'>Send Queued Emails Now</span>"
+msgstr ""
+"<span class='page-title-action button-disabled'>Envia ara el correus de la "
+"cua</span>"
+
+#: admin/partials/dashboard.php:133
+msgid ""
+"<span style=\"color:#ff6f7b\">Join our</span> Email Subscribers Secret Club!"
+msgstr "<span style=\"color:#ff6f7b\">Uniu-vos</span> al nostre club secret"
+
+#: includes/notices/class-es-admin-notices.php:97
+msgid "Action failed. Please refresh the page and retry."
+msgstr "L'acció ha fallat. Actualitzeu la pàgina i torneu-ho a provar."
+
+#: includes/admin/class-es-lists-table.php:426
+msgid "Active Contacts"
+msgstr "Contactes actius"
+
+#: includes/admin/class-es-export-subscribers.php:103
+#: includes/admin/class-es-import-subscribers.php:207
+#: includes/admin/class-es-handle-sync-wp-user.php:70
+#: includes/admin/class-es-subscribers-table.php:54
+#: includes/admin/class-es-subscribers-table.php:120
+msgid "Add New Contact"
+msgstr "Afegeix un contacte nou"
+
+#: admin/partials/dashboard.php:89
+msgid "Add Subscribe form"
+msgstr "Afegeix un formulari de subscripció"
+
+#. Description of the plugin
+msgid ""
+"Add subscription forms on website, send HTML newsletters & automatically "
+"notify subscribers about new blog posts once it is published."
+msgstr ""
+"Afegiu formularis de subscripció al lloc web, envieu butlletins HTML i "
+"notifiqueu automàticament als subscriptors que hi ha entrades noves quan es "
+"publiquin."
+
+#: includes/admin/class-es-admin-settings.php:193
+msgid ""
+"Add text which you want your contact to see in footer to unsubscribe. Use "
+"{{UNSUBSCRIBE-LINK}} keyword to add unsubscribe link."
+msgstr ""
+"Afegiu el text que voleu que el vostre contacte vegi al peu de pàgina per "
+"tal de donar-se de baixa. Utilitzeu la paraula clau {{UNSUBSCRIBE-LINK}} per "
+"afegir un enllaç de baixa."
+
+#: admin/partials/help.php:33
+msgid "Additional form settings"
+msgstr "Configuració addicional del formulari"
+
+#: includes/admin/class-es-admin-settings.php:385
+msgid "Admin Notification On Every Campaign Sent"
+msgstr "Notificació d'administració a totes les campanyes enviades"
+
+#: includes/admin/class-es-admin-settings.php:349
+msgid "Admin Notification On New Subscription"
+msgstr "Notificació d'administració a cada nova subscripció"
+
 #: cron/cron-add.php:107
 msgid "Admin Report"
 msgstr "Informe d'Administració"
+
+#: includes/admin/class-es-export-subscribers.php:70
+#: includes/admin/class-es-lists-table.php:427
+msgid "All Contacts"
+msgstr "Tots els contactes"
+
+#: admin/partials/pricing.php:224
+msgid "All features of Email Subscribers free plugin + everything below:"
+msgstr ""
+"Totes les funcions de l'extensió subscriptors de correu electrònic + tot a "
+"continuació:"
+
+#: includes/admin/class-es-forms-table.php:309
+msgid "Allow contact to choose list(s)"
+msgstr "Permet que el contacte trii les llistes"
+
+#: includes/admin/class-es-forms-table.php:310
+msgid "Allow contacts to choose list(s) in which they want to subscribe."
+msgstr ""
+"Permet que els contactes triïn les llistes a les quals volen subscriure's."
+
+#: includes/notices/views/html-notice-update.php:29
+msgid "Are you sure you wish to run the updater now?"
+msgstr "Voleu executar l’actualització ara?"
 
 #: admin/partials/dashboard.php:81 admin/class-email-subscribers-admin.php:143
 msgid "Audience"
 msgstr "Audiència"
 
+#: includes/admin/class-es-subscribers-table.php:53
+msgid "Audience > Contacts"
+msgstr "Audiència > Contactes"
+
+#: includes/admin/class-es-export-subscribers.php:102
+msgid "Audience > Export Contacts"
+msgstr "Audiència > Exportació de contactes"
+
+#: includes/admin/class-es-import-subscribers.php:206
+msgid "Audience > Import Contacts"
+msgstr "Audiència > Importació de contactes"
+
+#: includes/admin/class-es-lists-table.php:42
+msgid "Audience > Lists"
+msgstr "Audiència > Llistes"
+
+#: includes/admin/class-es-handle-sync-wp-user.php:69
+msgid "Audience > Sync Contacts"
+msgstr "Audiència > Sincronització de contactes"
+
+#: admin/partials/help.php:22
+msgid "Automatically add Unsubscribe link in the email."
+msgstr ""
+"Afegeix automàticament un enllaç de cancel·lació de la subscripció al correu "
+"electrònic."
+
 #: includes/admin/class-es-templates-table.php:45
 #: includes/admin/class-es-templates-table.php:49
 msgid "Available Keywords"
 msgstr "Paraules clau disponibles"
+
+#: admin/partials/dashboard.php:134
+msgid ""
+"Be a part of development, share your valuable feedback and get early access "
+"to our upcoming <strong>Email Subscribers 5.0</>"
+msgstr ""
+"Formeu part del desenvolupament, compartiu els seus valuosos comentaris i "
+"obtingueu accés anticipat al proper <strong>Email Subscribers 5.0</>"
+
+#: includes/admin/class-es-admin-settings.php:454
+msgid "Blocked Domain(s)"
+msgstr "Dominis bloquejats"
 
 #: admin/class-email-subscribers-admin.php:141
 #: includes/admin/class-es-campaigns-table.php:186
@@ -64995,22 +65730,138 @@ msgstr "Paraules clau disponibles"
 msgid "Broadcast"
 msgstr "Emissió"
 
+#: admin/partials/dashboard.php:104
+msgid ""
+"Build your list and succeed with email marketing <div>in 5 short weeks</div>"
+msgstr ""
+"Creeu la vostra llista i tingueu èxit amb el màrqueting per correu "
+"electrònic <div>en només 5 setmanes</div>"
+
+#: admin/partials/help.php:91
+msgid "CSS Help"
+msgstr "Ajuda de CSS"
+
 #: includes/admin/class-es-campaigns-table.php:19
 #: includes/admin/class-es-campaigns-table.php:20
 msgid "Campaign"
 msgstr "Campanya"
 
+#: includes/admin/class-es-cron.php:132
+#: includes/admin/class-es-admin-settings.php:404
+msgid "Campaign Sent!"
+msgstr "S'ha enviat la campanya"
+
+#: includes/admin/class-es-campaigns-table.php:337
+msgid "Campaign has been deleted successfully!"
+msgstr "La campanya s'ha suprimit correctament."
+
+#: includes/admin/class-es-campaigns-table.php:356
+msgid "Campaign(s) have been deleted successfully!"
+msgstr "Les campanyes s’han suprimit correctament."
+
+#: admin/partials/dashboard.php:83 admin/class-email-subscribers-admin.php:144
+#: includes/admin/class-es-campaigns-table.php:36
+#: includes/admin/class-es-campaigns-table.php:49
+#: includes/admin/class-es-post-notifications.php:234
+#: includes/admin/class-es-newsletters.php:76
+msgid "Campaigns"
+msgstr "Campanyes"
+
+#: includes/admin/class-es-newsletters.php:75
+msgid "Campaigns > Broadcast"
+msgstr "Campanyes > Difusió"
+
+#: includes/admin/class-es-post-notifications.php:218
+msgid "Campaigns > New Post Notification"
+msgstr "Campanyes > Notificació de publicacions noves"
+
+#: includes/admin/class-es-post-notifications.php:221
+msgid "Campigns > Edit Post Notification"
+msgstr "Campanyes > Edició de notificacions de publicació"
+
+#: includes/admin/class-es-subscribers-table.php:584
+msgid "Change Status"
+msgstr "Canvia l'estat"
+
+#: includes/admin/class-es-import-subscribers.php:159
+msgid "Check CSV structure"
+msgstr "Comprova l'estructura del CSV"
+
+#: admin/partials/pricing.php:231
+msgid "Check email status & increase email success rate"
+msgstr "Comprova l’estat del correu i augmenta la taxa d’èxit"
+
+#: includes/admin/class-es-admin-settings.php:141
+msgid ""
+"Choose a FROM email address for all the emails to be sent from this plugin"
+msgstr ""
+"Trieu una adreça de correu electrònic d'origen per a tots els correus "
+"electrònics que s’enviaran des d’aquesta extensió"
+
+#: admin/partials/help.php:17
+msgid ""
+"Collect customer emails by adding a subscription box (Widget/Shortcode/PHP "
+"Code)."
+msgstr ""
+"Recolliu correus electrònics de clients afegint un quadre de subscripció "
+"(Giny/Codi curt/Codi PHP)."
+
+#: admin/partials/pricing.php:258
+msgid ""
+"Communicate with subscribers. Redirect them to beautifully designed "
+"<strong>confirmation and unsubscribe pages</strong> on your website."
+msgstr ""
+"Comunique-vos amb els subscriptors. Redirigiu-los a les <strong>pàgines de "
+"confirmació i cancel·lació de la subscripció</strong> del vostre lloc web."
+
+#: admin/partials/help.php:18
+msgid "Configure double Opt-In and Single Opt-In facility for subscribers."
+msgstr "Configureu la inscripció doble/única per als subscriptors."
+
+#: includes/es-backward.php:99
+msgid "Confirm Your Subscription!"
+msgstr "Confirmeu la vostra subscripció."
+
 #: includes/admin/class-es-admin-settings.php:319
 msgid "Confirmation Email"
 msgstr "Correu electrònic de confirmació"
+
+#: admin/partials/dashboard.php:58
+msgid "Congratulations! You've successfully upgraded to "
+msgstr "Felicitats! Us heu actualitzat correctament a "
 
 #: includes/admin/class-es-subscribers-table.php:20
 msgid "Contact"
 msgstr "Contacteu"
 
+#: admin/partials/dashboard.php:146
+msgid "Contact Us"
+msgstr "Contacteu amb nosaltres"
+
 #: includes/admin/class-es-subscribers-table.php:188
 msgid "Contact already exist."
 msgstr "El contacte ja existeix."
+
+#: includes/admin/class-es-subscribers-table.php:184
+msgid "Contact has been added successfully!"
+msgstr "El contacte s’ha afegit correctament."
+
+#: includes/admin/class-es-subscribers-table.php:667
+msgid "Contact have been updated successfully!"
+msgstr "El contacte s'ha actualitzat correctament."
+
+#: includes/admin/class-es-subscribers-table.php:322
+msgid "Contact updated successfully!"
+msgstr "El contacte s'ha actualitzat correctament."
+
+#: includes/admin/class-es-subscribers-table.php:684
+#: includes/admin/class-es-subscribers-table.php:742
+msgid "Contact(s) have been deleted successfully!"
+msgstr "Els contactes s'han eliminat correctament."
+
+#: includes/admin/class-es-subscribers-table.php:783
+msgid "Contact(s) have been moved to list successfully!"
+msgstr "Els contactes s'han mogut correctament a la llista"
 
 #: includes/admin/class-es-export-subscribers.php:59
 #: includes/admin/class-es-subscribers-table.php:21
@@ -65018,22 +65869,158 @@ msgstr "El contacte ja existeix."
 msgid "Contacts"
 msgstr "Contactes"
 
+#: includes/admin/class-es-import-subscribers.php:114
+msgid "Contacts are alredy exists."
+msgstr "Els contactes ja existeixen."
+
+#: includes/admin/class-es-post-notifications.php:248
+msgid ""
+"Contacts from the selected list will be notified about new post notification."
+msgstr ""
+"Es notificarà als contactes de la llista seleccionada la notificació de "
+"noves publicacions."
+
+#: includes/admin/class-es-newsletters.php:139
+msgid "Contacts from the selected list will be notified."
+msgstr "Es notificarà els contactes de la llista seleccionada."
+
+#: includes/admin/class-es-forms-table.php:291
+msgid "Contacts will be added into selected list(s)"
+msgstr "Els contactes s’afegiran a les llistes seleccionades"
+
+#: includes/admin/class-es-admin-settings.php:377
+msgid ""
+"Content for the admin email whenever a new subscriber signs up and is "
+"confirmed. Available Keywords: {{NAME}}, {{EMAIL}}, {{LIST}}"
+msgstr ""
+"Contingut per al correu electrònic d'administració sempre que es registri un "
+"nou subscriptor i estigui confirmat. Paraules clau disponibles: {{NAME}}, "
+"{{EMAIL}}, {{LIST}}"
+
+#: includes/admin/class-es-newsletters.php:127
+msgid "Content of the selected template will be broadcasted."
+msgstr "Es difondrà el contingut de la plantilla seleccionada."
+
+#: includes/admin/class-es-post-notifications.php:260
+msgid "Content of the selected template will be sent out as post notification."
+msgstr ""
+"El contingut de la plantilla seleccionada s’enviarà com a notificació de "
+"publicació."
+
+#: includes/admin/class-es-campaigns-table.php:50
+msgid "Create Post Notification"
+msgstr "Crea una notificació de publicació"
+
+#: admin/partials/help.php:59
+msgid "Create and Send Newsletter Emails"
+msgstr "Crea i envia correus electrònics de butlletí de notícies"
+
+#: admin/partials/help.php:82
+msgid "Create and Send Post Notification Emails when new posts are published"
+msgstr ""
+"Crea i envia correus electrònics de notificació de publicació quan es "
+"publiquin entrades noves"
+
+#: includes/admin/class-es-export-subscribers.php:225
+msgid "Created On"
+msgstr "Creada a"
+
+#: admin/partials/help.php:64
+msgid "Cron Job Setup"
+msgstr "Configuració dels treballs Cron"
+
+#: includes/admin/class-es-admin-settings.php:433
+msgid "Cron URL"
+msgstr "URL de Cron"
+
+#: admin/partials/pricing.php:257
+msgid "Customize confirmation and unsubscribe page"
+msgstr ""
+"Personalitzeu la pàgina de confirmació i cancel·lació de la subscripció"
+
 #: includes/admin/class-es-forms-table.php:755
 #: includes/admin/class-es-lists-table.php:562 includes/class-es-common.php:253
 msgid "Disable"
 msgstr "Desactiva"
 
+#: includes/class-es-common.php:106
+msgid "Disable email notification"
+msgstr "Desactiva la notificació per correu electrònic"
+
 #: includes/admin/class-es-old-widget.php:80
 msgid "Display Name Field"
 msgstr "Mostra nom del camp"
+
+#: admin/partials/dashboard.php:111
+msgid ""
+"Do you want to build your list, keep off spam, write emails that people open "
+"and click through? Do you want to build your brand and nurture an amazing "
+"tribe?"
+msgstr ""
+"Voleu crear la vostra llista, evitar el correu brossa, escriure correus "
+"electrònics que la gent obre i hi fa clic? Voleu construir la vostra marca i "
+"fomentar una tribu increïble?"
+
+#: admin/partials/help.php:102
+msgid ""
+"Don't limit your subscriber form to a widget. Embed it within popups, hello "
+"bars, slide-ins, sidebars, full screen popups etc."
+msgstr ""
+"No limiteu el formulari de subscriptor a un giny. Integreu-lo dins d’estors "
+"emergents, barres de salutació, diapositives, barra lateral, finestres "
+"emergents a pantalla completa, etc."
+
+#: admin/partials/pricing.php:254
+msgid ""
+"Don’t waste time on HTML or CSS. Pick one from the many <strong>ready to use "
+"elegant templates</strong> to send your next email campaign."
+msgstr ""
+"No perdeu temps amb HTML o CSS. Trieu una de les moltes <strong>plantilles "
+"elegants predefindies</strong> per enviar la vostra propera campanya de "
+"correu electrònic."
+
+#: includes/class-es-common.php:430
+msgid "Double Opt-In"
+msgstr "Inscripció doble"
+
+#: admin/partials/pricing.php:232
+msgid "Double check the status of the emails addresses and increase "
+msgstr "Comprova l'estat de les adreces de correu electrònic i augmenta "
 
 #: includes/admin/class-es-export-subscribers.php:89
 msgid "Download"
 msgstr "Baixa"
 
+#: admin/partials/help.php:23
+msgid "Easily migrate subscribers from another app using Import & Export."
+msgstr ""
+"Migreu fàcilment els subscriptors d’una altra aplicació utilitzant "
+"Importació i Exportació."
+
+#: includes/admin/class-es-subscribers-table.php:327
+msgid "Edit Contact"
+msgstr "Edita el contacte"
+
+#: includes/admin/class-es-forms-table.php:228
+msgid "Edit Form"
+msgstr "Edita el formulari"
+
+#: includes/admin/class-es-lists-table.php:208
+msgid "Edit List"
+msgstr "Edita la llista"
+
 #: classes/es-register.php:1123 classes/es-register.php:1129
 msgid "Email *"
 msgstr "Adreça de correu electrònic *"
+
+#: includes/admin/class-es-handle-subscription.php:381
+#: public/class-email-subscribers-public.php:113
+msgid "Email Address already exists!"
+msgstr "L’adreça de correu electrònic ja existeix!"
+
+#: includes/admin/class-es-admin-settings.php:151
+msgid "Email Addresses"
+msgstr "Adreces electròniques"
 
 #: admin/class-email-subscribers-admin.php:135 classes/es-register.php:162
 #: classes/es-register.php:163 includes/admin/class-es-form-widget.php:11
@@ -65047,18 +66034,72 @@ msgstr "Subscripcions"
 msgid "Email Subscribers & Newsletters"
 msgstr "Subscripcions i Butlletins"
 
+#: includes/admin/class-es-form-widget.php:11
+msgid "Email Subscribers Form"
+msgstr "Formulari de subscripció de correu electrònic"
+
+#: includes/admin/class-es-widget.php:11
+msgid "Email Subscribers Widget"
+msgstr "Giny de subscriptors de correu electrònic"
+
+#: includes/notices/views/html-notice-update.php:19
+#: includes/notices/views/html-notice-updating.php:19
+msgid "Email Subscribers data update"
+msgstr "Actualització de dades de subscriptors de correu electrònic"
+
+#: includes/notices/views/html-notice-updated.php:14
+msgid ""
+"Email Subscribers data update complete. Thank you for updating to the latest "
+"version!"
+msgstr ""
+"S'ha completat l'actualització de dades dels subscriptors de correu "
+"electrònic. Gràcies per actualitzar a la versió més recent."
+
+#: admin/partials/dashboard.php:68
+msgid ""
+"Email Subscribers is a complete newsletter plugin which lets you collect "
+"leads, send automated new blog post notification emails, create & send "
+"newsletters and manage all this in one single place."
+msgstr ""
+"Els subscriptors de correu electrònic són un complement complet del butlletí "
+"de notícies que us permetrà recopilar contactes, enviar missatges de correu "
+"electrònic de notificacions de publicacions noves per bloc, crear i enviar "
+"butlletins i gestionar tot això en un sol lloc."
+
 #: includes/admin/class-es-admin-settings.php:159
 msgid "Email Type"
 msgstr "Tipus de correu electrònic"
+
+#: admin/partials/help.php:110
+msgid ""
+"Email subscribers easily integrates with another <b>free</b> plugin <a class="
+"\"es-cta\" target=\"_blank\" href=\"https://wordpress.org/plugins/icegram-"
+"rainmaker/\">Rainmaker</a>"
+msgstr ""
+"Subscriptors de correu electrònic s'integra fàcilment amb un altre extensió "
+"<b>gratuïta</b> <a class=\"es-cta\" target=\"_blank\" href=\"https://"
+"wordpress.org/plugins/icegram-rainmaker/\">Rainmaker</a>"
 
 #: includes/admin/class-es-forms-table.php:754
 #: includes/admin/class-es-lists-table.php:561 includes/class-es-common.php:252
 msgid "Enable"
 msgstr "Habilita"
 
+#: includes/admin/class-es-admin-settings.php:290
+msgid "Enable?"
+msgstr "Activa?"
+
 #: includes/admin/class-es-reports-table.php:263
 msgid "End Date"
 msgstr "Data de finalització"
+
+#: public/partials/class-es-shortcode.php:168
+msgid "Enter Email Address"
+msgstr "Introduïu l'adreça de correu"
+
+#: public/partials/class-es-shortcode.php:136
+msgid "Enter Name"
+msgstr "Introduïu el nom"
 
 #: includes/admin/class-es-admin-settings.php:153
 msgid ""
@@ -65068,19 +66109,88 @@ msgstr ""
 "Afegiu les adreces de correu electrònic dels administradors que han de rebre "
 "notificacions (separades per comes)."
 
+#: admin/partials/dashboard.php:112
+msgid "Enter your name and email on the form to get it all."
+msgstr ""
+"Introduïu el vostre nom i correu electrònic al formulari per obtenir-hot tot."
+
 #: includes/admin/class-es-admin-settings.php:220
 #: includes/admin/class-es-admin-settings.php:251
 msgid "Error Message"
 msgstr "Missatge d'error"
+
+#: includes/admin/class-es-import-subscribers.php:122
+msgid "Error: Please Select List"
+msgstr "Error: Cal seleccionar una llista"
+
+#: includes/admin/class-es-import-subscribers.php:134
+#: includes/admin/class-es-import-subscribers.php:138
+msgid "Error: Please Upload File"
+msgstr "Error: Cal carregar un fitxer"
+
+#: includes/admin/class-es-import-subscribers.php:130
+msgid "Error: Please Upload only CSV File"
+msgstr "Error: Carregueu només el fitxers CSV"
+
+#: includes/admin/class-es-import-subscribers.php:126
+msgid "Error: Please select status"
+msgstr "Error: Cal seleccionar l'estat"
 
 #. translators: %d: interval
 #: includes/upgrade/class-es-background-process.php:171
 msgid "Every %d minutes"
 msgstr "Cada %d minuts"
 
+#: admin/partials/dashboard.php:65
+msgid "Explore all changes"
+msgstr "Exploreu tots els canvis"
+
+#: includes/admin/class-es-export-subscribers.php:50
+#: includes/admin/class-es-import-subscribers.php:208
+#: includes/admin/class-es-handle-sync-wp-user.php:71
+#: includes/admin/class-es-subscribers-table.php:55
+msgid "Export Contacts"
+msgstr "Exporta els contactes"
+
+#: includes/admin/class-es-export-subscribers.php:192
+msgid "Export the Subscribers"
+msgstr "Exporteu els subscriptors"
+
+#: admin/partials/help.php:92
+msgid "FAQ's"
+msgstr "FAQs"
+
+#: admin/partials/help.php:15
+msgid "Feature Overview"
+msgstr "Descripció general de les funcions"
+
 #: includes/admin/class-es-forms-table.php:266
 msgid "Field"
 msgstr "Camp"
+
+#: includes/admin/class-es-forms-table.php:261
+msgid "Form Fields"
+msgstr "Camps de formulari"
+
+#: includes/admin/class-es-forms-table.php:245
+msgid "Form Name"
+msgstr "Nom del formulari"
+
+#: includes/admin/class-es-forms-table.php:138
+msgid "Form has been added successfully!"
+msgstr "S'ha afegit correctament el formulari."
+
+#: includes/admin/class-es-forms-table.php:716
+msgid "Form has been deleted successfully!"
+msgstr "El formulari s'ha suprimit correctament."
+
+#: includes/admin/class-es-forms-table.php:183
+msgid "Form has been updated successfully!"
+msgstr "El formulari s'ha actualitzat correctament."
+
+#: includes/admin/class-es-forms-table.php:731
+msgid "Form(s) have been deleted successfully!"
+msgstr "S'han eliminat correctament els formularis."
 
 #: admin/partials/dashboard.php:82 admin/class-email-subscribers-admin.php:146
 #: includes/admin/class-es-forms-table.php:19
@@ -65089,21 +66199,209 @@ msgstr "Camp"
 msgid "Forms"
 msgstr "Formularis"
 
+#: admin/partials/pricing.php:240
+msgid "Fullproof email deliverability"
+msgstr "Lliurament de correu electrònic a prova de fallades"
+
+#: admin/partials/help.php:40
+msgid "General Plugin Configuration"
+msgstr "Configuració general de l'extensió"
+
+#: admin/partials/pricing.php:219
+msgid "Get Max Annual"
+msgstr "Obtingueu Max anual"
+
+#: admin/partials/pricing.php:214
+msgid "Get Pro Annual"
+msgstr "Obtingueu Pro anual"
+
+#: admin/partials/pricing.php:209
+msgid "Get Pro Monthly"
+msgstr "Obtingueu Pro mensualment"
+
+#: admin/partials/help.php:108
+msgid "Get beautiful and elegant form styles"
+msgstr "Obtingueu estils de formulari bells i elegants"
+
+#: admin/partials/help.php:26
+msgid "Get detailed sent email reports."
+msgstr "Obtingueu informes detallats del correu electrònic enviat."
+
+#: admin/partials/pricing.php:203
+msgid "Get more with Email Subscribers Pro / Max"
+msgstr "Obtingueu-ne més amb Email Subscribers Pro / Max"
+
+#: admin/partials/dashboard.php:93
+msgid ""
+"Go to Appearance -> Widgets. Click on widget Email subscribers and drag it "
+"to the widget area"
+msgstr ""
+"Aneu a «Aparença > Ginys». Feu clic al giny «Subscriptors de correu "
+"electrònic» i arrossegueu-lo a la zona de ginys"
+
+#: admin/partials/dashboard.php:80
+msgid "Here are some quick links"
+msgstr "Aquí teniu alguns enllaços ràpids"
+
+#: admin/partials/dashboard.php:59
+msgid "Here's a quick look at changes within the plugin:"
+msgstr "Aquí teniu un resum dels canvis a l'extensió:"
+
+#: admin/partials/help.php:69
+msgid "Hosting doesn’t support Cron Jobs?"
+msgstr "L’allotjament no admet treballs de Cron?"
+
+#: admin/partials/help.php:44
+msgid "How does Sync work?"
+msgstr "Com funciona la sincronització?"
+
+#: admin/partials/help.php:105
+msgid ""
+"How to <a href=\"https://www.icegram.com/documentation/es-how-to-show-"
+"subscribe-form-inside-a-popup/?"
+"utm_source=es&utm_medium=in_app&utm_campaign=view_docs_help_page\" target="
+"\"_blank\">show subscribe form inside a popup</a>"
+msgstr ""
+"Com <a href=\"https://www.icegram.com/documentation/es-how-to-show-subscribe-"
+"form-inside-a-popup/?"
+"utm_source=es&utm_medium=in_app&utm_campaign=view_docs_help_page\" target="
+"\"_blank\">mostrar el formulari de subscripció en una finestra emergent</a>"
+
+#: admin/partials/help.php:113
+msgid ""
+"How to <a href=\"https://www.icegram.com/documentation/es-how-to-use-"
+"rainmakers-form-in-email-subscribers/?"
+"utm_source=es&utm_medium=in_app&utm_campaign=view_docs_help_page\" target="
+"\"_blank\">add Rainmaker’s form in Email Subscribers</a>"
+msgstr ""
+"Com <a href=\"https://www.icegram.com/documentation/es-how-to-use-rainmakers-"
+"form-in-email-subscribers/?"
+"utm_source=es&utm_medium=in_app&utm_campaign=view_docs_help_page\" target="
+"\"_blank\">afegir un formulari de Rainmaker</a>"
+
+#: admin/partials/help.php:46
+msgid "How to Add/Update Existing Subscribers List & Status?"
+msgstr ""
+"Com afegir / actualitzar la llista i l'estat dels subscriptors existents?"
+
 #: admin/partials/help.php:45
 msgid "How to Import or Export Email Addresses?"
 msgstr "Com importar o exportar adreces de correu electrònic?"
+
+#: admin/partials/help.php:35
+msgid "How to Redirect Subscribers to a new page/url after successful sign up?"
+msgstr ""
+"Com redirigir els subscriptors a una nova pàgina / URL després de registrar-"
+"se correctament?"
 
 #: admin/partials/help.php:48
 msgid "How to add Unsubscribe link in emails?"
 msgstr "Com afegir el link \"Donar-se de baixa\" en els correus electrònics?"
 
+#: admin/partials/help.php:36
+msgid "How to add captcha in Subscribe form of Email Subscribers?"
+msgstr ""
+"Com afegir captcha al formulari de subscripció dels subscriptors de correu "
+"electrònic?"
+
+#: admin/partials/help.php:47
+msgid "How to change/update/translate any texts from the plugin?"
+msgstr "Com canviar / actualitzar / traduir qualsevol text de l'extensió?"
+
+#: admin/partials/help.php:49
+msgid "How to check sent emails?"
+msgstr "Com es poden consultar els correus electrònics enviats?"
+
+#: admin/partials/help.php:75
+msgid "How to enable consent checkbox in the subscribe form?"
+msgstr ""
+"Com habilitar la casella de selecció de consentiment al formulari de "
+"subscripció?"
+
+#: admin/partials/dashboard.php:122
+msgid "I have read and agreed to your %s."
+msgstr "He llegit i he acceptat el vostre %s."
+
 #. Author of the plugin
 msgid "Icegram"
 msgstr "Icegram"
 
+#: admin/partials/help.php:104
+msgid ""
+"Icegram's beautiful designs instantly capture user attention and help "
+"increase sign-ups to your WordPress website."
+msgstr ""
+"Els atractius dissenys d'Icegram capturen immediatament l'atenció de "
+"l'usuari i ajuden a augmentar els registres al vostre lloc web de WordPress."
+
+#: includes/admin/class-es-admin-settings.php:341
+msgid ""
+"If Double Optin is set, contact will receive confirmation email with above "
+"content. You can use {{NAME}}, {{EMAIL}}, {{SUBSCRIBE-LINK}} keywords"
+msgstr ""
+"Si l'ingrés doble està activat, el contacte rebrà un correu electrònic de "
+"confirmació amb el contingut anterior. Podeu utilitzar les paraules clau "
+"{{NAME}}, {{EMAIL}}, {{SUBSCRIBE-LINK}}"
+
+#: includes/admin/class-es-export-subscribers.php:104
+#: includes/admin/class-es-subscribers-table.php:56
+msgid "Import Contacts"
+msgstr "Importa el contactes"
+
+#: includes/admin/class-es-import-subscribers.php:15
+msgid "Import Subscribers"
+msgstr "Importa els subscriptors"
+
+#: admin/partials/pricing.php:245
+msgid "Insert "
+msgstr "Insereix "
+
+#: includes/admin/class-es-handle-subscription.php:389
+msgid "Invalid Captcha"
+msgstr "El captcha no és vàlid"
+
+#: includes/admin/class-es-handle-subscription.php:383
+#: public/class-email-subscribers-public.php:115
+msgid "Invalid email address"
+msgstr "El correu electrònic no és vàlid"
+
+#: includes/admin/class-es-handle-subscription.php:384
+msgid "Invalid name"
+msgstr "El nom no és vàlid"
+
 #: subscribers/view-subscriber-add.php:164
 msgid "It is necessary to add an email to create a new group."
 msgstr "Cal afegir una adreça de correu electrònic per a crear un grup nou."
+
+#: admin/partials/help.php:60
+msgid "Keywords in the Newsletters"
+msgstr "Paraules clau als butlletins informatius"
+
+#: admin/partials/help.php:83
+msgid "Keywords in the Post Notifications"
+msgstr "Paraules clau a les notificacions de publicació"
+
+#: includes/admin/class-es-lists-table.php:128
+msgid "List has been added successfully!"
+msgstr "La llista s’ha afegit correctament."
+
+#: includes/admin/class-es-lists-table.php:523
+msgid "List has been deleted successfully!"
+msgstr "La llista s'ha eliminat correctament."
+
+#: includes/admin/class-es-lists-table.php:169
+#: includes/admin/class-es-lists-table.php:506
+msgid "List has been updated successfully!"
+msgstr "La llista s'ha actualitzat correctament."
+
+#: includes/admin/class-es-subscribers-table.php:373
+#: includes/admin/class-es-subscribers-table.php:551
+msgid "List(s)"
+msgstr "Llistes"
+
+#: includes/admin/class-es-lists-table.php:538
+msgid "List(s) have been deleted successfully"
+msgstr "Les llistes s’han suprimit correctament"
 
 #: admin/partials/dashboard.php:84 admin/class-email-subscribers-admin.php:139
 #: includes/admin/class-es-forms-table.php:290
@@ -65115,17 +66413,56 @@ msgstr "Llistes"
 msgid "Mail Type"
 msgstr "Tipus de correu"
 
+#: includes/admin/class-es-export-subscribers.php:105
+#: includes/admin/class-es-import-subscribers.php:209
+#: includes/admin/class-es-handle-sync-wp-user.php:72
+#: includes/admin/class-es-lists-table.php:212
+#: includes/admin/class-es-subscribers-table.php:58
+#: includes/admin/class-es-subscribers-table.php:121
+msgid "Manage Lists"
+msgstr "Gestiona les llistes"
+
+#: includes/admin/class-es-campaigns-table.php:52
+#: includes/admin/class-es-post-notifications.php:238
+#: includes/admin/class-es-newsletters.php:77
+msgid "Manage Templates"
+msgstr "Gestió de les plantilles"
+
+#: includes/admin/class-es-admin-settings.php:444
+msgid "Maximum Emails Send In An Hour"
+msgstr "Nombre màxims correus electrònics enviats en una hora"
+
 #: includes/class-es-common.php:439
 msgid "Medium Size"
 msgstr "Mida mitjana"
+
+#: admin/partials/help.php:42
+msgid "Modify "
+msgstr "Modifica "
+
+#: includes/admin/class-es-subscribers-table.php:583
+msgid "Move To List"
+msgstr "Mou a la llista"
 
 #: includes/admin/class-es-old-widget.php:83
 msgid "NO"
 msgstr "No"
 
+#: includes/admin/class-es-forms-table.php:226
+msgid "New Form"
+msgstr "Nou formulari"
+
+#: includes/admin/class-es-admin-settings.php:370
+msgid "New email subscription"
+msgstr "Nova subscripció de correu electrònic"
+
 #: admin/partials/help.php:57
 msgid "Newsletters"
 msgstr "Butlletins"
+
+#: includes/admin/class-es-campaigns-table.php:158
+msgid "No Campaigns Found."
+msgstr "No s’ha trobat cap campanya."
 
 #: includes/class-es-common.php:408
 msgid "No Custom Post Types Available"
@@ -65135,10 +66472,112 @@ msgstr "Sense tipus d'articles personalitzats disponibles"
 msgid "No Data"
 msgstr "Cap dada"
 
+#: includes/admin/class-es-forms-table.php:767
+msgid "No Forms avaliable."
+msgstr "No hi ha formularis disponibles."
+
+#: includes/admin/class-es-reports-table.php:167
+msgid "No Reports avaliable."
+msgstr "No hi ha informes disponibles."
+
+#: includes/admin/class-es-subscribers-table.php:793
+msgid "No contacts avaliable."
+msgstr "No hi ha cap contacte disponible."
+
+#: includes/admin/class-es-export-subscribers.php:27
+msgid "No data available"
+msgstr "No hi ha dades disponibles"
+
+#: includes/admin/class-es-subscribers-table.php:358
+msgid "No list found"
+msgstr "No s’ha trobat cap llista"
+
+#: includes/admin/class-es-post-notifications.php:286
+msgid ""
+"Notification will be sent out when any post from selected categories will be "
+"published."
+msgstr ""
+"La notificació s’enviarà quan es publiqui qualsevol missatge de les "
+"categories seleccionades."
+
+#: includes/admin/class-es-admin-settings.php:354
+#: includes/admin/class-es-admin-settings.php:390
+msgid "Notify?"
+msgstr "Notifica?"
+
+#: includes/class-email-subscribers.php:124
+msgid "OK, I Got it!"
+msgstr "Val, ho he entès!"
+
+#: includes/admin/class-es-admin-settings.php:240
+msgid ""
+"Once contact clicks on unsubscribe link, he/she will be redirected to a page "
+"where this message will be shown."
+msgstr ""
+"Un cop el contacte hagi fet clic a l’enllaç de cancel·lació de la "
+"subscripció, se'l redirigirà a una pàgina on es mostrarà aquest missatge."
+
 #: includes/admin/class-es-handle-subscription.php:382
 #: public/class-email-subscribers-public.php:114
 msgid "Oops.. Unexpected error occurred."
 msgstr "Vaja... S'ha produït un error inesperat."
+
+#: includes/admin/class-es-admin-settings.php:218
+msgid ""
+"Oops.. Your request couldn't be completed. This email address seems to be "
+"already subscribed / blocked."
+msgstr ""
+"La vostra sol·licitud no s’ha pogut completar. Sembla que aquesta adreça de "
+"correu electrònic ja està subscrita / bloquejada."
+
+#: includes/admin/class-es-handle-subscription.php:386
+msgid "Oops...unable to add subscriber"
+msgstr "No s'ha pogut afegir el subscriptor"
+
+#: includes/admin/class-es-admin-settings.php:168
+msgid "Opt-in Type"
+msgstr "Tipus d’inscripció"
+
+#: includes/class-email-subscribers.php:122
+msgid "Or schedule Cron in <a href=\"%s\" target=\"_blank\">cPanel</a>"
+msgstr "O planifiqueu Cron a <a href=\"%s\" target=\"_blank\">cPanel</a>"
+
+#: includes/class-email-subscribers.php:123
+msgid ""
+"Or use <strong><a href=\"%s\" target=\"_blank\">Email Subscribners Pro</a></"
+"strong> for automatic Cron support"
+msgstr ""
+"O feu servir <strong><a href=\"%s\" target=\"_blank\">Email Subscribners "
+"Pro</a></strong> per una gestió automàtica de Cron"
+
+#: admin/partials/dashboard.php:94
+msgid "Paste below PHP code to your desired location :"
+msgstr "Enganxeu el codi PHP següent a la ubicació desitjada:"
+
+#: includes/admin/class-es-subscribers-table.php:145
+msgid "Please Select List"
+msgstr "Seleccioneu la llista"
+
+#: includes/admin/class-es-tools.php:53
+msgid "Please add email"
+msgstr "Afegiu el correu electrònic"
+
+#: includes/admin/class-es-forms-table.php:88
+msgid "Please add form name."
+msgstr "Afegiu el nom del formulari."
+
+#: includes/admin/class-es-lists-table.php:85
+msgid "Please add list name"
+msgstr "Afegiu el nom de la llista"
+
+#: includes/admin/class-es-campaigns-table.php:361
+msgid "Please check campaign(s) to delete."
+msgstr "Comproveu les campanyes que voleu eliminar."
+
+#: includes/admin/class-es-handle-subscription.php:377
+#: public/class-email-subscribers-public.php:109
+msgid "Please enter email address"
+msgstr "Introduïu l'adreça de correu electrònic"
 
 #: compose/compose-edit.php:47
 msgid "Please enter template heading."
@@ -65148,30 +66587,335 @@ msgstr "Introduïu el títol de la plantilla."
 msgid "Please enter valid mail count."
 msgstr "Introduïu una adreça de correu electrònic vàlida."
 
+#: includes/admin/class-es-handle-sync-wp-user.php:84
+msgid "Please select List"
+msgstr "Seleccioneu una llista"
+
+#: includes/admin/class-es-post-notifications.php:59
+msgid "Please select categories."
+msgstr "Seleccioneu les categories."
+
+#: includes/admin/class-es-forms-table.php:734
+msgid "Please select form(s) to delete."
+msgstr "Seleccioneu els formularis que voleu eliminar."
+
+#: includes/admin/class-es-lists-table.php:541
+msgid "Please select list"
+msgstr "Seleccioneu la llista"
+
+#: includes/admin/class-es-forms-table.php:93
+msgid "Please select list(s) in which contact will be subscribed."
+msgstr "Seleccioneu la llista a la qual es subscriurà el contacte."
+
+#: includes/admin/class-es-post-notifications.php:43
+#: includes/admin/class-es-newsletters.php:49
+#: includes/admin/class-es-subscribers-table.php:774
+msgid "Please select list."
+msgstr "Seleccioneu la llista."
+
+#: includes/admin/class-es-subscribers-table.php:753
+msgid "Please select status."
+msgstr "Seleccioneu l'estat."
+
+#: includes/admin/class-es-subscribers-table.php:730
+msgid "Please select subscribers to update."
+msgstr "Seleccioneu els subscriptors que s'han d'actualitzar."
+
+#: includes/admin/class-es-post-notifications.php:51
+#: includes/admin/class-es-newsletters.php:46
+msgid "Please select template."
+msgstr "Seleccioneu la plantilla."
+
+#: includes/admin/class-es-handle-subscription.php:388
+msgid "Please select the list"
+msgstr "Seleccioneu la llista"
+
+#: includes/admin/class-es-handle-subscription.php:385
+#: public/class-email-subscribers-public.php:116
+msgid "Please try after some time"
+msgstr "Si us plau, proveu-ho d'aquí a una estona"
+
 #: admin/partials/help.php:80 admin/class-email-subscribers-admin.php:140
 msgid "Post Notifications"
 msgstr "Notifica publicacions"
+
+#: includes/admin/class-es-post-notifications.php:78
+msgid "Post notification has been added successfully!"
+msgstr "La notificació de publicació s'ha afegit correctament."
+
+#: includes/admin/class-es-post-notifications.php:191
+msgid "Post notification has been updated successfully!"
+msgstr "La notificació de publicació s'ha actualitzat correctament."
+
+#: includes/admin/class-es-reports-table.php:427
+msgid "Preview Email"
+msgstr "Previsualitza el correu electrònic"
+
+#: includes/admin/class-es-templates-table.php:87
+msgid "Preview Template"
+msgstr "Vista prèvia de la plantilla"
+
+#: admin/partials/pricing.php:227
+msgid "Protect your list from bot attacks"
+msgstr "Protegiu la vostra llista dels atacs amb Bots"
+
+#: admin/partials/dashboard.php:145
+msgid "Questions? Need Help?"
+msgstr "Teniu preguntes? Necessiteu ajuda?"
+
+#: admin/partials/help.php:111
+msgid ""
+"Rainmaker extends the core features of Email Subscribers and provides "
+"elegant form styles."
+msgstr ""
+"Rainmaker amplia les funcions bàsiques dels subscriptors de correu "
+"electrònic i proporciona estils de formulari elegants."
+
+#: admin/partials/pricing.php:241
+msgid ""
+"Reduce the risk of emails ending in trash or spam. Increase email "
+"deliverability by double checking emails for their "
+msgstr ""
+"Reduïu el risc que els correus electrònics acabin a la paperera o al correu "
+"brossa. Augmenteu la capacitat de lliurament de correu electrònic mitjançant "
+"la comprovació de dos correus electrònics pel seu compte "
+
+#: includes/admin/class-es-reports-table.php:379
+msgid "Report has been deleted successfully!"
+msgstr "L’informe s'ha suprimit correctament."
+
+#: includes/admin/class-es-reports-table.php:406
+msgid "Reports have been deleted successfully!"
+msgstr "Els informes s'han suprimit correctament."
+
+#: includes/admin/class-es-forms-table.php:268
+msgid "Required?"
+msgstr "Necessari?"
+
+#: includes/notices/views/html-notice-update.php:23
+msgid "Run the updater"
+msgstr "Executeu l’actualització"
+
+#: admin/partials/pricing.php:253
+msgid "Save time, use readymade email templates"
+msgstr "Estalvieu temps, utilitzeu plantilles de correu electrònic ja fetes"
+
+#: admin/partials/help.php:68
+msgid "Schedule Cron Emails in Parallels Plesk"
+msgstr "Programa els correus electrònics de Cron a Parallels Plesk"
+
+#: admin/partials/help.php:67
+msgid "Schedule Cron Emails in cPanel"
+msgstr "Programa els correus electrònics de Cron a cPanel"
 
 #: includes/admin/class-es-import-subscribers.php:157
 msgid "Select CSV file"
 msgstr "Seleccioneu el fitxer CSV"
 
+#: includes/admin/class-es-post-notifications.php:247
+#: includes/admin/class-es-newsletters.php:133
+msgid "Select List"
+msgstr "Seleccioneu una llista"
+
+#: includes/admin/class-es-post-notifications.php:285
+msgid "Select Post Category"
+msgstr "Seleccioneu la categoria de publicació"
+
+#: includes/admin/class-es-post-notifications.php:273
+#: includes/class-es-common.php:251
+msgid "Select Status"
+msgstr "Seleccioneu un estat"
+
+#: includes/admin/class-es-newsletters.php:121 includes/class-es-common.php:292
+msgid "Select Template"
+msgstr "Seleccioneu una plantilla"
+
+#: includes/admin/class-es-post-notifications.php:299
+msgid "Select custom post type(s)"
+msgstr "Seleccioneu el tipus de publicació personalitzat"
+
+#: includes/admin/class-es-import-subscribers.php:183
+msgid "Select list"
+msgstr "Seleccioneu la llista"
+
+#: includes/admin/class-es-handle-sync-wp-user.php:117
+msgid "Select list to add newly registered users to"
+msgstr "Seleccioneu una llista on afegir-hi els usuaris registrats recentment"
+
+#: includes/admin/class-es-import-subscribers.php:171
+msgid "Select status"
+msgstr "Seleccioneu l'estat"
+
+#: includes/admin/class-es-post-notifications.php:259
+msgid "Select template"
+msgstr "Seleccioneu la plantilla"
+
+#: includes/admin/class-es-admin-settings.php:160
+msgid "Select whether to send HTML or Plain Text email."
+msgstr "Seleccioneu si voleu enviar un correu electrònic HTML o de text pla."
+
 #: sendmail/sendmail.php:139
 msgid "Select your mail type."
 msgstr "Seleccioneu el tipus de correu."
 
+#: includes/admin/class-es-campaigns-table.php:51
+msgid "Send Broadcast"
+msgstr "Envia una difusió"
+
+#: admin/partials/help.php:84
+msgid "Send a test post notification email to myself/testgroup"
+msgstr ""
+"Envia un missatge de correu electrònic de notificació a mi mateix/a un grup "
+"de prova"
+
+#: admin/partials/help.php:19
+msgid "Send automatic welcome email to subscribers."
+msgstr "Envia un correu electrònic automàtic de benvinguda als subscriptors."
+
+#: admin/partials/help.php:25
+msgid "Send broadcast to different lists."
+msgstr "Envia la difusió a diferents llistes."
+
+#: includes/class-es-common.php:107
+msgid "Send email immediately"
+msgstr "Envia un correu electrònic immediatament"
+
+#: admin/partials/help.php:21
+msgid "Send email notification to admin when a new user signs up."
+msgstr ""
+"Envia una notificació de correu a l'administrador quan es registri un usuari "
+"nou."
+
+#: includes/class-es-common.php:108
+msgid "Send email via cron job"
+msgstr "Envia el correu electrònic mitjançant un treball de Cron"
+
+#: admin/partials/help.php:20
+msgid ""
+"Send new post notification emails to subscribers when new posts are "
+"published on your website."
+msgstr ""
+"Envia nous correus de notificació de publicacions als subscriptors quan es "
+"publiquin entrades noves al lloc web."
+
+#: includes/admin/class-es-admin-settings.php:418
+msgid ""
+"Send report to admin(s) whenever campaign is successfully sent to all "
+"contacts. Available Keywords: {{DATE}}, {{SUBJECT}}, {{COUNT}}"
+msgstr ""
+"Envia un informe a l'administrador quan s’hagi enviat correctament la "
+"campanya a tots els contactes. Paraules clau disponibles: {{DATE}}, "
+"{{SUBJECT}}, {{COUNT}}"
+
+#: includes/admin/class-es-admin-settings.php:291
+msgid "Send welcome email to new contact after signup."
+msgstr ""
+"Envia un correu electrònic de benvinguda als contactes nous quan es "
+"registrin."
+
 #: includes/admin/class-es-reports-table.php:99
 msgid "Sent Date"
 msgstr "Data d'enviament"
+
+#: includes/admin/class-es-admin-settings.php:360
+msgid "Set this option to \"Yes\" to notify admin(s) for new contact signup."
+msgstr ""
+"Establiu aquesta opció a \"Sí\" per notificar als administradors la "
+"inscripció de nous contactes."
+
+#: includes/admin/class-es-admin-settings.php:396
+msgid "Set this option to \"Yes\" to notify admin(s) on every campaign sent."
+msgstr ""
+"Establiu aquesta opció a \"Sí\" per notificar als administradors en cada "
+"campanya enviada."
+
+#: includes/admin/class-es-old-widget.php:76
+msgid "Short description about subscription form"
+msgstr "Descripció breu sobre el formulari de subscripció"
+
+#: admin/partials/dashboard.php:92
+msgid ""
+"Shortcode in any page/post : <code>[email-subscribers-form id=\"{form-"
+"id}\"]</code> "
+msgstr ""
+"Codi curt a qualsevol pàgina / missatge: <code>[email-subscribers-form id="
+"\"{form-id}\"]</code>"
+
+#: includes/admin/class-es-admin-settings.php:192
+msgid "Show Unsubscribe Message In Email Footer"
+msgstr ""
+"Mostra un missatge de cancel·lació de la subscripció al peu de pàgina del "
+"correu electrònic"
+
+#: includes/admin/class-es-admin-settings.php:221
+msgid ""
+"Show this message if any error occured after clicking confirmation link from "
+"Double Opt-In (Confirmation) Email."
+msgstr ""
+"Mostra aquest missatge si s’ha produït un error després de fer clic a "
+"l’enllaç de confirmació des del correu electrònic d'ingrés doble."
+
+#: includes/admin/class-es-admin-settings.php:252
+msgid ""
+"Show this message if any error occured after clicking on unsubscribe link."
+msgstr ""
+"Mostra aquest missatge si es produeix un error després de fer clic a "
+"l’enllaç de cancel·lació de la subscripció."
+
+#: includes/admin/class-es-admin-settings.php:210
+msgid ""
+"Show this message if contact is successfully subscribed from Double Opt-In "
+"(Confirmation) Email"
+msgstr ""
+"Mostra aquest missatge si el contacte està subscrit correctament des del "
+"correu electrònic d'ingrés doble"
+
+#: admin/partials/help.php:100
+msgid "Show your subscribe form inside attractive popups"
+msgstr ""
+"Mostra el formulari de subscripció dins de finestres emergents atractives"
+
+#: includes/admin/class-es-forms-table.php:267
+msgid "Show?"
+msgstr "Visible?"
 
 #: subscribers/view-subscriber-edit.php:165
 #: subscribers/view-subscriber-add.php:176
 msgid "Single Opt In"
 msgstr "Opció individual"
 
+#: includes/class-es-common.php:429
+msgid "Single Opt-In"
+msgstr "Inscripció única"
+
+#: includes/admin/class-es-forms-table.php:192
+msgid "Sorry, form not found"
+msgstr "No s’ha pogut trobar el formulari "
+
 #: includes/admin/class-es-reports-table.php:262
 msgid "Start Date"
 msgstr "Data d'inici"
+
+#: includes/admin/class-es-subscribers-table.php:763
+msgid "Status has been changed successfully!"
+msgstr "L’estat s’ha canviat correctament."
+
+#: includes/admin/class-es-admin-settings.php:369
+msgid ""
+"Subject for the admin email whenever a new contact signs up and is confirmed"
+msgstr ""
+"Assumpte del correu electrònic d'administració quan es registri un contacte "
+"nou i estigui confirmat"
+
+#: includes/admin/class-es-export-subscribers.php:234
+#: includes/admin/class-es-subscribers-table.php:484
+#: includes/class-es-common.php:89
+msgid "Subscribed"
+msgstr "Subscrit"
+
+#: includes/admin/class-es-export-subscribers.php:71
+msgid "Subscribed Contacts"
+msgstr "Contactes subscrits"
 
 #: includes/admin/class-es-old-widget.php:87
 msgid "Subscriber Group"
@@ -65181,20 +66925,54 @@ msgstr "Grup de subscriptors"
 msgid "Subscribers are not receiving Emails?"
 msgstr "Els subscriptors no estan rebent missatges de correu electrònic?"
 
+#: includes/admin/class-es-admin-settings.php:200
+msgid "Subscription Success/ Error Messages"
+msgstr "Missatges d’error/d’èxit de la subscripció"
+
 #: includes/admin/class-es-admin-settings.php:209
 #: includes/admin/class-es-admin-settings.php:239
 msgid "Success Message"
 msgstr "Missatge d'èxit"
+
+#: includes/admin/class-es-handle-subscription.php:379
+#: public/class-email-subscribers-public.php:111
+msgid "Successfully Subscribed."
+msgstr "Us heu subscrit correctament."
+
+#: admin/partials/help.php:27
+msgid "Supports localization and internationalization."
+msgstr "Permet localització i internacionalització."
 
 #: includes/admin/class-es-handle-sync-wp-user.php:12
 #: includes/admin/class-es-subscribers-table.php:57
 msgid "Sync"
 msgstr "Sincronitza"
 
+#: includes/admin/class-es-handle-sync-wp-user.php:130
+msgid "Sync Now"
+msgstr "Sincronitza ara"
+
 #: includes/admin/class-es-handle-sync-wp-user.php:104
 msgid "Sync newly registered users to subscribers list"
 msgstr ""
 "Sincronitza els usuaris registrats recentment a la llista de subscriptors"
+
+#: includes/admin/class-es-admin-settings.php:456
+msgid ""
+"System won't allow email addresses which ends with any of domain availble in "
+"above lists. Add list of domain(s) one per line to block."
+msgstr ""
+"El sistema no permet adreces de correu electrònic que acabin amb qualsevol "
+"domini disponible en les llistes anteriors. Afegiu una llista de dominis, un "
+"per línia, per bloquejar."
+
+#: includes/notices/views/html-notice-updating.php:21
+msgid "Taking a while? Click here to run it now."
+msgstr "Està tardant massa? Feu clic aquí per executar-lo ara."
+
+#: admin/class-email-subscribers-admin.php:148
+msgid "Template Preview"
+msgstr "Previsualització de la plantilla"
 
 #: includes/admin/class-es-templates-table.php:191
 msgid "Template Type"
@@ -65204,12 +66982,90 @@ msgstr "Tipus de plantilla"
 msgid "Test email to %s"
 msgstr "Correu electrònic de prova a %s"
 
+#: includes/admin/class-es-admin-settings.php:237
+msgid ""
+"Thank You, You have been successfully unsubscribed. You will no longer hear "
+"from us."
+msgstr "La subscripció s'ha cancel·lat correctament."
+
+#: admin/partials/help.php:112
+msgid ""
+"These styles are well designed and beautify your subscription form making it "
+"more appealing."
+msgstr ""
+"Aquests estils estan ben dissenyats i embelleixen el vostre formulari de "
+"subscripció fent-lo més atractiu."
+
+#: classes/es-register.php:81
+msgid "These tables could not be created on installation "
+msgstr "Aquestes taules no s’han pogut crear durant la instal·lació "
+
+#: includes/admin/class-es-reports-table.php:430
+msgid ""
+"This is how the email you sent may look. <br>Note: Different email services "
+"(like gmail, yahoo etc) display email content differently. So there could be "
+"a slight variation on how your customer will view the email content."
+msgstr ""
+"Així és com es podria veure el correu electrònic que heu enviat. <br>Nota: "
+"els serveis de correu electrònic (com ara Gmail, Yahoo, etc) mostren el "
+"contingut del correu electrònic de maneres diferents. Per tant, podria haver-"
+"hi petites variacions en com el vostre client visualitzarà el contingut del "
+"correu electrònic."
+
+#: admin/partials/dashboard.php:70
+msgid ""
+"To get started, we did some initial setup to save your time <img draggable="
+"\"false\" class=\"emoji\" alt=\"😊\" src=\"https://s.w.org/images/core/"
+"emoji/11/svg/1f60a.svg\">"
+msgstr ""
+"Per començar, hem creat una configuració inicial per estalviar-vos temps "
+"<img draggable=\"false\" class=\"emoji\" alt=\"😊\" src=\"https://s.w.org/"
+"images/core/emoji/11/svg/1f60a.svg\">"
+
+#: includes/admin/class-es-import-subscribers.php:111
+msgid "Total %d contacts have been imported successfully!"
+msgstr "S'han importat correctament %d contactes."
+
+#: includes/admin/class-es-export-subscribers.php:60
+#: includes/admin/class-es-reports-table.php:264
+msgid "Total Contacts"
+msgstr "Contactes totals"
+
+#: public/partials/cron-message.php:37
+msgid "Total Emails In Queue"
+msgstr "Total de correus electrònics a la cua"
+
+#: public/partials/cron-message.php:33
+msgid "Total Emails Sent"
+msgstr "Total de correus electrònics enviats"
+
+#: includes/admin/class-es-admin-settings.php:445
+msgid "Total emails your host can send in an hour."
+msgstr ""
+"Total de correus electrònics que el vostre servidor pot enviar en una hora."
+
+#: admin/partials/pricing.php:244
+msgid "Track email leads in Google"
+msgstr "Realitza un seguiment dels contactes de correu electrònic de Google"
+
+#: admin/partials/help.php:88
+msgid "Troubleshooting Steps"
+msgstr "Solució de problemes"
+
+#: admin/partials/pricing.php:245
+msgid "UTM tracking"
+msgstr "Seguiment UTM"
+
 #: subscribers/view-subscriber-edit.php:163
 #: subscribers/view-subscriber-add.php:174
 #: includes/admin/class-es-subscribers-table.php:485
 #: includes/class-es-common.php:90
 msgid "Unconfirmed"
 msgstr "Sense confirmar"
+
+#: includes/admin/class-es-admin-settings.php:229
+msgid "Unsubscribe Success/ Error Messages"
+msgstr "Missatges d’èxit/error de cancel·lació de les subscripcions"
 
 #: subscribers/view-subscriber-edit.php:164
 #: subscribers/view-subscriber-add.php:175
@@ -65219,6 +67075,39 @@ msgstr "Sense confirmar"
 msgid "Unsubscribed"
 msgstr "No subscrit"
 
+#: includes/admin/class-es-export-subscribers.php:72
+msgid "Unsubscribed Contacts"
+msgstr "Contactes sense subscripció"
+
+#: admin/partials/pricing.php:228
+msgid "Use "
+msgstr "Utilitza "
+
+#: admin/partials/help.php:24
+msgid ""
+"Use HTML editor to create broadcast (Newsletters) and post notifications."
+msgstr ""
+"Utilitzeu l’editor HTML per crear notificacions de difusió (butlletins) i de "
+"publicació."
+
+#: admin/partials/dashboard.php:90
+msgid "Use any of the following 3 methods :"
+msgstr "Utilitzeu qualsevol dels 3 mètodes següents:"
+
+#: admin/partials/help.php:103
+msgid ""
+"Using Email Subscribers you can achieve this easily with our <b>free</b> "
+"plugin <a target=\"_blank\" class=\"es-cta\" href=\"https://wordpress.org/"
+"plugins/icegram/\">Icegram</a>"
+msgstr ""
+"Usant subscriptors de correu electrònic ho podeu aconseguir fàcilment amb la "
+"nostra extensió <b>gratuïta</b> <a target=\"_blank\" class=\"es-cta\" href="
+"\"https://wordpress.org/plugins/icegram/\">Icegram</a>"
+
+#: includes/admin/class-es-reports-table.php:154
+msgid "Viewed"
+msgstr "Visualitzat"
+
 #: includes/admin/class-es-reports-table.php:101
 msgid "Viewed Date"
 msgstr "Data de visualització"
@@ -65227,22 +67116,175 @@ msgstr "Data de visualització"
 msgid "Viewed Status"
 msgstr "Estat de la visualització"
 
+#: admin/partials/help.php:97
+msgid "Want to do more? Here's how.."
+msgstr "Voleu fer més? Així és com..."
+
+#: admin/partials/dashboard.php:69
+msgid ""
+"We hope our plugin adds to your success <img draggable=\"false\" class="
+"\"emoji\" alt=\"🏆\" src=\"https://s.w.org/images/core/emoji/11/svg/1f3c6.svg"
+"\">"
+msgstr ""
+"Desitgem que la nostra extensió us ajudi a tenir èxit <img draggable=\"false"
+"\" class=\"emoji\" alt=\"🏆\" src=\"https://s.w.org/images/core/emoji/11/"
+"svg/1f3c6.svg\">"
+
+#: includes/notices/views/html-notice-update.php:19
+msgid "We need to update your data store to the latest version."
+msgstr "Hem d'actualitzar el vostre magatzem de dades a la versió més recent."
+
+#: includes/class-es-mailer.php:101
+msgid "Welcome !"
+msgstr "Benvinguts!"
+
+#: admin/partials/dashboard.php:67
+msgid "Welcome to the Email Subscribers Community!"
+msgstr "Benvinguts a la comunitat de Email Subscribers."
+
+#: admin/partials/help.php:76
+msgid "What data Email Subscribers stores on your end?"
+msgstr "Quines dades emmagatzema l'extensió subscriptors de correu electrònic?"
+
+#: admin/partials/help.php:66
+msgid "What is Cron and how to Schedule Cron Emails?"
+msgstr "Què és Cron i com programar els correus electrònics de Cron?"
+
 #: includes/admin/class-es-old-widget.php:72
 msgid "Widget Title"
 msgstr "Títol del giny"
+
+#: includes/class-email-subscribers.php:121
+msgid ""
+"WordPress Cron is disable on your site. Email notifications from Email "
+"Subscribers plugin will not be sent automatically. <a href=\"%s\" target="
+"\"_blank\" >Here's how you can enable it.</a>"
+msgstr ""
+"WordPress Cron no s'ha activat al vostre lloc. Les notificacions de correu "
+"electrònic de l'extensió de subscriptors de correu electrònic no s’enviaran "
+"automàticament. <a href=\"%s\" target=\"_blank\" >Així podeu activar-ho.</a>"
 
 #: includes/admin/class-es-old-widget.php:82
 msgid "YES"
 msgstr "Sí"
 
+#: includes/admin/class-es-campaigns-table.php:333
+msgid "You are not allowed to delete campaign."
+msgstr "No teniu permís per suprimir la campanya."
+
+#: includes/admin/class-es-handle-subscription.php:387
+msgid "You do not have permission to add subscriber"
+msgstr "No teniu permís per afegir el subscriptor"
+
+#: includes/admin/class-es-lists-table.php:518
+msgid "You do not have permission to delete list"
+msgstr "No teniu permís per esborrar la llista"
+
+#: includes/admin/class-es-reports-table.php:374
+msgid "You do not have permission to delete notification"
+msgstr "No teniu permís per suprimir la notificació"
+
+#: includes/admin/class-es-forms-table.php:709
+msgid "You do not have permission to delete this form."
+msgstr "No teniu permís per esborrar aquest formulari."
+
+#: includes/admin/class-es-lists-table.php:83
+#: includes/admin/class-es-lists-table.php:502
+msgid "You do not have permission to edit list"
+msgstr "No teniu permís per editar la llista"
+
+#: includes/admin/class-es-forms-table.php:85
+msgid "You do not have permission to edit this form."
+msgstr "No teniu permís per editar aquest formulari."
+
+#: includes/admin/class-es-reports-table.php:388
+msgid "You do not have permission to preview notification"
+msgstr "No teniu permís per previsualitzar la notificació"
+
+#: includes/admin/class-es-reports-table.php:362
+msgid "You do not have permission to view notification"
+msgstr "No teniu permís per veure la notificació"
+
+#: includes/admin/class-es-admin-settings.php:207
+msgid "You have been subscribed successfully!"
+msgstr "Us hi heu subscrit correctament."
+
+#: includes/admin/class-es-handle-subscription.php:378
+#: public/class-email-subscribers-public.php:110
+msgid "You need to wait for sometime before subscribing again"
+msgstr "Heu d’esperar un temps abans de tornar a subscriure-us"
+
+#: includes/notices/views/html-notice-updating.php:19
+msgid "Your database is being updated in the background."
+msgstr "S'està actualitzant la vostra base de dades en segon pla."
+
+#: includes/admin/class-es-handle-subscription.php:380
+#: public/class-email-subscribers-public.php:112
+msgid ""
+"Your subscription was successful! Kindly check your mailbox and confirm your "
+"subscription. If you don't see the email within a few minutes, check the "
+"spam/junk folder."
+msgstr ""
+"Us heu subscrit correctament. Consulteu la bústia de correu i confirmeu la "
+"vostra subscripció. Si d'aquí a uns minuts no no heu vist encara el correu "
+"electrònic, comproveu la carpeta de correu brossa."
+
+#: admin/partials/help.php:73
+msgid "[GDPR] Email Subscribers"
+msgstr "[GDPR] Subscriptors de correu"
+
+#: admin/partials/pricing.php:241
+msgid "before hitting send."
+msgstr "abans d'enviar."
+
 #: admin/partials/pricing.php:228
 msgid "captcha"
 msgstr "captcha"
+
+#: admin/partials/help.php:42
+msgid "default text, email contents"
+msgstr "text per defecte, contingut del correu electrònic"
+
+#: admin/partials/pricing.php:232
+msgid "email success rate"
+msgstr "taxa d'èxit del correu electrònic"
+
+#: includes/admin/class-es-templates-table.php:49
+msgid "for Newsletter:"
+msgstr "per al butlletí informatiu:"
 
 #. Plugin URI of the plugin
 #. Author URI of the plugin
 msgid "https://www.icegram.com/"
 msgstr "https://www.icegram.com/"
+
+#: admin/partials/pricing.php:245
+msgid ""
+"in all your email CTA’s and track the effectiveness of your emails directly "
+"within Google. Know which/ how many leads landed up from your emails and "
+"tweak emails for better performance."
+msgstr ""
+"A tots els vostres correus electrònics CTA i feu un seguiment de "
+"l’efectivitat dels vostres correus electrònics directament a Google. "
+"Conegueu quins / quants contactes han aterrat des dels vostres correus "
+"electrònics i ajusteu els correus electrònics per obtenir un millor "
+"rendiment."
+
+#: admin/partials/pricing.php:232
+msgid "of your email campaign. "
+msgstr "de la vostra campanya de correu electrònic. "
+
+#: admin/partials/pricing.php:241
+msgid "spam score"
+msgstr "puntuació de brossa"
+
+#: admin/partials/pricing.php:228
+msgid ""
+"to protect your email list from bots. The simple maths captcha helps "
+"identifying bots from humans and eliminates spam signups."
+msgstr ""
+"per protegir la vostra llista de correu electrònic dels bots. El captcha "
+"simple de matemàtiques ajuda a distingir els robots dels éssers humans."
 
 # modificat xtec
 #: classes/doc.php:13
@@ -65267,9 +67309,9 @@ msgid ""
 "(The next columns are totally customizable and you can use whatever you "
 "want. All rows must contains same columns)"
 msgstr ""
-"Les columnes següents són totalment personalitzables i es poden fer servir "
+"(Les columnes següents són totalment personalitzables i es poden fer servir "
 "de la forma que vulgueu. Totes les files han de contenir les mateixes "
-"columnes:"
+"columnes)"
 
 # modificat xtec
 #: classes/doc.php:19
@@ -65373,6 +67415,14 @@ msgstr ""
 "Després de suprimir els usuaris, podeu triar si voleu assignar les seves "
 "publicacions a un altre usuari. us recomanem no suprimir ni esborrar les "
 "publicacions."
+
+#: classes/homepage.php:231 classes/frontend.php:123 classes/cron.php:220
+msgid ""
+"After import users which is not present in the CSV and can be changed to a "
+"different role."
+msgstr ""
+"Després de la importació, els usuaris que no estan presents al CSV i es "
+"poden canviar a un rol diferent."
 
 #: classes/email-templates.php:27
 msgid "All email template"
@@ -65496,6 +67546,18 @@ msgstr "Fitxer CSV <span class=\"description\">(requerit)</span></label>"
 msgid "CSV file <span class=\"description\">(required)</span></label>"
 msgstr "Fitxer CSV <span class=\"description\">(requerit)</span></label>"
 
+#: importer.php:129
+msgid ""
+"CSV file seems to be bad formed. Please use LibreOffice to create and manage "
+"CSV to be sure the format is correct"
+msgstr ""
+"Sembla que el fitxer CSV no està ben format. Feu servir LibreOffice per "
+"crear i gestionar els CSV i així assegurar-vos que el format és correcte"
+
+#: classes/homepage.php:216 classes/frontend.php:109 classes/cron.php:206
+msgid "Change role of users that are not present in the CSV?"
+msgstr "Voleu canviar el rol dels usuaris que no estan al CSV?"
+
 #: classes/email-options.php:101
 msgid "Choose or upload file"
 msgstr "Trieu o carregueu un fitxer"
@@ -65614,6 +67676,28 @@ msgstr "No s'ha especificat el correu electrònic"
 msgid "Edit email template"
 msgstr "Edita plantilla de correu"
 
+#: classes/email-templates.php:21
+msgctxt "Post Type Singular Name"
+msgid "Email template (Import Users From CSV With Meta)"
+msgstr "Plantilla de correu (importa usuaris d'un CSV amb metadades)"
+
+#: classes/email-templates.php:45
+msgid "Email template list navigation"
+msgstr "Navegació de plantilles de correu en forma de llista"
+
+#: classes/email-templates.php:23
+msgid "Email templates (Import Users From CSV With Meta)"
+msgstr "Plantilles de correu (importa usuaris d'un CSV amb metadades)"
+
+#: classes/email-templates.php:20
+msgctxt "Post Type General Name"
+msgid "Email templates (Import Users From CSV With Meta)"
+msgstr "Plantilles de correu (importa usuaris d'un CSV amb metadades)"
+
+#: classes/email-templates.php:22
+msgid "Email templates (Import Users)"
+msgstr "Plantilles de correu (importa usuaris)"
+
 #: classes/email-options.php:44
 msgid "Enable mail templates:"
 msgstr "Habilita les plantilles de correu:"
@@ -65630,7 +67714,7 @@ msgstr "No podem trobar el fitxer"
 
 #: classes/doc.php:146
 msgid "Example"
-msgstr "Exemple:"
+msgstr "Exemple"
 
 # modificat xtec
 #: classes/frontend.php:22
@@ -65699,12 +67783,12 @@ msgstr ""
 "Per raons de seguretat heu d'esborrar aquests fitxers, és possible que "
 "siguin visibles a internet si un robot o algú descobreix l'URL. Podeu "
 "esborrar cadascun dels fitxers o potser voleu esborrar tots els fitxers CSV "
-"que heu pujat."
+"que heu pujat:"
 
 # modificat xtec
 #: classes/doc.php:140
 msgid "Free support (in WordPress forums):"
-msgstr "Fòrums de suport"
+msgstr "Fòrums de suport:"
 
 # modificat xtec
 #: classes/donate.php:14 classes/help.php:12
@@ -65792,6 +67876,14 @@ msgstr ""
 "Si voleu assignar un usuari a un grup, haureu de crear una columna "
 "'bp_group' i una columna 'bp_group_role'"
 
+#: addons/wp-lms-course.php:26
+msgid ""
+"If you want to import multiple values, you can use a list using / to "
+"separate items"
+msgstr ""
+"Per importar diversos valors, podeu separar els elements de la llista amb el "
+"caràcter /"
+
 # modificat xtec
 #: addons/acui-wp-users-group.php:24 addons/acui-users-group.php:24
 #: addons/wp-users-group.php:24 addons/users-group.php:24
@@ -65819,7 +67911,7 @@ msgstr "Importa usuaris des d'un fitxer CSV amb metadades"
 # modificat xtec
 #: classes/doc.php:133
 msgid "Important notice"
-msgstr "Important:"
+msgstr "Avís important"
 
 #: importer.php:7
 msgid "Importing users"
@@ -65866,7 +67958,7 @@ msgstr "Arxius de l'element"
 
 #: classes/email-templates.php:25
 msgid "Item Attributes"
-msgstr "Atributs de l'element "
+msgstr "Atributs de l'element"
 
 # modificat xtec
 #: classes/cron.php:234
@@ -65882,6 +67974,16 @@ msgstr "Deixeu el valor anterior per a aquestes metadades"
 msgid "LifterLMS is activated"
 msgstr "LifterLMS està activat"
 
+#: classes/email-options.php:61
+msgid "Load custom email from email templates"
+msgstr "Carrega un correu personalitzat de les plantilles"
+
+#: classes/email-options.php:63
+msgid "Load subject, content and attachment from this email template"
+msgstr ""
+"Carrega el tema, el contingut i el fitxer adjunt d'aquesta plantilla de "
+"correu"
+
 #: classes/cron.php:229
 msgid "Log"
 msgstr "Registre"
@@ -65895,10 +67997,18 @@ msgstr "Opcions de correu"
 msgid "Mail subject :"
 msgstr "Assumpte del missatge:"
 
+#: classes/email-templates.php:49
+msgid "Mail template (Import Users From CSV With Meta)"
+msgstr "Plantilla de correu (importa usuaris d'un CSV amb metadades)"
+
 # modificat xtec
 #: import-users-from-csv-with-meta.php:428
 msgid "Mail template updated correctly"
 msgstr "La plantilla s'ha actualitzat correctament"
+
+#: classes/email-templates.php:50
+msgid "Mail templates for Import Users From CSV With Meta"
+msgstr "Plantilles de correu per a importar usuaris d'un CSV amb metadades"
 
 # modificat xtec
 #: classes/cron.php:142
@@ -65924,6 +68034,10 @@ msgstr "Necessiteu ajuda amb WordPress?"
 msgid "New User Approve"
 msgstr "Nou usuari aprovat"
 
+#: addons/new-user-approve.php:11
+msgid "New User Approve compatibility"
+msgstr "Compatibilitat amb «New User Approve»"
+
 #: classes/email-templates.php:30
 msgid "New email template"
 msgstr "Plantilla de correu electrònic nova"
@@ -65941,6 +68055,18 @@ msgstr "No està permès"
 msgid "Not found"
 msgstr "No s'ha trobat"
 
+#: classes/doc.php:49
+msgid ""
+"Notice: If the default new role is administrator in WordPress settings, role "
+"will not be set during a CSV file import with this plugin. Check it if all "
+"users are being imported as administrators and you have set another role in "
+"this plugin."
+msgstr ""
+"Avís: si el nou rol predeterminat és administrador a la configuració de "
+"WordPress, el rol no es definirà durant la importació de fitxers CSV. "
+"Comproveu-ho quan s’importin tots els usuaris com a administradors i hagueu "
+"establert un altre rol en aquesta extensió."
+
 #: classes/homepage.php:23
 msgid "Old CSV files uploaded"
 msgstr "Fitxers CSV antics"
@@ -65957,9 +68083,18 @@ msgid "Only users who are able to create users can manage this form."
 msgstr ""
 "Només els usuaris que poden crear usuaris poden gestionar aquest formulari."
 
+#: classes/donate.php:25
+msgid "Or if you prefer, you can also help us becoming a Patreon:"
+msgstr ""
+"O, si ho preferiu, també podeu ajudar-nos a convertir-nos en un Patreon:"
+
+#: addons/acui-pmpro.php:43 addons/pmpro.php:43
+msgid "Paid Mebership Pro is activated"
+msgstr "S'ha activat Pro Membership Pro"
+
 #: classes/email-templates.php:26
 msgid "Parent Item:"
-msgstr "Elemento padre"
+msgstr "Element pare:"
 
 # modificat xtec
 #: importer.php:589
@@ -66169,7 +68304,7 @@ msgid ""
 msgstr ""
 "Les columnes següents són totalment personalitzables i es poden fer servir "
 "de la forma que vulgueu. Totes les files han de contenir les mateixes "
-"columnes:"
+"columnes"
 
 #: classes/doc.php:70 classes/homepage.php:447
 msgid "The user's first name."
@@ -66182,6 +68317,14 @@ msgstr "Cognom de l'usuari."
 #: classes/doc.php:69 classes/homepage.php:441
 msgid "The user's nickname, defaults to the user's username."
 msgstr "L'àlies de l'usuari, per defecte, el nom d'usuari."
+
+#: addons/wp-lms-course.php:25
+msgid ""
+"The value of each cell will be the NUMBER of the course to enroll (do not "
+"use slugs)"
+msgstr ""
+"El valor de cada cel·la serà el nombre del curs a matricular-se (no facis "
+"servir noms curts)"
 
 # modificat xtec
 #: addons/acui-wp-users-group.php:23 addons/acui-users-group.php:23
@@ -66233,8 +68376,8 @@ msgstr "Adreça d'inici de sessió (URL)"
 #: import-users-from-csv-with-meta.php:324
 msgid "Unable to write to directory. Is this directory writable by the server?"
 msgstr ""
-"No es pot escriure al directori. Comproveu que el servidor pot pot escriure "
-"en aquest directori."
+"No es pot escriure al directori. Comproveu que el servidor pot escriure en "
+"aquest directori."
 
 #: classes/email-templates.php:32
 msgid "Update email template"
@@ -66255,7 +68398,7 @@ msgstr "Actualitza els usuaris"
 # modificat xtec
 #: include/shortcode-frontend.php:34
 msgid "Upload and process"
-msgstr "Carregueu i processeu "
+msgstr "Carrega i processa"
 
 #: classes/email-templates.php:128 classes/email-options.php:77
 msgid "Upload file"
@@ -66291,7 +68434,7 @@ msgstr "Compte Jabber de l'usuari."
 # modificat xtec
 #: classes/doc.php:75
 msgid "User's Yahoo IM account."
-msgstr " Compte Yahoo IM de l'usuari."
+msgstr "Compte Yahoo IM de l'usuari."
 
 #: classes/homepage.php:188 classes/frontend.php:75 classes/cron.php:171
 msgid "Users not present in CSV file"
@@ -66319,6 +68462,24 @@ msgstr "Compatibilitat amb WP Members"
 #: addons/wp-users-group.php:18 addons/users-group.php:18
 msgid "WP Users Group is activated"
 msgstr "Grup d'usuaris WP activat"
+
+#: classes/donate.php:15
+msgid ""
+"We have been spending many hours to develop this plugin and answering "
+"questions in the forum to give you the best support. <br>If you like and use "
+"this plugin, you can <strong>buy us a cup of coffee</strong>."
+msgstr ""
+"Hem dedicat moltes hores a desenvolupar aquesta extensió i respondre "
+"preguntes al fòrum per donar-vos el millor suport. <br>Si useu aquesta "
+"extensió i us agrada, podeu <strong>comprar-nos un cafè</strong>."
+
+#: classes/help.php:13
+msgid ""
+"We work everyday with WordPress and WooCommerce, if you need help hire us, "
+"send us a message to"
+msgstr ""
+"Treballem cada dia amb WordPress i WooCommerce, si necessiteu ajuda podeu "
+"contractar-nos, envieu-nos un missatge a"
 
 #: import-users-from-csv-with-meta.php:98
 #: import-users-from-csv-with-meta.php:272
@@ -66377,12 +68538,26 @@ msgstr "Actualitzeu el rol dels usuaris existents"
 
 #: importer.php:739
 msgid "You are not allowed to see this content."
-msgstr "No esteu autoritzat a veure aquest contingut"
+msgstr "No esteu autoritzat a veure aquest contingut."
 
 # modificat xtec
 #: import-users-from-csv-with-meta.php:662
 msgid "You are not an adminstrator"
 msgstr "No sou administrador"
+
+#: classes/homepage.php:111
+msgid ""
+"You can also import roles from a CSV column. Please read documentation tab "
+"to see how it can be done. If you choose more than one role, the roles would "
+"be assigned correctly but you should use some plugin like <a href=\"https://"
+"wordpress.org/plugins/user-role-editor/\">User Role Editor</a> to manage "
+"them."
+msgstr ""
+"També podeu importar rols des d'una columna CSV. Llegiu la pestanya de "
+"documentació per veure com es pot fer. Si trieu més d’un rol, aquests "
+"s’assignaran correctament però haureu d’utilitzar algun complement com ara "
+"l'<a href=\"https://wordpress.org/plugins/user-role-editor/\">User Role "
+"Editor</a> per gestionar-los."
 
 # modificta xtec
 #: classes/email-templates.php:84
@@ -66415,6 +68590,12 @@ msgid ""
 msgstr ""
 "Podeu importar grups d'usuaris i assignar-los als usuaris utilitzant el "
 "següent format"
+
+#: addons/wp-lms-course.php:22
+msgid "You can import users and assign them to LMS Course using next format"
+msgstr ""
+"Podeu importar usuaris i assignar-los al curs LMS mitjançant el següent "
+"format"
 
 # modificat xtec
 #: addons/buddypress.php:35
@@ -66516,7 +68697,7 @@ msgstr "Introduïu la ruta d'accés al fitxer, és a dir:"
 
 #: classes/homepage.php:394
 msgid "You should fill the first three rows with the next values"
-msgstr "Heu d'omplir les tres primeres columnes amb els valors següents:"
+msgstr "Heu d'omplir les tres primeres columnes amb els valors següents"
 
 # modificat xtec
 #: import-users-from-csv-with-meta.php:99
@@ -66560,25 +68741,25 @@ msgstr "codificació"
 # modificat xtec
 #: import-users-from-csv-with-meta.php:329
 msgid "could not moved to"
-msgstr "No s'ha pogut moure a"
+msgstr "no s'ha pogut moure a"
 
 # modificat xtec
 #: classes/email-templates.php:80
 msgid "current site login url"
-msgstr "Adreça d'inici de sessió (URL) actual"
+msgstr "URL d'entrada del lloc actual"
 
 #: classes/homepage.php:457
 msgid "description"
-msgstr "description:"
+msgstr "descripció"
 
 # modificat xtec
 #: classes/donate.php:14 classes/help.php:12
 msgid "developers of this plugin."
-msgstr "Desenvolupadors d'aquest complement"
+msgstr "desenvolupadors d'aquest complement."
 
 #: classes/homepage.php:433
 msgid "display_name"
-msgstr "display_name:"
+msgstr "display_name"
 
 #: importer.php:188
 msgid "does not have the same columns than the header, we are going to skip"
@@ -66592,7 +68773,7 @@ msgstr "fitxer"
 
 #: classes/homepage.php:445
 msgid "first_name"
-msgstr "first_name:"
+msgstr "first_name"
 
 #: importer.php:723
 msgid "here to see results"
@@ -66614,7 +68795,7 @@ msgstr "id (id de columna)"
 
 #: classes/homepage.php:451
 msgid "last_name"
-msgstr "last_name:"
+msgstr "last_name"
 
 #: addons/wp-lms-course.php:24
 msgid "lms_courses as the column title"
@@ -66623,11 +68804,11 @@ msgstr "lms_courses com a títol de columna"
 # modificat xtec
 #: classes/email-templates.php:81
 msgid "lost password url"
-msgstr "Contrasenya perduda"
+msgstr "URL de contrasenya perduda"
 
 #: classes/homepage.php:439
 msgid "nickname"
-msgstr "nickname:"
+msgstr "sobrenom"
 
 #: classes/homepage.php:92
 msgid "or you can upload it directly from your PC"
@@ -66636,7 +68817,7 @@ msgstr "o el podeu pujar directament des del vostre ordinador"
 # modificat xtec
 #: classes/email-templates.php:82
 msgid "password reset url"
-msgstr "Reinicialitza la contrasenya"
+msgstr "URL de restabliment de la contrasenya"
 
 # modificat xtec
 #: classes/doc.php:123
@@ -66678,7 +68859,7 @@ msgstr "user_group com a títol de la columna"
 
 #: classes/homepage.php:421
 msgid "user_nicename"
-msgstr "user_nicename:"
+msgstr "user_nicename"
 
 #: classes/homepage.php:427
 msgid "user_url"

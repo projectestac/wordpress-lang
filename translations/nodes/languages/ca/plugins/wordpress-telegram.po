@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: WP Telegram 1.6.5\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wordpress-"
 "telegram\n"
-"POT-Creation-Date: 2019-04-11T16:48:55+02:00\n"
-"PO-Revision-Date: 2019-04-11 16:56+0200\n"
+"POT-Creation-Date: 2019-04-15T16:19:08+02:00\n"
+"PO-Revision-Date: 2019-04-12 11:28+0200\n"
 "Last-Translator: Joan Sala Soler <jsala236@xtec.cat>\n"
 "Language-Team: WPTelegram\n"
 "Language: ca\n"
@@ -28,16 +28,14 @@ msgid "%s is empty"
 msgstr "%s està buit"
 
 #: modules/p2tg/class-wptelegram-p2tg-admin.php:513
-#, fuzzy
 msgid "%s should not be checked"
-msgstr "no s'hauria de comprovar"
+msgstr "%s no s'hauria de marcar"
 
 #: admin/class-wptelegram-admin.php:93
-#, fuzzy
 msgid ""
 "A message will be sent to the Channel/Chat. You can modify the text below"
 msgstr ""
-"S'enviarà un missatge a totes les chat_ids. Pots modificar el text a sota"
+"S'enviarà un missatge al canal/xat. Podeu modificar el text a continuació"
 
 #: admin/partials/wptelegram-admin-display.php:140
 msgid "A message will be sent to the chat_ids. You can modify the text below"
@@ -45,10 +43,8 @@ msgstr ""
 "S'enviarà un missatge a totes les chat_ids. Pots modificar el text a sota"
 
 #: modules/p2tg/class-wptelegram-p2tg-admin.php:152
-#, fuzzy
 msgid "A new post is published"
-msgstr ""
-"Afegeix al cron quan es publica un article nou i envia a través de cron."
+msgstr "S'ha publicat una entrada nova"
 
 #: modules/p2tg/class-wptelegram-p2tg-rules.php:75
 #: modules/p2tg/class-wptelegram-p2tg-admin.php:532
@@ -68,30 +64,24 @@ msgid "Add"
 msgstr "Afegeix"
 
 #: modules/notify/class-wptelegram-notify-admin.php:208
-#, fuzzy
 msgid "Add %s to the group to get its Chat ID."
-msgstr "Afegiu %s al node per obtenir la seva ID.de xat."
+msgstr "Afegix %s al node per obtenir el seu ID de xat."
 
 #: modules/p2tg/class-wptelegram-p2tg-admin.php:289
-#, fuzzy
 msgid "Add Inline URL Button"
-msgstr "Text del botó en línia"
+msgstr "Afegeix un botó d'URL en línia"
 
 #: modules/notify/class-wptelegram-notify-admin.php:210
-#, fuzzy
 msgid "Add YOUR OWN BOT to the group."
-msgstr "No oblidis afegir el teu propi bot al grup."
+msgstr "Afegiu un BOT vostre al grup."
 
 #: admin/class-wptelegram-admin-settings.php:378
 msgid "Add a hashtag at the end of the message."
 msgstr "Afegeix una etiqueta al final del missatge."
 
 #: modules/p2tg/class-wptelegram-p2tg-admin.php:290
-#, fuzzy
 msgid "Add an inline clickable button for the post URL just below the message."
-msgstr ""
-"Afegiu un botó inclòs en línia per a l’url de l’entrada, just a sota del "
-"missatge."
+msgstr "Afegeix un botó en línia per a l’URLde l'entrada a sota del missatge."
 
 #: admin/class-wptelegram-admin-settings.php:472
 #: modules/p2tg/class-wptelegram-p2tg-admin.php:902
@@ -144,9 +134,8 @@ msgid "Before the Text"
 msgstr "Abans del Text"
 
 #: admin/class-wptelegram-admin.php:289
-#, fuzzy
 msgid "Bot API"
-msgstr "Bot Token"
+msgstr "API del Bot"
 
 #: admin/class-wptelegram-admin.php:192
 #: admin/class-wptelegram-admin-settings.php:97
@@ -167,9 +156,8 @@ msgid "Bot Token or chat_ids is empty"
 msgstr "Està buit el Bot Token o la chat_id"
 
 #: admin/class-wptelegram-admin.php:208
-#, fuzzy
 msgid "Bot Username"
-msgstr "Bot Token"
+msgstr "Nom d'usuari del Bot"
 
 #: admin/class-wptelegram-admin-settings.php:318
 msgid "Caption Source"
@@ -264,9 +252,8 @@ msgid "Custom Taxonomy"
 msgstr "Taxonomia personalitzada"
 
 #: modules/proxy/class-wptelegram-proxy-admin.php:201
-#, fuzzy
 msgid "DISCLAIMER!"
-msgstr "Utilitzeu el servidor intermediari sota la vostra responsabilitat."
+msgstr "Renúncia de responsabilitat."
 
 #: admin/class-wptelegram-admin.php:294
 msgid "Debug Info"
@@ -316,9 +303,8 @@ msgid "Email(s) to watch"
 msgstr "E-mail(s) que cal comprovar"
 
 #: admin/class-wptelegram-admin.php:282
-#, fuzzy
 msgid "Enable logs for"
-msgstr "Registres"
+msgstr "Activa els registres per"
 
 #: modules/p2tg/class-wptelegram-p2tg-admin.php:903
 msgid "Enter the Channel Username in the field below"
@@ -330,12 +316,11 @@ msgid ""
 "below"
 msgstr ""
 "Escriu el(s) nom(s) d'usuari del(s) Canal(s) o la(les) Chat ID(s) separats "
-"amb comes en el camp a sota :"
+"amb comes en el camp a sota"
 
 #: modules/notify/class-wptelegram-notify-admin.php:209
-#, fuzzy
 msgid "Enter the Chat ID in %s field below."
-msgstr "Escriu el chat_id que has rebut al camp de sota"
+msgstr "Introduïu l’ID del xat al camp %s següent."
 
 #: public/partials/wptelegram-profile-fields.php:40
 msgid "Enter the received chat_id in the field above"
@@ -412,14 +397,12 @@ msgid "For ease, use %s"
 msgstr "Per facilitar-ho, fes servir %s"
 
 #: modules/p2tg/class-wptelegram-p2tg-admin.php:425
-#, fuzzy
 msgid "For example %1$s and %2$s in WooCommerce"
-msgstr "Exemple: %1$s en comptes de %2$s"
+msgstr "Per exemple %1$s i %2$s a WooCommerce"
 
 #: modules/p2tg/class-wptelegram-p2tg-admin.php:427
-#, fuzzy
 msgid "For example %1$s or %2$s  in WooCommerce"
-msgstr "Exemple: %1$s en comptes de %2$s"
+msgstr "Per exemple, %1$s o %2$s a WooCommerce"
 
 #: admin/class-wptelegram-admin-settings.php:653
 #: admin/class-wptelegram-admin-settings.php:654
@@ -435,20 +418,17 @@ msgid "Get it from %s"
 msgstr "Obteniu-ho des de %s"
 
 #: modules/notify/class-wptelegram-notify-admin.php:361
-#, fuzzy
 msgid "Get your Chat ID from %s and enter it above."
-msgstr "Obtingueu el vostre ID de xat des de %s i introduïu-lo a dalt."
+msgstr "Obtingueu el vostre ID de xat de %s i introduïu-lo a sobre."
 
 #: modules/notify/class-wptelegram-notify-admin.php:202
-#, fuzzy
 msgid "Get your Chat ID from %s and enter it below."
 msgstr "Obtingueu el vostre ID de xat de %s i introduïu-lo a continuació."
 
 #: modules/proxy/class-wptelegram-proxy-admin.php:96
 #: modules/proxy/class-wptelegram-proxy-admin.php:102
-#, fuzzy
 msgid "Google Script"
-msgstr "URL de Google Script"
+msgstr "Google Script"
 
 #: admin/class-wptelegram-admin-settings.php:399
 #: modules/proxy/class-wptelegram-proxy-admin.php:109
@@ -456,15 +436,13 @@ msgid "Google Script URL"
 msgstr "URL de Google Script"
 
 #: modules/proxy/class-wptelegram-proxy-admin.php:94
-#, fuzzy
 msgid "Google Script is preferred"
-msgstr "URL de Google Script"
+msgstr "Google Script és preferible"
 
 #: admin/class-wptelegram-admin.php:275
-#, fuzzy
 msgid "Google Script proxy does not support file upload."
 msgstr ""
-"El servidor intermediari de google script no admet la càrrega de fitxers."
+"El servidor intermediari de Google Script no admet la càrrega de fitxers."
 
 #: admin/class-wptelegram-admin-settings.php:275
 #: modules/p2tg/class-wptelegram-p2tg-admin.php:239
@@ -533,7 +511,8 @@ msgstr "Si n'hi ha més d'un, separa'ls amb comes"
 #: admin/class-wptelegram-admin-settings.php:346
 msgid "If more than one, separate them by comma. Read the instructions above"
 msgstr ""
-"Si n'hi ha més d'un, separa'ls amb comes. Llegeix les instruccions anteriors."
+"Si n'hi ha més d'un, separeu-los amb comes. Llegiu les instruccions "
+"anteriors."
 
 #: admin/class-wptelegram-admin-settings.php:321
 msgid ""
@@ -550,9 +529,9 @@ msgid "If you haven't"
 msgstr "Si no has"
 
 #: modules/notify/class-wptelegram-notify-admin.php:92
-#, fuzzy
 msgid "If you want to receive notification for every email, then write %s"
-msgstr "Si vols rebre notificacions dels e-mails enviats, escriu"
+msgstr ""
+"Si voleu rebre una notificació per a cada correu electrònic, escriviu %s"
 
 #: admin/class-wptelegram-admin-settings.php:370
 msgid "If you want to receive notification for every sent email, write"
@@ -613,23 +592,19 @@ msgid "Inline button text"
 msgstr "Text del botó en línia"
 
 #. Description of the plugin
-#, fuzzy
 msgid ""
 "Integrate your WordPress site perfectly with Telegram. Send posts "
 "automatically to Telegram when published or updated, whether to a Telegram "
 "Channel, Group, Supergroup or private chat, with full control. Get your "
 "email notifications on Telegram."
 msgstr ""
-"Integreu perfectament el vostre lloc de wordpress amb telegram. envieu els "
-"missatges automàticament a telegram quan es publiquin o s'actualitzin, ja "
-"sigui en un xat de telegram, en un grup, en un supergrup o en un xat privat, "
-"amb control total. obteniu les vostres notificacions de correu electrònic a "
-"telegram."
+"Integreu Telegram al vostre lloc de WordPress . Envieu entrades "
+"automàticament cap a Telegram quan es publiquin o s'actualitzin. Obteniu les "
+"vostres notificacions de correu electrònic a Telegram."
 
 #: admin/class-wptelegram-admin.php:414
-#, fuzzy
 msgid "Invalid %s"
-msgstr "Taxonomia invàlida: %s"
+msgstr "%s no és vàlid"
 
 #: admin/class-wptelegram-admin.php:92 admin/class-wptelegram-admin.php:486
 #: admin/class-wptelegram-admin-settings.php:494
@@ -638,9 +613,8 @@ msgid "Invalid Bot Token"
 msgstr "Bot Token invàlid"
 
 #: admin/class-wptelegram-admin.php:491
-#, fuzzy
 msgid "Invalid Bot Username"
-msgstr "El Bot Token és invàlid"
+msgstr "El nom d’usuari del Bot no és vàlid"
 
 #: admin/class-wptelegram-admin-settings.php:534
 msgid "It is different from a username and is visible only to bots."
@@ -868,9 +842,8 @@ msgid "Post Content before Read More tag"
 msgstr "Contingut de la Publicació abans de l'etiqueta Llegeix Més"
 
 #: modules/p2tg/class-wptelegram-p2tg-admin.php:396
-#, fuzzy
 msgid "Post Data"
-msgstr "(sense dades)"
+msgstr "Dades de l'entrada"
 
 #: admin/class-wptelegram-admin-settings.php:250
 #: modules/p2tg/class-wptelegram-p2tg-admin.php:211
@@ -882,9 +855,8 @@ msgid "Post Format"
 msgstr "Format de l'entrada"
 
 #: modules/p2tg/class-wptelegram-p2tg-rules.php:182
-#, fuzzy
 msgid "Post Tag"
-msgstr "No s'ha pogut importar l'etiqueta %s"
+msgstr "Etiqueta de l'entrada"
 
 #: admin/class-wptelegram-admin-settings.php:199
 msgid "Post from all Authors"
@@ -923,9 +895,8 @@ msgid "Proxy Host"
 msgstr "Amfitrió del servidor intermediari"
 
 #: modules/proxy/class-wptelegram-proxy-admin.php:84
-#, fuzzy
 msgid "Proxy Method"
-msgstr "Proxy"
+msgstr "Mètode Proxy"
 
 #: admin/class-wptelegram-admin-settings.php:418
 #: modules/proxy/class-wptelegram-proxy-admin.php:132
@@ -946,18 +917,16 @@ msgid "Remove settings on uninstall"
 msgstr "Elimina els ajustaments en desinstal·lar"
 
 #: modules/p2tg/class-wptelegram-p2tg-admin.php:427
-#, fuzzy
 msgid "Replace %1$s in %2$s by the name of the Custom Field."
-msgstr "Substituïu% 1 $ s a% 2 $ s pel nom del camp personalitzat."
+msgstr "Substituïu %1$s a %2$s pel nom del camp personalitzat."
 
 #: modules/p2tg/class-wptelegram-p2tg-admin.php:425
-#, fuzzy
 msgid ""
 "Replace %1$s in %2$s by the name of the taxonomy to insert its terms "
 "attached to the post."
 msgstr ""
-"Substituïu% 1 $ s a% 2 $ s pel nom de la taxonomia per inserir els seus "
-"termes adjunts a la publicació."
+"Substituïu %1$s a %2$s pel nom de la taxonomia per adjuntar els seus termes "
+"a la publicació."
 
 #: admin/class-wptelegram-admin-settings.php:654
 msgid ""
@@ -1002,9 +971,8 @@ msgid "Send Test"
 msgstr "Envia la Prova"
 
 #: modules/notify/class-wptelegram-notify-admin.php:203
-#, fuzzy
 msgid "Send YOUR OWN BOT a message to start the conversation."
-msgstr "Envieu el vostre bot un missatge per iniciar la conversa."
+msgstr "Envieu un missatge al vostre BOT per començar la conversa."
 
 #: admin/class-wptelegram-admin-settings.php:539
 #: public/partials/wptelegram-profile-fields.php:38
@@ -1012,7 +980,6 @@ msgid "Send a message to %s"
 msgstr "Envia un missatge a %s"
 
 #: modules/p2tg/class-wptelegram-p2tg-admin.php:266
-#, fuzzy
 msgid "Send both text and image in single message"
 msgstr "Envieu text i imatge en un sol missatge"
 
@@ -1048,18 +1015,16 @@ msgid "Settings"
 msgstr "Ajustaments"
 
 #: admin/class-wptelegram-admin.php:270
-#, fuzzy
 msgid ""
 "Settings in this section should not be changed unless recommended by WP "
 "Telegram Support."
 msgstr ""
-"Els paràmetres d’aquesta secció no s’han de canviar si no l’ha recomanat el "
-"suport de WP Telegram."
+"Els paràmetres d’aquesta secció no s’han de canviar a no ser que ho hagi "
+"recomanat el suport de WP Telegram."
 
 #: admin/class-wptelegram-admin.php:396
-#, fuzzy
 msgid "Settings updated"
-msgstr "S'han actualitzat els paràmetres."
+msgstr "S'ha actualitzat la configuració"
 
 #: admin/partials/wptelegram-admin-header.php:23
 msgid "Shout in"
@@ -1075,9 +1040,8 @@ msgid "Single message"
 msgstr "Missatge únic"
 
 #: modules/notify/class-wptelegram-notify-admin.php:362
-#, fuzzy
 msgid "Start a conversation with %s to receive notifications."
-msgstr "També inicia una conversa amb %s per rebre notificacions"
+msgstr "Inicieu una conversa amb %s per rebre notificacions."
 
 #: admin/class-wptelegram-admin-settings.php:546
 msgid ""
@@ -1107,16 +1071,14 @@ msgid "Taxonomy Terms"
 msgstr "Termes de taxonomia"
 
 #: admin/class-wptelegram-admin.php:209
-#, fuzzy
 msgid "Telegram Bot username (without %s)."
-msgstr "Nom d'usuari de Telegram bot (sense %s)."
+msgstr "Nom d'usuari del Bot de Telegram (sense %s)."
 
 #: modules/p2tg/class-wptelegram-p2tg-admin.php:115
-#, fuzzy
 msgid "Telegram Channel Username or Chat ID. Username must start with %s."
 msgstr ""
-"Nom d'usuari o id de xat del canal de telegrama. el nom d’usuari ha de "
-"començar amb% s."
+"Nom d'usuari o ID de xat del canal de Telegram. El nom d’usuari ha de "
+"començar amb %s."
 
 #: public/partials/wptelegram-profile-fields.php:26
 #: modules/notify/class-wptelegram-notify-admin.php:337
@@ -1141,9 +1103,8 @@ msgid "Telegram Settings"
 msgstr "Ajustaments de Telegram"
 
 #: modules/notify/class-wptelegram-notify-admin.php:101
-#, fuzzy
 msgid "Telegram User or Group Chat ID."
-msgstr "Chat ID de Telegram"
+msgstr "Usuari de Telegram o ID d'un grup de xat"
 
 #: admin/class-wptelegram-admin-settings.php:321
 msgid "Telegram limits photo caption to 200 characters."
@@ -1175,23 +1136,20 @@ msgid "Test result:"
 msgstr "Resultat de la Prova:"
 
 #: admin/class-wptelegram-admin.php:460
-#, fuzzy
 msgid "Test your bot token below."
-msgstr "Copia el token i enganxa'l a sota al camp Bot Token."
+msgstr "Proveu el vostre token de Bot a continuació."
 
 #: admin/class-wptelegram-admin.php:466
-#, fuzzy
 msgid "That's it! :)"
-msgstr "Això és! :)"
+msgstr "Això és tot! :)"
 
 #: admin/class-wptelegram-admin-settings.php:480
 msgid "That's it. Happy WPTelegram :)"
 msgstr "Ja està. Gaudeix de WP Telegram :)"
 
 #: modules/p2tg/class-wptelegram-p2tg-admin.php:909
-#, fuzzy
 msgid "That's it. You are ready to rock :)"
-msgstr "Esteu llest per enviar la revisió?"
+msgstr "Això és tot. Esteu a punt :)"
 
 #: admin/class-wptelegram-admin-settings.php:209
 msgid ""
@@ -1202,32 +1160,28 @@ msgstr ""
 "pantalla d'edició de publicacions"
 
 #: modules/p2tg/class-wptelegram-p2tg-admin.php:371
-#, fuzzy
 msgid "The delay starts after the post gets published."
-msgstr "El retard comença després que es publiqui la publicació."
+msgstr "El retard comença després d'haver-se publicat l'entrada."
 
 #: modules/proxy/class-wptelegram-proxy-admin.php:190
-#, fuzzy
 msgid ""
 "The module will help you bypass the ban on Telegram by making use of proxy."
 msgstr ""
-"El mòdul us ajudarà a passar per alt la prohibició del Telegram fent ús del "
+"El mòdul us ajudarà a passar per alt la prohibició del Telegram fent ús d'un "
 "servidor intermediari."
 
 #: modules/notify/class-wptelegram-notify-admin.php:173
-#, fuzzy
 msgid ""
 "The module will watch the Email Notifications sent from this site and "
 "deliver them on your Telegram"
 msgstr ""
-"El mòdul veurà les notificacions per correu electrònic enviades des d’aquest "
-"lloc i les farà arribar al vostre telegrama"
+"El mòdul observarà les notificacions per correu electrònic enviades des "
+"d’aquest lloc i les enviarà al vostre Telegram"
 
 #: modules/proxy/class-wptelegram-proxy-admin.php:111
-#, fuzzy
 msgid "The requests to Telegram will be sent via your Google Script."
 msgstr ""
-"Les sol·licituds a telegram s'enviaran mitjançant el vostre google script."
+"Les sol·licituds a Telegram s'enviaran a través del vostre Google Script."
 
 #: admin/class-wptelegram-admin-settings.php:184
 msgid "The rule will apply to the selected categories/terms and their children"
@@ -1236,15 +1190,14 @@ msgstr ""
 "categories"
 
 #: modules/p2tg/class-wptelegram-p2tg-admin.php:939
-#, fuzzy
 msgid "There was some error!"
-msgstr "Vaja... Estem rebent algun error. El correu no s'està enviant."
+msgstr "S'ha produït un error!"
 
 #: modules/notify/class-wptelegram-notify-admin.php:116
-#, fuzzy
 msgid "They can also enter their Telegram Chat ID manually on %s page"
 msgstr ""
-"També poden introduir la seva id de xat de telegram manualment a la pàgina% s"
+"També poden introduir la seva ID de xat de Telegram manualment des de la "
+"pàgina %s"
 
 #: admin/class-wptelegram-admin-settings.php:535
 msgid "This chat_id is used by the bots to send messages to a user or group."
@@ -1273,24 +1226,21 @@ msgstr ""
 "Telegram, segueix els passos descrits a sota."
 
 #: admin/class-wptelegram-admin.php:274
-#, fuzzy
 msgid "Turn off to upload the files/images instead of passing the url."
 msgstr ""
-"Apagueu per carregar els fitxers / imatges en comptes de passar per l’url."
+"Apagueu-ho per carregar els fitxers/imatges en comptes de passar la URL."
 
 #: admin/class-wptelegram-admin-settings.php:154
 msgid "Updating an existing post"
 msgstr "Actualitzant un missatge existent"
 
 #: modules/notify/class-wptelegram-notify-admin.php:116
-#, fuzzy
 msgid "Use %s to let them connect their Telegram account."
-msgstr "Utilitzeu% s per permetre'ls connectar el seu compte de telegram."
+msgstr "Feu servir %s per permetre'ls connectar el seu compte de Telegram."
 
 #: admin/class-wptelegram-admin.php:211
-#, fuzzy
 msgid "Use %s to set automatically."
-msgstr "Els fitxers al directori %s s'executen automàticament."
+msgstr "Feu servir %s per establir-ho automàticament."
 
 #: modules/proxy/class-wptelegram-proxy-admin.php:202
 msgid "Use the proxy at your own risk!"
@@ -1360,9 +1310,8 @@ msgid "When publishing a new post"
 msgstr "Quan es faci una nova publicació"
 
 #: modules/p2tg/class-wptelegram-p2tg-admin.php:144
-#, fuzzy
 msgid "When the post should be sent to Telegram"
-msgstr "Quins tipus de publicacions s'han d'enviar."
+msgstr "Quan s’ha d’enviar l’entrada a Telegram"
 
 #: admin/class-wptelegram-admin-settings.php:147
 msgid "When to send?"
@@ -1381,19 +1330,17 @@ msgid "With Caption"
 msgstr "Amb Llegenda"
 
 #: modules/p2tg/class-wptelegram-p2tg-admin.php:888
-#, fuzzy
 msgid "With this module, you can configure how the posts are sent to Telegram"
 msgstr ""
-"Amb aquest mòdul, podeu configurar com s'envien les publicacions a telegram"
+"Amb aquest mòdul, podeu configurar com s'envien les entrades a Telegram"
 
 #: admin/class-wptelegram-admin.php:442
-#, fuzzy
 msgid ""
 "With this plugin, you can send posts to Telegram and receive notifications "
 "and do lot more :)"
 msgstr ""
-"Amb aquest connector, podeu enviar publicacions a Telegram i rebre "
-"notificacions i fer molt més :)"
+"Aquesta extensió us permet enviar publicacions a Telegram, rebre "
+"notificacions i molt més :)"
 
 #: admin/class-wptelegram-admin-settings.php:313
 msgid "Without Caption"
@@ -1412,9 +1359,8 @@ msgid "Yes"
 msgstr "Sí"
 
 #: modules/p2tg/class-wptelegram-p2tg-admin.php:906
-#, fuzzy
 msgid "You can also use the Chat ID of a group or private chat."
-msgstr "També podeu utilitzar l’id de xat d’un grup o un xat privat."
+msgstr "També podeu utilitzar l’ID de xat d’un grup o un xat privat."
 
 #: admin/class-wptelegram-admin-settings.php:476
 msgid ""
@@ -1454,9 +1400,8 @@ msgstr ""
 "publicació concreta"
 
 #: includes/class-wptelegram-helpers.php:105
-#, fuzzy
 msgid "You must set the Bot Token first."
-msgstr "Primer heu de configurar el token de bot."
+msgstr "Primer heu d'establir el token del Bot."
 
 #: includes/wptelegram-functions.php:178
 msgid "Your host seems to block requests to %s"
@@ -1478,14 +1423,12 @@ msgid "https://t.me/manzoorwanijk"
 msgstr "https://t.me/manzoorwanijk"
 
 #: modules/p2tg/class-wptelegram-p2tg-rules.php:201
-#, fuzzy
 msgid "is in"
-msgstr "està dins"
+msgstr "està a"
 
 #: modules/p2tg/class-wptelegram-p2tg-rules.php:202
-#, fuzzy
 msgid "is not in"
-msgstr "no està dins"
+msgstr "no està a"
 
 #: admin/class-wptelegram-admin-settings.php:335
 msgid "of the link in text"
@@ -1501,4 +1444,4 @@ msgstr "no s'hauria de comprovar"
 
 #: modules/notify/class-wptelegram-notify-admin.php:388
 msgid "via %s"
-msgstr "Via %s"
+msgstr "via %s"

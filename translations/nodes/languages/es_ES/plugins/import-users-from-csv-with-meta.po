@@ -6,8 +6,8 @@ msgstr ""
 "(latest release)\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/import-users-from-"
 "csv-with-meta\n"
-"POT-Creation-Date: 2019-04-11T16:48:41+02:00\n"
-"PO-Revision-Date: 2019-04-11 17:01+0200\n"
+"POT-Creation-Date: 2019-04-15T16:18:55+02:00\n"
+"PO-Revision-Date: 2019-04-15 15:16+0200\n"
 "Last-Translator: Joan Sala Soler <jsala236@xtec.cat>\n"
 "Language-Team: \n"
 "Language: es\n"
@@ -106,17 +106,13 @@ msgstr ""
 "administrador por defecto)."
 
 #: classes/homepage.php:435
-#, fuzzy
 msgid ""
 "A string that will be shown on the site. Defaults to user's username. It is "
 "likely that you will want to change this, for both appearance and security "
 "through obscurity (that is if you dont use and delete the default admin "
 "user)."
 msgstr ""
-"Una cadena que se mostrará en el sitio. Por defecto es el nombre de usuario. "
-"Es probable que desee cambiar esto, tanto para la apariencia como para la "
-"seguridad a través de la opacidad (es decir, si no usa y elimina el usuario "
-"administrador por defecto)."
+"Un texto que se mostrará en el sitio. Por defecto es su nombre de usuario."
 
 #: classes/email-options.php:36
 msgid ""
@@ -135,9 +131,8 @@ msgid "Activate users when they are being imported"
 msgstr "Activar usuarios cuando hayan sido importados"
 
 #: classes/email-templates.php:28 classes/email-templates.php:29
-#, fuzzy
 msgid "Add new email template"
-msgstr "Plantilla de email nuevo"
+msgstr "Añadir una plantilla de correo electrónico nueva"
 
 #: classes/homepage.php:210 classes/frontend.php:103 classes/cron.php:200
 msgid ""
@@ -149,32 +144,28 @@ msgstr ""
 "contenidos serán borrados."
 
 #: classes/homepage.php:231 classes/frontend.php:123 classes/cron.php:220
-#, fuzzy
 msgid ""
 "After import users which is not present in the CSV and can be changed to a "
 "different role."
 msgstr ""
-"Después usuarios de importación qué no es presente en el csv y puede ser "
-"cambiado a una función diferente."
+"Tras la importación, los usuarios que no están presentes en el CSV y se "
+"pueden cambiar a un rol diferente."
 
 #: classes/email-templates.php:27
-#, fuzzy
 msgid "All email template"
-msgstr "Todas la situaciones de correo"
+msgstr "Toda la plantilla de correo electrónico"
 
 #: addons/allow-multiple-accounts.php:23 addons/allow-multiple-accounts.php:42
 msgid "Allow Multiple Accounts"
 msgstr "Permitir múltiples cuentas"
 
 #: addons/allow-multiple-accounts.php:33
-#, fuzzy
 msgid "Allow Multiple Accounts compatibility"
-msgstr "Permitir múltiples cuentas"
+msgstr "Permite la compatibilidad de múltiples cuentas"
 
 #: addons/allow-multiple-accounts.php:12
-#, fuzzy
 msgid "Allow multiple accounts compatibility"
-msgstr "Permitir múltiples cuentas"
+msgstr "Permite la compatibilidad de múltiples cuentas"
 
 #: addons/allow-multiple-accounts.php:23 addons/allow-multiple-accounts.php:42
 msgid ""
@@ -229,9 +220,8 @@ msgstr "¿Está seguro de que quiere borrar este fichero?"
 
 #: classes/email-templates.php:113 classes/email-templates.php:125
 #: classes/email-options.php:74
-#, fuzzy
 msgid "Attachment"
-msgstr "Página de adjuntos"
+msgstr "Archivo adjunto"
 
 #: classes/cron.php:156
 msgid "Auto rename after move?"
@@ -242,9 +232,8 @@ msgid "Become a patron"
 msgstr "Conviértete en un patrocinador"
 
 #: addons/buddypress.php:29
-#, fuzzy
 msgid "BuddyPress compatibility"
-msgstr "Buddypress"
+msgstr "Compatibilidad con BuddyPress"
 
 #: classes/doc.php:115
 msgid "BuddyPress is activated"
@@ -271,23 +260,20 @@ msgid "CSV file <span class=\"description\">(required)</span></label>"
 msgstr "Fichero CSV <span class=\"description\">(obligatorio)</span></label>"
 
 #: importer.php:129
-#, fuzzy
 msgid ""
 "CSV file seems to be bad formed. Please use LibreOffice to create and manage "
 "CSV to be sure the format is correct"
 msgstr ""
-"Csv el archivo parece para ser malo formado. por favor uso libreoffice para "
-"crear y dirigir csv para ser seguro el formato es correcto"
+"Parece que el archivo CSV no está bien formado. Use LibreOffice para crear y "
+"gestionar los CSV y así se asegura que el formato es correcto"
 
 #: classes/homepage.php:216 classes/frontend.php:109 classes/cron.php:206
-#, fuzzy
 msgid "Change role of users that are not present in the CSV?"
-msgstr "¿Borrar usuarios que no están presentes en el CSV?"
+msgstr "¿Desea cambiar el rol de los usuarios que no están en el CSV?"
 
 #: classes/email-options.php:101
-#, fuzzy
 msgid "Choose or upload file"
-msgstr "Sube un archivo"
+msgstr "Elija o cargue un archivo"
 
 #: classes/homepage.php:16
 msgid "Click to open/close"
@@ -362,9 +348,8 @@ msgid "Do you like it?"
 msgstr "¿Te gusta?"
 
 #: classes/email-options.php:48
-#, fuzzy
 msgid "Do you want to enable mail templates?"
-msgstr "Quieres habilitar plantillas de correo?"
+msgstr "¿Desea habilitar las plantillas de correo?"
 
 #: classes/homepage.php:146
 msgid "Do you wish to send a mail with credentials and other data?"
@@ -395,45 +380,38 @@ msgid "EMail not specified"
 msgstr "Correo electrónico no especificado"
 
 #: classes/email-templates.php:31
-#, fuzzy
 msgid "Edit email template"
-msgstr "Editar situaciones de correo"
+msgstr "Editar la plantilla de correo"
 
 #: classes/doc.php:16 classes/homepage.php:404
 msgid "Email"
 msgstr "Correo electrónico"
 
 #: classes/email-templates.php:21
-#, fuzzy
 msgctxt "Post Type Singular Name"
 msgid "Email template (Import Users From CSV With Meta)"
-msgstr "Importar usuarios desde CSV con meta"
+msgstr "Plantilla de correo (importar usuarios de un CSV con metadatos)"
 
 #: classes/email-templates.php:45
-#, fuzzy
 msgid "Email template list navigation"
-msgstr "Lista de navegación de correo"
+msgstr "Navegación de plantillas de correo en forma de lista"
 
 #: classes/email-templates.php:23
-#, fuzzy
 msgid "Email templates (Import Users From CSV With Meta)"
-msgstr "Importar usuarios desde CSV con meta"
+msgstr "Plantillas de correo (importar usuarios de un CSV con metadatos)"
 
 #: classes/email-templates.php:20
-#, fuzzy
 msgctxt "Post Type General Name"
 msgid "Email templates (Import Users From CSV With Meta)"
-msgstr "Importar usuarios desde CSV con meta"
+msgstr "Plantillas de correo (importar usuarios de un CSV con metadatos)"
 
 #: classes/email-templates.php:22
-#, fuzzy
 msgid "Email templates (Import Users)"
-msgstr "Importar usuarios desde CSV con meta"
+msgstr "Plantillas de correo (importar usuarios)"
 
 #: classes/email-options.php:44
-#, fuzzy
 msgid "Enable mail templates:"
-msgstr "Activar el registro de correo"
+msgstr "Habilitar las plantillas de correo:"
 
 #: import-users-from-csv-with-meta.php:329
 msgid "Error, the file"
@@ -464,11 +442,8 @@ msgid "Extra profile fields loadad in previous files"
 msgstr "Campos extra del perfil cargados en archivos anteriores"
 
 #: import-users-from-csv-with-meta.php:559
-#, fuzzy
 msgid "Extra profile information"
-msgstr ""
-"(Si quieres desactivar la información extra del perfil, por favor desactiva "
-"este plugin después de hacer la importación)"
+msgstr "Información extra del perfil"
 
 #: classes/email-templates.php:38
 msgid "Featured Image"
@@ -502,9 +477,8 @@ msgid "Files successfully deleted"
 msgstr "Fichero borrado correctamente"
 
 #: classes/email-templates.php:46
-#, fuzzy
 msgid "Filter email template list"
-msgstr "Filtrar la lista de correos electrónicos"
+msgstr "Filtrar la lista de plantillas de correo"
 
 #: classes/homepage.php:28
 msgid ""
@@ -606,13 +580,12 @@ msgstr ""
 "'bp_group' y una columna 'bp_group_role'"
 
 #: addons/wp-lms-course.php:26
-#, fuzzy
 msgid ""
 "If you want to import multiple values, you can use a list using / to "
 "separate items"
 msgstr ""
-"Si quieres importar múltiples valores, puedes usar una lista separando los "
-"elementos por comas"
+"Para importar varios valores, puede separar los elementos de la lista con el "
+"carácter /"
 
 #: addons/acui-wp-users-group.php:24 addons/acui-users-group.php:24
 #: addons/wp-users-group.php:24 addons/users-group.php:24
@@ -653,9 +626,8 @@ msgid "Insert complete path to the file"
 msgstr "Introduzca la ruta completa del fichero"
 
 #: classes/email-templates.php:42
-#, fuzzy
 msgid "Insert into email template"
-msgstr "Insertar plantilla"
+msgstr "Insertar en una plantilla de correo"
 
 #: import-users-from-csv-with-meta.php:176
 msgid "Insert users massively (CSV)"
@@ -678,18 +650,12 @@ msgid "Invalid roles"
 msgstr "Perfiles no válidos"
 
 #: classes/email-templates.php:24
-#, fuzzy
 msgid "Item Archives"
-msgstr ""
-"Archivos de <span class=\"pods-slugged\" data-sluggable=\"label_singular"
-"\">elementos</span>"
+msgstr "Archivos del elemento"
 
 #: classes/email-templates.php:25
-#, fuzzy
 msgid "Item Attributes"
-msgstr ""
-"Atributos del <span class=\"pods-slugged\" data-sluggable=\"label_singular"
-"\">elemento</span>"
+msgstr "Atributos del elemento"
 
 #: classes/email-templates.php:44
 msgid "Items list"
@@ -704,23 +670,21 @@ msgid "Leave the old value for this metadata"
 msgstr "Dejas los valores antiguos para estos metadatos"
 
 #: addons/wp-lms-course.php:20
-#, fuzzy
 msgid "LifterLMS is activated"
-msgstr "Cuenta activada"
+msgstr "LifterLMS está activado"
 
 #: classes/doc.php:58
 msgid "Lists"
 msgstr "Listas"
 
 #: classes/email-options.php:61
-#, fuzzy
 msgid "Load custom email from email templates"
-msgstr "Email de costumbre de la carga de plantillas de email"
+msgstr "Cargar un correo personalizado de las plantillas"
 
 #: classes/email-options.php:63
-#, fuzzy
 msgid "Load subject, content and attachment from this email template"
-msgstr "Tema de carga, contenido y anexo de esta plantilla de email"
+msgstr ""
+"Cargar el tema, el contenido y el archivo adjunto de esta plantilla de correo"
 
 #: classes/cron.php:229
 msgid "Log"
@@ -735,18 +699,16 @@ msgid "Mail subject :"
 msgstr "Asunto del correo electrónico"
 
 #: classes/email-templates.php:49
-#, fuzzy
 msgid "Mail template (Import Users From CSV With Meta)"
-msgstr "Importar usuarios desde CSV con meta"
+msgstr "Plantilla de correo (importar usuarios de un CSV con metadatos)"
 
 #: import-users-from-csv-with-meta.php:428
 msgid "Mail template updated correctly"
 msgstr "Plantilla de correo electrónico actualizada correctamente"
 
 #: classes/email-templates.php:50
-#, fuzzy
 msgid "Mail templates for Import Users From CSV With Meta"
-msgstr "Importar usuarios desde CSV con meta"
+msgstr "Plantillas de correo para importar usuarios de un CSV con metadatos"
 
 #: classes/cron.php:142
 msgid "Move file after import?"
@@ -769,9 +731,8 @@ msgid "New User Approve"
 msgstr "Nueva aprobación de usuario"
 
 #: addons/new-user-approve.php:11
-#, fuzzy
 msgid "New User Approve compatibility"
-msgstr "Nueva aprobación de usuario"
+msgstr "Compatibilidad con \"New User Approve\""
 
 #: classes/email-templates.php:30
 msgid "New email template"
@@ -783,36 +744,32 @@ msgstr "No"
 
 #: import-users-from-csv-with-meta.php:281
 #: import-users-from-csv-with-meta.php:402 include/shortcode-frontend.php:12
-#, fuzzy
 msgid "Nonce check failed"
-msgstr ""
-"La comprobación de cambio de nonce ha fallado. Por favor, inténtalo de nuevo."
+msgstr "Falló la verificación del nonce"
 
 #: addons/allow-multiple-accounts.php:20
 msgid "Not allowed"
 msgstr "No permitido"
 
 #: classes/email-templates.php:36
-#, fuzzy
 msgid "Not found"
-msgstr "No encontrado"
+msgstr "No se encontró"
 
 #: classes/email-templates.php:37
 msgid "Not found in Trash"
 msgstr "No se ha encontrado en la papelera"
 
 #: classes/doc.php:49
-#, fuzzy
 msgid ""
 "Notice: If the default new role is administrator in WordPress settings, role "
 "will not be set during a CSV file import with this plugin. Check it if all "
 "users are being imported as administrators and you have set another role in "
 "this plugin."
 msgstr ""
-"Aviso: si el default la función nueva es administradora  en encuadres de "
-"wordpress, la función no será puso durante un csv importación de archivo con "
-"este plugin. control él si todos los  usuarios son ser  importados como los "
-"administradores y tú tienen puso otra función en este plugin."
+"Aviso: si el nuevo rol predeterminado es administrador en la configuración "
+"de WordPress, el rol no se definirá durante la importación de archivos CSV. "
+"Compruébelo cuando se importen todos los usuarios como administradores y "
+"haya establecido otro rol en esta extensión."
 
 #: classes/homepage.php:23
 msgid "Old CSV files uploaded"
@@ -918,7 +875,7 @@ msgstr "Problemas con el ID"
 
 #: importer.php:342
 msgid "Problems with user %s. Skiping importation"
-msgstr ""
+msgstr "Hay problemas con el usuario %s. Se omite la importación"
 
 #: importer.php:723
 msgid "Process finished you can go"
@@ -942,9 +899,8 @@ msgid "Remove featured image"
 msgstr "Borrar imagen destacada"
 
 #: classes/email-templates.php:129 classes/email-options.php:78
-#, fuzzy
 msgid "Remove file"
-msgstr "fichero"
+msgstr "Borrar archivo"
 
 #: addons/allow-multiple-accounts.php:17 addons/allow-multiple-accounts.php:39
 msgid "Repeated email in different users?"
@@ -955,9 +911,8 @@ msgid "Role"
 msgstr "Perfil"
 
 #: classes/doc.php:42
-#, fuzzy
 msgid "Roles (column role)"
-msgstr "Roles &amp; Funciones: Editar rol"
+msgstr "Roles (columna de rol)"
 
 #: importer.php:181
 msgid "Row"
@@ -968,9 +923,8 @@ msgid "Row number"
 msgstr "Número de fila"
 
 #: classes/email-options.php:83
-#, fuzzy
 msgid "Save email template and options"
-msgstr "Opciones de auto plantilla"
+msgstr "Guardar la plantilla de correo electrónico y las opciones"
 
 #: classes/frontend.php:130
 msgid "Save frontend import options"
@@ -985,9 +939,8 @@ msgid "Save schedule options"
 msgstr "Guardar opciones de programación"
 
 #: classes/email-templates.php:35
-#, fuzzy
 msgid "Search email template"
-msgstr "Plantilla de email nuevo"
+msgstr "Buscar la plantilla de correo electrónico"
 
 #: classes/email-options.php:31
 msgid "Send automattic WordPress emails?"
@@ -1020,19 +973,16 @@ msgid "Set featured image"
 msgstr "Establecer imagen destacada"
 
 #: classes/homepage.php:400
-#, fuzzy
 msgid "Sets the username."
-msgstr "Nombre de usuario"
+msgstr "Establece el nombre de usuario."
 
 #: classes/homepage.php:406
-#, fuzzy
 msgid "Sets user email."
-msgstr "usar correo electrónico"
+msgstr "Establece la dirección electrónica del usuario."
 
 #: classes/homepage.php:412
-#, fuzzy
 msgid "Sets user password."
-msgstr "contraseña de usuario"
+msgstr "Establece la contraseña del usuario."
 
 #: import-users-from-csv-with-meta.php:385
 #: import-users-from-csv-with-meta.php:498
@@ -1048,13 +998,12 @@ msgid "Start importing"
 msgstr "Empezando la importación"
 
 #: classes/homepage.php:416
-#, fuzzy
 msgid ""
 "The next columns are totally customizable and you can use whatever you want. "
 "All rows must contains same columns"
 msgstr ""
-"(Las siguientes columnas son totalmente personalizables y puedes usar lo que "
-"quieras. Todas las filas deben contener las mismas columnas)"
+"Las columnas siguientes son totalmente personalizables y se pueden usar de "
+"la forma que desee. Todas las filas deben contener las mismas columnas"
 
 #: classes/doc.php:70 classes/homepage.php:447
 msgid "The user's first name."
@@ -1069,13 +1018,12 @@ msgid "The user's nickname, defaults to the user's username."
 msgstr "El alias del usuario, por defecto es el nombre de usuario."
 
 #: addons/wp-lms-course.php:25
-#, fuzzy
 msgid ""
 "The value of each cell will be the NUMBER of the course to enroll (do not "
 "use slugs)"
 msgstr ""
-"El valor de cada célula será el número del curso a enroll ( no babosas de "
-"uso)"
+"El valor de cada celda será el número del curso a matricularse (no use "
+"nombres cortos)"
 
 #: addons/acui-wp-users-group.php:23 addons/acui-users-group.php:23
 #: addons/wp-users-group.php:23 addons/users-group.php:23
@@ -1129,9 +1077,8 @@ msgstr ""
 "escritura del servidor? "
 
 #: classes/email-templates.php:32
-#, fuzzy
 msgid "Update email template"
-msgstr "Actualizar situación de correo"
+msgstr "Actualizar la plantilla de correo electrónico"
 
 #: classes/homepage.php:166
 msgid "Update existing users?"
@@ -1142,35 +1089,28 @@ msgid "Update roles for existing users?"
 msgstr "¿Actualizar los perfiles de los usuarios existentes?"
 
 #: classes/homepage.php:161
-#, fuzzy
 msgid "Update users"
-msgstr "¿Actualizar los usuarios existentes?"
+msgstr "Actualizar los usuarios"
 
 #: include/shortcode-frontend.php:34
 msgid "Upload and process"
 msgstr "Subir y procesar"
 
 #: classes/email-templates.php:128 classes/email-options.php:77
-#, fuzzy
 msgid "Upload file"
-msgstr "Subir archivo"
+msgstr "Subir un documento"
 
 #: classes/email-templates.php:43
-#, fuzzy
 msgid "Uploaded to this email template"
-msgstr "Subido a este e-mail"
+msgstr "Se ha cargado en esta plantilla de correo electrónico"
 
 #: classes/email-templates.php:41
 msgid "Use as featured image"
 msgstr "Usar como imagen destacada"
 
 #: classes/email-options.php:102
-#, fuzzy
 msgid "Use this file"
-msgstr ""
-"Si aún así decides seguir adelante con la edición directa, utiliza un gestor "
-"de archivos para crear una copia con un nombre nuevo y guarda el original. "
-"De esta forma podrás volver a activar una versión funcional si algo falla."
+msgstr "Usa este archivo"
 
 #: classes/frontend.php:29
 msgid "Use this shortcode in any page or post"
@@ -1199,28 +1139,24 @@ msgid "Username"
 msgstr "Usuario"
 
 #: classes/homepage.php:188 classes/frontend.php:75 classes/cron.php:171
-#, fuzzy
 msgid "Users not present in CSV file"
-msgstr "¿Borrar usuarios que no están presentes en el CSV?"
+msgstr "Los usuarios no están en el archivo CSV"
 
 #: classes/email-templates.php:33
-#, fuzzy
 msgid "View email template"
-msgstr "Ver correo electrónico"
+msgstr "Ver la plantilla de correo electrónico"
 
 #: classes/email-templates.php:34
-#, fuzzy
 msgid "View email templates"
-msgstr "Plantillas"
+msgstr "Ver las plantillas de correo electrónico"
 
 #: addons/wp-members.php:24 addons/wp-members.php:47
 msgid "WP Members"
 msgstr "Miembros WP"
 
 #: addons/wp-members.php:12 addons/wp-members.php:35
-#, fuzzy
 msgid "WP Members compatibility"
-msgstr "Miembros WP"
+msgstr "Compatibilidad con WP Members"
 
 #: addons/acui-wp-users-group.php:18 addons/acui-users-group.php:18
 #: addons/wp-users-group.php:18 addons/users-group.php:18
@@ -1350,11 +1286,10 @@ msgstr ""
 "siguiente formato"
 
 #: addons/wp-lms-course.php:22
-#, fuzzy
 msgid "You can import users and assign them to LMS Course using next format"
 msgstr ""
-"Puedes importar grupos de usuarios y asignarlos a los usuarios usando el "
-"siguiente formato"
+"Puede importar usuarios y asignarlos al curso LMS mediante el siguiente "
+"formato"
 
 #: addons/buddypress.php:35
 msgid ""
@@ -1377,11 +1312,8 @@ msgstr ""
 "había en el último fichero cargado."
 
 #: classes/email-templates.php:76
-#, fuzzy
 msgid "You can use"
-msgstr ""
-"Puedes utilizar esto para ocultar la cabecera de los meses para este "
-"calendario."
+msgstr "Puedes utilizar"
 
 #: classes/doc.php:25
 msgid ""
@@ -1449,7 +1381,7 @@ msgstr "Puedes introducir la ruta del fichero, p.e.:"
 
 #: classes/homepage.php:394
 msgid "You should fill the first three rows with the next values"
-msgstr ""
+msgstr "Debe rellenar las tres primeras columnas con los siguientes valores"
 
 #: import-users-from-csv-with-meta.php:99
 #: import-users-from-csv-with-meta.php:269
@@ -1471,9 +1403,8 @@ msgid "and all the team of"
 msgstr "y todo el equipo de"
 
 #: classes/help.php:12
-#, fuzzy
 msgid "and the team of"
-msgstr "El equipo de BuddyPress"
+msgstr "y el equipo de"
 
 #: classes/donate.php:13
 msgid "buy me a coffee"
@@ -1496,18 +1427,16 @@ msgid "current site login url"
 msgstr "url actual de acceso al sitio "
 
 #: classes/homepage.php:457
-#, fuzzy
 msgid "description"
-msgstr "Descripción"
+msgstr "descripción"
 
 #: classes/donate.php:14 classes/help.php:12
 msgid "developers of this plugin."
 msgstr "desarrolladores de este plugin."
 
 #: classes/homepage.php:433
-#, fuzzy
 msgid "display_name"
-msgstr "Nombre a mostrar"
+msgstr "display_name"
 
 #: importer.php:188
 msgid "does not have the same columns than the header, we are going to skip"
@@ -1518,9 +1447,8 @@ msgid "file"
 msgstr "fichero"
 
 #: classes/homepage.php:445
-#, fuzzy
 msgid "first_name"
-msgstr "Primer Nombre"
+msgstr "first_name"
 
 #: importer.php:723
 msgid "here to see results"
@@ -1535,28 +1463,24 @@ msgid "https://www.codection.com"
 msgstr "https://www.codection.com"
 
 #: classes/doc.php:24
-#, fuzzy
 msgid "id (column id)"
-msgstr "Columna ID de Tabla"
+msgstr "id (id de columna)"
 
 #: classes/homepage.php:451
-#, fuzzy
 msgid "last_name"
-msgstr "Apellidos"
+msgstr "last_name"
 
 #: addons/wp-lms-course.php:24
-#, fuzzy
 msgid "lms_courses as the column title"
-msgstr "user_group como el título de la columna"
+msgstr "lms_courses como título de columna"
 
 #: classes/email-templates.php:81
 msgid "lost password url"
 msgstr "Url de contraseña perdida"
 
 #: classes/homepage.php:439
-#, fuzzy
 msgid "nickname"
-msgstr "Apodo"
+msgstr "apodo"
 
 #: classes/homepage.php:92
 msgid "or you can upload it directly from your PC"
@@ -1603,14 +1527,12 @@ msgid "user_group as the column title"
 msgstr "user_group como el título de la columna"
 
 #: classes/homepage.php:421
-#, fuzzy
 msgid "user_nicename"
-msgstr "un usuario"
+msgstr "user_nicename"
 
 #: classes/homepage.php:427
-#, fuzzy
 msgid "user_url"
-msgstr "URL del usuario"
+msgstr "user_url"
 
 #: importer.php:255
 msgid ""

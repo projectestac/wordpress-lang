@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: import-users-from-csv-with-meta\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/import-users-from-"
 "csv-with-meta\n"
-"POT-Creation-Date: 2019-04-11T16:48:41+02:00\n"
-"PO-Revision-Date: 2019-04-11 16:55+0200\n"
+"POT-Creation-Date: 2019-04-15T16:18:55+02:00\n"
+"PO-Revision-Date: 2019-04-12 11:12+0200\n"
 "Last-Translator: Joan Sala Soler <jsala236@xtec.cat>\n"
 "Language-Team: Departament Ensenyament Catalunya - Àrea TAC\n"
 "Language: ca\n"
@@ -40,9 +40,9 @@ msgid ""
 "(The next columns are totally customizable and you can use whatever you "
 "want. All rows must contains same columns)"
 msgstr ""
-"Les columnes següents són totalment personalitzables i es poden fer servir "
+"(Les columnes següents són totalment personalitzables i es poden fer servir "
 "de la forma que vulgueu. Totes les files han de contenir les mateixes "
-"columnes:"
+"columnes)"
 
 # modificat xtec
 #: classes/doc.php:19
@@ -148,7 +148,6 @@ msgstr ""
 "publicacions."
 
 #: classes/homepage.php:231 classes/frontend.php:123 classes/cron.php:220
-#, fuzzy
 msgid ""
 "After import users which is not present in the CSV and can be changed to a "
 "different role."
@@ -279,18 +278,16 @@ msgid "CSV file <span class=\"description\">(required)</span></label>"
 msgstr "Fitxer CSV <span class=\"description\">(requerit)</span></label>"
 
 #: importer.php:129
-#, fuzzy
 msgid ""
 "CSV file seems to be bad formed. Please use LibreOffice to create and manage "
 "CSV to be sure the format is correct"
 msgstr ""
-"Sembla que el fitxer csv està mal format. utilitzeu libreoffice per crear i "
-"gestionar csv per assegurar-vos que el format és correcte"
+"Sembla que el fitxer CSV no està ben format. Feu servir LibreOffice per "
+"crear i gestionar els CSV i així assegurar-vos que el format és correcte"
 
 #: classes/homepage.php:216 classes/frontend.php:109 classes/cron.php:206
-#, fuzzy
 msgid "Change role of users that are not present in the CSV?"
-msgstr "Voleu eliminar els usuaris que no estan al CSV?"
+msgstr "Voleu canviar el rol dels usuaris que no estan al CSV?"
 
 #: classes/email-options.php:101
 msgid "Choose or upload file"
@@ -420,34 +417,29 @@ msgstr "Edita plantilla de correu"
 
 #: classes/doc.php:16 classes/homepage.php:404
 msgid "Email"
-msgstr "email:"
+msgstr "Correu electrònic"
 
 #: classes/email-templates.php:21
-#, fuzzy
 msgctxt "Post Type Singular Name"
 msgid "Email template (Import Users From CSV With Meta)"
-msgstr "Importa usuaris des d'un fitxer CSV amb metadades"
+msgstr "Plantilla de correu (importa usuaris d'un CSV amb metadades)"
 
 #: classes/email-templates.php:45
-#, fuzzy
 msgid "Email template list navigation"
-msgstr "Filtra la llista de plantilles de correu"
+msgstr "Navegació de plantilles de correu en forma de llista"
 
 #: classes/email-templates.php:23
-#, fuzzy
 msgid "Email templates (Import Users From CSV With Meta)"
-msgstr "Importa usuaris des d'un fitxer CSV amb metadades"
+msgstr "Plantilles de correu (importa usuaris d'un CSV amb metadades)"
 
 #: classes/email-templates.php:20
-#, fuzzy
 msgctxt "Post Type General Name"
 msgid "Email templates (Import Users From CSV With Meta)"
-msgstr "Importa usuaris des d'un fitxer CSV amb metadades"
+msgstr "Plantilles de correu (importa usuaris d'un CSV amb metadades)"
 
 #: classes/email-templates.php:22
-#, fuzzy
 msgid "Email templates (Import Users)"
-msgstr "Importa usuaris a la interfície"
+msgstr "Plantilles de correu (importa usuaris)"
 
 #: classes/email-options.php:44
 msgid "Enable mail templates:"
@@ -465,7 +457,7 @@ msgstr "No podem trobar el fitxer"
 
 #: classes/doc.php:146
 msgid "Example"
-msgstr "Exemple:"
+msgstr "Exemple"
 
 # modificat xtec
 #: classes/frontend.php:22
@@ -538,12 +530,12 @@ msgstr ""
 "Per raons de seguretat heu d'esborrar aquests fitxers, és possible que "
 "siguin visibles a internet si un robot o algú descobreix l'URL. Podeu "
 "esborrar cadascun dels fitxers o potser voleu esborrar tots els fitxers CSV "
-"que heu pujat."
+"que heu pujat:"
 
 # modificat xtec
 #: classes/doc.php:140
 msgid "Free support (in WordPress forums):"
-msgstr "Fòrums de suport"
+msgstr "Fòrums de suport:"
 
 #: classes/homepage.php:63
 msgid "General"
@@ -640,13 +632,12 @@ msgstr ""
 "'bp_group' i una columna 'bp_group_role'"
 
 #: addons/wp-lms-course.php:26
-#, fuzzy
 msgid ""
 "If you want to import multiple values, you can use a list using / to "
 "separate items"
 msgstr ""
-"Si voleu importar múltiples valors, podeu utilitzar una llista amb comes per "
-"separar elements"
+"Per importar diversos valors, podeu separar els elements de la llista amb el "
+"caràcter /"
 
 # modificat xtec
 #: addons/acui-wp-users-group.php:24 addons/acui-users-group.php:24
@@ -675,7 +666,7 @@ msgstr "Importa usuaris des d'un fitxer CSV amb metadades"
 # modificat xtec
 #: classes/doc.php:133
 msgid "Important notice"
-msgstr "Important:"
+msgstr "Avís important"
 
 #: importer.php:7
 msgid "Importing users"
@@ -722,7 +713,7 @@ msgstr "Arxius de l'element"
 
 #: classes/email-templates.php:25
 msgid "Item Attributes"
-msgstr "Atributs de l'element "
+msgstr "Atributs de l'element"
 
 #: classes/email-templates.php:44
 msgid "Items list"
@@ -748,18 +739,14 @@ msgid "Lists"
 msgstr "Llistes"
 
 #: classes/email-options.php:61
-#, fuzzy
 msgid "Load custom email from email templates"
-msgstr ""
-"Carregueu un correu electrònic personalitzat de les plantilles de correu "
-"electrònic"
+msgstr "Carrega un correu personalitzat de les plantilles"
 
 #: classes/email-options.php:63
-#, fuzzy
 msgid "Load subject, content and attachment from this email template"
 msgstr ""
-"Carregueu el tema, el contingut i el fitxer adjunt d'aquesta plantilla de "
-"correu electrònic"
+"Carrega el tema, el contingut i el fitxer adjunt d'aquesta plantilla de "
+"correu"
 
 #: classes/cron.php:229
 msgid "Log"
@@ -775,9 +762,8 @@ msgid "Mail subject :"
 msgstr "Assumpte del missatge:"
 
 #: classes/email-templates.php:49
-#, fuzzy
 msgid "Mail template (Import Users From CSV With Meta)"
-msgstr "Importa usuaris des d'un fitxer CSV amb metadades"
+msgstr "Plantilla de correu (importa usuaris d'un CSV amb metadades)"
 
 # modificat xtec
 #: import-users-from-csv-with-meta.php:428
@@ -785,9 +771,8 @@ msgid "Mail template updated correctly"
 msgstr "La plantilla s'ha actualitzat correctament"
 
 #: classes/email-templates.php:50
-#, fuzzy
 msgid "Mail templates for Import Users From CSV With Meta"
-msgstr "Importa usuaris des d'un fitxer CSV amb metadades"
+msgstr "Plantilles de correu per a importar usuaris d'un CSV amb metadades"
 
 # modificat xtec
 #: classes/cron.php:142
@@ -814,9 +799,8 @@ msgid "New User Approve"
 msgstr "Nou usuari aprovat"
 
 #: addons/new-user-approve.php:11
-#, fuzzy
 msgid "New User Approve compatibility"
-msgstr "Nou usuari aprovat"
+msgstr "Compatibilitat amb «New User Approve»"
 
 #: classes/email-templates.php:30
 msgid "New email template"
@@ -845,7 +829,6 @@ msgid "Not found in Trash"
 msgstr "No s'ha trobat a la paperera"
 
 #: classes/doc.php:49
-#, fuzzy
 msgid ""
 "Notice: If the default new role is administrator in WordPress settings, role "
 "will not be set during a CSV file import with this plugin. Check it if all "
@@ -853,9 +836,9 @@ msgid ""
 "this plugin."
 msgstr ""
 "Avís: si el nou rol predeterminat és administrador a la configuració de "
-"wordpress, el rol no es definirà durant la importació de fitxers csv amb "
-"aquest connector. comproveu-ho si s’importen tots els usuaris com a "
-"administradors i heu establert un altre paper en aquest connector."
+"WordPress, el rol no es definirà durant la importació de fitxers CSV. "
+"Comproveu-ho quan s’importin tots els usuaris com a administradors i hagueu "
+"establert un altre rol en aquesta extensió."
 
 #: classes/homepage.php:23
 msgid "Old CSV files uploaded"
@@ -874,10 +857,9 @@ msgstr ""
 "Només els usuaris que poden crear usuaris poden gestionar aquest formulari."
 
 #: classes/donate.php:25
-#, fuzzy
 msgid "Or if you prefer, you can also help us becoming a Patreon:"
 msgstr ""
-"O, si ho preferiu, també podeu ajudar-nos a convertir-nos en un patreon:"
+"O, si ho preferiu, també podeu ajudar-nos a convertir-nos en un Patreon:"
 
 #: addons/acui-pmpro.php:43 addons/pmpro.php:43
 msgid "Paid Mebership Pro is activated"
@@ -885,11 +867,11 @@ msgstr "S'ha activat Pro Membership Pro"
 
 #: classes/email-templates.php:26
 msgid "Parent Item:"
-msgstr "Elemento padre"
+msgstr "Element pare:"
 
 #: classes/homepage.php:410 import-users-from-csv-with-meta.php:269
 msgid "Password"
-msgstr "password:"
+msgstr "Contrasenya"
 
 # modificat xtec
 #: importer.php:589
@@ -1116,7 +1098,7 @@ msgid ""
 msgstr ""
 "Les columnes següents són totalment personalitzables i es poden fer servir "
 "de la forma que vulgueu. Totes les files han de contenir les mateixes "
-"columnes:"
+"columnes"
 
 #: classes/doc.php:70 classes/homepage.php:447
 msgid "The user's first name."
@@ -1131,13 +1113,12 @@ msgid "The user's nickname, defaults to the user's username."
 msgstr "L'àlies de l'usuari, per defecte, el nom d'usuari."
 
 #: addons/wp-lms-course.php:25
-#, fuzzy
 msgid ""
 "The value of each cell will be the NUMBER of the course to enroll (do not "
 "use slugs)"
 msgstr ""
-"El valor de cada cel·la serà el nombre del curs per matricular-se (no "
-"utilitzeu barres)"
+"El valor de cada cel·la serà el nombre del curs a matricular-se (no facis "
+"servir noms curts)"
 
 # modificat xtec
 #: addons/acui-wp-users-group.php:23 addons/acui-users-group.php:23
@@ -1189,8 +1170,8 @@ msgstr "Adreça d'inici de sessió (URL)"
 #: import-users-from-csv-with-meta.php:324
 msgid "Unable to write to directory. Is this directory writable by the server?"
 msgstr ""
-"No es pot escriure al directori. Comproveu que el servidor pot pot escriure "
-"en aquest directori."
+"No es pot escriure al directori. Comproveu que el servidor pot escriure en "
+"aquest directori."
 
 #: classes/email-templates.php:32
 msgid "Update email template"
@@ -1211,7 +1192,7 @@ msgstr "Actualitza els usuaris"
 # modificat xtec
 #: include/shortcode-frontend.php:34
 msgid "Upload and process"
-msgstr "Carregueu i processeu "
+msgstr "Carrega i processa"
 
 #: classes/email-templates.php:128 classes/email-options.php:77
 msgid "Upload file"
@@ -1251,13 +1232,13 @@ msgstr "Compte Jabber de l'usuari."
 # modificat xtec
 #: classes/doc.php:75
 msgid "User's Yahoo IM account."
-msgstr " Compte Yahoo IM de l'usuari."
+msgstr "Compte Yahoo IM de l'usuari."
 
 #: classes/doc.php:15 classes/homepage.php:398
 #: import-users-from-csv-with-meta.php:99
 #: import-users-from-csv-with-meta.php:269
 msgid "Username"
-msgstr "username:"
+msgstr "Nom d'usuari"
 
 #: classes/homepage.php:188 classes/frontend.php:75 classes/cron.php:171
 msgid "Users not present in CSV file"
@@ -1287,23 +1268,21 @@ msgid "WP Users Group is activated"
 msgstr "Grup d'usuaris WP activat"
 
 #: classes/donate.php:15
-#, fuzzy
 msgid ""
 "We have been spending many hours to develop this plugin and answering "
 "questions in the forum to give you the best support. <br>If you like and use "
 "this plugin, you can <strong>buy us a cup of coffee</strong>."
 msgstr ""
-"Hem passat moltes hores per desenvolupar aquest connector i respondre "
-"preguntes al fòrum per donar-vos el millor suport. <br> si voleu utilitzar "
-"aquest connector, podeu <strong> comprar-nos una tassa de cafè </strong>."
+"Hem dedicat moltes hores a desenvolupar aquesta extensió i respondre "
+"preguntes al fòrum per donar-vos el millor suport. <br>Si useu aquesta "
+"extensió i us agrada, podeu <strong>comprar-nos un cafè</strong>."
 
 #: classes/help.php:13
-#, fuzzy
 msgid ""
 "We work everyday with WordPress and WooCommerce, if you need help hire us, "
 "send us a message to"
 msgstr ""
-"Treballem cada dia amb WordPress i WooCommerce, si necessiteu ajudar-nos a "
+"Treballem cada dia amb WordPress i WooCommerce, si necessiteu ajuda podeu "
 "contractar-nos, envieu-nos un missatge a"
 
 #: import-users-from-csv-with-meta.php:98
@@ -1367,7 +1346,7 @@ msgstr "Actualitzeu el rol dels usuaris existents"
 
 #: importer.php:739
 msgid "You are not allowed to see this content."
-msgstr "No esteu autoritzat a veure aquest contingut"
+msgstr "No esteu autoritzat a veure aquest contingut."
 
 # modificat xtec
 #: import-users-from-csv-with-meta.php:662
@@ -1375,7 +1354,6 @@ msgid "You are not an adminstrator"
 msgstr "No sou administrador"
 
 #: classes/homepage.php:111
-#, fuzzy
 msgid ""
 "You can also import roles from a CSV column. Please read documentation tab "
 "to see how it can be done. If you choose more than one role, the roles would "
@@ -1383,11 +1361,11 @@ msgid ""
 "wordpress.org/plugins/user-role-editor/\">User Role Editor</a> to manage "
 "them."
 msgstr ""
-"També podeu importar rols des d'una columna csv. si us plau, llegiu la "
-"pestanya de documentació per veure com es pot fer. si trieu més d’una "
-"funció, els rols s’assignaran correctament, però haureu d’utilitzar algun "
-"complement com <a href=\"https://wordpress.org/plugins/user-role-editor/\"> "
-"editor de funcions de l’usuari </ a > per gestionar-los."
+"També podeu importar rols des d'una columna CSV. Llegiu la pestanya de "
+"documentació per veure com es pot fer. Si trieu més d’un rol, aquests "
+"s’assignaran correctament però haureu d’utilitzar algun complement com ara "
+"l'<a href=\"https://wordpress.org/plugins/user-role-editor/\">User Role "
+"Editor</a> per gestionar-los."
 
 # modificta xtec
 #: classes/email-templates.php:84
@@ -1422,11 +1400,10 @@ msgstr ""
 "següent format"
 
 #: addons/wp-lms-course.php:22
-#, fuzzy
 msgid "You can import users and assign them to LMS Course using next format"
 msgstr ""
-"Podeu importar grups d'usuaris i assignar-los als usuaris utilitzant el "
-"següent format"
+"Podeu importar usuaris i assignar-los al curs LMS mitjançant el següent "
+"format"
 
 # modificat xtec
 #: addons/buddypress.php:35
@@ -1528,7 +1505,7 @@ msgstr "Introduïu la ruta d'accés al fitxer, és a dir:"
 
 #: classes/homepage.php:394
 msgid "You should fill the first three rows with the next values"
-msgstr "Heu d'omplir les tres primeres columnes amb els valors següents:"
+msgstr "Heu d'omplir les tres primeres columnes amb els valors següents"
 
 # modificat xtec
 #: import-users-from-csv-with-meta.php:99
@@ -1572,25 +1549,25 @@ msgstr "codificació"
 # modificat xtec
 #: import-users-from-csv-with-meta.php:329
 msgid "could not moved to"
-msgstr "No s'ha pogut moure a"
+msgstr "no s'ha pogut moure a"
 
 # modificat xtec
 #: classes/email-templates.php:80
 msgid "current site login url"
-msgstr "Adreça d'inici de sessió (URL) actual"
+msgstr "URL d'entrada del lloc actual"
 
 #: classes/homepage.php:457
 msgid "description"
-msgstr "description:"
+msgstr "descripció"
 
 # modificat xtec
 #: classes/donate.php:14 classes/help.php:12
 msgid "developers of this plugin."
-msgstr "Desenvolupadors d'aquest complement"
+msgstr "desenvolupadors d'aquest complement."
 
 #: classes/homepage.php:433
 msgid "display_name"
-msgstr "display_name:"
+msgstr "display_name"
 
 #: importer.php:188
 msgid "does not have the same columns than the header, we are going to skip"
@@ -1604,7 +1581,7 @@ msgstr "fitxer"
 
 #: classes/homepage.php:445
 msgid "first_name"
-msgstr "first_name:"
+msgstr "first_name"
 
 #: importer.php:723
 msgid "here to see results"
@@ -1626,7 +1603,7 @@ msgstr "id (id de columna)"
 
 #: classes/homepage.php:451
 msgid "last_name"
-msgstr "last_name:"
+msgstr "last_name"
 
 #: addons/wp-lms-course.php:24
 msgid "lms_courses as the column title"
@@ -1635,11 +1612,11 @@ msgstr "lms_courses com a títol de columna"
 # modificat xtec
 #: classes/email-templates.php:81
 msgid "lost password url"
-msgstr "Contrasenya perduda"
+msgstr "URL de contrasenya perduda"
 
 #: classes/homepage.php:439
 msgid "nickname"
-msgstr "nickname:"
+msgstr "sobrenom"
 
 #: classes/homepage.php:92
 msgid "or you can upload it directly from your PC"
@@ -1648,7 +1625,7 @@ msgstr "o el podeu pujar directament des del vostre ordinador"
 # modificat xtec
 #: classes/email-templates.php:82
 msgid "password reset url"
-msgstr "Reinicialitza la contrasenya"
+msgstr "URL de restabliment de la contrasenya"
 
 # modificat xtec
 #: classes/doc.php:123
@@ -1690,7 +1667,7 @@ msgstr "user_group com a títol de la columna"
 
 #: classes/homepage.php:421
 msgid "user_nicename"
-msgstr "user_nicename:"
+msgstr "user_nicename"
 
 #: classes/homepage.php:427
 msgid "user_url"
