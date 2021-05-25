@@ -32,6 +32,8 @@ for code in ${LANGS[@]}; do
         -c 'msgfmt -f -o "$(basename "$0" .po)-'"$code"'.mo" "$0"' '{}' \;
 done
 
+mkdir ../binaries
+
 for code in ${LANGS[@]}; do
     pushd $code/
     mv wordpress-$code.mo $code.mo
