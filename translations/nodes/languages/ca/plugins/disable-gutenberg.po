@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: Plugins - Disable Gutenberg - Stable (latest release)\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/disable-"
 "gutenberg\n"
-"POT-Creation-Date: 2019-04-15T16:18:27+02:00\n"
+"POT-Creation-Date: 2021-05-31T11:16:36+02:00\n"
 "PO-Revision-Date: 2019-04-08 16:52+0200\n"
 "Last-Translator: Joan Sala Soler <jsala236@xtec.cat>\n"
 "Language-Team: \n"
@@ -16,7 +16,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Poedit 2.0.6\n"
 
-#: disable-gutenberg.php:203
+#: disable-gutenberg.php:200
 msgid " or higher, and has been deactivated! "
 msgstr "o superior, i s'ha desactivat! "
 
@@ -24,7 +24,7 @@ msgstr "o superior, i s'ha desactivat! "
 msgid "(Classic)"
 msgstr "(Clàssic)"
 
-#: inc/settings-register.php:61
+#: inc/settings-register.php:51
 msgid "ACF Support"
 msgstr "Compatibilitat amb ACF"
 
@@ -36,21 +36,21 @@ msgstr "Edició de blocs"
 msgid "Classic Edit"
 msgstr "Edició clàssica"
 
-#: inc/settings-register.php:172
+#: inc/settings-register.php:162
 msgid "Click here"
 msgstr "Feu clic aquí"
 
-#: disable-gutenberg.php:179
+#: disable-gutenberg.php:176
 msgid "Click here to rate and review this plugin on WordPress.org"
 msgstr ""
 "Fes clic aquí per valorar i fer una ressenya d'aquest connector a WordPress."
 "org"
 
-#: inc/settings-register.php:30
+#: inc/settings-register.php:20
 msgid "Complete Disable"
 msgstr "Desactiva completament"
 
-#: inc/resources-enqueue.php:33
+#: inc/resources-enqueue.php:41
 msgid "Confirm Reset"
 msgstr "Confirma el restabliment"
 
@@ -58,7 +58,7 @@ msgstr "Confirma el restabliment"
 msgid "Default options restored."
 msgstr "S'ha restaurat la configuració per defecte."
 
-#: inc/settings-register.php:55
+#: inc/settings-register.php:45
 msgid "Disable \"Try Gutenberg\" nag"
 msgstr "Desactiva l'avís «Prova Gutenberg»"
 
@@ -67,23 +67,23 @@ msgstr "Desactiva l'avís «Prova Gutenberg»"
 msgid "Disable Gutenberg"
 msgstr "Desactiva Gutenberg"
 
-#: inc/settings-register.php:30
+#: inc/settings-register.php:20
 msgid "Disable Gutenberg everywhere"
 msgstr "Desactiva Gutenberg a tot arreu"
 
-#: inc/settings-register.php:55
+#: inc/settings-register.php:45
 msgid "Disable Nag"
 msgstr "Desactiva l'avís"
 
-#: inc/settings-register.php:49
+#: inc/settings-register.php:39
 msgid "Disable Post IDs"
 msgstr "Desactiva els IDs d'entrada"
 
-#: inc/settings-register.php:48
+#: inc/settings-register.php:38
 msgid "Disable Templates"
 msgstr "Desactiva les plantilles"
 
-#: inc/settings-register.php:36 inc/settings-register.php:44
+#: inc/settings-register.php:26 inc/settings-register.php:34
 msgid "Disable for"
 msgstr "Desactiva per a"
 
@@ -97,17 +97,17 @@ msgstr ""
 "pantalla d'editar entrades original. Ofereix opcions per permetre-ho en "
 "tipus de contingut específic, perfils d'usuaris i més."
 
-#: inc/settings-register.php:60
+#: inc/settings-register.php:50
 msgid "Display \"Add New (Classic)\" menu link and Classic/Block edit links"
 msgstr ""
 "Mostra l'enllaç de menú «Afegeix nou (clàssic)» i els enllaços d'edició "
 "clàssic/blocs."
 
-#: inc/settings-register.php:60
+#: inc/settings-register.php:50
 msgid "Display Edit Links"
 msgstr "Mostra enllaços d'edició"
 
-#: inc/settings-register.php:57
+#: inc/settings-register.php:47
 msgid "Display Whitelist settings"
 msgstr "Mostra la configuració de la llista blanca"
 
@@ -119,20 +119,20 @@ msgstr "Editeu &#8220;%s&#8221; a l'editor de blocs"
 msgid "Edit &#8220;%s&#8221; in the Classic Editor"
 msgstr "Editeu &#8220;%s&#8221; a l'editor clàssic"
 
-#: inc/settings-register.php:61
+#: inc/settings-register.php:51
 msgid "Enable Custom Fields Meta Box (ACF disables by default),"
 msgstr ""
 "Activa la caixa de camps personalitzats (ACF les desactiva per defecte)."
 
-#: inc/settings-register.php:56
+#: inc/settings-register.php:46
 msgid "Enable Frontend"
 msgstr "Activa la portada"
 
-#: inc/settings-register.php:56
+#: inc/settings-register.php:46
 msgid "Enable frontend Gutenberg styles"
 msgstr "Activa els estils de Gutenberg de portada"
 
-#: inc/settings-register.php:136
+#: inc/settings-register.php:126
 msgid ""
 "Enable this setting to completely disable Gutenberg (and restore the Classic "
 "Editor). Or, disable this setting to display more options."
@@ -140,19 +140,19 @@ msgstr ""
 "Activeu aquesta opció per desactivar completament Gutenberg (i restaurar "
 "l'editor clàssic). O desactiveu aquesta configuració per mostrar més opcions."
 
-#: inc/settings-register.php:59
+#: inc/settings-register.php:49
 msgid "Gutenberg Menu Item"
 msgstr "Element del menú Gutenberg"
 
-#: inc/settings-register.php:59
+#: inc/settings-register.php:49
 msgid "Hide Gutenberg plugin&rsquo;s menu item (for WP &lt; 5.0)"
 msgstr "Amaga l'element de menú del connector Gutenberg (per WP &lt; 5.0)"
 
-#: inc/settings-register.php:58
+#: inc/settings-register.php:48
 msgid "Hide this plugin&rsquo;s menu item"
 msgstr "Amaga l'element de menú d'aquest connector"
 
-#: disable-gutenberg.php:174
+#: disable-gutenberg.php:171
 msgid "Homepage"
 msgstr "Pàgina d'inici"
 
@@ -164,73 +164,73 @@ msgstr "Jeff Starr"
 msgid "No changes made to options."
 msgstr "No s'han fet canvis a les opcions."
 
-#: inc/resources-enqueue.php:36
+#: inc/resources-enqueue.php:44
 msgid "No, abort mission."
 msgstr "No, avorta la missió."
 
-#: inc/settings-register.php:238
+#: inc/settings-register.php:228
 msgid "Please give a 5-star rating! A huge THANK YOU for your support!"
 msgstr ""
 "Si us plau, doneu-nos una valoració de 5 estrelles! GRÀCIES pel vostre "
 "suport!"
 
-#: disable-gutenberg.php:204
+#: disable-gutenberg.php:201
 msgid "Please return to the"
 msgstr "Si us plau, torna a"
 
-#: disable-gutenberg.php:173
+#: disable-gutenberg.php:170
 msgid "Plugin Homepage"
 msgstr "Pàgina d'inici del connector"
 
-#: inc/settings-register.php:58
+#: inc/settings-register.php:48
 msgid "Plugin Menu Item"
 msgstr "Element de menú del connector"
 
-#: inc/settings-register.php:51
+#: inc/settings-register.php:41
 msgid "Post IDs that always should use the Block Editor"
 msgstr "IDs d'entrades que sempre han d'usar l'editor de blocs"
 
-#: inc/settings-register.php:44
+#: inc/settings-register.php:34
 msgid "Post Type ="
 msgstr "Tipus de contingut ="
 
-#: inc/settings-register.php:52
+#: inc/settings-register.php:42
 msgid "Post slugs that always should use the Block Editor"
 msgstr "Slug d'entrades que sempre han d'usar l'editor de blocs"
 
-#: inc/settings-register.php:53
+#: inc/settings-register.php:43
 msgid "Post titles that always should use the Block Editor"
 msgstr "Títols d'entrades que sempre han d'usar l'editor de blocs"
 
-#: inc/settings-register.php:63
+#: inc/settings-register.php:53
 msgid "Rate Plugin"
 msgstr "Valora el connector"
 
-#: disable-gutenberg.php:180
+#: disable-gutenberg.php:177
 msgid "Rate this plugin"
 msgstr "Valora aquest connector"
 
-#: inc/settings-register.php:62
+#: inc/settings-register.php:52
 msgid "Reset Options"
 msgstr "Restableix les opcions"
 
-#: inc/resources-enqueue.php:34
+#: inc/resources-enqueue.php:42
 msgid "Restore default options?"
 msgstr "¿Voleu restablir les opcions per defecte?"
 
-#: inc/settings-register.php:62 inc/settings-register.php:229
+#: inc/settings-register.php:52 inc/settings-register.php:219
 msgid "Restore default plugin options"
 msgstr "Restableix les opcions predeterminades del connector"
 
-#: inc/settings-register.php:160
+#: inc/settings-register.php:150
 msgid "Select the post IDs for which Gutenberg should be disabled."
 msgstr "Trieu els IDs d'entrades pels quals s'hauria desactivar Gutenberg."
 
-#: inc/settings-register.php:148
+#: inc/settings-register.php:138
 msgid "Select the post types for which Gutenberg should be disabled."
 msgstr "Trieu els tipus de contingut pels quals s'hauria desactivar Gutenberg."
 
-#: inc/settings-register.php:166
+#: inc/settings-register.php:156
 msgid ""
 "Select the posts that always should use the Gutenberg Block Editor. Separate "
 "multiple values with commas."
@@ -238,65 +238,65 @@ msgstr ""
 "Seleccioneu les entrades que sempre han d'usar l'editor de blocs Gutenberg. "
 "Separeu els diferents valors amb comes."
 
-#: inc/settings-register.php:154
-msgid "Select the theme template files for which Gutenberg should be disabled."
+#: inc/settings-register.php:144
+msgid ""
+"Select the theme template files for which Gutenberg should be disabled (e."
+"g., custom-page.php)."
 msgstr ""
-"Trieu els fitxers de plantilla del tema en els quals s'hauria desactivar "
-"Gutenberg."
 
-#: inc/settings-register.php:142
+#: inc/settings-register.php:132
 msgid "Select the user roles for which Gutenberg should be disabled."
 msgstr "Trieu els perfils d'usuari pels quals s'hauria desactivar Gutenberg."
 
-#: inc/settings-register.php:49
+#: inc/settings-register.php:39
 msgid "Separate multiple post IDs with commas"
 msgstr "Separeu els diferents IDs d'entrada amb comes"
 
-#: inc/settings-register.php:48
+#: inc/settings-register.php:38
 msgid "Separate multiple templates with commas"
 msgstr "Separeu les diferents plantilles amb comes"
 
-#: disable-gutenberg.php:158
+#: disable-gutenberg.php:155
 msgid "Settings"
 msgstr "Ajustaments"
 
-#: inc/settings-register.php:63 inc/settings-register.php:239
+#: inc/settings-register.php:53 inc/settings-register.php:229
 msgid "Show support with a 5-star rating&nbsp;&raquo;"
 msgstr "Mostreu el vostre suport amb una valoració de 5 estrelles&nbsp;&raquo;"
 
-#: disable-gutenberg.php:225 disable-gutenberg.php:231
+#: disable-gutenberg.php:222 disable-gutenberg.php:228
 msgid "Sorry, pal!"
 msgstr "Ho sento amic!"
 
-#: inc/settings-register.php:172
+#: inc/settings-register.php:162
 msgid "Toggle More Tools"
 msgstr "Mostra/oculta altres eines"
 
-#: inc/settings-register.php:36
+#: inc/settings-register.php:26
 msgid "User Role ="
 msgstr "Rol d'usuari ="
 
-#: disable-gutenberg.php:205
+#: disable-gutenberg.php:202
 msgid "WP Admin Area"
 msgstr "Àrea d'administració de WP"
 
-#: inc/settings-register.php:57
+#: inc/settings-register.php:47
 msgid "Whitelist Options"
 msgstr "Opcions de la llista blanca"
 
-#: inc/settings-register.php:51
+#: inc/settings-register.php:41
 msgid "Whitelist Post IDs"
 msgstr "IDs d'entrades a la llista blanca"
 
-#: inc/settings-register.php:52
+#: inc/settings-register.php:42
 msgid "Whitelist Post Slugs"
 msgstr "Slugs d'entrades a la llista blanca"
 
-#: inc/settings-register.php:53
+#: inc/settings-register.php:43
 msgid "Whitelist Post Titles"
 msgstr "Títols d'entrades a la llista blanca"
 
-#: inc/resources-enqueue.php:35
+#: inc/resources-enqueue.php:43
 msgid "Yes, make it so."
 msgstr "Sí, fes-ho."
 
@@ -308,15 +308,15 @@ msgstr "https://perishablepress.com/disable-gutenberg/"
 msgid "https://plugin-planet.com/"
 msgstr "https://plugin-planet.com/"
 
-#: inc/settings-register.php:61
+#: inc/settings-register.php:51
 msgid "learn more"
 msgstr "apreneu-ne més"
 
-#: disable-gutenberg.php:202
+#: disable-gutenberg.php:199
 msgid "requires WordPress "
 msgstr "requereix WordPress"
 
-#: inc/settings-register.php:172
+#: inc/settings-register.php:162
 msgid ""
 "to display more tools and options. Note: these options remain in effect even "
 "when hidden on this page."
@@ -324,6 +324,6 @@ msgstr ""
 "per mostrar més eines i opcions. Nota: aquestes opcions segueixen tenint "
 "efecte fins i tot quan estiguin ocultes en aquesta pàgina."
 
-#: disable-gutenberg.php:205
+#: disable-gutenberg.php:202
 msgid "to upgrade WordPress and try again."
 msgstr "per actualitzar WordPress i intentar-ho de nou."

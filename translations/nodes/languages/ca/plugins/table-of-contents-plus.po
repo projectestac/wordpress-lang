@@ -6,7 +6,7 @@ msgstr ""
 "release)\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/table-of-contents-"
 "plus\n"
-"POT-Creation-Date: 2019-04-15T16:19:04+02:00\n"
+"POT-Creation-Date: 2021-05-31T11:16:58+02:00\n"
 "PO-Revision-Date: 2018-07-17 23:17+0200\n"
 "Last-Translator: Joan Sala Soler <jsala236@xtec.cat>\n"
 "Language-Team: \n"
@@ -17,7 +17,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Poedit 2.0.7\n"
 
-#: toc.php:1155
+#: toc.php:1112
 msgid ""
 "<code>*Fruit Diet*</code> ignore headings with \"Fruit Diet\" somewhere in "
 "the heading"
@@ -25,7 +25,7 @@ msgstr ""
 "<code>*Fruit Diet*</code> ignora les capçaleres amb \"Fruit Diet\" en algun "
 "lloc de la capçalera"
 
-#: toc.php:1156
+#: toc.php:1113
 msgid ""
 "<code>Apple Tree|Oranges|Yellow Bananas</code> ignore headings that are "
 "exactly \"Apple Tree\", \"Oranges\" or \"Yellow Bananas\""
@@ -33,7 +33,7 @@ msgstr ""
 "<code>Apple Tree|Oranges|Yellow Bananas</code> ignora les capçaleres que són "
 "exactament \"Apple Tree\", \"Oranges\" o \"Yellow Bananas\""
 
-#: toc.php:1154
+#: toc.php:1111
 msgid "<code>Fruit*</code> ignore headings starting with \"Fruit\""
 msgstr "<code>Fruit*</code> ignora les capçaleres que comencen per \"Fruit\""
 
@@ -47,24 +47,24 @@ msgstr ""
 "continguts. També podeu crear un mapa del lloc que inclogui totes les "
 "pàgines i categories."
 
-#: toc.php:1079
+#: toc.php:1046
 msgid "Advanced"
 msgstr "Avançat"
 
-#: toc.php:1290
+#: toc.php:1243
 msgid "Advanced usage"
 msgstr "Ús avançat"
 
-#: toc.php:798
+#: toc.php:784
 msgid "After first heading"
 msgstr "Després de la primera capçalera"
 
-#: toc.php:875
+#: toc.php:844
 msgid "Allow the user to toggle the visibility of the table of contents"
 msgstr "Permet a l'usuari canviar la visibilitat de la taula de continguts"
 
 # modificat xtec
-#: toc.php:1214
+#: toc.php:1168
 msgid ""
 "Anchor targets are restricted to alphanumeric characters as per HTML "
 "specification (see readme for more detail). The default anchor prefix will "
@@ -76,12 +76,12 @@ msgstr ""
 "prefix d'ancoratge predeterminat s'utilitzarà quan cap caràcter no sigui "
 "qualificat. Quan es deixi en blanc, s'utilitzarà un número al seu lloc."
 
-#: toc.php:915
+#: toc.php:884
 msgid "Appearance"
 msgstr "Aparença"
 
 # modificat xtec
-#: toc.php:1246
+#: toc.php:1199
 msgid ""
 "At its simplest, placing %s into a page will automatically create a sitemap "
 "of all pages and categories. This also works in a text widget."
@@ -89,39 +89,39 @@ msgstr ""
 "Si col·loqueu %s en una pàgina crearà automàticament un mapa del lloc de "
 "totes les pàgines i categories. També funciona en un giny de text."
 
-#: toc.php:934
+#: toc.php:903
 msgid "Auto (default)"
 msgstr "Automàtica (per defecte)"
 
-#: toc.php:821
+#: toc.php:807
 msgid "Auto insert for the following content types"
 msgstr "Inserció automàtica per als tipus de continguts següents"
 
 # modificat xtec
-#: toc.php:1034
+#: toc.php:1002
 msgid "Background"
 msgstr "Fons"
 
-#: toc.php:797
+#: toc.php:783
 msgid "Before first heading (default)"
 msgstr "Abans de la primera capçalera (per defecte)"
 
 # modificat xtec
-#: toc.php:1014
+#: toc.php:982
 msgid "Black"
 msgstr "Negre"
 
 # modificat xtec
-#: toc.php:1038
+#: toc.php:1006
 msgid "Border"
 msgstr "Contorn"
 
-#: toc.php:800
+#: toc.php:786
 msgid "Bottom"
 msgstr "Inferior"
 
 # modificat xtec
-#: toc.php:1282
+#: toc.php:1235
 msgid "Categories label"
 msgstr "Etiqueta de categories"
 
@@ -131,127 +131,127 @@ msgstr "Etiqueta de categories"
 msgid "Contents"
 msgstr "Continguts"
 
-#: toc.php:1024
+#: toc.php:992
 msgid "Custom"
 msgstr "Personalitzat"
 
 # modificat xtec
-#: toc.php:1211
+#: toc.php:1165
 msgid "Default anchor prefix"
 msgstr "Prefix d'ancoratge per defecte"
 
 # modificat xtec
-#: toc.php:1811
+#: toc.php:1774
 msgid "Display the table of contents in the sidebar with this widget"
 msgstr "Mostra la taula de continguts a la barra lateral amb aquest giny"
 
 #. translators: example URL path restriction
-#: toc.php:1196
+#: toc.php:1151
 msgid "Eg: /wiki/, /corporate/annual-reports/"
 msgstr "Exemple: /wiki/, /corporate/annual-reports/"
 
 # modificat xtec
-#: toc.php:1284
+#: toc.php:1237
 msgid "Eg: Categories, Category List"
 msgstr "Exemple: Categoria o llista de categories"
 
-#: toc.php:873
+#: toc.php:842
 msgid "Eg: Contents, Table of Contents, Page Contents"
 msgstr "Exemple: Continguts, Taula de continguts, Pàgina de continguts"
 
 # modificat xtec
-#: toc.php:1278
+#: toc.php:1231
 msgid "Eg: Pages, Page List"
 msgstr "Exemple: Pàgina o llista de pàgines"
 
 #. translators: example text to display when you want to collapse the table of contents
-#: toc.php:891
+#: toc.php:860
 msgid "Eg: hide"
 msgstr "Exemple: Oculta"
 
 # modificat xtec
 #. translators: example anchor prefixes when no ascii characters match
-#: toc.php:1218
+#: toc.php:1172
 msgid "Eg: i, toc_index, index, _"
 msgstr "Ex: i, toc_index, index, _"
 
 #. translators: example text to display when you want to expand the table of contents
-#: toc.php:884
+#: toc.php:853
 msgid "Eg: show"
 msgstr "Exemple: Mostra"
 
-#: toc.php:909
+#: toc.php:878
 msgid "Enable smooth scroll effect"
 msgstr "Habilita l'efecte de desplaçament suau"
 
 # modificat xtec
-#: toc.php:1097
+#: toc.php:1063
 msgid "Ensure anchors are in lowercase"
 msgstr "Assegureu-vos que les àncores estan en minúscules"
 
 # modificat xtec
-#: toc.php:1293
+#: toc.php:1246
 msgid "Examples"
 msgstr "Exemples"
 
 # modificat xtec
-#: toc.php:1108
+#: toc.php:1074
 msgid "Exclude CSS file"
 msgstr "Exclou arxius CSS"
 
-#: toc.php:1149
+#: toc.php:1106
 msgid "Exclude headings"
 msgstr "Capçaleres excloses"
 
-#: toc.php:922
+#: toc.php:891
 msgid "Fixed width"
 msgstr "Amplada fixa"
 
-#: toc.php:972
+#: toc.php:941
 msgid "Font size"
 msgstr "Mida de la lletra"
 
 # modificat xtec
-#: toc.php:1915
+#: toc.php:1878
 msgid "For the following content types:"
 msgstr "Per als tipus de continguts següents"
 
 # modificat xtec
-#: toc.php:999
+#: toc.php:967
 msgid "Grey (default)"
 msgstr "Gris (per defecte)"
 
-#: toc.php:1127
+#: toc.php:1092
 msgid "Heading levels"
 msgstr "Nivells de capçalera"
 
 #. translators: this is the title of the table of contents
-#: toc.php:855
+#: toc.php:837
 msgid "Heading text"
 msgstr "Text de capçalera"
 
-#: toc.php:1258
+#: toc.php:1211
 msgid "Heading type"
 msgstr "Tipus de capçalera"
 
-#: toc.php:775
+#: toc.php:762
 msgid "Help"
 msgstr "Ajuda"
 
-#: toc.php:887
+#: toc.php:856
 msgid "Hide text"
 msgstr "Oculta el text"
 
-#: toc.php:895
+#: toc.php:864
 msgid "Hide the table of contents initially"
 msgstr "Inicialment, la taula de continguts està oculta"
 
-#: toc.php:1100
+#: toc.php:1066
 msgid "Hyphenate"
 msgstr "Escriure amb guions"
 
 # modificat xtec
-#: toc.php:1175
+#: toc.php:1131
 msgid ""
 "If you have a consistent menu across the top of your site, you can adjust "
 "the top offset to stop the headings from appearing underneath the top menu. "
@@ -264,7 +264,7 @@ msgstr ""
 "WordPress. Aquesta configuració apareix després d'haver habilitat la "
 "desplaçament suau des de dalt."
 
-#: toc.php:1238
+#: toc.php:1191
 msgid ""
 "If you would like to fully customise the position of the table of contents, "
 "you can use the %s shortcode by placing it at the desired position of your "
@@ -280,7 +280,7 @@ msgstr ""
 "aquest codi curt."
 
 # modificat xtec
-#: toc.php:1113
+#: toc.php:1079
 msgid ""
 "If your theme includes background images for unordered list elements, enable "
 "this to support them"
@@ -289,11 +289,11 @@ msgstr ""
 "habiliteu-lo per donar-hi suport"
 
 # modificat xtec
-#: toc.php:1104
+#: toc.php:1070
 msgid "Include homepage"
 msgstr "Inclou la pàgina d'inici"
 
-#: toc.php:1129
+#: toc.php:1094
 msgid ""
 "Include the following heading levels. Deselecting a heading will exclude it."
 msgstr ""
@@ -301,40 +301,40 @@ msgstr ""
 "quedarà exclosa."
 
 # modificat xtec
-#: toc.php:1061
+#: toc.php:1029
 msgid "Leaving the value as %s will inherit your theme's styles"
 msgstr "Si deixeu el valor com % s heretarà els estils del vostre tema"
 
-#: toc.php:966
+#: toc.php:935
 msgid "Left"
 msgstr "Esquerra"
 
 # modificat xtec
-#: toc.php:1004
+#: toc.php:972
 msgid "Light blue"
 msgstr "Blau cel"
 
 # modificat xtec
-#: toc.php:1046
+#: toc.php:1014
 msgid "Links"
 msgstr "Enllaços"
 
 # modificat xtec
-#: toc.php:1050
+#: toc.php:1018
 msgid "Links (hover)"
 msgstr "Enllaços (desplaçament)"
 
 # modificat xtec
-#: toc.php:1054
+#: toc.php:1022
 msgid "Links (visited)"
 msgstr "Enllaços (visitats)"
 
 # modificat xtec
-#: toc.php:1096
+#: toc.php:1062
 msgid "Lowercase"
 msgstr "Minúscula"
 
-#: toc.php:761
+#: toc.php:750
 msgid "Main Options"
 msgstr "Opcions generals"
 
@@ -342,54 +342,54 @@ msgstr "Opcions generals"
 msgid "Michael Tran"
 msgstr "Michael Tran"
 
-#: toc.php:965
+#: toc.php:934
 msgid "None (default)"
 msgstr "Cap (per defecte)"
 
-#: toc.php:905
+#: toc.php:874
 msgid "Number list items"
 msgstr "Llista d'elements numerada"
 
-#: toc.php:747
+#: toc.php:736
 msgid "Options saved."
 msgstr "S'han desat les opcions"
 
 #. translators: other width
-#: toc.php:944
+#: toc.php:913
 msgid "Other"
 msgstr "Altres"
 
 # modificat xtec
-#: toc.php:1276
+#: toc.php:1229
 msgid "Pages label"
 msgstr "Etiqueta de pàgines"
 
 #. translators: ignore %s as it's some HTML label tags
-#: toc.php:951
+#: toc.php:920
 msgid "Please enter a number and %s select its units, eg: 100px, 10em"
 msgstr "Afegiu un número %s i seleccioneu les unitats, p. ex. 100px, 10em"
 
-#: toc.php:794
+#: toc.php:780
 msgid "Position"
 msgstr "Posició"
 
-#: toc.php:1081
+#: toc.php:1048
 msgid "Power options"
 msgstr "Opcions d'alimentació"
 
 # modificat xtec
 #. translators: appearance / colour / look and feel options
-#: toc.php:996
+#: toc.php:964
 msgid "Presentation"
 msgstr "Presentació"
 
 # modificat xtec
-#: toc.php:1112
+#: toc.php:1078
 msgid "Preserve theme bullets"
 msgstr "Preserva les vinyetes del tema"
 
 # modificat xtec
-#: toc.php:1109
+#: toc.php:1075
 msgid ""
 "Prevent the loading of this plugin's CSS styles. When selected, the "
 "appearance options from above will also be ignored."
@@ -397,11 +397,11 @@ msgstr ""
 "Evita la càrrega dels estils CSS d'aquest complement. Quan es seleccioni, "
 "també s'ignoraran les opcions d'aparença de dalt."
 
-#: toc.php:933
+#: toc.php:902
 msgid "Relative"
 msgstr "Relativa"
 
-#: toc.php:1193
+#: toc.php:1148
 msgid ""
 "Restrict generation of the table of contents to pages that match the "
 "required path. This path is from the root of your site and always begins "
@@ -411,75 +411,75 @@ msgstr ""
 "concorden amb el camí requerit. Aquest camí és de l'arrel lloc i sempre "
 "comença amb una barra inclinada."
 
-#: toc.php:1190
+#: toc.php:1145
 msgid "Restrict path"
 msgstr "Restringeix el camí"
 
-#: toc.php:967
+#: toc.php:936
 msgid "Right"
 msgstr "Dreta"
 
 # modificat xtec
-#: toc.php:749
+#: toc.php:738
 msgid "Save failed."
 msgstr "Ha fallat el desament."
 
-#: toc.php:910
+#: toc.php:879
 msgid "Scroll rather than jump to the anchor link"
 msgstr "Fes un desplaçament suau en comptes d'anar directament a l'enllaç"
 
-#: toc.php:277
+#: toc.php:286
 msgid "Settings"
 msgstr "Configuració"
 
 # modificat xtec
-#: toc.php:1254
+#: toc.php:1207
 msgid "Show category listing"
 msgstr "Mostra la llista de categories"
 
-#: toc.php:901
+#: toc.php:870
 msgid "Show hierarchy"
 msgstr "Mostra la jerarquia"
 
 # modificat xtec
-#: toc.php:1250
+#: toc.php:1203
 msgid "Show page listing"
 msgstr "Mostra la llista de pàgines"
 
-#: toc.php:880
+#: toc.php:849
 msgid "Show text"
 msgstr "Mostra el text"
 
 # modificat xtec
-#: toc.php:1105
+#: toc.php:1071
 msgid "Show the table of contents for qualifying items on the homepage"
 msgstr ""
 "Mostra la taula de continguts dels ítems qualificats de la pàgina d'inici"
 
 # modificat xtec
-#: toc.php:1911
+#: toc.php:1874
 msgid "Show the table of contents only in the sidebar"
 msgstr "Mostra la taula de continguts només a la barra lateral"
 
-#: toc.php:857
+#: toc.php:839
 msgid "Show title on top of the table of contents"
 msgstr "Mostra el títol a dalt de tot de la taula de continguts"
 
-#: toc.php:805
+#: toc.php:791
 msgid "Show when"
 msgstr "Mostra quan"
 
 # modificat xtec
-#: toc.php:774
+#: toc.php:761
 msgid "Sitemap"
 msgstr "Mapa del lloc"
 
 # modificat xtec
-#: toc.php:1172
+#: toc.php:1128
 msgid "Smooth scroll top offset"
 msgstr "Habilita l'efecte de desplaçament suau"
 
-#: toc.php:1152
+#: toc.php:1109
 msgid ""
 "Specify headings to be excluded from appearing in the table of contents.  "
 "Separate multiple headings with a pipe <code>|</code>.  Use an asterisk "
@@ -493,7 +493,7 @@ msgstr ""
 "sensible a les majúcules. Alguns exemples:"
 
 # modificat xtec
-#: toc.php:576 toc.php:577
+#: toc.php:565 toc.php:566
 msgid "TOC"
 msgstr "TOC"
 
@@ -503,7 +503,7 @@ msgid "Table of Contents Plus"
 msgstr "Taula de continguts"
 
 # modificat xtec
-#: toc.php:1215
+#: toc.php:1169
 msgid ""
 "This option normally applies to content written in character sets other than "
 "ASCII."
@@ -511,45 +511,45 @@ msgstr ""
 "Normalment aquesta opció s'aplica en contingut escrit en caràcters diferents "
 "d'ASCII."
 
-#: toc.php:1042 toc.php:1905
+#: toc.php:1010 toc.php:1868
 msgid "Title"
 msgstr "Títol"
 
-#: toc.php:799
+#: toc.php:785
 msgid "Top"
 msgstr "Superior"
 
 # modificat xtec
-#: toc.php:1019
+#: toc.php:987
 msgid "Transparent"
 msgstr "Transparent"
 
-#: toc.php:1305
+#: toc.php:1258
 msgid "Update Options"
 msgstr "Actualitza les opcions"
 
 #. translators: advanced usage
-#: toc.php:1237
+#: toc.php:1190
 msgid "Usage"
 msgstr "Ús"
 
 # modificat xtec
 #. translators: the full line is supposed to read - Use [1-6 drop down list] to print out the titles
-#: toc.php:1261
+#: toc.php:1214
 msgid "Use"
 msgstr "Utilitzeu"
 
 # modificat xtec
-#: toc.php:1101
+#: toc.php:1067
 msgid "Use - rather than _ in anchors"
 msgstr "Utilitza - en lloc de _ en ancoratges"
 
-#: toc.php:945
+#: toc.php:914
 msgid "User defined"
 msgstr "Definida per l'usuari"
 
 # modificat xtec
-#: toc.php:1296
+#: toc.php:1249
 msgid ""
 "Uses h6 to display %s on a page listing excluding pages with IDs 1 and 15"
 msgstr ""
@@ -557,30 +557,20 @@ msgstr ""
 "amb identificadors 1 i 15"
 
 # modificat xtec
-#: toc.php:1009
+#: toc.php:977
 msgid "White"
 msgstr "Blanc"
 
-#: toc.php:919
+#: toc.php:888
 msgid "Width"
 msgstr "Amplada"
 
-#: toc.php:962
+#: toc.php:931
 msgid "Wrapping"
 msgstr "Ajustament"
 
-#: toc.php:1138
-msgid "heading "
-msgstr "capçalera"
-
-# XTEC ************ AFEGIT - Add localization support to strings
-# 2017.05.16 @xaviernietosanchez
-#: toc.php:525 toc.php:563
-msgid "hide"
-msgstr "oculta"
-
 # modificat xtec
-#: toc.php:1295
+#: toc.php:1248
 msgid "hides the heading from a category listing"
 msgstr "amaga l'encapçalament d'una llista de categories"
 
@@ -595,7 +585,7 @@ msgid "http://dublue.com/plugins/toc/"
 msgstr "http://dublue.com/plugins/toc/"
 
 # modificat xtec
-#: toc.php:1292
+#: toc.php:1245
 msgid ""
 "lets you print out a listing of only pages. Similarly %s can be used to "
 "print out a category listing. They both can accept a number of attributes so "
@@ -607,16 +597,16 @@ msgstr ""
 "més informació."
 
 #. translators: text follows drop down list of numbers
-#: toc.php:817
+#: toc.php:803
 msgid "or more headings are present"
 msgstr "capçaleres o més es mostrin"
 
-#: toc.php:524 toc.php:564 toc.php:1079 toc.php:1290
+#: toc.php:1046 toc.php:1243
 msgid "show"
 msgstr "mostra"
 
 # modificat xtec
 #. translators: the full line is supposed to read - Use [h1-h6 drop down list] to print out the titles
-#: toc.php:1272
+#: toc.php:1225
 msgid "to print out the titles"
 msgstr "Imprimeix els títols"

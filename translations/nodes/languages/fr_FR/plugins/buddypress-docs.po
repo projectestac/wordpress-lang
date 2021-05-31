@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Buddypres Doc\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/buddypress-docs\n"
-"POT-Creation-Date: 2019-04-15T16:18:26+02:00\n"
+"POT-Creation-Date: 2021-05-31T11:16:33+02:00\n"
 "PO-Revision-Date: 2013-10-30 15:53+0100\n"
 "Last-Translator: xavier jimenez <xavier.jimenez@sneg.fr>\n"
 "Language-Team: \n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 1.5.7\n"
 
-#: includes/templatetags.php:1659
+#: includes/templatetags.php:1668
 msgid " %s"
 msgstr ""
 
@@ -27,7 +27,7 @@ msgid "#%d (no title)"
 msgstr ""
 
 #. translators: post revision: 1: when, 2: author name
-#: includes/addon-history.php:351
+#: includes/addon-history.php:354
 msgctxt "post revision"
 msgid "%1$s by %2$s"
 msgstr "%1$s par %2$s"
@@ -60,7 +60,7 @@ msgstr "%1$s a édité le document %2$s  dans le groupe %3$s"
 msgid "%s <span>%d</span>"
 msgstr ""
 
-#: includes/templatetags.php:1081 includes/templatetags.php:1083
+#: includes/templatetags.php:1089 includes/templatetags.php:1091
 #, fuzzy
 msgid "%s member"
 msgid_plural "%s members"
@@ -68,7 +68,7 @@ msgstr[0] "%s membre"
 msgstr[1] "%s membre"
 
 #. translators: group name
-#: includes/integration-groups.php:1739 includes/component.php:314
+#: includes/component.php:314 includes/integration-groups.php:1739
 msgid "%s&#8217;s Docs"
 msgstr ""
 
@@ -84,18 +84,22 @@ msgctxt "user Docs directory breadcrumb"
 msgid "%s&#8217;s Docs"
 msgstr "Documents de %s"
 
-#: includes/templates/docs/tabs-nouveau.php:8
 #: includes/templates/docs/tabs-legacy.php:6
+#: includes/templates/docs/tabs-nouveau.php:8
 msgid "%s's Docs"
 msgstr "Documents de %s"
 
-#: includes/templatetags.php:1384
+#: includes/templatetags.php:1393
 msgid "&laquo;"
 msgstr "&laquo;"
 
-#: includes/templatetags.php:1385
+#: includes/templatetags.php:1394
 msgid "&raquo;"
 msgstr "&raquo;"
+
+#: includes/addon-taxonomy.php:402
+msgid "(%d)"
+msgstr ""
 
 #: includes/class-wp-widget-recent-docs.php:45
 #, fuzzy
@@ -112,7 +116,7 @@ msgstr ""
 "(Optionnel) Assigner un document parent fera qu'un lien au document parent "
 "apparaîtra au bas de ce document, et inversement."
 
-#: includes/templatetags.php:1025
+#: includes/templatetags.php:1033
 msgid ""
 "(Optional) Note that the Access settings available for this Doc may be "
 "limited by the privacy settings of the group you choose."
@@ -129,13 +133,18 @@ msgid "(no parent)"
 msgstr "(aucun document parent)"
 
 #. translators: %s: add new taxonomy label
-#: includes/addon-taxonomy.php:676
+#: includes/addon-taxonomy.php:685
 msgid "+ %s"
 msgstr "+ %s"
 
 #: includes/templates/docs/docs-loop.php:85
 msgctxt "up one folder"
 msgid ".."
+msgstr ""
+
+#: includes/templatetags.php:274
+msgid ""
+"<strong><a href=\"%s\" title=\"View All Docs\">View All Docs</a></strong>"
 msgstr ""
 
 #: includes/templates/docs/manage-folders.php:19
@@ -145,7 +154,7 @@ msgid ""
 "content, remove everything from this folder before deleting it."
 msgstr ""
 
-#: includes/attachments.php:780
+#: includes/attachments.php:814
 msgid ""
 "<strong>Your BuddyPress Docs attachments directory is publicly accessible.</"
 "strong> Doc attachments will not be properly protected from direct viewing, "
@@ -157,15 +166,15 @@ msgstr ""
 msgid "Access"
 msgstr "Accéder"
 
-#: includes/templatetags.php:1760
+#: includes/templatetags.php:1769
 msgid "Access: <strong>%s</strong>"
 msgstr "Accès: <strong>%s</strong>"
 
-#: includes/addon-history.php:421
+#: includes/addon-history.php:424
 msgid "Actions"
 msgstr "Actions"
 
-#: includes/templatetags.php:2085
+#: includes/templatetags.php:2094
 msgid "Add Files"
 msgstr "Ajouter des fichiers"
 
@@ -186,12 +195,12 @@ msgstr ""
 msgid "Admins and mods of %s"
 msgstr "Administrateurs et modérateurs de %s"
 
-#: includes/templatetags.php:1680
+#: includes/templatetags.php:1689
 msgid "Admins and mods of the group %s"
 msgstr "Administrateurs et Modérateurs du groupe %s"
 
-#: includes/templates/docs/tabs-nouveau.php:4
 #: includes/templates/docs/tabs-legacy.php:2
+#: includes/templates/docs/tabs-nouveau.php:4
 msgid "All Docs"
 msgstr "Tous les Documents"
 
@@ -215,7 +224,7 @@ msgstr ""
 "colonnes 'Anciennes' et 'Nouvelles\", puis en cliquant sur 'Comparer les "
 "versions'"
 
-#: includes/functions.php:572 includes/templatetags.php:1671
+#: includes/functions.php:572 includes/templatetags.php:1680
 msgid "Anyone"
 msgstr "Tout le monde"
 
@@ -236,23 +245,23 @@ msgstr "Objet associé"
 msgid "Associated Items"
 msgstr "Objets associés"
 
-#: includes/attachments.php:346
+#: includes/attachments.php:374
 msgid "Attachment deleted"
 msgstr "Pièce jointe supprimée"
 
-#: includes/admin.php:134 includes/templates/docs/single/edit.php:75
-#: includes/templates/docs/single/index.php:39 includes/attachments.php:576
-#: includes/templatetags.php:2272
+#: includes/admin.php:134 includes/attachments.php:610
+#: includes/templates/docs/single/edit.php:75
+#: includes/templates/docs/single/index.php:39 includes/templatetags.php:2281
 msgid "Attachments"
 msgstr "Pièces jointes"
 
 #. translators: column name in revisons
-#: includes/addon-history.php:420 includes/templates/docs/docs-loop.php:55
-#: includes/templates/docs/docs-loop-list.php:17
+#: includes/addon-history.php:423 includes/templates/docs/docs-loop-list.php:17
+#: includes/templates/docs/docs-loop.php:55
 msgid "Author"
 msgstr "Auteur"
 
-#: includes/addon-moderation.php:59 includes/templatetags.php:2360
+#: includes/addon-moderation.php:59 includes/templatetags.php:2369
 msgid "Awaiting Moderation"
 msgstr ""
 
@@ -294,8 +303,8 @@ msgstr "Paramètres de \"BuddyPress Docs\""
 msgid "BuddyPress Docs Upgrade"
 msgstr "Mise à jour de \"BuddyPress Docs\""
 
-#: includes/templates/docs/single/edit.php:193
 #: includes/templates/docs/manage-folders.php:28
+#: includes/templates/docs/single/edit.php:193
 msgid "Cancel"
 msgstr "Annuler"
 
@@ -375,19 +384,19 @@ msgstr "Commentaires désactivés."
 msgid "Commented on a Doc"
 msgstr "Créer un document"
 
-#: includes/templatetags.php:1699
+#: includes/templatetags.php:1708
 msgid "Comments are visible to: <strong>%s</strong>"
 msgstr "Commentaires visibles pour: <strong>%s</strong>"
 
-#: includes/templatetags.php:1703
+#: includes/templatetags.php:1712
 msgid "Comments can be posted by: <strong>%s</strong>"
 msgstr "Les commentaires peuvent être postés par : <strong>%s</strong>"
 
-#: includes/addon-history.php:401
+#: includes/addon-history.php:404
 msgid "Compare Revisions"
 msgstr "Comparer les révisions"
 
-#: includes/addon-history.php:162
+#: includes/addon-history.php:165
 msgid "Compare Revisions of &#8220;%1$s&#8221;"
 msgstr "Comparer les Versions de &#8220;%1$s&#8221;"
 
@@ -395,7 +404,7 @@ msgstr "Comparer les Versions de &#8220;%1$s&#8221;"
 msgid "Content"
 msgstr "contenu"
 
-#: includes/attachments.php:348
+#: includes/attachments.php:376
 msgid "Could not delete attachment"
 msgstr "Impossible de supprimer la pièce jointe"
 
@@ -423,7 +432,7 @@ msgstr "Tous les membres du groupe"
 msgid "Create"
 msgstr "Créateur"
 
-#: includes/component.php:213 includes/templatetags.php:1596
+#: includes/component.php:213 includes/templatetags.php:1605
 msgid "Create New Doc"
 msgstr "Nouveau document"
 
@@ -441,8 +450,8 @@ msgstr "Créer un document"
 msgid "Create a new folder"
 msgstr "Nouveau document"
 
-#: includes/templates/docs/docs-loop.php:60
 #: includes/templates/docs/docs-loop-list.php:21
+#: includes/templates/docs/docs-loop.php:60
 msgid "Created"
 msgstr "Créateur"
 
@@ -452,12 +461,12 @@ msgid "Created a Doc"
 msgstr "Créer un document"
 
 #. translators: column name in revisons
-#: includes/addon-history.php:419
+#: includes/addon-history.php:422
 msgid "Date Created"
 msgstr "Créé le"
 
 #: includes/addon-folders.php:2373
-#: includes/templates/docs/manage-folders.php:27 includes/templatetags.php:2199
+#: includes/templates/docs/manage-folders.php:27 includes/templatetags.php:2208
 msgid "Delete"
 msgstr "Supprimer"
 
@@ -487,7 +496,7 @@ msgstr "Désactivé"
 msgid "Discussion (%d)"
 msgstr "Discussion (%d)"
 
-#: includes/attachments.php:790
+#: includes/attachments.php:824
 msgid "Dismiss this message"
 msgstr ""
 
@@ -532,9 +541,9 @@ msgstr "Blocage levé"
 msgid "Doc successfully removed from the group"
 msgstr "Blocage levé"
 
-#: bp-docs.php:307 includes/integration-users.php:277
-#: includes/integration-groups.php:960 includes/integration-groups.php:1059
-#: includes/integration-groups.php:1243 includes/integration-groups.php:1668
+#: bp-docs.php:307 includes/integration-groups.php:960
+#: includes/integration-groups.php:1059 includes/integration-groups.php:1243
+#: includes/integration-groups.php:1668 includes/integration-users.php:277
 msgid "Docs"
 msgstr "Documents"
 
@@ -589,17 +598,17 @@ msgstr ""
 "groupe, documents que vous pouvez ensuite trier et tagger de manière à aider "
 "votre groupe a avancé"
 
-#: includes/addon-taxonomy.php:505
+#: includes/addon-taxonomy.php:514
 msgid "Docs tagged %s"
 msgstr "Documents taggés %s"
 
-#: includes/attachments.php:596
+#: includes/attachments.php:630
 msgid "Doesn&#8217;t matter"
 msgstr "Sans importance"
 
-#: includes/addon-folders.php:2397 includes/templates/docs/docs-header.php:30
-#: includes/integration-groups.php:973 includes/templatetags.php:1216
-#: includes/templatetags.php:1775
+#: includes/addon-folders.php:2397 includes/integration-groups.php:973
+#: includes/templates/docs/docs-header.php:30 includes/templatetags.php:1225
+#: includes/templatetags.php:1784
 msgid "Edit"
 msgstr "Editer"
 
@@ -611,10 +620,9 @@ msgstr "Editer"
 msgid "Edited By %s"
 msgstr "Modifiés par %s"
 
-#: includes/integration-users.php:314
+#: includes/component.php:206 includes/component.php:326
+#: includes/integration-users.php:314 includes/templates/docs/tabs-legacy.php:9
 #: includes/templates/docs/tabs-nouveau.php:11
-#: includes/templates/docs/tabs-legacy.php:9 includes/component.php:206
-#: includes/component.php:326
 msgid "Edited By Me"
 msgstr "Modifiés par moi"
 
@@ -647,15 +655,15 @@ msgstr ""
 "modifiez cette valeur. Une valeur de <code>0</code> désactive l'affichage "
 "des résumés."
 
-#: includes/attachments.php:74 includes/attachments.php:81
+#: includes/attachments.php:108 includes/attachments.php:115
 msgid "File not found."
 msgstr "Fichier introuvable."
 
-#: includes/attachments.php:598
+#: includes/attachments.php:632
 msgid "Filter"
 msgstr "Filtrer"
 
-#: includes/templatetags.php:289
+#: includes/templatetags.php:297
 msgid "Filter by: %s"
 msgstr "Filtrer par: %s"
 
@@ -736,7 +744,7 @@ msgstr ""
 msgid "Group-specific"
 msgstr "Groupes"
 
-#: includes/templatetags.php:1657
+#: includes/templatetags.php:1666
 msgid "Group: "
 msgstr "Groupe:"
 
@@ -744,20 +752,20 @@ msgstr "Groupe:"
 msgid "Groups"
 msgstr "Groupes"
 
-#: includes/templates/docs/docs-loop.php:46
 #: includes/templates/docs/docs-loop-list.php:9
+#: includes/templates/docs/docs-loop.php:46
 msgid "Has attachment"
 msgstr ""
 
-#: includes/attachments.php:592
+#: includes/attachments.php:626
 msgid "Has attachment?"
 msgstr "A des pièces jointes ?"
 
-#: includes/templatetags.php:1096
+#: includes/templatetags.php:1104
 msgid "Hidden Group"
 msgstr "Groupe Caché"
 
-#: includes/templatetags.php:1777
+#: includes/templatetags.php:1786
 msgid "Hide Details"
 msgstr "Cacher les détails"
 
@@ -765,12 +773,12 @@ msgstr "Cacher les détails"
 msgid "Hide Folders"
 msgstr ""
 
-#: includes/addon-history.php:448 includes/integration-groups.php:975
-#: includes/templatetags.php:1220
+#: includes/addon-history.php:451 includes/integration-groups.php:975
+#: includes/templatetags.php:1229
 msgid "History"
 msgstr "Historique"
 
-#: includes/templatetags.php:1707
+#: includes/templatetags.php:1716
 msgid "History can be viewed by: <strong>%s</strong>"
 msgstr "L'historique peut être consulté par: <strong>%s</strong>"
 
@@ -797,7 +805,7 @@ msgstr ""
 "de 30 minutes, vos changements seront automatiquement sauvegardés, et vous "
 "quitterez le mode édition pour permettre aux autres d'accéder au document"
 
-#: includes/attachments.php:774
+#: includes/attachments.php:808
 msgid ""
 "It looks like you are running <strong>Apache</strong>. The most likely cause "
 "of your problem is that the <code>AllowOverride</code> directive has been "
@@ -805,28 +813,28 @@ msgid ""
 "<code>VirtualHost</code> definition. Contact your host for assistance."
 msgstr ""
 
-#: includes/attachments.php:762
+#: includes/attachments.php:796
 msgid ""
 "It looks like you are running <strong>IIS 7</strong>. We recommend the "
 "following setting in your Web.config file:"
 msgstr ""
 
-#: includes/attachments.php:752
+#: includes/attachments.php:786
 msgid ""
 "It looks like you are running <strong>nginx</strong>. We recommend the "
 "following setting in your site configuration file:"
 msgstr ""
 
-#: includes/templatetags.php:1675
+#: includes/templatetags.php:1684
 msgid "Just Me"
 msgstr "Moi uniquement"
 
-#: includes/templates/docs/docs-loop.php:64
 #: includes/templates/docs/docs-loop-list.php:25
+#: includes/templates/docs/docs-loop.php:64
 msgid "Last Edited"
 msgstr "Dernière édition"
 
-#: includes/templatetags.php:1755
+#: includes/templatetags.php:1764
 msgid "Limited"
 msgstr "Limité"
 
@@ -838,7 +846,7 @@ msgstr "Blocage levé"
 msgid "Locked"
 msgstr "Bloqué"
 
-#: includes/functions.php:548 includes/templatetags.php:1672
+#: includes/functions.php:548 includes/templatetags.php:1681
 msgid "Logged-in Users"
 msgstr "Utilisateurs connectés"
 
@@ -846,8 +854,8 @@ msgstr "Utilisateurs connectés"
 msgid "Manage Existing Folders"
 msgstr ""
 
-#: includes/templates/docs/docs-loop.php:30
 #: includes/templates/docs/docs-loop-tree.php:7
+#: includes/templates/docs/docs-loop.php:30
 msgid "Manage Folders"
 msgstr ""
 
@@ -855,7 +863,7 @@ msgstr ""
 msgid "Members of %s"
 msgstr "Membres de %s"
 
-#: includes/templatetags.php:1679
+#: includes/templatetags.php:1688
 msgid "Members of: %s"
 msgstr "Membres de: %s"
 
@@ -875,11 +883,11 @@ msgstr ""
 msgid "Minimum role to associate Docs with this group:"
 msgstr "Rôle minimal pour povoir associer des documents avec ce groupe:"
 
-#: includes/addon-taxonomy.php:652
+#: includes/addon-taxonomy.php:661
 msgid "Most Used"
 msgstr "Plus usité"
 
-#: includes/templatetags.php:1329
+#: includes/templatetags.php:1338
 msgid "Move to Trash"
 msgstr ""
 
@@ -892,12 +900,12 @@ msgstr "Mes Documents"
 msgid "My Folders"
 msgstr "Mes Relations"
 
-#: includes/templatetags.php:1673
+#: includes/templatetags.php:1682
 msgid "My Friends"
 msgstr "Mes Relations"
 
-#: includes/templates/docs/tabs-nouveau.php:14
 #: includes/templates/docs/tabs-legacy.php:12
+#: includes/templates/docs/tabs-nouveau.php:14
 msgid "My Groups"
 msgstr "Mes Groupes"
 
@@ -906,12 +914,13 @@ msgid "Name"
 msgstr ""
 
 #. translators: column name in revisons
-#: includes/addon-history.php:384 includes/addon-history.php:418
+#: includes/addon-history.php:387 includes/addon-history.php:421
 msgid "New"
 msgstr "Nouveau document"
 
-#: bp-docs.php:296 includes/templates/docs/docs-header.php:40
-#: includes/integration-groups.php:966 includes/integration-groups.php:1441
+#: bp-docs.php:296 includes/integration-groups.php:966
+#: includes/integration-groups.php:1441
+#: includes/templates/docs/docs-header.php:40
 msgid "New Doc"
 msgstr "Nouveau document"
 
@@ -924,7 +933,7 @@ msgstr "Nouveau document"
 msgid "Newer: %s"
 msgstr "Plus récent : %s"
 
-#: includes/attachments.php:595
+#: includes/attachments.php:629
 msgid "No"
 msgstr "Non"
 
@@ -940,11 +949,11 @@ msgstr "Aucun document dans la corbeille"
 msgid "No comments yet."
 msgstr "Aucun commentaire."
 
-#: includes/addon-taxonomy.php:401
+#: includes/addon-taxonomy.php:410
 msgid "No tags to show."
 msgstr ""
 
-#: includes/templatetags.php:958
+#: includes/templatetags.php:965
 msgid "None"
 msgstr "Aucun"
 
@@ -952,12 +961,12 @@ msgstr "Aucun"
 msgid "Number of docs to show:"
 msgstr ""
 
-#: includes/component.php:1006 includes/attachments.php:396
+#: includes/attachments.php:424 includes/component.php:1008
 msgid "OK"
 msgstr ""
 
 #. translators: column name in revisons
-#: includes/addon-history.php:383 includes/addon-history.php:417
+#: includes/addon-history.php:386 includes/addon-history.php:420
 msgid "Old"
 msgstr "Anciennes"
 
@@ -986,7 +995,7 @@ msgstr "Document parent :"
 msgid "Permalink"
 msgstr ""
 
-#: includes/templatetags.php:1326 includes/templatetags.php:1331
+#: includes/templatetags.php:1335 includes/templatetags.php:1340
 msgid "Permanently Delete"
 msgstr ""
 
@@ -1007,23 +1016,23 @@ msgstr ""
 "qu'administrateur, vous pouvez <a href=\"%s\">forcer le déblocage</a> de "
 "l'édition."
 
-#: includes/templatetags.php:1749
+#: includes/templatetags.php:1758
 msgid "Private"
 msgstr "Privé"
 
-#: includes/templatetags.php:1092
+#: includes/templatetags.php:1100
 msgid "Private Group"
 msgstr "Groupe Privé"
 
-#: includes/templatetags.php:1752
+#: includes/templatetags.php:1761
 msgid "Public"
 msgstr "Public"
 
-#: includes/templatetags.php:1088
+#: includes/templatetags.php:1096
 msgid "Public Group"
 msgstr "Groupe Public"
 
-#: includes/templates/docs/docs-header.php:25 includes/templatetags.php:1213
+#: includes/templates/docs/docs-header.php:25 includes/templatetags.php:1222
 msgid "Read"
 msgstr "Lire"
 
@@ -1036,19 +1045,19 @@ msgstr "BuddyPress Docs"
 msgid "Recent Comments"
 msgstr "Commentaires récents"
 
-#: includes/templatetags.php:1324
+#: includes/templatetags.php:1333
 msgid "Remove from Trash"
 msgstr ""
 
-#: includes/addon-history.php:378
+#: includes/addon-history.php:381
 msgid "Restore"
 msgstr "Restaurer"
 
-#: includes/addon-history.php:191
+#: includes/addon-history.php:194
 msgid "Revision for &#8220;%1$s&#8221; created on %2$s"
 msgstr "Version pour &#8220;%1$s&#8221; créée le %2$s"
 
-#: includes/addon-history.php:163 includes/addon-history.php:192
+#: includes/addon-history.php:166 includes/addon-history.php:195
 msgid "Revisions"
 msgstr "Version"
 
@@ -1077,7 +1086,7 @@ msgstr "Chercher un document"
 msgid "Search Docs..."
 msgstr "Chercher un document"
 
-#: includes/attachments.php:787
+#: includes/attachments.php:821
 msgid "See <a href=\"%s\">this wiki page</a> for more information."
 msgstr ""
 
@@ -1111,7 +1120,7 @@ msgstr "La configuration a été sauvegardée"
 msgid "Settings updated."
 msgstr "Configuration"
 
-#: includes/templatetags.php:1761
+#: includes/templatetags.php:1770
 msgid "Show Details"
 msgstr "Voir les détails"
 
@@ -1132,14 +1141,13 @@ msgstr ""
 msgid "Started By %s"
 msgstr "Créés par %s"
 
-#: includes/integration-users.php:305
+#: includes/component.php:199 includes/component.php:317
+#: includes/integration-users.php:305 includes/templates/docs/tabs-legacy.php:8
 #: includes/templates/docs/tabs-nouveau.php:10
-#: includes/templates/docs/tabs-legacy.php:8 includes/component.php:199
-#: includes/component.php:317
 msgid "Started By Me"
 msgstr "Créés par moi"
 
-#: includes/component.php:1007
+#: includes/component.php:1009
 msgid "Still working?"
 msgstr "Travail toujours en cours ?"
 
@@ -1147,8 +1155,8 @@ msgstr "Travail toujours en cours ?"
 msgid "Tag"
 msgstr "Tag"
 
-#: includes/templates/docs/single/edit.php:130
-#: includes/templates/docs/single/edit.php:131 includes/addon-taxonomy.php:292
+#: includes/addon-taxonomy.php:292 includes/templates/docs/single/edit.php:130
+#: includes/templates/docs/single/edit.php:131
 msgid "Tags"
 msgstr "Tags"
 
@@ -1168,11 +1176,11 @@ msgid ""
 "before your new Docs is ready to use."
 msgstr ""
 
-#: includes/functions.php:553 includes/templatetags.php:1674
+#: includes/functions.php:553 includes/templatetags.php:1683
 msgid "The Doc author only"
 msgstr "L'auteur uniquement"
 
-#: includes/templatetags.php:1684
+#: includes/templatetags.php:1693
 msgid "The Doc author only (that's you!)"
 msgstr "Uniquement le créateur du document (c'est vous !)"
 
@@ -1185,14 +1193,14 @@ msgid "There are no comments for this doc yet."
 msgstr "Il n'y a pas encore de commentaire."
 
 #: includes/templates/docs/docs-folder-loop.php:100
-#: includes/templates/docs/docs-loop.php:172
 #: includes/templates/docs/docs-loop-list.php:91
+#: includes/templates/docs/docs-loop.php:172
 msgid "There are no docs for this view."
 msgstr "Aucun document à afficher."
 
 #: includes/templates/docs/docs-folder-loop.php:98
-#: includes/templates/docs/docs-loop.php:170
 #: includes/templates/docs/docs-loop-list.php:89
+#: includes/templates/docs/docs-loop.php:170
 msgid "There are no docs for this view. Why not <a href=\"%s\">create one</a>?"
 msgstr ""
 "Il n'y a pas de document pour cette vue. Pourquoi ne pas en <a href=\"%s"
@@ -1225,19 +1233,19 @@ msgstr "Erreur pendant l'enregistrement"
 msgid "These revisions are identical."
 msgstr "Ces versions sont identiques"
 
-#: includes/templatetags.php:1695
+#: includes/templatetags.php:1704
 msgid "This Doc can be edited by: <strong>%s</strong>"
 msgstr "Ce document peut être modifié par : <strong>%s</strong>"
 
-#: includes/templatetags.php:1691
+#: includes/templatetags.php:1700
 msgid "This Doc can be read by: <strong>%s</strong>"
 msgstr "Ce document peut être consulté par : <strong>%s</strong>"
 
-#: includes/templatetags.php:2360
+#: includes/templatetags.php:2369
 msgid "This Doc is awaiting moderation"
 msgstr ""
 
-#: includes/templates/docs/docs-header.php:16 includes/templatetags.php:2358
+#: includes/templates/docs/docs-header.php:16 includes/templatetags.php:2367
 #, fuzzy
 msgid "This Doc is in the Trash"
 msgstr "Aucun document dans la corbeille"
@@ -1267,9 +1275,9 @@ msgstr ""
 msgid "This folder contains no Docs."
 msgstr ""
 
-#: includes/templates/docs/single/edit.php:41
-#: includes/templates/docs/docs-loop.php:50
 #: includes/templates/docs/docs-loop-list.php:13
+#: includes/templates/docs/docs-loop.php:50
+#: includes/templates/docs/single/edit.php:41
 msgid "Title"
 msgstr "Titre"
 
@@ -1278,7 +1286,7 @@ msgstr "Titre"
 msgid "Title:"
 msgstr "Titre"
 
-#: includes/templates/docs/docs-header.php:16 includes/templatetags.php:2358
+#: includes/templates/docs/docs-header.php:16 includes/templatetags.php:2367
 msgid "Trash"
 msgstr ""
 
@@ -1294,7 +1302,7 @@ msgstr "Erreur inconnue. Réessayez."
 msgid "Unlink from Group"
 msgstr ""
 
-#: includes/templatetags.php:1224
+#: includes/templatetags.php:1233
 msgid "Untrash"
 msgstr ""
 
@@ -1306,7 +1314,7 @@ msgstr ""
 msgid "Upgrade complete!"
 msgstr "Mise à jour terminée!"
 
-#: includes/component.php:1005 includes/attachments.php:395
+#: includes/attachments.php:423 includes/component.php:1007
 msgid "Upload File"
 msgstr "Envoyer le fichier"
 
@@ -1335,8 +1343,8 @@ msgstr "Voir les documents"
 msgid "View all docs in <strong>%s</strong>."
 msgstr "Accès: <strong>%s</strong>"
 
-#: includes/templates/docs/docs-loop.php:189
 #: includes/templates/docs/docs-loop-list.php:78
+#: includes/templates/docs/docs-loop.php:189
 msgid "Viewing %1$s-%2$s of %3$s docs"
 msgstr "%1$s-%2$s de %3$s documents"
 
@@ -1351,31 +1359,31 @@ msgid ""
 "current group or displayed user&rsquo;s docs."
 msgstr ""
 
-#: includes/templatetags.php:1024
+#: includes/templatetags.php:1032
 msgid "Which group should this Doc be associated with?"
 msgstr "A quel groupe ce document doit-il être rattaché ?"
 
-#: includes/templatetags.php:1141
+#: includes/templatetags.php:1149
 msgid "Who can edit this doc?"
 msgstr "Qui peut éditer ce document ?"
 
-#: includes/templatetags.php:1149
+#: includes/templatetags.php:1157
 msgid "Who can post comments on this doc?"
 msgstr "Qui peut <em>poster</em> des commentaires sur ce document ?"
 
-#: includes/templatetags.php:1145
+#: includes/templatetags.php:1153
 msgid "Who can read comments on this doc?"
 msgstr "Qui peut <em>lire</em> les commentaires de ce document ?"
 
-#: includes/templatetags.php:1137
+#: includes/templatetags.php:1145
 msgid "Who can read this doc?"
 msgstr "Qui peut lire ce document ?"
 
-#: includes/templatetags.php:1153
+#: includes/templatetags.php:1161
 msgid "Who can view the history of this doc?"
 msgstr "Qui peut consulter l'historique de ce document ?"
 
-#: includes/attachments.php:594
+#: includes/attachments.php:628
 msgid "Yes"
 msgstr "Oui"
 
@@ -1389,7 +1397,7 @@ msgid ""
 msgstr ""
 "Vous visualisez une version nommée  \"%1$s\", enregistrée le  %2$s par %3$s"
 
-#: includes/templatetags.php:437
+#: includes/templatetags.php:445
 msgid "You are searching for docs containing the term <em>%s</em>"
 msgstr "Vous recherchez des documents contenant le terme <em>%s</em> "
 
@@ -1446,7 +1454,7 @@ msgstr ""
 "Vous avez déjà défini cette valeur dans <code>wp-config.php</code> ; elle ne "
 "peut donc pas être modifiée ici."
 
-#: includes/addon-history.php:114
+#: includes/addon-history.php:117
 msgid "You have successfully restored the Doc to the revision from %s."
 msgstr "Mise à jour effectuée avec succès depuis %s"
 
@@ -1473,7 +1481,7 @@ msgstr ""
 "Votre document a été enregistré. Quelques ajustements à vos autorisations "
 "ont été faits pour s'accorder avec les droits associés au document."
 
-#: includes/component.php:1008
+#: includes/component.php:1010
 msgid "and %d more"
 msgstr ""
 

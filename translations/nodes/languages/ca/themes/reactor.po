@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Reactor\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/reactor\n"
-"POT-Creation-Date: 2019-04-15T16:19:11+02:00\n"
+"POT-Creation-Date: 2021-05-31T11:17:11+02:00\n"
 "PO-Revision-Date: 2019-04-09 08:40+0200\n"
 "Last-Translator: Joan Sala Soler <jsala236@xtec.cat>\n"
 "Language-Team: awtheme\n"
@@ -33,8 +33,8 @@ msgstr "% comentaris"
 msgid "%1$s at %2$s"
 msgstr "%1$s a les %2$s"
 
-#: post-formats/format-portfolio.php:28
 #: library/inc/content/content-posts.php:30
+#: post-formats/format-portfolio.php:28
 msgid "%s"
 msgstr "%s"
 
@@ -198,11 +198,11 @@ msgstr "Categoria: %s"
 msgid "Choose File"
 msgstr "Tria un fitxer"
 
-#: functions.php:255
+#: functions.php:254
 msgid "Components"
 msgstr "Components"
 
-#: functions.php:260 functions.php:339
+#: functions.php:333
 msgid "Configuració"
 msgstr "Configuració"
 
@@ -239,9 +239,9 @@ msgstr "Necessiteu ajuda?"
 msgid "Document"
 msgstr "Document"
 
+#: image.php:43 library/inc/content/content-pages.php:48
 #: library/inc/extensions/comments.php:23
 #: library/inc/extensions/comments.php:55
-#: library/inc/content/content-pages.php:48 image.php:43
 msgid "Edit"
 msgstr "Edita"
 
@@ -340,8 +340,8 @@ msgstr "Portada (Barra esquerra)"
 msgid "Front Page Secondary"
 msgstr "Portada (Barra dreta)"
 
-#: library/inc/customizer/customize.php:171
 #: custom-tac/capcalera/icones-capcalera-settings.php:255
+#: library/inc/customizer/customize.php:171
 msgid "General"
 msgstr "General"
 
@@ -541,14 +541,18 @@ msgstr "Pàgina %s"
 msgid "Page Link Type"
 msgstr "Tipus d'enllaç de pàgina"
 
-#: post-formats/format-standard.php:25 library/inc/content/content-pages.php:36
-#: image.php:98
+#: image.php:98 library/inc/content/content-pages.php:36
+#: post-formats/format-standard.php:25
 msgid "Pages:"
 msgstr "Pàgines:"
 
 #: custom-tac/metabox-post-parametres.php:15
 msgid "Parameters"
 msgstr "Paràmetres"
+
+#: functions.php:255
+msgid "Paràmetres"
+msgstr ""
 
 #: library/inc/extensions/sidebars.php:79
 msgid "Peu"
@@ -633,8 +637,8 @@ msgstr "Suprimeix l'arxiu"
 msgid "Reply"
 msgstr "Contesta"
 
-#: searchform.php:15 searchform.php:18 library/inc/functions/top-bar.php:81
-#: library/inc/functions/top-bar.php:84
+#: library/inc/functions/top-bar.php:81 library/inc/functions/top-bar.php:84
+#: searchform.php:15 searchform.php:18
 msgid "Search"
 msgstr "Cerca"
 
@@ -906,10 +910,6 @@ msgstr "G:i:s"
 #: library/inc/functions/breadcrumbs.php:178
 msgid "g:i a"
 msgstr "G:i"
-
-#. Author URI of the theme
-msgid "http://jurjur.org"
-msgstr "http://jurjur.org"
 
 #: library/inc/functions/post-meta.php:85
 msgid "in"

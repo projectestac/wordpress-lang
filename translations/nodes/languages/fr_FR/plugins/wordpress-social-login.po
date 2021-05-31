@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: WordPress Social Login\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wordpress-social-"
 "login\n"
-"POT-Creation-Date: 2019-04-15T16:19:08+02:00\n"
+"POT-Creation-Date: 2021-05-31T11:17:01+02:00\n"
 "PO-Revision-Date: 2018-07-13 16:40+0200\n"
 "Last-Translator: Joan Sala Soler <jsala236@xtec.cat>\n"
 "Language-Team: French (http://www.transifex.com/wsl/wordpress-social-login/"
@@ -28,7 +28,7 @@ msgid ""
 "Twitter, Facebook, Google, Yahoo and more."
 msgstr ""
 
-#: includes/admin/wsl.admin.ui.php:298
+#: includes/admin/wsl.admin.ui.php:330
 msgid ""
 "Despite the efforts, put into <b>WordPress Social Login</b> in terms of "
 "reliability, portability, and maintenance by the plugin <a href=\"http://"
@@ -40,6 +40,12 @@ msgstr ""
 #: includes/services/wsl.mail.notification.php:42
 msgid "Email: %s"
 msgstr "E-mail : %s"
+
+#: includes/services/wsl.session.php:30
+msgid ""
+"HTTP headers already sent to browser and WSL won't be able to start/resume "
+"PHP session."
+msgstr ""
 
 #. Author of the plugin
 msgid "Miled"
@@ -60,18 +66,18 @@ msgstr "URL du profil de l'utilisateur qui invite"
 msgid "Provider: %s"
 msgstr "(%s accepté)"
 
-#: includes/admin/components/tools/wsl.components.tools.actions.job.php:676
+#: includes/admin/components/tools/wsl.components.tools.actions.job.php:675
 msgid "There was an error querying Twitter's servers"
 msgstr ""
 
-#: includes/admin/wsl.admin.ui.php:303
+#: includes/admin/wsl.admin.ui.php:335
 msgid ""
 "These requirements are usually met by default by most \"modern\" web hosting "
 "providers, however some complications may occur with <b>shared hosting</b> "
 "and, or <b>custom wordpress installations</b>"
 msgstr ""
 
-#: wp-social-login.php:113
+#: wp-social-login.php:117
 msgid ""
 "This plugin requires WordPress 3.0 or newer. Please update your WordPress "
 "installation to activate this plugin."
@@ -86,11 +92,11 @@ msgstr "Identifiant : %s"
 msgid "WordPress Social Login"
 msgstr "Utilisateurs du site"
 
-#: includes/admin/wsl.admin.ui.php:293
+#: includes/admin/wsl.admin.ui.php:325
 msgid "WordPress Social Login - FAIL!"
 msgstr ""
 
-#: includes/admin/wsl.admin.ui.php:299
+#: includes/admin/wsl.admin.ui.php:331
 msgid "Your server failed the requirements check for this plugin"
 msgstr ""
 
