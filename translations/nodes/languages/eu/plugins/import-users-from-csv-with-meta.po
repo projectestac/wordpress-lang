@@ -6,7 +6,7 @@ msgstr ""
 "(latest release)\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/import-users-from-"
 "csv-with-meta\n"
-"POT-Creation-Date: 2019-04-15T16:18:55+02:00\n"
+"POT-Creation-Date: 2021-05-31T11:16:51+02:00\n"
 "PO-Revision-Date: +0000\n"
 "Language: eu_ES\n"
 "MIME-Version: 1.0\n"
@@ -37,33 +37,61 @@ msgstr ""
 msgid "(User profile will be adapted to the kind of data you have selected)"
 msgstr ""
 
-#: classes/columns.php:25
+#: classes/columns.php:59
 msgid ""
 "(if you load another CSV with different columns, the new ones will replace "
 "this list)"
 msgstr ""
 
-#: importer.php:312
-msgid "(in this CSV file is called:"
-msgstr ""
-
-#: import-users-from-csv-with-meta.php:528
+#: classes/cron.php:86
 msgid "--Finished at"
 msgstr ""
 
-#: classes/homepage.php:80
+#: import-users-from-csv-with-meta.php:146
+msgid "<a href=\"%s\">Export</a>"
+msgstr ""
+
+#: import-users-from-csv-with-meta.php:147
+msgid "<a href=\"%s\">Import</a>"
+msgstr ""
+
+#: classes/homepage.php:40
 msgid "<em>or you can choose directly a file from your host,"
 msgstr ""
 
-#: classes/doc.php:72 classes/homepage.php:459
+#: addons/paid-member-subscriptions.php:31
+msgid ""
+"<strong>expiration_date (optional)</strong>: if you leave it empty, no "
+"expired date will be defined"
+msgstr ""
+
+#: addons/paid-member-subscriptions.php:30
+msgid ""
+"<strong>start_date <em>(optional)</em></strong>: if you leave empty, current "
+"moment will be used, format is Y-m-d H:i:s"
+msgstr ""
+
+#: addons/paid-member-subscriptions.php:32
+msgid ""
+"<strong>status <em>(optional)</em></strong>: if you do not fill it, active "
+"will be used"
+msgstr ""
+
+#: addons/paid-member-subscriptions.php:29
+msgid ""
+"<strong>subscription_plan_id</strong>: you can find it in Paid Member "
+"Subscriptions, Subscriptions Plans "
+msgstr ""
+
+#: classes/doc.php:72 classes/homepage.php:200
 msgid "A string containing content about the user."
 msgstr ""
 
-#: classes/doc.php:67 classes/homepage.php:429
+#: classes/doc.php:67 classes/homepage.php:170
 msgid "A string containing the user's URL for the user's web site."
 msgstr ""
 
-#: classes/doc.php:66 classes/homepage.php:423
+#: classes/doc.php:66 classes/homepage.php:164
 msgid ""
 "A string that contains a URL-friendly name for the user. The default is the "
 "user's username."
@@ -83,7 +111,7 @@ msgid ""
 "user)."
 msgstr ""
 
-#: classes/homepage.php:435
+#: classes/homepage.php:176
 msgid ""
 "A string that will be shown on the site. Defaults to user's username. It is "
 "likely that you will want to change this, for both appearance and security "
@@ -91,320 +119,528 @@ msgid ""
 "user)."
 msgstr ""
 
-#: classes/email-options.php:36
+#: classes/actions.php:72
+msgid "Actions"
+msgstr ""
+
+#: classes/email-options.php:38
+msgid "Activate WordPress automatic email when an user is created or edited"
+msgstr ""
+
+#: classes/email-options.php:55
 msgid ""
-"Activate WordPress automattic email when an user is updated or his password "
+"Activate WordPress automatic email when an user is updated or his password "
 "is changed"
 msgstr ""
 
-#: classes/cron.php:71
+#: classes/cron.php:176
 msgid "Activate periodical import?"
 msgstr ""
 
-#: addons/wp-members.php:21 addons/wp-members.php:44
+#: addons/wp-members.php:21 addons/wp-members.php:45
 msgid "Activate users when they are being imported"
 msgstr ""
 
-#: classes/email-templates.php:28 classes/email-templates.php:29
+#: classes/email-templates.php:29 classes/email-templates.php:30
 msgid "Add new email template"
 msgstr ""
 
-#: classes/homepage.php:210 classes/frontend.php:103 classes/cron.php:200
+#: addons/woocommerce-membership-rightpress.php:23
+#: addons/woocommerce-membership.php:24
+msgid "Add users to membership plans"
+msgstr ""
+
+#: classes/cron.php:305 classes/homepage.php:361
+msgid ""
+"Administrators will not be deleted anyway. After delete users, we can choose "
+"if we want to assign their posts to another user. If you do not choose some "
+"user, content will be deleted."
+msgstr ""
+
+#: addons/advanced-custom-fields.php:25
+msgid "Advaced Custom Fields is activated"
+msgstr ""
+
+#: classes/frontend.php:178
 msgid ""
 "After delete users, we can choose if we want to assign their posts to "
 "another user. Please do not delete them or posts will be deleted."
 msgstr ""
 
-#: classes/homepage.php:231 classes/frontend.php:123 classes/cron.php:220
+#: classes/cron.php:325 classes/frontend.php:198 classes/homepage.php:382
 msgid ""
 "After import users which is not present in the CSV and can be changed to a "
 "different role."
 msgstr ""
 
-#: classes/email-templates.php:27
+#: classes/email-templates.php:28
 msgid "All email template"
 msgstr ""
 
-#: addons/allow-multiple-accounts.php:23 addons/allow-multiple-accounts.php:42
+#: classes/export.php:34
+msgid "All roles"
+msgstr ""
+
+#: addons/allow-multiple-accounts.php:28 addons/allow-multiple-accounts.php:47
 msgid "Allow Multiple Accounts"
 msgstr ""
 
-#: addons/allow-multiple-accounts.php:33
+#: addons/allow-multiple-accounts.php:38
 msgid "Allow Multiple Accounts compatibility"
 msgstr ""
 
-#: addons/allow-multiple-accounts.php:12
+#: addons/allow-multiple-accounts.php:17
 msgid "Allow multiple accounts compatibility"
 msgstr ""
 
-#: addons/allow-multiple-accounts.php:23 addons/allow-multiple-accounts.php:42
+#: addons/allow-multiple-accounts.php:28 addons/allow-multiple-accounts.php:47
 msgid ""
 "Allow multiple user accounts to be created having the same email address."
 msgstr ""
 
-#: addons/allow-multiple-accounts.php:21
+#: addons/allow-multiple-accounts.php:26
 msgid "Allowed"
 msgstr ""
 
-#: classes/doc.php:120
+#: addons/woocommerce-subscriptions.php:763
 msgid ""
-"And the role assigned in this group: <em>Administrator, Moderator or Member</"
-"em>"
+"An error occurred when trying to add the shipping item to the subscription, "
+"a subscription not been created for this row."
 msgstr ""
 
-#: classes/doc.php:137
+#: addons/woocommerce-subscriptions.php:651
+msgid ""
+"An unexpected error occurred when trying to add product \"%s\" to your "
+"subscription. The error was caught and no subscription for this row will be "
+"created. Please fix up the data from your CSV and try again."
+msgstr ""
+
+#: addons/buddypress.php:136
+msgid "And the role assigned in this group:"
+msgstr ""
+
+#: addons/groups.php:30
+msgid "Another option is use group_name as the column title"
+msgstr ""
+
+#: classes/doc.php:84
 msgid "Any question about it"
 msgstr ""
 
-#: addons/new-user-approve.php:16
+#: addons/new-user-approve.php:17
 msgid "Approve users at the same time is being created"
 msgstr ""
 
-#: addons/new-user-approve.php:20
+#: addons/new-user-approve.php:21
 msgid "Approve users when they are being imported"
 msgstr ""
 
-#: classes/homepage.php:326
+#: classes/homepage.php:474
 msgid ""
 "Are you sure to delete ALL CSV files uploaded? There can be CSV files from "
 "other plugins."
 msgstr ""
 
-#: classes/cron.php:249
+#: classes/cron.php:406
 msgid ""
 "Are you sure to delete all users that are not present in the CSV? This "
 "action cannot be undone."
 msgstr ""
 
-#: classes/homepage.php:307
+#: classes/homepage.php:454
 msgid "Are you sure to delete this file?"
 msgstr ""
 
-#: classes/email-templates.php:113 classes/email-templates.php:125
-#: classes/email-options.php:74
+#: classes/columns.php:119
+msgid ""
+"Are you sure to reset all fields, it will delete current fields and they "
+"will restored in next import"
+msgstr ""
+
+#: classes/email-options.php:115 classes/email-templates.php:115
+#: classes/email-templates.php:127
 msgid "Attachment"
 msgstr ""
 
-#: classes/cron.php:156
+#: classes/frontend.php:66
+msgid "Attribute delete-only-specified-role"
+msgstr ""
+
+#: classes/frontend.php:240
+msgid "Attribute delimiter"
+msgstr ""
+
+#: classes/frontend.php:228
+msgid "Attribute from"
+msgstr ""
+
+#: classes/frontend.php:246
+msgid "Attribute order-alphabetically"
+msgstr ""
+
+#: classes/frontend.php:60 classes/frontend.php:222
+msgid "Attribute role"
+msgstr ""
+
+#: classes/frontend.php:234
+msgid "Attribute to"
+msgstr ""
+
+#: classes/cron.php:261
 msgid "Auto rename after move?"
 msgstr ""
 
-#: classes/homepage.php:250
+#: classes/homepage.php:405
 msgid "Become a patron"
 msgstr ""
 
-#: addons/buddypress.php:29
-msgid "BuddyPress compatibility"
+#: addons/buddypress.php:98
+msgid "BuddyPress & BuddyBoss compatibility"
 msgstr ""
 
-#: classes/doc.php:115
-msgid "BuddyPress is activated"
+#: addons/buddypress.php:131
+msgid "BuddyPress or BuddyBoss is activated"
 msgstr ""
 
-#: addons/buddypress.php:34
-msgid "BuddyPress users"
+#: addons/buddypress.php:122
+msgid "BuddyPress/BuddyBoss avatar"
 msgstr ""
 
-#: classes/doc.php:122
-msgid ""
-"But you will have to assign a role for each group: <em>Moderator,Moderator,"
-"Member,Member</em>"
+#: addons/buddypress.php:103
+msgid "BuddyPress/BuddyBoss users"
 msgstr ""
 
-#: include/shortcode-frontend.php:32
+#: addons/buddypress.php:139
+msgid "But you will have to assign a role for each group:"
+msgstr ""
+
+#: classes/frontend.php:399
 msgid "CSV file <span class=\"description\">(required)</span>"
 msgstr ""
 
-#: classes/homepage.php:68
+#: classes/homepage.php:32
 msgid "CSV file <span class=\"description\">(required)</span></label>"
 msgstr ""
 
-#: importer.php:129
+#: classes/import.php:256
 msgid ""
 "CSV file seems to be bad formed. Please use LibreOffice to create and manage "
 "CSV to be sure the format is correct"
 msgstr ""
 
-#: classes/homepage.php:216 classes/frontend.php:109 classes/cron.php:206
+#: classes/cron.php:332
+msgid "Call cron process using REST-API"
+msgstr ""
+
+#: classes/cron.php:311 classes/frontend.php:184 classes/homepage.php:367
 msgid "Change role of users that are not present in the CSV?"
 msgstr ""
 
-#: classes/email-options.php:101
+#: classes/email-options.php:258
 msgid "Choose or upload file"
 msgstr ""
 
-#: classes/homepage.php:16
+#: classes/homepage.php:523
 msgid "Click to open/close"
+msgstr ""
+
+#: classes/export.php:53
+msgid "Colon"
 msgstr ""
 
 #: classes/doc.php:12
 msgid "Columns position"
 msgstr ""
 
-#: classes/frontend.php:32
+#: classes/export.php:52
+msgid "Comma"
+msgstr ""
+
+#: classes/export.php:60
+msgid "Convert timestamp data to date format"
+msgstr ""
+
+#: classes/frontend.php:55 classes/frontend.php:217
 msgid "Copy to clipboard"
 msgstr ""
 
-#: classes/email-options.php:66
+#: addons/woocommerce-subscriptions.php:714
+msgid ""
+"Could not add the fee to your subscription, the subscription has not been "
+"imported."
+msgstr ""
+
+#: addons/woocommerce-subscriptions.php:274
+msgid "Could not create subscription: %s"
+msgstr ""
+
+#: addons/woocommerce-subscriptions.php:555
+msgid "Could not find coupon with code \"%s\" in your store."
+msgstr ""
+
+#: addons/woocommerce-subscriptions.php:499
+msgid ""
+"Could not set payment method as PayPal, defaulted to manual renewals. Either "
+"PayPal was not enabled or your PayPal account does not have Reference "
+"Transaction setup. Learn more about enabling Reference Transactions %1$shere"
+"%2$s."
+msgstr ""
+
+#: addons/woocommerce-subscriptions.php:575
+msgid "Coupon \"%s\" could not be added to subscription."
+msgstr ""
+
+#: classes/import.php:99
+msgid "Cron import"
+msgstr ""
+
+#: classes/cron.php:388
+msgid "Cron task successfully executed"
+msgstr ""
+
+#: classes/email-options.php:101
 msgid "Customize the email that can be sent when importing users"
 msgstr ""
 
-#: classes/email-options.php:35
+#: addons/woocommerce-subscriptions.php:80
 msgid ""
-"Deactivate WordPress automattic email when an user is updated or his "
-"password is changed"
+"Data format: use the column names <a href=\"%s\">described here</a>, except "
+"the ones that are not used because we have the own ones:"
 msgstr ""
 
-#: classes/homepage.php:98
+#: classes/email-options.php:37
+msgid "Deactivate WordPress automatic email when an user is created or edited"
+msgstr ""
+
+#: classes/email-options.php:54
+msgid ""
+"Deactivate WordPress automatic email when an user is updated or his password "
+"is changed"
+msgstr ""
+
+#: classes/homepage.php:58
 msgid "Default role"
 msgstr ""
 
-#: classes/homepage.php:39
+#: classes/homepage.php:541
 msgid "Delete"
 msgstr ""
 
-#: classes/homepage.php:29
+#: classes/homepage.php:531
 msgid "Delete all CSV files uploaded"
 msgstr ""
 
-#: classes/homepage.php:201 classes/frontend.php:89 classes/frontend.php:91
-#: classes/cron.php:186 classes/cron.php:188
-msgid "Delete posts of deled users without assing to any user"
+#: classes/cron.php:291 classes/cron.php:293 classes/frontend.php:164
+#: classes/frontend.php:166 classes/homepage.php:352
+msgid "Delete posts of deleted users without assigning to any user"
 msgstr ""
 
-#: classes/homepage.php:137
+#: classes/homepage.php:233 classes/homepage.php:267
 msgid "Delete the metadata"
 msgstr ""
 
-#: classes/homepage.php:194 classes/frontend.php:80 classes/cron.php:177
+#: classes/cron.php:282 classes/frontend.php:155 classes/homepage.php:345
 msgid "Delete users that are not present in the CSV?"
 msgstr ""
 
-#: classes/cron.php:117 classes/cron.php:119
-msgid "Disable role assignement in cron import"
+#: classes/export.php:49
+msgid "Delimiter"
 msgstr ""
 
-#: classes/frontend.php:42 classes/frontend.php:44
-msgid "Disable role assignement in frontend import"
+#: classes/helper.php:298 classes/helper.php:305
+msgid "Details"
 msgstr ""
 
-#: addons/wp-members.php:20 addons/wp-members.php:43
+#: classes/email-options.php:78
+msgid "Disable WP Editor:"
+msgstr ""
+
+#: classes/cron.php:222 classes/cron.php:224
+msgid "Disable role assignment in cron import"
+msgstr ""
+
+#: classes/frontend.php:77 classes/frontend.php:79
+msgid "Disable role assignment in frontend import"
+msgstr ""
+
+#: addons/wp-members.php:20 addons/wp-members.php:44
 msgid "Do not activate users"
 msgstr ""
 
-#: addons/new-user-approve.php:19
+#: addons/new-user-approve.php:20
 msgid "Do not approve users"
 msgstr ""
 
-#: classes/donate.php:10
+#: classes/donate.php:8
 msgid "Do you like it?"
 msgstr ""
 
-#: classes/email-options.php:48
+#: classes/email-options.php:83
+msgid "Do you want to disable WP Editor?"
+msgstr ""
+
+#: classes/email-options.php:67
 msgid "Do you want to enable mail templates?"
 msgstr ""
 
-#: classes/homepage.php:146
+#: classes/homepage.php:242 classes/homepage.php:276
 msgid "Do you wish to send a mail with credentials and other data?"
 msgstr ""
 
-#: classes/homepage.php:150
+#: classes/homepage.php:246 classes/homepage.php:280
 msgid ""
 "Do you wish to send this mail also to users that are being updated? (not "
 "only to the one which are being created)"
 msgstr ""
 
-#: classes/doc.php:8
+#: classes/doc.php:8 classes/import.php:103
 msgid "Documentation"
 msgstr ""
 
-#: import-users-from-csv-with-meta.php:182
+#: import-users-from-csv-with-meta.php:157
 msgid "Donate"
 msgstr ""
 
-#: classes/doc.php:147
+#: classes/import.php:104
+msgid "Donate/Patreon"
+msgstr ""
+
+#: classes/export.php:83
+msgid "Download"
+msgstr ""
+
+#: addons/woocommerce-subscriptions.php:81
+msgid "Download <a href=\"%s\">this sample file</a> to see how it works"
+msgstr ""
+
+#: classes/export.php:81
+msgid "Download CSV file with users"
+msgstr ""
+
+#: classes/doc.php:100
 msgid "Download this"
 msgstr ""
 
-#: importer.php:281
+#: classes/import.php:365
 msgid "EMail not specified"
 msgstr ""
 
-#: classes/email-templates.php:31
+#: classes/email-templates.php:32
 msgid "Edit email template"
 msgstr ""
 
-#: classes/doc.php:16 classes/homepage.php:404
+#: classes/doc.php:16 classes/homepage.php:145
 msgid "Email"
 msgstr ""
 
-#: classes/email-templates.php:21
+#: classes/import.php:400 classes/import.php:449
+msgid "Email has changed, new user created with username %s"
+msgstr ""
+
+#: classes/import.php:364
+msgid "Email not specified"
+msgstr ""
+
+#: classes/email-templates.php:22
 msgctxt "Post Type Singular Name"
 msgid "Email template (Import Users From CSV With Meta)"
 msgstr ""
 
-#: classes/email-templates.php:45
+#: classes/email-templates.php:46
 msgid "Email template list navigation"
 msgstr ""
 
-#: classes/email-templates.php:23
+#: classes/email-templates.php:24
 msgid "Email templates (Import Users From CSV With Meta)"
 msgstr ""
 
-#: classes/email-templates.php:20
+#: classes/email-templates.php:21
 msgctxt "Post Type General Name"
 msgid "Email templates (Import Users From CSV With Meta)"
 msgstr ""
 
-#: classes/email-templates.php:22
+#: classes/email-templates.php:23
 msgid "Email templates (Import Users)"
 msgstr ""
 
-#: classes/email-options.php:44
+#: classes/email-options.php:63
 msgid "Enable mail templates:"
 msgstr ""
 
-#: import-users-from-csv-with-meta.php:329
-msgid "Error, the file"
+#: classes/import.php:151
+msgid "Error, path to file is not well written"
 msgstr ""
 
-#: import-users-from-csv-with-meta.php:291
+#: classes/import.php:155
 msgid "Error, we cannot find the file"
 msgstr ""
 
-#: classes/doc.php:146
+#: classes/helper.php:293
+msgid "Errors, warnings and notices"
+msgstr ""
+
+#: classes/helper.php:340
+msgid "Errors, warnings and notices found"
+msgstr ""
+
+#: classes/doc.php:99
 msgid "Example"
 msgstr ""
 
-#: classes/frontend.php:22
+#: classes/frontend.php:209
+msgid "Execute an export of users in the frontend"
+msgstr ""
+
+#: classes/frontend.php:45
 msgid "Execute an import of users in the frontend"
 msgstr ""
 
-#: classes/cron.php:64
+#: classes/cron.php:169
 msgid "Execute an import of users periodically"
 msgstr ""
 
-#: classes/columns.php:10
+#: classes/cron.php:363
+msgid "Execute cron task now"
+msgstr ""
+
+#: classes/frontend.php:439 classes/import.php:97
+msgid "Export"
+msgstr ""
+
+#: classes/export.php:26
+msgid "Export users"
+msgstr ""
+
+#: classes/columns.php:33 classes/import.php:100
 msgid "Extra profile fields"
 msgstr ""
 
-#: classes/columns.php:24
+#: classes/columns.php:58
 msgid "Extra profile fields loadad in previous files"
 msgstr ""
 
-#: import-users-from-csv-with-meta.php:559
-msgid "Extra profile information"
-msgstr ""
-
-#: classes/email-templates.php:38
+#: classes/email-templates.php:39
 msgid "Featured Image"
 msgstr ""
 
-#: importer.php:151
+#: addons/woocommerce-subscriptions.php:674
+msgid ""
+"Fee name is missing from your CSV. This subscription has not been imported."
+msgstr ""
+
+#: classes/export.php:75
+msgid "Fields"
+msgstr ""
+
+#: classes/homepage.php:27
+msgid "File"
+msgstr ""
+
+#: classes/import.php:278
 msgid "File must contain at least 2 columns: username and email"
 msgstr ""
 
-#: classes/homepage.php:50
+#: classes/homepage.php:16
 msgid ""
 "File must contain at least <strong>2 columns: username and email</strong>. "
 "These should be the first two columns and it should be placed <strong>in "
@@ -412,42 +648,66 @@ msgid ""
 "plugin will manage it automatically."
 msgstr ""
 
-#: classes/homepage.php:318
+#: classes/homepage.php:466
 msgid "File successfully deleted"
 msgstr ""
 
-#: classes/homepage.php:336
+#: classes/homepage.php:485
 msgid "Files successfully deleted"
 msgstr ""
 
-#: classes/email-templates.php:46
+#: classes/email-templates.php:47
 msgid "Filter email template list"
 msgstr ""
 
-#: classes/homepage.php:28
+#: classes/import.php:227
+msgid "First row represents the form of sheet"
+msgstr ""
+
+#: classes/homepage.php:530
 msgid ""
 "For security reasons you should delete this files, probably they would be "
 "visible in the Internet if a bot or someone discover the URL. You can delete "
 "each file or maybe you want delete all CSV files you have uploaded:"
 msgstr ""
 
-#: classes/doc.php:140
+#: classes/doc.php:87
 msgid "Free support (in WordPress forums):"
 msgstr ""
 
-#: classes/homepage.php:63
-msgid "General"
+#: classes/import.php:98
+msgid "Frontend"
 msgstr ""
 
-#: classes/homepage.php:389
+#: classes/cron.php:337
+msgid "GET endpoint to execute cron"
+msgstr ""
+
+#: addons/advanced-custom-fields.php:30
+msgid "Group name"
+msgstr ""
+
+#: addons/groups.php:24
+msgid "Groups is activated"
+msgstr ""
+
+#: classes/homepage.php:130
 msgid "Help"
 msgstr ""
 
-#: classes/donate.php:14 classes/help.php:12
+#: classes/donate.php:12 classes/help.php:12
 msgid "Hi! we are"
 msgstr ""
 
-#: classes/cron.php:93
+#: classes/import.php:106
+msgid "Hire an expert"
+msgstr ""
+
+#: classes/doc.php:94
+msgid "Hooks"
+msgstr ""
+
+#: classes/cron.php:198
 msgid "How often the event should reoccur?"
 msgstr ""
 
@@ -462,6 +722,10 @@ msgstr ""
 msgid ""
 "If id <strong>exists</strong>: plugin check if username is the same, if yes, "
 "it will update the data, if not, it ignores the cell to avoid problems"
+msgstr ""
+
+#: classes/frontend.php:116
+msgid "If list is empty, the admin email will be used"
 msgstr ""
 
 #: classes/doc.php:46
@@ -490,103 +754,184 @@ msgid ""
 "chosen from the 'Default role' field in import screen."
 msgstr ""
 
-#: classes/doc.php:123
+#: classes/doc.php:95
+msgid ""
+"If you are a developer you can extend or use this plugin with all the hooks "
+"we provide, you have <a href=\"https://codection.com/import-users-csv-meta/"
+"listado-de-hooks-de-import-and-exports-users-and-customers/\">a list of them "
+"here</a>"
+msgstr ""
+
+#: addons/buddypress.php:140
+msgid ""
+"If you choose to update roles and group role is empty, user will be removed "
+"from the group"
+msgstr ""
+
+#: addons/buddypress.php:141
 msgid "If you get some error of this kind:"
 msgstr ""
 
-#: classes/doc.php:118
+#: classes/export.php:64
+msgid ""
+"If you have problems and you get some value exported as a date that should "
+"not be converted to date, please deactivate this option. If this option is "
+"not activated, datetime format will be ignored."
+msgstr ""
+
+#: classes/homepage.php:412
+msgid "If you like it"
+msgstr ""
+
+#: addons/buddypress.php:76
+msgid "If you use more than one value, please use commas to separate each item"
+msgstr ""
+
+#: addons/buddypress.php:134
 msgid ""
 "If you want to assign an user to a group you have to create a column "
 "'bp_group' and a column 'bp_group_role'"
 msgstr ""
 
-#: addons/wp-lms-course.php:26
+#: addons/wp-lms-course.php:28
 msgid ""
 "If you want to import multiple values, you can use a list using / to "
 "separate items"
 msgstr ""
 
-#: addons/acui-wp-users-group.php:24 addons/acui-users-group.php:24
-#: addons/wp-users-group.php:24 addons/users-group.php:24
+#: addons/customer-area.php:29 addons/groups.php:32 addons/users-group.php:26
+#: addons/wp-users-group.php:26
 msgid ""
 "If you want to import multiple values, you can use a list using commas to "
 "separate items"
 msgstr ""
 
-#: import-users-from-csv-with-meta.php:504
-msgid "Import cron task starts at"
+#: classes/email-options.php:87
+msgid ""
+"If you want to use email with custom HTML and CSS tags, disable WP Editor"
 msgstr ""
 
-#: classes/homepage.php:56 import-users-from-csv-with-meta.php:176
-msgid "Import users from CSV"
+#: classes/import.php:96 classes/import.php:115
+msgid "Import"
+msgstr ""
+
+#: classes/wp-importer.php:12
+msgid "Import <strong>users or customers</strong> to your site via a csv file."
+msgstr ""
+
+#: addons/woocommerce-membership.php:23
+msgid "Import all membership information"
 msgstr ""
 
 #. Plugin Name of the plugin
-msgid "Import users from CSV with meta"
+#: import-users-from-csv-with-meta.php:131
+msgid "Import and export users and customers"
 msgstr ""
 
-#: classes/doc.php:133
-msgid "Important notice"
+#: classes/cron.php:60
+msgid "Import cron task starts at"
 msgstr ""
 
-#: importer.php:7
+#: addons/woocommerce-subscriptions.php:324
+msgid "Import forced manual renewal."
+msgstr ""
+
+#: classes/homepage.php:20
+msgid "Import users and customers from CSV"
+msgstr ""
+
+#: classes/wp-importer.php:12
+msgid "Import users or customers (CSV)"
+msgstr ""
+
+#: addons/woocommerce-subscriptions.php:250
+msgid ""
+"Importing a pending cancelled subscription requires an end date in the "
+"future."
+msgstr ""
+
+#: classes/import.php:176
 msgid "Importing users"
 msgstr ""
 
-#: addons/acui-indeed-ultimate-membership-pro.php:26
-#: addons/indeed-ultimate-membership-pro.php:26
+#: addons/mailpoet.php:23
+msgid ""
+"In this case you will only have to use <strong>mailpoet_list_ids</strong> "
+"column in order to associate a user to their users list, you can use a ID or "
+"a list of IDs separated by commas"
+msgstr ""
+
+#: addons/woocommerce-membership.php:24
+msgid ""
+"In this case you will only have to use <strong>membership_plan_id</strong> "
+"column in order to associate a user to their membership plan"
+msgstr ""
+
+#: addons/woocommerce-membership-rightpress.php:23
+msgid ""
+"In this case you will only have to use <strong>plan_id</strong> column in "
+"order to associate a user to their membership plan"
+msgstr ""
+
+#: classes/frontend.php:115
+msgid ""
+"Include a list of emails where notification will be sent, use commas to "
+"separate addresses"
+msgstr ""
+
+#: addons/indeed-ultimate-membership-pro.php:27
 msgid "Indeed Ultimate Membership Pro is activated"
 msgstr ""
 
-#: classes/cron.php:80 classes/cron.php:149
+#: classes/cron.php:185 classes/cron.php:254
 msgid "Insert complete path to the file"
 msgstr ""
 
-#: classes/email-templates.php:42
+#: classes/email-templates.php:43
 msgid "Insert into email template"
 msgstr ""
 
-#: import-users-from-csv-with-meta.php:176
-msgid "Insert users massively (CSV)"
-msgstr ""
-
-#: importer.php:179
+#: classes/helper.php:224
 msgid "Inserting and updating data"
 msgstr ""
 
-#: importer.php:276
+#: classes/import.php:361
 msgid "Invalid EMail"
 msgstr ""
 
-#: importer.php:392
+#: classes/import.php:360
+msgid "Invalid email \"%s\""
+msgstr ""
+
+#: classes/import.php:540
 msgid "Invalid role"
 msgstr ""
 
-#: importer.php:394
+#: classes/import.php:542
 msgid "Invalid roles"
 msgstr ""
 
-#: classes/email-templates.php:24
+#: classes/email-templates.php:25
 msgid "Item Archives"
 msgstr ""
 
-#: classes/email-templates.php:25
+#: classes/email-templates.php:26
 msgid "Item Attributes"
 msgstr ""
 
-#: classes/email-templates.php:44
+#: classes/email-templates.php:45
 msgid "Items list"
 msgstr ""
 
-#: classes/cron.php:234
+#: classes/cron.php:353
 msgid "Last actions of schedule task"
 msgstr ""
 
-#: classes/homepage.php:136
+#: classes/homepage.php:232 classes/homepage.php:266
 msgid "Leave the old value for this metadata"
 msgstr ""
 
-#: addons/wp-lms-course.php:20
+#: addons/wp-lms-course.php:22
 msgid "LifterLMS is activated"
 msgstr ""
 
@@ -594,40 +939,62 @@ msgstr ""
 msgid "Lists"
 msgstr ""
 
-#: classes/email-options.php:61
+#: classes/email-options.php:96
 msgid "Load custom email from email templates"
 msgstr ""
 
-#: classes/email-options.php:63
+#: classes/email-options.php:98
 msgid "Load subject, content and attachment from this email template"
 msgstr ""
 
-#: classes/cron.php:229
+#: classes/cron.php:348
 msgid "Log"
 msgstr ""
 
-#: classes/email-options.php:22
+#: classes/import.php:102
 msgid "Mail options"
 msgstr ""
 
-#: classes/email-options.php:68
-msgid "Mail subject :"
-msgstr ""
-
-#: classes/email-templates.php:49
-msgid "Mail template (Import Users From CSV With Meta)"
-msgstr ""
-
-#: import-users-from-csv-with-meta.php:428
-msgid "Mail template updated correctly"
+#: classes/email-options.php:103
+msgid "Mail subject:"
 msgstr ""
 
 #: classes/email-templates.php:50
+msgid "Mail template (Import Users From CSV With Meta)"
+msgstr ""
+
+#: classes/email-options.php:181
+msgid "Mail template and options updated correctly"
+msgstr ""
+
+#: classes/email-templates.php:51
 msgid "Mail templates for Import Users From CSV With Meta"
 msgstr ""
 
-#: classes/cron.php:142
+#: addons/mailpoet.php:20
+msgid "MailPoet is activated"
+msgstr ""
+
+#: classes/import.php:101
+msgid "Meta keys"
+msgstr ""
+
+#: classes/meta-keys.php:18
+msgid "Meta keys used in your database for users"
+msgstr ""
+
+#: addons/woocommerce-subscriptions.php:802
+msgid "Missing tax code or ID from column: %s"
+msgstr ""
+
+#: classes/cron.php:247
 msgid "Move file after import?"
+msgstr ""
+
+#: classes/multisite.php:25
+msgid ""
+"Multiple blogs can be assigned creating <strong>a list of blog ids</strong> "
+"using commas to separate values."
 msgstr ""
 
 #: classes/doc.php:47
@@ -636,40 +1003,88 @@ msgid ""
 "using commas to separate values."
 msgstr ""
 
+#: classes/multisite.php:21
+msgid "Multisite is activated"
+msgstr ""
+
 #: classes/help.php:9
 msgid "Need help with WordPress or WooCommerce?"
 msgstr ""
 
-#: addons/new-user-approve.php:23
+#: classes/homepage.php:332
+msgid "Never update passwords when updating a user"
+msgstr ""
+
+#: classes/homepage.php:328
+msgid "Never update passwords?"
+msgstr ""
+
+#: addons/new-user-approve.php:24
 msgid "New User Approve"
 msgstr ""
 
-#: addons/new-user-approve.php:11
+#: addons/new-user-approve.php:12
 msgid "New User Approve compatibility"
 msgstr ""
 
-#: classes/email-templates.php:30
+#: classes/email-templates.php:31
 msgid "New email template"
 msgstr ""
 
-#: classes/homepage.php:170 classes/homepage.php:179
+#: classes/new_features.php:9
+msgid "New features"
+msgstr ""
+
+#: classes/frontend.php:132 classes/frontend.php:141 classes/homepage.php:299
+#: classes/homepage.php:320
 msgid "No"
 msgstr ""
 
-#: import-users-from-csv-with-meta.php:281
-#: import-users-from-csv-with-meta.php:402 include/shortcode-frontend.php:12
+#: addons/woocommerce-subscriptions.php:495
+msgid ""
+"No payment meta was set for your %1$s subscription (%2$s). The next renewal "
+"is going to fail if you leave this."
+msgstr ""
+
+#: addons/woocommerce-subscriptions.php:322
+msgid ""
+"No payment method was given in CSV and so the subscription has been set to "
+"manual renewal."
+msgstr ""
+
+#: addons/woocommerce-subscriptions.php:592
+msgid "No product or variation in your store matches the product ID #%s."
+msgstr ""
+
+#: addons/woocommerce-subscriptions.php:211
+msgid ""
+"No subscription status was specified. The subscription will be created with "
+"the status \"pending\". "
+msgstr ""
+
+#: classes/homepage.php:309
+msgid "No, but create a new user with a prefix in the username"
+msgstr ""
+
+#: classes/homepage.php:310
+msgid "No, skip this user"
+msgstr ""
+
+#: classes/columns.php:211 classes/cron.php:14 classes/email-options.php:145
+#: classes/frontend.php:307 classes/frontend.php:357 classes/import.php:13
+#: classes/import.php:144
 msgid "Nonce check failed"
 msgstr ""
 
-#: addons/allow-multiple-accounts.php:20
+#: addons/allow-multiple-accounts.php:25
 msgid "Not allowed"
 msgstr ""
 
-#: classes/email-templates.php:36
+#: classes/email-templates.php:37
 msgid "Not found"
 msgstr ""
 
-#: classes/email-templates.php:37
+#: classes/email-templates.php:38
 msgid "Not found in Trash"
 msgstr ""
 
@@ -681,65 +1096,115 @@ msgid ""
 "this plugin."
 msgstr ""
 
-#: classes/homepage.php:23
+#: classes/homepage.php:527
 msgid "Old CSV files uploaded"
 msgstr ""
 
-#: addons/new-user-approve.php:23 addons/buddypress.php:41
-#: addons/allow-multiple-accounts.php:23 addons/allow-multiple-accounts.php:42
-#: addons/wp-members.php:24 addons/wp-members.php:47
+#: addons/allow-multiple-accounts.php:28 addons/allow-multiple-accounts.php:47
+#: addons/new-user-approve.php:24 addons/wp-members.php:24
+#: addons/wp-members.php:48
 msgid "Only for"
 msgstr ""
 
-#: include/shortcode-frontend.php:7
+#: classes/export.php:186 classes/frontend.php:428
+msgid "Only users who are able to create users can export them."
+msgstr ""
+
+#: classes/frontend.php:353
 msgid "Only users who are able to create users can manage this form."
 msgstr ""
 
-#: classes/donate.php:25
+#: classes/homepage.php:225 classes/homepage.php:259
+msgid "Options"
+msgstr ""
+
+#: classes/donate.php:23
 msgid "Or if you prefer, you can also help us becoming a Patreon:"
 msgstr ""
 
-#: addons/acui-pmpro.php:43 addons/pmpro.php:43
+#: classes/export.php:71
+msgid ""
+"Order all columns alphabetically to check easier your data. First two "
+"columns won't be affected"
+msgstr ""
+
+#: classes/export.php:68
+msgid "Order fields alphabetically"
+msgstr ""
+
+#: addons/pmpro.php:45
 msgid "Paid Mebership Pro is activated"
 msgstr ""
 
-#: classes/email-templates.php:26
+#: addons/paid-member-subscriptions.php:26
+msgid "Paid Member Subscriptions is activated"
+msgstr ""
+
+#: classes/email-templates.php:27
 msgid "Parent Item:"
 msgstr ""
 
-#: classes/homepage.php:410 import-users-from-csv-with-meta.php:269
+#: classes/email-options.php:137 classes/homepage.php:151
 msgid "Password"
 msgstr ""
 
-#: importer.php:589
+#: classes/email-options.php:46
+msgid "Password changed"
+msgstr ""
+
+#: classes/email-options.php:213
 msgid "Password has not been changed"
+msgstr ""
+
+#: addons/woocommerce.php:108 classes/email-options.php:208
+msgid "Password reset link"
 msgstr ""
 
 #: classes/doc.php:33
 msgid "Passwords (column password)"
 msgstr ""
 
-#: classes/cron.php:78
+#: classes/cron.php:183
 msgid "Path of file that are going to be imported"
 msgstr ""
 
-#: classes/donate.php:19
+#: classes/donate.php:17
 msgid "PayPal – The safer, easier way to pay online."
 msgstr ""
 
-#: classes/cron.php:86
+#: classes/cron.php:191
 msgid "Period"
 msgstr ""
 
-#: classes/homepage.php:299
+#: classes/homepage.php:436
 msgid "Please choose a file"
 msgstr ""
 
-#: classes/homepage.php:51
+#: classes/homepage.php:441
+msgid "Please enter a path to the file"
+msgstr ""
+
+#: classes/homepage.php:412
+msgid "Please vote and support us"
+msgstr ""
+
+#: classes/homepage.php:17
 msgid ""
 "Please, read carefully how <strong>passwords are managed</strong> and also "
 "take note about capitalization, this plugin is <strong>case sensitive</"
 "strong>."
+msgstr ""
+
+#: classes/multisite.php:22
+msgid ""
+"Plugin can assing users to blogs after importing them roles. This is how it "
+"works:"
+msgstr ""
+
+#: addons/paid-member-subscriptions.php:27
+msgid ""
+"Plugin can create member subscriptions while this is importing. You will "
+"need to use those columns:"
 msgstr ""
 
 #: classes/doc.php:43
@@ -757,247 +1222,420 @@ msgid ""
 "as an serialized data instead as any other string."
 msgstr ""
 
-#: import-users-from-csv-with-meta.php:184
+#: import-users-from-csv-with-meta.php:159
 msgid "Premium plugins"
 msgstr ""
 
-#: import-users-from-csv-with-meta.php:183
+#: import-users-from-csv-with-meta.php:158
 msgid "Premium support"
 msgstr ""
 
-#: classes/doc.php:141
+#: classes/doc.php:88
 msgid "Premium support (with a quote):"
 msgstr ""
 
-#: importer.php:255
-msgid "Problems with ID"
+#: classes/import.php:163
+msgid "Problem uploading file to import. Error details: "
 msgstr ""
 
-#: importer.php:342
-msgid "Problems with user %s. Skiping importation"
+#: classes/cron.php:386
+msgid "Problems executing cron task: "
 msgstr ""
 
-#: importer.php:723
-msgid "Process finished you can go"
+#: classes/import.php:406
+msgid ""
+"Problems with ID \"%s\" username is not the same in the CSV and in database"
 msgstr ""
 
-#: addons/acui-woocommerce-membership.php:19
-#: addons/woocommerce-membership.php:19
+#: classes/import.php:490
+msgid "Problems with user: \"%s\" does not exists, error: %s"
+msgstr ""
+
+#: classes/import.php:744
+msgid ""
+"Process finished you can go <a href=\"%s\">here to see results</a> or you "
+"can do <a href=\"%s\">a new import</a>."
+msgstr ""
+
+#: classes/homepage.php:410
+msgid "Rate Us"
+msgstr ""
+
+#: addons/woocommerce-membership.php:23
 msgid "Read more about columns and formats"
 msgstr ""
 
-#: addons/buddypress.php:39
-msgid ""
-"Remember that all date fields have to be imported using a format like this: "
-"2016-01-01 00:00:00"
+#: classes/import.php:226
+msgid "Ready to registers"
 msgstr ""
 
-#: classes/email-templates.php:40
+#: classes/email-templates.php:41
 msgid "Remove featured image"
 msgstr ""
 
-#: classes/email-templates.php:129 classes/email-options.php:78
+#: classes/email-options.php:119 classes/email-templates.php:131
 msgid "Remove file"
 msgstr ""
 
-#: addons/allow-multiple-accounts.php:17 addons/allow-multiple-accounts.php:39
+#: addons/allow-multiple-accounts.php:22 addons/allow-multiple-accounts.php:44
 msgid "Repeated email in different users?"
 msgstr ""
 
-#: classes/frontend.php:37 classes/cron.php:112
+#: classes/columns.php:53
+msgid "Reset fields"
+msgstr ""
+
+#: classes/columns.php:48
+msgid "Reset fields in profile?"
+msgstr ""
+
+#: classes/helper.php:324
+msgid "Results"
+msgstr ""
+
+#: classes/cron.php:217 classes/export.php:31 classes/frontend.php:72
 msgid "Role"
+msgstr ""
+
+#: classes/homepage.php:54
+msgid "Roles"
 msgstr ""
 
 #: classes/doc.php:42
 msgid "Roles (column role)"
 msgstr ""
 
-#: importer.php:181
+#: classes/helper.php:228 classes/helper.php:237 classes/helper.php:297
+#: classes/helper.php:304
 msgid "Row"
 msgstr ""
 
-#: importer.php:188
-msgid "Row number"
+#: classes/import.php:313
+msgid ""
+"Row does not have the same columns than the header, we are going to ignore "
+"this row"
 msgstr ""
 
-#: classes/email-options.php:83
+#: classes/email-options.php:124
 msgid "Save email template and options"
 msgstr ""
 
-#: classes/frontend.php:130
+#: classes/frontend.php:206
 msgid "Save frontend import options"
 msgstr ""
 
-#: classes/columns.php:19
+#: classes/columns.php:43
 msgid "Save option"
 msgstr ""
 
-#: classes/cron.php:242
+#: classes/cron.php:362
 msgid "Save schedule options"
 msgstr ""
 
-#: classes/email-templates.php:35
+#: classes/email-templates.php:36
 msgid "Search email template"
 msgstr ""
 
-#: classes/email-options.php:31
-msgid "Send automattic WordPress emails?"
+#: classes/export.php:54
+msgid "Semicolon"
 msgstr ""
 
-#: classes/homepage.php:143
+#: classes/email-options.php:50
+msgid "Send automatic change password WordPress emails?"
+msgstr ""
+
+#: classes/homepage.php:239 classes/homepage.php:273
 msgid "Send mail"
 msgstr ""
 
-#: classes/frontend.php:67 classes/cron.php:105
+#: classes/cron.php:210 classes/frontend.php:102
 msgid "Send mail also to users that are being updated?"
 msgstr ""
 
-#: classes/frontend.php:60
+#: classes/frontend.php:95
 msgid "Send mail when using frontend import?"
 msgstr ""
 
-#: classes/cron.php:98
+#: classes/cron.php:203
 msgid "Send mail when using periodical import?"
+msgstr ""
+
+#: classes/frontend.php:109
+msgid "Send notification to admin when the frontend importer is used?"
+msgstr ""
+
+#: classes/email-options.php:125
+msgid "Send test email"
 msgstr ""
 
 #: classes/doc.php:53
 msgid "Serialized data"
 msgstr ""
 
-#: classes/email-templates.php:39
+#: classes/email-templates.php:40
 msgid "Set featured image"
 msgstr ""
 
-#: classes/homepage.php:400
+#: classes/homepage.php:141
 msgid "Sets the username."
 msgstr ""
 
-#: classes/homepage.php:406
+#: classes/homepage.php:147
 msgid "Sets user email."
 msgstr ""
 
-#: classes/homepage.php:412
+#: classes/homepage.php:153
 msgid "Sets user password."
 msgstr ""
 
-#: import-users-from-csv-with-meta.php:385
-#: import-users-from-csv-with-meta.php:498
+#: classes/cron.php:54 classes/frontend.php:325
 msgid "Settings updated correctly"
 msgstr ""
 
-#: classes/columns.php:14
+#: addons/woocommerce-subscriptions.php:379
+msgid ""
+"Shipping method and title for the subscription have been left as empty. "
+msgstr ""
+
+#: classes/import.php:105
+msgid "Shop"
+msgstr ""
+
+#: classes/columns.php:37
 msgid "Show fields in profile?"
 msgstr ""
 
-#: classes/homepage.php:243
+#: classes/import.php:349
+msgid "Some of the next roles \"%s\" does not exists"
+msgstr ""
+
+#: classes/homepage.php:394
 msgid "Start importing"
 msgstr ""
 
-#: classes/homepage.php:416
+#: addons/mailpoet.php:23
+msgid "Subscribe users to MailPoet lists"
+msgstr ""
+
+#: classes/export.php:55
+msgid "Tab"
+msgstr ""
+
+#: classes/email-options.php:271
+msgid "Test email sent"
+msgstr ""
+
+#: addons/woocommerce-subscriptions.php:231
+msgid "The %s date must occur after the next payment date."
+msgstr ""
+
+#: addons/woocommerce-subscriptions.php:235
+msgid "The %s date must occur after the trial end date."
+msgstr ""
+
+#: addons/woocommerce-subscriptions.php:239
+msgid "The %s must occur after the start date."
+msgstr ""
+
+#: addons/woocommerce-subscriptions.php:375
+msgid "The following billing address fields have been left empty: %s. "
+msgstr ""
+
+#: addons/woocommerce-subscriptions.php:371
+msgid "The following shipping address fields have been left empty: %s. "
+msgstr ""
+
+#: classes/homepage.php:157
 msgid ""
 "The next columns are totally customizable and you can use whatever you want. "
 "All rows must contains same columns"
 msgstr ""
 
-#: classes/doc.php:70 classes/homepage.php:447
+#: addons/woocommerce-subscriptions.php:501
+msgid ""
+"The payment method \"%s\" is either not enabled or does not support the new "
+"features of Subscriptions 2.0 and can not be properly attached to your "
+"subscription. This subscription has been set to manual renewals."
+msgstr ""
+
+#: addons/woocommerce-subscriptions.php:586
+msgid "The product_id is missing from CSV."
+msgstr ""
+
+#: classes/doc.php:70 classes/homepage.php:188
 msgid "The user's first name."
 msgstr ""
 
-#: classes/doc.php:71 classes/homepage.php:453
+#: classes/doc.php:71 classes/homepage.php:194
 msgid "The user's last name."
 msgstr ""
 
-#: classes/doc.php:69 classes/homepage.php:441
+#: classes/doc.php:69 classes/homepage.php:182
 msgid "The user's nickname, defaults to the user's username."
 msgstr ""
 
-#: addons/wp-lms-course.php:25
+#: addons/groups.php:29
+msgid ""
+"The value of each cell will be the ID of the group that you want to assign "
+"to this user"
+msgstr ""
+
+#: addons/wp-lms-course.php:27
 msgid ""
 "The value of each cell will be the NUMBER of the course to enroll (do not "
 "use slugs)"
 msgstr ""
 
-#: addons/acui-wp-users-group.php:23 addons/acui-users-group.php:23
-#: addons/wp-users-group.php:23 addons/users-group.php:23
+#: addons/groups.php:31
+msgid ""
+"The value of each cell will be the name of the group that you want to assign "
+"to this user"
+msgstr ""
+
+#: addons/users-group.php:25 addons/wp-users-group.php:25
 msgid ""
 "The value of each cell will be the name of the user group (do not use slugs)"
 msgstr ""
 
-#: classes/doc.php:119
+#: addons/customer-area.php:28
+msgid "The value of each cell will be the slug of the group"
+msgstr ""
+
+#: addons/wp-user-avatar.php:37
+msgid "The value of each cell will be the url to the image in your system"
+msgstr ""
+
+#: addons/buddypress.php:135
 msgid ""
 "Then in each cell you have to fill with the BuddyPress <strong>group slug</"
 "strong>"
 msgstr ""
 
-#: classes/columns.php:34
+#: classes/columns.php:68
 msgid "There is no columns loaded yet"
 msgstr ""
 
-#: classes/homepage.php:316
+#: import-users-from-csv-with-meta.php:183
 msgid "There were problems deleting the file, please check file permissions"
 msgstr ""
 
-#: classes/homepage.php:334
+#: classes/homepage.php:483
 msgid "There were problems deleting the files, please check files permissions"
 msgstr ""
 
-#. Description of the plugin
+#: classes/cron.php:340
 msgid ""
-"This plugins allows to import users using CSV files to WP database "
-"automatically"
+"This endpoint does an administrative task, so in order to run it you must be "
+"authenticated with a user with privileges."
 msgstr ""
 
-#: import-users-from-csv-with-meta.php:99
-#: import-users-from-csv-with-meta.php:269
+#: classes/new_features.php:12
+msgid ""
+"This is a list of new features that we want to include, but we have not been "
+"able to do yet. We have a bussiness and have not so much time for this "
+"plugin as we would like to have. If you need some new feature not included "
+"in this list, please write us to:"
+msgstr ""
+
+#: import-users-from-csv-with-meta.php:178
+#: import-users-from-csv-with-meta.php:205
+msgid "This plugin only can delete the type of file it manages, CSV files."
+msgstr ""
+
+#: addons/woocommerce-subscriptions.php:82
+msgid ""
+"This subscription importer is based in the official <a href=\"%S"
+"\">WooCommerce Subscription Importer Exporter</a>."
+msgstr ""
+
+#: classes/email-options.php:125
+msgid "This test email will be sent to the current user"
+msgstr ""
+
+#: classes/helper.php:299 classes/helper.php:306
+msgid "Type"
+msgstr ""
+
+#: classes/email-options.php:137 import-users-from-csv-with-meta.php:29
 msgid "URL to login"
 msgstr ""
 
-#: import-users-from-csv-with-meta.php:324
-msgid "Unable to write to directory. Is this directory writable by the server?"
-msgstr ""
-
-#: classes/email-templates.php:32
+#: classes/email-templates.php:33
 msgid "Update email template"
 msgstr ""
 
-#: classes/homepage.php:166
+#: classes/homepage.php:305
+msgid "Update emails?"
+msgstr ""
+
+#: classes/frontend.php:128 classes/homepage.php:295
 msgid "Update existing users?"
 msgstr ""
 
-#: classes/homepage.php:176 classes/cron.php:135
+#: classes/homepage.php:331
+msgid "Update passwords as it is described in documentation"
+msgstr ""
+
+#: classes/cron.php:240 classes/frontend.php:138 classes/homepage.php:317
 msgid "Update roles for existing users?"
 msgstr ""
 
-#: classes/homepage.php:161
+#: classes/frontend.php:123 classes/homepage.php:290
 msgid "Update users"
 msgstr ""
 
-#: include/shortcode-frontend.php:34
+#: classes/frontend.php:401
 msgid "Upload and process"
 msgstr ""
 
-#: classes/email-templates.php:128 classes/email-options.php:77
+#: classes/email-options.php:118 classes/email-templates.php:130
 msgid "Upload file"
 msgstr ""
 
-#: classes/email-templates.php:43
+#: classes/email-templates.php:44
 msgid "Uploaded to this email template"
 msgstr ""
 
-#: classes/email-templates.php:41
+#: classes/email-templates.php:42
 msgid "Use as featured image"
 msgstr ""
 
-#: classes/email-options.php:102
+#: classes/email-options.php:259
 msgid "Use this file"
 msgstr ""
 
-#: classes/frontend.php:29
+#: classes/frontend.php:52 classes/frontend.php:214
 msgid "Use this shortcode in any page or post"
 msgstr ""
 
-#: importer.php:312
-msgid "User already exists as:"
+#: classes/import.php:462
+msgid "User already exists as: %s (in this CSV file is called: %s)"
+msgstr ""
+
+#: classes/export.php:42
+msgid "User created"
+msgstr ""
+
+#: classes/email-options.php:29 classes/email-options.php:33
+msgid "User created or edited"
+msgstr ""
+
+#: classes/import.php:371
+msgid "User with ID \"%s\" exists, we ignore it"
+msgstr ""
+
+#: classes/import.php:386 classes/import.php:435
+msgid "User with email \"%s\" exists, we ignore it"
+msgstr ""
+
+#: classes/import.php:423
+msgid "User with username \"%s\" exists, we ignore it"
+msgstr ""
+
+#: classes/frontend.php:342
+msgid ""
+"User with username: %s has executed an import using the shortcode in the "
+"frontend."
 msgstr ""
 
 #: classes/doc.php:74
@@ -1012,38 +1650,67 @@ msgstr ""
 msgid "User's Yahoo IM account."
 msgstr ""
 
-#: classes/doc.php:15 classes/homepage.php:398
-#: import-users-from-csv-with-meta.php:99
-#: import-users-from-csv-with-meta.php:269
+#: classes/email-options.php:137 classes/homepage.php:139
+#: import-users-from-csv-with-meta.php:29
 msgid "Username"
 msgstr ""
 
-#: classes/homepage.php:188 classes/frontend.php:75 classes/cron.php:171
+#: classes/doc.php:15
+msgid ""
+"Username: you can leave it empty and the username will be generated randomly"
+msgstr ""
+
+#: classes/helper.php:332
+msgid "Users created"
+msgstr ""
+
+#: classes/cron.php:276 classes/frontend.php:150 classes/homepage.php:339
 msgid "Users not present in CSV file"
 msgstr ""
 
-#: classes/email-templates.php:33
-msgid "View email template"
+#: classes/helper.php:328
+msgid "Users processed"
+msgstr ""
+
+#: classes/helper.php:336
+msgid "Users updated"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Using this plugin you will be able to import and export users or customers "
+"choosing many options and interacting with lots of other plugins"
 msgstr ""
 
 #: classes/email-templates.php:34
+msgid "View email template"
+msgstr ""
+
+#: classes/email-templates.php:35
 msgid "View email templates"
 msgstr ""
 
-#: addons/wp-members.php:24 addons/wp-members.php:47
+#: addons/customer-area.php:23
+msgid "WP Customer Area Managed Groups is activated"
+msgstr ""
+
+#: addons/wp-members.php:24 addons/wp-members.php:48
 msgid "WP Members"
 msgstr ""
 
-#: addons/wp-members.php:12 addons/wp-members.php:35
+#: addons/wp-members.php:12 addons/wp-members.php:36
 msgid "WP Members compatibility"
 msgstr ""
 
-#: addons/acui-wp-users-group.php:18 addons/acui-users-group.php:18
-#: addons/wp-users-group.php:18 addons/users-group.php:18
+#: addons/wp-user-avatar.php:32
+msgid "WP Users Avatar is activated"
+msgstr ""
+
+#: addons/users-group.php:20 addons/wp-users-group.php:20
 msgid "WP Users Group is activated"
 msgstr ""
 
-#: classes/donate.php:15
+#: classes/donate.php:13
 msgid ""
 "We have been spending many hours to develop this plugin and answering "
 "questions in the forum to give you the best support. <br>If you like and use "
@@ -1056,66 +1723,122 @@ msgid ""
 "send us a message to"
 msgstr ""
 
-#: import-users-from-csv-with-meta.php:98
-#: import-users-from-csv-with-meta.php:272
+#: classes/email-options.php:140 import-users-from-csv-with-meta.php:28
 msgid "Welcome to"
 msgstr ""
 
-#: import-users-from-csv-with-meta.php:99
-#: import-users-from-csv-with-meta.php:269
+#: classes/email-options.php:137 import-users-from-csv-with-meta.php:29
 msgid "Welcome,"
 msgstr ""
 
-#: classes/homepage.php:133
+#: classes/homepage.php:229 classes/homepage.php:263
 msgid "What should the plugin do with empty cells?"
 msgstr ""
 
-#: classes/homepage.php:121
+#: classes/homepage.php:312
+msgid ""
+"What the plugin should do if the plugin find an user, identified by their "
+"username, with a different email"
+msgstr ""
+
+#: classes/homepage.php:88
 msgid "Where do I get this info?"
 msgstr ""
 
-#: classes/frontend.php:55 classes/cron.php:130
+#: classes/cron.php:235 classes/frontend.php:90
 msgid "Which role would be used to import users?"
 msgstr ""
 
-#: addons/acui-woocommerce-membership.php:18
-#: addons/woocommerce-membership.php:18
-msgid "WooCommerce Membership is activated"
+#: classes/actions.php:75
+msgid ""
+"Within each cell, you must indicate the post_id that will be assigned to "
+"this user. You can use a list separating each ID by commas. The post can be "
+"of any post type."
 msgstr ""
 
-#: classes/doc.php:84
+#: addons/woocommerce-custom-fields.php:35
+msgid "WooCommerce Custom Fields is activated"
+msgstr ""
+
+#: addons/woocommerce-membership-rightpress.php:20
+msgid "WooCommerce Membership by RightPress is activated"
+msgstr ""
+
+#: addons/woocommerce-membership.php:20
+msgid "WooCommerce Memberships is activated"
+msgstr ""
+
+#: addons/woocommerce-subscriptions.php:24
+msgid "WooCommerce Subscriptions import errors"
+msgstr ""
+
+#: addons/woocommerce-subscriptions.php:23
+msgid "WooCommerce Subscriptions import warnings"
+msgstr ""
+
+#: addons/woocommerce-subscriptions.php:76
+msgid "WooCommerce Subscriptions is activated"
+msgstr ""
+
+#: addons/woocommerce.php:53
 msgid "WooCommerce is activated"
 msgstr ""
 
-#: classes/email-options.php:27
-msgid "WordPress automatic emails users updated"
+#: addons/woocommerce.php:116
+msgid "WooCommerce lost password url"
+msgstr ""
+
+#: addons/woocommerce.php:117
+msgid "WooCommerce password reset url"
+msgstr ""
+
+#: addons/woocommerce.php:118
+msgid "WooCommerce password reset url with HTML link"
+msgstr ""
+
+#: classes/email-options.php:24
+msgid "WordPress automatic emails"
 msgstr ""
 
 #: classes/doc.php:63
 msgid "WordPress default profile data"
 msgstr ""
 
-#: classes/homepage.php:169
+#: classes/frontend.php:131 classes/homepage.php:298 classes/homepage.php:308
 msgid "Yes"
 msgstr ""
 
-#: classes/homepage.php:181
+#: classes/frontend.php:143 classes/homepage.php:322
 msgid "Yes, add new roles and not override existing ones"
 msgstr ""
 
-#: classes/homepage.php:180
+#: classes/frontend.php:142 classes/homepage.php:321
 msgid "Yes, update and override existing roles"
 msgstr ""
 
-#: importer.php:739
+#: classes/import.php:6
 msgid "You are not allowed to see this content."
 msgstr ""
 
-#: import-users-from-csv-with-meta.php:662
+#: import-users-from-csv-with-meta.php:172
+#: import-users-from-csv-with-meta.php:194
 msgid "You are not an adminstrator"
 msgstr ""
 
-#: classes/homepage.php:111
+#: classes/new_features.php:12
+msgid ""
+"You can also donate us or talk with us to have some of the next new features "
+"done soon."
+msgstr ""
+
+#: classes/wp-importer.php:21
+msgid ""
+"You can also export users and customers in CSV format, filtering by user "
+"created date, role, choosing the delimiter and some other options using <a "
+"href=\"%s\">this exporter</a>."
+msgstr ""
+
+#: classes/homepage.php:74
 msgid ""
 "You can also import roles from a CSV column. Please read documentation tab "
 "to see how it can be done. If you choose more than one role, the roles would "
@@ -1124,42 +1847,85 @@ msgid ""
 "them."
 msgstr ""
 
-#: classes/email-templates.php:84
+#: classes/email-templates.php:85
 msgid ""
 "You can also use any WordPress user standard field or an own metadata, if "
 "you have used it in your CSV. For example, if you have a first_name column, "
 "you could use **first_name** or any other meta_data like **my_custom_meta**"
 msgstr ""
 
-#: classes/doc.php:121
+#: addons/buddypress.php:137
+msgid ""
+"You can also use group ids if you know it using a column 'bp_group_id' "
+"instead of 'bp_group'"
+msgstr ""
+
+#: addons/buddypress.php:138
 msgid ""
 "You can do it with multiple groups at the same time using commas to separate "
 "different groups, in bp_group column, i.e.: <em>group_1, group_2, group_3</"
 "em>"
 msgstr ""
 
-#: addons/acui-wp-users-group.php:20 addons/acui-users-group.php:20
-#: addons/wp-users-group.php:20 addons/users-group.php:20
+#: classes/actions.php:73
+msgid ""
+"You can do some actions while you are importing. You have to name the column "
+"as indicated below and follow the instructions:"
+msgstr ""
+
+#: classes/cron.php:339
+msgid ""
+"You can execute the cron process out of your site using the next REST-API "
+"endpoint:"
+msgstr ""
+
+#: addons/woocommerce-subscriptions.php:79
+msgid "You can import subscriptions with their info"
+msgstr ""
+
+#: addons/advanced-custom-fields.php:27
+msgid ""
+"You can import those fields, look at every group which fields you can import "
+"using the column names shown below."
+msgstr ""
+
+#: addons/woocommerce-custom-fields.php:37
+msgid ""
+"You can import those fields, look at fields you can import using the column "
+"names shown below."
+msgstr ""
+
+#: addons/groups.php:26
+msgid ""
+"You can import user and assign them to the users groups using the next format"
+msgstr ""
+
+#: addons/wp-user-avatar.php:34
+msgid ""
+"You can import user avatar and assign them to the users using the next format"
+msgstr ""
+
+#: addons/customer-area.php:25 addons/users-group.php:22
+#: addons/wp-users-group.php:22
 msgid ""
 "You can import user groups and assign them to the users using the next format"
 msgstr ""
 
-#: addons/wp-lms-course.php:22
+#: addons/wp-lms-course.php:24
 msgid "You can import users and assign them to LMS Course using next format"
 msgstr ""
 
-#: addons/buddypress.php:35
+#: addons/buddypress.php:123
+msgid ""
+"You can import users avatars using a column called <strong>bp_avatar</"
+"strong>, in this field you can place:"
+msgstr ""
+
+#: addons/buddypress.php:104
 msgid ""
 "You can insert any profile from BuddyPress using his name as header. Plugin "
 "will check, before import, which fields are defined in BuddyPress and will "
 "assign it in the update. You can use this fields:"
-msgstr ""
-
-#: classes/doc.php:134
-msgid ""
-"You can upload as many files as you want, but all must have the same "
-"columns. If you upload another file, the columns will change to the form of "
-"last file uploaded."
 msgstr ""
 
 #: classes/email-templates.php:76
@@ -1173,33 +1939,75 @@ msgid ""
 "different cases:"
 msgstr ""
 
-#: addons/acui-woocommerce-membership.php:19
-#: addons/woocommerce-membership.php:19
+#: classes/frontend.php:241
+msgid ""
+"You can use delimiter attribute to set which delimiter is going to be used, "
+"allowed values are:"
+msgstr ""
+
+#: classes/frontend.php:235
+msgid ""
+"You can use from attribute to filter users created before a specified date. "
+"Date format has to be: Y-m-d, for example:"
+msgstr ""
+
+#: classes/frontend.php:229
+msgid ""
+"You can use from attribute to filter users created from a specified date. "
+"Date format has to be: Y-m-d, for example:"
+msgstr ""
+
+#: classes/frontend.php:247
+msgid ""
+"You can use order-alphabetically attribute to order alphabetically the "
+"fields, for example"
+msgstr ""
+
+#: classes/frontend.php:223
+msgid ""
+"You can use role as attribute to choose directly in the shortcode the role "
+"to use during the export. Remind that you must use the role slug, for "
+"example:"
+msgstr ""
+
+#: classes/frontend.php:61
+msgid ""
+"You can use role as attribute to choose directly in the shortcode the role "
+"to use during the import. Remind that you must use the role slug, for "
+"example:"
+msgstr ""
+
+#: addons/woocommerce-membership.php:23
 msgid ""
 "You can use the <strong>columns in the CSV format created by WooCommercer "
 "Membership</strong> in order to import data from this plugin."
 msgstr ""
 
-#: classes/doc.php:116
+#: addons/buddypress.php:132
 msgid ""
 "You can use the <strong>profile fields</strong> you have created and also "
 "you can set one or more groups for each user. For example:"
 msgstr ""
 
-#: addons/acui-indeed-ultimate-membership-pro.php:28
-#: addons/indeed-ultimate-membership-pro.php:28
+#: addons/indeed-ultimate-membership-pro.php:29
 msgid ""
 "You can use the columns in the CSV in order to import data from Indeed "
 "Ultimate Membership Pro."
 msgstr ""
 
-#: addons/acui-pmpro.php:45 addons/pmpro.php:45
+#: addons/pmpro.php:47
 msgid ""
 "You can use the columns in the CSV in order to import data from Paid "
 "Membership Pro plugin."
 msgstr ""
 
-#: classes/doc.php:85
+#: classes/frontend.php:67
+msgid ""
+"You can use this attribute to make delete only users of the specified role "
+"that are not present in the CSV, for example:"
+msgstr ""
+
+#: addons/woocommerce.php:54
 msgid ""
 "You can use those labels if you want to set data adapted to the WooCommerce "
 "default user columns"
@@ -1211,27 +2019,41 @@ msgid ""
 "default user columns (the ones who use the function"
 msgstr ""
 
-#: classes/homepage.php:91 classes/cron.php:81 classes/cron.php:150
+#: classes/import.php:354
+msgid "You do not have permission to assign some of the next roles \"%s\""
+msgstr ""
+
+#: classes/multisite.php:24
+msgid ""
+"You have to <strong>create a column called 'blogs'</strong>: if cell is "
+"empty, it won't assign users to any blog; if cell has a value, it will be "
+"used. You have to fill it with blog_id"
+msgstr ""
+
+#: classes/cron.php:186 classes/cron.php:255 classes/homepage.php:46
 msgid "You have to introduce the path to file, i.e.:"
 msgstr ""
 
-#: classes/homepage.php:394
+#: classes/homepage.php:135
 msgid "You should fill the first three rows with the next values"
 msgstr ""
 
-#: import-users-from-csv-with-meta.php:99
-#: import-users-from-csv-with-meta.php:269
+#: classes/email-options.php:137 import-users-from-csv-with-meta.php:29
 msgid "Your data to login in this site is:"
 msgstr ""
 
-#: classes/cron.php:163
+#: classes/cron.php:268
 msgid ""
 "Your file will be renamed after moved, so you will not lost any version of "
 "it. The way to rename will be append the time stamp using this date format: "
 "YmdHis."
 msgstr ""
 
-#: classes/donate.php:14
+#: classes/export.php:64
+msgid "accepted formats"
+msgstr ""
+
+#: classes/donate.php:12
 msgid "and all the team of"
 msgstr ""
 
@@ -1239,11 +2061,15 @@ msgstr ""
 msgid "and the team of"
 msgstr ""
 
-#: classes/donate.php:13
+#: addons/wp-user-avatar.php:36
+msgid "avatar_url as the column title"
+msgstr ""
+
+#: classes/donate.php:11
 msgid "buy me a coffee"
 msgstr ""
 
-#: classes/homepage.php:80 classes/homepage.php:92
+#: classes/homepage.php:40 classes/homepage.php:47
 msgid "click here"
 msgstr ""
 
@@ -1251,40 +2077,36 @@ msgstr ""
 msgid "codection"
 msgstr ""
 
-#: import-users-from-csv-with-meta.php:329
-msgid "could not moved to"
-msgstr ""
-
 #: classes/email-templates.php:80
 msgid "current site login url"
 msgstr ""
 
-#: classes/homepage.php:457
+#: addons/customer-area.php:27
+msgid "customer_area_groups as the column title"
+msgstr ""
+
+#: classes/homepage.php:198
 msgid "description"
 msgstr ""
 
-#: classes/donate.php:14 classes/help.php:12
+#: classes/donate.php:12 classes/help.php:12
 msgid "developers of this plugin."
 msgstr ""
 
-#: classes/homepage.php:433
+#: classes/homepage.php:174
 msgid "display_name"
 msgstr ""
 
-#: importer.php:188
-msgid "does not have the same columns than the header, we are going to skip"
-msgstr ""
-
-#: classes/doc.php:147
+#: classes/doc.php:100
 msgid "file"
 msgstr ""
 
-#: classes/homepage.php:445
+#: classes/homepage.php:186
 msgid "first_name"
 msgstr ""
 
-#: importer.php:723
-msgid "here to see results"
+#: addons/groups.php:28
+msgid "group_id as the column title"
 msgstr ""
 
 #. Author URI of the plugin
@@ -1299,11 +2121,11 @@ msgstr ""
 msgid "id (column id)"
 msgstr ""
 
-#: classes/homepage.php:451
+#: classes/homepage.php:192
 msgid "last_name"
 msgstr ""
 
-#: addons/wp-lms-course.php:24
+#: addons/wp-lms-course.php:26
 msgid "lms_courses as the column title"
 msgstr ""
 
@@ -1311,11 +2133,11 @@ msgstr ""
 msgid "lost password url"
 msgstr ""
 
-#: classes/homepage.php:439
+#: classes/homepage.php:180
 msgid "nickname"
 msgstr ""
 
-#: classes/homepage.php:92
+#: classes/homepage.php:47
 msgid "or you can upload it directly from your PC"
 msgstr ""
 
@@ -1323,13 +2145,17 @@ msgstr ""
 msgid "password reset url"
 msgstr ""
 
-#: classes/doc.php:123
+#: classes/email-templates.php:83
+msgid "password reset url with HTML link"
+msgstr ""
+
+#: addons/buddypress.php:141
 msgid ""
 "please enable Buddypress Extended Profile then import the csv file. You can "
 "then disable this afterwards"
 msgstr ""
 
-#: classes/doc.php:147
+#: classes/doc.php:100
 msgid "to test"
 msgstr ""
 
@@ -1338,11 +2164,11 @@ msgid ""
 "two colons, inside the cell in order to split the string in a list of items."
 msgstr ""
 
-#: classes/homepage.php:39
+#: classes/homepage.php:541
 msgid "uploaded on"
 msgstr ""
 
-#: classes/email-templates.php:83
+#: classes/email-templates.php:84
 msgid "user email"
 msgstr ""
 
@@ -1350,30 +2176,34 @@ msgstr ""
 msgid "user password"
 msgstr ""
 
-#: addons/acui-wp-users-group.php:22 addons/acui-users-group.php:22
-#: addons/wp-users-group.php:22 addons/users-group.php:22
+#: addons/users-group.php:24 addons/wp-users-group.php:24
 msgid "user_group as the column title"
 msgstr ""
 
-#: classes/homepage.php:421
+#: classes/homepage.php:162
 msgid "user_nicename"
 msgstr ""
 
-#: classes/homepage.php:427
+#: classes/homepage.php:168
 msgid "user_url"
-msgstr ""
-
-#: importer.php:255
-msgid ""
-"username is not the same in the CSV and in database, we are going to skip."
 msgstr ""
 
 #: classes/email-templates.php:78
 msgid "username to login"
 msgstr ""
 
-#: addons/new-user-approve.php:23 addons/buddypress.php:41
-#: addons/allow-multiple-accounts.php:23 addons/allow-multiple-accounts.php:42
-#: addons/wp-members.php:24 addons/wp-members.php:47
+#: addons/allow-multiple-accounts.php:28 addons/allow-multiple-accounts.php:47
+#: addons/new-user-approve.php:24 addons/wp-members.php:24
+#: addons/wp-members.php:48
 msgid "users"
+msgstr ""
+
+#: classes/frontend.php:67
+msgid ""
+"will only delete (if the deletion is active) the users not present in the "
+"CSV with are editors"
+msgstr ""
+
+#: classes/frontend.php:45
+msgid "you can also do an export in the frontend"
 msgstr ""

@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: BuddyPress Docs 1.7.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/buddypress-docs\n"
-"POT-Creation-Date: 2019-04-15T16:18:26+02:00\n"
+"POT-Creation-Date: 2021-05-31T11:16:33+02:00\n"
 "PO-Revision-Date: 2019-04-05 12:28+0200\n"
 "Last-Translator: Joan Sala Soler <jsala236@xtec.cat>\n"
 "Language-Team: \n"
@@ -15,7 +15,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 2.0.6\n"
 
-#: includes/templatetags.php:1659
+#: includes/templatetags.php:1668
 msgid " %s"
 msgstr " %s"
 
@@ -28,7 +28,7 @@ msgid "#%d (no title)"
 msgstr "#%d (sense títol)"
 
 #. translators: post revision: 1: when, 2: author name
-#: includes/addon-history.php:351
+#: includes/addon-history.php:354
 msgctxt "post revision"
 msgid "%1$s by %2$s"
 msgstr "%1$s per %2$s"
@@ -61,14 +61,14 @@ msgstr "%1$s ha editat el document %2$s al grup %3$s"
 msgid "%s <span>%d</span>"
 msgstr "%s <span>%d</span>"
 
-#: includes/templatetags.php:1081 includes/templatetags.php:1083
+#: includes/templatetags.php:1089 includes/templatetags.php:1091
 msgid "%s member"
 msgid_plural "%s members"
 msgstr[0] "%s membre"
 msgstr[1] ""
 
 #. translators: group name
-#: includes/integration-groups.php:1739 includes/component.php:314
+#: includes/component.php:314 includes/integration-groups.php:1739
 msgid "%s&#8217;s Docs"
 msgstr "%s&#8217;s documents"
 
@@ -82,18 +82,22 @@ msgctxt "user Docs directory breadcrumb"
 msgid "%s&#8217;s Docs"
 msgstr "%s&#8217;s Documents"
 
-#: includes/templates/docs/tabs-nouveau.php:8
 #: includes/templates/docs/tabs-legacy.php:6
+#: includes/templates/docs/tabs-nouveau.php:8
 msgid "%s's Docs"
 msgstr "Documents de %s"
 
-#: includes/templatetags.php:1384
+#: includes/templatetags.php:1393
 msgid "&laquo;"
 msgstr "&laquo;"
 
-#: includes/templatetags.php:1385
+#: includes/templatetags.php:1394
 msgid "&raquo;"
 msgstr "&raquo;"
+
+#: includes/addon-taxonomy.php:402
+msgid "(%d)"
+msgstr "(%d)"
 
 #: includes/class-wp-widget-recent-docs.php:45
 msgctxt "widget name"
@@ -110,7 +114,7 @@ msgstr ""
 "superior d'aquest document, i un enllaç al document apareixerà a la part "
 "superior del document pare."
 
-#: includes/templatetags.php:1025
+#: includes/templatetags.php:1033
 msgid ""
 "(Optional) Note that the Access settings available for this Doc may be "
 "limited by the privacy settings of the group you choose."
@@ -127,7 +131,7 @@ msgid "(no parent)"
 msgstr "(cap pare)"
 
 #. translators: %s: add new taxonomy label
-#: includes/addon-taxonomy.php:676
+#: includes/addon-taxonomy.php:685
 msgid "+ %s"
 msgstr "+ %s"
 
@@ -135,6 +139,13 @@ msgstr "+ %s"
 msgctxt "up one folder"
 msgid ".."
 msgstr ".."
+
+#: includes/templatetags.php:274
+msgid ""
+"<strong><a href=\"%s\" title=\"View All Docs\">View All Docs</a></strong>"
+msgstr ""
+"<strong><a href=\"%s\" title=\"View All Docs\">Visualitza tots els "
+"documents</a></strong>"
 
 #: includes/templates/docs/manage-folders.php:19
 msgid ""
@@ -146,7 +157,7 @@ msgstr ""
 "documents i subcarpetes existents. Aquesta acció no es pot desfer. Per "
 "conservar el contingut, elimineu-ho tot de la carpeta abans d'esborrar-la."
 
-#: includes/attachments.php:780
+#: includes/attachments.php:814
 msgid ""
 "<strong>Your BuddyPress Docs attachments directory is publicly accessible.</"
 "strong> Doc attachments will not be properly protected from direct viewing, "
@@ -162,15 +173,15 @@ msgstr ""
 msgid "Access"
 msgstr "Accés"
 
-#: includes/templatetags.php:1760
+#: includes/templatetags.php:1769
 msgid "Access: <strong>%s</strong>"
 msgstr "Accés: <strong>%s</strong>"
 
-#: includes/addon-history.php:421
+#: includes/addon-history.php:424
 msgid "Actions"
 msgstr "Accions"
 
-#: includes/templatetags.php:2085
+#: includes/templatetags.php:2094
 msgid "Add Files"
 msgstr "Afegeix fitxers"
 
@@ -191,12 +202,12 @@ msgstr "Afegeix documents col·laboratius al BuddyPress"
 msgid "Admins and mods of %s"
 msgstr "Administradors i moderadors de %s"
 
-#: includes/templatetags.php:1680
+#: includes/templatetags.php:1689
 msgid "Admins and mods of the group %s"
 msgstr "Administradors i moderadors del grup %s"
 
-#: includes/templates/docs/tabs-nouveau.php:4
 #: includes/templates/docs/tabs-legacy.php:2
+#: includes/templates/docs/tabs-nouveau.php:4
 msgid "All Docs"
 msgstr "Tots els documents"
 
@@ -216,7 +227,7 @@ msgstr ""
 "També podeu comparar dues revisions seleccionant-les a les columnes 'Antic' "
 "i 'Nou' i fent clic a 'Compara revisions'."
 
-#: includes/functions.php:572 includes/templatetags.php:1671
+#: includes/functions.php:572 includes/templatetags.php:1680
 msgid "Anyone"
 msgstr "Qualsevol"
 
@@ -237,23 +248,23 @@ msgstr "Element associat"
 msgid "Associated Items"
 msgstr "Elements associats"
 
-#: includes/attachments.php:346
+#: includes/attachments.php:374
 msgid "Attachment deleted"
 msgstr "S'ha suprimit el fitxer adjunt"
 
-#: includes/admin.php:134 includes/templates/docs/single/edit.php:75
-#: includes/templates/docs/single/index.php:39 includes/attachments.php:576
-#: includes/templatetags.php:2272
+#: includes/admin.php:134 includes/attachments.php:610
+#: includes/templates/docs/single/edit.php:75
+#: includes/templates/docs/single/index.php:39 includes/templatetags.php:2281
 msgid "Attachments"
 msgstr "Fitxers adjunts"
 
 #. translators: column name in revisons
-#: includes/addon-history.php:420 includes/templates/docs/docs-loop.php:55
-#: includes/templates/docs/docs-loop-list.php:17
+#: includes/addon-history.php:423 includes/templates/docs/docs-loop-list.php:17
+#: includes/templates/docs/docs-loop.php:55
 msgid "Author"
 msgstr "Autor"
 
-#: includes/addon-moderation.php:59 includes/templatetags.php:2360
+#: includes/addon-moderation.php:59 includes/templatetags.php:2369
 msgid "Awaiting Moderation"
 msgstr "A l'espera de validació"
 
@@ -293,8 +304,8 @@ msgstr "Configuració dels Documents"
 msgid "BuddyPress Docs Upgrade"
 msgstr "Actualització dels documents del Buddypress"
 
-#: includes/templates/docs/single/edit.php:193
 #: includes/templates/docs/manage-folders.php:28
+#: includes/templates/docs/single/edit.php:193
 msgid "Cancel"
 msgstr "Cancel·la"
 
@@ -384,19 +395,19 @@ msgstr "La creació de comentaris s'ha deshabilitat en aquest document."
 msgid "Commented on a Doc"
 msgstr "Ha comentat el document"
 
-#: includes/templatetags.php:1699
+#: includes/templatetags.php:1708
 msgid "Comments are visible to: <strong>%s</strong>"
 msgstr "Els comentaris son visibles per: <strong>%s</strong>"
 
-#: includes/templatetags.php:1703
+#: includes/templatetags.php:1712
 msgid "Comments can be posted by: <strong>%s</strong>"
 msgstr "Els comentaris els poden posar: <strong>%s</strong>"
 
-#: includes/addon-history.php:401
+#: includes/addon-history.php:404
 msgid "Compare Revisions"
 msgstr "Compara revisions"
 
-#: includes/addon-history.php:162
+#: includes/addon-history.php:165
 msgid "Compare Revisions of &#8220;%1$s&#8221;"
 msgstr "Compara revisions de &#8220;%1$s&#8221;"
 
@@ -404,7 +415,7 @@ msgstr "Compara revisions de &#8220;%1$s&#8221;"
 msgid "Content"
 msgstr "Contingut"
 
-#: includes/attachments.php:348
+#: includes/attachments.php:376
 msgid "Could not delete attachment"
 msgstr "No es pot suprimir el fitxer adjunt"
 
@@ -428,7 +439,7 @@ msgstr "No s'ha pogut esborrar el document del grup"
 msgid "Create"
 msgstr "Crea"
 
-#: includes/component.php:213 includes/templatetags.php:1596
+#: includes/component.php:213 includes/templatetags.php:1605
 msgid "Create New Doc"
 msgstr "Crea un document"
 
@@ -444,8 +455,8 @@ msgstr "Crea un document"
 msgid "Create a new folder"
 msgstr "Crea una carpeta nova"
 
-#: includes/templates/docs/docs-loop.php:60
 #: includes/templates/docs/docs-loop-list.php:21
+#: includes/templates/docs/docs-loop.php:60
 msgid "Created"
 msgstr "Creat"
 
@@ -454,12 +465,12 @@ msgid "Created a Doc"
 msgstr "Ha creat un document"
 
 #. translators: column name in revisons
-#: includes/addon-history.php:419
+#: includes/addon-history.php:422
 msgid "Date Created"
 msgstr "Data de creació"
 
 #: includes/addon-folders.php:2373
-#: includes/templates/docs/manage-folders.php:27 includes/templatetags.php:2199
+#: includes/templates/docs/manage-folders.php:27 includes/templatetags.php:2208
 msgid "Delete"
 msgstr "Suprimeix"
 
@@ -487,7 +498,7 @@ msgstr "Deshabilitat"
 msgid "Discussion (%d)"
 msgstr "Debat (%d)"
 
-#: includes/attachments.php:790
+#: includes/attachments.php:824
 msgid "Dismiss this message"
 msgstr "Descarta aquest missatge"
 
@@ -528,9 +539,9 @@ msgstr "El document s'ha esborrat correctament de la paperera!"
 msgid "Doc successfully removed from the group"
 msgstr "El document s'ha esborrat correctament del grup"
 
-#: bp-docs.php:307 includes/integration-users.php:277
-#: includes/integration-groups.php:960 includes/integration-groups.php:1059
-#: includes/integration-groups.php:1243 includes/integration-groups.php:1668
+#: bp-docs.php:307 includes/integration-groups.php:960
+#: includes/integration-groups.php:1059 includes/integration-groups.php:1243
+#: includes/integration-groups.php:1668 includes/integration-users.php:277
 msgid "Docs"
 msgstr "Documents"
 
@@ -584,17 +595,17 @@ msgstr ""
 "classificar i etiquetar de forma que ajudi als vostres usuaris a fer la "
 "feina."
 
-#: includes/addon-taxonomy.php:505
+#: includes/addon-taxonomy.php:514
 msgid "Docs tagged %s"
 msgstr "Documents etiquetats %s"
 
-#: includes/attachments.php:596
+#: includes/attachments.php:630
 msgid "Doesn&#8217;t matter"
 msgstr "És indiferent"
 
-#: includes/addon-folders.php:2397 includes/templates/docs/docs-header.php:30
-#: includes/integration-groups.php:973 includes/templatetags.php:1216
-#: includes/templatetags.php:1775
+#: includes/addon-folders.php:2397 includes/integration-groups.php:973
+#: includes/templates/docs/docs-header.php:30 includes/templatetags.php:1225
+#: includes/templatetags.php:1784
 msgid "Edit"
 msgstr "Edita"
 
@@ -606,10 +617,9 @@ msgstr "Edita el document"
 msgid "Edited By %s"
 msgstr "Editats per %s"
 
-#: includes/integration-users.php:314
+#: includes/component.php:206 includes/component.php:326
+#: includes/integration-users.php:314 includes/templates/docs/tabs-legacy.php:9
 #: includes/templates/docs/tabs-nouveau.php:11
-#: includes/templates/docs/tabs-legacy.php:9 includes/component.php:206
-#: includes/component.php:326
 msgid "Edited By Me"
 msgstr "Editats per mi"
 
@@ -639,15 +649,15 @@ msgstr ""
 "Si el tema o l'idioma requereixen fragments més llargs o més curts, canvieu "
 "aquest valor. Definiu a <code>0</code> per desactivar aquests resums."
 
-#: includes/attachments.php:74 includes/attachments.php:81
+#: includes/attachments.php:108 includes/attachments.php:115
 msgid "File not found."
 msgstr "No s'ha trobat el fitxer."
 
-#: includes/attachments.php:598
+#: includes/attachments.php:632
 msgid "Filter"
 msgstr "Filtre"
 
-#: includes/templatetags.php:289
+#: includes/templatetags.php:297
 msgid "Filter by: %s"
 msgstr "Filtra per: %s"
 
@@ -723,7 +733,7 @@ msgstr ""
 msgid "Group-specific"
 msgstr "Grups-específic"
 
-#: includes/templatetags.php:1657
+#: includes/templatetags.php:1666
 msgid "Group: "
 msgstr "Grup:"
 
@@ -731,20 +741,20 @@ msgstr "Grup:"
 msgid "Groups"
 msgstr "Grups"
 
-#: includes/templates/docs/docs-loop.php:46
 #: includes/templates/docs/docs-loop-list.php:9
+#: includes/templates/docs/docs-loop.php:46
 msgid "Has attachment"
 msgstr "Conté un adjunt"
 
-#: includes/attachments.php:592
+#: includes/attachments.php:626
 msgid "Has attachment?"
 msgstr "Hi ha algun fitxer adjunt?"
 
-#: includes/templatetags.php:1096
+#: includes/templatetags.php:1104
 msgid "Hidden Group"
 msgstr "Grup amagat"
 
-#: includes/templatetags.php:1777
+#: includes/templatetags.php:1786
 msgid "Hide Details"
 msgstr "Amaga els detalls"
 
@@ -752,12 +762,12 @@ msgstr "Amaga els detalls"
 msgid "Hide Folders"
 msgstr "Amaga les carpetes"
 
-#: includes/addon-history.php:448 includes/integration-groups.php:975
-#: includes/templatetags.php:1220
+#: includes/addon-history.php:451 includes/integration-groups.php:975
+#: includes/templatetags.php:1229
 msgid "History"
 msgstr "Revisa"
 
-#: includes/templatetags.php:1707
+#: includes/templatetags.php:1716
 msgid "History can be viewed by: <strong>%s</strong>"
 msgstr "Les revisions les poden veure: <strong>%s</strong>"
 
@@ -784,7 +794,7 @@ msgstr ""
 "vostres canvis es desaran de forma automàtica, i deixareu d'estar en mode "
 "d'edició i per tant, altres usuaris podran editar el document."
 
-#: includes/attachments.php:774
+#: includes/attachments.php:808
 msgid ""
 "It looks like you are running <strong>Apache</strong>. The most likely cause "
 "of your problem is that the <code>AllowOverride</code> directive has been "
@@ -795,7 +805,7 @@ msgstr ""
 "del vostre problema és que la directiva <code>AllowOverride</code> hagi "
 "estat desactivada."
 
-#: includes/attachments.php:762
+#: includes/attachments.php:796
 msgid ""
 "It looks like you are running <strong>IIS 7</strong>. We recommend the "
 "following setting in your Web.config file:"
@@ -803,7 +813,7 @@ msgstr ""
 "Sembla que esteu fent servir <strong>IIS 7</strong>. Recomanem els "
 "paràmetres següents al fitxer Web.config:"
 
-#: includes/attachments.php:752
+#: includes/attachments.php:786
 msgid ""
 "It looks like you are running <strong>nginx</strong>. We recommend the "
 "following setting in your site configuration file:"
@@ -811,16 +821,16 @@ msgstr ""
 "Sembla que esteu fent servir <strong>nginx</strong>. Recomanem els "
 "paràmetres següents al fitxer de configuració del lloc:"
 
-#: includes/templatetags.php:1675
+#: includes/templatetags.php:1684
 msgid "Just Me"
 msgstr "Només jo"
 
-#: includes/templates/docs/docs-loop.php:64
 #: includes/templates/docs/docs-loop-list.php:25
+#: includes/templates/docs/docs-loop.php:64
 msgid "Last Edited"
 msgstr "Editat"
 
-#: includes/templatetags.php:1755
+#: includes/templatetags.php:1764
 msgid "Limited"
 msgstr "Limitat"
 
@@ -832,7 +842,7 @@ msgstr "El bloqueig s'ha cancel·lat correctament"
 msgid "Locked"
 msgstr "Bloquejat"
 
-#: includes/functions.php:548 includes/templatetags.php:1672
+#: includes/functions.php:548 includes/templatetags.php:1681
 msgid "Logged-in Users"
 msgstr "Usuaris autenticats"
 
@@ -840,8 +850,8 @@ msgstr "Usuaris autenticats"
 msgid "Manage Existing Folders"
 msgstr "Gestiona les carpetes existents"
 
-#: includes/templates/docs/docs-loop.php:30
 #: includes/templates/docs/docs-loop-tree.php:7
+#: includes/templates/docs/docs-loop.php:30
 msgid "Manage Folders"
 msgstr "Gestiona les carpetes"
 
@@ -849,7 +859,7 @@ msgstr "Gestiona les carpetes"
 msgid "Members of %s"
 msgstr "Membres de %s"
 
-#: includes/templatetags.php:1679
+#: includes/templatetags.php:1688
 msgid "Members of: %s"
 msgstr "Membres de: %s"
 
@@ -869,11 +879,11 @@ msgstr "S'ha completat la migració <a href=\"%s\">Tauler</a>"
 msgid "Minimum role to associate Docs with this group:"
 msgstr "Qui pot afegir documents?"
 
-#: includes/addon-taxonomy.php:652
+#: includes/addon-taxonomy.php:661
 msgid "Most Used"
 msgstr "Les més usades"
 
-#: includes/templatetags.php:1329
+#: includes/templatetags.php:1338
 msgid "Move to Trash"
 msgstr "Mou a la paperera"
 
@@ -885,12 +895,12 @@ msgstr "Els meus documents"
 msgid "My Folders"
 msgstr "Les meves carpetes"
 
-#: includes/templatetags.php:1673
+#: includes/templatetags.php:1682
 msgid "My Friends"
 msgstr "Amistats"
 
-#: includes/templates/docs/tabs-nouveau.php:14
 #: includes/templates/docs/tabs-legacy.php:12
+#: includes/templates/docs/tabs-nouveau.php:14
 msgid "My Groups"
 msgstr "Els meus grups"
 
@@ -899,12 +909,13 @@ msgid "Name"
 msgstr "Nom"
 
 #. translators: column name in revisons
-#: includes/addon-history.php:384 includes/addon-history.php:418
+#: includes/addon-history.php:387 includes/addon-history.php:421
 msgid "New"
 msgstr "Nou"
 
-#: bp-docs.php:296 includes/templates/docs/docs-header.php:40
-#: includes/integration-groups.php:966 includes/integration-groups.php:1441
+#: bp-docs.php:296 includes/integration-groups.php:966
+#: includes/integration-groups.php:1441
+#: includes/templates/docs/docs-header.php:40
 msgid "New Doc"
 msgstr "Document nou"
 
@@ -916,7 +927,7 @@ msgstr "Documents nou"
 msgid "Newer: %s"
 msgstr "Més nou: %s"
 
-#: includes/attachments.php:595
+#: includes/attachments.php:629
 msgid "No"
 msgstr "No"
 
@@ -932,11 +943,11 @@ msgstr "No s'ha trobat cap document a la Paperera"
 msgid "No comments yet."
 msgstr "Encara no hi ha comentaris."
 
-#: includes/addon-taxonomy.php:401
+#: includes/addon-taxonomy.php:410
 msgid "No tags to show."
 msgstr "No hi ha cap etiqueta per mostrar."
 
-#: includes/templatetags.php:958
+#: includes/templatetags.php:965
 msgid "None"
 msgstr "Cap"
 
@@ -944,12 +955,12 @@ msgstr "Cap"
 msgid "Number of docs to show:"
 msgstr "Nombre de documents a mostrar:"
 
-#: includes/component.php:1006 includes/attachments.php:396
+#: includes/attachments.php:424 includes/component.php:1008
 msgid "OK"
 msgstr "D'acord"
 
 #. translators: column name in revisons
-#: includes/addon-history.php:383 includes/addon-history.php:417
+#: includes/addon-history.php:386 includes/addon-history.php:420
 msgid "Old"
 msgstr "Antic"
 
@@ -978,7 +989,7 @@ msgstr "Pare:"
 msgid "Permalink"
 msgstr "Enllaç permanent"
 
-#: includes/templatetags.php:1326 includes/templatetags.php:1331
+#: includes/templatetags.php:1335 includes/templatetags.php:1340
 msgid "Permanently Delete"
 msgstr "Esborra de forma definitiva"
 
@@ -998,23 +1009,23 @@ msgstr ""
 "Proveu en uns minuts. O, com a administrador, podeu <a href=\"%s\">forçar la "
 "cancel·lació</a> del bloqueig d'edició."
 
-#: includes/templatetags.php:1749
+#: includes/templatetags.php:1758
 msgid "Private"
 msgstr "Privat"
 
-#: includes/templatetags.php:1092
+#: includes/templatetags.php:1100
 msgid "Private Group"
 msgstr "Grup privat"
 
-#: includes/templatetags.php:1752
+#: includes/templatetags.php:1761
 msgid "Public"
 msgstr "Públic"
 
-#: includes/templatetags.php:1088
+#: includes/templatetags.php:1096
 msgid "Public Group"
 msgstr "Grup públic"
 
-#: includes/templates/docs/docs-header.php:25 includes/templatetags.php:1213
+#: includes/templates/docs/docs-header.php:25 includes/templatetags.php:1222
 msgid "Read"
 msgstr "Llegeix"
 
@@ -1026,19 +1037,19 @@ msgstr "Documents recents de BuddyPress Docs"
 msgid "Recent Comments"
 msgstr "Comentaris recents"
 
-#: includes/templatetags.php:1324
+#: includes/templatetags.php:1333
 msgid "Remove from Trash"
 msgstr "Esborra de la paperera"
 
-#: includes/addon-history.php:378
+#: includes/addon-history.php:381
 msgid "Restore"
 msgstr "Restaura"
 
-#: includes/addon-history.php:191
+#: includes/addon-history.php:194
 msgid "Revision for &#8220;%1$s&#8221; created on %2$s"
 msgstr "Revisions de &#8220;%1$s&#8221; creat el %2$s"
 
-#: includes/addon-history.php:163 includes/addon-history.php:192
+#: includes/addon-history.php:166 includes/addon-history.php:195
 msgid "Revisions"
 msgstr "Revisions"
 
@@ -1067,7 +1078,7 @@ msgstr "Cerca documents"
 msgid "Search Docs..."
 msgstr "Cerca Documents..."
 
-#: includes/attachments.php:787
+#: includes/attachments.php:821
 msgid "See <a href=\"%s\">this wiki page</a> for more information."
 msgstr "Mireu <a href=\"%s\">aquesta pàgina</a> per a més informació."
 
@@ -1099,7 +1110,7 @@ msgstr "La configuració s'ha desat correctament"
 msgid "Settings updated."
 msgstr "S'han actualitzat els paràmetres."
 
-#: includes/templatetags.php:1761
+#: includes/templatetags.php:1770
 msgid "Show Details"
 msgstr "Mostra els detalls"
 
@@ -1119,14 +1130,13 @@ msgstr "Comença l'actualització"
 msgid "Started By %s"
 msgstr "Iniciats per %s"
 
-#: includes/integration-users.php:305
+#: includes/component.php:199 includes/component.php:317
+#: includes/integration-users.php:305 includes/templates/docs/tabs-legacy.php:8
 #: includes/templates/docs/tabs-nouveau.php:10
-#: includes/templates/docs/tabs-legacy.php:8 includes/component.php:199
-#: includes/component.php:317
 msgid "Started By Me"
 msgstr "Iniciats per mi"
 
-#: includes/component.php:1007
+#: includes/component.php:1009
 msgid "Still working?"
 msgstr "Encara treballant?"
 
@@ -1134,8 +1144,8 @@ msgstr "Encara treballant?"
 msgid "Tag"
 msgstr "Etiqueta"
 
-#: includes/templates/docs/single/edit.php:130
-#: includes/templates/docs/single/edit.php:131 includes/addon-taxonomy.php:292
+#: includes/addon-taxonomy.php:292 includes/templates/docs/single/edit.php:130
+#: includes/templates/docs/single/edit.php:131
 msgid "Tags"
 msgstr "Etiquetes"
 
@@ -1157,11 +1167,11 @@ msgstr ""
 "Gràcies per actualitzar el BuddyPress Docs. S'han d'executar algunes "
 "operacions abans de que la versió nova estigui operativa."
 
-#: includes/functions.php:553 includes/templatetags.php:1674
+#: includes/functions.php:553 includes/templatetags.php:1683
 msgid "The Doc author only"
 msgstr "Només l'autor del document"
 
-#: includes/templatetags.php:1684
+#: includes/templatetags.php:1693
 msgid "The Doc author only (that's you!)"
 msgstr "Només l'autor del document (aquest sou vós!)"
 
@@ -1174,14 +1184,14 @@ msgid "There are no comments for this doc yet."
 msgstr "Encara no hi ha cap comentari per a aquest document."
 
 #: includes/templates/docs/docs-folder-loop.php:100
-#: includes/templates/docs/docs-loop.php:172
 #: includes/templates/docs/docs-loop-list.php:91
+#: includes/templates/docs/docs-loop.php:172
 msgid "There are no docs for this view."
 msgstr "No hi ha cap document."
 
 #: includes/templates/docs/docs-folder-loop.php:98
-#: includes/templates/docs/docs-loop.php:170
 #: includes/templates/docs/docs-loop-list.php:89
+#: includes/templates/docs/docs-loop.php:170
 msgid "There are no docs for this view. Why not <a href=\"%s\">create one</a>?"
 msgstr "No hi ha cap document. Per què no <a href=\"%s\">en creeu un</a>?"
 
@@ -1210,19 +1220,19 @@ msgstr "S'ha produit un error en desar el document."
 msgid "These revisions are identical."
 msgstr "Aquestes revisions són idèntiques."
 
-#: includes/templatetags.php:1695
+#: includes/templatetags.php:1704
 msgid "This Doc can be edited by: <strong>%s</strong>"
 msgstr "El document el pot editar: <strong>%s</strong>"
 
-#: includes/templatetags.php:1691
+#: includes/templatetags.php:1700
 msgid "This Doc can be read by: <strong>%s</strong>"
 msgstr "El document el pot llegir: <strong>%s</strong>"
 
-#: includes/templatetags.php:2360
+#: includes/templatetags.php:2369
 msgid "This Doc is awaiting moderation"
 msgstr "Aquest document està a l'espera de validació."
 
-#: includes/templates/docs/docs-header.php:16 includes/templatetags.php:2358
+#: includes/templates/docs/docs-header.php:16 includes/templatetags.php:2367
 msgid "This Doc is in the Trash"
 msgstr "El document és a la paperera"
 
@@ -1251,9 +1261,9 @@ msgstr "Això no sembla ser una carpeta vàlida."
 msgid "This folder contains no Docs."
 msgstr "Aquesta carpeta no conté documents."
 
-#: includes/templates/docs/single/edit.php:41
-#: includes/templates/docs/docs-loop.php:50
 #: includes/templates/docs/docs-loop-list.php:13
+#: includes/templates/docs/docs-loop.php:50
+#: includes/templates/docs/single/edit.php:41
 msgid "Title"
 msgstr "Títol"
 
@@ -1261,7 +1271,7 @@ msgstr "Títol"
 msgid "Title:"
 msgstr "Títol:"
 
-#: includes/templates/docs/docs-header.php:16 includes/templatetags.php:2358
+#: includes/templates/docs/docs-header.php:16 includes/templatetags.php:2367
 msgid "Trash"
 msgstr "Paperera"
 
@@ -1277,7 +1287,7 @@ msgstr "Error desconegut. Torneu a provar-ho de nou."
 msgid "Unlink from Group"
 msgstr "Treu l'enllaç al grup"
 
-#: includes/templatetags.php:1224
+#: includes/templatetags.php:1233
 msgid "Untrash"
 msgstr "Restaura de la paperera"
 
@@ -1289,7 +1299,7 @@ msgstr "Actualitza"
 msgid "Upgrade complete!"
 msgstr "S'ha completat l'actualització"
 
-#: includes/component.php:1005 includes/attachments.php:395
+#: includes/attachments.php:423 includes/component.php:1007
 msgid "Upload File"
 msgstr "Puja un fitxer"
 
@@ -1317,8 +1327,8 @@ msgstr "Mostra els documents"
 msgid "View all docs in <strong>%s</strong>."
 msgstr "Visualitza tots els documents en: <strong>%s</strong>."
 
-#: includes/templates/docs/docs-loop.php:189
 #: includes/templates/docs/docs-loop-list.php:78
+#: includes/templates/docs/docs-loop.php:189
 msgid "Viewing %1$s-%2$s of %3$s docs"
 msgstr "Veient %1$s-%2$s de %3$s documents"
 
@@ -1334,31 +1344,31 @@ msgstr ""
 "Quan s’utilitzen dins d’un grup o en el perfil d’un usuari, limita els "
 "documents al grup actual o als documents de l’usuari mostrats."
 
-#: includes/templatetags.php:1024
+#: includes/templatetags.php:1032
 msgid "Which group should this Doc be associated with?"
 msgstr "Amb quin grup s'ha d'associar aquest document?"
 
-#: includes/templatetags.php:1141
+#: includes/templatetags.php:1149
 msgid "Who can edit this doc?"
 msgstr "Qui pot editar aquest document?"
 
-#: includes/templatetags.php:1149
+#: includes/templatetags.php:1157
 msgid "Who can post comments on this doc?"
 msgstr "Qui pot posar comentaris a aquest document?"
 
-#: includes/templatetags.php:1145
+#: includes/templatetags.php:1153
 msgid "Who can read comments on this doc?"
 msgstr "Qui pot llegir els comentaris d'aquest document?"
 
-#: includes/templatetags.php:1137
+#: includes/templatetags.php:1145
 msgid "Who can read this doc?"
 msgstr "Qui pot llegir aquest document?"
 
-#: includes/templatetags.php:1153
+#: includes/templatetags.php:1161
 msgid "Who can view the history of this doc?"
 msgstr "Qui pot veure les revisions d'aquest document?"
 
-#: includes/attachments.php:594
+#: includes/attachments.php:628
 msgid "Yes"
 msgstr "Sí"
 
@@ -1371,7 +1381,7 @@ msgid ""
 "You are currently viewing a revision titled \"%1$s\", saved on %2$s by %3$s"
 msgstr "Esteu veient una revisió anomenada  \"%1$s\", desada el %2$s per %3$s"
 
-#: includes/templatetags.php:437
+#: includes/templatetags.php:445
 msgid "You are searching for docs containing the term <em>%s</em>"
 msgstr "Esteu cercant documents que contenen el terme <em>%s</em>"
 
@@ -1425,7 +1435,7 @@ msgstr ""
 "Aquest valor està definit al fitxer <code>wp-config.php</code>, per això no "
 "es pot modificar aquí."
 
-#: includes/addon-history.php:114
+#: includes/addon-history.php:117
 msgid "You have successfully restored the Doc to the revision from %s."
 msgstr "El document s'ha restaurat correctament a la revisió de %s."
 
@@ -1452,7 +1462,7 @@ msgstr ""
 "El vostre document s'ha desat correctament, però alguns dels seus valors "
 "d'accés s'han modificat per a que coincideixin amb els permisos del document."
 
-#: includes/component.php:1008
+#: includes/component.php:1010
 msgid "and %d more"
 msgstr "i %d més"
 

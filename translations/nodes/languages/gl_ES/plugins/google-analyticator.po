@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: Plugins - Google Analyticator - Stable (latest release)\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/google-"
 "analyticator\n"
-"POT-Creation-Date: 2019-04-15T16:18:33+02:00\n"
+"POT-Creation-Date: 2021-05-31T11:16:38+02:00\n"
 "PO-Revision-Date: 2015-12-12 13:06:08+0000\n"
 "Language: gl_ES\n"
 "MIME-Version: 1.0\n"
@@ -16,15 +16,15 @@ msgstr ""
 
 #: google-analytics-summary-widget.php:505
 msgid "% New Visits"
-msgstr ""
+msgstr "% de novas visitas"
 
 #: google-analyticator.php:1039
 msgid "Additional Tracking Code"
-msgstr ""
+msgstr "Código de seguimento adicional"
 
 #: google-analyticator.php:1043 google-analyticator.php:1058
 msgid "Additional tracking code"
-msgstr ""
+msgstr "Código de seguimento adicional"
 
 #. Description of the plugin
 msgid ""
@@ -32,30 +32,33 @@ msgid ""
 "analytics/\">Google's Analytics</a>. After enabling this plugin you need to "
 "authenticate with Google, then select your domain and you're set."
 msgstr ""
+"Engade o código JavaScript necesario para activar <a href=\"http://www."
+"google.com/analytics/\">Google Analytics</a>. Despois de activar este plugin "
+"terás que autentificarte con Google, logo elixe o teu dominio e listo."
 
 #: google-analyticator.php:1073
 msgid "Admin Dashboard Widgets"
-msgstr ""
+msgstr "Admin Dashboard Widgets"
 
 #: google-analyticator.php:628
 msgid "Analytics Account"
-msgstr ""
+msgstr "Conta de Analytics"
 
 #: google-analyticator.php:763
 msgid "Anonymize IP Addresses"
-msgstr ""
+msgstr "Anonimizar as direccións IP"
 
 #: google-analytics-summary-widget.php:492
 msgid "Avg. Time on Site"
-msgstr ""
+msgstr "Tempo promedio no sitio"
 
 #: google-analyticator.php:600
 msgid "Basic Settings"
-msgstr ""
+msgstr "Configuración básica"
 
 #: google-analytics-summary-widget.php:482
 msgid "Bounce Rate"
-msgstr ""
+msgstr "Taxa de rebote"
 
 #: google-analyticator.php:782
 msgid ""
@@ -64,10 +67,14 @@ msgid ""
 "address prior to its storage. Note that this will slightly reduce the "
 "accuracy of geographic reporting."
 msgstr ""
+"Elixindo «Si» diraslle a Google Analytics que anonimice a información "
+"enviada polo seguidor de obxectos eliminando o último byte do enderezo IP "
+"antes do seu almacenamento. Ten en conta que isto reducirá levemente a "
+"precisión dos informes xeográficos."
 
 #: google-analyticator.php:1135
 msgid "Clear Analyticator Cache"
-msgstr ""
+msgstr "Borra a caché de Analyticator"
 
 #: google-analyticator.php:246
 msgid "Click Here"
@@ -79,21 +86,21 @@ msgstr ""
 
 #: google-analytics-stats-widget.php:153
 msgid "Days of data to get"
-msgstr ""
+msgstr "Días dos datos a obter"
 
 #: google-analyticator.php:1143
 msgid "Deauthorize &amp; Reset Google Analyticator."
-msgstr ""
+msgstr "Desautorizar &amp; Reiniciar Google Analyticator."
 
 #: google-analyticator.php:852
 msgid "Dimension Index"
-msgstr ""
+msgstr "Dimension Index"
 
 #: google-analyticator.php:620 google-analyticator.php:929
 #: google-analyticator.php:952 google-analyticator.php:975
 #: google-analyticator.php:1094
 msgid "Disabled"
-msgstr ""
+msgstr "Deshabilitado"
 
 #: google-analyticator.php:1099
 msgid ""
@@ -101,6 +108,9 @@ msgid ""
 "and the theme Stats widget. Use this option if you would prefer to not see "
 "the widgets."
 msgstr ""
+"Deshabilitando esta opción eliminarase completamente o widget de resumo no "
+"escritorio e o widget de estatísticas do tema. Usa esta opción se prefires "
+"no ver os widgets."
 
 #: google-analyticator.php:934
 msgid ""
@@ -109,24 +119,28 @@ msgid ""
 "why would you be using Google Analytics in the first place?) or it's causing "
 "some kind of weird issue."
 msgstr ""
+"Deshabilitando esta opción apagarase o seguimento dos enlaces de saída. "
+"Recoméndase non deshabilitar esta opción a menos que sexas un defensor da "
+"privacidade (agora, por que estarías usando Google Analytics en primeiro "
+"lugar?) ou se está causando algún problema estraño."
 
 #: google-analytics-stats-widget.php:12
 msgid "Displays Stat Info From Google Analytics"
-msgstr ""
+msgstr "Mostra información de estatísticas desde Google Analytics"
 
 #: google-analyticator.php:984
 msgid "Download extensions to track"
-msgstr ""
+msgstr "Seguimento de extensións de arquivos de descarga"
 
 #: google-analyticator.php:861
 msgid "Enable Remarketing, Demographics and Interests reports"
-msgstr ""
+msgstr "Habilitar informes de remarketing, demografía e intereses"
 
 #: google-analyticator.php:615 google-analyticator.php:924
 #: google-analyticator.php:947 google-analyticator.php:970
 #: google-analyticator.php:1089
 msgid "Enabled"
-msgstr ""
+msgstr "Habilitado"
 
 #: google-analyticator.php:957
 msgid ""
@@ -137,22 +151,34 @@ msgid ""
 "of actions. Only disable this option if you must use the old pageview "
 "tracking method."
 msgstr ""
+"Habilitando esta opción tratarase aos enlaces saíntes e descargas como "
+"eventos en vez de como vistas de páxinas. Desde a introdución do <a href="
+"\"https://developers.google.com/analytics/devguides/collection/gajs/"
+"eventTrackerGuide\">seguimento de eventos en Analytics</a>, este é xeito "
+"recomendado de seguir este tipo de accións. Só deshabilita esta opción se "
+"debes usar o método antigo de seguimento de visitas de páxinas."
 
 #: google-analyticator.php:962
 msgid "Enhanced Link Attribution"
-msgstr ""
+msgstr "Atribución de enlace mellorada"
 
 #: google-analyticator.php:1021
 msgid ""
 "Enter a name for the section tracked download links will appear under. This "
 "option has no effect if event tracking is enabled."
 msgstr ""
+"Introduce un nome para a sección na que aparecerán os enlaces de descarga "
+"seguidos. Esta opción non ten efecto se está habilitado o seguimento de "
+"eventos."
 
 #: google-analyticator.php:1007
 msgid ""
 "Enter a name for the section tracked external links will appear under. This "
 "option has no effect if event tracking is enabled."
 msgstr ""
+"Introduce un nome para a sección na que aparecerán os enlaces externos "
+"seguidos. Esta opción non tiene efecto se está habilitado o seguimento de "
+"eventos."
 
 #: google-analyticator.php:1069
 msgid ""
@@ -160,6 +186,10 @@ msgid ""
 "in the Google Analytics tracking script. The code in this section will be "
 "displayed <strong>after</strong> the Google Analytics tracker is initialized."
 msgstr ""
+"Introduce calquera liña de código de seguimento adicional que queiras "
+"incluír no script de seguimento de Google Analytics. O código nesta sección "
+"aparecerá <strong>despois</strong> de que o seguimento de Google Analytics "
+"se inicialice."
 
 #: google-analyticator.php:1053
 msgid ""
@@ -168,6 +198,10 @@ msgid ""
 "displayed <strong>before</strong> the Google Analytics tracker is "
 "initialized."
 msgstr ""
+"Introduce calquera liña de código de seguimento adicional que queiras "
+"incluír no script de seguimento de Google Analytics. O código nesta sección "
+"aparecerá <strong>antes</strong> de que o seguimento de Google Analytics se "
+"inicialice."
 
 #: google-analyticator.php:993
 msgid ""
@@ -175,6 +209,10 @@ msgid ""
 "For example to track all MP3s and PDFs enter <strong>mp3,pdf</strong>. "
 "<em>Outbound link tracking must be enabled for downloads to be tracked.</em>"
 msgstr ""
+"Introduce calquera extensión de arquivos que desexarías que foran "
+"rastrexadas como descargas. Por exemplo, se queres seguir todos os MP3s e "
+"PDFs, ingresa <strong>mp3,pdf</strong>. <em>O seguimento de enlaces saíntes "
+"debe estar habilitado para que as descargas sexan seguidas.</em>"
 
 #: google-analyticator.php:1035
 msgid ""
@@ -182,6 +220,9 @@ msgid ""
 "enables Analytics tracking of Adsense information if your Adsense and "
 "Analytics accounts are linked."
 msgstr ""
+"Introduce neste campo o teu ID de Google Adsense asignado por Google "
+"Analytics. Isto habilita a Analytics para seguir a información de Adsense se "
+"as túas contas de Adsense e Analytics están vinculadas."
 
 #: google-analyticator.php:248
 msgid ""
@@ -191,19 +232,19 @@ msgstr ""
 
 #: google-analyticator.php:939
 msgid "Event tracking"
-msgstr ""
+msgstr "Seguimento de eventos"
 
 #: google-analytics-stats-widget.php:161
 msgid "Font color"
-msgstr ""
+msgstr "Cor da fonte"
 
 #: google-analyticator.php:1026
 msgid "Google Adsense ID"
-msgstr ""
+msgstr "ID de Google Adsense"
 
 #. Plugin Name of the plugin
 msgid "Google Analyticator"
-msgstr ""
+msgstr "Google Analyticator"
 
 #: google-analyticator.php:156
 msgid "Google Analyticator Settings"
@@ -211,29 +252,33 @@ msgstr ""
 
 #: google-analyticator.php:513
 msgid "Google Analyticator settings saved."
-msgstr ""
+msgstr "Configuración de Google Analyticator gardada."
 
 #: google-analytics-stats-widget.php:15
 msgid "Google Analytics Stats"
-msgstr ""
+msgstr "Estatísticas de Google Analytics"
 
 #: google-analytics-summary-widget.php:67
 msgid "Google Analytics Summary"
-msgstr ""
+msgstr "Resumo de Google Analytics"
 
 #: google-analyticator.php:553
 msgid "Google Analytics integration is currently <strong>DISABLED</strong>."
 msgstr ""
+"A integración con Google Analytics está actualmente <strong>DESHABILITADA</"
+"strong>."
 
 #: google-analyticator.php:558
 msgid ""
 "Google Analytics integration is currently enabled, but you did not enter a "
 "UID. Tracking will not occur."
 msgstr ""
+"A integración con Google Analytics esta habilitada, pero non introduciches "
+"un UID. Non haberá seguimento."
 
 #: google-analyticator.php:606
 msgid "Google Analytics logging is"
-msgstr ""
+msgstr "O rexistro de Google Analytics está"
 
 #: google-analyticator.php:241
 msgid "Google Authentication Code"
@@ -241,7 +286,7 @@ msgstr ""
 
 #: google-analyticator.php:687
 msgid "Hide Google Analytics UID after saving"
-msgstr ""
+msgstr "Esconder o UID de Google Analytics despois de gardar"
 
 #: google-analyticator.php:260
 msgid "I Don't Want To Authenticate Through Google"
@@ -254,6 +299,10 @@ msgid ""
 "Universal Analytics <a href=\"https://support.google.com/analytics/"
 "answer/2817075?hl=en\" target=\"_blank\">here</a>."
 msgstr ""
+"Se estás usando unha conta de Universal Analytics asegúrate de ter cambiado "
+"a túa conta á propiedade Universal Analytics en Google Analytics. Podes ler "
+"máis sobre Uiversal Analytics <a href=\"https://support.google.com/analytics/"
+"answer/2817075?hl=en\" target=\"_blank\">aquí</a>."
 
 #: google-analyticator.php:261
 msgid ""
@@ -267,36 +316,39 @@ msgid ""
 "answer/2611270\" target=\"_blank\">please make sure you complete this "
 "checklist from Google</a>"
 msgstr ""
+"Para poder usar remarketing, <a href=\"https://support.google.com/analytics/"
+"answer/2611270\" target=\"_blank\">por favor, asegúrate de completar esta "
+"checklist de Google</a>."
 
 #: google-analyticator.php:1082
 msgid "Include widgets"
-msgstr ""
+msgstr "Incluír widgets"
 
 #: google-analytics-stats-widget.php:159
 msgid "Inner background"
-msgstr ""
+msgstr "Fondo interior"
 
 #: google-analytics-stats-widget.php:163
 msgid "Line 1 text"
-msgstr ""
+msgstr "Texto da liña 1"
 
 #: google-analytics-stats-widget.php:165
 msgid "Line 2 text"
-msgstr ""
+msgstr "Texto da liña 2"
 
 #: google-analyticator.php:912
 msgid "Link Tracking Settings"
-msgstr ""
+msgstr "Configuración de seguimento"
 
 #: google-analyticator.php:835
 msgid "Method to prevent tracking"
-msgstr ""
+msgstr "Método para previr o seguimento"
 
 #: google-analyticator.php:741 google-analyticator.php:771
 #: google-analyticator.php:800 google-analyticator.php:869
 #: google-analyticator.php:902
 msgid "No"
-msgstr ""
+msgstr "Non"
 
 #: google-analytics-summary-widget.php:288
 msgid ""
@@ -304,6 +356,9 @@ msgid ""
 "Google on Google Analyticator's settings page and make sure an account is "
 "selected."
 msgstr ""
+"Non se seleccionou ningunha conta de Analytics. Volve a verificar que estás "
+"autenticado con Google na páxina de configuración de Google Analyticator e "
+"asegúrate de ter seleccionado unha conta."
 
 #: google-analyticator.php:246
 msgid "Or"
@@ -311,43 +366,43 @@ msgstr ""
 
 #: google-analyticator.php:916
 msgid "Outbound link tracking"
-msgstr ""
+msgstr "Seguimento de enlaces de saída"
 
 #: google-analytics-stats-widget.php:155
 msgid "Page background"
-msgstr ""
+msgstr "Fondo da páxina"
 
 #: google-analytics-summary-widget.php:500
 msgid "Pages/Visit"
-msgstr ""
+msgstr "Páxinas/visitas"
 
 #: google-analytics-summary-widget.php:486
 msgid "Pageviews"
-msgstr ""
+msgstr "Vistas de páxinas"
 
 #: google-analytics-summary-widget.php:256
 msgid "Past 30 days"
-msgstr ""
+msgstr "Últimos 30 días"
 
 #: google-analytics-summary-widget.php:257
 msgid "Past 60 days"
-msgstr ""
+msgstr "Últimos 60 días"
 
 #: google-analyticator.php:1012
 msgid "Prefix download links with"
-msgstr ""
+msgstr "Prefixar enlaces de descarga con"
 
 #: google-analyticator.php:998
 msgid "Prefix external links with"
-msgstr ""
+msgstr "Prefixar enlaces externos con"
 
 #: google-analyticator.php:843
 msgid "Remove"
-msgstr ""
+msgstr "Eliminar"
 
 #: google-analyticator.php:309
 msgid "Reset"
-msgstr ""
+msgstr "Restablecer"
 
 #: google-analyticator.php:252
 msgid "Save &amp; Continue"
@@ -364,6 +419,10 @@ msgid ""
 "yourself or other users from showing up in your Analytics reports. Use the "
 "next setting to determine what user groups to exclude."
 msgstr ""
+"Elixindo «non» nesta opción evitarás que os usuarios que iniciaron sesión en "
+"WordPress aparezan nos teus informes de Google Analytics. Esta configuración "
+"previrá que ti ou outros usuarios aparezades nos informes de Analytics. Usa "
+"a seguinte configuración para determinar que grupos de usuario excluír."
 
 #: google-analyticator.php:856
 msgid ""
@@ -374,24 +433,33 @@ msgid ""
 "manually configure Google Analytics to exclude tracking from pageviews with "
 "the 'admin' variable."
 msgstr ""
+"Elixindo a opción «Eliminar» eliminará fisicamente o código de seguimento "
+"dos usuarios que iniciaron sesión. Elixindo «Usar variable 'admin'» asignará "
+"unha variable chamada «admin» aos usuarios que iniciaron sesión. Esta opción "
+"permitirá a un sitio de Google Analytics que funcione coa capacidade de "
+"superposición, pero terás que configurar manualmente Google Analytics para "
+"excluír o seguimento de visitas de páxinas coa variable «admin»."
 
 #: google-analyticator.php:308
 msgid "Settings"
-msgstr ""
+msgstr "Configuración"
 
 #: google-analyticator.php:746
 msgid "Show our link on the admin dashboard. Pretty please."
 msgstr ""
+"Mostra o noso enlace no escritorio de administración. Bonito, por favor."
 
 #: google-analytics-summary-widget.php:301
 msgid "Site Usage"
-msgstr ""
+msgstr "Uso do sitio"
 
 #: google-analyticator.php:1123
 msgid ""
 "Specifies the user roles that can see the dashboard widget. If a user is not "
 "in one of these role groups, they will not see the dashboard widget."
 msgstr ""
+"Especifica os roles de usuario que poden ver o widget do escritorio. Se un "
+"usuario non está nun destes grupos de roles, non verá o widget."
 
 #: google-analyticator.php:830
 msgid ""
@@ -399,14 +467,17 @@ msgid ""
 "If a user is logged into WordPress with one of these roles, they will not "
 "show up in your Analytics report."
 msgstr ""
+"Especifica os roles de usuarios a non incluír no teu informe de WordPress "
+"Analytics. Se un usuario iniciou sesión en WordPress cun destes roles, non "
+"aparecerá nos teus informes de Analytics."
 
 #. Author of the plugin
 msgid "SumoMe"
-msgstr ""
+msgstr "SumoMe"
 
 #: google-analyticator.php:728
 msgid "Support us"
-msgstr ""
+msgstr "Apóianos"
 
 #: google-analyticator.php:669
 msgid ""
@@ -416,65 +487,70 @@ msgstr ""
 
 #: google-analytics-summary-widget.php:458
 msgid "The most visits on a single day was %d. Yesterday there were %d visits."
-msgstr ""
+msgstr "A maior cantidade de visitas nun día foi %d. Onte houbo %d visitas."
 
 #: google-analytics-summary-widget.php:524
 #: google-analytics-summary-widget.php:597
 #: google-analytics-summary-widget.php:623
 msgid "There is no data for view."
-msgstr ""
+msgstr "Non hai datos para ver."
 
 #: google-analyticator.php:908
 msgid "This will track all access to wp-login.php"
-msgstr ""
+msgstr "Isto seguirá todo acceso a wp-login.php"
 
 #: google-analytics-stats-widget.php:151
 msgid "Title"
-msgstr ""
+msgstr "Título"
 
 #: google-analyticator.php:885
 msgid ""
 "To use remarketing, <a href=\"https://support.google.com/analytics/"
 "answer/2884495\" target=\"_blank\">Edit permission</a> is required"
 msgstr ""
+"Para usar remarketing, necesítase <a href=\"https://support.google.com/"
+"analytics/answer/2884495\" target=\"_blank\">editar os permisos</a>."
 
 #: google-analytics-summary-widget.php:307
 msgid "Top Pages"
-msgstr ""
+msgstr "Páxinas principais"
 
 #: google-analytics-summary-widget.php:316
 msgid "Top Referrers"
-msgstr ""
+msgstr "Referentes principais"
 
 #: google-analytics-summary-widget.php:325
 msgid "Top Searches"
-msgstr ""
+msgstr "Buscas principais"
 
 #: google-analyticator.php:889
 msgid "Track WordPress Login Page"
-msgstr ""
+msgstr "Seguir a páxina de inicio de sesión de WordPress"
 
 #: google-analyticator.php:787
 msgid "Track all logged in WordPress users"
-msgstr ""
+msgstr "Seguir todos os usuarios de WordPress que iniciaron sesión."
 
 #: google-analyticator.php:704
 msgid "Tracking Code"
-msgstr ""
+msgstr "Código de seguimento"
 
 #: google-analyticator.php:758
 msgid "Tracking Settings"
-msgstr ""
+msgstr "Configuración de seguimento"
 
 #: google-analyticator.php:1358
 msgid ""
 "Tracking code is hidden, since the settings specify not to track admins. "
 "Tracking is occurring for non-admins."
 msgstr ""
+"O código de seguimento está oculto, xa que a configuración especifica non "
+"seguir aos administradores. O seguimento está ocorrendo para non "
+"administradores."
 
 #: google-analyticator.php:717
 msgid "Traditional (ga.js)"
-msgstr ""
+msgstr "Tradicional (ga.js)"
 
 #: google-analytics-stats-widget.php:88
 msgid "Unique"
@@ -482,28 +558,28 @@ msgstr ""
 
 #: google-analyticator.php:712
 msgid "Universal (analytics.js)"
-msgstr ""
+msgstr "Universal (analytics.js)"
 
 #: google-analyticator.php:848
 msgid "Use 'admin' variable"
-msgstr ""
+msgstr "Usar a variable «admin»"
 
 #: google-analyticator.php:1104
 msgid "User roles that can see the dashboard widget"
-msgstr ""
+msgstr "Roles de usuario que poden ver o widget do escritorio"
 
 #: google-analyticator.php:811
 msgid "User roles to not track"
-msgstr ""
+msgstr "Roles de usuarios para non seguir"
 
 #: google-analytics-summary-widget.php:137
 #: google-analytics-summary-widget.php:141
 msgid "View Full Stat Report"
-msgstr ""
+msgstr "Ver informe de estatísticas completo"
 
 #: google-analytics-summary-widget.php:570
 msgid "Views"
-msgstr ""
+msgstr "Vistas"
 
 #: google-analytics-stats-widget.php:88
 msgid "Visitors"
@@ -514,21 +590,21 @@ msgstr ""
 #: google-analytics-summary-widget.php:604
 #: google-analytics-summary-widget.php:629
 msgid "Visits"
-msgstr ""
+msgstr "Visitas"
 
 #: google-analytics-stats-widget.php:157
 msgid "Widget background"
-msgstr ""
+msgstr "Fondo do widget"
 
 #: google-analyticator.php:736 google-analyticator.php:776
 #: google-analyticator.php:795 google-analyticator.php:875
 #: google-analyticator.php:897
 msgid "Yes"
-msgstr ""
+msgstr "Si"
 
 #: google-analytics-summary-widget.php:258
 msgid "Yesterday"
-msgstr ""
+msgstr "Onte"
 
 #: google-analyticator.php:980
 msgid ""
@@ -536,12 +612,18 @@ msgid ""
 "by enabling this option. <a href=\"https://support.google.com/analytics/"
 "answer/2558867?hl=en\" target=\"_blank\">learn more</a>"
 msgstr ""
+"Podes etiquetar as túas páxinas para implementar unha función de seguimento "
+"de enlaces mellorada habilitando esta opción. <a href=\"https://support."
+"google.com/analytics/answer/2558867?hl=en\" target=\"_blank\">Le máis sobre "
+"isto.</a>"
 
 #: google-analyticator.php:1076
 msgid ""
 "You have not authenticated with Google - you cannot use dashboard widgets! "
 "Reset the plugin to authenticate.."
 msgstr ""
+"Non te autenticaches con Google, nob podes usar os widgets do Escritorio! "
+"Reinicia o plugin para autenticarte.."
 
 #: google-analyticator.php:242
 msgid ""
@@ -557,11 +639,11 @@ msgstr ""
 
 #: google-analyticator.php:1060
 msgid "after tracker initialization"
-msgstr ""
+msgstr "logo da inicialización do seguimento"
 
 #: google-analyticator.php:1044
 msgid "before tracker initialization"
-msgstr ""
+msgstr "antes da inicialización do seguimento"
 
 #: google-analyticator.php:246
 msgid "here"
@@ -576,6 +658,8 @@ msgid ""
 "http://www.videousermanuals.com/google-analyticator/?"
 "utm_campaign=analyticator&utm_medium=plugin&utm_source=readme-txt"
 msgstr ""
+"http://www.videousermanuals.com/google-analyticator/?"
+"utm_campaign=analyticator&utm_medium=plugin&utm_source=readme-txt"
 
 #: google-analyticator.php:246
 msgid "if you have popups blocked"
