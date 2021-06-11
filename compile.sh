@@ -64,6 +64,9 @@ for code in ${LANGS[@]}; do
     if test -f bbpress-enable-tinymce-visual-tab-"$code".mo; then
         ln -s bbpress-enable-tinymce-visual-tab-"$code".mo bbp-tinymce-visual-tab-"$code".mo
     fi
+    if test -f author-category-"$code".mo; then
+        ln -s author-category-"$code".mo author_cat-"$code".mo
+    fi
     if test -f buddypress-group-email-subscription-"$code".mo; then
         ln -s buddypress-group-email-subscription-"$code".mo bp-ass-"$code".mo
     fi
