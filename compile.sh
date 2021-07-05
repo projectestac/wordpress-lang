@@ -85,6 +85,13 @@ for code in ${LANGS[@]}; do
 done
 
 popd > /dev/null || exit
+
+# Remove incorrect file and replace by the correct one
+pushd ../binaries/ > /dev/null || exit
+rm ca.mo
+mv ca-ca.mo ca.mo
+popd > /dev/null || exit
+
 popd > /dev/null || exit
 
 echo -e "\n= DONE. Compiled translations at: translations/$PROJECT/binaries/\n"
