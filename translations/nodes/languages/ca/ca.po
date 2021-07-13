@@ -2,14 +2,17 @@
 # This file is distributed under the same license as the WordPress - 5.7.x - Development package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-06-14 13:15:40+0000\n"
+"PO-Revision-Date: 2021-07-13 18:58+0200\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"X-Generator: Poedit 2.0.6\n"
 "Language: ca\n"
 "Project-Id-Version: WordPress - 5.7.x - Development\n"
+"POT-Creation-Date: \n"
+"Last-Translator: Toni Ginard <toni.ginard@gmail.com>\n"
+"Language-Team: \n"
 
 #: wp-includes/script-loader.php:1499
 msgctxt "Google Font Name and Variants"
@@ -350,11 +353,11 @@ msgstr "Llista d'identificadors de termes"
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2716
 msgid "Limit response to posts modified before a given ISO8601 compliant date."
-msgstr "Limita la resposta a les entrades modificades abans d'una data determinada conforme a la norma ISO8601."
+msgstr "Limita la resposta als articles modificats abans d'una data determinada conforme a la norma ISO8601."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2685
 msgid "Limit response to posts modified after a given ISO8601 compliant date."
-msgstr "Limita la resposta a les entrades modificades després d'una data determinada conforme a la norma ISO8601."
+msgstr "Limita la resposta als articles modificats després d'una data determinada conforme a la norma ISO8601."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php:541
 msgid "A named status for the theme."
@@ -715,7 +718,7 @@ msgstr "El gestor per a la ruta no és vàlid"
 
 #: wp-includes/theme.php:2551
 msgid "You need to pass an array of post formats."
-msgstr "Necessiteu passar una matriu de formats d'entrades."
+msgstr "Necessiteu passar una matriu de formats d'articles."
 
 #. translators: %s: IP address of password reset requester.
 #: wp-includes/user.php:2781
@@ -725,7 +728,7 @@ msgstr "Aquesta contrasenya reinicialitza la sol·licitud originada des de l'adr
 #: wp-includes/class-wp-xmlrpc-server.php:3930
 #: wp-includes/class-wp-xmlrpc-server.php:3937
 msgid "Sorry, you are not allowed to comment on this post."
-msgstr "No teniu permisos per a crear comentaris en aquesta entrada."
+msgstr "No teniu permisos per a crear comentaris en aquest article."
 
 #. translators: %s: WP_ENVIRONMENT_TYPES
 #: wp-includes/load.php:209
@@ -1177,7 +1180,7 @@ msgstr "El fitxer de recursos del camp \"%1$s\" definit al bloc \"%2$s\" no exis
 
 #: wp-includes/ms-deprecated.php:413
 msgid "<strong>Error</strong>: There was a problem creating site entry."
-msgstr "<strong>Error</strong>: s'ha produït un problema en crear l'entrada del lloc web."
+msgstr "<strong>Error</strong>: s'ha produït un problema en crear l'article del lloc web."
 
 #: wp-includes/ms-deprecated.php:404
 msgid "<strong>Error</strong>: Site URL you&#8217;ve entered is already taken."
@@ -1794,7 +1797,7 @@ msgstr "Dues imatges una al costat de l'altra"
 
 #: wp-includes/theme.php:4042
 msgid "The post types that support thumbnails or true if all post types are supported."
-msgstr "Els tipus d'entrades que suporten miniatures o vertader si tots els tipus d'entrades estan suportades."
+msgstr "Els tipus d'articles que suporten miniatures o vertader si tots els tipus d'articles estan suportats."
 
 #: wp-includes/theme.php:3153
 msgid "When registering an \"object\" feature, the feature's schema must include the \"properties\" keyword."
@@ -1928,13 +1931,13 @@ msgstr "No s'ha pogut crear la categoria."
 #: wp-includes/class-wp-xmlrpc-server.php:1833
 #: wp-includes/class-wp-xmlrpc-server.php:5267
 msgid "Sorry, the post could not be deleted."
-msgstr "No s'ha pogut esborrar l'entrada."
+msgstr "No s'ha pogut esborrar l'article."
 
 #: wp-includes/class-wp-xmlrpc-server.php:1690
 #: wp-includes/class-wp-xmlrpc-server.php:5207
 #: wp-includes/class-wp-xmlrpc-server.php:5965
 msgid "Sorry, the post could not be updated."
-msgstr "No s'ha pogut actualitzar l'entrada."
+msgstr "No s'ha pogut actualitzar l'article."
 
 #: wp-includes/media.php:4463 wp-includes/js/dist/block-library.js:24844
 msgid "Select poster image"
@@ -1942,7 +1945,7 @@ msgstr "Selecciona una imatge de pòster"
 
 #: wp-includes/js/dist/edit-post.js:7422 wp-admin/edit-form-advanced.php:145
 msgid "View post"
-msgstr "Mostra l'entrada"
+msgstr "Mostra l'article"
 
 #: wp-includes/js/dist/components.js:23561 wp-includes/js/dist/editor.js:10085
 #: wp-admin/edit-tags.php:451 wp-admin/includes/meta-boxes.php:890
@@ -1961,7 +1964,7 @@ msgstr "https://wordpress.org/support/article/excerpt/"
 #. translators: 1: Post status, 2: Capability name.
 #: wp-includes/capabilities.php:252
 msgid "The post status %1$s is not registered, so it may not be reliable to check the capability \"%2$s\" against a post with that status."
-msgstr "El tipus d'entrada %1$s no està registrat, motiu pel qual no és segur comprovar la funcionalitat «%2$s» contra una entrada amb aquest estat."
+msgstr "El tipus d'article %1$s no està registrat, motiu pel qual no és segur comprovar la funcionalitat «%2$s» contra un article amb aquest estat."
 
 #. translators: %s: Comment link.
 #: wp-includes/comment-template.php:981
@@ -2123,7 +2126,7 @@ msgstr "Capçalera personalitzada si està definida pel tema."
 
 #: wp-includes/theme.php:3723
 msgid "Whether posts and comments RSS feed links are added to head."
-msgstr "Si s'afegeixen a la capçalera els enllaços a les entrades i comentaris del canal d'informació (RSS). "
+msgstr "Si s'afegeixen a la capçalera els enllaços als articles i comentaris del canal d'informació (RSS). "
 
 #: wp-includes/theme.php:3716
 msgid "Whether theme opts in to wide alignment CSS class."
@@ -2138,7 +2141,7 @@ msgstr "Aquest mètode no està suportat."
 #: wp-includes/class-wp-xmlrpc-server.php:5127
 #: wp-includes/class-wp-xmlrpc-server.php:5620
 msgid "Sorry, the post could not be created."
-msgstr "No s'ha pogut crear l'entrada."
+msgstr "No s'ha pogut crear l'article."
 
 #. translators: Minimum input length in characters to start searching posts in
 #. the "Insert/edit link" modal.
@@ -2230,7 +2233,7 @@ msgstr "Restaura la còpia de seguretat"
 
 #: wp-includes/js/dist/editor.js:6190 wp-admin/includes/template.php:2584
 msgid "The backup of this post in your browser is different from the version below."
-msgstr "La còpia de seguretat de l'entrada al navegador és diferent de la versió que hi ha a continuació."
+msgstr "La còpia de seguretat de l'article al navegador és diferent de la versió que hi ha a continuació."
 
 #: wp-includes/nav-menu.php:97
 msgid "Nav menu locations must be strings."
@@ -2270,7 +2273,7 @@ msgstr "https://wordpress.org/support/article/using-permalinks/#choosing-your-pe
 #: wp-includes/link-template.php:2808
 #: wp-admin/includes/class-wp-users-list-table.php:365
 msgid "Posts"
-msgstr "Entrades"
+msgstr "Articles"
 
 #: wp-includes/customize/class-wp-customize-nav-menu-locations-control.php:53
 msgid "https://wordpress.org/support/article/wordpress-widgets/"
@@ -2408,11 +2411,11 @@ msgstr "Afegit:"
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-post-statuses-controller.php:344
 msgid "Whether posts of this status may have floating published dates."
-msgstr "Si les entrades d'aquest estat poden tenir dates de publicació variables."
+msgstr "Si els articles d'aquest estat poden tenir dates de publicació variables."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:413
 msgid "Sorry, you are not allowed to delete revisions of this post."
-msgstr "No teniu permisos per a suprimir les revisions d'aquesta entrada."
+msgstr "No teniu permisos per a suprimir les revisions d'aquest article."
 
 #. translators: %s: Custom field key.
 #: wp-includes/rest-api/fields/class-wp-rest-meta-fields.php:324
@@ -2436,7 +2439,7 @@ msgstr "Sindicació dels comentaris"
 
 #: wp-includes/widgets/class-wp-widget-meta.php:73
 msgid "Entries feed"
-msgstr "Sindicació de les entrades"
+msgstr "Sindicació dels articles"
 
 #: wp-includes/script-loader.php:876
 msgid "Unexpected response from the server. The file may have been uploaded successfully. Check in the Media Library or reload the page."
@@ -2556,7 +2559,7 @@ msgstr "El vostre navegador no pot penjar fitxers"
 
 #: wp-includes/class-wp-xmlrpc-server.php:658 wp-includes/option.php:2186
 msgid "Allow people to submit comments on new posts."
-msgstr "Permet a la gent enviar comentaris a les entrades noves."
+msgstr "Permet a la gent enviar comentaris als articles nous."
 
 #. translators: %s: Documentation URL.
 #: wp-includes/user.php:2826
@@ -2719,12 +2722,12 @@ msgstr "[%s] ha canviat el correu electrònic"
 
 #: wp-includes/js/dist/block-library.js:11290 wp-admin/options-reading.php:152
 msgid "posts"
-msgstr "entrades"
+msgstr "articles"
 
 #: wp-includes/widgets/class-wp-widget-calendar.php:34
 #: wp-includes/js/dist/block-library.js:11288
 msgid "A calendar of your site’s posts."
-msgstr "Un calendari de les entrades del lloc."
+msgstr "Un calendari dels articles del lloc."
 
 #: wp-includes/media.php:4427
 msgid "Edit gallery"
@@ -3068,7 +3071,7 @@ msgstr "Si cal que la taxonomia estigui disponible per seleccionar als menús de
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-taxonomies-controller.php:386
 msgid "Whether to allow automatic creation of taxonomy columns on associated post-types table."
-msgstr "Si cal permetre la creació automàtica de les columnes de taxonomia a la taula de tipus d'entrades."
+msgstr "Si cal permetre la creació automàtica de les columnes de taxonomia a la taula de tipus d'articles."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-taxonomies-controller.php:382
 msgid "Whether to generate a default UI for managing this taxonomy."
@@ -3102,7 +3105,7 @@ msgstr "Dreceres de teclat del bloc clàssic"
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-autosaves-controller.php:166
 msgid "Sorry, you are not allowed to view autosaves of this post."
-msgstr "No teniu permisos per veure els desats automàtics d'aquesta entrada."
+msgstr "No teniu permisos per veure els desats automàtics d'aquest article."
 
 #: wp-includes/js/dist/block-editor.js:22895
 #: wp-includes/js/dist/block-library.js:2132 wp-admin/edit-form-blocks.php:306
@@ -3226,11 +3229,11 @@ msgstr "No teniu permisos per llegir blocs amb aquest usuari."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-block-renderer-controller.php:120
 msgid "Sorry, you are not allowed to read blocks of this post."
-msgstr "No teniu permisos per llegir blocs d'aquesta entrada."
+msgstr "No teniu permisos per llegir blocs d'aquest article."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-block-renderer-controller.php:91
 msgid "ID of the post context."
-msgstr "ID del context de l'entrada."
+msgstr "ID del context de l'article."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-block-renderer-controller.php:54
 msgid "Attributes for the block."
@@ -3255,7 +3258,7 @@ msgstr "Limita el conjunt de resultats a temes assignats a un o més estats."
 
 #: wp-includes/theme.php:4019
 msgid "Post formats supported."
-msgstr "Els formats d'entrada suportats."
+msgstr "Els formats d'article suportats."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php:513
 msgid "Features supported by this theme."
@@ -3312,15 +3315,15 @@ msgstr "Plantilla d'enllaç permanent per l'objecte."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-autosaves-controller.php:379
 msgid "There is nothing to save. The autosave and the post content are the same."
-msgstr "No hi ha res a desar. El contingut del desat automàtic i el de l'entrada són el mateix."
+msgstr "No hi ha res a desar. El contingut del desat automàtic i el de l'article són el mateix."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-autosaves-controller.php:324
 msgid "Preview link for the post."
-msgstr "Previsualitza l'enllaç de l'entrada."
+msgstr "Previsualitza l'enllaç de l'article."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-autosaves-controller.php:269
 msgid "There is no autosave revision for this post."
-msgstr "No hi ha cap revisió desada automàticament per aquesta entrada."
+msgstr "No hi ha cap revisió desada automàticament per aquest article."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-autosaves-controller.php:119
 msgid "The ID for the object."
@@ -3334,7 +3337,7 @@ msgstr "S'ha actualitzat la pàgina."
 #: wp-includes/post.php:1759 wp-admin/edit-form-advanced.php:182
 #: wp-admin/edit-form-advanced.php:185
 msgid "Post updated."
-msgstr "S'ha actualitzat l'entrada."
+msgstr "S'ha actualitzat l'article."
 
 #: wp-includes/post.php:1758
 msgid "Page scheduled."
@@ -3342,7 +3345,7 @@ msgstr "S'ha programat la pàgina."
 
 #: wp-includes/post.php:1758
 msgid "Post scheduled."
-msgstr "S'ha programat l'entrada."
+msgstr "S'ha programat l'article."
 
 #: wp-includes/post.php:1757
 msgid "Page reverted to draft."
@@ -3350,7 +3353,7 @@ msgstr "S'ha revertit la pàgina a esborrany."
 
 #: wp-includes/post.php:1757
 msgid "Post reverted to draft."
-msgstr "S'ha tornat l'entrada a esborrany."
+msgstr "S'ha tornat l'article a esborrany."
 
 #: wp-includes/post.php:1756
 msgid "Page published privately."
@@ -3358,7 +3361,7 @@ msgstr "S'ha publicat la pàgina privadament."
 
 #: wp-includes/post.php:1756
 msgid "Post published privately."
-msgstr "S'ha publicat l'entrada privadament."
+msgstr "S'ha publicat l'article privadament."
 
 #: wp-includes/post.php:1755 wp-admin/edit-form-advanced.php:203
 msgid "Page published."
@@ -3366,7 +3369,7 @@ msgstr "S'ha publicat la pàgina."
 
 #: wp-includes/post.php:1755 wp-admin/edit-form-advanced.php:188
 msgid "Post published."
-msgstr "S'ha publicat l'entrada."
+msgstr "S'ha publicat l'article."
 
 #. translators: %s: Block name.
 #: wp-includes/class-wp-block-type-registry.php:105
@@ -3430,15 +3433,15 @@ msgstr "L'usuari actual pot assignar termes a la taxonomia %s."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2603
 msgid "The current user can change the author on this post."
-msgstr "L'usuari actual pot canviar l'autor d'aquesta entrada."
+msgstr "L'usuari actual pot canviar l'autor d'aquest article."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2587
 msgid "The current user can sticky this post."
-msgstr "L'usuari actual pot fixar en portada aquesta entrada."
+msgstr "L'usuari actual pot fixar en portada aquest article."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2554
 msgid "The current user can publish this post."
-msgstr "L'usuari actual pot publicar aquesta entrada."
+msgstr "L'usuari actual pot publicar aquest article."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:1302
 #: wp-admin/includes/ms.php:45
@@ -3781,7 +3784,7 @@ msgstr "Els meus"
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-post-types-controller.php:293
 msgid "Whether or not the post type can be viewed."
-msgstr "Si el tipus d'entrada es pot veure o no."
+msgstr "Si el tipus d'article es pot veure o no."
 
 #: wp-includes/functions.php:3289
 msgid "The link you followed has expired."
@@ -4121,7 +4124,7 @@ msgstr "Programa canvis personalitzats per publicar-los en una data futura."
 
 #: wp-includes/script-loader.php:1194
 msgid "Homepage and posts page must be different."
-msgstr "La pàgina d'inici i la pàgina d'entrades han de ser diferents."
+msgstr "La pàgina d'inici i la pàgina d'articles han de ser diferents."
 
 #. translators: %d: Error count.
 #: wp-includes/script-loader.php:1189 wp-includes/script-loader.php:1191
@@ -4744,7 +4747,7 @@ msgstr "La portada mostra"
 
 #: wp-includes/class-wp-customize-manager.php:5593
 msgid "You can choose what&#8217;s displayed on the homepage of your site. It can be posts in reverse chronological order (classic blog), or a fixed/static page. To set a static homepage, you first need to create two Pages. One will become the homepage, and the other will be where your posts are displayed."
-msgstr "Podeu triar què mostrar a la pàgina principal de la pàgina web. Poden ser entrades en ordre cronològicament invers (blog clàssic) o una pàgina fixa/estàtica. Per configurar una pàgina principal estàtica primer heu de crear dues pàgines. Una es convertirà en la pàgina de portada, i l'altra serà on es mostraran les entrades."
+msgstr "Podeu triar què mostrar a la pàgina principal de la pàgina web. Poden ser articles en ordre cronològicament invers (blog clàssic) o una pàgina fixa/estàtica. Per configurar una pàgina principal estàtica primer heu de crear dues pàgines. Una es convertirà en la pàgina de portada, i l'altra serà on es mostraran els articles."
 
 #: wp-includes/class-wp-customize-manager.php:5591
 msgid "Homepage Settings"
@@ -4956,7 +4959,7 @@ msgstr "URL al fitxer de mèdia"
 
 #: wp-includes/widgets/class-wp-widget-media.php:141
 msgid "Attachment post ID"
-msgstr "ID de l'entrada de l'adjunt"
+msgstr "ID de l'article de l'adjunt"
 
 #: wp-includes/widgets/class-wp-widget-media.php:82
 msgid "Looks like this isn&#8217;t the correct kind of file. Please link to an appropriate file instead."
@@ -5171,7 +5174,7 @@ msgstr "Totes les característiques, suportades pel tipus de publicació."
 #: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:85
 #: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:107
 msgid "The password for the parent post of the comment (if the post is password protected)."
-msgstr "Contrasenya per a l'entrada pare del comentari (si l'entrada està protegida per contrasenya)."
+msgstr "Contrasenya per a l'article pare del comentari (si l'article està protegit per contrasenya)."
 
 #: wp-includes/post.php:1750
 msgctxt "page"
@@ -5365,28 +5368,28 @@ msgstr "Ha de ser cert, ja que les revisions no admeten ser mogudes a la paperer
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-post-types-controller.php:332
 msgid "REST base route for the post type."
-msgstr "Ruta base REST per al tipus d'entrada."
+msgstr "Ruta base REST per al tipus d'article."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-post-types-controller.php:58
 #: wp-includes/rest-api/endpoints/class-wp-rest-post-types-controller.php:311
 msgid "An alphanumeric identifier for the post type."
-msgstr "Un identificador alfanumèric per al tipus d'entrada."
+msgstr "Un identificador alfanumèric per al tipus d'article."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-post-types-controller.php:299
 msgid "Human-readable labels for the post type for various contexts."
-msgstr "Etiquetes de l'entrada en un format llegible per a diversos contexts."
+msgstr "Etiquetes de l'article en un format llegible per a diversos contexts."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-post-types-controller.php:287
 msgid "Whether or not the post type should have children."
-msgstr "Si el tipus d'entrada hauria de tenir o no fills."
+msgstr "Si el tipus d'article hauria de tenir o no fills."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-post-types-controller.php:281
 msgid "A human-readable description of the post type."
-msgstr "Descripció llegible del tipus d'entrada."
+msgstr "Descripció llegible del tipus d'article."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-post-types-controller.php:275
 msgid "All capabilities used by the post type."
-msgstr "Totes les característiques utilitzades pel tipus d'entrada."
+msgstr "Totes les característiques utilitzades pel tipus d'article."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-post-statuses-controller.php:58
 #: wp-includes/rest-api/endpoints/class-wp-rest-post-statuses-controller.php:338
@@ -5495,11 +5498,11 @@ msgstr "El títol de la taxonomia."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-post-types-controller.php:305
 msgid "The title for the post type."
-msgstr "El títol del tipus d'entrada."
+msgstr "El títol del tipus d'article."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-post-types-controller.php:149
 msgid "Cannot view post type."
-msgstr "No es pot visualitzar el tipus d'entrada."
+msgstr "No es pot visualitzar el tipus d'article."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-post-statuses-controller.php:302
 msgid "The title for the status."
@@ -5536,7 +5539,7 @@ msgstr "Títol de l'adjunt."
 
 #: wp-includes/option.php:2137
 msgid "Default post category."
-msgstr "Category d'entrada predeterminada."
+msgstr "Categoria d'article predeterminat."
 
 #: wp-includes/option.php:2027
 msgid "Site tagline."
@@ -5615,7 +5618,7 @@ msgstr "Arxius"
 #: wp-includes/theme.php:2335
 msgctxt "Theme starter content"
 msgid "This is an example of a homepage section. Homepage sections can be any page other than the homepage itself, including the page that shows your latest blog posts."
-msgstr "Aquest és un exemple d'una secció de la pàgina principal. Les seccions de la pàgina principal poden ser qualsevol pàgina excepte la mateixa pàgina principal, incloent-hi la pàgina que mostra les últimes entrades al blog."
+msgstr "Aquest és un exemple d'una secció de la pàgina principal. Les seccions de la pàgina principal poden ser qualsevol pàgina excepte la mateixa pàgina principal, incloent-hi la pàgina que mostra els darrers articles al blog."
 
 #: wp-includes/theme.php:2327
 msgctxt "Theme starter content"
@@ -5640,7 +5643,7 @@ msgstr "Benvingut al lloc web! Aquesta és la vostra pàgina d'inici, que és el
 #: wp-includes/theme.php:2213
 msgctxt "Theme starter content"
 msgid "Recent Posts"
-msgstr "Entrades recents"
+msgstr "Articles recents"
 
 #: wp-includes/theme.php:2207
 msgctxt "Theme starter content"
@@ -5683,17 +5686,17 @@ msgstr "No teniu permisos per a suprimir aquest comentari."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:175
 msgid "Sorry, you are not allowed to view revisions of this post."
-msgstr "No teniu permisos per a visualitzar revisions d'aquesta entrada."
+msgstr "No teniu permisos per a visualitzar revisions d'aquest article."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:525
 #: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:533
 msgid "Sorry, you are not allowed to create a comment on this post."
-msgstr "No teniu permisos per a crear comentaris en aquesta entrada."
+msgstr "No teniu permisos per a crear comentaris en aquest article."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:507
 #: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:517
 msgid "Sorry, you are not allowed to create this comment without a post."
-msgstr "No teniu permisos per a crear aquest comentari sense una entrada."
+msgstr "No teniu permisos per a crear aquest comentari sense un article."
 
 #. translators: %s: Request parameter.
 #: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:479
@@ -5706,7 +5709,7 @@ msgstr "No teniu permisos per editar '%s' dels comentaris."
 #: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:405
 #: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:541
 msgid "Sorry, you are not allowed to read the post for this comment."
-msgstr "No teniu permisos per a llegir l'entrada d'aquest comentari."
+msgstr "No teniu permisos per a llegir l'article d'aquest comentari."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:397
 msgid "Sorry, you are not allowed to read this comment."
@@ -5714,7 +5717,7 @@ msgstr "No teniu permisos per a llegir aquest comentari."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:140
 msgid "Sorry, you are not allowed to read comments without a post."
-msgstr "No teniu permisos per a llegir comentaris sense entrada."
+msgstr "No teniu permisos per a llegir comentaris sense article."
 
 #: wp-includes/theme.php:2292
 msgctxt "Theme starter content"
@@ -5767,12 +5770,12 @@ msgstr "No teniu permisos per a assignar els termes proporcionats."
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:590
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:771
 msgid "Sorry, you are not allowed to make posts sticky."
-msgstr "No teniu permisos per a fixar entrades."
+msgstr "No teniu permisos per a fixar articles."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:104
 #: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:144
 msgid "Reassign the deleted user's posts and links to this user ID."
-msgstr "Reassigna les entrades i enllaços de l'usuari suprimit a aquest identificador d'usuari."
+msgstr "Reassigna els articles i enllaços de l'usuari suprimit a aquest identificador d'usuari."
 
 #: wp-includes/script-loader.php:1184
 msgid "This theme doesn&#8217;t support video headers on this page. Navigate to the front page or another page that supports video headers."
@@ -5977,7 +5980,7 @@ msgstr "Les revisions no es poden moure a la paperera. Definiu force=true per a 
 #. translators: %s: force=true
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:975
 msgid "The post does not support trashing. Set '%s' to delete."
-msgstr "L'entrada no es pot moure a la paperera. Definiu force=true per a suprimir-la."
+msgstr "L'article no es pot moure a la paperera. Definiu force=true per a suprimir-lo."
 
 #. translators: %s: force=true
 #: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:987
@@ -5994,7 +5997,7 @@ msgstr "S'ha passat un JSON invàlid al cos."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2812
 msgid "Limit result set to posts assigned one or more statuses."
-msgstr "Limita el conjunt de resultats a entrades assignades a un o més estats."
+msgstr "Limita el conjunt de resultats a articles assignats a un o més estats."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:651
 #: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:866
@@ -6007,7 +6010,7 @@ msgstr "Taxonomies associades amb el recurs."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2802
 msgid "Limit result set to posts with one or more specific slugs."
-msgstr "Limita el conjunt de resultats a entrades amb un o més àlies específics."
+msgstr "Limita el conjunt de resultats a articles amb un o més àlies específics."
 
 #: wp-includes/class-wp-xmlrpc-server.php:3987
 msgid "Comment is required."
@@ -6019,7 +6022,7 @@ msgstr "Títol buit."
 
 #: wp-trackback.php:130
 msgid "We already have a ping from that URL for this post."
-msgstr "Ja tenim un ping des d'aquest URL per a aquesta entrada."
+msgstr "Ja tenim un ping des d'aquest URL per a aquest article."
 
 #: wp-trackback.php:115
 msgid "Sorry, trackbacks are closed for this item."
@@ -6150,7 +6153,7 @@ msgstr "No esteu identificats."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:1075
 msgid "Limit result set to terms assigned to a specific post."
-msgstr "Limita el conjunt de termes assignats a una entrada específica."
+msgstr "Limita el conjunt de termes assignats a un article específic."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:1069
 msgid "Limit result set to terms assigned to a specific parent."
@@ -6158,7 +6161,7 @@ msgstr "Limita el conjunt de termes assignats a un pare específic."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:1062
 msgid "Whether to hide terms not assigned to any posts."
-msgstr "Si amagar els termes no assignats a qualsevol entrada."
+msgstr "Si amagar els termes no assignats a qualsevol article."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:1046
 msgid "Sort collection by term attribute."
@@ -6178,7 +6181,7 @@ msgstr "Descripció HTML del terme."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:936
 msgid "Number of published posts for the term."
-msgstr "Nombre d'entrades publicades del terme."
+msgstr "Nombre d'articles publicades del terme."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:74
 #: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1324
@@ -6192,7 +6195,7 @@ msgstr "Ha de ser cert, ja que els usuaris no admeten ser moguts a la paperera."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-taxonomies-controller.php:419
 msgid "Limit results to taxonomies associated with a specific post type."
-msgstr "Limita els resultats a taxonomies associades a un tipus d'entrada específic."
+msgstr "Limita els resultats a taxonomies associades a un tipus d'article específic."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-taxonomies-controller.php:347
 msgid "Whether or not the term cloud should be displayed."
@@ -6242,15 +6245,15 @@ msgstr "Desplaça el conjunt de resultats un nombre determinat d'elements."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2741
 msgid "Limit result set to posts with a specific menu_order value."
-msgstr "Limita el conjunt de resultats a entrades amb un valor de menu_order específic."
+msgstr "Limita el conjunt de resultats a articles amb un valor de menu_order específic."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2700
 msgid "Ensure result set excludes posts assigned to specific authors."
-msgstr "Assegura't que el conjunt de resultats exclou entrades assignades a autors específics."
+msgstr "Assegura't que el conjunt de resultats exclou articles assignats a autors específics."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2692
 msgid "Limit result set to posts assigned to specific authors."
-msgstr "Limita el conjunt de resultats a entrades assignades a autors específics."
+msgstr "Limita el conjunt de resultats a articles assignats a autors específics."
 
 #. translators: %s: Taxonomy name.
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2489
@@ -6291,19 +6294,19 @@ msgstr "L'identificador del mèdia destacat per a l'objecte."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2391
 msgid "Whether the excerpt is protected with a password."
-msgstr "Si el resum està protegit amb contraseña."
+msgstr "Si el resum està protegit amb contrasenya."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2385
 msgid "HTML excerpt for the object, transformed for display."
-msgstr "Extracte HTML de l'objecte, transformat per a mostrar-se."
+msgstr "Resum HTML de l'objecte, transformat per a mostrar-se."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2380
 msgid "Excerpt for the object, as it exists in the database."
-msgstr "Extracte de l'objecte, tal com existeix a la base de dades."
+msgstr "Resum de l'objecte, tal com existeix a la base de dades."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2371
 msgid "The excerpt for the object."
-msgstr "Extracte de l'objecte."
+msgstr "Resum de l'objecte."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:678
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2363
@@ -6312,7 +6315,7 @@ msgstr "L'identificador de l'autor de l'objecte."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2352
 msgid "Whether the content is protected with a password."
-msgstr "Si el contingut de l'entrada està protegit amb una contrasenya."
+msgstr "Si el contingut de l'article està protegit amb una contrasenya."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2315
 msgid "HTML title for the object, transformed for display."
@@ -6329,7 +6332,7 @@ msgstr "El títol de l'objecte."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2208
 msgid "Type of Post for the object."
-msgstr "Tipus d'entrada de l'objecte."
+msgstr "Tipus d'article de l'objecte."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2199
 msgid "A named status for the object."
@@ -6383,23 +6386,23 @@ msgstr "Identificador del mèdia destacat invàlid."
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1266
 #: wp-includes/rest-api/endpoints/class-wp-rest-autosaves-controller.php:259
 msgid "Invalid post parent ID."
-msgstr "Identificador del pare de l'entrada invàlid."
+msgstr "Identificador del pare de l'article invàlid."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1250
 msgid "A password protected post can not be set to sticky."
-msgstr "Una entrada protegida per contrasenya no es pot fixar."
+msgstr "Un article protegit per contrasenya no es pot fixar."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1239
 msgid "A sticky post can not be password protected."
-msgstr "Una entrada fixada no es pot protegir amb contrasenya."
+msgstr "Un article fixat no es pot protegir amb contrasenya."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1231
 msgid "A post can not be sticky and have a password."
-msgstr "Una entrada no es pot fixar i tindre contrasenya."
+msgstr "Un article no es pot fixar i tenir contrasenya."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:984
 msgid "The post has already been deleted."
-msgstr "L'entrada ja s'ha suprimit."
+msgstr "L'article ja s'ha suprimit."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:150
 #: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:387
@@ -6414,7 +6417,7 @@ msgstr "No teniu permisos per a gestionar aquesta extensió."
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:572
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:626
 msgid "Cannot create existing post."
-msgstr "No es pot crear una entrada existent."
+msgstr "No es pot crear una article existent."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:499
 msgid "Sorry, you are not allowed to create new users."
@@ -6422,7 +6425,7 @@ msgstr "No teniu permisos per crear usuaris nous."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:480
 msgid "Incorrect post password."
-msgstr "Contrasenya d'entrada incorrecta."
+msgstr "Contrasenya d'article incorrecta."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:228
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:205
@@ -6432,7 +6435,7 @@ msgstr "Heu de definir un terme de cerca per a ordernar per rellevància."
 #: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1672
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:93
 msgid "The password for the post if it is password protected."
-msgstr "La contrasenya per a l'entrada si està protegida per una."
+msgstr "La contrasenya per a l'article si està protegit per una."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-taxonomies-controller.php:329
 msgid "Human-readable labels for the taxonomy for various contexts."
@@ -6452,7 +6455,7 @@ msgstr "Totes les característiques utilitzades per la taxonomia."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-post-statuses-controller.php:95
 msgid "Sorry, you are not allowed to manage post statuses."
-msgstr "No teniu permisos per a gestionar l'estat de les entrades."
+msgstr "No teniu permisos per a gestionar l'estat dels articles."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1402
 msgid "An alphanumeric identifier for the user."
@@ -6460,23 +6463,23 @@ msgstr "Un identificador alfanumèric per a l'usuari."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-post-statuses-controller.php:332
 msgid "Whether to include posts in the edit listing for their post type."
-msgstr "Si s'han d'incloure o no entrades en la llista d'edició del seu tipus d'entrada."
+msgstr "Si s'han d'incloure o no articles en la llista d'edició del seu tipus d'article."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-post-statuses-controller.php:326
 msgid "Whether posts with this status should be publicly-queryable."
-msgstr "Si les entrades amb aquest estat s'haurien de poder consultar públicament."
+msgstr "Si els articles amb aquest estat s'haurien de poder consultar públicament."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-post-statuses-controller.php:320
 msgid "Whether posts of this status should be shown in the front end of the site."
-msgstr "Si les entrades amb aquest estat s'haurien de mostrar al frontal del lloc web."
+msgstr "Si els articles amb aquest estat s'haurien de mostrar al frontal del lloc web."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-post-statuses-controller.php:314
 msgid "Whether posts with this status should be protected."
-msgstr "Si les entrades amb aquest estat haurien d'estar protegides."
+msgstr "Si els articles amb aquest estat haurien d'estar protegits."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-post-statuses-controller.php:308
 msgid "Whether posts with this status should be private."
-msgstr "Si les entrades amb aquest estat haurien de ser privades."
+msgstr "Si els articles amb aquest estat haurien de ser privats."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-controller.php:381
 msgid "Scope under which the request is made; determines fields present in response."
@@ -6520,7 +6523,7 @@ msgstr "Limita el conjunt de resultats a comentaris amb un estat específic. Nec
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1648
 msgid "Limit result set to comments assigned to specific post IDs."
-msgstr "Limita el conjunt de resultats a comentaris assignats a identificadors d'entrada específics."
+msgstr "Limita el conjunt de resultats a comentaris assignats a identificadors d'article específics."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1639
 msgid "Ensure result set excludes specific parent IDs."
@@ -6563,7 +6566,7 @@ msgstr "Assegura't que el conjunt de resultat exclou identificadors específics.
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2710
 msgid "Limit response to posts published before a given ISO8601 compliant date."
-msgstr "Limita la resposta a entrades publicades abans d'una data en l'estàndard ISO8601."
+msgstr "Limita la resposta a articles publicats abans d'una data en l'estàndard ISO8601."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1569
 msgid "Limit result set to that from a specific author email. Requires authorization."
@@ -6579,7 +6582,7 @@ msgstr "Limita el conjunt de resultats a comentaris assignats a identificadors d
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2679
 msgid "Limit response to posts published after a given ISO8601 compliant date."
-msgstr "Limita la resposta a entrades publicades després d'una data en l'estàndard ISO8601."
+msgstr "Limita la resposta a articles publicats després d'una data en l'estàndard ISO8601."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1518
 msgid "Avatar URLs for the object author."
@@ -6601,7 +6604,7 @@ msgstr "Estat de l'objecte."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1480
 msgid "The ID of the associated post object."
-msgstr "L'identificador de l'objecte de l'entrada associat."
+msgstr "L'identificador de l'objecte de l'article associat."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1474
 #: wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:78
@@ -6754,7 +6757,7 @@ msgstr "No s'han subministrat dades."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:927
 msgid "The ID for the associated post of the attachment."
-msgstr "L'identificador de l'entrada associada de l'adjunt."
+msgstr "L'identificador de l'article associat de l'adjunt."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:920
 msgid "Details about the media file, specific to its type."
@@ -6771,7 +6774,7 @@ msgstr "Tipus de pare invàlid."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:125
 msgid "Sorry, you are not allowed to upload media to this post."
-msgstr "No teniu permisos per penjar mèdia d'aquesta entrada."
+msgstr "No teniu permisos per penjar mèdia d'aquest article."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:116
 #: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:404
@@ -6789,7 +6792,7 @@ msgstr "Atributs de la pàgina"
 
 #: wp-includes/post.php:1744
 msgid "Post Attributes"
-msgstr "Atributs de l'entrada"
+msgstr "Atributs de l'article"
 
 #: wp-includes/post.php:1737
 msgid "View Pages"
@@ -6797,7 +6800,7 @@ msgstr "Mostra les pàgines"
 
 #: wp-includes/post.php:1737
 msgid "View Posts"
-msgstr "Mostra les entrades"
+msgstr "Mostra els articles"
 
 #: wp-includes/post.php:190
 msgid "No changesets found in Trash."
@@ -6885,11 +6888,11 @@ msgstr "Permet notificació d'enllaços des d'altres blogs (retropings i retroen
 
 #: wp-includes/option.php:2157
 msgid "Blog pages show at most."
-msgstr "Quantitat d'entrades del blog a mostrar."
+msgstr "Quantitat d'articles del blog a mostrar."
 
 #: wp-includes/option.php:2147
 msgid "Default post format."
-msgstr "Format d'entrada predeterminat."
+msgstr "Format d'article predeterminat."
 
 #: wp-includes/option.php:2126
 msgid "Convert emoticons like :-) and :-P to graphics on display."
@@ -7049,7 +7052,7 @@ msgstr "%1$s no s'ha pogut crear: %2$s"
 
 #: wp-includes/class-wp-customize-nav-menus.php:1038
 msgid "Post"
-msgstr "Entrada"
+msgstr "Article"
 
 #. translators: 1: .mp4, 2: .mov
 #: wp-includes/class-wp-customize-manager.php:6044
@@ -7355,7 +7358,7 @@ msgstr "No teniu permisos per a suprimir aquesta pàgina."
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:903
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:951
 msgid "Sorry, you are not allowed to delete this post."
-msgstr "No teniu permisos per a suprimir aquesta entrada."
+msgstr "No teniu permisos per a suprimir aquest article."
 
 #. translators: %s: Site title.
 #: wp-login.php:292
@@ -7561,7 +7564,7 @@ msgstr "Les rutes han de ser dins d'un espai de noms amb el nom i versió de l'e
 
 #: wp-includes/post.php:1511
 msgid "Unregistering a built-in post type is not allowed"
-msgstr "No es permet anul·lar el registre d'un tipus d'entrada integrada"
+msgstr "No es permet anul·lar el registre d'un tipus d'article integrat"
 
 #: wp-includes/post.php:387
 msgctxt "post status"
@@ -7591,7 +7594,7 @@ msgstr "Prevista"
 #: wp-includes/post.php:315
 msgctxt "post status"
 msgid "Published"
-msgstr "Publicada"
+msgstr "Publicat"
 
 #: wp-includes/post-template.php:1726
 msgctxt "post password form"
@@ -8101,7 +8104,7 @@ msgstr "Llista de pàgines"
 
 #: wp-includes/post.php:1754
 msgid "Posts list"
-msgstr "Llista d'entrades"
+msgstr "Llista d'articles"
 
 #: wp-includes/post.php:1753
 msgid "Pages list navigation"
@@ -8109,7 +8112,7 @@ msgstr "Navegació per la llista de pàgines"
 
 #: wp-includes/post.php:1753
 msgid "Posts list navigation"
-msgstr "Navegació per la llista d'entrades"
+msgstr "Navegació per la llista d'articles"
 
 #: wp-includes/post.php:1751
 msgid "Filter pages list"
@@ -8117,7 +8120,7 @@ msgstr "Filtra la llista de pàgines"
 
 #: wp-includes/post.php:1751
 msgid "Filter posts list"
-msgstr "Filtra la llista d'entrades"
+msgstr "Filtra la llista d'articles"
 
 #: wp-includes/post.php:1743
 msgid "Page Archives"
@@ -8125,13 +8128,13 @@ msgstr "Arxiu de pàgines"
 
 #: wp-includes/post.php:1743
 msgid "Post Archives"
-msgstr "Arxiu d'entrades"
+msgstr "Arxiu d'articles"
 
 #: wp-includes/customize/class-wp-customize-nav-menu-item-setting.php:320
 #: wp-includes/class-wp-customize-nav-menus.php:197
 #: wp-includes/nav-menu.php:872
 msgid "Post Type Archive"
-msgstr "Arxiu de tipus d'entrades"
+msgstr "Arxiu de tipus d'articles"
 
 #: wp-includes/ms-functions.php:657
 msgid "Site names can only contain lowercase letters (a-z) and numbers."
@@ -8278,7 +8281,7 @@ msgstr "Comentaris anteriors"
 #. translators: Post calendar label. %s: Date.
 #: wp-includes/general-template.php:2347
 msgid "Posts published on %s"
-msgstr "Entrades publicades el %s"
+msgstr "Articles publicats el %s"
 
 #. translators: %s: 'document_title_separator' filter name.
 #: wp-includes/feed.php:106 wp-includes/feed.php:132
@@ -8363,7 +8366,7 @@ msgstr "%1$s està obsolet. Utilizeu %2$s en el seu lloc."
 #: wp-includes/capabilities.php:95 wp-includes/capabilities.php:166
 #: wp-includes/capabilities.php:235 wp-includes/capabilities.php:280
 msgid "The post type %1$s is not registered, so it may not be reliable to check the capability \"%2$s\" against a post of that type."
-msgstr "El tipus d'entrada %1$s no està registrat, motiu pel qual no és segur comprovar la funcionalitat «%2$s» contra una entrada d'aquest tipus."
+msgstr "El tipus d'article %1$s no està registrat, motiu pel qual no és segur comprovar la funcionalitat «%2$s» contra un article d'aquest tipus."
 
 #: wp-includes/class-wp-customize-widgets.php:837
 #: wp-includes/class-wp-customize-nav-menus.php:1164
@@ -8826,7 +8829,7 @@ msgstr[1] "El tema conté %s ubicacions per menús. Seleccioneu quines us agrada
 
 #: wp-includes/class-wp-customize-nav-menus.php:651
 msgid "This panel is used for managing navigation menus for content you have already published on your site. You can create menus and add items for existing content such as pages, posts, categories, tags, formats, or custom links."
-msgstr "Aquest panell s'usa per a gestionar els menús de navegació del contingut que teniu ja publicat al lloc web. Podeu crear menús i afegir elements de contingut existent, com ara pàgines, entrades, categories, etiquetes, formats o enllaços personalitzats."
+msgstr "Aquest panell s'usa per a gestionar els menús de navegació del contingut que teniu ja publicat al lloc web. Podeu crear menús i afegir elements de contingut existent, com ara pàgines, articles, categories, etiquetes, formats o enllaços personalitzats."
 
 #. translators: 1: Item name, 2: Item position, 3: Parent item name.
 #: wp-includes/class-wp-customize-nav-menus.php:566 wp-admin/nav-menus.php:487
@@ -9043,7 +9046,7 @@ msgstr "Previsualització del lloc web"
 
 #: wp-includes/post.php:1460 wp-includes/post.php:1461
 msgid "Post type names must be between 1 and 20 characters in length."
-msgstr "Els noms de tipus d'entrades han de ser d'1 a 20 caràcters de llarg."
+msgstr "Els noms de tipus d'articles han de ser d'1 a 20 caràcters de llarg."
 
 #. translators: Revision date format, see
 #. https://www.php.net/manual/datetime.format.php
@@ -9153,7 +9156,7 @@ msgstr "L'opció %1$s està obsoleta per a la família de funcions de %2$s. Useu
 #: wp-includes/widgets/class-wp-widget-archives.php:99
 #: wp-includes/blocks/archives.php:57
 msgid "Select Post"
-msgstr "Selecciona entrada"
+msgstr "Selecciona article"
 
 #: wp-includes/widgets/class-wp-widget-archives.php:96
 #: wp-includes/blocks/archives.php:54
@@ -9288,15 +9291,15 @@ msgstr "Un terme amb el nom i url ja existeix a la taxonomia."
 
 #: wp-includes/pluggable.php:1668
 msgid "You can see all comments on this post here:"
-msgstr "Podeu veure tots els comentaris de l'entrada aquí:"
+msgstr "Podeu veure tots els comentaris de l'article aquí:"
 
 #: wp-includes/pluggable.php:1646
 msgid "You can see all pingbacks on this post here:"
-msgstr "Podeu veure tots els retroenllaços d'aquesta entrada aquí:"
+msgstr "Podeu veure tots els retroenllaços d'aquest article aquí:"
 
 #: wp-includes/pluggable.php:1632
 msgid "You can see all trackbacks on this post here:"
-msgstr "Podeu veure tots els enllaços de seguiment de l'entrada aquí:"
+msgstr "Podeu veure tots els enllaços de seguiment de l'article aquí:"
 
 #. translators: %s: Comment text.
 #: wp-includes/pluggable.php:1631 wp-includes/pluggable.php:1645
@@ -9327,15 +9330,15 @@ msgstr "Anterior"
 #: wp-includes/link-template.php:2739 wp-includes/link-template.php:2807
 #: wp-includes/link-template.php:2859
 msgid "Posts navigation"
-msgstr "Navegació d'entrades"
+msgstr "Navegació d'articles"
 
 #: wp-includes/link-template.php:2738
 msgid "Newer posts"
-msgstr "Entrades més recents"
+msgstr "Articles més recents"
 
 #: wp-includes/link-template.php:2737
 msgid "Older posts"
-msgstr "Entrades anteriors"
+msgstr "Articles anteriors"
 
 #: wp-includes/l10n.php:1606
 msgctxt "translations"
@@ -9494,7 +9497,7 @@ msgstr "Pàgina"
 #: wp-includes/post.php:25
 msgctxt "add new from admin bar"
 msgid "Post"
-msgstr "Entrada"
+msgstr "Article"
 
 #: wp-includes/class-wp-editor.php:1374
 msgctxt "TinyMCE menu"
@@ -10581,7 +10584,7 @@ msgstr "Un núvol de les etiquetes més utilitzades."
 
 #: wp-includes/widgets/class-wp-widget-rss.php:26
 msgid "Entries from any RSS or Atom feed."
-msgstr "Entrades de qualsevol fil de subscripció RSS o Àtom."
+msgstr "Articles de qualsevol fil de subscripció RSS o Àtom."
 
 #: wp-includes/widgets/class-wp-widget-recent-comments.php:27
 msgid "Your site&#8217;s most recent comments."
@@ -10589,7 +10592,7 @@ msgstr "Els comentaris més recents del lloc web."
 
 #: wp-includes/widgets/class-wp-widget-recent-posts.php:27
 msgid "Your site&#8217;s most recent Posts."
-msgstr "Les entrades més recents del lloc web."
+msgstr "Els articles més recents del lloc web."
 
 #: wp-includes/widgets/class-wp-widget-categories.php:27
 msgid "A list or dropdown of categories."
@@ -10601,7 +10604,7 @@ msgstr "Inici de sessió, fils de subscripció RSS, &amp; enllaços de WordPress
 
 #: wp-includes/widgets/class-wp-widget-archives.php:27
 msgid "A monthly archive of your site&#8217;s Posts."
-msgstr "Un arxiu de les entrades del lloc web."
+msgstr "Un arxiu dels articles del lloc web."
 
 #: wp-includes/widgets/class-wp-widget-search.php:27
 msgid "A search form for your site."
@@ -11036,7 +11039,7 @@ msgstr "Àudio"
 
 #: wp-includes/post.php:1746
 msgid "Uploaded to this post"
-msgstr "S'ha penjat a aquesta entrada"
+msgstr "S'ha penjat a aquest article"
 
 #: wp-includes/media.php:4389
 #: wp-admin/includes/class-wp-media-list-table.php:127
@@ -11108,7 +11111,7 @@ msgstr "Insereix una galeria"
 #: wp-includes/media-template.php:253 wp-includes/js/dist/components.js:30193
 #: wp-admin/includes/media.php:2233
 msgid "Drop files to upload"
-msgstr "Desa els fitxers per penjar"
+msgstr "Arrossega els fitxers per penjar-los"
 
 #: wp-includes/media.php:4426
 msgid "Create gallery"
@@ -11272,7 +11275,7 @@ msgstr "Afegeix a la galeria"
 
 #: wp-includes/post.php:1745
 msgid "Insert into post"
-msgstr "Insereix a l'entrada"
+msgstr "Insereix a l'article"
 
 #: wp-includes/media.php:4385
 msgid "Create a new gallery"
@@ -11305,7 +11308,7 @@ msgstr "%1$s %2$s %3$s canal d'informació"
 
 #: wp-includes/widgets/class-wp-widget-recent-posts.php:179
 msgid "Display post date?"
-msgstr "Mostreu la data de les entrades?"
+msgstr "Mostreu la data dels articles?"
 
 #: wp-includes/class-wp-xmlrpc-server.php:5438 wp-admin/includes/post.php:40
 #: wp-admin/includes/post.php:85
@@ -11322,7 +11325,7 @@ msgstr "Les revisions estan desactivades."
 #: wp-includes/class-wp-xmlrpc-server.php:5007
 #: wp-includes/class-wp-xmlrpc-server.php:6194 wp-admin/includes/post.php:480
 msgid "Sorry, you are not allowed to edit posts."
-msgstr "No teniu permisos per editar entrades."
+msgstr "No teniu permisos per editar articles."
 
 #: wp-includes/class-wp-xmlrpc-server.php:2933
 msgid "Sorry, the user could not be updated."
@@ -11330,7 +11333,7 @@ msgstr "No es pot actualitzar l'usuari."
 
 #: wp-includes/class-wp-xmlrpc-server.php:1747
 msgid "There is a revision of this post that is more recent."
-msgstr "Hi ha una revisió d'aquesta entrada que és més recent."
+msgstr "Hi ha una revisió d'aquest article que és més recent."
 
 #: wp-includes/class-wp-xmlrpc-server.php:298
 msgid "Incorrect username or password."
@@ -11387,7 +11390,7 @@ msgstr "S'han passat un nombre insuficient d'arguments a aquest mètode XML-RPC.
 
 #: wp-includes/class-wp-xmlrpc-server.php:1379
 msgid "Sorry, you cannot stick a private post."
-msgstr "No podeu fixar una entrada privada."
+msgstr "No podeu fixar un article privat."
 
 #: wp-includes/class-wp-xmlrpc-server.php:5916
 msgid "Sorry, you are not allowed to publish this page."
@@ -11483,7 +11486,7 @@ msgstr "No teniu permisos per editar aquest comentari."
 
 #: wp-includes/class-wp-customize-manager.php:5649
 msgid "Posts page"
-msgstr "Pàgina d'entrades"
+msgstr "Pàgina d'articles"
 
 #: wp-includes/script-loader.php:1186
 msgid "Allowed Files"
@@ -11657,12 +11660,12 @@ msgstr "Descripció curta"
 #: wp-includes/class-wp-customize-manager.php:5614
 #: wp-admin/options-reading.php:90
 msgid "Your latest posts"
-msgstr "Les darreres entrades"
+msgstr "Els darrers articles"
 
 #: wp-includes/class-wp-xmlrpc-server.php:1452
 #: wp-includes/class-wp-xmlrpc-server.php:5742
 msgid "The post type may not be changed."
-msgstr "El tipus d'entrada no es pot canviar."
+msgstr "El tipus d'article no es pot canviar."
 
 #: wp-includes/class-wp-xmlrpc-server.php:561
 msgid "Image default align"
@@ -11692,7 +11695,7 @@ msgstr "Tipus d'enllaç per defecte de la imatge"
 #: wp-admin/includes/post.php:1895 wp-admin/includes/media.php:3768
 #: wp-admin/includes/ajax-actions.php:1997
 msgid "Sorry, you are not allowed to edit this post."
-msgstr "No teniu permisos per editar aquesta entrada."
+msgstr "No teniu permisos per editar aquest article."
 
 #: wp-includes/admin-bar.php:390
 msgid "Edit Site"
@@ -11713,12 +11716,12 @@ msgstr ","
 #: wp-includes/rest-api/endpoints/class-wp-rest-post-types-controller.php:157
 #: wp-admin/post.php:135 wp-admin/edit.php:17 wp-admin/edit.php:42
 msgid "Sorry, you are not allowed to edit posts in this post type."
-msgstr "No teniu permisos per editar entrades en aquest tipus d'entrada."
+msgstr "No teniu permisos per editar articles en aquest tipus d'article."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:484
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:999
 msgid "The post cannot be deleted."
-msgstr "No es pot suprimir l'entrada."
+msgstr "No es pot suprimir l'article."
 
 #: wp-includes/class-wp-xmlrpc-server.php:3482
 msgid "Sorry, you are not allowed to delete this category."
@@ -11740,7 +11743,7 @@ msgstr "No teniu permès assignar un terme a una de les taxonomies donades."
 #: wp-includes/class-wp-xmlrpc-server.php:1568
 #: wp-includes/class-wp-xmlrpc-server.php:1595
 msgid "Sorry, one of the given taxonomies is not supported by the post type."
-msgstr "No està admesa una de les taxonomies donades per al tipus d'entrada."
+msgstr "No està admesa una de les taxonomies donades per al tipus d'article."
 
 #: wp-includes/class-wp.php:300 wp-includes/ms-deprecated.php:275
 #: wp-includes/ms-deprecated.php:294
@@ -11760,16 +11763,16 @@ msgstr "Identificador d'autor invàlid."
 #: wp-admin/includes/post.php:42 wp-admin/includes/post.php:87
 #: wp-admin/press-this.php:20 wp-admin/post-new.php:61
 msgid "Sorry, you are not allowed to create posts as this user."
-msgstr "No teniu permisos per crear entrades com a aquest usuari."
+msgstr "No teniu permisos per crear articles com a aquest usuari."
 
 #: wp-includes/class-wp-xmlrpc-server.php:1483
 msgid "Sorry, you are not allowed to create password protected posts in this post type."
-msgstr "No teniu permisos per a crear entrades protegides amb contrasenya en aquest tipus d'entrades."
+msgstr "No teniu permisos per a crear articles protegits amb contrasenya en aquest tipus d'articles."
 
 #: wp-includes/class-wp-xmlrpc-server.php:1466
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1355
 msgid "Sorry, you are not allowed to create private posts in this post type."
-msgstr "No teniu permisos per a crear entrades privades en aquest tipus d'entrades."
+msgstr "No teniu permisos per a crear articles privats en aquest tipus d'articles."
 
 #: wp-includes/general-template.php:1192 wp-includes/general-template.php:1675
 msgctxt "yearly archives date format"
@@ -12033,7 +12036,7 @@ msgstr "Totes les pàgines"
 
 #: wp-includes/post.php:1742
 msgid "All Posts"
-msgstr "Totes les entrades"
+msgstr "Tots els articles"
 
 #: wp-includes/class-walker-comment.php:250
 msgid "Pingback:"
@@ -12041,7 +12044,7 @@ msgstr "Retroenllaç:"
 
 #: wp-includes/link-template.php:2657
 msgid "Post navigation"
-msgstr "Navegació d'entrades"
+msgstr "Navegació d'articles"
 
 #: wp-includes/link-template.php:3134 wp-includes/link-template.php:3197
 msgid "Comments navigation"
@@ -12144,7 +12147,7 @@ msgstr "Àudio"
 #: wp-includes/class-wp-xmlrpc-server.php:5394
 #: wp-includes/class-wp-xmlrpc-server.php:5749
 msgid "Invalid post format."
-msgstr "Format d'entrada invàlid."
+msgstr "Format d'article invàlid."
 
 #: wp-includes/class-wp-editor.php:1869
 msgid "No search term specified. Showing recent items."
@@ -12156,7 +12159,7 @@ msgstr "Solament una funció o mètode estàtics es poden fer servir en un scrip
 
 #: wp-includes/post.php:3651
 msgid "Passing an integer number of posts is deprecated. Pass an array of arguments instead."
-msgstr "El pas d'un nombre enter d'entrades és obsolet. Passeu per contra una matriu d'arguments."
+msgstr "El pas d'un nombre enter d'articles és obsolet. Passeu per contra una matriu d'arguments."
 
 #: wp-includes/post-formats.php:106
 msgctxt "Post format"
@@ -12204,7 +12207,7 @@ msgstr "No s'ha trobat cap pàgina a la paperera."
 
 #: wp-includes/post.php:1740
 msgid "No posts found in Trash."
-msgstr "No s'ha trobat cap entrada a la paperera."
+msgstr "No s'ha trobat cap article a la paperera."
 
 #: wp-includes/post.php:1739
 msgid "No pages found."
@@ -12298,7 +12301,7 @@ msgstr "Hom ha sol·licitat reinicialitzar la contrasenya per al següent compte
 
 #: wp-includes/post-formats.php:74
 msgid "Invalid post."
-msgstr "Entrada invàlida."
+msgstr "Article invàlid"
 
 #: wp-includes/admin-bar.php:640
 msgid "Manage Comments"
@@ -12375,7 +12378,7 @@ msgstr "%1$s funciona gràcies al %2$s"
 
 #: wp-includes/theme-compat/comments.php:24
 msgid "This post is password protected. Enter the password to view comments."
-msgstr "Aquesta entrada està protegida amb contrasenya. Introduïu-la per veure'n els comentaris."
+msgstr "Aquest article està protegit amb contrasenya. Introduïu-la per veure'n els comentaris."
 
 #: wp-includes/taxonomy.php:607
 msgid "Choose from the most used tags"
@@ -12457,7 +12460,7 @@ msgstr "Cerca pàgines"
 
 #: wp-includes/post.php:1738
 msgid "Search Posts"
-msgstr "Cerca a les entrades"
+msgstr "Cerca als articles"
 
 #: wp-includes/post.php:1734
 msgid "Edit Page"
@@ -12469,7 +12472,7 @@ msgstr "Afegeix una pàgina nova"
 
 #: wp-includes/post.php:1733
 msgid "Add New Post"
-msgstr "Afegeix una entrada nova"
+msgstr "Afegeix un article nou"
 
 #: wp-includes/post.php:1731
 msgctxt "post type singular name"
@@ -12479,7 +12482,7 @@ msgstr "Pàgina"
 #: wp-includes/post.php:1731
 msgctxt "post type singular name"
 msgid "Post"
-msgstr "Entrada"
+msgstr "Article"
 
 #: wp-includes/post.php:1730
 msgctxt "post type general name"
@@ -12489,7 +12492,7 @@ msgstr "Pàgines"
 #: wp-includes/post.php:1730 wp-admin/export.php:183
 msgctxt "post type general name"
 msgid "Posts"
-msgstr "Entrades"
+msgstr "Articles"
 
 #: wp-includes/ms-default-constants.php:146
 msgid "<strong>Conflicting values for the constants VHOST and SUBDOMAIN_INSTALL.</strong> The value of SUBDOMAIN_INSTALL will be assumed to be your subdomain configuration setting."
@@ -12526,7 +12529,7 @@ msgstr "Tema sense %s"
 #: wp-includes/class-wp-xmlrpc-server.php:6315
 #: wp-includes/class-wp-xmlrpc-server.php:6557
 msgid "Sorry, you must be able to edit posts on this site in order to view categories."
-msgstr "Heu de tenir permís per editar entrades en aquest lloc web per veure les categories."
+msgstr "Heu de tenir permís per editar articles en aquest lloc web per veure les categories."
 
 #: wp-includes/class-wp-xmlrpc-server.php:5352
 msgid "Sorry, you are not allowed to publish pages on this site."
@@ -12536,7 +12539,7 @@ msgstr "No teniu autorització per publicar en aquest lloc web."
 #: wp-includes/class-wp-xmlrpc-server.php:5379
 #: wp-includes/class-wp-xmlrpc-server.php:5384
 msgid "Sorry, you are not allowed to publish posts on this site."
-msgstr "No teniu permisos per publicar entrades en aquest lloc web."
+msgstr "No teniu permisos per publicar articles en aquest lloc web."
 
 #: wp-includes/class-wp-xmlrpc-server.php:1456
 #: wp-includes/class-wp-xmlrpc-server.php:5105
@@ -12553,7 +12556,7 @@ msgstr "No teniu permisos per accedir als detalls sobre aquest lloc web."
 
 #: wp-includes/class-wp-xmlrpc-server.php:3342
 msgid "Sorry, you must be able to edit posts on this site in order to view tags."
-msgstr "Heu de tenir permís per editar entrades en aquest lloc web per a veure les etiquetes."
+msgstr "Heu de tenir permís per editar articles en aquest lloc web per a veure les etiquetes."
 
 #: wp-includes/class-wp-xmlrpc-server.php:593
 msgid "Site Tagline"
@@ -12836,32 +12839,32 @@ msgstr "Fitxer cancel·lat."
 #. translators: %s: Post title.
 #: wp-includes/pluggable.php:1836
 msgid "A new comment on the post \"%s\" is waiting for your approval"
-msgstr "L'entrada \"%s\" té un comentari nou que espera l'aprovació"
+msgstr "L'article \"%s\" té un comentari nou que espera l'aprovació"
 
 #. translators: %s: Post title.
 #: wp-includes/pluggable.php:1825
 msgid "A new pingback on the post \"%s\" is waiting for your approval"
-msgstr "L'entrada \"%s\" té un retroenllaç nou que espera l'aprovació"
+msgstr "L'article \"%s\" té un retroenllaç nou que espera l'aprovació"
 
 #. translators: %s: Post title.
 #: wp-includes/pluggable.php:1814
 msgid "A new trackback on the post \"%s\" is waiting for your approval"
-msgstr "L'entrada \"%s\" té un retroenllaç nou que espera l'aprovació"
+msgstr "L'article \"%s\" té un retroenllaç nou que espera l'aprovació"
 
 #. translators: %s: Post title.
 #: wp-includes/pluggable.php:1639
 msgid "New pingback on your post \"%s\""
-msgstr "L'entrada \"%s\" té un retroenllaç nou"
+msgstr "L'article \"%s\" té un retroenllaç nou"
 
 #. translators: %s: Post title.
 #: wp-includes/pluggable.php:1625
 msgid "New trackback on your post \"%s\""
-msgstr "L'entrada \"%s\" té un retroenllaç nou"
+msgstr "L'article \"%s\" té un retroenllaç nou"
 
 #. translators: %s: Post title.
 #: wp-includes/pluggable.php:1653
 msgid "New comment on your post \"%s\""
-msgstr "L'entrada \"%s\" té un comentari nou"
+msgstr "L'article \"%s\" té un comentari nou"
 
 #: wp-includes/ms-load.php:475
 msgid "If you are the owner of this network please check that MySQL is running properly and all tables are error free."
@@ -12962,11 +12965,11 @@ msgstr "No teniu permisos per a canviar l'autor de la pàgina com a aquest usuar
 
 #: wp-includes/class-wp-xmlrpc-server.php:5801
 msgid "Sorry, you are not allowed to change the post author as this user."
-msgstr "No teniu permisos per a canviar l'autor de l'entrada com a aquest usuari."
+msgstr "No teniu permisos per a canviar l'autor de l'article com a aquest usuari."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:763
 msgid "Sorry, you are not allowed to update posts as this user."
-msgstr "No teniu permisos per a actualitzar entrades com aquest usuari."
+msgstr "No teniu permisos per a actualitzar articles com aquest usuari."
 
 #: wp-includes/class-wp-xmlrpc-server.php:1439
 #: wp-includes/class-wp-xmlrpc-server.php:1987
@@ -12982,30 +12985,30 @@ msgstr "No teniu permisos per a actualitzar entrades com aquest usuari."
 #: wp-admin/post.php:283 wp-admin/post.php:312 wp-admin/post-new.php:24
 #: wp-admin/edit.php:13 wp-admin/edit.php:36
 msgid "Invalid post type."
-msgstr "Tipus d'entrada invàlida."
+msgstr "Tipus d'article invàlid."
 
 #: wp-includes/class-wp-xmlrpc-server.php:1472
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1365
 msgid "Sorry, you are not allowed to publish posts in this post type."
-msgstr "No teniu permès publicar entrades en aquest tipus d'entrades."
+msgstr "No teniu permès publicar articles en aquest tipus d'articles."
 
 #: wp-includes/class-wp-xmlrpc-server.php:5183
 #: wp-includes/class-wp-xmlrpc-server.php:5257
 #: wp-includes/class-wp-xmlrpc-server.php:6158
 #: wp-includes/class-wp-xmlrpc-server.php:6738
 msgid "Sorry, no such post."
-msgstr "No existeix l'entrada."
+msgstr "No existeix l'article."
 
 #: wp-includes/class-wp-xmlrpc-server.php:5192
 #: wp-includes/class-wp-xmlrpc-server.php:5918
 #: wp-includes/class-wp-xmlrpc-server.php:6798
 msgid "Sorry, you are not allowed to publish this post."
-msgstr "No teniu permisos per a publicar aquesta entrada."
+msgstr "No teniu permisos per a publicar aquest article."
 
 #: wp-includes/class-wp-xmlrpc-server.php:5016
 #: wp-includes/class-wp-xmlrpc-server.php:6504
 msgid "Either there are no posts, or something went wrong."
-msgstr "O bé no hi ha cap entrada o bé ha ocorregut un problema tècnic."
+msgstr "O bé no hi ha cap article o bé ha ocorregut un problema tècnic."
 
 #: wp-includes/class-wp-xmlrpc-server.php:4296
 msgid "Sorry, you are not allowed to update options."
@@ -13013,7 +13016,7 @@ msgstr "No teniu permisos per a actualitzar les opcions."
 
 #: wp-includes/class-wp-xmlrpc-server.php:4083
 msgid "Sorry, you are not allowed to access details of this post."
-msgstr "No teniu permisos per accedir als detalls d'aquesta entrada."
+msgstr "No teniu permisos per accedir als detalls d'aquest article."
 
 #: wp-includes/class-wp-xmlrpc-server.php:3976
 msgid "A valid email address is required."
@@ -13047,7 +13050,7 @@ msgstr "Es necessita el nom i correu electrònic de l'autor del comentari."
 #: wp-includes/comment.php:2458 wp-includes/post.php:3800
 #: wp-includes/post.php:4433 wp-includes/revision.php:324
 msgid "Invalid post ID."
-msgstr "Identificador de l'entrada invàlid."
+msgstr "Identificador de l'article invàlid."
 
 #: wp-includes/class-wp-xmlrpc-server.php:3644
 #: wp-includes/class-wp-xmlrpc-server.php:3808
@@ -13358,11 +13361,11 @@ msgstr "Imatge"
 
 #: wp-includes/script-loader.php:850
 msgid "&lt; Prev"
-msgstr "&lt; Entrades anteriors"
+msgstr "&lt; Articles anteriors"
 
 #: wp-includes/script-loader.php:849
 msgid "Next &gt;"
-msgstr "Entrades següents &gt;"
+msgstr "Articles següents &gt;"
 
 #: wp-includes/script-loader.php:654
 msgid "Enter a description of the image"
@@ -13410,15 +13413,15 @@ msgstr "No es pot crear una revisió d'una revisió"
 
 #: wp-includes/post.php:4140
 msgid "Could not insert post into the database."
-msgstr "No s'ha pogut inserir l'entrada a la base de dades."
+msgstr "No s'ha pogut inserir l'article a la base de dades."
 
 #: wp-includes/post.php:4117
 msgid "Could not update post in the database."
-msgstr "No s'ha pogut actualitzar l'entrada a la base de dades."
+msgstr "No s'ha pogut actualitzar l'article a la base de dades."
 
 #: wp-includes/post.php:3849
 msgid "Content, title, and excerpt are empty."
-msgstr "El contingut, títol i extracte són buits."
+msgstr "El contingut, títol i resum són buits."
 
 #. translators: %s: Number of documents.
 #: wp-includes/post.php:2882
@@ -13467,8 +13470,8 @@ msgstr[1] "Previstos <span class=\"count\">(%s)</span>"
 #: wp-includes/post.php:319
 msgid "Published <span class=\"count\">(%s)</span>"
 msgid_plural "Published <span class=\"count\">(%s)</span>"
-msgstr[0] "Publicada <span class=\"count\">(%s)</span>"
-msgstr[1] "Publicades <span class=\"count\">(%s)</span>"
+msgstr[0] "Publicat <span class=\"count\">(%s)</span>"
+msgstr[1] "Publicats <span class=\"count\">(%s)</span>"
 
 #: wp-includes/post.php:110
 msgid "Revision"
@@ -13505,7 +13508,7 @@ msgstr "Pàgina següent"
 
 #: wp-includes/post-template.php:417
 msgid "There is no excerpt because this is a protected post."
-msgstr "No hi ha extracte perquè és una entrada protegida."
+msgstr "No hi ha resum perquè és un article protegit."
 
 #. translators: %s: Private post title.
 #: wp-includes/post-template.php:145
@@ -13549,11 +13552,11 @@ msgstr "Aprova: %s"
 
 #: wp-includes/pluggable.php:1831
 msgid "Pingback excerpt: "
-msgstr "Extracte del retroping: "
+msgstr "Resum del retroping: "
 
 #: wp-includes/pluggable.php:1820
 msgid "Trackback excerpt: "
-msgstr "Extracte del retroenllaç: "
+msgstr "Resum del retroenllaç: "
 
 #. translators: Comment moderation. %s: Comment action URL.
 #: wp-includes/pluggable.php:1687 wp-includes/pluggable.php:1867
@@ -13689,15 +13692,15 @@ msgstr "Comentaris més recents &raquo;"
 
 #: wp-includes/deprecated.php:2707
 msgid "Last Post"
-msgstr "Darrera entrada"
+msgstr "Darrer article"
 
 #: wp-includes/link-template.php:1987 wp-includes/link-template.php:2239
 msgid "Next Post"
-msgstr "Entrada següent"
+msgstr "Article següent"
 
 #: wp-includes/link-template.php:1987 wp-includes/link-template.php:2239
 msgid "Previous Post"
-msgstr "Entrada prèvia"
+msgstr "Article previ"
 
 #: wp-includes/link-template.php:829
 msgid "Comments Feed"
@@ -14239,11 +14242,11 @@ msgstr "Gris"
 
 #: wp-includes/general-template.php:4181
 msgid "Next &raquo;"
-msgstr "Entrades següents &raquo;"
+msgstr "Articles següents &raquo;"
 
 #: wp-includes/general-template.php:4180
 msgid "&laquo; Previous"
-msgstr "&laquo; Entrades anteriors"
+msgstr "&laquo; Articles anteriors"
 
 #. translators: 1: Blog name, 2: Separator (raquo), 3: Search query.
 #: wp-includes/general-template.php:3112
@@ -14253,7 +14256,7 @@ msgstr "%1$s %2$s Resultats de la cerca per al Canal &quot;%3$s&quot;"
 #. translators: 1: Blog name, 2: Separator (raquo), 3: Author name.
 #: wp-includes/general-template.php:3110
 msgid "%1$s %2$s Posts by %3$s Feed"
-msgstr "%1$s %2$s Entrades per al Canal %3$s"
+msgstr "%1$s %2$s Articles per al Canal %3$s"
 
 #. translators: 1: Blog name, 2: Separator (raquo), 3: Tag name.
 #: wp-includes/general-template.php:3106
@@ -14493,7 +14496,7 @@ msgstr "Núvol d'etiquetes"
 
 #: wp-includes/widgets.php:1682
 msgid "Display item date?"
-msgstr "Mostra la data de les entrades?"
+msgstr "Mostra la data dels articles?"
 
 #: wp-includes/widgets.php:1679
 msgid "Display item author if available?"
@@ -14501,11 +14504,11 @@ msgstr "Mostra l'autor si és disponible?"
 
 #: wp-includes/widgets.php:1676
 msgid "Display item content?"
-msgstr "Mostra el contingut de les entrades?"
+msgstr "Mostra el contingut dels articles?"
 
 #: wp-includes/widgets.php:1664
 msgid "How many items would you like to display?"
-msgstr "Quantes entrades s'han de mostrar?"
+msgstr "Quants articles s'han de mostrar?"
 
 #: wp-includes/widgets.php:1661
 msgid "Give the feed a title (optional):"
@@ -14527,12 +14530,12 @@ msgstr "%1$s en %2$s"
 
 #: wp-includes/widgets/class-wp-widget-recent-posts.php:173
 msgid "Number of posts to show:"
-msgstr "Nombre d'entrades que cal mostrar:"
+msgstr "Nombre d'articles que cal mostrar:"
 
 #: wp-includes/widgets/class-wp-widget-recent-posts.php:30
 #: wp-includes/widgets/class-wp-widget-recent-posts.php:48
 msgid "Recent Posts"
-msgstr "Entrades recents"
+msgstr "Articles recents"
 
 #: wp-includes/widgets/class-wp-widget-categories.php:201
 #: wp-includes/js/dist/block-library.js:11465
@@ -14563,7 +14566,7 @@ msgstr "Calendari"
 #: wp-includes/js/dist/block-library.js:11469
 #: wp-includes/js/dist/block-library.js:25180
 msgid "Show post counts"
-msgstr "Mostra el nombre d'entrades"
+msgstr "Mostra el nombre d'articles"
 
 #: wp-includes/widgets/class-wp-widget-archives.php:90
 #: wp-includes/blocks/archives.php:48
@@ -14679,7 +14682,7 @@ msgstr "Entra per respondre"
 #. translators: %s: Category name.
 #: wp-includes/class-walker-category.php:165
 msgid "Feed for all posts filed under %s"
-msgstr "Canal de totes les entrades arxivades en %s"
+msgstr "Canal de tots els articles arxivats en %s"
 
 #: wp-includes/category-template.php:544 wp-includes/taxonomy.php:609
 msgid "No categories"
@@ -14697,7 +14700,7 @@ msgstr "Darrera actualització: %s"
 #. translators: %s: Author's display name.
 #: wp-includes/author-template.php:304 wp-includes/author-template.php:479
 msgid "Posts by %s"
-msgstr "Entrades de %s"
+msgstr "Articles de %s"
 
 #. translators: %s: Author's display name.
 #: wp-includes/author-template.php:236
@@ -14895,7 +14898,7 @@ msgstr "Títol del lloc web"
 
 #: wp-includes/deprecated.php:2707 wp-admin/network/settings.php:314
 msgid "First Post"
-msgstr "Primera entrada"
+msgstr "Primer article"
 
 #. translators: accessibility text for the settings landmark region.
 #: wp-includes/admin-bar.php:564 wp-includes/js/dist/edit-post.js:3042
@@ -15061,7 +15064,7 @@ msgstr "(sense títol)"
 
 #: wp-includes/post.php:1735
 msgid "New Post"
-msgstr "Entrada nova"
+msgstr "Article nou"
 
 #: wp-includes/post.php:77 wp-admin/media.php:48
 msgid "Edit Media"
@@ -15523,11 +15526,11 @@ msgstr "Usuaris"
 
 #: wp-includes/post.php:1734
 msgid "Edit Post"
-msgstr "Edita l'entrada"
+msgstr "Edita l'article"
 
 #: wp-includes/post.php:1736
 msgid "View Post"
-msgstr "Mostra l'entrada"
+msgstr "Mostra l'article"
 
 #: wp-includes/post.php:1732
 msgctxt "post"
@@ -15643,7 +15646,7 @@ msgstr "Revisions"
 #: wp-includes/js/dist/block-library.js:18190
 #: wp-admin/includes/meta-boxes.php:702 wp-admin/includes/meta-boxes.php:1510
 msgid "Excerpt"
-msgstr "Extracte"
+msgstr "Resum"
 
 #. translators: accessibility text for the publish landmark region.
 #: wp-includes/script-loader.php:1151
@@ -15849,7 +15852,7 @@ msgstr "Pendent de revisió"
 #: wp-admin/includes/class-wp-posts-list-table.php:1106
 #: wp-admin/includes/class-wp-posts-list-table.php:1845 wp-admin/js/post.js:810
 msgid "Published"
-msgstr "Publicada"
+msgstr "Publicat"
 
 #: wp-includes/media-template.php:484 wp-includes/media-template.php:713
 #: wp-includes/revision.php:32 wp-includes/class-wp-editor.php:1205
@@ -15863,7 +15866,7 @@ msgstr "Títol"
 
 #: wp-includes/post.php:1739 wp-includes/js/dist/block-library.js:18343
 msgid "No posts found."
-msgstr "No s'ha trobat cap entrada."
+msgstr "No s'ha trobat cap article."
 
 #: wp-activate.php:183 wp-includes/post-template.php:1726
 #: wp-admin/includes/meta-boxes.php:202
