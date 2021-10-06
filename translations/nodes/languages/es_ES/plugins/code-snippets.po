@@ -2,31 +2,71 @@
 # This file is distributed under the same license as the Plugins - Code Snippets - Stable (latest release) package.
 msgid ""
 msgstr ""
+"Project-Id-Version: Plugins - Code Snippets - Stable (latest release)\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/code-snippets\n"
+"POT-Creation-Date: 2021-10-06T12:39:57+02:00\n"
 "PO-Revision-Date: 2020-07-11 10:09:21+0000\n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: GlotPress/3.0.0-alpha.2\n"
-"Language: es\n"
-"Project-Id-Version: Plugins - Code Snippets - Stable (latest release)\n"
+
+#: php/class-contextual-help.php:90
+msgid " Here you can add a new snippet, or edit an existing one."
+msgstr ""
+" Aquí puedes añadir un nuevo fragmento de código o editar uno existente."
+
+#: php/class-contextual-help.php:134
+msgid ""
+" Here you can load snippets from a code snippets export file into the "
+"database alongside existing snippets."
+msgstr ""
+" Aquí puedes cargar en la base de datos, junto a los fragmentos de código "
+"existentes, fragmentos de código desde un archivo de exportación de "
+"fragmentos de código."
+
+#: php/class-contextual-help.php:70
+msgid ""
+" Here you can manage your existing snippets and perform tasks on them such "
+"as activating, deactivating, deleting and exporting."
+msgstr ""
+" Aquí puedes gestionar tus fragmentos de código existentes y realizar tareas "
+"con ellos, como activarlos, desactivarlos, borrarlos y exportarlos."
+
+#. translators: 1: search query, 2: line number
+#: php/class-list-table.php:1137
+msgid " for &ldquo;%1$s&rdquo; on line %2$d"
+msgstr " de «%1$s» en la línea %2$d"
 
 #. translators: %s: search query
-#: php/class-list-table.php:1028
+#: php/class-list-table.php:1144
 msgid " for &ldquo;%s&rdquo;"
 msgstr " para «%s»"
 
 #. translators: %s: tag name
-#: php/class-list-table.php:1033
+#: php/class-list-table.php:1150
 msgid " in tag &ldquo;%s&rdquo;"
 msgstr " en la etiqueta «%s»"
 
-#: php/views/edit.php:163 php/class-list-table.php:172
+#. translators: 1: date format, 2: time format
+#: php/class-list-table.php:364
+msgctxt "date and time format"
+msgid "%1$s \\a\\t %2$s"
+msgstr "%1$s \\a \\l\\a\\s %2$s"
+
+#. translators: %s: Human-readable time difference.
+#: php/class-list-table.php:358
+msgid "%s ago"
+msgstr "%s atrás"
+
+#: php/admin-menus/class-edit-menu.php:724 php/class-list-table.php:192
 msgid "'Cancel' to stop, 'OK' to delete."
 msgstr "«Cancelar» para parar, «Aceptar» para borrar."
 
 #. translators: %s: size in bytes
-#: php/views/import.php:99
+#: php/views/import.php:100
 msgid "(Maximum size: %s)"
 msgstr "(Tamaño máximo: %s)"
 
@@ -40,7 +80,7 @@ msgstr ""
 "responde a una breve encuesta sobre cómo usas este plugin y lo que te "
 "gustaría cambiar o añadir en el futuro."
 
-#: php/admin-menus/class-manage-menu.php:145
+#: php/admin-menus/class-manage-menu.php:163
 msgid ""
 "<strong>Warning:</strong> Safe mode is active and snippets will not execute! "
 "Remove the <code>CODE_SNIPPETS_SAFE_MODE</code> constant from <code>wp-"
@@ -53,15 +93,22 @@ msgstr ""
 "php</code>. <a href=\"https://github.com/sheabunge/code-snippets/wiki/Safe-"
 "Mode\" target=\"_blank\">Ayuda</a>"
 
+#: php/views/edit.php:102
+msgctxt "help tooltip"
+msgid "?"
+msgstr "?"
+
 #: php/class-admin.php:160
 msgid "About"
 msgstr "Acerca de"
 
-#: php/class-contextual-help.php:41
+#: php/class-contextual-help.php:46
 msgid "About Plugin"
 msgstr "Acerca del plugin"
 
-#: php/class-list-table.php:376
+#: php/admin-menus/class-edit-menu.php:478
+#: php/admin-menus/class-manage-menu.php:148 php/class-list-table.php:222
+#: php/class-list-table.php:426
 msgid "Activate"
 msgstr "Activar"
 
@@ -70,27 +117,28 @@ msgid "Activate by Default"
 msgstr "Activar por defecto"
 
 #. translators: %s: total number of active snippets
-#: php/class-list-table.php:426
+#: php/class-list-table.php:476
 msgid "Active <span class=\"count\">(%s)</span>"
 msgid_plural "Active <span class=\"count\">(%s)</span>"
 msgstr[0] "Activo <span class=\"count\">(%s)</span>"
 msgstr[1] "Activos <span class=\"count\">(%s)</span>"
 
-#: php/admin-menus/class-edit-menu.php:39
+#: php/admin-menus/class-edit-menu.php:50
 msgctxt "menu label"
 msgid "Add New"
 msgstr "Añadir nuevo"
 
-#: php/views/import.php:31 php/views/edit.php:35 php/views/manage.php:24
+#: php/admin-menus/class-settings-menu.php:92 php/views/edit.php:36
+#: php/views/import.php:31 php/views/manage.php:24
 msgctxt "snippet"
 msgid "Add New"
 msgstr "Añadir nuevo"
 
-#: php/admin-menus/class-edit-menu.php:40 php/views/edit.php:38
+#: php/admin-menus/class-edit-menu.php:51 php/views/edit.php:39
 msgid "Add New Snippet"
 msgstr "Añadir un nuevo fragmento de código"
 
-#: php/class-contextual-help.php:111
+#: php/class-contextual-help.php:117
 msgid "Adding Snippets"
 msgstr "Añadir fragmentos de código"
 
@@ -104,7 +152,7 @@ msgstr ""
 "código</a>» para activar los fragmentos de código importados."
 
 #. translators: %s: total number of snippets
-#: php/class-list-table.php:423
+#: php/class-list-table.php:473
 msgid "All <span class=\"count\">(%s)</span>"
 msgid_plural "All <span class=\"count\">(%s)</span>"
 msgstr[0] "Todo <span class=\"count\">(%s)</span>"
@@ -115,29 +163,38 @@ msgctxt "menu label"
 msgid "All Snippets"
 msgstr "Todos los fragmentos de código"
 
-#: php/admin-menus/class-settings-menu.php:35
+#: php/admin-menus/class-settings-menu.php:38
 msgid "All settings have been reset to their defaults."
 msgstr "Todos los ajustes han sido restablecidos a sus valores por defecto."
 
-#: php/admin-menus/class-edit-menu.php:409
+#: php/admin-menus/class-edit-menu.php:444
 msgid "Allow this snippet to be activated on individual sites on the network"
 msgstr ""
 "Permitir que este fragmento de código se active en sitios individuales de la "
 "red"
 
+#: php/views/edit.php:111
+msgctxt "keyboard key"
+msgid "Alt"
+msgstr "Alt"
+
 #. Description of the plugin
 msgid ""
-"An easy, clean and simple way to add code snippets to your site. No need to "
+"An easy, clean and simple way to run code snippets on your site. No need to "
 "edit to your theme's functions.php file again!"
 msgstr ""
-"Una forma fácil, limpia y sencilla para añadir fragmentos de código a tu "
+"Una forma fácil, limpia y sencilla para ejecutar fragmentos de código en tu "
 "sitio. ¡No tendrás que volver a editar el archivo «functions.php» de tu tema!"
 
-#: php/admin-menus/class-import-menu.php:115
+#: php/admin-menus/class-manage-menu.php:150
+msgid "An error occurred when attempting to activate"
+msgstr "Ha ocurrido un error al intentar la activación"
+
+#: php/admin-menus/class-import-menu.php:117
 msgid "An error occurred when processing the import files."
 msgstr "Ha ocurrido un error al procesar los archivos de importación."
 
-#: php/admin-menus/class-edit-menu.php:482
+#: php/admin-menus/class-edit-menu.php:577
 msgid "An error occurred when saving the snippet."
 msgstr "Ha ocurrido un error al guardar el fragmento de código."
 
@@ -149,7 +206,7 @@ msgstr "Cerrar automáticamente los corchetes"
 msgid "Auto-close brackets and quotes when typed."
 msgstr "Cerrar automáticamente los corchetes y citas al escribir."
 
-#: php/class-contextual-help.php:63
+#: php/class-contextual-help.php:77
 msgid ""
 "Be sure to check your snippets for errors before you activate them, as a "
 "faulty snippet could bring your whole blog down. If your site starts doing "
@@ -160,15 +217,39 @@ msgstr ""
 "todo tu blog. Si tu sitio comienza a hacer cosas extrañas, desactiva todos "
 "tus fragmentos de código y actívalos uno por uno."
 
-#: php/class-contextual-help.php:91
-msgid "Cats Who Code"
-msgstr "Cats Who Code"
+#: php/views/edit.php:130
+msgid "Begin searching"
+msgstr "Comenzar la búsqueda"
 
-#: php/views/import.php:96
+#: php/class-contextual-help.php:95
+msgid "CSS-Tricks"
+msgstr "CSS-Tricks"
+
+#. translators: %s: PHP identifier name
+#: php/class-validator.php:201
+msgid "Cannot redeclare %s."
+msgstr "No se puede redeclarar %s."
+
+#. translators: %s: PHP class name
+#: php/class-validator.php:193
+msgid "Cannot redeclare class %s."
+msgstr "No se puede redeclarar la clase %s."
+
+#. translators: %s: PHP function name
+#: php/class-validator.php:189
+msgid "Cannot redeclare function %s."
+msgstr "No se puede redeclarar la función %s."
+
+#. translators: %s: PHP interface name
+#: php/class-validator.php:197
+msgid "Cannot redeclare interface %s."
+msgstr "No se puede redeclarar la interfaz %s."
+
+#: php/views/import.php:97
 msgid "Choose files from your computer:"
 msgstr "Elige los archivos de tu ordenador:"
 
-#: php/views/import.php:91
+#: php/views/import.php:92
 msgid ""
 "Choose one or more Code Snippets (.xml or .json) files to upload, then click "
 "\"Upload files and import\"."
@@ -176,45 +257,65 @@ msgstr ""
 "Elige uno o más archivos de fragmentos de código para subir (.xml o .json) "
 "y, después, haz clic en «Subir archivos e importar»."
 
-#: php/class-list-table.php:1042
+#: php/class-list-table.php:1158
 msgid "Clear Filters"
 msgstr "Vaciar los filtros"
 
-#: php/class-list-table.php:523
+#: php/class-list-table.php:573
 msgid "Clear List"
 msgstr "Vaciar la lista"
 
-#: php/class-list-table.php:157 php/class-list-table.php:378
+#: php/class-list-table.php:177 php/class-list-table.php:428
 msgid "Clone"
 msgstr "Clonar"
 
-#: php/views/edit.php:84
+#: php/views/edit.php:107
+msgctxt "keyboard key"
+msgid "Cmd"
+msgstr "Cmd"
+
+#: php/views/edit.php:91
 msgid "Code"
 msgstr "Código"
+
+#: php/admin-menus/class-edit-menu.php:496
+msgid "Code Direction"
+msgstr "Dirección del código"
 
 #: php/settings/settings.php:94
 msgid "Code Editor"
 msgstr "Editor de código"
 
 #. Plugin Name of the plugin
-#: php/admin-menus/class-import-menu.php:102
+#: php/admin-menus/class-import-menu.php:104
 msgid "Code Snippets"
 msgstr "Code Snippets"
+
+#. Author of the plugin
+msgid "Code Snippets Pro"
+msgstr "Code Snippets Pro"
 
 #: php/settings/settings-fields.php:77
 msgid "Complete Uninstall"
 msgstr "Desinstalación total"
 
-#: php/class-list-table.php:377
+#: php/views/edit.php:108
+msgctxt "keyboard key"
+msgid "Ctrl"
+msgstr "Ctrl"
+
+#: php/admin-menus/class-edit-menu.php:472
+#: php/admin-menus/class-manage-menu.php:149 php/class-list-table.php:222
+#: php/class-list-table.php:427
 msgid "Deactivate"
 msgstr "Desactivar"
 
-#: php/views/edit.php:168 php/class-list-table.php:167
-#: php/class-list-table.php:381
+#: php/admin-menus/class-edit-menu.php:696 php/class-list-table.php:187
+#: php/class-list-table.php:431
 msgid "Delete"
 msgstr "Borrar"
 
-#: php/admin-menus/class-edit-menu.php:309 php/class-list-table.php:337
+#: php/admin-menus/class-edit-menu.php:344 php/class-list-table.php:380
 msgid "Description"
 msgstr "Descripción"
 
@@ -238,14 +339,14 @@ msgstr ""
 msgid "Dismiss"
 msgstr "Descartar"
 
-#: php/views/import.php:83
+#: php/views/import.php:84
 msgid ""
 "Do not import any duplicate snippets; leave all existing snippets unchanged."
 msgstr ""
 "No importar ningún fragmento de código duplicado; dejar sin cambios todos "
 "los fragmentos de código existentes."
 
-#: php/admin-menus/class-edit-menu.php:161
+#: php/admin-menus/class-edit-menu.php:195
 msgid "Don't Panic"
 msgstr "No te preocupes"
 
@@ -253,20 +354,24 @@ msgstr "No te preocupes"
 msgid "Donate"
 msgstr "Donar"
 
-#: php/views/edit.php:150 php/class-list-table.php:379
+#: php/admin-menus/class-edit-menu.php:692 php/class-list-table.php:429
 msgid "Download"
 msgstr "Descargar"
 
-#: php/views/import.php:59
+#: php/views/import.php:60
 msgid "Duplicate Snippets"
 msgstr "Duplicar fragmentos de código"
 
-#: php/class-list-table.php:156
+#: php/class-list-table.php:176
 msgid "Edit"
 msgstr "Editar"
 
-#: php/admin-menus/class-edit-menu.php:13
-#: php/admin-menus/class-edit-menu.php:14 php/views/edit.php:32
+#: php/admin-menus/class-edit-menu.php:24 php/views/edit.php:33
+msgid "Edit Snippet"
+msgstr "Editar el fragmento de código"
+
+#: php/admin-menus/class-edit-menu.php:23
+msgctxt "menu label"
 msgid "Edit Snippet"
 msgstr "Editar el fragmento de código"
 
@@ -298,66 +403,82 @@ msgstr "Activar los botones para añadir medios"
 msgid "Enable the scope selector when editing a snippet"
 msgstr "Activar el selector de extensión al editar un fragmento de código"
 
-#: php/admin-menus/class-edit-menu.php:347
+#: php/admin-menus/class-edit-menu.php:382
 msgid "Enter a list of tags; separated by commas"
 msgstr "Introduce una lista de etiquetas, separadas por comas"
 
-#: php/views/edit.php:78
+#: php/views/edit.php:83
 msgid "Enter title here"
 msgstr "Introduce aquí el título"
 
-#: php/class-contextual-help.php:73
-msgid ""
-"Even if you're sure that you don't want to use Code Snippets ever again on "
-"this WordPress installation, you may want to use the export feature to back "
-"up your snippets."
-msgstr ""
-"Incluso si estás seguro de que no quieres volver a usar Code Snippets en "
-"esta instalación de WordPress, puede que quieras usar la característica de "
-"exportación para hacer una copia de seguridad de tus fragmentos de código."
-
-#: php/class-upgrade.php:156
+#: php/class-upgrade.php:181
 msgid "Example CSS snippet"
 msgstr "Ejemplo de fragmento de código para CSS"
 
-#: php/class-upgrade.php:146
+#: php/class-upgrade.php:171
 msgid "Example HTML shortcode"
 msgstr "Ejemplo de shortcode HTML"
 
-#: php/class-upgrade.php:167
+#: php/class-upgrade.php:192
 msgid "Example JavaScript snippet"
 msgstr "Ejemplo de fragmento de código para JavaScript"
 
-#: php/views/edit.php:155 php/class-list-table.php:158
-#: php/class-list-table.php:380
+#: php/admin-menus/class-edit-menu.php:464
+msgid "Execute Once"
+msgstr "Ejecutarlo una vez"
+
+#: php/admin-menus/class-edit-menu.php:695 php/class-list-table.php:178
+#: php/class-list-table.php:430
 msgid "Export"
 msgstr "Exportar"
 
-#: php/class-contextual-help.php:141
+#: php/class-contextual-help.php:148
 msgid "Exporting"
 msgstr "Exportando"
 
-#: php/class-contextual-help.php:42
+#: php/views/edit.php:112
+msgctxt "keyboard key"
+msgid "F"
+msgstr "F"
+
+#: php/class-contextual-help.php:47
 msgid "FAQ"
 msgstr "FAQ"
 
-#: php/class-list-table.php:515
+#: php/class-list-table.php:565
 msgid "Filter"
 msgstr "Filtrar"
 
-#: php/class-contextual-help.php:102
+#: php/views/edit.php:137
+msgid "Find next"
+msgstr "Encontrar el siguiente"
+
+#: php/views/edit.php:143
+msgid "Find previous"
+msgstr "Encontrar el anterior"
+
+#: php/class-contextual-help.php:108
 msgid "Finding Snippets"
 msgstr "Encontrar fragmentos de código"
 
-#: php/class-contextual-help.php:40
+#: php/class-contextual-help.php:45
 msgid "For more information:"
 msgstr "Para más información:"
+
+#: php/views/edit.php:113
+msgctxt "keyboard key"
+msgid "G"
+msgstr "G"
 
 #: php/settings/settings.php:92
 msgid "General"
 msgstr "General"
 
-#: php/class-contextual-help.php:104
+#: php/class-contextual-help.php:98
+msgid "GenerateWP"
+msgstr "GenerateWP"
+
+#: php/class-contextual-help.php:110
 msgid ""
 "Here are some links to websites which host a large number of snippets that "
 "you can add to your site:"
@@ -377,11 +498,11 @@ msgstr "Resalta todas las apariciones de la palabra seleccionada."
 msgid "How many spaces a block should be indented."
 msgstr "Cuántos espacios de sangría debe tener un bloque."
 
-#: php/class-list-table.php:336
+#: php/class-list-table.php:379
 msgid "ID"
 msgstr "ID"
 
-#: php/class-contextual-help.php:64
+#: php/class-contextual-help.php:78
 msgid ""
 "If something goes wrong with a snippet and you can't use WordPress, you can "
 "cause all snippets to stop executing by adding "
@@ -397,7 +518,7 @@ msgstr ""
 "fragmento de código defectuoso, puedes desactivar el modo seguro eliminando "
 "esta línea o reemplazando <strong>true</strong> por <strong>false</strong>."
 
-#: php/admin-menus/class-edit-menu.php:167
+#: php/admin-menus/class-edit-menu.php:201
 msgid ""
 "If you prefer, you can close this page and discard the changes you just "
 "made. No changes will be made to this site."
@@ -405,7 +526,7 @@ msgstr ""
 "Si lo prefieres, puedes cerrar esta página y descartar los cambios que has "
 "hecho. No se hará ningún cambio en este sitio."
 
-#: php/views/import.php:69
+#: php/views/import.php:70
 msgid ""
 "Ignore any duplicate snippets: import all snippets from the file regardless "
 "and leave all existing snippets unchanged."
@@ -419,7 +540,8 @@ msgctxt "menu label"
 msgid "Import"
 msgstr "Importar"
 
-#: php/views/edit.php:49 php/views/manage.php:29
+#: php/admin-menus/class-settings-menu.php:97 php/views/edit.php:52
+#: php/views/manage.php:29
 msgctxt "snippets"
 msgid "Import"
 msgstr "Importar"
@@ -428,18 +550,32 @@ msgstr "Importar"
 msgid "Import Snippets"
 msgstr "Importar fragmentos de código"
 
-#: php/admin-menus/class-import-menu.php:103
+#: php/admin-menus/class-import-menu.php:105
 msgid "Import snippets from a code snippets export file"
 msgstr ""
 "Importa fragmentos de código desde un archivo de exportación de fragmentos "
 "de código"
 
-#: php/class-contextual-help.php:132
+#. translators: %s: URL to Snippets admin menu
+#: php/class-contextual-help.php:143
+msgid ""
+"Imported snippets will be added to the database along with your existing "
+"snippets. Regardless of whether the snippets were active on the previous "
+"site, imported snippets are always inactive until activated using the <a "
+"href=\"%s\">Manage Snippets</a> page."
+msgstr ""
+"Los fragmentos de código importados se añadirán a la base de datos junto con "
+"los ya existentes. Independientemente de si los fragmentos de código estaban "
+"activos en el sitio anterior, los fragmentos de código importados siempre "
+"están inactivos hasta que se activen usando la página <a href=\"%s"
+"\">Gestionar los fragmentos de código</a>."
+
+#: php/class-contextual-help.php:139
 msgid "Importing"
 msgstr "Importando"
 
 #. translators: %s: total number of inactive snippets
-#: php/class-list-table.php:429
+#: php/class-list-table.php:479
 msgid "Inactive <span class=\"count\">(%s)</span>"
 msgid_plural "Inactive <span class=\"count\">(%s)</span>"
 msgstr[0] "Inactivo <span class=\"count\">(%s)</span>"
@@ -453,9 +589,13 @@ msgstr "Unidad de sangría"
 msgid "Indent With Tabs"
 msgstr "Sangrar con tabulaciones"
 
-#: php/class-list-table.php:723
+#: php/class-list-table.php:801
 msgid "It looks like you don't have any snippets."
 msgstr "Parece que no tienes ningún fragmento de código."
+
+#: php/admin-menus/class-edit-menu.php:499
+msgid "LTR"
+msgstr "LTR"
 
 #: php/settings/settings-fields.php:163
 msgid "Line Numbers"
@@ -468,7 +608,8 @@ msgstr ""
 "Hacer que el botón «Guardar y activar» sea la acción por defecto al guardar "
 "un fragmento de código."
 
-#: php/views/import.php:26 php/views/edit.php:44
+#: php/admin-menus/class-settings-menu.php:87 php/views/edit.php:47
+#: php/views/import.php:26
 msgctxt "snippets"
 msgid "Manage"
 msgstr "Gestionar"
@@ -481,7 +622,11 @@ msgstr "Gestiona tus fragmentos de código existentes"
 msgid "Media Buttons"
 msgstr "Botones para medios"
 
-#: php/class-contextual-help.php:106
+#: php/class-list-table.php:382
+msgid "Modified"
+msgstr "Modificado"
+
+#: php/class-contextual-help.php:112
 msgid ""
 "More places to find snippets, as well as a selection of example snippets, "
 "can be found in the <a href=\"https://github.com/sheabunge/code-snippets/"
@@ -491,52 +636,103 @@ msgstr ""
 "ejemplos de fragmentos de código, en la <a href=\"https://github.com/"
 "sheabunge/code-snippets/wiki/Finding-snippets\">documentación del plugin</a>."
 
-#: php/views/edit.php:77 php/class-list-table.php:335
+#: php/class-list-table.php:378 php/views/edit.php:82
 msgid "Name"
 msgstr "Nombre"
 
-#: php/class-list-table.php:376
+#: php/class-list-table.php:221 php/class-list-table.php:426
 msgid "Network Activate"
 msgstr "Activar para la red"
 
-#: php/class-list-table.php:148
+#: php/class-list-table.php:168
 msgid "Network Active"
 msgstr "Activo para la red"
 
-#: php/class-list-table.php:377
+#: php/class-list-table.php:221 php/class-list-table.php:427
 msgid "Network Deactivate"
 msgstr "Desactivar para la red"
 
-#: php/class-list-table.php:150
+#: php/class-list-table.php:170
 msgid "Network Only"
 msgstr "Solo en red"
 
-#: php/admin-menus/class-import-menu.php:125
+#: php/class-list-table.php:798
+msgid ""
+"No snippets were found matching the current search query. Please enter a new "
+"query or use the \"Clear Filters\" button above."
+msgstr ""
+"No se han encontrado fragmentos de código que coincidan con la consulta de "
+"búsqueda actual. Por favor, introduce una nueva consulta o usa el botón de "
+"«Vaciar filtros» de arriba."
+
+#: php/admin-menus/class-import-menu.php:127
 msgid "No snippets were imported."
 msgstr "No se ha importado ningún fragmento de código."
 
-#: php/admin-menus/class-edit-menu.php:379
+#: php/admin-menus/class-edit-menu.php:414
 msgid "Only run in administration area"
 msgstr "Ejecutar solo en el área de administración"
 
-#: php/admin-menus/class-edit-menu.php:380
+#: php/admin-menus/class-edit-menu.php:415
 msgid "Only run on site front-end"
 msgstr "Ejecutar solo en la portada del sitio"
 
-#: php/admin-menus/class-edit-menu.php:381
+#: php/admin-menus/class-edit-menu.php:416
 msgid "Only run once"
 msgstr "Ejecutar solo una vez"
 
-#: php/class-contextual-help.php:55 php/class-contextual-help.php:84
-#: php/class-contextual-help.php:126
+#: php/views/edit.php:110
+msgctxt "keyboard key"
+msgid "Option"
+msgstr "Opción"
+
+#: php/class-upgrade.php:211
+msgid "Order snippets by date"
+msgstr "Ordenar los fragmentos de código por fecha"
+
+#: php/class-upgrade.php:214
+msgid ""
+"Order snippets by last modification date by default in the snippets table."
+msgstr ""
+"Ordenar por defecto los fragmentos de código por la fecha de última "
+"modificación en la tabla de fragmentos de código."
+
+#: php/class-upgrade.php:203
+msgid "Order snippets by name"
+msgstr "Ordenar los fragmentos de código por nombre"
+
+#: php/class-upgrade.php:205
+msgid "Order snippets by name by default in the snippets table."
+msgstr ""
+"Por defecto, ordena los fragmentos de código por nombre en la tabla de "
+"fragmentos de código."
+
+#: php/class-contextual-help.php:68 php/class-contextual-help.php:89
+#: php/class-contextual-help.php:132
 msgid "Overview"
 msgstr "Descripción general"
 
-#: php/class-list-table.php:727
+#: php/class-validator.php:239
+msgid "Parse error: syntax error, unexpected end of snippet"
+msgstr ""
+"Error de análisis: error de sintaxis, final inesperado del fragmento de "
+"código"
+
+#: php/class-validator.php:176
+msgid "Parse error: syntax error, unexpected end of snippet."
+msgstr ""
+"Error de análisis: error de sintaxis, final inesperado del fragmento de "
+"código."
+
+#: php/class-list-table.php:805
 msgid "Perhaps you would like to add a new one?"
 msgstr "¿Quizá te gustaría añadir uno nuevo?"
 
-#: php/class-contextual-help.php:114
+#: php/views/edit.php:161
+msgid "Persistent search"
+msgstr "Búsqueda persistente"
+
+#: php/class-contextual-help.php:120
 msgid ""
 "Please be sure to check that your snippet is valid PHP code and will not "
 "produce errors before adding it through this page. While doing so will not "
@@ -548,7 +744,7 @@ msgstr ""
 "lo hagas, no se activará de inmediato, lo que ayudará a minimizar la "
 "posibilidad de que un fragmento de código defectuoso se active en tu sitio."
 
-#: php/admin-menus/class-edit-menu.php:166
+#: php/admin-menus/class-edit-menu.php:200
 msgid ""
 "Please use the back button in your browser to return to the previous page "
 "and try to fix the code error."
@@ -556,29 +752,46 @@ msgstr ""
 "Por favor, usa el botón para volver atrás de tu navegador para regresar a la "
 "página anterior e intenta corregir el error del código."
 
-#: php/class-contextual-help.php:44
+#: php/class-contextual-help.php:49
 msgid "Plugin Website"
 msgstr "Web del plugin"
 
-#: php/admin-menus/class-edit-menu.php:361 php/class-list-table.php:339
+#: php/admin-menus/class-edit-menu.php:396 php/class-list-table.php:383
 msgid "Priority"
 msgstr "Prioridad"
 
+#: php/views/edit.php:114
+msgctxt "keyboard key"
+msgid "R"
+msgstr "R"
+
+#: php/admin-menus/class-edit-menu.php:500
+msgid "RTL"
+msgstr "RTL"
+
 #. translators: %s: total number of recently activated snippets
-#: php/class-list-table.php:432
+#: php/class-list-table.php:482
 msgid "Recently Active <span class=\"count\">(%s)</span>"
 msgid_plural "Recently Active <span class=\"count\">(%s)</span>"
 msgstr[0] "Activo recientemente <span class=\"count\">(%s)</span>"
 msgstr[1] "Activos recientemente <span class=\"count\">(%s)</span>"
 
-#: php/views/import.php:76
+#: php/views/edit.php:149
+msgid "Replace"
+msgstr "Reemplazar"
+
+#: php/views/edit.php:155
+msgid "Replace all"
+msgstr "Reemplazar todo"
+
+#: php/views/import.php:77
 msgid ""
 "Replace any existing snippets with a newly imported snippet of the same name."
 msgstr ""
 "Reemplazar cualquier fragmento de código existente con un nuevo fragmento de "
 "código importado que tenga el mismo nombre."
 
-#: php/admin-menus/class-settings-menu.php:90
+#: php/admin-menus/class-settings-menu.php:118
 msgid "Reset to Default"
 msgstr "Restablecer los valores por defecto"
 
@@ -586,55 +799,89 @@ msgstr "Restablecer los valores por defecto"
 msgid "Row Height"
 msgstr "Altura de la fila"
 
-#: php/admin-menus/class-edit-menu.php:378
+#: php/class-list-table.php:216
+msgid "Run Once"
+msgstr "Ejecutar una vez"
+
+#: php/admin-menus/class-edit-menu.php:413
 msgid "Run snippet everywhere"
 msgstr "Ejecutar el fragmento de código en todas partes"
 
-#: php/class-contextual-help.php:61
+#: php/views/edit.php:115
+msgctxt "keyboard key"
+msgid "S"
+msgstr "S"
+
+#: php/class-contextual-help.php:75
 msgid "Safe Mode"
 msgstr "Modo seguro"
 
-#: php/views/edit.php:119 php/views/edit.php:133
+#: php/admin-menus/class-edit-menu.php:458
+#: php/admin-menus/class-edit-menu.php:668
+msgid "Save Changes"
+msgstr "Guardar los cambios"
+
+#: php/admin-menus/class-edit-menu.php:679
 msgid "Save Changes and Activate"
 msgstr "Guardar los cambios y activar"
 
-#: php/views/edit.php:139
+#: php/admin-menus/class-edit-menu.php:677
 msgid "Save Changes and Deactivate"
 msgstr "Guardar los cambios y desactivar"
 
-#: php/views/edit.php:110
+#: php/admin-menus/class-edit-menu.php:672
 msgid "Save Changes and Execute Once"
 msgstr "Guardar los cambios y ejecutar una vez"
 
-#: php/admin-menus/class-edit-menu.php:384
+#: php/admin-menus/class-edit-menu.php:459
+msgid "Save Snippet"
+msgstr "Guardar el fragmento de código"
+
+#: php/admin-menus/class-edit-menu.php:479
+msgid "Save Snippet and Activate"
+msgstr "Guardar el fragmento de código y activarlo"
+
+#: php/admin-menus/class-edit-menu.php:473
+msgid "Save Snippet and Deactivate"
+msgstr "Guardar el fragmento de código y desactivarlo"
+
+#: php/admin-menus/class-edit-menu.php:465
+msgid "Save Snippet and Execute Once"
+msgstr "Guardar el fragmento de código y ejecutarlo una vez"
+
+#: php/views/edit.php:123
+msgid "Save changes"
+msgstr "Guardar los cambios"
+
+#: php/admin-menus/class-edit-menu.php:419
 msgid "Scope"
 msgstr "Alcance"
 
-#: php/views/manage.php:48
+#: php/views/manage.php:53
 msgid "Search Installed Snippets"
 msgstr "Buscar fragmentos de código instalados"
 
-#: php/class-list-table.php:1024
+#: php/class-list-table.php:1129
 msgid "Search results"
 msgstr "Resultados de la búsqueda"
 
-#: php/admin-menus/class-manage-menu.php:153
+#: php/admin-menus/class-manage-menu.php:171
 msgid "Selected snippets <strong>activated</strong>."
 msgstr "<strong>Activados</strong> los fragmentos de código seleccionados."
 
-#: php/admin-menus/class-manage-menu.php:159
+#: php/admin-menus/class-manage-menu.php:177
 msgid "Selected snippets <strong>cloned</strong>."
 msgstr "<strong>Clonados</strong> los fragmentos de código seleccionados."
 
-#: php/admin-menus/class-manage-menu.php:155
+#: php/admin-menus/class-manage-menu.php:173
 msgid "Selected snippets <strong>deactivated</strong>."
 msgstr "<strong>Desactivados</strong> los fragmentos de código seleccionados."
 
-#: php/admin-menus/class-manage-menu.php:157
+#: php/admin-menus/class-manage-menu.php:175
 msgid "Selected snippets <strong>deleted</strong>."
 msgstr "<strong>Borrados</strong> los fragmentos de código seleccionados."
 
-#: php/admin-menus/class-settings-menu.php:74
+#: php/admin-menus/class-settings-menu.php:82
 msgid "Settings"
 msgstr "Ajustes"
 
@@ -643,28 +890,29 @@ msgctxt "menu label"
 msgid "Settings"
 msgstr "Ajustes"
 
-#: php/views/import.php:37 php/views/edit.php:56 php/views/manage.php:35
+#: php/views/edit.php:59 php/views/import.php:37 php/views/manage.php:37
 msgctxt "snippets"
 msgid "Settings"
 msgstr "Ajustes"
 
-#: php/settings/settings.php:209 php/admin-menus/class-settings-menu.php:116
+#: php/admin-menus/class-settings-menu.php:144 php/settings/settings.php:209
 msgid "Settings saved."
 msgstr "Ajustes guardados."
 
-#: php/class-list-table.php:258
+#: php/class-list-table.php:269
 msgid "Shared on Network"
 msgstr "Compartido en red"
 
-#: php/admin-menus/class-edit-menu.php:405
+#: php/admin-menus/class-edit-menu.php:440
 msgid "Sharing Settings"
 msgstr "Ajustes de compartir"
 
-#. Author of the plugin
-msgid "Shea Bunge"
-msgstr "Shea Bunge"
+#: php/views/edit.php:109
+msgctxt "keyboard key"
+msgid "Shift"
+msgstr "Mayús"
 
-#: php/class-list-table.php:501
+#: php/class-list-table.php:551
 msgid "Show all tags"
 msgstr "Mostrar todas las etiquetas"
 
@@ -684,68 +932,68 @@ msgstr ""
 "Mostrar las etiquetas de los fragmentos de código en las páginas de "
 "administración"
 
-#: php/admin-menus/class-manage-menu.php:152
+#: php/admin-menus/class-manage-menu.php:170
 msgid "Snippet <strong>activated</strong>."
 msgstr "Fragmento de código <strong>activado</strong>."
 
-#: php/admin-menus/class-edit-menu.php:490
+#: php/admin-menus/class-edit-menu.php:585
 msgid "Snippet <strong>added</strong> and <strong>activated</strong>."
 msgstr ""
 "Fragmento de código <strong>añadido</strong> y <strong>activado</strong>."
 
-#: php/admin-menus/class-edit-menu.php:491
+#: php/admin-menus/class-edit-menu.php:586
 msgid "Snippet <strong>added</strong> and <strong>executed</strong>."
 msgstr ""
 "Fragmento de código <strong>añadido</strong> y <strong>ejecutado</strong>."
 
-#: php/admin-menus/class-edit-menu.php:488
+#: php/admin-menus/class-edit-menu.php:583
 msgid "Snippet <strong>added</strong>."
 msgstr "Fragmento de código <strong>añadido</strong>."
 
-#: php/admin-menus/class-manage-menu.php:158
+#: php/admin-menus/class-manage-menu.php:176
 msgid "Snippet <strong>cloned</strong>."
 msgstr "<strong>Clonado</strong> el fragmento de código."
 
-#: php/admin-menus/class-manage-menu.php:154
+#: php/admin-menus/class-manage-menu.php:172
 msgid "Snippet <strong>deactivated</strong>."
 msgstr "Fragmento de código <strong>desactivado</strong>."
 
-#: php/admin-menus/class-manage-menu.php:156
+#: php/admin-menus/class-manage-menu.php:174
 msgid "Snippet <strong>deleted</strong>."
 msgstr "Fragmento de código <strong>borrado</strong>."
 
-#: php/admin-menus/class-manage-menu.php:151
+#: php/admin-menus/class-manage-menu.php:169
 msgid "Snippet <strong>executed</strong>."
 msgstr "Fragmento de código <strong>ejecutado</strong>."
 
-#: php/admin-menus/class-edit-menu.php:492
+#: php/admin-menus/class-edit-menu.php:587
 msgid "Snippet <strong>updated</strong> and <strong>activated</strong>."
 msgstr ""
 "Fragmento de código <strong>actualizado</strong> y <strong>activado</strong>."
 
-#: php/admin-menus/class-edit-menu.php:493
+#: php/admin-menus/class-edit-menu.php:588
 msgid "Snippet <strong>updated</strong> and <strong>deactivated</strong>."
 msgstr ""
 "Fragmento de código <strong>actualizado</strong> y <strong>desactivado</"
 "strong>."
 
-#: php/admin-menus/class-edit-menu.php:489
+#: php/admin-menus/class-edit-menu.php:584
 msgid "Snippet <strong>updated</strong>."
 msgstr "Fragmento de código <strong>actualizado</strong>."
 
-#: php/class-admin.php:68 php/class-admin.php:129
 #: php/admin-menus/class-manage-menu.php:23
-#: php/admin-menus/class-manage-menu.php:52
-#: php/admin-menus/class-manage-menu.php:91 php/views/manage.php:21
+#: php/admin-menus/class-manage-menu.php:60
+#: php/admin-menus/class-manage-menu.php:99 php/class-admin.php:68
+#: php/class-admin.php:129 php/views/manage.php:21
 msgid "Snippets"
 msgstr "Fragmentos de código"
 
-#: php/admin-menus/class-manage-menu.php:92
+#: php/admin-menus/class-manage-menu.php:100
 msgctxt "tools submenu label"
 msgid "Snippets"
 msgstr "Fragmentos de código"
 
-#: php/admin-menus/class-manage-menu.php:53
+#: php/admin-menus/class-manage-menu.php:61
 msgctxt "top-level menu label"
 msgid "Snippets"
 msgstr "Fragmentos de código"
@@ -758,68 +1006,22 @@ msgstr "Fragmentos de código » Ajustes"
 msgid "Snippets Settings"
 msgstr "Ajustes de los fragmentos de código"
 
-#: php/class-contextual-help.php:85
+#: php/class-contextual-help.php:58
 msgid ""
 "Snippets are similar to plugins - they both extend and expand the "
 "functionality of WordPress. Snippets are more light-weight, just a few lines "
-"of code, and do not put as much load on your server. Here you can add a new "
-"snippet, or edit an existing one."
+"of code, and do not put as much load on your server."
 msgstr ""
-"Los fragmentos de código son parecidos a los plugins: ambos amplían e "
-"incrementan la funcionalidad de WordPress. Los fragmentos de código son más "
-"ligeros, solo tienen unas pocas líneas de código y no sobrecargan tu "
-"servidor. Aquí puedes añadir un nuevo fragmento de código o editar uno "
-"existente."
+"Los fragmentos de código son parecidos a los plugins — ambos pueden ampliar "
+"e incrementar la funcionalidad de WordPress. Los fragmentos de código son "
+"más ligeros, solo tienen unas pocas líneas de código y no sobrecargan tu "
+"servidor."
 
-#: php/class-contextual-help.php:127
-msgid ""
-"Snippets are similar to plugins - they both extend and expand the "
-"functionality of WordPress. Snippets are more light-weight, just a few lines "
-"of code, and do not put as much load on your server. Here you can load "
-"snippets from a Code Snippets (.xml) import file into the database with your "
-"existing snippets."
-msgstr ""
-"Los fragmentos de código son parecidos a los plugins: ambos amplían e "
-"incrementan la funcionalidad de WordPress. Los fragmentos de código son más "
-"ligeros, solo tienen unas pocas líneas de código y no sobrecargan tu "
-"servidor. Aquí puedes cargar en la base de datos fragmentos de código desde "
-"un archivo de importación de Code Snippets (.xml) con tus fragmentos de "
-"código existentes."
-
-#: php/class-contextual-help.php:56
-msgid ""
-"Snippets are similar to plugins - they both extend and expand the "
-"functionality of WordPress. Snippets are more light-weight, just a few lines "
-"of code, and do not put as much load on your server. Here you can manage "
-"your existing snippets and perform tasks on them such as activating, "
-"deactivating, deleting and exporting."
-msgstr ""
-"Los fragmentos de código son parecidos a los plugins: ambos amplían e "
-"incrementan la funcionalidad de WordPress. Los fragmentos de código son más "
-"ligeros, solo tienen unas pocas líneas de código y no sobrecargan tu "
-"servidor. Aquí puedes gestionar tus fragmentos de código existentes y "
-"realizar tareas sobre ellos, como activarlos, desactivarlos, borrarlos y "
-"exportarlos."
-
-#: php/class-list-table.php:58
+#: php/class-list-table.php:57
 msgid "Snippets per page"
 msgstr "Fragmentos de código por página"
 
-#. translators: %s: URL to Snippets admin menu
-#: php/class-contextual-help.php:136
-msgid ""
-"Snippets will be added to the database along with your existing snippets. "
-"Regardless of whether the snippets were active on the previous site, "
-"imported snippets are always inactive until activated using the <a href=\"%s"
-"\">All Snippets</a> page.</p>"
-msgstr ""
-"Los fragmentos de código se añadirán a la base de datos junto con los ya "
-"existentes. Independientemente de si los fragmentos de código estaban "
-"activos en el sitio anterior, los fragmentos de código importados siempre "
-"están inactivos hasta que se activen usando la página <a href=\"%s\">Todos "
-"los fragmentos de código</a>.</p>"
-
-#: php/admin-menus/class-edit-menu.php:360
+#: php/admin-menus/class-edit-menu.php:395
 msgid ""
 "Snippets with a lower priority number will run before those with a higher "
 "number."
@@ -828,7 +1030,7 @@ msgstr ""
 "antes que los que tengan un número mayor."
 
 #. translators: 1: amount of snippets imported, 2: link to Snippets menu
-#: php/admin-menus/class-import-menu.php:131
+#: php/admin-menus/class-import-menu.php:133
 msgid ""
 "Successfully imported <strong>%1$d</strong> snippet. <a href=\"%2$s\">Have "
 "fun!</a>"
@@ -846,9 +1048,9 @@ msgstr[1] ""
 msgid "Support"
 msgstr "Soporte"
 
-#: php/class-contextual-help.php:43
-msgid "Support Forums"
-msgstr "Foros de soporte"
+#: php/class-contextual-help.php:48
+msgid "Support Forum"
+msgstr "Foro de soporte"
 
 #: php/class-admin.php:169
 msgid "Support this plugin's development"
@@ -858,7 +1060,7 @@ msgstr "Apoyar el desarrollo de este plugin"
 msgid "Tab Size"
 msgstr "Tamaño de la tabulación"
 
-#: php/admin-menus/class-edit-menu.php:342 php/class-list-table.php:338
+#: php/admin-menus/class-edit-menu.php:377 php/class-list-table.php:381
 msgid "Tags"
 msgstr "Etiquetas"
 
@@ -867,14 +1069,14 @@ msgid "Take the survey now"
 msgstr "Haz la encuesta ahora"
 
 #. translators: %d: line where error was produced
-#: php/admin-menus/class-edit-menu.php:163
+#: php/admin-menus/class-edit-menu.php:197
 msgid ""
 "The code snippet you are trying to save produced a fatal error on line %d:"
 msgstr ""
 "El fragmento de código que estás intentando guardar ha producido un error "
 "fatal en la línea %d:"
 
-#: php/admin-menus/class-edit-menu.php:165
+#: php/admin-menus/class-edit-menu.php:199
 msgid ""
 "The previous version of the snippet is unchanged, and the rest of this site "
 "should be functioning normally as before."
@@ -882,13 +1084,13 @@ msgstr ""
 "La versión anterior del fragmento de código no ha cambiado y el resto del "
 "sitio debería funcionar como antes."
 
-#: php/admin-menus/class-edit-menu.php:475
+#: php/admin-menus/class-edit-menu.php:570
 msgid "The snippet has been deactivated due to an error in the code."
 msgstr ""
 "El fragmento de código ha sido desactivado debido a un error en el código."
 
 #. translators: %d: line of file where error originated
-#: php/admin-menus/class-edit-menu.php:470
+#: php/admin-menus/class-edit-menu.php:565
 msgid "The snippet has been deactivated due to an error on line %d:"
 msgstr ""
 "El fragmento de código ha sido desactivado debido a un error en la línea %d:"
@@ -901,14 +1103,14 @@ msgstr "El ancho del carácter de una tabulación."
 msgid "Theme"
 msgstr "Tema"
 
-#: php/class-upgrade.php:151
+#: php/class-upgrade.php:176
 msgid ""
 "This is an example snippet for demonstrating how to add an HTML shortcode."
 msgstr ""
 "Este es un fragmento de código de ejemplo para demostrar cómo añadir a tu "
 "web un shortcode HTML."
 
-#: php/class-upgrade.php:161
+#: php/class-upgrade.php:186
 msgid ""
 "This is an example snippet for demonstrating how to add custom CSS code to "
 "your website."
@@ -916,7 +1118,7 @@ msgstr ""
 "Este es un fragmento de código de ejemplo para demostrar cómo añadir a tu "
 "web código CSS personalizado."
 
-#: php/class-upgrade.php:172
+#: php/class-upgrade.php:197
 msgid ""
 "This is an example snippet for demonstrating how to add custom JavaScript "
 "code to your website."
@@ -924,20 +1126,16 @@ msgstr ""
 "Este es un fragmento de código de ejemplo para demostrar cómo añadir a tu "
 "web código JavaScript personalizado."
 
-#: php/class-contextual-help.php:69
-msgid "Uninstall"
-msgstr "Desinstalar"
-
 #. translators: %d: snippet identifier
-#: php/class-list-table.php:234
+#: php/class-list-table.php:245
 msgid "Untitled #%d"
 msgstr "Sin título #%d"
 
-#: php/views/import.php:88
+#: php/views/import.php:89
 msgid "Upload Files"
 msgstr "Subir archivos"
 
-#: php/views/import.php:110
+#: php/views/import.php:111
 msgid "Upload files and import"
 msgstr "Subir archivos e importar"
 
@@ -965,19 +1163,15 @@ msgstr "Visita la página del plugin en WordPress.org"
 msgid "Visit the support forums"
 msgstr "Visita los foros de soporte"
 
-#: php/class-contextual-help.php:92
+#: php/class-contextual-help.php:97
+msgid "WP Beginner"
+msgstr "WPBeginner"
+
+#: php/class-contextual-help.php:94
 msgid "WP Function Me"
 msgstr "WP Function Me"
 
-#: php/class-contextual-help.php:90
-msgid "WP Snipp"
-msgstr "WP Snipp"
-
-#: php/class-contextual-help.php:89
-msgid "WP-Snippets"
-msgstr "WP-Snippets"
-
-#: php/views/import.php:62
+#: php/views/import.php:63
 msgid ""
 "What should happen if an existing snippet is found with an identical name to "
 "an imported snippet?"
@@ -994,64 +1188,56 @@ msgstr ""
 "Cuando se borra el plugin del menú «<a href=\"%s\">Plugins</a>», también se "
 "borran todos los fragmentos de código y los ajustes del plugin."
 
-#. translators: 1: snippets table name, 2: Code Snippets plugin directory
-#: php/class-contextual-help.php:72
-msgid ""
-"When you delete Code Snippets through the Plugins menu in WordPress it will "
-"clear up the <code>%1$s</code> table and a few other bits of data stored in "
-"the database. If you want to keep this data (ie: you are only temporally "
-"uninstalling Code Snippets) then remove the <code>%2$s</code> folder using "
-"FTP."
-msgstr ""
-"Cuando borres Code Snippets a través del menú «Plugins» en WordPress, se "
-"vaciará la tabla <code>%1$s</code> y algunos otros trozos de datos "
-"almacenados en la base de datos. Si quieres conservar estos datos (es decir, "
-"si solo estás desinstalando temporalmente Code Snippets), elimina la carpeta "
-"<code>%2$s</code> usando FTP."
-
 #: php/settings/settings-fields.php:157
 msgid "Whether the editor should scroll or wrap for long lines."
 msgstr "Si el editor debe desplazarse o envolverse para líneas largas."
+
+#: php/class-contextual-help.php:96
+msgid "WordPress Stack Exchange"
+msgstr "WordPress Stack Exchange"
 
 #: php/settings/settings-fields.php:155
 msgid "Wrap Lines"
 msgstr "Envolver las líneas"
 
-#: php/class-list-table.php:171
+#: php/class-list-table.php:360
+msgid "Y/m/d"
+msgstr "d/m/Y"
+
+#: php/class-list-table.php:191
 msgid "You are about to permanently delete the selected item."
 msgstr "Estás a punto de borrar permanentemente el elemento seleccionado."
 
-#: php/views/edit.php:162
+#: php/admin-menus/class-edit-menu.php:723
 msgid "You are about to permanently delete this snippet."
 msgstr "Estás a punto de borrar permanentemente este fragmento de código."
 
-#: php/admin-menus/class-admin-menu.php:107
+#: php/admin-menus/class-admin-menu.php:124
 msgid "You are not authorized to access this page."
 msgstr "No estás autorizado para acceder a esta página."
 
-#: php/class-contextual-help.php:134
+#: php/class-contextual-help.php:141
 msgid ""
-"You can load your snippets from a code snippets (.xml) export file using "
-"this page."
+"You can load your snippets from a code snippets export file using this page."
 msgstr ""
-"Puedes cargar los fragmentos de código desde un archivo de exportación de "
-"Code Snippets (.xml) usando esta página."
+"Puedes cargar tus fragmentos de código desde un archivo de exportación de "
+"Code Snippets usando esta página."
 
-#: php/class-upgrade.php:180
+#: php/class-upgrade.php:166
 msgid "You can remove it, or edit it to add your own content."
 msgstr "Puedes eliminarlo o editarlo para añadir tu propio contenido."
 
 #. translators: %s: URL to Manage Snippets admin menu
-#: php/class-contextual-help.php:143
+#: php/class-contextual-help.php:150
 msgid ""
-"You can save your snippets to a Code Snippets (.xml) export file using the "
-"<a href=\"%s\">Manage Snippets</a> page."
+"You can save your snippets to a code snippets export file using the <a href="
+"\"%s\">Manage Snippets</a> page."
 msgstr ""
 "Puedes guardar tus fragmentos de código en un archivo de exportación de Code "
-"Snippets (.xml) usando la página <a href=\"%s\">Gestionar los fragmentos de "
-"código</a>"
+"Snippets usando la página <a href=\"%s\">Gestionar los fragmentos de código</"
+"a>"
 
-#: php/class-contextual-help.php:113
+#: php/class-contextual-help.php:119
 msgid ""
 "You need to fill out the name and code fields for your snippet to be added. "
 "While the description field will add more information about how your snippet "
@@ -1062,42 +1248,46 @@ msgstr ""
 "sobre cómo funciona tu fragmento de código, qué es lo que hace y dónde lo "
 "has encontrado, es totalmente opcional."
 
-#: php/class-contextual-help.php:89
-msgid "http://wp-snippets.com"
-msgstr "http://wp-snippets.com"
+#. Author URI of the plugin
+msgid "https://codesnippets.pro"
+msgstr "https://codesnippets.pro"
 
-#: php/class-contextual-help.php:90
-msgid "http://wpsnipp.com"
-msgstr "http://wpsnipp.com"
+#: php/class-contextual-help.php:95
+msgid "https://css-tricks.com/snippets/wordpress/"
+msgstr "https://css-tricks.com/snippets/wordpress/"
 
-#: php/class-contextual-help.php:91
-msgid "http://www.catswhocode.com/blog/snippets"
-msgstr "http://www.catswhocode.com/blog/snippets"
-
-#: php/class-contextual-help.php:92
-msgid "http://www.wpfunction.me"
-msgstr "http://www.wpfunction.me"
+#: php/class-contextual-help.php:98
+msgid "https://generatewp.com"
+msgstr "https://generatewp.com"
 
 #. Plugin URI of the plugin
 msgid "https://github.com/sheabunge/code-snippets"
 msgstr "https://github.com/sheabunge/code-snippets"
 
-#. Author URI of the plugin
-msgid "https://sheabunge.com"
-msgstr "https://sheabunge.com"
+#: php/class-contextual-help.php:96
+msgid "https://wordpress.stackexchange.com/"
+msgstr "https://wordpress.stackexchange.com/"
+
+#: php/class-contextual-help.php:97
+msgid "https://www.wpbeginner.com/category/wp-tutorials/"
+msgstr "https://www.wpbeginner.com/category/wp-tutorials/"
+
+#: php/class-contextual-help.php:94
+msgid "https://www.wpfunction.me"
+msgstr "https://www.wpfunction.me"
 
 #: php/settings/settings-fields.php:98
 msgid "rows"
 msgstr "filas"
 
-#: php/class-upgrade.php:159
+#: php/class-upgrade.php:184
 msgid "write your CSS code here"
 msgstr "escribe aquí tu código CSS"
 
-#: php/class-upgrade.php:149
+#: php/class-upgrade.php:174
 msgid "write your HTML shortcode content here"
 msgstr "teclea aquí el contenido de tu shortcode HTML"
 
-#: php/class-upgrade.php:170
+#: php/class-upgrade.php:195
 msgid "write your JavaScript code here"
 msgstr "escribe aquí tu código JavaScript"

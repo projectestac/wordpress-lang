@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Plugins - BuddyPress - Stable (latest release)\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/buddypress\n"
-"POT-Creation-Date: 2021-05-31T11:16:31+02:00\n"
+"POT-Creation-Date: 2021-10-06T12:39:55+02:00\n"
 "PO-Revision-Date: 2019-04-12 14:54+0200\n"
 "Last-Translator: Joan Sala Soler <jsala236@xtec.cat>\n"
 "Language-Team: \n"
@@ -283,11 +283,10 @@ msgstr "%1$s | %2$s | Menciones"
 #. translators: %d: total friend count
 #: bp-friends/bp-friends-template.php:268
 #: bp-friends/bp-friends-template.php:738
-#, fuzzy
 msgid "%d friend"
 msgid_plural "%d friends"
 msgstr[0] "%d  amigo"
-msgstr[1] "%d  amigo"
+msgstr[1] ""
 
 #. translators: %d: the number of friends
 #: bp-friends/bp-friends-notifications.php:42
@@ -7867,21 +7866,21 @@ msgstr "Navegación secundaria de miembros"
 msgid "Member type already exists."
 msgstr "El tipo de miembro ya existe"
 
-#: bp-members/bp-members-admin.php:91
+#: bp-members/bp-members-admin.php:102
 msgid "Member type could not be updated due to missing required information."
 msgstr ""
 "El tipo de miembro no ha podido actualizarse debido a que faltaba "
 "información obligatorio."
 
-#: bp-members/bp-members-admin.php:82
+#: bp-members/bp-members-admin.php:93
 msgid "Member type successfully added."
 msgstr "El tipo de miembro se ha añadido correctamente."
 
-#: bp-members/bp-members-admin.php:90
+#: bp-members/bp-members-admin.php:101
 msgid "Member type successfully deleted."
 msgstr "El tipo de miembro se ha eliminado correctamente."
 
-#: bp-members/bp-members-admin.php:85
+#: bp-members/bp-members-admin.php:96
 msgid "Member type successfully updated."
 msgstr "El tipo de miembro se ha actualizado correctamente."
 
@@ -9512,7 +9511,7 @@ msgstr ""
 msgid "Please define the Group Type ID field."
 msgstr "Por favor, define el campo ID del tipo de grupo."
 
-#: bp-members/bp-members-admin.php:81
+#: bp-members/bp-members-admin.php:92
 msgid "Please define the Member Type ID field."
 msgstr "Por favor, define el campo ID del tipo de miembro."
 
@@ -11603,7 +11602,7 @@ msgstr ""
 "Lo siento, este tipo de grupo está registrado usando código. Desactiva el "
 "plugin o elimina el código personalizado antes de intentar borrarlo de nuevo."
 
-#: bp-members/bp-members-admin.php:88
+#: bp-members/bp-members-admin.php:99
 msgid ""
 "Sorry, This Member type is registered using code, deactivate the plugin or "
 "remove the custom code before trying to delete it again."
@@ -11679,7 +11678,7 @@ msgstr "Lo sentimos, este usuario ya existe."
 msgid "Sorry, the Group type was not deleted: it does not exist."
 msgstr "Lo siento, no se ha borrado el tipo de grupo: no existe."
 
-#: bp-members/bp-members-admin.php:87
+#: bp-members/bp-members-admin.php:98
 msgid "Sorry, the Member type was not deleted: it does not exist."
 msgstr "Lo siento, el tipo de miembro no ha sido eliminado: no existe."
 
@@ -11755,7 +11754,7 @@ msgstr ""
 msgid "Sorry, there was an error and the Group type wasn’t added."
 msgstr "Lo siento, ha habido un error y no se ha añadido el tipo de grupo."
 
-#: bp-members/bp-members-admin.php:83
+#: bp-members/bp-members-admin.php:94
 msgid "Sorry, there was an error and the Member type wasn’t added."
 msgstr "Lo siento, ha habido un error y el tipo de miembro no se ha añadido."
 
@@ -11763,7 +11762,7 @@ msgstr "Lo siento, ha habido un error y el tipo de miembro no se ha añadido."
 msgid "Sorry, there was an error while trying to delete this Group type."
 msgstr "Lo siento, ha habido un error al intentar borrar este tipo de grupo."
 
-#: bp-members/bp-members-admin.php:89
+#: bp-members/bp-members-admin.php:100
 msgid "Sorry, there was an error while trying to delete this Member type."
 msgstr "Lo siento, ha habido un error al intentar borrar este tipo de miembro."
 
@@ -11808,7 +11807,7 @@ msgstr "Lo sentimos, no hemos encontrado sitios."
 msgid "Sorry, this Group type already exists."
 msgstr "Lo siento, ya existe el tipo de grupo."
 
-#: bp-members/bp-members-admin.php:86
+#: bp-members/bp-members-admin.php:97
 msgid "Sorry, this Member type already exists."
 msgstr "Lo siento, este tipo de miembro ya existe."
 

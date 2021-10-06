@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Plugins - bbPress - Stable (latest release)\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/bbpress\n"
-"POT-Creation-Date: 2021-05-31T11:16:30+02:00\n"
+"POT-Creation-Date: 2021-10-06T12:39:54+02:00\n"
 "PO-Revision-Date: 2019-01-07 12:52:57+0000\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -541,6 +541,8 @@ msgid ""
 "<strong>Close</strong> will mark the selected forum as &#8217;closed&#8217; "
 "and disable the ability to post new topics and replies in it."
 msgstr ""
+"<strong>Fermer</strong> indiquera le sujet sélectionné; comme «fermé» et "
+"désactivera l’option de publication de nouveaux sujets ou réponses."
 
 #: includes/admin/topics.php:149
 msgid ""
@@ -1857,6 +1859,7 @@ msgstr "Autoriser les groupes BuddyPress &agrave; avoir leurs propres forums"
 #: includes/admin/settings.php:855
 msgid "Allow Moderators and Keymasters to edit users"
 msgstr ""
+"Autoriser les modérateurs et les maîtres de clés à modifier les utilisateurs"
 
 #: includes/admin/settings.php:703
 msgid "Allow flood protection by throttling users for %s seconds after posting"
@@ -3448,6 +3451,7 @@ msgstr "En réponse à :"
 #: includes/admin/tools/help.php:105
 msgid "In the Database Settings you have a number of options:"
 msgstr ""
+"Dans les réglages de base de données, vous avez un certain nombre d’options :"
 
 #: includes/admin/tools/help.php:117
 msgid "In the Options you have a number of options:"
@@ -4055,7 +4059,7 @@ msgstr "Aucune réponse n’a été trouvée ici."
 
 #: templates/default/bbpress/feedback-no-search.php:17
 msgid "Oh, bother! No search results were found here."
-msgstr ""
+msgstr "La recherche ne donne aucun r&eacute;sultat !"
 
 #: templates/default/bbpress/feedback-no-topics.php:17
 msgid "Oh, bother! No topics were found here."
@@ -5722,6 +5726,8 @@ msgstr ""
 #: includes/admin/settings.php:841
 msgid "This does not include the ability to edit users."
 msgstr ""
+"Ceci n’inclut pas la possibilité de modifier les utilisateurs et "
+"utilisatrices."
 
 #: includes/admin/settings.php:1738
 msgid ""
@@ -5778,7 +5784,7 @@ msgstr "Ce groupe ne poss&egrave;de pas de forum"
 
 #: includes/admin/settings.php:856
 msgid "This includes roles, passwords, and email addresses."
-msgstr ""
+msgstr "Ceci inclut les rôles, les mots de passe et les adresses e-mail"
 
 #: templates/default/extras/page-topic-tags.php:22
 msgid "This is a collection of tags that are currently popular on our forums."
@@ -6649,6 +6655,9 @@ msgid ""
 "Warning! Problem updating %1$s. Your server may not be able to connect to "
 "sites running on it. Error message: %2$s"
 msgstr ""
+"Attention ! Probl&egrave;me de mise &agrave; jour de %1$s. Il se peut que "
+"votre serveur ne puisse pas se connecter au site avant r&eacute;paration. "
+"Message d'erreur: %2$s"
 
 #: templates/default/bbpress/form-user-register.php:24
 msgid ""
@@ -6790,6 +6799,11 @@ msgid ""
 "Select the replies you want to act on using the checkboxes, then select the "
 "action you want to take from the Bulk Actions menu and click Apply."
 msgstr ""
+"Vous pouvez aussi modifier, mettre en indésirable ou d&eacute;placer "
+"plusieurs r&eacute;ponses &agrave; la corbeille d'un coup. S&eacute;"
+"lectionnez les r&eacute;ponses que vous voulez traiter en utilisant les "
+"boîtes &agrave; cocher, puis s&eacute;lectionnez l'action &agrave; r&eacute;"
+"aliser dans le menu Actions de masse et cliquez sur Appliquer."
 
 #: includes/admin/topics.php:161
 msgid ""
@@ -6847,6 +6861,10 @@ msgid ""
 "the upper left to show All, Published, Draft, Pending, Trashed, or Spam "
 "replies. The default view is to show all replies."
 msgstr ""
+"Vous pouvez filtrer la liste des r&eacute;ponses par état en utilisant les "
+"liens texte en haut &agrave; gauche pour afficher tous, publi&eacute;s, "
+"brouillons, mis &agrave; la corbeille ou indésirables. L'affichage par "
+"d&eacute;faut montre toutes les r&eacute;ponses."
 
 #: includes/admin/topics.php:132
 msgid ""

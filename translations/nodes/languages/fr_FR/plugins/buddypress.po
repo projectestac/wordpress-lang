@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Plugins - BuddyPress - Stable (latest release)\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/buddypress\n"
-"POT-Creation-Date: 2021-05-31T11:16:31+02:00\n"
+"POT-Creation-Date: 2021-10-06T12:39:55+02:00\n"
 "PO-Revision-Date: 2019-03-15 01:44:51+0000\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -282,11 +282,10 @@ msgstr "%1$s | %2$s | Mentions"
 #. translators: %d: total friend count
 #: bp-friends/bp-friends-template.php:268
 #: bp-friends/bp-friends-template.php:738
-#, fuzzy
 msgid "%d friend"
 msgid_plural "%d friends"
 msgstr[0] "%d ami"
-msgstr[1] "%d ami"
+msgstr[1] ""
 
 #. translators: %d: the number of friends
 #: bp-friends/bp-friends-notifications.php:42
@@ -7892,21 +7891,21 @@ msgstr "Navigation secondaire de membre"
 msgid "Member type already exists."
 msgstr "Ce type d'utilisateur existe déjà."
 
-#: bp-members/bp-members-admin.php:91
+#: bp-members/bp-members-admin.php:102
 msgid "Member type could not be updated due to missing required information."
 msgstr ""
 "Le type de membre n’a pas pu être mis à jour en raison de l’absence d’une "
 "information requise."
 
-#: bp-members/bp-members-admin.php:82
+#: bp-members/bp-members-admin.php:93
 msgid "Member type successfully added."
 msgstr "Type de membre ajouté avec succès."
 
-#: bp-members/bp-members-admin.php:90
+#: bp-members/bp-members-admin.php:101
 msgid "Member type successfully deleted."
 msgstr "Le type de membre a été supprimé avec succès."
 
-#: bp-members/bp-members-admin.php:85
+#: bp-members/bp-members-admin.php:96
 msgid "Member type successfully updated."
 msgstr "Type de membre mis à jour avec succès."
 
@@ -9541,7 +9540,7 @@ msgstr ""
 msgid "Please define the Group Type ID field."
 msgstr "Merci de définir le champ relatif à l’identifiant du type de groupe."
 
-#: bp-members/bp-members-admin.php:81
+#: bp-members/bp-members-admin.php:92
 msgid "Please define the Member Type ID field."
 msgstr "Merci de définir le champ relatif à l’identifiant du type de membre."
 
@@ -11642,7 +11641,7 @@ msgstr ""
 "l’extension ou retirez le code spécifique avant d’essayer de le supprimer à "
 "nouveau."
 
-#: bp-members/bp-members-admin.php:88
+#: bp-members/bp-members-admin.php:99
 msgid ""
 "Sorry, This Member type is registered using code, deactivate the plugin or "
 "remove the custom code before trying to delete it again."
@@ -11724,7 +11723,7 @@ msgstr "Désolé, ce nom d'utilisateur existe déjà !"
 msgid "Sorry, the Group type was not deleted: it does not exist."
 msgstr "Désolé, le type de groupe n’a pas été supprimé :  il n’existe pas."
 
-#: bp-members/bp-members-admin.php:87
+#: bp-members/bp-members-admin.php:98
 msgid "Sorry, the Member type was not deleted: it does not exist."
 msgstr "Désolé, le type de membre n’a pas été supprimé :  il n’existe pas."
 
@@ -11820,7 +11819,7 @@ msgid "Sorry, there was an error and the Group type wasn’t added."
 msgstr ""
 "Désolé, une erreur s’est produite et le type de groupe n’a pas été ajouté."
 
-#: bp-members/bp-members-admin.php:83
+#: bp-members/bp-members-admin.php:94
 msgid "Sorry, there was an error and the Member type wasn’t added."
 msgstr ""
 "Désolé, une erreur s’est produite et le type de membre n’a pas été ajouté."
@@ -11831,7 +11830,7 @@ msgstr ""
 "Désolé, une erreur s’est produite durant la tentative de suppression de ce "
 "type de groupe."
 
-#: bp-members/bp-members-admin.php:89
+#: bp-members/bp-members-admin.php:100
 msgid "Sorry, there was an error while trying to delete this Member type."
 msgstr ""
 "Désolé, une erreur s’est produite durant la tentative de suppression de ce "
@@ -11875,7 +11874,7 @@ msgstr "Aucun blog trouvé."
 msgid "Sorry, this Group type already exists."
 msgstr "Désolé, ce type de groupe existe déjà."
 
-#: bp-members/bp-members-admin.php:86
+#: bp-members/bp-members-admin.php:97
 msgid "Sorry, this Member type already exists."
 msgstr "Désolé, ce type de membre existe déjà."
 

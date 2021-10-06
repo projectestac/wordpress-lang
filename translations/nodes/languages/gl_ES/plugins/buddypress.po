@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Plugins - BuddyPress - Stable (latest release)\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/buddypress\n"
-"POT-Creation-Date: 2021-05-31T11:16:31+02:00\n"
+"POT-Creation-Date: 2021-10-06T12:39:55+02:00\n"
 "PO-Revision-Date: 2019-02-20 16:12:30+0000\n"
 "Language: gl_ES\n"
 "MIME-Version: 1.0\n"
@@ -267,11 +267,10 @@ msgstr ""
 #. translators: %d: total friend count
 #: bp-friends/bp-friends-template.php:268
 #: bp-friends/bp-friends-template.php:738
-#, fuzzy
 msgid "%d friend"
 msgid_plural "%d friends"
 msgstr[0] "%d amigo"
-msgstr[1] "%d amigo"
+msgstr[1] ""
 
 #. translators: %d: the number of friends
 #: bp-friends/bp-friends-notifications.php:42
@@ -1196,7 +1195,7 @@ msgstr ""
 #: bp-members/bp-members-functions.php:1429
 #: bp-members/bp-members-functions.php:2612
 msgid "<strong>Error</strong>: Your account has been marked as a spammer."
-msgstr ""
+msgstr "<strong>Erro</strong>: A súa conta marcouse como spammer."
 
 #: bp-members/bp-members-functions.php:2436
 msgid ""
@@ -6578,11 +6577,11 @@ msgstr ""
 
 #: bp-core/bp-core-taxonomy.php:324
 msgid "Invalid taxonomy."
-msgstr ""
+msgstr "Taxonomía non válida."
 
 #: bp-groups/classes/class-bp-rest-groups-endpoint.php:620
 msgid "Invalid user ID."
-msgstr ""
+msgstr "ID de usuario non válido."
 
 #. translators: count of users affected
 #: bp-templates/bp-nouveau/includes/groups/ajax.php:419
@@ -7429,19 +7428,19 @@ msgstr ""
 msgid "Member type already exists."
 msgstr ""
 
-#: bp-members/bp-members-admin.php:91
+#: bp-members/bp-members-admin.php:102
 msgid "Member type could not be updated due to missing required information."
 msgstr ""
 
-#: bp-members/bp-members-admin.php:82
+#: bp-members/bp-members-admin.php:93
 msgid "Member type successfully added."
 msgstr ""
 
-#: bp-members/bp-members-admin.php:90
+#: bp-members/bp-members-admin.php:101
 msgid "Member type successfully deleted."
 msgstr ""
 
-#: bp-members/bp-members-admin.php:85
+#: bp-members/bp-members-admin.php:96
 msgid "Member type successfully updated."
 msgstr ""
 
@@ -7804,6 +7803,8 @@ msgid ""
 "Must be at least 4 characters, letters and numbers only. It cannot be "
 "changed so choose carefully!"
 msgstr ""
+"Debe ter polo menos 4 caracteres, só letras e números. Non pode ser "
+"modificado, así que escolle con coidado!"
 
 #. translators: %s: the number of must-Use components
 #: bp-core/admin/bp-core-admin-components.php:177
@@ -9025,7 +9026,7 @@ msgstr ""
 msgid "Please define the Group Type ID field."
 msgstr ""
 
-#: bp-members/bp-members-admin.php:81
+#: bp-members/bp-members-admin.php:92
 msgid "Please define the Member Type ID field."
 msgstr ""
 
@@ -11055,7 +11056,7 @@ msgid ""
 "remove the custom code before trying to delete it again."
 msgstr ""
 
-#: bp-members/bp-members-admin.php:88
+#: bp-members/bp-members-admin.php:99
 msgid ""
 "Sorry, This Member type is registered using code, deactivate the plugin or "
 "remove the custom code before trying to delete it again."
@@ -11129,7 +11130,7 @@ msgstr "Sentímolo, este nome de usuario xa existe!"
 msgid "Sorry, the Group type was not deleted: it does not exist."
 msgstr ""
 
-#: bp-members/bp-members-admin.php:87
+#: bp-members/bp-members-admin.php:98
 msgid "Sorry, the Member type was not deleted: it does not exist."
 msgstr ""
 
@@ -11201,7 +11202,7 @@ msgstr ""
 msgid "Sorry, there was an error and the Group type wasn’t added."
 msgstr ""
 
-#: bp-members/bp-members-admin.php:83
+#: bp-members/bp-members-admin.php:94
 msgid "Sorry, there was an error and the Member type wasn’t added."
 msgstr ""
 
@@ -11209,7 +11210,7 @@ msgstr ""
 msgid "Sorry, there was an error while trying to delete this Group type."
 msgstr ""
 
-#: bp-members/bp-members-admin.php:89
+#: bp-members/bp-members-admin.php:100
 msgid "Sorry, there was an error while trying to delete this Member type."
 msgstr ""
 
@@ -11251,7 +11252,7 @@ msgstr ""
 msgid "Sorry, this Group type already exists."
 msgstr ""
 
-#: bp-members/bp-members-admin.php:86
+#: bp-members/bp-members-admin.php:97
 msgid "Sorry, this Member type already exists."
 msgstr ""
 
@@ -15250,7 +15251,7 @@ msgstr ""
 #. translators: %s is the site url.
 #: bp-blogs/bp-blogs-template.php:1157
 msgid "Your address will be %s"
-msgstr ""
+msgstr "O teu enderezo será %s"
 
 #: bp-themes/bp-default/members/single/profile/change-avatar.php:7
 msgid ""

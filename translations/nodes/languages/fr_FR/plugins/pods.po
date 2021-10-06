@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: Plugins - Pods &#8211; Custom Content Types and Fields - "
 "Stable (latest release)\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/pods\n"
-"POT-Creation-Date: 2021-05-31T11:16:52+02:00\n"
+"POT-Creation-Date: 2021-10-06T12:40:16+02:00\n"
 "PO-Revision-Date: 2019-02-21 13:29:04+0000\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -2161,7 +2161,7 @@ msgstr "Activer les modèles automatiques"
 
 #: components/Templates/includes/auto-template/Pods_Templates_Auto_Template_Settings.php:181
 msgid "Enable Automatic Pod Templates for this Pod"
-msgstr ""
+msgstr "Activer les modèles automatiques de Pods pour ce pod ?"
 
 #: ui/admin/setup-edit.php:680
 msgid "Enable Extra Fields"
@@ -2328,6 +2328,7 @@ msgstr "Exclure de la recherche"
 #: components/Templates/includes/auto-template/Pods_Templates_Auto_Template_Settings.php:251
 msgid "Execute Auto Template outside of the WordPress loop (advanced)"
 msgstr ""
+"Exécuter le modèle de pod Auto en dehors de la boucle WordPress ? (avancé)"
 
 #: classes/Pods.php:4481 classes/PodsAdmin.php:2343
 #: components/Migrate-Packages/ui/wizard.php:64
@@ -2478,17 +2479,19 @@ msgstr ""
 
 #: classes/PodsInit.php:1661
 msgid "Filter by %s"
-msgstr ""
+msgstr "Filtrer par %s"
 
 #: classes/PodsAdmin.php:1693
 msgid ""
 "Filter by <span class=\"pods-slugged\" data-sluggable=\"label_singular"
 "\">Item</span>"
 msgstr ""
+"Filtrer par <span class=\"pods-slugged\" data-sluggable=\"label_singular"
+"\">élément</span>"
 
 #: classes/PodsAdmin.php:1686 classes/PodsInit.php:1641
 msgid "Filter by date"
-msgstr ""
+msgstr "Filtrer par date"
 
 #: components/Templates/includes/auto-template/Pods_Templates_Auto_Template_Settings.php:201
 #: components/Templates/includes/auto-template/Pods_Templates_Auto_Template_Settings.php:232
@@ -5012,7 +5015,7 @@ msgstr "Filtre de modèle unique"
 
 #: components/Templates/includes/auto-template/Pods_Templates_Auto_Template_Settings.php:191
 msgid "Singular Template Location"
-msgstr ""
+msgstr "Emplacement de modèle unique"
 
 #: components/Builder/modules/list/PodsBuilderModuleList.php:193
 #: components/Builder/modules/view/PodsBuilderModuleView.php:92
@@ -6033,6 +6036,8 @@ msgid ""
 "When enabled you can specify the names of Pod Templates to be used to "
 "display items in this Pod in the front-end."
 msgstr ""
+"Lorsque cette option est activée, vous pouvez spécifier les noms des modèles "
+"de pod à utiliser pour afficher les éléments dans ce pod en front-end."
 
 #: components/Templates/includes/auto-template/Pods_Templates_Auto_Template_Settings.php:247
 msgid ""
@@ -6057,6 +6062,8 @@ msgid ""
 "Whether the template will go before, after or in place of the existing "
 "content."
 msgstr ""
+"Indique si le modèle se positionne avant, après ou remplace le contenu "
+"existant."
 
 #: classes/PodsAdmin.php:2066
 msgid ""
@@ -6099,7 +6106,7 @@ msgstr "Quel filtre utiliser pour les vues d’archives/listes."
 
 #: components/Templates/includes/auto-template/Pods_Templates_Auto_Template_Settings.php:197
 msgid "Which filter to use for singular views."
-msgstr ""
+msgstr "Quel filtre utiliser pour les vues uniques ?"
 
 #: components/Pages.php:506
 msgid "Wildcard Slug"
@@ -6195,7 +6202,6 @@ msgstr "Vous pouvez uniquement sélectionner"
 
 #. Translators: %s stands for a number.
 #: classes/PodsI18n.php:204
-#, fuzzy
 msgid "You can only select %s item"
 msgstr "Vous ne pouvez sélectionner que %s élément"
 

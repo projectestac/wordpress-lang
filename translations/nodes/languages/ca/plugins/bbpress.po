@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Stable (latest release)\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/bbpress\n"
-"POT-Creation-Date: 2021-05-31T11:16:30+02:00\n"
+"POT-Creation-Date: 2021-10-06T12:39:54+02:00\n"
 "PO-Revision-Date: 2019-04-11 17:10+0200\n"
 "Last-Translator: Joan Sala Soler <jsala236@xtec.cat>\n"
 "Language-Team: \n"
@@ -586,6 +586,8 @@ msgstr ""
 msgid ""
 "<strong>Error</strong>: An error occurred while updating your email address."
 msgstr ""
+"<strong>ERROR</strong>: S'ha produït un error mentre s'actualitzava l'adreça "
+"de correu electrònic."
 
 #: includes/extend/buddypress/groups.php:531
 #: includes/extend/buddypress/groups.php:688
@@ -687,10 +689,13 @@ msgstr ""
 #: includes/users/functions.php:226 includes/users/functions.php:343
 msgid "<strong>Error</strong>: That email address is already in use."
 msgstr ""
+"<strong>Error</strong>: aquesta adreça de correu electrònic ja s'està "
+"utilitzant."
 
 #: includes/users/functions.php:208 includes/users/functions.php:220
 msgid "<strong>Error</strong>: That is not a valid email address."
 msgstr ""
+"<strong>ERROR</strong>: això no és una adreça de correu electrònica correcta."
 
 #: includes/topics/functions.php:1822
 msgid ""
@@ -745,7 +750,7 @@ msgstr ""
 
 #: includes/forums/functions.php:398
 msgid "<strong>Error</strong>: The forum you want to edit was not found."
-msgstr ""
+msgstr "<strong>ERROR</strong>: no s'ha trobat el fòrum que voleu editar."
 
 #: includes/replies/functions.php:488
 msgid "<strong>Error</strong>: The reply was not created."
@@ -905,11 +910,11 @@ msgstr ""
 
 #: includes/forums/functions.php:234
 msgid "<strong>Error</strong>: This forum already exists."
-msgstr ""
+msgstr "<strong>ERROR</strong>: aquest fòrum ja existeix."
 
 #: includes/forums/functions.php:211 includes/forums/functions.php:429
 msgid "<strong>Error</strong>: This forum has been closed to new forums."
-msgstr ""
+msgstr "<strong>ERROR</strong>: Aquest fòrum s'ha tancat per a fòrums nous."
 
 #: includes/replies/functions.php:250 includes/replies/functions.php:586
 msgid "<strong>Error</strong>: This forum has been closed to new replies."
@@ -1016,7 +1021,7 @@ msgstr ""
 #: includes/forums/functions.php:140
 msgid ""
 "<strong>Error</strong>: You do not have permission to create new forums."
-msgstr ""
+msgstr "<strong>ERROR</strong>: No teniu permisos per crear fòrums nous."
 
 #: includes/topics/functions.php:132
 msgid ""
@@ -1112,15 +1117,15 @@ msgstr ""
 
 #: includes/forums/functions.php:184 includes/forums/functions.php:473
 msgid "<strong>Error</strong>: Your forum description cannot be empty."
-msgstr ""
+msgstr "<strong>ERROR</strong>: La descripció del fòrum no pot estar buida."
 
 #: includes/forums/functions.php:199
 msgid "<strong>Error</strong>: Your forum must have a parent."
-msgstr ""
+msgstr "<strong>ERROR</strong>: El fòrum ha de tenir un pare."
 
 #: includes/forums/functions.php:165 includes/forums/functions.php:454
 msgid "<strong>Error</strong>: Your forum needs a title."
-msgstr ""
+msgstr "<strong>ERROR</strong>: El fòrum necessita un títol."
 
 #: includes/replies/functions.php:316
 msgid "<strong>Error</strong>: Your reply cannot be created at this time."
@@ -1128,7 +1133,7 @@ msgstr ""
 
 #: includes/replies/functions.php:631
 msgid "<strong>Error</strong>: Your reply cannot be edited at this time."
-msgstr ""
+msgstr "<strong>ERROR</strong>: la resposta no es pot editar ara."
 
 #: includes/replies/functions.php:298 includes/replies/functions.php:625
 msgid "<strong>Error</strong>: Your reply cannot be empty."
@@ -3732,7 +3737,7 @@ msgstr "No hi ha respostes en aquest tema."
 
 #: includes/admin/tools/repair.php:1269
 msgid "No reply positions to recalculate."
-msgstr ""
+msgstr "Cap posició de resposta per recalcular!"
 
 #: includes/extend/akismet.php:171 includes/extend/akismet.php:176
 #: includes/extend/akismet.php:492 includes/extend/akismet.php:497
@@ -3871,7 +3876,7 @@ msgstr ""
 
 #: templates/default/bbpress/feedback-no-replies.php:17
 msgid "Oh, bother! No replies were found here."
-msgstr ""
+msgstr "No s'ha trobat cap resposta aquí!"
 
 #: templates/default/bbpress/feedback-no-search.php:17
 msgid "Oh, bother! No search results were found here."
@@ -4204,7 +4209,7 @@ msgstr ""
 
 #: includes/admin/tools/repair.php:1268
 msgid "Recalculating reply menu order&hellip; %s"
-msgstr ""
+msgstr "S'està recalculant l'ordre del menú de resposta &hellip; %s"
 
 #: includes/admin/tools/repair.php:1155
 msgid "Recalculating the forum for each post&hellip; %s"
@@ -5233,7 +5238,7 @@ msgstr "El fòrum &#8216;%s&#8217; s'ha tancat a temes i respostes noves."
 
 #: includes/admin/forums.php:361
 msgid "The forum was not found."
-msgstr ""
+msgstr "No s'ha trobat el fòrum."
 
 #: includes/admin/settings.php:1574
 msgid "The previous forum software"

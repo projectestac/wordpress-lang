@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Plugins - BuddyPress - Stable (latest release)\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/buddypress\n"
-"POT-Creation-Date: 2021-05-31T11:16:31+02:00\n"
+"POT-Creation-Date: 2021-10-06T12:39:55+02:00\n"
 "PO-Revision-Date: 2019-02-20 16:11:45+0000\n"
 "Language: eu_ES\n"
 "MIME-Version: 1.0\n"
@@ -281,11 +281,10 @@ msgstr "%1$s | %2$s | Aipamen"
 #. translators: %d: total friend count
 #: bp-friends/bp-friends-template.php:268
 #: bp-friends/bp-friends-template.php:738
-#, fuzzy
 msgid "%d friend"
 msgid_plural "%d friends"
 msgstr[0] "lagun %d"
-msgstr[1] "lagun %d"
+msgstr[1] "%d lagun"
 
 #. translators: %d: the number of friends
 #: bp-friends/bp-friends-notifications.php:42
@@ -7802,20 +7801,20 @@ msgstr "Kidearen bigarren mailako nabigazioa"
 msgid "Member type already exists."
 msgstr "Kide mota hau jada existitzen da."
 
-#: bp-members/bp-members-admin.php:91
+#: bp-members/bp-members-admin.php:102
 msgid "Member type could not be updated due to missing required information."
 msgstr ""
 "Beharrezkoa den informazioa falta denez, kide-mota ezin izan da eguneratu."
 
-#: bp-members/bp-members-admin.php:82
+#: bp-members/bp-members-admin.php:93
 msgid "Member type successfully added."
 msgstr "Kide-mota ondo gehitu da."
 
-#: bp-members/bp-members-admin.php:90
+#: bp-members/bp-members-admin.php:101
 msgid "Member type successfully deleted."
 msgstr "Kide-mota ondo ezabatu da."
 
-#: bp-members/bp-members-admin.php:85
+#: bp-members/bp-members-admin.php:96
 msgid "Member type successfully updated."
 msgstr "Kide-mota ondo eguneratu da."
 
@@ -9433,7 +9432,7 @@ msgstr ""
 msgid "Please define the Group Type ID field."
 msgstr "Mesedez, defini ezazu Talde-motaren IDentifikatzaile eremua."
 
-#: bp-members/bp-members-admin.php:81
+#: bp-members/bp-members-admin.php:92
 msgid "Please define the Member Type ID field."
 msgstr "Mesedez, defini ezazu kide motaren IDentifikatzaile-eremua."
 
@@ -11506,7 +11505,7 @@ msgstr ""
 "Barkatu! Talde-mota hau kodea erabiliz erregistratu da; plugina desaktiba "
 "ezazu, edo kode pertsonalizatua kendu berriro ezabatzen saiatu aurretik."
 
-#: bp-members/bp-members-admin.php:88
+#: bp-members/bp-members-admin.php:99
 msgid ""
 "Sorry, This Member type is registered using code, deactivate the plugin or "
 "remove the custom code before trying to delete it again."
@@ -11583,7 +11582,7 @@ msgstr "Barkatu, erabiltzaile izen hori existitzen da!"
 msgid "Sorry, the Group type was not deleted: it does not exist."
 msgstr "Barkatu! Talde-mota ez da ezabatu, ez baita existitzen."
 
-#: bp-members/bp-members-admin.php:87
+#: bp-members/bp-members-admin.php:98
 msgid "Sorry, the Member type was not deleted: it does not exist."
 msgstr "Barkatu! Kide-mota ez da ezabatu; ez da existitzen."
 
@@ -11656,7 +11655,7 @@ msgstr "Barkatu! Arazo bat gertatu da erabiltzailearen estalkia eskuratzean."
 msgid "Sorry, there was an error and the Group type wasn’t added."
 msgstr "Barkatu! Errore bat gertatu da, eta ez da Talde-mota gehitu."
 
-#: bp-members/bp-members-admin.php:83
+#: bp-members/bp-members-admin.php:94
 msgid "Sorry, there was an error and the Member type wasn’t added."
 msgstr "Barkatu! Errore bat gertatu da, eta ez da Kide-mota gehitu."
 
@@ -11664,7 +11663,7 @@ msgstr "Barkatu! Errore bat gertatu da, eta ez da Kide-mota gehitu."
 msgid "Sorry, there was an error while trying to delete this Group type."
 msgstr "Barkatu! Talde mota hau ezabatzen saiatzean, errore bat gertatu da."
 
-#: bp-members/bp-members-admin.php:89
+#: bp-members/bp-members-admin.php:100
 msgid "Sorry, there was an error while trying to delete this Member type."
 msgstr "Barkatu! Errore bat gertatu da kide mota hau ezabatzen saiatzean."
 
@@ -11707,7 +11706,7 @@ msgstr "Barkatu, ez dira gunerik aurkitu."
 msgid "Sorry, this Group type already exists."
 msgstr "Barkatu! Talde-mota hau dagoeneko badago."
 
-#: bp-members/bp-members-admin.php:86
+#: bp-members/bp-members-admin.php:97
 msgid "Sorry, this Member type already exists."
 msgstr "Barkatu! Kide-mota hau badago."
 
