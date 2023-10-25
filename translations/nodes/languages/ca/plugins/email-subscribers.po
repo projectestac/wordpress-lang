@@ -8,7 +8,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/email-"
 "subscribers\n"
 "POT-Creation-Date: 2023-03-27T07:10:04+01:00\n"
-"PO-Revision-Date: 2023-09-15 14:53+0200\n"
+"PO-Revision-Date: 2023-10-25 19:07+0200\n"
 "Last-Translator: Toni Ginard <toni.ginard@gmail.com>\n"
 "Language-Team: \n"
 "Language: ca\n"
@@ -22,7 +22,7 @@ msgstr ""
 msgid ""
 "Icegram Express - Email Subscribers, Newsletters and Marketing Automation "
 "Plugin"
-msgstr ""
+msgstr "Email Subscribers"
 
 #. Plugin URI of the plugin
 #. Author URI of the plugin
@@ -89,7 +89,6 @@ msgstr "Afegiu un assumpte a la difusió abans de desar."
 
 # modificat xtec
 #: lite/admin/class-email-subscribers-admin.php:184
-#| msgid "Campaign deleted successfully!"
 msgid "Campaign saved successfully."
 msgstr "S'ha desat el butlletí correctament!"
 
@@ -257,23 +256,16 @@ msgid "Fetching contacts from MailChimp...Please do not close this window"
 msgstr ""
 
 #: lite/admin/class-email-subscribers-admin.php:232
-#, fuzzy
-#| msgid "Enter email address to send test email."
 msgid "SMTP Error : Unable to send test email"
-msgstr ""
-"Indiqueu una adreça de correu electrònic per enviar un missatge de prova."
+msgstr "Error SMTP: No s'ha pogut enviar el missatge de prova."
 
 #: lite/admin/class-email-subscribers-admin.php:233
-#, fuzzy
-#| msgid "An error occured. Please try again later."
 msgid "Server Busy : Please try again later"
-msgstr "S'ha produït un error. Proveu més tard."
+msgstr "Servidor ocupat: Proveu-ho de nou més tard"
 
 #: lite/admin/class-email-subscribers-admin.php:234
-#, fuzzy
-#| msgid "Reports deleted successfully!"
 msgid "Headers verified successfully"
-msgstr "Els informes s'han suprimit correctament!"
+msgstr "Les capçaleres s'han verificat amb èxit"
 
 #: lite/admin/class-email-subscribers-admin.php:236
 msgid "Want to select contacts on all pages?"
@@ -285,10 +277,8 @@ msgstr ""
 
 #: lite/admin/class-email-subscribers-admin.php:245
 #: lite/admin/class-es-rest-api-admin.php:31
-#, fuzzy
-#| msgid "Please select status."
 msgid "Please select a user."
-msgstr "Seleccioneu l'estat."
+msgstr "Seleccioneu un usuari"
 
 #: lite/admin/class-email-subscribers-admin.php:328
 #: lite/admin/views/dashboard/dashboard.php:124
@@ -336,7 +326,7 @@ msgstr "Butlletins"
 
 #: lite/admin/class-email-subscribers-admin.php:353
 msgid "Post Notifications"
-msgstr "Notifica publicacions"
+msgstr "Notificacions de publicacions"
 
 #: lite/admin/class-email-subscribers-admin.php:355
 #: lite/admin/class-es-campaign-admin.php:569
@@ -388,7 +378,7 @@ msgstr "Plantilles"
 #: lite/includes/workflows/class-es-workflows-table.php:291
 #: starter/starter-class-email-subscribers.php:842
 msgid "Workflows"
-msgstr ""
+msgstr "Fluxes"
 
 #: lite/admin/class-email-subscribers-admin.php:380
 #: lite/admin/views/dashboard/tip-and-tricks.php:36
@@ -447,10 +437,8 @@ msgstr "Alguna cosa ha anat malament"
 #: lite/includes/classes/class-es-widget.php:11
 #: lite/includes/compatibilities/elementor/actions/class-es-ig-form-action.php:27
 #: lite/includes/compatibilities/elementor/actions/class-es-ig-form-action.php:40
-#, fuzzy
-#| msgid "Icegram WC"
 msgid "Icegram Express"
-msgstr "Icegram"
+msgstr "Formulari de subscripció"
 
 #: lite/admin/class-email-subscribers-admin.php:1554
 #, fuzzy
@@ -499,8 +487,6 @@ msgid "Last Campaign"
 msgstr "Darrer butlletí"
 
 #: lite/admin/class-email-subscribers-admin.php:1634
-#, fuzzy
-#| msgid "Sent Date"
 msgid "Sent to"
 msgstr "Enviat a"
 
@@ -540,10 +526,8 @@ msgid ""
 msgstr ""
 
 #: lite/admin/class-es-admin.php:110
-#, fuzzy
-#| msgid "Please add the subject"
 msgid "Please add a subject."
-msgstr "Afegiu un assumpte"
+msgstr "Afegiu un assumpte."
 
 #: lite/admin/class-es-admin.php:120
 #, fuzzy
@@ -558,7 +542,6 @@ msgid "Template updated successfully."
 msgstr "El formulari s'ha actualitzat correctament!"
 
 #: lite/admin/class-es-admin.php:156 lite/admin/class-es-campaign-admin.php:250
-#, fuzzy
 msgid "Add Tags"
 msgstr "Afegeix etiquetes"
 
@@ -605,16 +588,12 @@ msgid "Template type"
 msgstr "Tipus de plantilla"
 
 #: lite/admin/class-es-admin.php:618
-#, fuzzy
-#| msgid "Preview template"
 msgid "Preview image"
-msgstr "Previsualitza la plantilla"
+msgstr "Previsualitza la imatge"
 
 #: lite/admin/class-es-admin.php:623
-#, fuzzy
-#| msgid "Add title"
 msgid "Add image"
-msgstr "Afegeix imatge"
+msgstr "Afegeix una imatge"
 
 #: lite/admin/class-es-admin.php:857 lite/admin/class-es-admin.php:877
 #: lite/admin/class-es-admin.php:886
@@ -669,7 +648,7 @@ msgstr "Afegiu un assumpte a la difusió."
 #, fuzzy
 #| msgid "Add title"
 msgid "Post title"
-msgstr "Afegeix un títol"
+msgstr "Títol de l'entrada"
 
 #: lite/admin/class-es-campaign-admin.php:319
 msgid "Show a post title"
@@ -805,16 +784,13 @@ msgstr "Sense assumpte"
 
 #: lite/admin/class-es-campaign-admin.php:565
 #: lite/admin/class-es-campaign-admin.php:609
-#, fuzzy
-#| msgid "Post Notification"
 msgid "Post notification"
 msgstr "Notificació de publicació"
 
 #: lite/admin/class-es-campaign-admin.php:567
 #: lite/admin/class-es-campaign-admin.php:609
-#, fuzzy
 msgid "Post digest"
-msgstr "Notificació de publicació"
+msgstr "Resum de publicacions"
 
 #: lite/admin/class-es-campaign-admin.php:616
 #: lite/includes/classes/class-es-newsletters.php:255
@@ -1142,7 +1118,7 @@ msgstr ""
 #: starter/starter-class-email-subscribers.php:1760
 #, fuzzy
 msgid "Loading..."
-msgstr "S'estan llegint les dades."
+msgstr "Carregant..."
 
 #: lite/admin/class-ig-es-campaign-rules.php:225
 msgid "Save Rules"
@@ -1169,8 +1145,9 @@ msgstr ""
 #: lite/admin/class-ig-es-campaign-rules.php:443
 #: pro/classes/class-es-pro-advanced-filters.php:72
 #: pro/classes/class-es-pro-advanced-filters.php:205
+#, fuzzy
 msgid "Add Condition"
-msgstr ""
+msgstr "Afegeix una condició"
 
 #: lite/admin/class-ig-es-campaign-rules.php:273
 #: pro/classes/class-es-pro-advanced-filters.php:75
@@ -1426,10 +1403,8 @@ msgstr ""
 
 #: lite/admin/class-ig-es-onboarding.php:837
 #: lite/admin/class-ig-es-onboarding.php:838
-#, fuzzy
-#| msgid "Go To Icegram"
 msgid "Welcome To Icegram Express"
-msgstr "Vés a Icegram"
+msgstr "Benvinguts a l'Email Subscribers"
 
 #: lite/admin/class-ig-es-onboarding.php:1001
 msgid ""
@@ -1497,6 +1472,10 @@ msgid ""
 "Icegram Express 3.5.x to 4.x and want to run the database migration again to "
 "fix this, please click the below %1$sRun the updater%2$s button."
 msgstr ""
+"Si trobeu butlletins llistes, formularis o informe duplicats després "
+"d'actualitzar de la versió 3.5.x a la 4.x i voleu executar de nou la "
+"migració de la base de dades per corregir-ho, cliqueu el botó %1$sExecuta "
+"l'actualització%2$s"
 
 #. translators: 1. Starting strong tag 2. Closing strong tag
 #: lite/admin/partials/help.php:143
@@ -1828,7 +1807,7 @@ msgstr ""
 
 #: lite/admin/views/dashboard/bounce-stats.php:46
 msgid "Bounced"
-msgstr ""
+msgstr "Retornats"
 
 #: lite/admin/views/dashboard/dashboard.php:28
 #, fuzzy
@@ -1881,7 +1860,7 @@ msgstr "Configuració"
 
 #: lite/admin/views/dashboard/dashboard.php:52
 msgid "Send a Newsletter"
-msgstr ""
+msgstr "Envia un butlletí"
 
 #: lite/admin/views/dashboard/dashboard.php:53
 msgid "Broadcast a newsletter campaign to all or selected subscribers."
@@ -1994,11 +1973,9 @@ msgstr "Contacte nou"
 #. translators: %s. Number of days
 #: lite/admin/views/dashboard/dashboard.php:188
 msgid "Subscribers activities in last %d days"
-msgstr ""
+msgstr "Activitat dels subscriptors els darrers %d dies"
 
 #: lite/admin/views/dashboard/dashboard.php:194
-#, fuzzy
-#| msgid "All Lists"
 msgid "All lists"
 msgstr "Totes les llistes"
 
@@ -2022,10 +1999,8 @@ msgstr "Subscriptors"
 #: lite/admin/views/dashboard/sequence-stats.php:43
 #: lite/admin/views/dashboard/subscribers-stats.php:111
 #: pro/templates/email/es-admin-subscription-summary.php:161
-#, fuzzy
-#| msgid "Unsubscribed"
 msgid "Unsubscribes"
-msgstr "No subscrit"
+msgstr "Donats de baixa"
 
 #: lite/admin/views/dashboard/dashboard.php:283
 #, fuzzy
@@ -2040,20 +2015,16 @@ msgstr "Peticions d'amistat de BuddyPress (Rebudes)"
 #: pro/classes/class-es-pro-reports-data.php:684
 #: pro/partials/es-dashboard.php:100
 #: pro/templates/email/es-admin-subscription-summary.php:175
-#, fuzzy
-#| msgid "Total Clicks"
 msgid "Clicks"
-msgstr "Clics totals"
+msgstr "Clics"
 
 #: lite/admin/views/dashboard/dashboard.php:286
 msgid "Soft bounces"
 msgstr ""
 
 #: lite/admin/views/dashboard/dashboard.php:292
-#, fuzzy
-#| msgid "All Statuses"
 msgid "All activities"
-msgstr "Tots els estats"
+msgstr "Totes les activitats"
 
 # modificat xtec
 #: lite/admin/views/dashboard/dashboard.php:317
@@ -2072,10 +2043,8 @@ msgstr "No s'ha trobat cap plantilla"
 
 #: lite/admin/views/dashboard/recent-campaigns.php:40
 #: pro/partials/es-dashboard.php:52
-#, fuzzy
-#| msgid "Sent"
 msgid "Sent on"
-msgstr "Enviat a"
+msgstr "Enviat el"
 
 #: lite/admin/views/dashboard/recent-campaigns.php:48
 #: lite/includes/class-es-common.php:2601
@@ -2089,10 +2058,8 @@ msgstr "A la cua"
 
 #: lite/admin/views/dashboard/recent-campaigns.php:53
 #: pro/partials/es-dashboard.php:65
-#, fuzzy
-#| msgid "Start Date"
 msgid "Started at"
-msgstr "Per començar"
+msgstr "Iniciat a les"
 
 #: lite/admin/views/dashboard/recent-campaigns.php:81
 #: lite/admin/views/dashboard/sequence-stats.php:10
@@ -2132,10 +2099,8 @@ msgstr ""
 
 #: lite/admin/views/dashboard/subscribers-stats.php:63
 #: lite/admin/views/dashboard/subscribers-stats.php:80
-#, fuzzy
-#| msgid "Subscribers"
 msgid "New subscribers"
-msgstr "Subscriptors"
+msgstr "Subscriptors nous"
 
 #: lite/admin/views/dashboard/tip-and-tricks.php:34
 #, fuzzy
@@ -2153,9 +2118,8 @@ msgstr "Subscriptors"
 #: lite/admin/views/dashboard/top-countries.php:22
 #: pro/classes/class-es-pro-reports-data.php:397
 #: pro/classes/class-es-pro-reports-data.php:459
-#, fuzzy
 msgid "Others"
-msgstr "El que altres han dit"
+msgstr "Altres"
 
 #: lite/admin/views/dashboard/top-countries.php:49
 #: pro/classes/class-es-pro-reports-data.php:426
@@ -2716,10 +2680,8 @@ msgid "Advanced Blocks"
 msgstr ""
 
 #: lite/includes/classes/class-email-subscribers-pricing.php:691
-#, fuzzy
-#| msgid "Confirmation email"
 msgid "Resend Confirmation Email"
-msgstr "Correu electrònic de confirmació"
+msgstr "Torna a enviar el missatge de confirmació"
 
 #: lite/includes/classes/class-email-subscribers-pricing.php:706
 #, fuzzy
@@ -2802,7 +2764,7 @@ msgstr "Peticions d'amistat de BuddyPress (Rebudes)"
 #, fuzzy
 #| msgid "Opened"
 msgid "opened"
-msgstr "Obert"
+msgstr "Oberts"
 
 #: lite/includes/classes/class-es-actions.php:384
 #, fuzzy
@@ -2812,10 +2774,8 @@ msgstr ""
 "clic a l'enllaç de confirmació abans que el seu compte es creï."
 
 #: lite/includes/classes/class-es-actions.php:387
-#, fuzzy
-#| msgid "Unsubscribed"
 msgid "unsubscribed from"
-msgstr "No subscrit"
+msgstr "donat de baixa des de"
 
 #: lite/includes/classes/class-es-actions.php:390
 msgid "marked as soft bounced"
@@ -2845,7 +2805,7 @@ msgstr "Seguretat"
 #: lite/includes/classes/class-es-admin-settings.php:164
 #, fuzzy
 msgid "API"
-msgstr "Voleu llegir via REST API?"
+msgstr "Clau de l'API de Mailchimp."
 
 #: lite/includes/classes/class-es-admin-settings.php:206
 msgid "Your emails might land in spam if you use above email address.."
@@ -2857,11 +2817,8 @@ msgid "Consider using email address matching your site domain like %s"
 msgstr ""
 
 #: lite/includes/classes/class-es-admin-settings.php:216
-#, fuzzy
-#| msgid "Enter email address to send test email."
 msgid "The \"from\" email address for all emails."
-msgstr ""
-"Indiqueu una adreça de correu electrònic per enviar un missatge de prova."
+msgstr "L'adreça de correu del remitent dels missatges de correu electrònic."
 
 #: lite/includes/classes/class-es-admin-settings.php:224
 msgid "Sender"
@@ -2869,27 +2826,27 @@ msgstr "Remitent"
 
 #: lite/includes/classes/class-es-admin-settings.php:229
 msgid "The \"from\" name people will see when they receive emails."
-msgstr ""
+msgstr "El nom del remitent dels missatges de correu electrònic."
 
 #: lite/includes/classes/class-es-admin-settings.php:240
 msgid "Email Address"
 msgstr "Adreça de correu electrònic"
 
 #: lite/includes/classes/class-es-admin-settings.php:248
-#, fuzzy
-#| msgid "Enter email"
 msgid "Admin emails"
-msgstr "Indiqueu una adreça de correu electrònic"
+msgstr "Adreces dels administradors"
 
 #: lite/includes/classes/class-es-admin-settings.php:249
 msgid ""
 "Who should be notified about system events like \"someone subscribed\", "
 "\"campaign sent\" etc?"
 msgstr ""
+"A qui s'han de notificar els esdeveniments del tipus \"algú s'ha subscrit\", "
+"\"s'ha enviat el butlletí\", etc.?"
 
 #: lite/includes/classes/class-es-admin-settings.php:251
 msgid "You can enter multiple email addresses - separate them with comma"
-msgstr ""
+msgstr "Podeu introduir vàries adreces de correu separades per comes"
 
 #: lite/includes/classes/class-es-admin-settings.php:257
 msgid "Opt-in type"
@@ -2900,6 +2857,9 @@ msgid ""
 "Single = confirm subscribers as they subscribe.<br> Double = send a "
 "confirmation email and require clicking on a link to confirm subscription."
 msgstr ""
+"Subscripció única = La subscripció es confirma automàticament."
+"<br>Subscripció doble = S'envia un missatge de confirmació amb un enllaç que "
+"s'ha de clicar."
 
 #: lite/includes/classes/class-es-admin-settings.php:268
 msgid "Image size"
@@ -2911,16 +2871,21 @@ msgid ""
 "%s keyword will use this image size. Use full size only if your template "
 "design needs it. Thumbnail should work well otherwise."
 msgstr ""
+"La paraula clau %s utilitzarà aquesta mida d'imatge. Utilitzeu la mida "
+"completa només si el disseny de la vostra plantilla ho necessita. Altrament, "
+"hauria d'anar bé utilitzar una miniatura."
 
 #: lite/includes/classes/class-es-admin-settings.php:280
 msgid "Enable AJAX subscription form submission"
-msgstr ""
+msgstr "Activa l'AJAX en el formulari de subscripció"
 
 #: lite/includes/classes/class-es-admin-settings.php:281
 msgid ""
 "Enabling this will let users to submit their subscription form without page "
 "reload using AJAX call."
 msgstr ""
+"Habilitar això permetrà trametre el formulari de subscripció sense haver de "
+"tornar a carregar la pàgina sencera."
 
 #: lite/includes/classes/class-es-admin-settings.php:288
 msgid "Track opens"
@@ -2931,56 +2896,58 @@ msgid ""
 "Do you want to track when people view your emails? (We recommend keeping it "
 "enabled)"
 msgstr ""
+"Voleu fer seguiment de quan els destinataris obren els missatges? (Es "
+"recomana tenir-ho habilitat)"
 
 #: lite/includes/classes/class-es-admin-settings.php:301
-#, fuzzy
-#| msgid "Subscription success/ error messages"
 msgid "Subscription success message"
-msgstr "Missatges d’error/d’èxit de la subscripció"
+msgstr "Missatge de subscripció correcta"
 
 #: lite/includes/classes/class-es-admin-settings.php:302
 msgid ""
 "This message will show when a visitor successfully subscribes using the form."
 msgstr ""
+"Aquest missatge es mostra quan un visitant se subscriu correctament "
+"mitjançant el formulari."
 
 #: lite/includes/classes/class-es-admin-settings.php:313
-#, fuzzy
-#| msgid "Show unsubscribe message in email footer"
 msgid "Unsubscribe text in email footer:"
-msgstr ""
-"Mostra un missatge de cancel·lació de la subscripció al peu de pàgina del "
-"missatge de correu electrònic"
+msgstr "Text de baixa de la subscripció"
 
 #: lite/includes/classes/class-es-admin-settings.php:314
 msgid ""
 "All emails will include this text in the footer so people can unsubscribe if "
 "they want."
 msgstr ""
+"Tots els missatges inclouran aquest text al final del missatge per tal que "
+"els receptors es puguin donar de baixa de la llista si així ho desitgen."
 
 #. translators: %s: List of Keywords
 #: lite/includes/classes/class-es-admin-settings.php:316
 msgid "Use %s keyword to add unsubscribe link."
 msgstr ""
+"Utilitzeu la paraula clau %s per afegir un enllaç per donar-se de baixa de "
+"la subscripció."
 
 #: lite/includes/classes/class-es-admin-settings.php:321
 msgid "Double opt-in subscription messages:"
-msgstr ""
+msgstr "Missatges de subscripció doble"
 
 #: lite/includes/classes/class-es-admin-settings.php:322
 msgid ""
 "Page and messages to show when people click on the link in a subscription "
 "confirmation email."
 msgstr ""
+"Texts per mostrar quan els receptors dels missatges cliquen l'enllaç de "
+"confirmació de la subscripció."
 
 #: lite/includes/classes/class-es-admin-settings.php:329
 msgid "You have been subscribed successfully!"
 msgstr "Us hi heu subscrit correctament."
 
 #: lite/includes/classes/class-es-admin-settings.php:331
-#, fuzzy
-#| msgid "New email subscription"
 msgid "Message on successful subscription"
-msgstr "Nova subscripció de correu electrònic"
+msgstr "Text que es mostra quan la subscripció es completa correctament"
 
 #: lite/includes/classes/class-es-admin-settings.php:332
 msgid ""
@@ -2999,10 +2966,8 @@ msgstr ""
 "correu electrònic ja està subscrita / bloquejada."
 
 #: lite/includes/classes/class-es-admin-settings.php:342
-#, fuzzy
-#| msgid "New email subscription"
 msgid "Message when subscription fails"
-msgstr "Nova subscripció de correu electrònic"
+msgstr "Text que es mostra quan no es pot completar la subscripció"
 
 #: lite/includes/classes/class-es-admin-settings.php:343
 msgid ""
@@ -3013,10 +2978,8 @@ msgstr ""
 "l’enllaç de confirmació des del correu electrònic d'ingrés doble."
 
 #: lite/includes/classes/class-es-admin-settings.php:351
-#, fuzzy
-#| msgid "Unsubscribe success/ error messages"
 msgid "Unsubscribe messages"
-msgstr "Missatges d’èxit/error de cancel·lació de les subscripcions"
+msgstr "Missatges de baixa de la subscripció"
 
 #: lite/includes/classes/class-es-admin-settings.php:352
 msgid ""
@@ -3031,10 +2994,10 @@ msgid ""
 msgstr "La subscripció s'ha cancel·lat correctament."
 
 #: lite/includes/classes/class-es-admin-settings.php:362
-#, fuzzy
-#| msgid "You have been subscribed successfully!"
 msgid "Message on unsubscribe success"
-msgstr "Us hi heu subscrit correctament."
+msgstr ""
+"Text que es mostra quan la baixa de la subscripció s'ha completat "
+"correctament"
 
 #: lite/includes/classes/class-es-admin-settings.php:363
 msgid ""
@@ -3051,7 +3014,7 @@ msgstr ""
 
 #: lite/includes/classes/class-es-admin-settings.php:373
 msgid "Message when unsubscribe fails"
-msgstr ""
+msgstr "Text que es mostra quan no es pot completar la baixa de la subscripció"
 
 #: lite/includes/classes/class-es-admin-settings.php:374
 msgid ""
@@ -3062,7 +3025,7 @@ msgstr ""
 
 #: lite/includes/classes/class-es-admin-settings.php:382
 msgid "Share Icegram"
-msgstr "Comparteix a Icegram"
+msgstr "Fes referència a Icegram"
 
 #: lite/includes/classes/class-es-admin-settings.php:391
 msgid "Delete plugin data on uninstall"
@@ -3127,14 +3090,12 @@ msgid "Maximum emails to send in an hour"
 msgstr "Nombre màxim de missatges a enviar en una hora"
 
 #: lite/includes/classes/class-es-admin-settings.php:477
-#, fuzzy
-#| msgid "Total emails your host can send in an hour."
 msgid ""
 "Total emails your host can send in an hour.<br>Total emails sent in current "
 "hour: <b>"
 msgstr ""
-"Nombre de missatges de correu electrònic que el vostre servidor pot enviar "
-"en una hora."
+"Nombre de missatges el servidor pot enviar en una hora.<br>Nombre de "
+"missatges enviats durant l'hora actual: <b>"
 
 #: lite/includes/classes/class-es-admin-settings.php:486
 msgid "Maximum emails to send at once"
@@ -3250,7 +3211,7 @@ msgstr ""
 
 #: lite/includes/classes/class-es-admin-settings.php:1095
 msgid "Now you can control all your notifications through workflows."
-msgstr ""
+msgstr "Ara podeu controlar les notificacions mitjançant fluxos."
 
 #. translators: 1. Anchor start tag 2. Anchor end tag
 #: lite/includes/classes/class-es-admin-settings.php:1098
@@ -3355,7 +3316,7 @@ msgstr ""
 
 #: lite/includes/classes/class-es-campaign-report.php:307
 msgid "Activity Info"
-msgstr ""
+msgstr "Activitat"
 
 #. translators: %s: Total items in the table
 #: lite/includes/classes/class-es-campaign-report.php:352
@@ -3721,9 +3682,8 @@ msgid "Change status"
 msgstr "Canvia l'estat"
 
 #: lite/includes/classes/class-es-contacts-table.php:1186
-#, fuzzy
 msgid "Search Contacts"
-msgstr "Cerca Contactes"
+msgstr "Cerca als contactes"
 
 #: lite/includes/classes/class-es-contacts-table.php:1197
 msgid "Advanced Filter"
@@ -4546,7 +4506,7 @@ msgstr "Alguna cosa ha anat malament. Proveu més tard."
 #, fuzzy
 #| msgid "Icegram WC"
 msgid "Icegram Express "
-msgstr "Icegram"
+msgstr "Formulari de subscripció"
 
 #: lite/includes/classes/class-es-old-widget.php:75
 msgid "Widget Title"
@@ -4609,7 +4569,7 @@ msgstr "Notificació de publicació nova"
 
 #: lite/includes/classes/class-es-post-notifications.php:293
 msgid " Edit Post Notification"
-msgstr "Edidta la notificació de publicació"
+msgstr "Edita la notificació de publicació"
 
 # modificat xtec
 #: lite/includes/classes/class-es-post-notifications.php:315
@@ -4769,13 +4729,11 @@ msgstr "No hi ha resultats"
 #: lite/includes/classes/class-es-reports-table.php:63
 #: lite/includes/classes/class-es-reports-table.php:65
 msgid "Send Queued Emails Now"
-msgstr ""
+msgstr "Envia els missatges pendents ara"
 
 #: lite/includes/classes/class-es-reports-table.php:66
-#, fuzzy
-#| msgid "No Templates found in Trash"
 msgid "No emails found in queue"
-msgstr "No s'ha trobat cap plantilla a la paperera"
+msgstr "No s'ha trobat cap missatge pendent de ser enviat"
 
 #. translators: 1. Pause icon HTML 2. Resume icon HTML
 #: lite/includes/classes/class-es-reports-table.php:89
@@ -4812,16 +4770,12 @@ msgid "End Date"
 msgstr "Data de finalització"
 
 #: lite/includes/classes/class-es-reports-table.php:333
-#, fuzzy
-#| msgid "Total Emails Sent"
 msgid "Total sent"
-msgstr "Total d'enviades"
+msgstr "Total enviats"
 
 #: lite/includes/classes/class-es-reports-table.php:334
-#, fuzzy
-#| msgid "Opened"
 msgid "Total Opened"
-msgstr "Oberts"
+msgstr "Total oberts"
 
 #: lite/includes/classes/class-es-reports-table.php:374
 #, fuzzy
@@ -4854,8 +4808,6 @@ msgid "Completed"
 msgstr "S'ha completat"
 
 #: lite/includes/classes/class-es-reports-table.php:659
-#, fuzzy
-#| msgid "All Statuses"
 msgid "All Dates"
 msgstr "Totes les dates"
 
@@ -4917,7 +4869,7 @@ msgstr ""
 #: lite/includes/feedback.php:119
 #, fuzzy
 msgid "on Facebook"
-msgstr "Facebook"
+msgstr "facebook"
 
 #: lite/includes/feedback.php:149
 msgid ""
@@ -5867,10 +5819,8 @@ msgid ""
 msgstr ""
 
 #: lite/includes/pro-features.php:1960
-#, fuzzy
-#| msgid "Confirmation email"
 msgid "Send confirmation email [MAX]"
-msgstr "Correu electrònic de confirmació"
+msgstr "Envia el missatge de confirmació [MAX]"
 
 #: lite/includes/pro-features.php:1976
 #: pro/classes/class-es-pro-custom-fields.php:212
@@ -6001,12 +5951,12 @@ msgstr "Menys de 10"
 #: lite/includes/workflows/abstracts/class-es-workflow-rule.php:250
 #, fuzzy
 msgid "is a multiple of"
-msgstr "Selecció múltiple"
+msgstr "Clic (múltiple)"
 
 #: lite/includes/workflows/abstracts/class-es-workflow-rule.php:251
 #, fuzzy
 msgid "is not a multiple of"
-msgstr "Selecció múltiple"
+msgstr "Per a múltiples valors."
 
 #: lite/includes/workflows/abstracts/class-es-workflow-rule.php:262
 msgid "matches all"
@@ -6130,7 +6080,7 @@ msgstr ""
 
 #: lite/includes/workflows/admin/class-es-workflow-admin-edit.php:331
 msgid " Edit Workflow"
-msgstr ""
+msgstr "Edita el flux"
 
 #: lite/includes/workflows/admin/class-es-workflow-admin-edit.php:368
 msgid "Add title"
@@ -6139,7 +6089,7 @@ msgstr "Afegeix un títol"
 #: lite/includes/workflows/admin/class-es-workflow-admin-edit.php:399
 #: lite/includes/workflows/admin/views/meta-box-trigger.php:93
 msgid "Trigger"
-msgstr ""
+msgstr "Disparador"
 
 #: lite/includes/workflows/admin/class-es-workflow-admin-edit.php:400
 #, fuzzy
@@ -6253,12 +6203,12 @@ msgstr "Minuts"
 #: lite/includes/workflows/admin/views/meta-box-timing.php:70
 #, fuzzy
 msgid "Days"
-msgstr "dies"
+msgstr "Dies"
 
 #: lite/includes/workflows/admin/views/meta-box-timing.php:71
 #, fuzzy
 msgid "Weeks"
-msgstr "setmanes"
+msgstr "Setmanes"
 
 #: lite/includes/workflows/admin/views/meta-box-trigger.php:22
 #: lite/includes/workflows/db/class-es-db-workflows.php:401
@@ -6488,10 +6438,7 @@ msgstr ""
 #: lite/includes/workflows/class-es-workflows-table.php:52
 #, fuzzy
 msgid "Workflow"
-msgstr ""
-"Podeu fer servir els següents controls per organitzar la pantalla del tauler "
-"i ajustar-la al vostre flux de treball. Això també és cert per a la majoria "
-"de pantalles d'administració."
+msgstr "flux de treball"
 
 #. translators: 1. Opening strong tag(<strong>) 2: Closing strong tag(</strong>)
 #: lite/includes/workflows/class-es-workflows-table.php:116
@@ -6627,23 +6574,17 @@ msgid "User updated"
 msgstr "S'ha actualitzat l'usuari"
 
 #: lite/includes/workflows/db/class-es-db-workflows.php:594
-#, fuzzy
-#| msgid "Send welcome email to new contact after signup."
 msgid "Send welcome email when someone subscribes"
-msgstr ""
-"Envia un correu electrònic de benvinguda als contactes nous quan es "
-"registrin."
+msgstr "Envia un missatge de benvinguda quan algú se subscriu"
 
 #: lite/includes/workflows/db/class-es-db-workflows.php:608
 #: pro/pro-class-email-subscribers.php:2718
-#, fuzzy
-#| msgid "Confirmation email"
 msgid "Send confirmation email"
-msgstr "Correu electrònic de confirmació"
+msgstr "Envia el missatge de confirmació"
 
 #: lite/includes/workflows/db/class-es-db-workflows.php:622
 msgid "Notify admin when someone subscribes"
-msgstr ""
+msgstr "Notifica l'administrador/a quan algú se subscriu"
 
 # modificat xtec
 #: lite/includes/workflows/db/class-es-db-workflows.php:636
@@ -6687,11 +6628,10 @@ msgid "Subscriber: Confirmation email"
 msgstr "Correu electrònic de confirmació"
 
 #: lite/includes/workflows/gallery-items/confirmation-email.php:15
-#, fuzzy
-#| msgid "Confirmation email sent successfully!"
 msgid "Send confirmation email when someone subscribes."
 msgstr ""
-"El missatge de correu electrònic de confirmació s'ha enviat correctament!"
+"Envia un missatge de correu electrònic de confirmació cada vegada que algú "
+"se subscriu."
 
 #: lite/includes/workflows/gallery-items/welcome-email.php:16
 #, fuzzy
@@ -6906,7 +6846,7 @@ msgstr "fa"
 #: pro/admin/class-es-pro-dashboard.php:179
 #, fuzzy
 msgid "list"
-msgstr "Llista"
+msgstr "llista"
 
 #: pro/admin/class-es-pro-dashboard.php:197
 msgid "in"
@@ -6991,7 +6931,7 @@ msgstr "Obté la puntuació de correu brossa"
 #, fuzzy
 #| msgid "Custom CSS"
 msgid "Custom Field"
-msgstr "Heu de proporcionar un nom per al camp personalitzat."
+msgstr "Camp personalitzat"
 
 #: pro/classes/class-es-pro-custom-fields-table.php:40
 #: pro/classes/class-es-pro-custom-fields-table.php:92
@@ -7170,7 +7110,7 @@ msgstr "Afegeix una llista nova"
 #: pro/classes/class-es-pro-embed-form.php:517
 #, fuzzy
 msgid "Remove"
-msgstr "Suprimeix"
+msgstr "Elimina"
 
 #: pro/classes/class-es-pro-newsletter-archive.php:71
 #, fuzzy
@@ -8007,7 +7947,7 @@ msgstr ""
 #, fuzzy
 #| msgid "Icegram WC"
 msgid "Icegram Express."
-msgstr "Icegram"
+msgstr "Formulari de subscripció"
 
 #: pro/templates/email/es-admin-subscription-summary.php:153
 #, fuzzy
@@ -8979,7 +8919,7 @@ msgstr ""
 #: starter/workflows/templates/woocommerce/email/cart-table.php:136
 #, fuzzy
 msgid "Total"
-msgstr "Pàgina $current de $total"
+msgstr "Total de correus electrònics enviats"
 
 #: starter/workflows/triggers/class-es-trigger-cf7-submitted.php:24
 msgid "Fires whenever someone fill the Contact Form 7 form."
@@ -9120,8 +9060,9 @@ msgid "Choose to display the amount as a formatted price or numerical value."
 msgstr ""
 
 #: starter/workflows/variables/abstracts/abstract-price.php:24
+#, fuzzy
 msgid "Decimal"
-msgstr ""
+msgstr "Gestió decimal quan és zero"
 
 #: starter/workflows/variables/abstracts/abstract-product-display.php:26
 #, fuzzy
@@ -9245,7 +9186,7 @@ msgstr ""
 #: starter/workflows/variables/wc-order-payment-method.php:22
 #, fuzzy
 msgid "ID"
-msgstr "Identificador"
+msgstr "ID"
 
 #: starter/workflows/variables/wc-order-payment-method.php:26
 msgid "Displays the payment method for the order."
@@ -9311,7 +9252,7 @@ msgstr ""
 #: lite/admin/dist/main.js:1 lite/admin/js/src/views/Loader.js:4
 #, fuzzy
 msgid "Loading"
-msgstr "Carregant els camps disponibles..."
+msgstr "Carregant..."
 
 #: lite/admin/dist/main.js:1 lite/admin/js/src/views/GalleryItem.js:42
 msgid "Use this"
@@ -9345,11 +9286,11 @@ msgstr "Previsualitza la plantilla"
 
 #: lite/admin/dist/main.js:1 lite/admin/js/src/views/GalleryItemFilter.js:7
 msgid "Click on the labels to filter out the templates"
-msgstr ""
+msgstr "Cliqueu les etiquetes per filtrar les plantilles"
 
 #: lite/admin/dist/main.js:1 lite/admin/js/src/views/GalleryItemFilter.js:9
 msgid "Newsletter"
-msgstr ""
+msgstr "Butlletí"
 
 #: lite/admin/dist/main.js:1 lite/admin/js/src/views/GalleryItemFilter.js:14
 #, fuzzy
@@ -9362,7 +9303,7 @@ msgstr ""
 
 #: lite/admin/dist/main.js:1 lite/admin/js/src/views/GalleryItemFilter.js:17
 msgid "Clear all filters"
-msgstr ""
+msgstr "Esborra tots els filtres"
 
 #: lite/admin/dist/main.js:1 lite/admin/js/src/views/GalleryItemPreview.js:48
 #, fuzzy
@@ -9396,7 +9337,7 @@ msgstr ""
 
 #: lite/admin/dist/main.js:1 lite/admin/js/src/views/GalleryItemsPage.js:143
 msgid "Create from scratch"
-msgstr ""
+msgstr "Crea a partir de zero"
 
 #: lite/admin/js/gb-subscription-form-block.js:31
 #, fuzzy
